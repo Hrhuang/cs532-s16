@@ -66,19 +66,24 @@
 Write a Python program that extracts 1000 unique links from
 Twitter.  You might want to take a look at:
 
+\noindent
 http://thomassileo.com/blog/2013/01/25/using-twitter-rest-api-v1-dot-1-with-python/
 
+\noindent
 But there are many other similar resources available on the web.  Note
 that only Twitter API 1.1 is currently available; version 1 code will
 no longer work.
 
+\noindent
 Also note that you need to verify that the final target URI (i.e., the
 one that responds with a 200) is unique.  You could have many different
 shortened URIs for www.cnn.com (t.co, bit.ly, goo.gl, etc.).
 
+\noindent
 You might want to use the search feature to find URIs, or you can
 pull them from the feed of someone famous (e.g., Tim O'Reilly).
 
+\noindent
 Hold on to this collection -- we'll use it later throughout the semester.
 
 \subsection*{Answer}
@@ -124,19 +129,23 @@ The final result of 1000 unique URLs are saved in a file called requiredurls.txt
 Download the TimeMaps for each of the target URIs.  We'll use the ODU 
 Memento Aggregator, so for example:
 
+\noindent
 URI-R = http://www.cs.odu.edu/
 
+\noindent
 URI-T = http://mementoproxy.cs.odu.edu/aggr/timemap/link/1/http://www.cs.odu.edu/
 
+\noindent
 Create a histogram* of URIs vs. number of Mementos (as computed from
 the TimeMaps).  For example, 100 URIs with 0 Mementos, 300 URIs
 with 1 Memento, 400 URIs with 2 Mementos, etc.
 
+\noindent
 * = https://en.wikipedia.org/wiki/Histogram
      
 \subsection*{Answer}
 
-For this problem, my approach is this, for every link in the 1000 links, attach the url http://mementoproxy.cs.odu.edu/aggr/timemap/link/1/ in front of it. Then, use curl or urllib2.urlopen or whatever to open the newly generated links. (Be careful, if you are using curl, make sure to put the entire url inside ``''.)In the response, whenever the strings `rel=``memento"', `rel=``first memento"', `rel=``last memento"', `rel=``memento first"', `rel=``memento last"' appear, it means there is a memento. Therefore, I just have to count them and add them up. Also, the response of some sites may contain the `rel=``timemap"', it means this site have more mementos in another link, make sure to open them up and count the mementos in there as well.
+For this problem, my approach is this, for every link in the 1000 links, attach the url http://mementoproxy.cs.odu.edu/aggr/timemap/link/1/ in front of it. Then, use curl or urllib2.urlopen or whatever to open the newly generated links. (Be careful, if you are using curl, make sure to put the entire url inside ``''.)In the response, whenever the strings rel=``memento", rel=``first memento", rel=``last memento", rel=``memento first", rel=``memento last" appear, it means there is a memento. Therefore, I just have to count them and add them up. Also, the response of some sites may contain the `rel=``timemap"', it means this site have more mementos in another link, make sure to open them up and count the mementos in there as well.
 
 \lstinputlisting[language=Python]{countMomento.py}
 
@@ -164,15 +173,19 @@ Below is the R code and graph of the histogram.
 \section*{Problem 3}
 Estimate the age of each of the 1000 URIs using the "Carbon Date" tool:
 
+\noindent
 http://ws-dl.blogspot.com/2014/11/2014-11-14-carbon-dating-web-version-20.html
 
+\noindent
 Note: you'll should download the library and run it locally; don't
 try to use the web service.
 
+\noindent
 For URIs that have > 0 Mementos and an estimated creation date,
 create a graph with age (in days) on one axis and number of mementos
 on the other.  
 
+\noindent
 Not all URIs will have Mementos, and not all URIs will have an estimated
 creation date.  State how many fall into either categories. 
 
