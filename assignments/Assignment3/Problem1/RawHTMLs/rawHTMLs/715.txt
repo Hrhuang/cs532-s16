@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function c(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),c=a.length,u=0;c>u;u++)a[u].apply(i,r);return i}function u(t,e){p[t]=f(t).concat(e)}function f(t){return p[t]||[]}function s(){return r(c)}var p={};return{on:u,emit:c,create:s,listeners:f,context:e,_events:p}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!v++){var t=l.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(p,function(e,n){t[e]||(t[e]=n)});var n="https"===s.split(":")[0]||t.sslForHttp;l.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=l.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),c=t(1),u=window,f=u.document;t(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),l=e.exports={offset:i(),origin:s,features:{},xhrWrappable:d};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],12:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],13:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}]},{},["G9z0Bl"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, minimum-scale=1.0">
+
+  <!-- CSS -->
+   <link type="text/css" rel="stylesheet" href="http://lawnewz.com/wp-content/themes/m2015/style.css?v=o2p9z6" />
+   <link type="text/css" rel="stylesheet" href="/wp-content/themes/m2015/fancybox.1.1.css" />
+  <!-- end CSS -->
+
+  <!-- open graph -->
+                <meta property="og:title" content="NFL Bans Prospects With Domestic Violence, Sex Assault Convictions From Scouting Showcase" />
+      <meta property="og:image" content="http://lawnewz.com/wp-content/uploads/2016/02/shutterstock_171914741-e1455037922749.jpg" />
+      <!-- end open graph -->
+
+  <!-- wp stuff-->
+    
+    <script>
+      var bloginfo = {
+        'url': 'http://lawnewz.com',
+        'template_directory': 'http://lawnewz.com/wp-content/themes/m2015'
+      };
+    </script>
+    
+    
+<!-- All in One SEO Pack 2.2.7.6.2 by Michael Torbert of Semper Fi Web Design[,] -->
+<meta name="description" itemprop="description" content="he NFL informed teams of a policy change in a memo late last month that will no longer allow prospects with convictions for domestic violence, sexual assault or" />
+
+<meta name="keywords" itemprop="keywords" content="nfl,domestic violence,sex assault" />
+
+<link rel="canonical" href="http://lawnewz.com/sports/nfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase/" />
+<!-- /all in one seo pack -->
+<link rel="alternate" type="application/rss+xml" title="LawNewz &raquo; NFL Bans Prospects With Domestic Violence, Sex Assault Convictions From Scouting Showcase Comments Feed" href="http://lawnewz.com/sports/nfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase/feed/" />
+<link rel='stylesheet' id='am-ngg-car-skin-css'  href='http://lawnewz.com/wp-content/plugins/am-ngg-front-end/media/skin/skin.css?ver=4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='am-ngg-css-css'  href='http://lawnewz.com/wp-content/plugins/am-ngg-front-end/media/style.css?ver=4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://lawnewz.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.72' type='text/css' media='all' />
+<style id='wp-polls-inline-css' type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://lawnewz.com/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<link rel='stylesheet' id='NextGEN-css'  href='http://lawnewz.com/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://lawnewz.com/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.0' type='text/css' media='screen' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
+<script type='text/javascript' src='http://lawnewz.com/wp-content/plugins/am-ngg-front-end/js/jquery.jcarousel.min.js?ver=4.4'></script>
+<script type='text/javascript' src='http://lawnewz.com/wp-content/plugins/wp-buzz-quizz/modules/js/front.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {"msgLoading":"L O A D I N G","msgClose":"Click to Close","imageCount":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://lawnewz.com/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.0'></script>
+<link rel='https://api.w.org/' href='http://lawnewz.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://lawnewz.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://lawnewz.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Monster and Other Energy Drinks Can Ruin Your Health: Lawsuit' href='http://lawnewz.com/high-profile/monster-and-other-energy-drinks-can-ruin-your-health-lawsuit/' />
+<link rel='next' title='VIDEO: Man Allegedly Freaks Out and Attacks Store Clerk with Sword' href='http://lawnewz.com/crazy/video-man-allegedly-freaks-out-and-attacks-store-clerk-with-sword/' />
+<meta name="generator" content="WordPress 2016.07" />
+<link rel="alternate" type="application/json+oembed" href="http://lawnewz.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flawnewz.com%2Fsports%2Fnfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://lawnewz.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flawnewz.com%2Fsports%2Fnfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase%2F&#038;format=xml" />
+
+<!-- am twitter cards -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@law_newz" />
+<meta name="twitter:title" content="NFL Bans Prospects With Domestic Violence, Sex Assault Convictions From Scouting Showcase" />
+<meta name="twitter:description" content="he NFL informed teams of a policy change in a memo late last month that will no longer allow prospects with convictions for domestic violence, sexual assault or weapons offenses to attend the NFL Scouting Combine. " />
+<meta name="twitter:image" content="http://lawnewz.com/wp-content/uploads/2016/02/shutterstock_171914741-e1455037922749.jpg" />
+<!-- end am twitter cards -->
+
+<!-- la petite url version 2.1 -->
+<link rel='shorturl' href='http://lawnewz.com/euhtj' />
+<meta property="fb:app_id" content="" /><link id='MediaRSS' rel='alternate' type='application/rss+xml' title='NextGEN Gallery RSS Feed' href='http://lawnewz.com/wp-content/plugins/nextgen-gallery/xml/media-rss.php' />
+
+<!-- NextGeEN Gallery CoolIris/PicLens support -->
+<script type="text/javascript" src="http://lite.piclens.com/current/piclens_optimized.js"></script>
+<!-- /NextGEN Gallery CoolIris/PicLens support -->
+<meta name='NextGEN' content='1.5.5' />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+  <!-- end wp stuff-->
+
+
+  <!-- JavaScript -->
+    <script src="http://lawnewz.com/wp-content/themes/m2015/js/am.min.js?v=o0uo2y"></script>
+
+   
+   
+   
+
+   <script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+<script type='text/javascript'>
+var DFPGPTPassback = (function() {
+  var slots = {};
+  return {
+    slots: slots,
+    init: function() {
+      var proxied = googletag.defineSlot;
+      googletag.defineSlot = function() {
+        var slot = proxied.apply(this, arguments);
+        slots[slot.getSlotElementId()] = slot;
+        return slot;
+      };
+    },
+    passback: function(iframeName, passback) {
+      var container = document.getElementById(iframeName + '__container__');
+        var iframeParent = container.parentNode;
+        var slotId = iframeParent.id;
+        if( ! slots.hasOwnProperty(slotId) ) {
+          slots[slotId] = {};
+        }
+        var slot = slots[slotId];
+        if( ! slot.hasOwnProperty('passbacks') ) {
+          slot.passbacks = [];
+        }
+        slot.passbacks.push(passback);
+        slot.setTargeting('passback', slot.passbacks);
+        googletag.pubads().refresh([slot]);
+    }
+  };
+})();
+</script>
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+
+    DFPGPTPassback.init();
+
+    var mappingLB = googletag.sizeMapping()
+        .addSize([1046, 0], [[728, 90], [970, 90], [970, 250], [970, 400]])
+        .addSize([768, 0], [[728, 90]])
+        .addSize([0, 0], [[320, 50], [300, 50], [320, 100], [300, 100]])
+        .build();
+    var mappingMR = googletag.sizeMapping()
+        .addSize([1046, 0], [[300, 250], [300, 600], [300, 1050]])
+        .addSize([768, 0], [[300, 250], [300, 600]])
+        .addSize([0, 0], [300, 250])
+        .build();
+    // mobile only, no ad on large devices
+    var mappingMRMobile = googletag.sizeMapping()
+        .addSize([768, 0], [])
+        .addSize([0, 0], [300, 250])
+        .build();
+    // mobile only, no ad on large devices
+    var mappingAdhesive = googletag.sizeMapping()
+        .addSize([768, 0], [])
+        .addSize([0, 0], [320, 50])
+        .build();
+
+    googletag.defineSlot(
+      '/33173478/LawNewz_ATF_LB1_300x50_320x50_728x90_970x90_970x250'
+      ,[[320, 50], [300, 50], [728, 90], [970, 90], [970, 250]]
+      ,'div-gpt-ad-LawNewz_ATF_LB1_300x50_320x50_728x90_970x90_970x250')
+      .defineSizeMapping(mappingLB)
+      .addService(googletag.pubads())
+    ;
+
+    googletag.defineSlot('/33173478/LawNewz_ATF_MR1_300x250_300x600_300x1050', [[300, 250], [300, 600], [300, 1050]], 'div-gpt-ad-LawNewz_ATF_MR1_300x250_300x600_300x1050').defineSizeMapping(mappingMR).addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_ATF_MR2_300x250_300x600_300x1050', [[300, 250], [300, 600], [300, 1050]], 'div-gpt-ad-LawNewz_ATF_MR2_300x250_300x600_300x1050').defineSizeMapping(mappingMR).addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_BTF_LB1_300x50_320x50_728x90_970x90_970x250', [[320, 50], [300, 50], [728, 90], [970, 90], [970, 250]], 'div-gpt-ad-LawNewz_BTF_LB1_300x50_320x50_728x90_970x90_970x250').defineSizeMapping(mappingLB).addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_BTF_MR1_300x250_300x600_300x1050', [[300, 250], [300, 600], [300, 1050]], 'div-gpt-ad-LawNewz_BTF_MR1_300x250_300x600_300x1050').defineSizeMapping(mappingMR).addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_BTF_MR2_300x250_300x600_300x1050', [[300, 250], [300, 600], [300, 1050]], 'div-gpt-ad-LawNewz_BTF_MR2_300x250_300x600_300x1050').defineSizeMapping(mappingMR).addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_ATF_MR_300x250_MobileOnly', [300, 250], 'mobile-atf').defineSizeMapping(mappingMRMobile).addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_BTF_MR3_300x250_MobileOnly', [300, 250], 'mobile-mid').defineSizeMapping(mappingMRMobile).addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_BTF_MR4_300x250_MobileOnly', [300, 1050], 'mobile-mid2').defineSizeMapping(mappingMRMobile).addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_BTF_MR5_300x250_MobileOnly', [300, 250], 'mobile-mid3').defineSizeMapping(mappingMRMobile).addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_Adhesive_320x50', [320, 50], 'div-gpt-ad-LawNewz_Adhesive_320x50').defineSizeMapping(mappingAdhesive).addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_Skin_1x3', [1, 3], 'div-gpt-ad-LawNewz_Skin_1x3').addService(googletag.pubads());
+
+    googletag.defineSlot('/33173478/LawNewz_GumGum_1x6', [1, 6], 'div-gpt-ad-LawNewz_GumGum_1x6').addService(googletag.pubads());
+    googletag.defineSlot('/33173478/LawNewz_GumGum_1x7', [1, 7], 'div-gpt-ad-LawNewz_GumGum_1x7').addService(googletag.pubads());
+
+    googletag.pubads().setTargeting('post_id', '3964');
+googletag.pubads().setTargeting('post_tags', ['nfl', 'domestic-violence', 'sex-assault']);
+googletag.pubads().setTargeting('post_cats', ['sports']);
+googletag.pubads().setTargeting('is_home', 'no');
+googletag.pubads().setTargeting('is_testing', 'no');
+
+    googletag.pubads().setCentering(true);
+    //googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+  <!-- end JavaScript -->
+
+  <!-- title generation-->
+    <title>NFL Bans Prospects With Domestic Violence, Sex Assault Convictions From Scouting Showcase | LawNewz</title>
+  <!-- end title generation-->
+
+  <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic' rel='stylesheet' type='text/css'>
+  <!-- end fonts -->
+
+  <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- end fontAwesome -->
+    <meta name="date" content="2016-02-09T13:18:20+00:00"/>
+  	<!-- Taboola -->
+		<script type="text/javascript">
+			window._taboola = window._taboola || [];
+			_taboola.push({article:'auto'});			!function (e, f, u) {
+				e.async = 1;
+				e.src = u;
+				f.parentNode.insertBefore(e, f);
+			}(document.createElement('script'),
+			document.getElementsByTagName('script')[0],
+			'http://cdn.taboola.com/libtrc/abrams-lawnewz/loader.js');
+		</script>
+	<!-- End Taboola -->
+	<script>console.log("head-taboola");</script><!-- comScore Tag -->
+<script type="text/javascript">
+	var _comscore = _comscore || [];
+	_comscore.push({c1: '2', c2: '16059198'});
+	(function() {
+		var s = document.createElement('script'), el = document.getElementsByTagName('script')[0]; s.async = true;
+		s.src = (document.location.protocol == 'https:' ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+		el.parentNode.insertBefore(s, el);
+	})();
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=16059198&amp;cv=2.0&amp;cj=1" style="visibility:hidden;" alt="comScore" /></noscript>
+<!-- End comScore Tag -->
+<script>console.log("head-comscore");</script>  <!-- Start Chartbeat -->
+  		<script type="text/javascript">
+			var _sf_startpt = (new Date()).getTime();
+		</script>
+	<!-- start chartbeat -->
+		<script type="text/javascript">
+			var _sf_async_config={};
+			/** CONFIGURATION START **/
+			_sf_async_config.uid = 3557;
+			_sf_async_config.domain = "lawnewz.com";
+							_sf_async_config.authors = "Chris White";
+				_sf_async_config.sections = "sports";
+						/** CONFIGURATION END **/
+			(function(){
+				function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement("script");
+					e.setAttribute("language", "javascript");
+					e.setAttribute("type", "text/javascript");
+					e.setAttribute("src",
+						(("https:" == document.location.protocol) ?
+						"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" :
+						"http://static.chartbeat.com/") +
+						"js/chartbeat.js");
+					document.body.appendChild(e);
+				}
+				var oldonload = window.onload;
+				window.onload = (typeof window.onload != "function") ?
+				loadChartbeat : function() { oldonload(); loadChartbeat(); };
+			})();
+		</script>
+	<!-- end chartbeat -->
+  <!-- end Chartbeat -->
+<script>console.log("head-chartbeat");</script><!-- Perfect Market -->
+      <script type="text/javascript" src="http://widget.sandbox.perfectmarket.com/abramsmedia/load.js"></script>
+  <!-- End Perfect Market -->
+  
+<script>console.log("head-perfectmarket");</script><div id="fb-root"></div>
+<script>
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script><script>console.log("head-facebook");</script></head>
+  <body id="post-3964" class="single"><header class="full teads-helper">
+
+	<div id="header-content">
+				<a id="logo" href="http://lawnewz.com"><img src="http://lawnewz.com/wp-content/themes/m2015/images/logo.png" alt="LawNewz" /></a>
+		<ul id="nav-cats">
+			<li id="nav-live"><a href="http://lawnewz.com/category/live/">Live</a></li>
+			<li id="nav-high-profile"> <a href="http://lawnewz.com/category/high-profile/">High Profile</a></li>
+			<li id="nav-celebrity"> <a href="http://lawnewz.com/category/celebrity/">Celebrity</a></li>
+			<li id="nav-crazy"> <a href="http://lawnewz.com/category/crazy/">Crazy</a></li>
+			<li id="nav-important"> <a href="http://lawnewz.com/category/important/">Important</a></li>
+			<li id="nav-sports"> <a href="http://lawnewz.com/category/sports/">Sports</a></li>
+			<li id="nav-sports"> <a href="http://lawnewz.com/email-newsletter/">Newsletter</a></li>
+			<!-- <li id="nav-shop"> <a href="https://shop.lawnewz.com/?utm_source=lawnewz.com&amp;utm_medium=topnav">Shop</a></li> -->
+		</ul>
+
+		<div id="header-tools">
+
+			<div id="search">
+				<form action="http://lawnewz.com/" method="get">
+					<input type="submit" value="Search" class="search-submit" />
+					<input type="text" value="" name="s" class="search-field" />
+				</form>
+				<button id="search-toggle"><span class="social-link"><i class="fa fa-search"></i> Search</span></button>
+			</div>
+
+			<ul class="social">
+				<li class="soc-twitter soc-item"><a href="https://twitter.com/law_newz" title="Follow @law_newz">Follow @law_newz</a></li>
+        <li class="soc-facebook soc-item"><a href="https://facebook.com/lawnewz" title="Like us on Facebook">Like us on Facebook</a></li>
+			</ul> 
+			<button class="menu-toggle social-item"><span class="social-link"><i class="fa fa-bars"></i> Menu</span></button>
+
+		</div>
+
+
+	</div> <!-- end header-inner -->
+</header>
+
+<section id="leaderboard">
+
+
+<!-- /33173478/LawNewz_ATF_LB1_300x50_320x50_728x90_970x90_970x250 -->
+<div id='div-gpt-ad-LawNewz_ATF_LB1_300x50_320x50_728x90_970x90_970x250'>
+	<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-LawNewz_ATF_LB1_300x50_320x50_728x90_970x90_970x250'); });
+	</script>
+</div>
+
+</section>
+
+    <ul id="featured-posts">
+                          <li class="featured-post-1" >
+          <a href="http://lawnewz.com/important/u-s-army-reservist-sues-the-muslim-free-gun-range-that-turned-him-away/" title="U.S. Army Reservist Sues the 'Muslim-Free' Gun Range That Turned Him Away">
+            <span class="featured-helper">
+              <span class="featured-post-thumb" style="background-image: url(http://lawnewz.com/wp-content/uploads/2016/02/Gun-range-via-screengrab-e1455736984540.jpg);"></span>
+              <span class="featured-post-title">U.S. Army Reservist Sues the 'Muslim-Free' Gun Range That Turned Him Away</span>
+            </span>
+          </a>
+        </li>
+                    <li class="featured-post-2" >
+          <a href="http://lawnewz.com/crazy/teenage-dr-love-arrested-for-posing-as-a-doctor-ran-his-own-clinic/" title="Teenage 'Dr. Love' Arrested for Posing as a Doctor, Ran His Own Clinic">
+            <span class="featured-helper">
+              <span class="featured-post-thumb" style="background-image: url(http://lawnewz.com/wp-content/uploads/2016/02/doctor-love-via-ABC-screengrab-e1455717235948.jpg);"></span>
+              <span class="featured-post-title">Teenage 'Dr. Love' Arrested for Posing as a Doctor, Ran His Own Clinic</span>
+            </span>
+          </a>
+        </li>
+                    <li class="featured-post-3" >
+          <a href="http://lawnewz.com/crazy/lawyer-attacks-alleged-sex-assault-victims-story-you-weigh-too-much-for-that-to-be-true/" title="Lawyer Says Alleged Sex Assault Victim is Too Fat For Story to Be True">
+            <span class="featured-helper">
+              <span class="featured-post-thumb" style="background-image: url(http://lawnewz.com/wp-content/uploads/2016/02/Screen-Shot-2016-02-17-at-11.45.09-AM-e1455731187429.png);"></span>
+              <span class="featured-post-title">Lawyer Says Alleged Sex Assault Victim is Too Fat For Story to Be True</span>
+            </span>
+          </a>
+        </li>
+                    <li class="featured-post-4" >
+          <a href="http://lawnewz.com/video/video-woman-broadcasts-herself-drunk-driving-on-periscope-faces-no-jail-time/" title="Video: Woman Broadcasts Herself Drunk Driving on Periscope, Faces No Jail Time">
+            <span class="featured-helper">
+              <span class="featured-post-thumb" style="background-image: url(http://lawnewz.com/wp-content/uploads/2016/02/Screen-Shot-2016-02-16-at-3.59.26-PM.png);"></span>
+              <span class="featured-post-title">Video: Woman Broadcasts Herself Drunk Driving on Periscope, Faces No Jail Time</span>
+            </span>
+          </a>
+        </li>
+                    <li class="featured-post-5 featured-post-last" >
+          <a href="http://lawnewz.com/high-profile/we-investigated-donald-trump-is-named-in-at-least-169-federal-lawsuits/" title="We Investigated, Donald Trump is Named in at Least 169 Federal Lawsuits">
+            <span class="featured-helper">
+              <span class="featured-post-thumb" style="background-image: url(http://lawnewz.com/wp-content/uploads/2016/02/shutterstock_322465685-e1455637069164.jpg);"></span>
+              <span class="featured-post-title">We Investigated, Donald Trump is Named in at Least 169 Federal Lawsuits</span>
+            </span>
+          </a>
+        </li>
+          </ul>
+
+<div id= "wrap">
+  <div id="mobile-atf">
+    <script type="text/javascript">
+      googletag.cmd.push(function() { googletag.display('mobile-atf'); });
+    </script>
+  </div>
+
+    <main>
+    <article>
+              <div id="post-heading">
+          <h3>NFL Bans Prospects With Domestic Violence, Sex Assault Convictions From Scouting Showcase</h3>
+          <div class="dateline">by <a href="http://lawnewz.com/author/chris-white/" title="Posts by Chris White" rel="author">Chris White</a> | 1:18 pm, February 9th, 2016</div>
+          <div class="comments-label-container">
+                                    <span class="comments-inline">
+              <a href="http://lawnewz.com/sports/nfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase/#disqus_thread"></a>
+            </span>
+          </div>
+
+        <!-- PerfectMarket -->
+        <div id="pm-byline-unit"></div>
+        <!-- End PerfectMarket -->
+
+        </div> <!-- end post-heading -->
+        
+
+        <div id="post-wrap">
+
+          <div id="post-social">
+              <div id="share-cont">
+    <div id="share">
+      <div class="share-twitter share-item">
+        <a href="http://twitter.com/share" class="twitter-share-button">&nbsp;</a>
+        <script type="text/javascript"><!--
+          var related = ['GossipCop', 'Styleite', 'Geekosystem', 'SportsGrid', 'TheMarySue', 'TheJaneDough', 'TheBraiser'];
+          $('a.twitter-share-button').attr({
+            'data-count':   'vertical',
+            'data-via':     'law_newz',
+            'data-url':     'http://lawnewz.com/sports/nfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase/',
+            'data-text':    'NFL Bans Prospects With Domestic Violence, Sex Assault Convictions From Scouting Showcase',
+            'data-related': array_shuffle(related).join(',')
+          });
+        --></script>
+        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+      </div>
+      <div class="share-facebook share-item">
+        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Flawnewz.com%2Fsports%2Fnfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase%2F&amp;layout=box_count&amp;show-faces=false&amp;action=like&amp;width=51&amp;font=arial&amp;colorscheme=light" scrolling="no" frameborder="0" id="facebook-like-inner"></iframe>
+      </div>
+      <div class="share-plusone share-item">
+        <div class="g-plusone"></div>
+        <script type="text/javascript">
+          $('div.g-plusone').attr({
+            'data-size':  'tall',
+            'data-count': 'false'
+          });
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+      </div>
+      <div class="share-reddit share-item">
+        <script type="text/javascript">
+          reddit_url = "http://lawnewz.com/sports/nfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase/";
+          reddit_title = "NFL Bans Prospects With Domestic Violence, Sex Assault Convictions From Scouting Showcase";
+          reddit_newwindow='1';
+        </script>
+        <script type="text/javascript" src="http://www.reddit.com/static/button/button3.js"></script>
+      </div>
+      <!--  
+      <div class="share-pinterest share-item">
+        <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Flawnewz.com%2Fsports%2Fnfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase%2F&amp;media=http://lawnewz.com/wp-content/uploads/2016/02/shutterstock_171914741-e1455037922749.jpg&amp;description=NFL%20Bans%20Prospects%20With%20Domestic%20Violence%2C%20Sex%20Assault%20Convictions%20From%20Scouting%20Showcase" class="pin-it-button" count-layout="vertical"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+      </div>
+      -->
+  </div>
+</div>          </div>
+
+          <div id="post-body">
+            <p><img width="190" height="234" class="alignnone size-large wp-image-3965" alt="NFL logo" src="http://lawnewz.com/wp-content/uploads/2016/02/shutterstock_171914741-190x234.jpg" />The NFL informed teams of a policy change in a memo late last month that will no longer allow prospects with convictions for domestic violence, sexual assault or weapons offenses to attend the NFL Scouting Combine – the invitation-only annual showcase event where college prospects hope to impress NFL scouts prior to that year’s upcoming NFL Draft.</p>
+<p><em>USA Today </em>obtained a copy of the memo, written by NFL executive VP of football operations <strong>Troy Vincent</strong>, and reported, “Vincent wrote that invited prospects would be barred from ‘any league-related event’ if a background check turns up a felony or misdemeanor conviction. Players that refuse to submit to a background check will also be uninvited.” Those players would also not be invited to the Draft.</p>
+<p>The report notes that the changes are only expected to affect a handful of the more than 300 prospects invited to the Combine each year. Furthermore, any prospects affected by the rule will still have other avenues to impress scouts as they are not restricted from attending private workouts, pro days or regional combines.</p>
+<p>According to the report, former Michigan linebacker Frank Clark, who was selected by the Seattle Seahawks second round of the 2015 Draft, would have been impacted by this rule change had it been implemented last year. Clark pleaded guilty to a lesser charge of persistent disorderly conduct stemming from incident where witnesses said he roughed up his girlfriend in a hotel room.</p>
+<p>Under this interpretation of the NFL policy, it appears that the NFL is focused more the underlying incident rather than on the ultimate criminal disposition of the matter.   In other words, regardless of what crime a prospect ultimately pleaded guilty to, he still may be barred from NFL events if the underlying incident involved domestic violence, sexual assault or a weapons offense.   However, as was the case with last year’s first-round pick Jameis Winston, if no charges are ultimately brought against a prospect, or they are dropped, they will not be banned from NFL events.</p>
+<p>Over the past few years the NFL has faced a lot of backlash as a result of its perceived weakness on players with a history of domestic violence or other character issues.   According to the memo, this policy is another part of the NFL’s ongoing effort to address those criticisms.</p>
+<p>[h/t <em><a href="http://www.usatoday.com/story/sports/nfl/2016/02/08/nfl-scouting-combine-bans-players-domestic-violence-sexual-assault-weapons-convictions/80040774/">USA Today</a>; image via shutterstock</em>]</p>
+          </div> <!-- end post-body -->
+          
+        </div>
+
+
+          <div id="social-foot">
+            <h3>Follow LawNewz</h3>
+            <div class="social">
+              <ul>
+                <li class="soc-twitter soc-item"><a href="https://twitter.com/law_newz" title="Follow @law_newz">Follow @law_newz</a></li>
+                <li class="soc-facebook soc-item"><a href="https://facebook.com/lawnewz" title="Like us on Facebook">Like us on Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+          
+
+
+        
+        <div class="related-stories">filed under</div>
+        
+        <div class="tag-links"><a href="http://lawnewz.com/tag/nfl/" rel="tag">NFL</a>, <a href="http://lawnewz.com/tag/domestic-violence/" rel="tag">domestic violence</a>, <a href="http://lawnewz.com/tag/sex-assault/" rel="tag">sex assault</a></div>
+
+
+        <div id="partners">
+          <!-- Taboola -->
+<div id="taboola-below-article-thumbnails-2nd"></div>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({
+    mode: 'thumbnails-a',
+    container: 'taboola-below-article-thumbnails-2nd',
+    placement: 'Below Article Thumbnails 2nd',
+    target_type: 'mix'
+  });
+</script>
+
+<div id="taboola-below-article-text-links"></div>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({
+    mode: 'hybrid-text-links-a',
+    container: 'taboola-below-article-text-links',
+    placement: 'Below Article Text Links',
+    target_type: 'mix'
+  });
+</script>
+<!-- End Taboola --><script>console.log("single-taboola");</script><!-- Sharethrough-->
+  <div data-str-native-key="cda9e7a4" style="display: none;"></div>
+  <script type="text/javascript" src="//native.sharethrough.com/assets/tag.js"></script>
+<!----><script>console.log("single-sharethrough");</script>        </div>
+
+        <div id="comments">
+          
+<div id="disqus_thread">
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://lawnewz.com/sports/nfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase/';
+    var disqus_identifier = '3964 http://lawnewz.com/?p=3964';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'lawnewz';
+    var disqus_title = "NFL Bans Prospects With Domestic Violence, Sex Assault Convictions From Scouting Showcase";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/lawnewz.com\/sports\/nfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+        </div>
+        
+        <span class="comments-inline">
+          <a href="http://lawnewz.com/sports/nfl-bans-prospects-with-domestic-violence-sex-assault-convictions-from-scouting-showcase/#disqus_thread"></a>
+        </span>
+
+                  </article>
+
+
+  </main>
+    <aside id="sidebar">
+
+    <div id="unit-sidebar">
+      <div id='div-gpt-ad-LawNewz_ATF_MR1_300x250_300x600_300x1050'>
+        <script type='text/javascript'>
+          googletag.cmd.push(function() { googletag.display('div-gpt-ad-LawNewz_ATF_MR1_300x250_300x600_300x1050'); });
+        </script>
+      </div>
+    </div>
+    
+    <!-- Begin MailChimp Signup Form -->
+    <div id="newsletter" class="promo">
+    <h3 class="heading">Sign up for the LawNewz newsletter</h3>
+    <form action="//lawnewz.us9.list-manage.com/subscribe/post?u=80d42b1145bf804fa20df628b&amp;id=2e0fd63492" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+        <input style="position: absolute; left: -5000px;" type="text" name="b_80d42b1145bf804fa20df628b_2e0fd63492" tabindex="-1" value="">
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+    </form>
+    </div>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <!--End mc_embed_signup-->
+
+
+    	<!-- Taboola -->
+	<div id="taboola-right-rail-thumbnails"></div>
+	<script type="text/javascript">
+		window._taboola = window._taboola || [];
+		_taboola.push({
+			mode: 'organic-thumbnails-rr',
+			container: 'taboola-right-rail-thumbnails',
+			placement: 'Right Rail Thumbnails',
+			target_type: 'mix'
+		});
+	</script>
+
+	
+		<div id="taboola-right-rail-thumbnails-2nd"></div>
+		<script type="text/javascript">
+		  window._taboola = window._taboola || [];
+		  _taboola.push({
+		    mode: 'thumbnails-rr',
+		    container: 'taboola-right-rail-thumbnails-2nd',
+		    placement: 'Right Rail Thumbnails 2nd',
+		    target_type: 'mix'
+		  });
+		</script>
+
+	
+
+	<!-- End Taboola -->
+<script>console.log("sidebar-taboola");</script>	<!-- ZERGNET -->
+		<div id="zergnet-widget-37467-title" class="heading"><span>Around the Web</span></div>
+		<div id="zergnet-widget-37467"></div>
+		<script language="javascript" type="text/javascript">
+				(function() {
+				var zergnet = document.createElement('script');
+				zergnet.type = 'text/javascript'; zergnet.async = true;
+				zergnet.src = 'http://www.zergnet.com/zerg.js?id=37467';
+				var znscr = document.getElementsByTagName('script')[0];
+				znscr.parentNode.insertBefore(zergnet, znscr);
+				})();
+		</script>
+	<!-- END ZERGNET -->
+<script>console.log("sidebar-zergnet");</script>    
+    <div id='div-gpt-ad-LawNewz_BTF_MR1_300x250_300x600_300x1050'>
+      <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-LawNewz_BTF_MR1_300x250_300x600_300x1050'); });
+      </script>
+    </div>
+
+
+    <div class="heading">What's Popular</div>
+<ol id="popular-posts" class="sidebar-posts">
+                        <li>
+                        <a href="http://lawnewz.com/high-profile/death-investigator-scalias-death-investigation-very-troubling-to-me/">
+                                <div class="thumbnail" style="background-image:url(http://lawnewz.com/wp-content/uploads/2016/02/scalia-death-100x100.jpg);"></div>
+                                <h4 class="sidebar-title">Death Investigator: Scalia&#8217;s Death Probe &#8216;Very Troubling to Me&#8217;</h4>
+                        </a>
+                </li>
+                        <li>
+                        <a href="http://lawnewz.com/uncategorized/more-trouble-for-hillary-clinton-classified-e-mail-total-reaches-1666/">
+                                <div class="thumbnail" style="background-image:url(http://lawnewz.com/wp-content/uploads/2016/02/shutterstock_329730683-100x100.jpg);"></div>
+                                <h4 class="sidebar-title">More Trouble For Hillary Clinton, Classified E-Mail Total Reaches 1,666</h4>
+                        </a>
+                </li>
+                        <li>
+                        <a href="http://lawnewz.com/high-profile/we-investigated-donald-trump-is-named-in-at-least-169-federal-lawsuits/">
+                                <div class="thumbnail" style="background-image:url(http://lawnewz.com/wp-content/uploads/2016/02/shutterstock_322465685-100x100.jpg);"></div>
+                                <h4 class="sidebar-title">We Investigated, Donald Trump is Named in at Least 169 Federal Lawsuits</h4>
+                        </a>
+                </li>
+                        <li>
+                        <a href="http://lawnewz.com/important/donald-trumps-says-hed-consider-these-two-judges-for-u-s-supreme-court/">
+                                <div class="thumbnail" style="background-image:url(http://lawnewz.com/wp-content/uploads/2016/02/bill-and-diane-100x100.jpg);"></div>
+                                <h4 class="sidebar-title">Donald Trump Says He&#8217;d Consider These Two Judges for U.S. Supreme Court</h4>
+                        </a>
+                </li>
+                        <li>
+                        <a href="http://lawnewz.com/high-profile/texas-ranch-owner-speaks-out-amidst-confusion-surrounding-justice-scalias-death/">
+                                <div class="thumbnail" style="background-image:url(http://lawnewz.com/wp-content/uploads/2016/02/Screen-Shot-2016-02-15-at-12.28.10-PM-100x100.png);"></div>
+                                <h4 class="sidebar-title">Texas Ranch Owner Speaks Out Amidst Confusion Surrounding Justice Scalia’s Death</h4>
+                        </a>
+                </li>
+        </ol>
+
+
+
+
+    <div id="tips" class="promo promo-sidebar">
+      <div class="heading">Tips</div>
+      <div class="tips-body">
+        <a href="mailto:tips@lawnewz.com"><img src="http://lawnewz.com/wp-content/themes/m2015/images/promo-gossip.jpg" width="78" height="60" alt="" align="left" /></a>
+        <p class="sidebar-title">Have a tip or story idea? <a href="mailto:tips@lawnewz.com">Email us.</a> Or to keep it anonymous, <a href="http://lawnewz.com/tips/">click here</a>.</p>
+      </div>
+    </div>
+
+    <div id="div-gpt-ad-LawNewz_BTF_MR2_300x250_300x600_300x1050" class="unit-sidebar-btf sticky">
+      <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-LawNewz_BTF_MR2_300x250_300x600_300x1050'); });
+      </script>
+    </div>
+
+  </aside>
+
+  <nav id="post-nav">
+   <a href="http://lawnewz.com/high-profile/monster-and-other-energy-drinks-can-ruin-your-health-lawsuit/" rel="prev">&laquo; Previous Post</a>   <a href="http://lawnewz.com/crazy/video-man-allegedly-freaks-out-and-attacks-store-clerk-with-sword/" rel="next">Next Post &raquo;</a>  </nav>
+
+      </div>     <footer>  
+      <!-- 3rd party-->
+          <!-- YieldMo -->
+          
+      <script>
+        var hookHome1     = '#chron-heading';
+        var hookHome2     = '#chron-posts div:nth-child(6)';
+        var hookCategory1 = '#chron-posts div:nth-child(3)';
+        var hookCategory2 = '#chron-posts div:nth-child(9)';
+        var hookSingle    = '.qualified-1';
+      </script> 
+    <script>
+      console.log('ym testing');
+      // Include script
+      (function(e, t) {
+        if (t._ym === void 0) {
+          t._ym = "";
+          var m = e.createElement("script");
+          m.type = "text/javascript"
+          ,m.async = !0, m.src = "//static.yieldmo.com/ym.m4.js"
+          ,(e.getElementsByTagName("head")[0] || e.getElementsByTagName("body")[0]).appendChild(m)
+        } else t._ym instanceof String || void 0 === t._ym.chkPls || t._ym.chkPls()
+      })(document, window);
+
+      // Build units on demand
+      function ymDiv(id) {
+        var div = $('<div/>', {'id':id, 'class':'ym unit-wrap'});
+        return div;
+      }
+
+      if (commonMethods.detectMobile) {
+        $(document).ready(function() {
+                      console.log('yieldmo single')
+            ymDiv = ymDiv('ym_1326159691722161156');
+            ymDiv.insertAfter(hookSingle);
+                  }); //end document ready
+      }
+    </script>
+  <!-- End YieldMo -->
+
+<script>console.log("footer-yieldmo");</script><!-- Taboola -->
+<div id="taboola-below-main-column-thumbnails"></div>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({
+    mode: 'organic-thumbnails-a',
+    container: 'taboola-below-main-column-thumbnails',
+    placement: 'Below Main Column Thumbnails',
+    target_type: 'mix'
+  });
+</script>
+<!-- Taboola End--> <script>console.log("footer-taboola");</script>
+
+  <script>
+    window._ttf = window._ttf || [];
+    _ttf.push({
+      pid          : 45456
+      ,lang        : "en"
+      ,slot        : '#home .teads-helper'
+      ,format      : "inboard"
+      ,minSlot     : 1
+      ,components  : { skip: {delay : 0}}
+      ,css         : "margin: 15px auto; max-width: 980px"
+    });
+    (function (d) {
+      var js, s = d.getElementsByTagName('script')[0];
+      js = d.createElement('script');
+      js.async = true;
+      js.src = '//cdn.teads.tv/media/format.js';
+      s.parentNode.insertBefore(js, s);
+    })(window.document);
+  </script>
+
+
+
+
+<script>console.log("footer-teads-inboard");</script>  <!-- inread -->
+
+    
+     
+
+        <script type="text/javascript">
+           window._ttf = window._ttf || [];
+           var _tt_mutable = false;
+
+        if ((screen.width<=768)){
+          _tt_mutable = false;
+        }
+        if ((screen.width>=779)){
+          _tt_mutable = true;
+        }
+         _ttf.push({
+               pid          : 45457
+               ,lang        : "en"
+               ,slot        : '#post-body > p'
+               ,format      : "inread"
+               ,components  : {mute: {delay :0}, skip: {delay :0} }
+               ,mutable     : _tt_mutable
+               ,filter      : function (obj) {
+                 if ((screen.width >= 779)) {
+                   return obj['wrappedSizes']['width'] >= (500);
+               }}
+            });
+
+        (function (d) {
+                var js, s = d.getElementsByTagName('script')[0];
+                js = d.createElement('script');
+                js.async = true;
+                js.src = '//cdn.teads.tv/media/format.js';
+                s.parentNode.insertBefore(js, s);
+        })(window.document);
+        </script>
+
+      <script>console.log("footer-teads-inread");</script><!-- mobile -->
+<script type="text/javascript" src="http://as.ebz.io/api/choixPubJS.htm?pid=1133405&screenLayer=1&mode=NONE&home=http://www.lawnewz.com/"></script><script>console.log("footer-teads-mobile");</script>	<!-- Start Quantcast Tag -->
+	<script type="text/javascript">_qoptions = {qacct: 'p-41YeEX_ui4Qms'};</script>
+	<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+	<noscript><img src="http://pixel.quantserve.com/pixel/p-41YeEX_ui4Qms.gif" style="visibility:hidden;" alt="Quantcast" /></noscript>
+	<!-- End Quantcast Tag -->
+<script>console.log("footer-quantcast");</script>      <!-- end 3rd party-->
+    
+      <div id="unit-footer">
+        <div id='div-gpt-ad-LawNewz_BTF_LB1_300x50_320x50_728x90_970x90_970x250'>
+          <script type='text/javascript'>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-LawNewz_BTF_LB1_300x50_320x50_728x90_970x90_970x250'); });
+          </script>
+        </div>
+      </div>
+
+      <div id="credits">
+        <p>
+          <strong>&copy; 2016 LawNewz, LLC</strong> |
+          <a href="http://lawnewz.com/about/">About Us</a> |
+          <a href="http://www.abrams-media.com/">Advertise</a> |
+          <a href="http://lawnewz.com/email-newsletter/">Newsletter</a> |
+          <a href="http://lawnewz.com/privacy/">Privacy</a> |
+          <a href="http://lawnewz.com/user-agreement/">User Agreement</a> |
+          <a href="http://lawnewz.com/disclaimer/">Disclaimer</a> |
+          <a href="http://lawnewz.com/contact/">Contact</a>  |
+          <a href="http://lawnewz.com/feed/"><img src="http://lawnewz.com/wp-content/themes/m2015/images/rss.png" alt="RSS" /> RSS</a>
+          <br />
+          <a href="http://www.dan-abrams.com" title="Dan Abrams" target="_blank">Dan Abrams</a>, <a href="/dan-abrams/" target="_blank">Founder</a>
+        </p>
+      </div>
+
+    </footer>
+
+    <div id='div-gpt-ad-LawNewz_Skin_1x3'>
+      <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-LawNewz_Skin_1x3'); });
+      </script>
+    </div>
+
+    <div id='div-gpt-ad-LawNewz_Adhesive_320x50'>
+      <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-LawNewz_Adhesive_320x50'); });
+      </script>
+    </div>
+
+    <div id='div-gpt-ad-LawNewz_GumGum_1x6'>
+      <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-LawNewz_GumGum_1x6'); });
+      </script>
+    </div>
+
+    <div id='div-gpt-ad-LawNewz_GumGum_1x7'>
+      <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-LawNewz_GumGum_1x7'); });
+      </script>
+    </div>
+
+
+    <div class="network-bar">
+      <ol>
+        <li class="bar-mediaite"><a href="http://www.mediaite.com/">Mediaite</a></li>
+        <li class="bar-marysue"><a href="http://www.themarysue.com/">The Mary Sue</a></li>
+        <li class="bar-runwayriot"><a href="http://runwayriot.com/">RunwayRiot</a></li>
+        <li class="bar-thebraiser"><a href="http://www.thebraiser.com/">The Braiser</a></li>
+        <li class="bar-lawnewz"><a class="bar-current" href="http://www.lawnewz.com/">LawNewz</a></li>
+        <li class="bar-sportsgrid"><a href="http://www.sportsgrid.com/">SportsGrid</a></li>
+        <li class="bar-gossipcop"><a href="http://www.gossipcop.com/">Gossip Cop</a></li>
+      </ol>
+    </div>
+    <!-- Footer JavaScript -->
+
+      <script type="text/javascript">
+      // <![CDATA[
+        var disqus_shortname = 'lawnewz';
+        (function () {
+          var nodes = document.getElementsByTagName('span');
+          for (var i = 0, url; i < nodes.length; i++) {
+            if (nodes[i].className.indexOf('dsq-postid') != -1) {
+              nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+              url = nodes[i].parentNode.href.split('#', 1);
+              if (url.length == 1) url = url[0];
+              else url = url[1]
+              nodes[i].parentNode.href = url + '#disqus_thread';
+            }
+          }
+          var s = document.createElement('script'); s.async = true;
+          s.type = 'text/javascript';
+          s.src = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
+          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+      //]]>
+      </script>
+
+    <!-- End Footer JavaScript -->
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0aa99f0d33","applicationID":"8488373","transactionName":"MlNXZUZZXRZXB0RdWAsZdFJAUVwLGRdZWlAJUw==","queueTime":0,"applicationTime":286,"atts":"HhRUEw5DThg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

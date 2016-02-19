@@ -1,0 +1,986 @@
+   #[1]about:performance » Feed [2]about:performance » Comments Feed
+   [3]about:performance » The Big Game 2016: Live Blog Coverage Comments
+   Feed [4]alternate [5]alternate
+
+   REFRESH(0 sec):
+   [6]http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-20
+   16/?utm_content=buffera82a6&utm_medium=social&utm_source=linkedin.com&u
+   tm_campaign=buffer&PageSpeed=noscript
+
+   Please click [7]here if you are not redirected within a few seconds.
+
+   IFRAME: [8]//www.googletagmanager.com/ns.html?id=GTM-WD62VX
+
+   [9]about:performance
+
+   Application Performance, Scalability, and Architecture.
+     * [10]Home
+     * [11]Best Practices
+     * [12]Lifecycle / DevOps
+     * [13]Mobile / Web
+     * [14]Enterprise
+     * [15]User Experience
+     * Search the blog...__ Search
+
+   [16]Home > [17]User Experience Management > [18]eCommerce > The Big
+   Game 2016: Live Blog Coverage
+   David Jones About the Author
+
+   David Jones is the Director of Sales Engineering and APM Evangelism for
+   Dynatrace. He has been with Dynatrace for 8 years, and has 20 years’
+   experience working with web and mobile technologies from the first
+   commercial HTML editor to the latest web delivery platforms and
+   architectures. He has worked with scores of Fortune 500 organizations
+   providing them the most recent industry best practices for web and
+   mobile application delivery. Prior to Dynatrace he has worked at Gomez
+   (Waltham), S1 Corp (Atlanta), Broadvision (Bay Area), Interleaf/Texcel
+   (Waltham), i4i (Toronto) and SoftQuad (Toronto).
+
+The Big Game 2016: Live Blog Coverage
+
+   February 3, 2016   |  by  [19]David Jones  |  [20]2 Comments
+
+UPDATE: February 8th, 2016 5:00pm
+
+IHR_745pm
+
+UPDATE: February 7th, 2016 10:24pm
+
+   That’s the game!  Congratulations to the Denver Broncos.  So the
+   results for the web site performance for advertisers during the game
+   are in as well.  Here is the complete list, and as you’ve seen tonight
+   while there were some fumbles everyone recovered well…  well except
+   Beyonce.com, we are still waiting for it to recover. (edit. look like
+   it recovered around 3am).
+
+   [21]Final
+
+   In terms of the top performers Audi.com, Heinz.com and
+   MobileStrikeApp.com took the top three spots.   These sites were rock
+   solid for the entire game.  This chart below shows the last 4 hours and
+   congratulations needs to go out to the web teams responsible for these
+   sites.
+
+   Finalists
+
+   Great Game!  Keep checking back with the Dynatrace APM Blog as we go
+   through all of these data from this evening and discuss best practices
+   for next years advertisers.
+
+UPDATE: February 7th, 2016 9:55pm
+
+   And it looks like the Axe fell on Axe.com (sorry couldn’t resist).  The
+   desktop site looks to have had critical issues, however their mobile
+   site slowed down but remained up.
+
+   axe
+
+UPDATE: February 7th, 2016 9:50pm
+
+   DeathWishCoffee.com the company that won the Intuit Super Bowl
+   Commercial contest had a bit of a rocky ride but it looks like someone
+   had a defibrillator and got their site back up in no time.
+
+   deathwish
+
+UPDATE: February 7th, 2016 9:25pm
+
+   Reports on Twitter that Beyonce.com is down.  HTTP 5XX errors usually
+   indicate something wrong on the server side.  Read some of our earlier
+   updates to under why this happens and what can be done to prevent it.
+
+   [22]beyonce503
+
+   Our tests confirm that this is a server side issue.
+
+   [23]beyonce
+
+   The error message on the page shows a generic NGINX error message.
+   NGINX is a web server technology, while this is not Beyonce.com this
+   transaction map shows a simple application built on NGINX.  Understand
+   what is happening on the server side is critical!
+
+   txn_nginx
+
+UPDATE: February 7th, 2016 9:00pm
+
+   Jackinthebox.com has offered up a million free hamburgers.
+
+   jack
+
+   Doing this during the Super Bowl results in this (below).  This was
+   very ambitious, Looks like the Jackinthebox.com web team pulled it off.
+
+   jack_chart
+
+UPDATE: February 7th, 2016 8:30pm
+
+   Here come ColdPlay and crowd.  NFL’s Halftime page is up and running
+   fine so far.
+
+   [24]halftime_show
+
+UPDATE: February 7th, 2016 8:25pm
+
+   OK, it’s half time.  There have been a couple of fumbles so far but
+   good recoveries by all.  Here is a real time view heading into half
+   time.  All the advertisers look like they are up for now.
+
+   [25]halftime
+
+UPDATE: February 7th, 2016 7:55pm
+
+   Did the DrinBai ad air?
+
+   [26]drinkbai
+
+UPDATE: February 7th, 2016 7:50pm
+
+   Dynatrace’s Keynote Internet Health Report is showing more red.  This
+   is peering health between backbone carriers.  Overall traffic is high
+   this evening so not surprised to see this.   Peering is how traffic
+   hops from one carrier to another.   When peering start showing issues
+   it can result in slower response time for end users.
+
+   [27]IHR_745pm
+
+UPDATE: February 7th, 2016 7:30pm
+
+   Good job Marmot, not as lethal as we thought.  Quick recovery on a
+   pretty serious server side error.
+
+   [28]marmot_backup
+
+UPDATE: February 7th, 2016 7:20pm
+
+   Marmot is starting to have issues.  The Dynatrace Root Cause Analyzer
+   is seeing multiple issues but the 503 Error on the root page is pretty
+   lethal.  Let’s see if things can get turned around.
+
+   [29]marmot
+
+UPDATE: February 7th, 2016 7:00pm
+
+   30 Minutes since kickoff and the top 3 advertiser sites are still Audi,
+   Heinz and “Get to the Choppa…” MobileStrikeApp.  Performance is all
+   about optimization.  Great job so far to the web team’s for these
+   advertisers.
+
+   [30]Top3
+
+UPDATE: February 7th, 2016 6:30pm
+
+   Moments to Kickoff.  Here is a view of what we are seeing from our
+   Desktop and Mobile Website tests.
+
+   [31]DEC_DB_630
+
+UPDATE: February 7th, 2016 6:00pm
+
+   Quickenloans.com is showing some slow DNS activity.  This can usually
+   be tweaking at the CDN.  We will keep an eye on things.
+
+   [32]quicken
+
+UPDATE: February 7th, 2016 5:34pm
+
+   OK, Puppy Bowl is back up! Whew.
+
+   [33]puppy_success
+
+UPDATE: February 7th, 2016 5:15pm
+
+   Problems with the Puppy Bowl Site?  Not sure what is going on here but
+   Getting initial response from the Puppy Bowl site but no content is
+   showing up.
+
+   [34]Puppy
+
+   Seeing the same thing in our local browsers.  We will keep an eye on
+   things because… well Puppies are adorable right?
+
+   [35]Puppy_detail
+
+UPDATE: February 7th, 2016 5:00pm
+
+   90 minutes to go before kickoff, here is a view showing a comparison of
+   the top performers and the bottom performers.  Those sites which are
+   fully optimized for this evening are on average delivering less content
+   (byte count), are less complex (fewer round trips for object and
+   connection requests) and using fewer third parties (social media, ad
+   networks, analytics tools, etc…).
+
+   [36]comparison
+
+UPDATE: February 7th, 2016 4:40pm
+
+   Thankfully it looks like a quick recovery for Mini.com.  Good job by
+   the Mini.com web team.
+
+   [37]mini_recovery
+
+UPDATE: February 7th, 2016 4:30pm
+
+   Looks like Mini.com has made a change and it looks like it is impacting
+   response times. This might be a pre-game configuration change. [38]Mini
+
+   It could be a pre-game Content Delivery Network change, here we can see
+   that some of the remote points of presence and IP addresses are showing
+   some pretty wide differences in performance.
+
+   [39]mini_IP
+
+   We hope that things come back around quickly before the game starts.
+
+UPDATE: February 7th, 2016 4:15pm
+
+   Having a quick look at the Digital Experience Dashboards (DEC) and
+   dialing in the test resolution and frequency so that we don’t miss
+   anything.
+
+   [40]WB_DB_4pm
+
+UPDATE: February 7th, 2016 4:00pm
+
+   Most of our data this evening will be coming from synthetic tests
+   (software robots) running real browsers located across the US.  While
+   synthetics provides useful information it should always be used in
+   combination with real user data when possible.  Below is an example of
+   a Dynatrace User Experience Management dashboard showing live data for
+   a Fortune 100 US based company.  In this case you can see that the site
+   is processing 3,800 requests per minute.
+
+   [41]UEM
+
+   We expect that many of the advertiser sites tonight will experience
+   traffic well beyond this.  Understanding real user performance is key
+   during live events like Super Bowl Sunday or Black Friday.
+
+UPDATE: February 7th, 2016 3:00pm
+
+   Here is an update as to how some of the media companies are doing
+   today.  Leading up to the Super Bowl these sites get a tremendous
+   amount of traffic as sport viewers try to keep up to date with last
+   minute news.
+
+   [42]media sites
+
+   Kudos so far to the team at CBS.  After some up and down the past
+   couple of days the last 12 hours for CBS Sports has been rock solid.
+   Great Job guys.
+
+   [43]CBS_3pm
+
+UPDATE: February 7th, 2016 2:30pm
+
+   Checking in with an update from Dynatrace Outage Analyzer.  This is a
+   real time view of “collective intelligence” based on every test running
+   across the Dynatrace Network.  Here we are looking for current outages
+   for third party services used by different websites.
+
+   [44]OA_230pm
+
+   The Dynatrace Keynote Internet Health Report is showing a lot less red
+   than we saw yesterday.  Hopefully backbone peering won’t be an issue
+   today.
+
+   IHR_230pm
+
+UPDATE: February 7th, 2016 2:00pm
+
+   Today isn’t just about the advertisers, it also about media and other
+   sports related sites, like Fantasy Football sites.   Here we can see
+   that Fireleague, Fleaflicker and RTSports are all performing grey well.
+
+   [45]fantasy_FB_DB
+
+   We just talked about server side response times in our last update,
+   continuing on that theme we wanted to show how an online gaming site
+   uses a service like Dynatrace Ruxit to automatically discover “back
+   end” services and processes.  Below we can the response times for a
+   backend service (notice the increase in response time earlier in the
+   week).
+
+   [46]Ruxit_Gaming
+
+   Here we can see some detail around one of the processes this service is
+   based on.  Here we can see some network quality issues related to
+   packet retransmission causing an issue.
+
+   [47]Ruxit_gaming_issue
+
+   Understanding the interdependencies within applications is one of the
+   hard things to do when managing complex applications.  As sites today
+   (including many of the advertisers) use elastic computing, often
+   organizations have no idea what resource are running at any given time
+   let alone which one is causing an issue.  Below is a visualization
+   called a SmartScape which shows auto-discovered services and process
+   and their relationship with each other.
+
+   [48]ruxit_smartscape
+
+   Tools like Dynatrace Ruxit represent the next generation of intelligent
+   APM technology that site owners will need to manage the dynamically
+   changing complexity in their applications.
+
+UPDATE: February 7th, 2016 1:20pm
+
+   We’ve been looking at the End User Response Time for the advertiser’s
+   sites.  A substantial part of these End User Response Times are made up
+   of Server Request Time.  This is how much time it takes a server to
+   respond to inbound request from a browser.  We measure this as how much
+   time does it take for us to receive the first packet of data in
+   response to a request.  Let’s put it this way, this is how much time it
+   takes for the server to “think” about responding to a request.
+
+   Server side optimization IS what Dynatrace does.  Speeding server
+   response times not only makes for faster end user experience it also
+   makes for more efficient use of resources on the server side.
+   Optimizing the code which runs on these servers means that fewer
+   servers and computing resources are required to handle massive amounts
+   of traffic.  Rather than throwing more hardware at an issue, an
+   optimized “back end” will mean being able to support higher volume with
+   less computer resources.  So a relatively small investment in upfront
+   optimization will mean that advertisers can spend much less on
+   computing resources to support their sites.
+
+   So let’s look at Server Request Times for the advertisers…
+
+   [49]ServerRequestTime_1pm
+
+   Here we can see that Kia, Colgate and Audi have the fastest server side
+   response times for the past 24 hours leading into the SuperBowl.
+
+   Optimizing the server requires specialized understanding as to how all
+   the moving parts (applications, services, processes, hosts, methods,
+   code, etc…) interact with each other.  The web sites advertiser use are
+   incredibly complex and finding performance bottlenecks or application
+   issues can be an expensive time consuming process without the right
+   tools.
+
+   For example this is what a website can look like from the server side…
+
+   [50]TXN_flowmap
+
+   So when we see advertisers with a 2.39 second server side request time
+   we know there is room for improvement as other advertisers only spend
+   0.05 seconds on server side request time.
+
+UPDATE: February 7th, 2016 12:40pm
+
+   We have been tracking NFL.com’s Super Bowl page this week and have seen
+   some intermittent issues.  Some of the issues point back to NFL.com
+   servers however other issues look to be caused by third parties (these
+   are things like social media widgets, ad providers, analytics, etc…).
+
+   [51]NFL_1pm
+
+   When we started to look at where some of the content and third party
+   service were coming from we saw some interesting things that sites
+   owners need to keep on top of.  For example this map is where we are
+   monitoring NFL.com from for today’s event.
+
+   [52]NFL_node
+
+   Everything being monitored from locations in the US.  Now below is a
+   map showing where responses (content) are coming from.
+
+   [53]NFL_hosts
+
+   Insert “scratch head” icon here.  What would cause this?  This is
+   actually not that uncommon. End User’s are often not aware that when
+   they load a page in their browser (even if it is for a US site) that
+   content could be coming from locations outside the US.  In this case,
+   even though we are loading the pages from US locations we are seeing
+   that some times responses for content coming from Facebook, Yahoo,
+   Google and  ScorecardResearch are coming from non US locations.  Now
+   this might be by design or it might be the result of misrouted traffic.
+    In any event the, the further away content is from its destination the
+   slower that content might become.
+
+   External Synthetic Monitoring is one of the best ways to understand
+   when this happening and what the impact on end user experience it has.
+
+Game On!  Welcome to the Live Blog!
+
+   So after months of preparation, anticipation and some incredible
+   football it is time to sit back and enjoy the Big Game #SuperBowl50.
+   We’ve been blogging about our preparations this week (see below) and
+   have been seeing some interesting things.
+
+   We expect that today will (like any good football game) have some high
+   points and low points for advertisers.  This Live Blog will go over a
+   lot of technical details and we will do our best to translate technical
+   metrics to business outcomes.  In the end that’s what this is…
+
+   The Super Bowl is NOT a sporting event, it is a Business and Brand
+   event.
+
+   Joe Martin [54]reported that CBS is charging $5 million USD for a 30
+   second commercial and that last year the Super Bowl generated 100
+   million social mentions.  His study showed that post SuperBowl, brands
+   who advertised saw a boost in the stock value.  If that is the case,
+   there is a lot at risk today.  The ads themselves have to be creative
+   and compelling, however the point of the ads is to promote the brand
+   and in today’s business environment the anchor of every brand is a
+   businesses web presence.  The $5 million spent on the ad is only a
+   fraction of what companies spend on maintaining their web and mobile
+   web presence.  That is why we are focusing on each advertiser’s web
+   site today.  The goal of the ads is to drive traffic and interest in
+   the advertiser’s brand.
+
+   [55]Other studies have shown that 50% of millennials will be watching
+   today’s event on more than one device.  Salesforce.com [56]cited a
+   study which showed that the 2016 AFC Championship online viewership was
+   at record levels with 1.2 million unique viewers watching streams
+   online for more than an hour.  We expect that will mean an increase in
+   mobile web traffic and we hope that advertisers will have made
+   appropriate investment in responsive design techniques to speed the
+   performance of mobile web sites.
+
+   So let’s have a look at how things currently stand for the advertisers
+   with one of our real time dashboards…
+
+   [57]sb_db_noon
+
+   Based on what we are seeing so far it looks like Audi, Heinz and
+   MobileStrikeApp (insert Austrian voice “Get to the choppa” joke
+   here) are going to have a good day.
+
+   Keep watch throughout today as we report on live events as they occur.
+
+UPDATE: February 6th, 2016 4:15pm
+
+   Some predictions for tomorrow for some of the advertiser’s websites.
+   Unless these sites are planning some big changes in the next 24 hours
+   (which can absolutely happen) we expect that Audi.com will be at or
+   near the top of the performers.  The site has been highly optimized,
+   the page weight (amount of content being delivered) is relatively low,
+   the page is not complex (fewer objects and connections or network round
+   trips being made) and they are using only one third party from what we
+   can see.
+
+   [58]audi_detail
+
+   On the flip side we hope that Fitbit.com does well tomorrow but we are
+   seeing some issues which should be addressed.  Based on our experience
+   sites like this will be challenged when faced with a  lot of traffic.
+   Our waterfall chart shows some of the issues we are seeing with SSL
+   times.
+
+   [59]fitbit_waterfall
+
+   A further look with some browser developer tools on their page show
+   some other issues.  Most of these look like they are issues with third
+   parties, some certificate issues. The browser developer tool (Safari)
+   we are using had the debugger stop the page loading for a couple of
+   these events.
+
+   [60]fitbit_detail
+
+   Complex pages tend to struggle during high traffic events.  We hope
+   things go well for them tomorrow.
+
+UPDATE: February 6th, 2016 2:30pm
+
+   Looking at some of the third parties prepping for tomorrow.  Outage
+   Analyzer is seeing some services out with what looks like CDN tuning.
+
+   [61]OA_Saturday
+
+   Dynatrace Keynote Internet Pulse showing a lot of red.  This tracks
+   peering at the backbone/carrier level.  Again we hope that this is prep
+   activity and we do not see this tomorrow during the big game.
+
+   [62]IHR_Saturday
+
+UPDATE: February 6th, 2016 11:30am
+
+   Updated the advertiser list to include some last minute additions.
+   While we can run our tests from ten of thousands of locations world
+   wide, for the Big Game we will focusing on 9 locations across the US
+   with 5 regions for Real Desktop Browsers using a Chrome profile and 3
+   regions for Mobile tests using a Webkit based iPhone6 profile.
+
+   [63]SB50_OPS_Combined
+
+   We will be augmenting the above data with tests running from a Chrome
+   Browser from a random selection of over 10,000 locations in real users
+   homes and workplaces.  This is called Last Mile monitoring.
+
+   [64]LastMile
+
+   Each time a single test runs from any of locations above (either the
+   Backbone, Mobile or Last Mile) our Browsers load the complete page,
+   including all the third party content.
+
+   [65]waterfall
+
+   This is a substantial amount of data.  Tools like our real time
+   Dashboards and Root Cause Analysis allow us to pinpoint problem areas
+   in moments as opposed to to taking hours sifting through various
+   screens of data.
+
+UPDATE: February 6th, 2016 1:00am
+
+   You read that right, what are we doing up at 1am?  Websites never
+   sleep, so this weekend we won’t either.
+
+   Here is a view of NFL.com over the past 7 days.  Looks like there were
+   a couple of performance issues during the past 24-36 hours.
+
+   [66]NFL_060216
+
+   Dynatrace Root Cause Analysis shows the following issues…
+
+   [67]NFL_RCA_060216
+
+   Putting our thinking caps on it looks like some pre-game configuration
+   tuning with CDN (Content Delivery Network) partners. Hoping that’s all
+   it is and doesn’t show up on Sunday.
+
+UPDATE: February 5th, 2016 3:00pm
+
+   So we are putting the finishing touches on our monitoring Dashboards
+   for the weekend.  If you were at the Dynatrace [68]Perform
+   Conference this fall you would have seen our Digital Experience Center
+   (DEC).  In preparing for the SuperBowl we created a mini-DEC for the
+   event.
+
+   [69]dec_dashboard
+
+   This DEC above pulls in data from Dynatrace Synthetic Tests (upper
+   left) tracking NFL and related media sites, a custom Google flight
+   search widget (lower left), a live Twitter feed for #SuperBowl
+   (center), a Google Trends Map widget for SuperBowl related searches
+   (upper right) and a link to Outage Analyzer for tracking third party
+   outages (lower right).   This view allows us to use multiple sources of
+   data in a single pain of glass for tracking a big event.
+
+   [70]ad_dashboard
+
+   In addition the DEC will also be using this dashboard (above) for part
+   of our live real time cover during the Super Bowl.  We have live feeds
+   for tests hitting both Desktop and Mobile web sites.
+
+   As you can see the tests are up and running, we have comparative data
+   coming in.  Here is our first public view of how the #SuperBowl
+   advertisers are shaking up.
+
+   [71]ad_ops_dashboard
+
+   We hope the big game will be exciting and the ads entertaining this
+   Sunday, but mostly we hope that the advertisers sites are ready for the
+   traffic.  There is a lot of investment running on these sites, let see
+   if they are up to the challenge.
+
+UPDATE:  February 4th, 2016 10:30Am
+
+   So as I am prepping for monitoring the Big Game (#SuperBowl) this
+   weekend I started to run into some issues using Twitter as an indicator
+   of when sites may be failing.   Now this is really a unique situation,
+   however I imagine that trying to use keywords in social media as
+   strategy to monitor #CX and #UX is more common than we think.  We’ve
+   scene scenarios where a “C” level or executive VP reads an unkind tweet
+   and it starts the snowball rolling.
+
+   In this situation I thought it would be useful to create a widget to
+   track occurrences of #SuperBowl and #Crash to see what social media is
+   saying about any advertisers sites crashing this weekend.  Choice of
+   words is important…
+
+   twittersearch
+
+   So #Crash is clearly not the word to use this weekend, #Fail might be
+   but we shall see.  The point here is that Social Media is a great tool,
+   however using it to track #CX and UX poses some challenges.
+
+   Ideally what advertisers and site owners should be doing is using some
+   sort of solution for tracking real user interactions.  User Experience
+   Management or Real User Monitoring is how the industry commonly
+   describes what site owners will need this weekend.  This type of tool
+   is different from Google Analytics or Omniture as they provide data in
+   “Real Time” on every end user visit and every end user interaction
+   (meaning every click, touch, swipe, etc…), not just page loads but all
+   those client side “asynchronous” events which are used by almost every
+   modern site today.
+
+   [72]ruxit_WM
+
+   The view above is from Dynatrace Ruxit.  This view allows a site owner
+   to track end user performance and end user activity, but it also tracks
+   things like browser or client side errors (JavaScript errors).  These
+   are the things which can unexpectedly impact site owners  during events
+   like the big game this weekend.
+
+   Understanding when these events are occurring is often a difficult task
+   and why more often than not site owners use tools like Social Media to
+   tell them when end users are having issues not being detected by their
+   server side monitoring.  A good User Experience Management or Real user
+   Management tool will automatically detect these events.
+
+   [73]javascript_error
+
+   An even better User Experience Management solution will tell a site
+   owner what JavaScript is having an issue, what the issue is, what
+   browsers or locales are being impacted and most importantly (this is
+   the hard part) who is delivering the JavaScript.  Many times we have
+   seen a JavaScript introduced by a third party cause issues and tracking
+   down who delivered the JavaScript is a costly time consuming process.
+
+   [74]javascript_error_detail
+
+   Automating the discovery, detection and impact of these events is what
+   the industry needs as sites are using more and more third parties.  I
+   expect that we will see some sites this weekend be impacted by third
+   party javascript issues.  Site owners and advertisers need to keep on
+   top of this as looking for Social Media comments for bad #CX and #UX
+   alone is a losing strategy.
+
+Original blog post: Prepping for The Big Game 2016 — February 3
+
+   It’s only a couple of days away and the team here at Dynatrace has been
+   working hard this week prepping for The Big Game.  We will be having a
+   Dynatrace “Performance Bowl” to monitor a variety of websites all
+   touched in some way by the wrap up this season’s final game for the
+   NFL.  Given the hype and investment being made for this one single
+   event all eyes will be on the game and the ads this Sunday.
+   Advertisers have to get it right. It won’t be enough to come up with a
+   creative ad, they need to make sure that after the ads air that their
+   websites can withstand the onslaught of traffic which will follow.
+   The Brands in question are investing a lot of money, so there is a lot
+   at risk.  Having a website crash after the event can damage a brand and
+   potentially waste well-intended advertising dollars.
+
+   The Dynatrace “Performance Bowl” will be tracking the following:
+     * NFL websites
+     * Ticket websites
+     * Team websites
+     * Betting/Gaming/Fantasy Football websites
+     * Official Broadcaster website
+     * Major sports sites
+
+   And of course…
+     * Advertiser websites
+
+   We will be tracking these proactively using real browsers running from
+   multiple locations across the US and the globe.
+
+   The SD Times just posted a great article
+   ([75]http://sdtimes.com/sd-times-blog-touchdowns-in-tech/) about what
+   the media and advertisers need to keep in mind.  Like we did last year
+   ([76]http://apmblog.dynatrace.com/2015/01/30/super-bowl-ad-performance/
+   ), we will be providing a live blog before during and after the game.
+   Keep checking in to see how the sites we are tracking are performing.
+
+   About The Author
+   David Jones
+   David Jones Director, Sales Engineering. APM Evangelist David Jones is
+   the Director of Sales Engineering and APM Evangelism for Dynatrace. He
+   has been with Dynatrace for 8 years, and has 20 years’ experience
+   working with web and mobile technologies from the first commercial HTML
+   editor to the latest web delivery platforms and architectures. He has
+   worked with scores of Fortune 500 organizations providing them the most
+   recent industry best practices for web and mobile application delivery.
+   Prior to Dynatrace he has worked at Gomez (Waltham), S1 Corp (Atlanta),
+   Broadvision (Bay Area), Interleaf/Texcel (Waltham), i4i (Toronto) and
+   SoftQuad (Toronto).
+   [77]#UX, [78]Ads, [79]Advertisers, [80]customer experience, [81]CX,
+   [82]End User Experience, [83]mobile performance, [84]SB50, [85]Super
+   Bowl, [86]Super Bowl 2016, [87]Super Bowl 50, [88]SuperBowl, [89]user
+   experience, [90]Web Performance, [91]Website Monitoring
+
+Comments
+
+    1. [92]Andy Ventura says:
+       [93]February 8, 2016 at 10:45 pm
+       Third party campaign requests for campaigns are a reality. A full
+       page load based on third party campaign trackers is a bogus state.
+       Why don’t you do some real user testing and determine when the site
+       is fully functional opposed to fully loaded. All of our third party
+       calls are non-blocking calls, meaning we used fiddler to simulate
+       and test delay anything outside of apartments.com to ensure our
+       user experience was not impacted. I could care less if some
+       marketing genius must have some tracker that calls a domain hosted
+       in Japan. This isn’t your fathers mobile network, bandwidth to make
+       those tcp connects aren’t as expensive as they used to be. Break
+       out of your DevOps mindset, fire up fiddler and see how resilient
+       sites like apartments.com can be when those third party ad tracking
+       calls, are delayed, malformed or 500. The user experience is not
+       impacted and our marketing team achieves their goals. We are all
+       about performance, all assets from our domain were served up by
+       Akamai, with the exception of our non-blocking tracking token we
+       use internally. In the end, you can’t say no third party hits on
+       Super Bowl Sunday or your campaign is a failure. You can say your
+       third party calls are third class citizens and their performance or
+       lack of it can be sacrificed for a better user experience.
+       I know asynchronous tracing is a newer feature in dynatrace, but
+       the model has been around for quite some time.
+       Oh and your captcha call timed out…
+       [94]Reply
+          + David Jones [95]David Jones says:
+            [96]February 12, 2016 at 11:49 am
+            Andy, thanks for the response. Sorry for the late reply, it’s
+            been crazy busy following up on our Super Bowl results. You
+            definitely point out some of the challenges monitoring dozens
+            of different sites, each with their own design approaches to
+            delivering content. The challenge is finding a metric which is
+            consistent across all of the different dimensions we are
+            monitoring from. You mentioned… “Why don’t you do some real
+            user testing and determine when the site is fully functional
+            opposed to fully loaded”. Well, we do, however for an event
+            like the Super Bowl it is just not practical for us to place
+            “real user” instrumentation on every advertiser’s site. In
+            some cases, we simply don’t have relationships with those
+            companies to do so, we’d be happy to place some of UEM tags on
+            your site next year ;).
+            For competitive monitoring we find that driving real browsers
+            from remote locations allows us to level the playing field by
+            having a consistent set of data from the same locations under
+            the same conditions. In terms of the metrics we capture, the
+            challenge is that things like W3C Navigation timings are
+            interesting but really inconsistent. Also, which metric should
+            be used? For example, for your site (apartments.com) I did a
+            little comparison. Here is a view showing the DOM Interactive
+            time for IE, Firefox and Chrome.
+            The challenge is that the browser engine you select really
+            changes the results. So if DOM interactive isn’t correct, how
+            about DOM Complete?
+            Completely different set of results. This is the perennial
+            challenge in the industry. There are so many different clients
+            which end users have access to. How do you think the results
+            would change when looking at Mobile Safari or Chrome or Ice
+            Weasel or PS4 Web Browser? Here is a view that I am sure you
+            could get access to with your tools showing in a 1 hour period
+            all of the different browser families (you’d drill down to see
+            the versions) for a site with a lot of traffic.
+            When we look at your site, using the “over the wire” response
+            times we see much more consistency across browsers.
+            But as you point out that includes third party requests which
+            may be called after the bulk of the page has rendered. Given
+            the limitations in W3C Navigation timings we have been working
+            on a Perceived Render Time metric. This metric calculates how
+            long does it take the viewable window to appear to an end
+            user. We feel that this is a better approach as looking for
+            things like “is the page interactive” is not representative of
+            end user experience. Many of our customers have been using
+            this metric for some time now in our Real User Monitoring
+            solution. Here is some more info on that.
+            [97]https://community.dynatrace.com/community/display/DOCDT62/
+            Perceived+Render+Time
+            Next year we can include additional comparisons, so long as
+            they are providing consistent responses across as many clients
+            as possible. Good luck to your team next year.
+            [98]Reply
+
+Speak Your Mind [99]Cancel reply
+
+
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+
+   ______________________________Name *
+
+   ______________________________Email *
+
+   ______________________________Website
+
+   Do the math so we know you are human *
+   __  −  seven  =  [iXv8AAAAASUVORK5CYII=]
+
+   Post Comment
+
+   [ ] Notify me of followup comments via e-mail. You can also
+   [100]subscribe without commenting.
+
+Subscribe
+
+   Our latest thoughts in application performance management (APM)
+   delivered straight to your inbox.
+   Your email: Enter email address.
+   Subscribe
+   Leave Blank: ____________________ Don't Change: http://_____________
+   [101]Dynatrace Community
+   [102]Dynatrace Free Trial
+
+About:Performance Archives
+
+   About:Performance Archives [Select Month__]
+
+Popular Posts
+
+     * [103]How to track down CPU issues in Node.js
+     * [104]Understanding Garbage Collection and hunting Memory Leaks in
+       Node.js
+     * [105]How to avoid the Top 5 SharePoint Performance Mistakes
+     * [106]Understanding Application Performance on the Network – Part
+       VII: TCP Window Size
+     * [107]Why Averages Suck and Percentiles are Great
+
+About Us
+
+   [108]Who we are
+   [109]Learn more about our authors
+     * [110]
+     * [111]
+     * [112]
+     * [113]
+     * [114]
+     * [115]
+
+   Search the blog...__ Search
+     * [116]
+     * [117]
+     * [118]
+     * [119]
+     * [120]
+     * [121]
+
+   [122]Dynatrace
+
+   © 2016 Dynatrace LLC. All rights reserved. | [123]Privacy | [124]Legal
+   | [125]About | [126]Site Map | [127]dynatrace.com
+
+   Admin: [128]Log in
+
+References
+
+   Visible links
+   1. http://apmblog.dynatrace.com/feed/
+   2. http://apmblog.dynatrace.com/comments/feed/
+   3. http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-2016/feed/
+   4. http://apmblog.dynatrace.com/wp-json/oembed/1.0/embed?url=http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-2016/
+   5. http://apmblog.dynatrace.com/wp-json/oembed/1.0/embed?url=http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-2016/&format=xml
+   6. http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-2016/?utm_content=buffera82a6&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer&PageSpeed=noscript
+   7. http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-2016/?utm_content=buffera82a6&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer&PageSpeed=noscript
+   8. file://www.googletagmanager.com/ns.html?id=GTM-WD62VX
+   9. http://apmblog.dynatrace.com/
+  10. http://apmblog.dynatrace.com/
+  11. http://apmblog.dynatrace.com/category/best-practices/
+  12. http://apmblog.dynatrace.com/category/lifecycle-devops/
+  13. http://apmblog.dynatrace.com/category/web/
+  14. http://apmblog.dynatrace.com/category/enterprise/
+  15. http://apmblog.dynatrace.com/category/user-experience-management/
+  16. http://apmblog.dynatrace.com/
+  17. http://apmblog.dynatrace.com/category/user-experience-management/
+  18. http://apmblog.dynatrace.com/category/user-experience-management/ecom/
+  19. http://apmblog.dynatrace.com/author/david-jones/
+  20. http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-2016/#comments
+  21. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/Final.jpg
+  22. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/beyonce503.jpg
+  23. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/beyonce.jpg
+  24. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/halftime_show.jpg
+  25. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/halftime.jpg
+  26. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/drinkbai.jpg
+  27. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/IHR_745pm.jpg
+  28. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/marmot_backup.jpg
+  29. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/marmot.jpg
+  30. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/Top3.jpg
+  31. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/DEC_DB_630.jpg
+  32. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/quicken.jpg
+  33. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/puppy_success.jpg
+  34. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/Puppy.jpg
+  35. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/Puppy_detail.jpg
+  36. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/comparison.jpg
+  37. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/mini_recovery.jpg
+  38. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/Mini.jpg
+  39. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/mini_IP.jpg
+  40. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/WB_DB_4pm.jpg
+  41. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/UEM.jpg
+  42. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/media-sites.jpg
+  43. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/CBS_3pm.jpg
+  44. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/OA_230pm.jpg
+  45. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/fantasy_FB_DB.jpg
+  46. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/Ruxit_Gaming.jpg
+  47. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/Ruxit_gaming_issue.jpg
+  48. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/ruxit_smartscape-1.jpg
+  49. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/ServerRequestTime_1pm.jpg
+  50. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/TXN_flowmap.jpg
+  51. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/NFL_1pm.jpg
+  52. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/NFL_node.jpg
+  53. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/NFL_hosts.jpg
+  54. https://www.linkedin.com/pulse/super-bowl-ads-lead-social-media-stock-price-boost-joe-martin
+  55. http://www.slideshare.net/adobe/adi-super-bowl-50-will-be-tipping-point-for-ad-industry
+  56. https://www.salesforce.com/blog/2016/02/super-bowl-50-digital-ad-impressions.html
+  57. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/sb_db_noon.jpg
+  58. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/audi_detail.jpg
+  59. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/fitbit_waterfall.jpg
+  60. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/fitbit_detail.jpg
+  61. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/OA_Saturday.jpg
+  62. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/IHR_Saturday.jpg
+  63. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/SB50_OPS_Combined.jpg
+  64. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/LastMile.jpg
+  65. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/waterfall.jpg
+  66. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/NFL_060216.jpg
+  67. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/NFL_RCA_060216.jpg
+  68. http://apmblog.dynatrace.com/2015/10/12/building-your-digital-future-conference-highlights-from-perform-2015/
+  69. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/dec_dashboard.jpg
+  70. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/ad_dashboard.jpg
+  71. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/ad_ops_dashboard.jpg
+  72. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/ruxit_WM.jpg
+  73. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/javascript_error.jpg
+  74. http://apmblog.dynatrace.com/wp-content/uploads/2016/02/javascript_error_detail.jpg
+  75. http://sdtimes.com/sd-times-blog-touchdowns-in-tech/)
+  76. http://apmblog.dynatrace.com/2015/01/30/super-bowl-ad-performance/
+  77. http://apmblog.dynatrace.com/tag/ux/
+  78. http://apmblog.dynatrace.com/tag/ads/
+  79. http://apmblog.dynatrace.com/tag/advertisers/
+  80. http://apmblog.dynatrace.com/tag/customer-experience/
+  81. http://apmblog.dynatrace.com/tag/cx/
+  82. http://apmblog.dynatrace.com/tag/euex/
+  83. http://apmblog.dynatrace.com/tag/mobile-performance/
+  84. http://apmblog.dynatrace.com/tag/sb50/
+  85. http://apmblog.dynatrace.com/tag/super-bowl/
+  86. http://apmblog.dynatrace.com/tag/super-bowl-2016/
+  87. http://apmblog.dynatrace.com/tag/super-bowl-50/
+  88. http://apmblog.dynatrace.com/tag/superbowl/
+  89. http://apmblog.dynatrace.com/tag/user-experience/
+  90. http://apmblog.dynatrace.com/tag/webperf/
+  91. http://apmblog.dynatrace.com/tag/website-monitoring-performance-management-products/
+  92. http://www.apartments.com/
+  93. http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-2016/#comment-430542
+  94. http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-2016/?replytocom=430542#respond
+  95. https://ca.linkedin.com/in/davidlewisjones
+  96. http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-2016/#comment-430621
+  97. https://community.dynatrace.com/community/display/DOCDT62/Perceived+Render+Time
+  98. http://apmblog.dynatrace.com/2016/02/03/prepping-for-the-big-game-2016/?replytocom=430621#respond
+  99. file:///2016/02/03/prepping-for-the-big-game-2016/?utm_content=buffera82a6&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer#respond
+ 100. http://apmblog.dynatrace.com/comment-subscriptions?srp=14046&srk=f1c9075e5287410f84a0f9566e59d542&sra=s
+ 101. http://www.dynatrace.com/en/expertise/education.html?utm_source=blog&utm_medium=display 
+ 102. http://www.dynatrace.com/en/products/dynatrace-free-trial.html?utm_source=blog&utm_medium=display&utm_campaign=q3_ww&utm_content=freetrial&utm_term=300x250
+ 103. http://apmblog.dynatrace.com/2016/01/14/how-to-track-down-cpu-issues-in-node-js/
+ 104. http://apmblog.dynatrace.com/2015/11/04/understanding-garbage-collection-and-hunting-memory-leaks-in-node-js/
+ 105. http://apmblog.dynatrace.com/2010/03/18/how-to-avoid-the-top-5-sharepoint-performance-mistakes/
+ 106. http://apmblog.dynatrace.com/2014/08/12/understanding-application-performance-network-part-tcp-window-size/
+ 107. http://apmblog.dynatrace.com/2012/11/14/why-averages-suck-and-percentiles-are-great/
+ 108. file:///about-us/
+ 109. file:///the-authors/
+ 110. https://www.facebook.com/dynatrace
+ 111. https://plus.google.com/115098931936598779529/posts
+ 112. http://www.linkedin.com/groups?home=&gid=1868499&trk=anet_ug_hm
+ 113. http://apmblog.dynatrace.com/feed/
+ 114. https://twitter.com/dynatrace
+ 115. http://www.youtube.com/user/compuware
+ 116. https://www.facebook.com/Dynatrace
+ 117. https://plus.google.com/+dynatrace/
+ 118. http://www.linkedin.com/groups?home=&gid=1868499&trk=anet_ug_hm
+ 119. http://apmblog.dynatrace.com/feed/
+ 120. https://twitter.com/Dynatrace
+ 121. https://www.youtube.com/channel/UCcYJ-5q_AfmjQ4XTjTS0o3g
+ 122. http://www.dynatrace.com/
+ 123. http://www.dynatrace.com/en/about-us/privacy.html
+ 124. http://www.dynatrace.com/en/about-us/legal.html
+ 125. file:///about-us/
+ 126. file:///sitemap/
+ 127. http://www.dynatrace.com/
+ 128. http://apmblog.dynatrace.com/wp-login.php
+
+   Hidden links:
+ 130. https://twitter.com/davidlewisjones
+ 131. https://ca.linkedin.com/in/davidlewisjones

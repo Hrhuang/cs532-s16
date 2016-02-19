@@ -1,0 +1,1598 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html><!--<![endif]-->
+	<head>
+		<!-- /thetimesweekly/base.html v5 -->
+	    <script src="http://epmgaa.media.lionheartdms.com/static/_global/_js/EllingtonDMT.js"></script>
+<script src="http://epmgaa.media.lionheartdms.com/static/common/scripts/cookieControl.js"></script>
+<script src="http://epmgaa.media.lionheartdms.com/static/_global/_js/mobile-detect.min.js"></script>
+<script>
+var forceSiteCookie = getCookie('forceSite');
+var deviceType = '';
+var domainURL = document.domain;
+var currentDomain = '';
+var md = new MobileDetect(window.navigator.userAgent);
+var siteDMT = EllingtonSiteObject['thetimesweekly.com'];
+
+if (siteDMT) {
+	console.log('siteDMT = "' + siteDMT + '"');
+}
+
+
+if (md.phone()) 						{ deviceType = 'mobile'}
+else if (md.tablet()) 					{ deviceType = 'tablet'; }
+else 									{ deviceType = 'desktop'; }
+
+if (domainURL.indexOf('m.') == 0) 		{ currentDomain = 'mobile'; }
+else if (domainURL.indexOf('t.') == 0) 	{ currentDomain = 'tablet'; }
+else 									{ currentDomain = 'desktop'; }
+
+
+
+if (forceSiteCookie) {
+	if (forceSiteCookie == 'mobile' && currentDomain != 'mobile') 			{ redirectUser('mobile'); }
+	else if (forceSiteCookie == 'tablet' && currentDomain != 'tablet') 		{ redirectUser('tablet'); }
+	else if (forceSiteCookie == 'desktop' && currentDomain != 'desktop') 	{ redirectUser('desktop'); }
+} else {
+	if (deviceType == 'mobile') {
+		if ( currentDomain != 'mobile' ) {
+			redirectUser('mobile');
+		}
+	} else if (deviceType == 'tablet') {
+		if ( currentDomain != 'tablet' ) {
+			redirectUser('tablet');
+		}
+	} else if (deviceType == 'desktop') {
+		if ( currentDomain != 'desktop' ) {
+			redirectUser('desktop');
+		}
+	}
+}
+
+
+function redirectUser(redirectSite, cookieSet) {
+	
+	//console.log('siteDMT=' + siteDMT);
+
+	if (siteDMT && siteDMT != 'RD') { /* don't redirect for responsive sites */
+		if (redirectSite == 'desktop') {
+			if (cookieSet == true) {
+				setCookie('forceSite', 'desktop', '90', '/', '.thetimesweekly.com', '' );
+			}
+			window.location = 'http://thetimesweekly.com/news/2016/feb/09/taft-school-district-90-superintendent-taking-lead/';
+		} else if (redirectSite == 'tablet') {
+			if (siteDMT == 'DT' || siteDMT == 'DMT') {
+				if (cookieSet == true) {
+				setCookie('forceSite', 'tablet', '90', '/', '.thetimesweekly.com', '' );
+				}
+				window.location = 'http://t.thetimesweekly.com/news/2016/feb/09/taft-school-district-90-superintendent-taking-lead/';
+			}
+		} else if (redirectSite == 'mobile') {
+			if (siteDMT == 'DM' || siteDMT == 'DMT') {
+				if (cookieSet == true) {
+					setCookie('forceSite', 'mobile', '90', '/', '.thetimesweekly.com', '' );
+				}
+				window.location = 'http://m.thetimesweekly.com/news/2016/feb/09/taft-school-district-90-superintendent-taking-lead/';
+			}
+		}		
+	}
+}
+
+function showFooterLinks(){
+	console.log('showFooterLinks')
+	document.getElementById('redirect_footer').style.display = "block";
+}
+
+window.onload=function() {
+
+	console.log('s1-window.onload');
+	
+	//#redirect_footer
+	var forceDesktopLink = '<a href="javascript:;" onclick="redirectUser(\'desktop\', true)">View Desktop Site</a>';
+	var forceMobileLink = '<a href="javascript:;" onclick="redirectUser(\'mobile\', true)">View Mobile Site</a>';
+	var forceTabletLink = '<a href="javascript:;" onclick="redirectUser(\'tablet\', true)">View Tablet Site</a>';
+	
+	/* Option List
+		D
+		DM
+		DT
+		DMT
+		RD
+	*/
+	
+	
+
+	if (siteDMT && siteDMT != 'RD') {
+		if (currentDomain == 'tablet') {
+			if (siteDMT == 'DT') {
+				document.getElementById('redirect_footer').innerHTML = forceDesktopLink;
+				showFooterLinks();
+			} else if (siteDMT == 'DMT') {
+				document.getElementById('redirect_footer').innerHTML = forceDesktopLink + " | " + forceMobileLink;
+				showFooterLinks();
+			}
+		} else if (currentDomain == 'mobile') {
+			if (siteDMT == 'DM') {
+				document.getElementById('redirect_footer').innerHTML = forceDesktopLink;
+				showFooterLinks();
+			} else if (siteDMT == 'DMT') {
+				document.getElementById('redirect_footer').innerHTML = forceDesktopLink + " | " + forceTabletLink;
+				showFooterLinks();
+			}
+		} else {
+			if (siteDMT == 'DM') {
+				document.getElementById('redirect_footer').innerHTML = forceMobileLink;
+				showFooterLinks();
+			} else if (siteDMT == 'DT'){
+				document.getElementById('redirect_footer').innerHTML = forceTabletLink;
+				showFooterLinks();
+			} else if (siteDMT == 'DMT'){
+				document.getElementById('redirect_footer').innerHTML = forceMobileLink + " | " + forceTabletLink;
+				showFooterLinks();
+			}
+		}
+	}
+}
+</script>
+		<link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/_global/_css/ch_styles.css">
+		
+		<title>Taft School District 90 superintendent taking lead role at Orland School District 135   | The Times Weekly | Community Newspaper in Chicagoland Metropolitan Area</title>
+	    
+		
+		<!-- META -->
+		<meta name="msvalidate.01" content="ED540F9D73DCA1D4EE74802D83584794" />
+		<meta name="google-site-verification" content="LCAPThwPVKazTCgnP750Fc-DuO3orf6XQQJx1WYsEYw" />
+	    
+  
+  
+  
+	<meta property="og:image" content="http://epmgaa.media.lionheartdms.com/img/photos/2016/02/09/skogsberg.jpg">
+  	<meta name="description" content="Skogsberg, who came to the district in 2012, will take over as superintendent in Orland Park for the 2016/2017 school year.">
+	<meta property="og:description" content="Skogsberg, who came to the district in 2012, will take over as superintendent in Orland Park for the 2016/2017 school year.">
+	<meta property="og:title" content="Taft School District 90 superintendent taking lead role at Orland School District 135  ">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://thetimesweekly.com/news/2016/feb/09/taft-school-district-90-superintendent-taking-lead/">
+	<script>var addthis_share = { url: "http://thetimesweekly.com/news/2016/feb/09/taft-school-district-90-superintendent-taking-lead/", title: "Taft School District 90 superintendent taking lead role at Orland School District 135  " }</script>
+
+        
+		
+        <!-- CSS -->    
+	    <link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/ellington_defaults/2.3.0/min.css" type="text/css" media="screen">
+
+
+<!--[if IE 6]><link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/ellington_defaults/2.3.0/stylesheets/ie6.css" type="text/css" media="screen"><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/ellington_defaults/2.3.0/stylesheets/ie7.css" type="text/css" media="screen"><![endif]-->
+
+<link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/common/styles/common.css" type="text/css" media="screen">
+<link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/common/styles/master.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans|Paytone+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/common/styles/twitter_widget.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/common/styles/anythingslider.css">
+<link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/common/styles/jquery.fancybox-1.3.4.css" type="text/css" media="all">
+	    <link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/thetimesweekly.com/styles/timesweekly.css" type="text/css" media="screen">
+	    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700|Play:400,700' rel='stylesheet' type='text/css'>
+	    <link rel="shortcut icon" href="http://epmgaa.media.lionheartdms.com/static/thetimesweekly.com/images/favicon.ico" />
+		
+	
+	<link href="http://epmgaa.media.lionheartdms.com/static/common/styles/print.css" rel="stylesheet" media="print">
+
+
+		
+		<!-- JS -->	
+	    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+	
+	<script>
+var lhd_date_yyyy = 2016;
+var lhd_date_mm = 2;
+var lhd_date_dd = 17;
+var lhd_date_hh = 17;
+var lhd_date_ampm = "p.m.";
+</script>
+
+	<script>
+// AdTech adgroupid header
+var curDateTime = new Date();
+var offset = -(curDateTime.getTimezoneOffset());
+if (offset > 0) { offset = "+" + offset; }
+window.adgroupid = Math.round(Math.random() * 1000);
+
+// AdTech dynamic ad tagging
+var adtech_kw = [];
+var adtech_kw_unique = [];
+var adtech_kw_unique_tl = [];
+var adtech_key = '';
+var adtech_str = '';
+
+var adtech_kw_str = '';
+var adtech_kw_str_log = '';
+var adtech_pg_type = '';
+var http_host = 'thetimesweekly.com';
+var current_url = '/news/2016/feb/09/taft-school-district-90-superintendent-taking-lead/';
+var site_domain = 'thetimesweekly.com';
+
+
+
+	
+		adtech_pg_type = "Story";
+		
+		
+			adtech_kw[0] = 'campus';
+		
+		
+		
+			adtech_kw[1] = 'lockport';
+			adtech_kw[2] = 'news';
+			
+			
+		
+	
+
+
+// Filter out duplicates		//adtech_kw_unique = adtech_kw.slice(0);
+adtech_kw_unique = adtech_kw.filter(function(elem, pos) {
+    return adtech_kw.indexOf(elem) == pos;
+});
+
+
+// Cat array elements into one string
+for (i = 0; adtech_kw_unique.length > i; i++) {
+	adtech_kw_unique_tl[i] = adtech_kw_unique[i].replace(/\/.*/, '');
+	adtech_kw_unique[i] = adtech_kw_unique[i].replace(/.*\//g, '');
+	adtech_kw_str += '+' + adtech_kw_unique[i];
+}
+
+// Filter out duplicates		//adtech_kw_unique = adtech_kw.slice(0);
+adtech_kw_unique = adtech_kw_unique.filter(function(elem, pos) {
+    return adtech_kw_unique.indexOf(elem) == pos;
+});
+
+adtech_kw_str = adtech_kw_str.substr(1);
+adtech_kw_str_log = adtech_kw_str.replace(/\+/g, ', ');
+
+
+
+
+	
+		adtech_key = 'campus';
+	
+
+
+if (adtech_key.length == 0) { 
+	adtech_key = "ros";
+}
+
+// reconstruct adtech_str to look like: {"comunidad":"lhdlatino.com"}
+adtech_str = '{"' + adtech_key + '":"' + adtech_key + '"}';
+
+
+
+if (window.console) {
+	console.log('AdTech Page Type: ' + adtech_pg_type);
+	console.log('AdTech Keywords: ' + adtech_kw_str);
+	console.log('AdTech Key/Val (mobile): ' + adtech_key);
+	//console.log('AdTech Keywords [display]: ' + adtech_kw_str_log);
+	console.log('AdTech Keywords[TL]: ' + adtech_kw_unique_tl);
+}
+</script>
+
+	<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-HTKJ5NTRWkG1u",
+labels:"African American"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-HTKJ5NTRWkG1u.gif?labels=African+American" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+	<!-- Begin comScore Tag --><script>var _comscore = _comscore || []; _comscore.push({ c1: "2", c2: "15230264" }); (function() { var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s, el); })(); </script><!-- End comScore Tag -->
+
+	
+  <script type="text/javascript" src="http://psf.pointroll.com/pointroll/script/psf.js"></script>
+  
+  <script src="http://epmgaa.media.lionheartdms.com/static/common/scripts/jquery.easing.1.3.min.js"></script>
+  
+  <script src=" http://i.cdn.turner.com/cnn/.element/js/2.0/video/savp/affiliate/modules/cnnVodModule.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var STATIC_MEDIA_URL = 'http://epmgaa.media.lionheartdms.com/static/';
+  </script>
+  
+  <script type="text/javascript" src="http://google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="http://epmgaa.media.lionheartdms.com/static/ellington_defaults/2.3.0/min.js"></script>
+  
+  <script type="text/javascript" src="http://epmgaa.media.lionheartdms.com/static/ellington_defaults/2.3.0/javascript/thirdparty/wmd.js"></script>
+  <script type="text/javascript" src="http://epmgaa.media.lionheartdms.com/static/ellington_defaults/2.3.0/javascript/onload.js"></script>
+
+    <!--slider script -->
+    <script src="http://epmgaa.media.lionheartdms.com/static/common/scripts/jquery.anythingslider.js"></script>
+    <script>
+        // DOM Ready
+        $(function(){
+            $('#slider').anythingSlider();
+        });
+    </script>
+    <!-- AnythingSlider initialization -->
+
+    <script src="http://epmgaa.media.lionheartdms.com/static/common/scripts/jquery.Scroller-1.0.min.js"></script>
+
+    <script type="text/javascript">
+	<!--
+	$(document).ready(function() {
+
+		/*
+			All possible values for options...
+
+			velocity: 		from 1 to 99 								[default is 50]
+			direction: 		'horizontal' or 'vertical' 					[default is 'horizontal']
+			startfrom: 		'left' or 'right' for horizontal direction 	[default is 'right']
+							'top' or 'bottom' for vertical direction	[default is 'bottom']
+			loop:			from 1 to n+, or set 'infinite'				[default is 'infinite']
+			movetype:		'linear' or 'pingpong'						[default is 'linear']
+			onmouseover:	'play' or 'pause'							[default is 'pause']
+			onmouseout:		'play' or 'pause'							[default is 'play']
+			onstartup: 		'play' or 'pause'							[default is 'play']
+			cursor: 		'pointer' or any other CSS style			[default is 'pointer']
+		*/
+
+
+		//create a vertical scroller...
+		$('.vertical_scroller').SetScroller({
+			velocity: 40,
+			direction: 'vertical' ,
+		 	loop: 'infinite',
+
+		});
+
+	});
+	//-->
+	</script>
+
+<script type="text/javascript" src="http://epmgaa.media.lionheartdms.com/static/common/scripts/ui_tabber.js"></script>
+
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<script>
+	$(document).ready(function() {
+		if (lhd_date_yyyy == 2014 && lhd_date_mm == 12 && lhd_date_dd >= 16 && lhd_date_dd <= 23 && current_url == '/'){
+			$("#main_container").addClass("buick_wallpaper_active");
+			$("#buick_link").show();
+		}
+	});
+</script>
+
+
+	    <!-- GLOBAL_SCRIPTS -->
+
+
+	<!-- AA Platform -->
+	
+	<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5273ed5e3f68d85f"></script>
+	
+	
+	<!-- Hispanic Platform -->
+	
+	
+	<!-- Senior Platform -->
+	
+
+
+
+
+
+
+	<script src="http://a.postrelease.com/serve/load.js?async=true"></script>
+	<!-- Pinterest Widget -->
+	<script type="text/javascript" async defer  data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('._blank').each(function() {
+			$(this).attr('target','_blank');
+		})
+	})
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://epmgaa.media.lionheartdms.com/static/ellington_defaults/javascript/swfobject.js"></script>
+<script type="text/javascript" src="http://epmgaa.media.lionheartdms.com/static/ellington_defaults/javascript/flash.js"></script>
+<script type="text/javascript" src="http://epmgaa.media.lionheartdms.com/static/ellington_defaults/javascript/audioplayer.js"></script>
+
+
+
+
+	<!-- AA GLOBAL -->
+	<script> (function() { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://play.nglmedia.com/player/player-javascript.php?player_id=71'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })(); </script>
+
+
+
+<!--
+Exelate:
+AA:			ADEEF5A
+Hispanic:	AD77E80
+Senior:		ADD8198
+-->
+
+<script>
+var EllingtonPlatform = "";
+var ExelatePlatformID = "";
+var ExelateImgStr = "";
+
+
+	EllingtonPlatform = "epmgaa";
+	ExelatePlatformID = "AD77E80";
+
+
+ExelateImgStr = '<img src="http://loadus.exelator.com/load/?lb=' + ExelatePlatformID + '&j=0" style="height:0;width:0;display:inline;box-shadow:none!important;border:none!important">';
+
+$(document).ready(function() {
+	$('#lhd_footer').before(ExelateImgStr);
+})
+</script>
+
+
+
+
+
+
+
+		
+	<script type="text/javascript" src="http://epmgaa.media.lionheartdms.com/static/_global/galleria_classic/galleria-1.2.5.min.js"></script>
+	<link rel="stylesheet" href="http://epmgaa.media.lionheartdms.com/static/_global/galleria_classic/galleria.classic.css">
+	<script src="http://epmgaa.media.lionheartdms.com/static/_global/galleria_classic/galleria.classic.js"></script>
+
+	    
+<!-- ga_universal v3 -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-42581495-21', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+
+ga('create', 'UA-43200412-2', 'auto', {'name': 'masterProfile'});
+ga('masterProfile.require', 'displayfeatures');
+ga('masterProfile.send', 'pageview');
+
+
+
+
+
+
+
+	
+
+
+</script>
+
+		<script src="//static.getclicky.com/js"></script>
+<script>try{ clicky.init(100632794); }catch(e){}</script>
+
+	    
+	    <script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+		}
+		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	    
+	    <link type="application/rss+xml" rel="alternate" href="/rss/headlines/">
+	    <meta name="viewport" content="width=1020">
+	    
+	</head>
+
+<body class="" id="">
+
+
+
+
+	<div id="adblock_1x1_ad_1">
+		<div id="adblock_1x1_ad_1_inner">
+			
+			<!--JavaScript Tag // Tag for network 5417: epmg360.com // Website: thetimesweekly.com // Page: Dynamic ROS // Placement: thetimesweekly_Dynamic_ROS_1x1_HEAD (3102078) // created at: Feb 20, 2014 1:22:17 PM-->
+			<script language="javascript">
+			<!--
+			var curDateTime = new Date(); 
+			var offset = -(curDateTime.getTimezoneOffset()); 
+			if (offset > 0) { offset = "+" + offset; }
+	
+			if (window.adgroupid == undefined) {
+				window.adgroupid = Math.round(Math.random() * 1000);
+			}
+			document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5417.1/3102078/0/16/ADTECH;loc=100;target=_blank;alias=;key=' + adtech_kw_str + ';grp='+window.adgroupid+';misc='+new Date().getTime()+';aduho='+offset+'"></scri'+'pt>');
+			//-->
+			</script><noscript><a href="http://adserver.adtechus.com/adlink/3.0/5417.1/3102078/0/16/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" target="_blank"><img src="http://adserver.adtechus.com/adserv/3.0/5417.1/3102078/0/16/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" border="0" width="1" height="1"></a></noscript>
+			<!-- End of JavaScript Tag -->
+			
+		</div>
+	</div>
+	
+	
+	<div id="main_container" >
+	
+	
+
+    <div id="main_container_inner" style="background-color: #fff; width:970px; margin: 0 auto; position: relative; box-shadow: 0px 0px 10px rgba(0,0,0,.7);">
+
+	
+	<div id="adblock_header_ad_1">
+		<div id="adblock_header_ad_1_inner">
+			
+			<!--JavaScript Tag // Tag for network 5417: epmg360.com // Website: thetimesweekly.com // Page: Dynamic ROS // Placement: thetimesweekly_Dynamic_ROS_ATF_728x90 (3102075) // created at: Feb 20, 2014 1:22:17 PM-->
+			<script language="javascript">
+			<!--
+			var curDateTime = new Date(); 
+			var offset = -(curDateTime.getTimezoneOffset()); 
+			if (offset > 0) { offset = "+" + offset; }
+	
+			if (window.adgroupid == undefined) {
+				window.adgroupid = Math.round(Math.random() * 1000);
+			}
+			document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5417.1/3102075/0/225/ADTECH;loc=100;target=_blank;alias=;key=' + adtech_kw_str + ';grp='+window.adgroupid+';misc='+new Date().getTime()+';aduho='+offset+'"></scri'+'pt>');
+			//-->
+			</script><noscript><a href="http://adserver.adtechus.com/adlink/3.0/5417.1/3102075/0/225/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" target="_blank"><img src="http://adserver.adtechus.com/adserv/3.0/5417.1/3102075/0/225/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" border="0" width="728" height="90"></a></noscript>
+			<!-- End of JavaScript Tag -->
+			
+		</div>
+	</div>
+    
+     
+        <div id="nav_bar">
+            <div class="col940 center">
+                
+					
+					    <div>
+					        <ul class="left">
+					            <li>5:21 p.m. Wed, Feb. 17th</li>
+					            
+					            <li id="google_translate"><div id="google_translate_element"></div></li>
+					        </ul>
+					        <ul class="right">
+								<li><a href="/events/submit/">Submit an Event</a></li>
+								<li><a href="/videos/">Videos</a></li>
+					            <li><a href="/about/">About Us</a></li>
+					            <li><a href="/contact-us/">Contact Us</a></li>
+					            
+					            <li><a href="/accounts/login/?next=/news/2016/feb/09/taft-school-district-90-superintendent-taking-lead/">Sign in</a></li>
+					            
+					        </ul>
+					    </div>
+					
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+    
+
+	
+	    <header>
+	        <div class="col940 center">
+	            <div class="left">
+	                <a href="/"><img src="http://epmgaa.media.lionheartdms.com/static/thetimesweekly.com/images/logo_main.png" alt="" /></a>
+	            </div>
+	            <div class="right" id="search-top">
+	                 
+	                    <form action="/search/" method="get" autocomplete="off" id="frmSearchTop">
+	                        <input id="qtop" type="text" autocomplete="off" size="30" name="q"  value="Search The Times Weekly" class="left" onfocus="if(this.value=='Search The Times Weekly')this.value = '';" onblur="if(this.value=='')this.value = 'Search The Times Weekly';">
+	                        <input class="searchbtn" type="submit" value="" alt="Search" name="submit" class="left" >
+	                        <!-- <input type="text" name="q" value=""><button type="submit" class="right">Search</button> -->
+	                    </form>
+	                
+	                <div class="clear"></div>
+	            </div>
+	        </div>
+	        <div class="clear"></div>
+	    </header>
+	
+
+	
+	    <div id="nav">
+	        <div class="wrapper">
+	        
+	            <ul>
+	                <li><a href="/">Home</a>
+                    <li><a href="/news/news/">News</a>
+	                    <ul>
+	                        <li><a href="/news/opinion/">Opinion</a></li>
+                            <li><a href="/news/government/">Government</a></li>
+	                    </ul>
+	                </li>
+                    <li><a href="/news/crime/">Crime</a></li>
+	                <li><a href="/news/business/">Business</a></li>
+	                <li><a href="/news/entertainment/">Entertainment</a>
+	                    <ul>
+	                        <li><a href="/news/entertainment/entertainment-news/">News</a></li>
+	                        <li><a href="/news/entertainment/movies/">Movies</a></li>
+	                        <li><a href="/news/entertainment/tv/">TV</a></li>
+	                        <li><a href="/news/entertainment/dvd-releases/">DVD Releases</a></li>
+	                    </ul>
+	                </li>
+	                <li><a href="/news/food-wine/">Food &amp; Wine</a>
+	                    <ul>
+	                        <li><a href="/news/food-wine/the-wide-world-of-wine/">The Wide World of Wine</a></li>
+	                        <li><a href="/news/food-wine/recipes/">Recipes</a></li>
+	                        <li><a href="/news/food-wine/dining/">Dining</a></li>
+	                    </ul>
+	                </li>
+	                <li>
+	                	<a href="/news/health/">Health</a>
+	                    <ul>
+	                        <li><a href="/news/our-environment/">Our Environment</a></li>
+	                    </ul>	
+	                </li>
+	                
+	                
+	                <li><a href="/news/living/">Living</a>
+	                    <ul>
+	                        <li><a href="/news/living/church/">Church</a></li>
+	                        <li><a href="/news/living/auto/">Auto</a></li>
+	                        <li><a href="/news/living/books/">Books</a></li>
+	                        <li><a href="/news/living/pets/">Pets</a></li>
+	                        <li><a href="/news/living/ask-alma/">Ask Alma</a></li>
+	                    </ul>
+	                </li>
+	                <li><a href="/news/sports/">Sports</a></li>
+	                <li><a href="/news/campus/">Campus</a> </li>
+	                <li><a href="/news/classifieds/">Classifieds</a></li>
+	                <li><a href="/news/black-experience/">Black Experience</a></li>
+	            </ul>
+	        
+	        <div class="clear"></div>
+	        </div>
+	    </div>
+	    <div class="clear"></div>
+	    <div class="nav_sub">
+	        <ul>
+	            <li><a href="/news/joliet/">Joliet</a></li>
+	            <li><a href="/news/crest-hill/">Crest Hill</a></li>
+	            <li><a href="/news/lockport/">Lockport</a></li>
+	            <li><a href="/news/new-lenox/">New Lenox</a></li>
+	            <li><a href="/news/romeoville/">Romeoville</a></li>
+	            <li><a href="/news/bolingbrook/">Bolingbrook</a></li>
+	            <li><a href="/news/shorewood/">Shorewood</a></li>
+	            <li><a href="/news/plainfield/">Plainfield</a></li>
+	            <li><a href="/news/homer-glen/">Homer Glen</a></li>
+	            <li><a href="/news/will-country/">Will County</a></li>                
+	            <li><a href="/news/state/">State</a></li>
+	            <li><a href="/news/national/">National</a></li>
+	         </ul>
+	        <div class="clear"></div>
+	    </div>
+	    <div class="clear"></div>
+	
+
+	<div id="adblock_1x1_ad_2">
+		<div id="adblock_1x1_ad_2_inner">
+			
+			<!--JavaScript Tag // Tag for network 5417: epmg360.com // Website: thetimesweekly.com // Page: Dynamic ROS // Placement: thetimesweekly_Dynamic_ROS_1x1_NAV (3102079) // created at: Feb 20, 2014 1:22:17 PM-->
+			<script language="javascript">
+			<!--
+			var curDateTime = new Date(); 
+			var offset = -(curDateTime.getTimezoneOffset()); 
+			if (offset > 0) { offset = "+" + offset; }
+	
+			if (window.adgroupid == undefined) {
+				window.adgroupid = Math.round(Math.random() * 1000);
+			}
+			document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5417.1/3102079/0/16/ADTECH;loc=100;target=_blank;alias=;key=' + adtech_kw_str + ';grp='+window.adgroupid+';misc='+new Date().getTime()+';aduho='+offset+'"></scri'+'pt>');
+			//-->
+			</script><noscript><a href="http://adserver.adtechus.com/adlink/3.0/5417.1/3102079/0/16/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" target="_blank"><img src="http://adserver.adtechus.com/adserv/3.0/5417.1/3102079/0/16/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" border="0" width="1" height="1"></a></noscript>
+			<!-- End of JavaScript Tag -->
+			
+		</div>
+	</div>
+
+
+<div id="container">
+    
+
+
+  
+    <div id="body">
+        
+            
+                
+            
+
+            
+                <div class="content_title">
+                    
+	
+
+                </div>
+            
+
+            
+            
+
+            
+                
+
+                
+
+                <div class="content">
+                    
+
+                    
+                        
+                        
+                        
+                    
+                    
+                    
+	<!--<script>$(document).ready(function() { $("a.zoom").fancybox(); });</script>-->
+
+	<!-- for fb like plugin-->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- for fb like plugin-->
+
+    <div class="article">
+        <div class="content-holder">
+			<h2>Taft School District 90 superintendent taking lead role at Orland School District 135  </h2>
+			<h4></h4>
+			<h6><!--
+							bylines allv3 = '[]'
+							bylines0= ''
+							bylines id= ''
+							bylines slug= ''
+							byline one_off =''
+						-->
+
+				
+
+				2/9/2016, 10:01 a.m.  | Updated on 2/10/2016, 8:58 a.m.
+			</h6>
+			
+			
+			<div class="lead-photo marB20 left">
+				<a href="http://epmgaa.media.lionheartdms.com/img/photos/2016/02/09/skogsberg_t750x550.jpg?626c74b6d570df44fd02ecca30244159e005ff34" class="zoom"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2016/02/09/skogsberg_t580.jpg?6b5a8256ea9d40d51e7e604659cffd9fde3a3970" alt="Skogsberg, who came to the district in 2012, will take over as superintendent in Orland Park for the 2016/2017 school ..." title="Skogsberg, who came to the district in 2012, will take over as superintendent in Orland Park for the 2016/2017 school ..." class="center"></a>
+			
+				
+					<div class="photocaption">
+						Taft School District 90 Superintendent Dr. D.J. Skogsberg will be taking the lead role in Orland Park District 135 next year.
+						
+						<span class="photocredit">
+							
+							
+							Submitted photo
+							
+							
+						</span>
+					</div>
+				
+			
+			</div>
+			<div class="clear"></div>
+			
+
+			<div id="social_sharing">
+				<div id="addthis"><div class="addthis_sharing_toolbox"></div></div>
+				
+			</div>
+			
+			<div style="margin-top:6px">
+				<div class="content-area" style="float:right; display:inline;">
+					<p>Taft School District 90 Superintendent Dr. D.J. Skogsberg has been named the new superintendent for the Orland Park School District.</p>
+
+<p>Skogsberg, who game to District 90 in 2012 from Orland Park, will take over as superintendent for the school district for the 2016/2017 school year.</p>
+
+<p>“Dr. Skogsberg has done all that the board has asked him to do to move us forward for the benefit of our children,” said Taft School Board President Tony Peloso of Skogsberg’s 4-year tenure.</p>
+
+<p>“We hate to see him go,” said Peloso adding that the board would begin its search for a new superintendent.</p>
+
+<p>Skogsberg’s contract was set to expire at the end of the 2015-2016 school year and declined a 1-year extension in the spring of 2015.<br/></p>
+
+<p>Skogsberg admitted that he was, “a bit taken aback” when he was first approached about returning to the Orland Park School District where he served as Assistant Director of Curriculum, Instruction and Assessment from 2010-2012.  The district includes 10 schools with a population of around 5,000 students.</p>
+
+<p>Skogsberg credited his time “in Orland Park as a leader in the curriculum department” as helping him to gain the necessary experience to take on the role of superintendent at Taft.</p>
+
+<p>“To be asked to return is humbling and I’m grateful to the members of both school boards for the opportunities to work with the students, parents, and staff.”<br/></p>
+
+<p>“I will miss working at Taft and I look forward to reconnecting with the Orland Park learning community,” said Skogsberg.</p>
+					
+					
+				</div>
+				
+                <div style="float:left;display:inline;width:130px;">
+                
+                    <div class="related_list">
+        				
+                        
+                        
+                        <!-- no related_content -->
+                        
+                    </div>
+
+                    <div class="clear"></div>
+
+                </div>
+				
+                <div class="clear"></div>
+                
+            </div>
+            
+            <div class="clear"></div>
+            
+        </div>
+
+         <div class="marT20">
+         	<div id="fb-root"></div>
+            <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=275575972490903";
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <div class="fb-comments" data-href="http://thetimesweekly.com/news/2016/feb/09/taft-school-district-90-superintendent-taking-lead/" data-num-posts="5" data-width="620"></div>
+        </div>
+
+    </div>
+
+
+                    
+                        
+                        
+                        
+                    
+                </div>
+            
+
+            
+                <div class="sidebar">
+                    
+                    
+					<div id="adblock_sidebar_ad_1">
+						<div id="adblock_sidebar_ad_1_inner">
+							
+							<!--JavaScript Tag // Tag for network 5417: epmg360.com // Website: thetimesweekly.com // Page: Dynamic ROS // Placement: thetimesweekly_Dynamic_ROS_ATF_300x250 (3102074) // created at: Feb 20, 2014 1:22:17 PM-->
+							<script language="javascript">
+							<!--
+							var curDateTime = new Date(); 
+							var offset = -(curDateTime.getTimezoneOffset()); 
+							if (offset > 0) { offset = "+" + offset; }
+					
+							if (window.adgroupid == undefined) {
+								window.adgroupid = Math.round(Math.random() * 1000);
+							}
+							document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5417.1/3102074/0/170/ADTECH;loc=100;target=_blank;alias=;key=' + adtech_kw_str + ';grp='+window.adgroupid+';misc='+new Date().getTime()+';aduho='+offset+'"></scri'+'pt>');
+							//-->
+							</script><noscript><a href="http://adserver.adtechus.com/adlink/3.0/5417.1/3102074/0/170/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" target="_blank"><img src="http://adserver.adtechus.com/adserv/3.0/5417.1/3102074/0/170/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" border="0" width="300" height="250"></a></noscript>
+							<!-- End of JavaScript Tag -->
+							
+						</div>
+					</div>
+
+					
+
+
+					
+					<article class="marB30">
+						<h2>Featured Videos</h2>
+						
+
+	
+
+		
+
+			<iframe id="playnglmedia-player" src="http://play.nglmedia.com/player/videoplayer.php?player_id=387" width="300" height="372" frameBorder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+
+		
+
+	
+
+
+					</article>
+					
+					<div id="adblock_sidebar_ad_2">
+						<div id="adblock_sidebar_ad_2_inner">
+							
+							<!--JavaScript Tag // Tag for network 5417: epmg360.com // Website: thetimesweekly.com // Page: Dynamic ROS // Placement: thetimesweekly_Dynamic_ROS_BTF_300x250 (3102077) // created at: Feb 20, 2014 1:22:17 PM-->
+							<script language="javascript">
+							<!--
+							var curDateTime = new Date(); 
+							var offset = -(curDateTime.getTimezoneOffset()); 
+							if (offset > 0) { offset = "+" + offset; }
+					
+							if (window.adgroupid == undefined) {
+								window.adgroupid = Math.round(Math.random() * 1000);
+							}
+							document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5417.1/3102077/0/170/ADTECH;loc=100;target=_blank;alias=;key=' + adtech_kw_str + ';grp='+window.adgroupid+';misc='+new Date().getTime()+';aduho='+offset+'"></scri'+'pt>');
+							//-->
+							</script><noscript><a href="http://adserver.adtechus.com/adlink/3.0/5417.1/3102077/0/170/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" target="_blank"><img src="http://adserver.adtechus.com/adserv/3.0/5417.1/3102077/0/170/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" border="0" width="300" height="250"></a></noscript>
+							<!-- End of JavaScript Tag -->
+							
+						</div>
+					</div>
+
+                    
+                    	
+						    
+							<article class="module_box col300 most_recent marT10">
+							  <h2>Video</h2>
+							  <ul class="video-sidebar">
+							      
+							      <li>
+							          <div class="description-box">
+							              <a href="/videos/2015/sep/23/2015/" class="video_overlay">
+							              <img src="http://epmgaa.media.lionheartdms.com/img/videothumbs/2015/09/23/IMG_2152-2_r255x150.jpg?f663fc0efd296bc7a6ee86e4047f1ab5bdc009d9" alt="A portion of Richards Street was renamed for Bishop J.E. Moore, who&#39;s celebrating his 50th anniversary at Christ Temple Church in Joliet." width="255" class="left" class="pic" />
+							              <span class="zoom-icon"><img src="http://epmgaa.media.lionheartdms.com/static/common/images/video_overlay_sidebar.png" width="255" height="150" alt="Zoom"></span>
+							              </a>
+							              <div class="clear"></div>
+							              <p><a href="/videos/2015/sep/23/2015/">Honorary street naming for Bishop J.E. ...</a></p>
+							          </div>
+							      </li>
+							      
+							  </ul>
+							  <div class="clear"></div>
+							</article>
+					    
+
+	                    
+	                    
+	                    
+	                    
+
+                        <article>
+                            <h2>On the Newsstand</h2>
+                            	
+                            	<a href="http://visitor.r20.constantcontact.com/d.jsp?llr=apc8ztrab&p=oi&m=1118429874656&sit=zalkrjbjb&f=8cc5c82f-5e4c-4b88-b0b7-0ada191aa28b"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2016/02/10/digital2_11_16front.jpg" alt="" /></a>
+                        </article>
+						<br>
+
+						<!--<a href="http://visitor.r20.constantcontact.com/d.jsp?llr=apc8ztrab&p=oi&m=1118429874656&sit=zalkrjbjb&f=8cc5c82f-5e4c-4b88-b0b7-0ada191aa28b" class="lhd_button lhd_button_300bold" target="_blank">Subscribe to E-News</a>-->
+
+						<!-- BEGIN: Constant Contact Email List Form Button --><div align="center"><a href="http://visitor.r20.constantcontact.com/d.jsp?llr=apc8ztrab&p=oi&m=1118429874656&sit=zalkrjbjb&f=8cc5c82f-5e4c-4b88-b0b7-0ada191aa28b" class="button" style="border: 1px solid rgb(91, 91, 91); color: rgb(0, 0, 0); display: inline-block; width: 273px; padding: 8px 10px; text-shadow: none; background-color: rgb(232, 232, 232);">Subscribe to E-News</a><!-- BEGIN: Email Marketing you can trust --><div id="ctct_button_footer" align="center" style="font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#999999;margin-top: 10px;">For Email Marketing you can trust.</div></div>
+
+                        <br><br>						
+						<a href="http://old.thetimesweekly.com/" target="_blank" class="lhd_button lhd_button_300bold">Articles Before July 2013</a>
+						<br><br>
+						<a href="http://old.thetimesweekly.com/archive/archive.html" class="lhd_button lhd_button_300bold" target="_blank">View Archive Issues</a>
+						<br><br>
+						<a href="http://thetimesweekly.com/events/submit/" class="lhd_button lhd_button_300bold">Submit an Event</a>
+						<br><br>
+						
+						<article class="module_box">
+							<a href="/events/"><h2>Upcoming Events</h2></a>
+							
+							
+							
+							
+								<div class="sidebar_events_upcoming">
+								
+									<div class="sidebar_events_upcoming_row">
+									
+										<div class="sidebar_events_upcoming_date">
+											<div class="sidebar_events_upcoming_date_inner">
+												<div class="sidebar_events_upcoming_date_day">17</div>
+												<div class="sidebar_events_upcoming_date_mon">Feb</div>
+												<div class="sidebar_events_upcoming_date_year">2016</div>
+											</div>
+										</div>
+										
+										<div class="sidebar_events_upcoming_info">
+											<div class="sidebar_events_upcoming_info_title"><a href="/events/ongoing/7115/">Will County Mobile Workforce Center stops</a></div>
+											<div class="sidebar_events_upcoming_info_place">300 W. Briarcliff, Bolingbrook, and 15025 S. Illinois St., Plainfield</div>
+											<div class="sidebar_events_upcoming_info_from">From 9:30 a.m. to noon</div>
+										</div>
+                                        
+										<div class="clear"></div>
+									</div>
+								</div>
+							
+								<div class="sidebar_events_upcoming">
+								
+									<div class="sidebar_events_upcoming_row">
+									
+										<div class="sidebar_events_upcoming_date">
+											<div class="sidebar_events_upcoming_date_inner">
+												<div class="sidebar_events_upcoming_date_day">17</div>
+												<div class="sidebar_events_upcoming_date_mon">Feb</div>
+												<div class="sidebar_events_upcoming_date_year">2016</div>
+											</div>
+										</div>
+										
+										<div class="sidebar_events_upcoming_info">
+											<div class="sidebar_events_upcoming_info_title"><a href="/events/ongoing/7115/">Will County Mobile Workforce Center stops</a></div>
+											<div class="sidebar_events_upcoming_info_place">300 W. Briarcliff, Bolingbrook, and 15025 S. Illinois St., Plainfield</div>
+											<div class="sidebar_events_upcoming_info_from">From 1 p.m. to 3:30 p.m.</div>
+										</div>
+                                        
+										<div class="clear"></div>
+									</div>
+								</div>
+							
+								<div class="sidebar_events_upcoming">
+								
+									<div class="sidebar_events_upcoming_row">
+									
+										<div class="sidebar_events_upcoming_date">
+											<div class="sidebar_events_upcoming_date_inner">
+												<div class="sidebar_events_upcoming_date_day">18</div>
+												<div class="sidebar_events_upcoming_date_mon">Feb</div>
+												<div class="sidebar_events_upcoming_date_year">2016</div>
+											</div>
+										</div>
+										
+										<div class="sidebar_events_upcoming_info">
+											<div class="sidebar_events_upcoming_info_title"><a href="/events/ongoing/4051/">Ignite your prayer </a></div>
+											<div class="sidebar_events_upcoming_info_place">824 W. Jefferson St., Joliet</div>
+											<div class="sidebar_events_upcoming_info_from">From 11:57 a.m.</div>
+										</div>
+                                        
+										<div class="clear"></div>
+									</div>
+								</div>
+							
+								<div class="sidebar_events_upcoming">
+								
+									<div class="sidebar_events_upcoming_row">
+									
+										<div class="sidebar_events_upcoming_date">
+											<div class="sidebar_events_upcoming_date_inner">
+												<div class="sidebar_events_upcoming_date_day">21</div>
+												<div class="sidebar_events_upcoming_date_mon">Feb</div>
+												<div class="sidebar_events_upcoming_date_year">2016</div>
+											</div>
+										</div>
+										
+										<div class="sidebar_events_upcoming_info">
+											<div class="sidebar_events_upcoming_info_title"><a href="/events/ongoing/4051/">Ignite your prayer </a></div>
+											<div class="sidebar_events_upcoming_info_place">824 W. Jefferson St., Joliet</div>
+											<div class="sidebar_events_upcoming_info_from">From 11:57 a.m.</div>
+										</div>
+                                        
+										<div class="clear"></div>
+									</div>
+								</div>
+							
+								<div class="sidebar_events_upcoming">
+								
+									<div class="sidebar_events_upcoming_row">
+									
+										<div class="sidebar_events_upcoming_date">
+											<div class="sidebar_events_upcoming_date_inner">
+												<div class="sidebar_events_upcoming_date_day">22</div>
+												<div class="sidebar_events_upcoming_date_mon">Feb</div>
+												<div class="sidebar_events_upcoming_date_year">2016</div>
+											</div>
+										</div>
+										
+										<div class="sidebar_events_upcoming_info">
+											<div class="sidebar_events_upcoming_info_title"><a href="/events/ongoing/7115/">Will County Mobile Workforce Center stops</a></div>
+											<div class="sidebar_events_upcoming_info_place">300 W. Briarcliff, Bolingbrook, and 15025 S. Illinois St., Plainfield</div>
+											<div class="sidebar_events_upcoming_info_from">From 9:30 a.m. to noon</div>
+										</div>
+                                        
+										<div class="clear"></div>
+									</div>
+								</div>
+							
+								<div class="sidebar_events_upcoming">
+								
+									<div class="sidebar_events_upcoming_row">
+									
+										<div class="sidebar_events_upcoming_date">
+											<div class="sidebar_events_upcoming_date_inner">
+												<div class="sidebar_events_upcoming_date_day">22</div>
+												<div class="sidebar_events_upcoming_date_mon">Feb</div>
+												<div class="sidebar_events_upcoming_date_year">2016</div>
+											</div>
+										</div>
+										
+										<div class="sidebar_events_upcoming_info">
+											<div class="sidebar_events_upcoming_info_title"><a href="/events/ongoing/7115/">Will County Mobile Workforce Center stops</a></div>
+											<div class="sidebar_events_upcoming_info_place">300 W. Briarcliff, Bolingbrook, and 15025 S. Illinois St., Plainfield</div>
+											<div class="sidebar_events_upcoming_info_from">From 1 p.m. to 3:30 p.m.</div>
+										</div>
+                                        
+										<div class="clear"></div>
+									</div>
+								</div>
+							
+								<div class="sidebar_events_upcoming">
+								
+									<div class="sidebar_events_upcoming_row">
+									
+										<div class="sidebar_events_upcoming_date">
+											<div class="sidebar_events_upcoming_date_inner">
+												<div class="sidebar_events_upcoming_date_day">2</div>
+												<div class="sidebar_events_upcoming_date_mon">Jan</div>
+												<div class="sidebar_events_upcoming_date_year">2017</div>
+											</div>
+										</div>
+										
+										<div class="sidebar_events_upcoming_info">
+											<div class="sidebar_events_upcoming_info_title"><a href="/events/2017/jan/02/8149/">BUCKLE UP &amp; DRIVE SOBER</a></div>
+											<div class="sidebar_events_upcoming_info_place">Plainfield IL</div>
+											<div class="sidebar_events_upcoming_info_from">From 1 a.m. to 11:59 p.m.</div>
+										</div>
+                                        
+										<div class="clear"></div>
+									</div>
+								</div>
+							
+						
+                        <a href="/events/"><h3 style="margin-left: 50px;">Click for more events</h3></a>
+                        
+						</article>
+					
+
+                    <div class="clear"></div>
+
+                    <div class="marT10">
+					    <article class="marT20 marB20">
+					        <h2>Social Media</h2>
+					        <ul class="tabs">
+					            <li><a href="#tab1">Facebook</a></li>
+					            <li><a href="#tab2">Twitter</a></li>
+					        </ul>
+					        <div class="module_box tab_container marB20">
+					            <div id="tab1" class="tab_content">
+					            <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FTheTimesWeekly&amp;width=300&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:590px; background: white; " allowTransparency="true"></iframe>
+					            </div>
+					            
+					            <div id="tab2" class="tab_content">
+                                	<a class="twitter-timeline" href="https://twitter.com/TheTimesWeekly1" width="300" data-widget-id="421753558728310784">Tweets by @TheTimesWeekly1</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					            </div>
+					        </div>
+					        <div class="clear"></div>
+					    </article>
+                    </div>
+                    
+                    <div id="adblock_sidebar_ad_3">
+						<div id="adblock_sidebar_ad_3_inner">
+							<!--JavaScript Tag // Tag for network 5417: epmg360.com // Website: thetimesweekly.com // Page: Dynamic ROS // Placement: thetimesweekly_Dynamic_ROS_BTF_BUICK_300x250 (3398331) // created at: Nov 17, 2014 3:02:47 PM-->
+							<script language="javascript">
+							<!--
+							var curDateTime = new Date(); 
+							var offset = -(curDateTime.getTimezoneOffset()); 
+							if (offset > 0) { offset = "+" + offset; }
+							
+							if (window.adgroupid == undefined) {
+								window.adgroupid = Math.round(Math.random() * 1000);
+							}
+							document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5417.1/3398331/0/170/ADTECH;loc=100;target=_blank;alias=;key=' + adtech_kw_str + ';grp='+window.adgroupid+';misc='+new Date().getTime()+';aduho='+offset+'"></scri'+'pt>');
+							//-->
+							</script><noscript><a href="http://adserver.adtechus.com/adlink/3.0/5417.1/3398331/0/170/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" target="_blank"><img src="http://adserver.adtechus.com/adserv/3.0/5417.1/3398331/0/170/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" border="0" width="300" height="250"></a></noscript>
+							<!-- End of JavaScript Tag -->
+						</div>
+					</div>
+
+
+                    <div class="clear"></div>
+
+					
+						<!--<br>
+					     <article class="module_box col300 most_recent marT20">
+					        <h2>Latest News</h2>
+					        
+						        <ul class="sidebar_most_recent">
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/17/joliet-township-high-school-parents-demand-more-di/">Joliet Township High School parents demand more diversity among staff</a></h3>
+    <div>
+        
+	    <div class="sidebar_most_recent_tease">The impending retirement of a dean at Joliet Township High School’s Central Campus has some parents, community members and at ...</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/17/mcguire-urges-governor-keep-his-promise-college-st/">McGuire urges governor to keep his promise to college students</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/17/mcguire-urges-governor-keep-his-promise-college-st/"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2015/05/27/pmcguire2_r134x110.jpg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">With dozens of students and other higher education supporters gathered for support, Senate Democrats delivered to the governor today legislation ...</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/17/explosion-video-gaming/">Explosion of video gaming</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/17/explosion-video-gaming/"><img src="http://epmgaa.media.lionheartdms.com/img/croppedphotos/2016/02/17/WAYNE_r134x110.jpg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">The recent announcement out of the Peoria area regarding Par-A-Dice casino personnel layoffs may not surprise many people but it ...</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/17/new-joliet-contract-freezes-wages-locks-health-cos/">New Joliet contract freezes wages, locks in health costs to 2030</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/17/new-joliet-contract-freezes-wages-locks-health-cos/"><img src="http://epmgaa.media.lionheartdms.com/img/croppedphotos/2014/07/09/bus_Contracts-300x210_r134x110.jpg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">Under a new contract approved Tuesday night, new union employees in Joliet will be required to live in the city ...</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/17/police-blotter-feb-16-2016/">Police blotter Feb. 16, 2016</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/17/police-blotter-feb-16-2016/"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2015/11/29/CRIME_REPORT_2_t580_r134x110.jpg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">Arrests made by local law enforcement and booked in to the Will County Jail.</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/16/bertino-tarrant-satellite-hours-joliet/">Bertino-Tarrant satellite hours in Joliet</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/16/bertino-tarrant-satellite-hours-joliet/"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2015/04/21/stateEducators_sought_Jennifer_Bertino-Tarrant_r134x110.jpg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">State Sen. Jennifer Bertino-Tarrant (D-Shorewood) will be holding satellite office hours in Joliet next week.</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/16/bertino-tarrant-hold-satellite-office-hours-joliet/">Bertino-Tarrant to hold satellite office hours in Joliet</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/16/bertino-tarrant-hold-satellite-office-hours-joliet/"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2015/04/21/stateEducators_sought_Jennifer_Bertino-Tarrant_r134x110.jpg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">State Senator Jennifer Bertino-Tarrant will meet with her constituents next week at the Black Road Library.</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/16/chicagoland-speedway-celebrating-15th-anniversary/">Chicagoland Speedway celebrating 15th anniversary</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/16/chicagoland-speedway-celebrating-15th-anniversary/"><img src="http://epmgaa.media.lionheartdms.com/img/croppedphotos/2016/02/16/sportsCHICAGOLAND_SPEEDWAY_CELEBRATES_15th_ANNIVERSARY_SEASON_r134x110.jpg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">Special Announcements and Opportunities for Ticket Holders Featured Throughout the 2016 Season</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/16/district-202-considering-custodial-staff-outsourci/">District 202 considering custodial staff outsourcing</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/16/district-202-considering-custodial-staff-outsourci/"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2014/09/02/dist_202_r134x110.jpeg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">District 202 in Plainfield said it will consider outsourcing its custodial staff as part of its ongoing push to cut ...</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/16/will-county-voters-can-cast-early-primary-ballots-/">Will County voters can cast early primary ballots through March 14</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/16/will-county-voters-can-cast-early-primary-ballots-/"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2015/03/23/Vote-Button_r134x110.jpe?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">Voters can cast their ballot early from now until March 14 at various locations around Will County including some places ...</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/15/state-museum-lockport-could-re-open-under-rauners-/">State Museum in Lockport could re-open under Rauner&#39;s plan</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/15/state-museum-lockport-could-re-open-under-rauners-/"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2015/07/23/main.php_r134x110.jpeg?825898cd2d4473e420df4307ea30fec006e24f59" alt="When the state removed all of the artwork from the Illinois State Museum’s Lockport Gallery because of the ongoing state budget impasse, Mayor Steve Streit asked residents to donate items for display. " ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">Closed since October, the Lockport Gallery State Museum location could re-open soon if a plan by the Governor is approved ...</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/15/troy-school-district-30-c-kindergarten-registratio/">Troy School District 30-C kindergarten registration begins in March</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/15/troy-school-district-30-c-kindergarten-registratio/"><img src="http://epmgaa.media.lionheartdms.com/img/croppedphotos/2015/07/22/campusNew_school_year_Kindergarteners_begin_full_day_r134x110.jpg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">Students must be 5-years old on or before September 1, 2016 in order to register.</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/15/joliet-twp-high-school-hosting-african-american-re/">Joliet Twp High School hosting African American read-in February 18</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/15/joliet-twp-high-school-hosting-african-american-re/"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2014/11/14/jths_crest_r134x110.png?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">For the second year, Joliet Township High School will hold an event celebrating African American authors.</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/15/district-202-exploring-outsourcing-custodial-servi/">District 202 exploring outsourcing custodial services to cut costs</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/15/district-202-exploring-outsourcing-custodial-servi/"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2014/09/02/dist_202_r134x110.jpeg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">Plainfield School District 202 could outsource its custodial staff as part of a cost cutting measure that will be considered ...</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+										
+
+<li>
+    <h3><a href="/news/2016/feb/15/plainfield-custodians-fight-plan-outsource-jobs/">Plainfield custodians to fight plan to outsource jobs</a></h3>
+    <div>
+        
+	        <div class="sidebar_most_recent_img">
+		        <a href="/news/2016/feb/15/plainfield-custodians-fight-plan-outsource-jobs/"><img src="http://epmgaa.media.lionheartdms.com/img/photos/2014/09/02/dist_202_r134x110.jpeg?825898cd2d4473e420df4307ea30fec006e24f59" alt="" ></a>
+		    </div>
+	    
+	    <div class="sidebar_most_recent_tease">Custodial staff positions could be outsourced under a plan being considered by Plainfield School District 202.</div>
+	    <div class="clear"></div>
+    </div>
+</li>
+						            
+						        </ul>
+					        <div class="clear"></div>
+					     </article>-->
+					
+
+                    <div class="clear"></div>
+
+                    
+                        <div class="twitter_module">
+
+                        </div>
+
+                        
+                        
+
+                        
+
+
+                    
+                    <div class="clear"></div>
+                </div>
+                
+            
+
+
+            <div class="clear"></div>
+
+        </div>
+    
+    <div class="clear"></div>
+    
+	<div id="adblock_footer_ad_1">
+		<div id="adblock_footer_ad_1_inner">
+			
+			<!--JavaScript Tag // Tag for network 5417: epmg360.com // Website: thetimesweekly.com // Page: Dynamic ROS // Placement: thetimesweekly_Dynamic_ROS_BTF_728x90 (3102076) // created at: Feb 20, 2014 1:22:17 PM-->
+			<script language="javascript">
+			<!--
+			var curDateTime = new Date(); 
+			var offset = -(curDateTime.getTimezoneOffset()); 
+			if (offset > 0) { offset = "+" + offset; }
+	
+			if (window.adgroupid == undefined) {
+				window.adgroupid = Math.round(Math.random() * 1000);
+			}
+			document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5417.1/3102076/0/225/ADTECH;loc=100;target=_blank;alias=;key=' + adtech_kw_str + ';grp='+window.adgroupid+';misc='+new Date().getTime()+';aduho='+offset+'"></scri'+'pt>');
+			//-->
+			</script><noscript><a href="http://adserver.adtechus.com/adlink/3.0/5417.1/3102076/0/225/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" target="_blank"><img src="http://adserver.adtechus.com/adserv/3.0/5417.1/3102076/0/225/ADTECH;loc=300;alias=;key=key1+key2+key3+key4;misc=" border="0" width="728" height="90"></a></noscript>
+			<!-- End of JavaScript Tag -->
+			
+		</div>
+	</div>
+
+    <div class="clear"></div>
+    <style>#redirect_footer { display: none; width: 120px; margin: 0 auto; font-size: 13px; }</style>
+
+<div id="redirect_footer"></div>
+
+</div></div></div>
+
+
+
+<div class="clear"></div>
+
+
+    <footer>
+        <div class="col940 marT20 marB20 center">
+            
+                
+            
+			
+			    <div class="foot_sections left marR20">
+			        <h2 class="heading">Sections</h2>
+			        <ul>
+			            <li><a href="/news/news/">News</a></li>
+			            <li><a href="/news/business/">Business</a></li>
+			            <li><a href="/news/opinion/">Opinion</a></li>
+			            <li><a href="/news/health/">Health</a> </li>
+			            <li><a href="/news/entertainment/">Entertainment</a></li>
+			            <li><a href="/news/food-wine/">Food &amp; Wine</a></li>
+			            <li><a href="/news/living/">Living</a></li>
+			        	<li><a href="/news/sports/">Sports</a></li>
+			            <li><a href="/news/campus/">Campus</a> </li>
+			        </ul>
+			    </div>
+			    <div class="col300 left">
+			        <h2 class="heading">Contact Us</h2>
+			        <ul>
+			            <li>Publisher: <a href="mailto:jcain@thetimesweekly.com" class="contact">jcain@thetimesweekly.com</a></li>
+			            <li>Advertising: <a href="mailto:tarchibald@thetimesweekly.com" class="contact">tarchibald@thetimesweekly.com</a></li>
+			            <li>Legal Notices: <a href="mailto:legals@thetimesweekly.com" class="contact">legals@thetimesweekly.com</a></li>
+                        <li>News Tips/Press Releases Karen Sorensen: <a href="mailto:editor@thetimesweekly.com" class="contact">editor@thetimesweekly.com</a></li>
+                        <li><a href="mailto:timesweekly@sbcglobal.net" class="contact">timesweekly@sbcglobal.net</a></li>
+			            <li>Circulation: <a href="mailto:info@thetimesweekly.com" class="contact">info@thetimesweekly.com</a></li>
+			            <li>General Inquiries: <a href="mailto:info@thetimesweekly.com" class="contact">info@thetimesweekly.com</a></li>
+			        </ul>
+                    
+			    </div>
+			
+
+            <div class="col300 right">
+				
+				    <h2 class="heading">The Times Weekly Inc.</h2>
+				    254 East Cass Street<br>
+				    Joliet, IL 60432<br><br>
+				    (815) 723-0325
+				    <br><br>
+				    <div class="marT20">
+				        <div class="social_icons_v2">
+	<ul class="social-icons">
+	    <li><a href="https://www.facebook.com/TheTimesWeekly" class="social_icons_v2_facebook" target="_blank" title="Facebook"></a></li>
+	    <li><a href="https://www.twitter.com/TheTimesWeekly1" class="social_icons_v2_twitter" target="_blank" title="Twitter"></a></li>
+	    
+	    
+	    <li><a href="http://www.youtube.com/user/timesweeklyinc" class="social_icons_v2_youtube" target="_blank" title="YouTube"></a></li>
+	    <li><a href="http://www.pinterest.com/timesweekly" class="social_icons_v2_pinterest" target="_blank" title="Pinterest"></a></li>
+	</ul>
+</div>
+				    </div>
+				
+            </div>
+
+            <div class="clear"></div>
+        </div>
+            
+
+        <div class="clear"></div>
+
+        <div id="lhd_footer">
+	<div id="lhd_footer_server">
+		
+	</div>
+
+	
+		<div id="lhd_footer_inner">
+			<div id="lhd_footer_left">
+				<span>&copy; 2016 The Times Weekly, All rights reserved.</span>
+			</div>
+
+			<div id="lhd_footer_center">
+				Powered by <a href="http://www.lionheartdigital.com/" target="_blank"><img src="http://epmgaa.media.lionheartdms.com/static/_global/_images/lionheart_logo_footer.png"></a>
+			</div>
+
+			<div id="lhd_footer_right">
+				
+					<a href="/privacy-policy/">Privacy Policy</a>
+				
+			</div>
+		</div>
+	
+</div> 
+        
+        <div class="clear"></div>
+    </footer>
+    
+
+
+
+
+
+</body>
+</html>

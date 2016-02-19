@@ -1,0 +1,1625 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+ <title>Cherokee Tribune - Five set to gain induction into Cherokee County Sports Hall of Fame</title> 
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta property="og:title" content="Five set to gain induction into Cherokee County Sports Hall of Fame - The Cherokee County Sports Hall of Fame announced its 14th class of inductees Thursday. The class includes former Sequoyah standout Adam Benton Sequoyah softball coach Todd Morr..."/>
+ <meta property="og:type" content="article"/>
+   <meta property="og:image" content="http://matchbin-assets.s3.amazonaws.com/public/sites/625/thumbs/3AYN_rgbCCSHOF_Logob.jpg"/>
+
+  <meta name="keywords" content="Breaking, News, News, classifieds, businesses, realestate, photos, Canton, Georgia" /> 
+     <meta name="description" content="Five set to gain induction into Cherokee County Sports Hall of Fame - The Cherokee County Sports Hall of Fame announced its 14th class of inductees Thursday. The class includes former Sequoyah standout Adam Benton Sequoyah softball coach Todd Morr..."> 
+<link id="default_facebook_image" rel="image_src" href="http://matchbin-assets.s3.amazonaws.com/public/sites/625/thumbs/3AYN_rgbCCSHOF_Logob.jpg" />
+
+
+<link href="http://uber-assets.solesolution.com/templates/publication_pods/stylesheets/global-cssball.css" media="all" rel="stylesheet" type="text/css" />            <link href="http://uber-assets.solesolution.com/sites/625/stylesheets/cherokeetribune.com.css" media="all" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/javascripts/jsball.js"></script>
+
+
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<!-- <script type="text/javascript" charset="utf-8" src="http://cherokeetribune.com/sites/625/assets/jquery1.js" -->
+<script type="text/javascript" charset="utf-8" src="http://cherokeetribune.com/sites/625/assets/peel.js"></script>
+
+<style>
+.calendar thead .weekend { 
+  color: #EB6508;
+}
+.calendar tbody td.weekend { 
+  color: #EB6508;
+}
+.calendar tbody td.selected { 
+  background: #F6F6F6;
+  color: #0000ff;
+}
+
+/*********breaking bar stuff ***************/
+#breaking_box .image_img {
+  height: 42px;
+  height: expression("42px");
+  padding-top: 5px;
+  padding-left: 185px;
+  padding-right: 25px;
+
+}
+
+#breaking_box .story_item_content {
+  visibility: hidden;
+}
+
+#breaking_box .story_item_info {
+  visibility: hidden;
+}
+
+#breaking_box .story_item_headline {
+  font-size: 20px;
+  font-family: arial;
+  padding-top: 15px;
+  /*padding-left: 170px;*/
+
+}
+
+#breaking_box .story_item_headline a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+/*#breaking_box .object {*/
+/*height: 0px;*/
+/*visibility: hidden;*/
+
+/*}*/
+
+/*#breaking_box .video_caption {/*
+/*  visibility: hidden;/*
+/*}/*
+
+
+/**********promos bar stuff**************/
+
+.promos {
+  height: 0px;
+  /*visibility: hidden;*/
+}
+
+.leaderboards {
+background-color: #ffffff;
+width: 960px;
+height: 110px;
+margin-left: auto;
+margin-right: auto;
+}
+</style>
+
+<script type="text/javascript" src="http://img.video.ap.org/p/j/apovn.js "></script>
+
+<link rel="stylesheet"
+   type="text/css"
+   media="print" href="http://mdjwebcontent.com/mdj/print.css" />
+
+
+<div id="content_container" align="left">	<div>
+	<script>
+	function toggleSearch(which) {
+		if (which!='archives'){
+			$A($('pt1_search_element_bar').childNodes).each(function(element) {
+				if(element.tagName == 'DIV') {
+					element.style.display = 'none'
+				}
+			})
+		
+			$('pt1_search_' + which).style.display = 'block'
+			$('pt1_search_element_select').style.display = 'block'
+		
+			$('pt1_search_dropdown').value = which
+		}else{
+			window.location = "http://nl.newsbank.com/sites/ctga/";
+		}
+	}
+
+	function initSearch() {
+		var pages = [
+			/* Default page */
+			[/\/$/, 'content'],
+			/* Others */
+			[/\/results_content/, 'content'],
+			[/\/business_directory/, 'businesses'],
+			[/\/business_details/, 'businesses'],
+			[/\/results_businesses/, 'businesses'],
+			[/\/events/, 'events'],
+			[/klass=event/, 'events'],
+			[/klass=profile/, 'profiles'],
+			[/\/my_profiles/, 'profiles']
+		]
+
+		var which_search = 'content'
+
+		pages.each(function(element) {
+			if(document.URL.search(element[0]) != -1) { which_search = element[1] }
+		})
+
+		toggleSearch(which_search)
+		
+		/* Do a little cascading initializing */
+		/*initWeather()*/
+		initMenu();
+
+	}
+
+	function initWeather() {
+		if(!$('xml_feed_data_weather_weather')) { return false }
+
+		/* Weather widget location */
+		var x = (Position.getPageSize().window.width / 2) + 150
+		var y = 7
+	
+		document.body.appendChild(Builder.node('div', { id:'rendered_weather' }, ''))
+		$('rendered_weather').appendChild(Builder.node('div', { id:'rendered_weather_icon' }, ' '))
+		$('rendered_weather').appendChild(Builder.node('div', { id:'rendered_weather_label' }, ''))
+		$('rendered_weather_label').appendChild(Builder.node('span', { id:'rendered_weather_label_temperature' }, $('xml_feed_data_weather_temp_f').value + '°'))
+		$('rendered_weather_label').appendChild(Builder.node('span', { id:'rendered_weather_label_conditions' }, $('xml_feed_data_weather_weather').value))
+		$('rendered_weather').appendChild(Builder.node('a', { id:'rendered_weather_link', href:$('xml_feed_weather_more_info').value, target:'_NEW', className:'link' }, 'more'))
+
+		w = $('xml_feed_data_weather_weather').value
+		c = $('rendered_weather_icon')
+
+		if(w.search(/Cloud|Overcast|Fog|Smoke|Haze/) != -1) { c.className = 'weatherCloudyIcon' }
+		if(w.search('Snow') != -1) { c.className = 'weatherSnowIcon' }
+		if(w.search(/Fair|Clear/) != -1) { c.className = 'weatherClearIcon' }
+		if(w.search('Thunder') != -1) { c.className = 'weatherThunderIcon' }
+		if(w.search(/Ice|Hail/) != -1) { c.className = 'weatherThunderShowersIcon' }
+		if(w.search(/Showers|Drizzle/) != -1) { c.className = 'weatherShowersIcon' }
+		if(w.search('Rain') != -1) { c.className = 'weatherRainIcon' }
+	
+		$('rendered_weather').style.left = x
+		$('rendered_weather').style.top = y
+	}
+	
+	function toggleMenu(which) {
+		$A($('pt1_main_menu').childNodes).each(function(element) {
+			if(element.className == 'pt1_item_active') {
+				element.className = 'pt1_item'
+			}
+		})
+		
+		$A($('pt1_sub_menu').childNodes).each(function(element) {
+			if(element.className == 'pt1_menu_group') {
+				element.style.display = 'none'
+			}
+		})
+		
+		$(which).className = 'pt1_item_active'
+		$(which + '_group').style.display = 'block'
+	}
+	
+	function initMenu() {
+		startDate();
+		var pages = [
+			/* Default page */
+			[/\/$/, 'home'],
+			/* Others */
+			[/\/account/, 'my_content'],
+			[/\/ad_details/, 'classifieds'],
+			[/\/autos/, 'autos'],
+			[/\/blogs/, 'community'],
+			[/\/browse/, 'classifieds'],
+			[/\/browse_by_category/, 'classifieds'],
+			[/\/business.*/, 'businesses'],
+			[/\/business_directory/, 'business_directory'],
+			[/\/calendar/, 'community'],
+			[/\/catalogue/, 'publication'],
+			[/\/chat/, 'my_content'],
+			[/\/cherokeelegal/, 'legals'],
+			[/\/classifieds/, 'classifieds'],
+			[/\/cobblegal/, 'legals'],
+			[/\/cobblinc/, 'cobblinc'],
+                        [/\/community/, 'community'],
+			[/\/clone_ad/, 'classifieds'],
+			[/\/contact_us/, 'contact_us'],
+			[/\/edit_ad/, 'classifieds'],
+			[/\/edit_fob_profile/, 'my_content'],
+			[/\/edit_print_ad/, 'classifieds'],
+			[/\/edit_profile/, 'my_content'],
+			[/\/events/, 'community'],
+			[/\/feedback/, 'community'],
+			[/\/full_story/, 'home'],
+			[/\/home/, 'home'],
+			[/\/legals/, 'legals'],
+			[/\/matchbin/, 'publication'],
+			[/\/matchbinfaq/, 'publication'],
+			[/\/mdj_.*/, 'multimedia'],
+			[/\/multimedia/, 'multimedia'],
+			[/\/my_.*/, 'my_content'],
+			[/\/national.*/, 'national'],
+			[/\/news.*/, 'home'],
+			[/\/news_obituaries/, 'community'],
+			[/\/photos/, 'community'],
+			[/\/purchase/, 'publication'],
+			[/\/real_estate/, 'real_estate'],
+			[/\/recommend_ad/, 'classifieds'],
+			[/\/reprints/, 'multimedia'],
+			[/\/respond/, 'classifieds'],
+			[/\/results/, 'classifieds'],
+			[/\/results_businesses/, 'businesses'],
+			[/\/results_content/, 'home'],
+			[/\/rss/, 'rss'],
+			[/\/signup/, 'classifieds'],
+			[/\/special_sections/, 'special'],
+			[/\/sports/, 'sports'],
+			[/\/simple_signup/, 'classifieds'],
+			[/\/stories/, 'community'],
+			[/\/submitphoto/, 'multimedia'],
+			[/\/subscriber/, 'subscriber'],
+			[/\/support/, 'publication'],
+			[/\/upgrade/, 'publication'],
+			[/\/user_details/, 'community'],
+			[/\/view_blog/, 'community'],
+			[/\/view_fob/, 'community'],
+			[/\/welcome/, 'community']
+		]
+
+		var which_page = 'home'
+
+		pages.each(function(element) {
+			if(document.URL.search(element[0]) != -1) { which_page = element[1] }
+		})
+
+		toggleMenu('main_menu_' + which_page)
+
+		//$('pt1_content_container').onmouseover = function() {
+		//	toggleMenu(eval('main_menu_' + which_page).id)
+		//}
+		
+		$A($('pt1_main_menu').childNodes).each(function(element) {
+			if(element.className == 'pt1_item' || element.className == 'pt1_item_active') {
+				element.onmouseover = function() {
+					toggleMenu(element.id)
+				}
+			}
+		})
+	}
+
+
+
+function showBreaking(){
+
+	if ($$('#breaking_news div.story_item_content')[0]){
+		document.getElementById('promos').style.visibility = 'hidden';
+		document.getElementById('promos').style.height = '0px';
+		document.getElementById('breaking_news').style.visibility = 'visible';
+		document.getElementById('breaking_news').style.height = '52px';
+	}else{
+		document.getElementById('breaking_news').style.visibility = 'hidden';
+		document.getElementById('breaking_news').style.height = '0px';
+		document.getElementById('promos').style.visibility = 'hidden';
+		document.getElementById('promos').style.height = '0px';
+	}
+
+}
+
+
+function showMessage(){
+	alert("Attention E-edition users: \r\n\r\n On December 15, 2009, we will upgrade our E-edition software.  Print and E-edition subscribers will be prompted to create a unique username and password.  A daily E-edition link will also be delivered to your inbox each morning at 6 AM.  We apologize for any temporary inconvenience.  If you have any questions, please contact our circulation department at 770 795.5000.");
+}
+
+
+function detectBrowser(){
+	var isIE6 = /msie|MSIE 6/.test(navigator.userAgent); 
+	if ((isIE6==false))
+ 	 {
+
+ 	 }
+	else
+ 	 {
+  	alert("Please note: You are attempting to view our new website with Internet Explorer 6. The site WILL NOT DISPLAY OR FUNCTION CORRECTLY unless you upgrade to Internet Explorer 7 or 8, available at www.microsoft.com, or use an alternative browser such as Firefox.");
+ 	 }
+}
+
+function sortMenu(i){
+	if (i==1){
+                new Ajax.Updater('sortcontainer', '/pages/sort_mostread', {asynchronous:true, evalScripts:true});
+		document.read.src='/sites/624/assets/2011_btn_mostread_on.png';
+		document.commented.src='/sites/624/assets/2011_btn_mostcommented.png';
+		document.suggested.src='/sites/624/assets/2011_btn_mostsuggested.png';
+	}else if (i==2){
+                new Ajax.Updater('sortcontainer', '/pages/sort_mostcommented', {asynchronous:true, evalScripts:true});
+		document.read.src='/sites/624/assets/2011_btn_mostread.png';
+		document.commented.src='/sites/624/assets/2011_btn_mostcommented_on.png';
+		document.suggested.src='/sites/624/assets/2011_btn_mostsuggested.png';
+	}else if (i==3){
+                new Ajax.Updater('sortcontainer', '/pages/sort_mostsuggested', {asynchronous:true, evalScripts:true});
+		document.read.src='/sites/624/assets/2011_btn_mostread.png';
+		document.commented.src='/sites/624/assets/2011_btn_mostcommented.png';
+		document.suggested.src='/sites/624/assets/2011_btn_mostsuggested_on.png';
+	}
+}
+
+function gasBuddy(i){
+	if (i==1){
+		new Ajax.Updater('gasbuddycontainer', '/pages/gasbuddy', {asynchronous:true, evalScripts:true});
+		window.location.reload();
+		document.gas.src='/sites/624/assets/2011_gas_on.png';
+		document.traffic.src='/sites/624/assets/2011_traffic_off.png';
+
+	}else{
+		new Ajax.Updater('gasbuddycontainer', '/pages/traffic', {asynchronous:true, evalScripts:true});
+		document.gas.src='/sites/624/assets/2011_gas_off.png';
+		document.traffic.src='/sites/624/assets/2011_traffic_on.png';
+
+	}
+}
+
+
+function handleSendPhotoClick(){
+	window.open('https://contest.mdjonline.com/email_bak.php','','resizable=no,scrollbars=yes,width=400,height=600');
+}
+
+
+function getNewSchool(i,p,l,t){
+	window.location = "/pages/sp_al?header=prepsheader_" + i + "&pillowtop=" + p + "&pillowbot=" + p + "&leaderboardtop=" + l + "&leaderboardbot=" + l + "&tt=" + t + "&tag=preps_" + i + "_football";
+
+}
+
+function hiThere(i) {
+	alert('hi there');
+}
+
+
+function whichSport(i){
+	var currentSport = [];
+	currentSport[0] = "_football";
+	currentSport[1] = "_baseball";
+	currentSport[3] = "_basketball_girls";
+	currentSport[4] = "_basketball_boys";
+	currentSport[5] = "_cross_country";
+	currentSport[6] = "_golf_girls";
+	currentSport[7] = "_golf_boys";
+	currentSport[8] = "_gymnastics";
+	currentSport[9] = "_lacrosse_girls";
+	currentSport[10] = "_lacrosse_boys";
+	currentSport[11] = "_soccer_girls";
+	currentSport[12] = "_soccer_boys";
+	currentSport[13] = "_softball";
+	currentSport[14] = "_swimming";
+	currentSport[15] = "_tennis_girls";
+	currentSport[16] = "_tennis_boys";
+	currentSport[19] = "_track";
+	currentSport[17] = "_volleyball";
+	currentSport[18] = "_wrestling";
+	var currentUrl = window.location.toString();
+	for(a=0; a<20; a++){
+
+		if (currentUrl.match(currentSport[a])){
+			currentUrl = currentUrl.replace(currentSport[a],i);
+			window.location = currentUrl;
+		}else{
+		
+		}	
+	}
+
+}
+
+function myMenuHover(i){
+
+	document[i].src='/sites/624/assets/2011btn_' + i + '_press.png';
+
+}
+
+function myMenuOut(i){
+
+	document[i].src='/sites/624/assets/2011btn_' + i + '_off.png';
+
+}
+
+function startDate(){
+var mydate=new Date();
+var year=mydate.getYear();
+var day=mydate.getDay();
+var month=mydate.getMonth();
+var daym=mydate.getDate();
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+if (year < 1000){
+	year+=1900;
+}
+
+if (daym<10){
+	daym="0"+daym;
+}
+var showDate=dayarray[day]+", "+montharray[month]+" "+daym+", "+year;
+
+document.getElementById('dateline').textContent=showDate;
+document.getElementById('dateline').innerText=showDate;
+}
+
+</script>
+</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-13030327-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript" charset="utf-8" src="http://uber-analytics.solesolution.com/javascripts/analytics.js?v=3"></script></head>
+
+<body marginheight=0 topmargin=0 marginwidth=0 leftmargin=0 onload="startDate();">
+	<div class="leaderboards">
+		<div style="float:left; width:728px; height:90px; padding: 10px 6px 0px 0px;">
+			<div id="content_container" align="left">	<div>
+	<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://www.mdjadmaster.com/www/delivery/ajs.php':'http://www.mdjadmaster.com/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=333&block=1");
+   document.write ('&;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&;charset='+document.charset : (document.characterSet ? '&;charset='+document.characterSet : ''));
+   document.write ("&;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://www.mdjadmaster.com/www/delivery/ck.php?n=a68f94b1&;cb=12985637864738' target='_blank'><img src='http://www.mdjadmaster.com/www/delivery/avw.php?zoneid=2&;cb=12985637864738&;n=a68f94b1' border='0' alt='' /></a></noscript>
+
+</div>
+</div>
+		</div>
+		<div style="float:left; width:220px; height:90px; padding: 10px 0px 0px 6px;">
+			<div id="content_container" align="left">	<div>
+	<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://www.mdjadmaster.com/www/delivery/ajs.php':'http://www.mdjadmaster.com/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=335&block=1");
+   document.write ('&;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&;charset='+document.charset : (document.characterSet ? '&;charset='+document.characterSet : ''));
+   document.write ("&;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://www.mdjadmaster.com/www/delivery/ck.php?n=a68f94b1&;cb=12985637864738' target='_blank'><img src='http://www.mdjadmaster.com/www/delivery/avw.php?zoneid=2&;cb=12985637864738&;n=a68f94b1' border='0' alt='' /></a></noscript>
+
+</div>
+</div>
+		</div>
+	</div>
+<div id="pt1_page">
+
+	<div id="content_container" align="left">	<div>
+	<div class="topmenu">
+	<table cellspacing=0 cellpadding=0 border=0 width="960" align="center">
+		<tr>
+			<td width="99%">&nbsp;</td>
+			<td align="right"><div class="pt1_login_controls" style="width: 110px;"><a href="http://mdjwebcontent.com/mdj/09tctContactUs.pdf" target="_blank">contact us</a></div></td>
+			<td align="right"><div class="pt1_login_controls" style="width: 160px;"><a href="/pages/tempgraph_full" target="_blank">subscriber services</a></div></td>
+			<td align="right"><div id="pt1_login_controls" style="width: 160px;"><a href="/pages/digital"><font color="red"><b>digital sign in</b></font></a></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>
+        </div>
+<!-- new head graphics -->
+	<div class="headercolor"><div id="content_container" align="left">	<div>
+	<style>
+.datetext {
+	font-family: verdana;
+	font-size: 10pt;
+	font-weight: bold;
+        color: #888888;
+	float: left;
+	position: relative;
+	left: 119px;
+	top: 85px;
+}
+
+
+ .clicksubscribe {
+		background-image:url('/sites/625/assets/2012btn_sub.png');
+		width:66px;
+		height:25px;
+		position: relative;
+		left: 105px;
+		top: 22px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		float: left;  
+		}
+
+ .clickread {
+		background-image:url('/sites/624/assets/2011btn_eedition.png');
+		width:85px;
+		height:30px;
+		position: relative;
+		left: 135px;
+		top: 22px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		float: left;
+		}
+
+ .clickkindle {
+		background-image:url('/sites/624/assets/2011btn_kindle.png');
+		width:82px;
+		height:27px;
+		position: relative;
+		left: 167px;
+		top: 22px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		float: left;
+		}
+
+ .clickplacead {
+		background-image:url('/sites/624/assets/2011btn_place_ad2.png');
+		width:49px;
+		height:25px;
+		position: relative;
+		left: 168px;
+		top: 22px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		float: left;
+		}
+
+ .clicksubmit{
+		background-image:url('/sites/624/assets/2011btn_submit.png');
+		width:60px;
+		height:27px;
+		position: relative;
+		left: 208px;
+		top: 22px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		float: left;
+		}
+ .clicktwit {
+		background-image:url('/sites/624/assets/2011btn_twitter.png');
+		width:35px;
+		height:35px;
+		position: relative;
+		left: -60px;
+		top: 69px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		float: left;
+		}
+ .clickface {
+		background-image:url('/sites/624/assets/2011btn_facebook.png');
+		width:35px;
+		height:35px;
+		position: relative;
+		left: -60px;
+		top: 69px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		float: left;
+		}
+ .clickrss {
+		background-image:url('/sites/624/assets/2011btn_rss.png');
+		width:35px;
+		height:35px;
+		position: relative;
+		left: -60px;
+		top: 69px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		float: left;
+		}
+
+ .clickemail {
+		background-image:url('/sites/624/assets/2011btn_email.png');
+		width:35px;
+		height:35px;
+		position: relative;
+		left: -60px;
+		top: 69px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		float: left;
+		}
+
+.clickhome {
+		width: 340px;
+		height: 105px;
+		position: relative;
+		left: 0px;
+		top: 0px;
+		float: left;
+		cursor: pointer;
+		}
+
+
+</style>
+
+		<a href="/pages/home"><div class="clickhome">
+                <div id="dateline" class="datetext"></div>
+		</div></a>
+		<a href="/pages/tempgraph_full" target="_blank"><div class="clicksubscribe"><div style="padding-left: 80px;"><img src="/sites/1433/assets/2011menu_sep.png"></div></div></a>
+		<a href="http://cherokeetribune.ga.newsmemory.com/" target="_blank"><div class="clickread"><div style="padding-left: 100px;"><img src="/sites/1433/assets/2011menu_sep.png"></div></div></a>
+		<a href="https://marietta.onlineads.advpubtech.com/placead"><div class="clickplacead"><div style="padding-left: 65px;"><img src="/sites/1433/assets/2011menu_sep.png"></div></div></a>
+		<a href="mailto:pix@mdjonline.com"><div class="clicksubmit"></div></a>
+		<a href="http://twitter.com/cherokeetribune" target="_blank"><div class="clicktwit"></div></a>
+		<a href="http://www.facebook.com/cherokeetribune" target="_blank"><div class="clickface"></div></a>
+		<a href="/pages/rss"><div class="clickrss"></div></a>
+		<a href="/pages/my_content"><div class="clickemail"></div></a>
+
+</div>
+</div>
+	</div>
+
+<!-- main menu -->
+	<div id="pt1_header">
+	<div id="content_menu_container" align="left">	<div>
+	<div id="pt1_menu">
+	<div id="pt1_main_menu">
+		<div id="main_menu_home" class="pt1_item" ><a href="/" onMouseOver="myMenuHover('news');" onMouseOut="myMenuOut('news');"><img name="news" src="/sites/624/assets/2011btn_news_off.png"></a></div>
+		<div id="main_menu_sports"  class="pt1_item"><a href="/pages/sports_legacy?leaderboardtop=172&leaderboardbot=171&pillowtop=381&pillowbot=169&box=342&tt=168" onMouseOver="myMenuHover('sports');" onMouseOut="myMenuOut('sports');"><img name="sports" src="/sites/624/assets/2011btn_sports_off.png"></a></div>
+		<div id="main_menu_editorial" class="pt1_item"><a href="/pages/news_editorial?leaderboardtop=138&leaderboardbot=137&pillowtop=375&pillowbot=135&box=343&tt=134" onMouseOver="myMenuHover('editorial');" onMouseOut="myMenuOut('editorial');"><img name="editorial" src="/sites/624/assets/2011btn_editorial_off.png"></a></div>
+                <div id="main_menu_obituaries" class="pt1_item"><a href="/pages/news_obits?leaderboardtop=167&leaderboardbot=166" onMouseOver="myMenuHover('obituaries');" onMouseOut="myMenuOut('obituaries');"><img name="obituaries" src="/sites/624/assets/2011btn_obituaries_off.png"></a></div>
+		<div id="main_menu_multimedia" class="pt1_item"><a href="http://cherokeetribune.mycapture.com/mycapture/index.asp" onMouseOver="myMenuHover('multimedia');" onMouseOut="myMenuOut('multimedia');"><img name="multimedia" src="/sites/624/assets/2011btn_multimedia_off.png"></a></div>
+                <div id="main_menu_legals" class="pt1_item"><a href="https://marietta.onlineads.advpubtech.com/showads/section/Legal-10475/?pub=Cherokee+Tribune" target="_blank" onMouseOver="myMenuHover('legals');" onMouseOut="myMenuOut('legals');"><img name="legals" src="/sites/624/assets/2011btn_legals_off.png"></a></div>
+		<div id="main_menu_classifieds" class="pt1_item"><a href="https://marietta.onlineads.advpubtech.com/showads" target="_blank" onMouseOver="myMenuHover('classifieds');" onMouseOut="myMenuOut('classifieds');"><img name="classifieds" src="/sites/624/assets/2011btn_classifieds_off.png"></a></div>
+                <div id="main_menu_jobs" class="pt1_item"><a href="https://marietta.onlineads.advpubtech.com/showads/section/Employment-10473" target="_blank" onMouseOver="myMenuHover('jobs');" onMouseOut="myMenuOut('jobs');"><img name="jobs" src="/sites/624/assets/2011btn_jobs_off.png"></a></div>
+                <!--<div id="main_menu_gacar" class="pt1_item"><a href="http://gacarsource.com" target="_blank" onMouseOver="myMenuHover('gacar');" onMouseOut="myMenuOut('gacar');"><img name="gacar" src="/sites/624/assets/2011btn_gacar_off.png"></a></div>-->
+		<div class="newline"></div>
+	</div>
+	<div id="pt1_sub_menu">
+		<div id="main_menu_home_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"><a href="/pages/news_local?leaderboardtop=159&leaderboardbot=158&pillowtop=379&pillowbot=156&box=338&tt=155">local news</a></div>
+			<div class="pt1_item"><a href="/pages/news_lifestyle?leaderboardtop=154&leaderboardbot=153&pillowtop=378&pillowbot=151&box=337&tt=150">lifestyle</a></div>
+			<div class="pt1_item"><a href="/pages/news_state?leaderboardtop=177&leaderboardbot=176&pillowtop=382&pillowbot=174&box=341&tt=173">state/national</a></div>
+			<div class="pt1_item"><a href="/pages/news_blogs?leaderboardtop=126&leaderboardbot=127&pillowtop=373&pillowbot=124&box=339&tt=125">blogs</a></div>
+			<div class="pt1_item"><a href="http://cherokeetribune.ga.newsmemory.com/">today's cherokee tribune</a></div>
+		</div>
+		<div id="main_menu_sports_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"><a href="/pages/sports_legacy?leaderboardtop=172&leaderboardbot=171&pillowtop=381&pillowbot=169&box=342&tt=168">cherokee sports</a></div>
+			<div class="pt1_item"><a href="/pages/sp_al?header=prepsheader_cherokee&pillowtop=441&pillowbot=441&leaderboardtop=440&leaderboardbot=440&tt=335&tag=preps_cherokee_football">high school preps sports</a></div>
+			<div class="pt1_item"><a href="http://cherokeetribune.mycapture.com/mycapture/index.asp" target="_blank">reprints and photos</a></div>
+		
+		</div>
+		<div id="main_menu_editorial_group" class="pt1_menu_group" style="display: none;">
+			<!--<div class="pt1_item"><a href="/pages/news_editorial">editorials</a></div>
+			<div class="pt1_item"><a href="/pages/news_columnists">columnists</a></div>
+			<div class="pt1_item"><a href="/pages/news_letters">letters to the editor</a></div>
+			<div class="pt1_item"><a href="/pages/writeletter">write a letter</a></div>-->
+		</div>
+		<!--<div id="main_menu_classifieds_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"><a href="http://mdj.adqic.com/finder/list.html?is_favorites=false&show_photos=true&offset=0&order_by=date_created+desc&category_id=11769&filter=_RESET_SEARCH_TERMS_&limit=10">jobs</a></div>
+			<div class="pt1_item"><a href="http://mdj.adqic.com/index.adq?nwf=finder&nst=list&tr=initialize&is_favorites=false&show_photos=true&offset=0&order_by=date_created+desc&category_id=11947&filter=_RESET_SEARCH_TERMS_&limit=10">homes</a></div>
+			<div class="pt1_item"><a href="http://mdj.adqic.com/index.adq?nwf=finder&nst=list&tr=initialize&is_favorites=false&show_photos=true&offset=0&order_by=date_created+desc&category_id=11871&filter=_RESET_SEARCH_TERMS_&limit=10">stuff</a></div>
+			<div class="pt1_item"><a href="http://mdj.adqic.com/index.adq?nwf=finder&nst=list&tr=initialize&is_favorites=false&show_photos=true&offset=0&order_by=date_created+desc&category_id=all&filter=_RESET_SEARCH_TERMS_&limit=10">more</a></div>
+		</div>-->
+		<div id="main_menu_obituaries_group" class="pt1_menu_group" style="display: none;">
+		</div>
+		<div id="main_menu_cars_group" class="pt1_menu_group" style="display: none;">
+		</div>
+		<div id="main_menu_real_estate_group" class="pt1_menu_group" style="display: none;">
+		</div>
+		<div id="main_menu_jobs_group" class="pt1_menu_group" style="display: none;">
+		</div>
+		<div id="main_menu_multimedia_group" class="pt1_menu_group" style="display: none;">
+			<!--<div class="pt1_item"><a href="/pages/mdj_video">mdj videos</a></div>-->
+			<div class="pt1_item"><a href="http://cherokeetribune.mycapture.com/mycapture/index.asp">cherokee photos</a></div>
+			<div class="pt1_item"><a href="http://cherokeetribune.mycapture.com/mycapture/index.asp">photo reprints</a></div>
+		</div>
+		<div id="main_menu_community_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"><a href="/pages/photos">your photos</a></div>
+			<div class="pt1_item"><a href="/pages/stories">your stories</a></div>
+			<div class="pt1_item"><a href="https://contest.mdjonline.com/mainform1.php" target="_blank">weddings</a></div>
+			<div class="pt1_item"><a href="https://contest.mdjonline.com/mainform1.php" target="_blank">engagements</a></div>
+			<div class="pt1_item"><a href="https://contest.mdjonline.com/mainform1.php" target="_blank">anniversaries</a></div>
+			<div class="pt1_item"><a href="/pages/calendar">community calendar events</a></div>
+			<div class="pt1_item"><a href="mailto:letters@mdjonline.com">letter to the editor</a></div>
+			<div class="pt1_item"><a href="/pages/obit_disclaimer">obituary submission information</a></div>
+		</div>
+		<div id="main_menu_legals_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"><a href="https://marietta.onlineads.advpubtech.com/showads/section/Legal-10475/?pub=Cherokee+Tribune" target="_blank">cherokee legal notices</a></div>
+			<div class="pt1_item"><a href="https://marietta.onlineads.advpubtech.com/showads/section/Legal-10475/?pub=Marietta+Daily+Journal" target="_blank">cobb legal notices</a></div>
+			<div class="pt1_item"><a href="http://www.georgiapublicnotice.com/" target="_blank">georgia public notices</a></div>
+		</div>
+		<div id="main_menu_cobblinc_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"><a href="/pages/business_directory">restaurants</a></div>
+			<div class="pt1_item"><a href="/pages/business_directory">shopping</a></div>
+			<div class="pt1_item"><a href="/pages/business_directory">call an expert</a></div>
+			<div class="pt1_item"><a href="/pages/business_directory">church directory</a></div>
+			<div class="pt1_item"><a href="/pages/business_directory">more</a></div>
+		</div>
+		<div id="main_menu_rss_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"></div>
+		</div>
+		<div id="main_menu_my_content_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"></div>
+		</div>
+		<div id="main_menu_subscriber_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"><a href="/pages/about_us">about us</a></div>
+			<div class="pt1_item"><a href="/pages/contact_us">contact us</a></div>
+			<a href="/pages/purchase?widget_action=confirm_package&widget=purchase_package&package_id=4390&open=&"><div class="pt1_button">subscribe</div></a>
+		</div>
+	    <!--<div id="main_menu_contact_us_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"><a href="/pages/about_us">about us</a></div>
+		</div>
+		<div id="main_menu_rss_group" class="pt1_menu_group" style="display: none;">
+			<div class="pt1_item"><a href="/pages/contact_us">contact us</a></div>
+		</div>-->
+	</div>
+	<div class="newline"> </div>
+</div>
+</div>
+</div>
+	</div>
+
+<!-- breaking news bar -->
+
+
+
+<!-- content -->
+	<div id="pt1_content_container">
+		<div style="margin-top: 10px;">
+                <div id="content_container" align="left">	<div>
+	          <div id="pt1_search_controls">
+	    <div id="pt1_search_bar_ajax_container"><div id="content_container" align="left">	<div>
+	<div id="pt1_search_element_select" style="display: none;">
+	<select id="pt1_search_dropdown" onChange="toggleSearch(this.value)">
+		<option value="content">articles</option>
+		<option value="businesses">businesses</option>
+		<option value="events">events</option>
+                <option value="archives">archives</option>
+	</select>
+</div>
+<div id="pt1_search_element_bar">
+	<div id="pt1_search_ads" style="display: none;">
+		<div id="search_bar_ads_container" align="left">
+<form accept-charset="UTF-8" action="/pages/results_businesses/search_bar" id="search_bar_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QRkepejoLSiIzaq6kDIohRYF3ke8FsCTKd/iyj2ASsE=" /></div>
+  <input id="klass" name="klass" type="hidden" value="item service job auto property rental" />
+<input class="searchBarStringField" id="string" name="string" size="15" type="text" value="" />
+
+  <input name="commit" type="submit" value="search" />
+<input type="hidden" name="instance" value="ads" /></form></div>
+	</div>
+	<div id="pt1_search_content" style="display: none;">
+		<div id="search_content_container" align="left"><form accept-charset="UTF-8" action="/pages/results_content/search_content" id="search_content_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QRkepejoLSiIzaq6kDIohRYF3ke8FsCTKd/iyj2ASsE=" /></div>
+<input class="searchBarStringField" id="string" name="string" size="15" type="text" value="" />
+<script type="text/javascript">
+  var query_string = window.location.search;
+  var matchingParameter = query_string.match(/\Wstring\W*=[^&]*/);
+  if (matchingParameter) {
+    var pair = matchingParameter[0].split(/=/);
+    var value = pair[pair.length - 1];
+    jQuery("input[name=string]").val(value);
+  }
+</script>
+	<input name="commit" type="submit" value="search" />
+</form></div>
+	</div>
+	<div id="pt1_search_businesses" style="display: none;">
+		<div id="search_bar_businesses_container" align="left">
+<form accept-charset="UTF-8" action="/pages/results_businesses/search_bar" id="search_bar_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QRkepejoLSiIzaq6kDIohRYF3ke8FsCTKd/iyj2ASsE=" /></div>
+  <input id="klass" name="klass" type="hidden" value="business" />
+<input class="searchBarStringField" id="string" name="string" size="15" type="text" value="" />
+
+  <input name="commit" type="submit" value="search" />
+<input type="hidden" name="instance" value="businesses" /></form></div>
+	</div>
+	<div id="pt1_search_events" style="display: none;">
+		<div id="search_bar_events_container" align="left">
+<form accept-charset="UTF-8" action="/pages/results_businesses/search_bar" id="search_bar_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QRkepejoLSiIzaq6kDIohRYF3ke8FsCTKd/iyj2ASsE=" /></div>
+  <input id="klass" name="klass" type="hidden" value="event" />
+<input class="searchBarStringField" id="string" name="string" size="15" type="text" value="" />
+
+  <input name="commit" type="submit" value="search" />
+<input type="hidden" name="instance" value="events" /></form></div>
+	</div>
+	<div id="pt1_search_profiles" style="display: none;">
+		<div id="search_bar_profiles_container" align="left">
+<form accept-charset="UTF-8" action="/pages/results_businesses/search_bar" id="search_bar_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QRkepejoLSiIzaq6kDIohRYF3ke8FsCTKd/iyj2ASsE=" /></div>
+  <input id="klass" name="klass" type="hidden" value="profile" />
+<input class="searchBarStringField" id="string" name="string" size="15" type="text" value="" />
+
+  <input name="commit" type="submit" value="search" />
+<input type="hidden" name="instance" value="profiles" /></form></div>
+	</div>
+</div>
+</div>
+</div></div>
+	    </div>
+</div>
+</div>
+		<style>
+.full_story .image_img {
+	width: 250px;
+}
+
+#push_container .video_video .object {
+      	height: 175px;
+	padding-right: 20px;
+}
+
+</style>
+
+<div id="pt1_full_story">
+	
+	<div id="pt1_main_column">
+
+		<div class="pt1_pane">
+			<div class="pt1_pane_body">
+				<div id="push_container" align="left">  <div style="" class="full_story">
+    <div class="even">
+        <meta name="title" content="Five set to gain induction into Cherokee County Sports Hall of Fame" />
+<meta name="description" content="The class includes former Sequoyah standout Adam Benton, Sequoyah softball coach Todd Morrissey, Etowah’s Wayne Moss and Bryant Rogowski and Cherokee’s Cindy Richards Woody.">
+<div class="" style=""><!-- article -->
+  <div class="story_item">
+	  <div class="hnews hentry item">
+      
+		  <div class="story_item_headline entry-title">Five set to gain induction into Cherokee County Sports Hall of Fame</div>
+		  <div class="story_item_info">
+			  
+        <div class="story_item_author" >
+          by
+          <span class="author vcard">
+            <span class="fn">Alex Resnak<Br>aresnak@cherokeetribune.com</span>
+          </span>
+          
+          <span class="source-org vcard" style="display: none;">
+            <span class="org fn">Cherokee Tribune</span>
+          </span>
+        </div>
+      
+        <div class="signature_line"><span title="2016-02-05T21:58:00-06:00" class="story_item_date updated" format="full_hour">February 05, 2016 10:58 PM</span>&nbsp;|&nbsp;2526&nbsp;views&nbsp;|&nbsp;0&nbsp;<a href="/pages/full_story/push?article-Five+set+to+gain+induction+into+Cherokee+County+Sports+Hall+of+Fame%20&amp;id=27075635#comments_27075635"><img alt="0 comments" class="dont_touch_me" src="http://uber-assets.solesolution.com/images/comments-icon.gif" title="0 comments" /></a>&nbsp;|&nbsp;<span id="number_recommendations_27075635" class="number_recommendations">3</span>&nbsp;<a href="/community/content/recommend/27075635" data-remote="true" id="recommend_link_27075635-c90f" rel="nofollow"><img alt="3 recommendations" class="dont_touch_me" src="http://uber-assets.solesolution.com/images/thumbs-up-icon.gif" title="3 recommendations" /></a><script type="text/javascript">jQuery('#recommend_link_27075635-c90f').on('ajax:success', function(ev, text) { jQuery('#recommend_link_27075635-c90f').remove(); var tmp = jQuery('<div style="display:none;"/>'); jQuery('body').append(tmp); tmp.html(text); tmp.remove();})</script>&nbsp;|&nbsp;<a href="mailto:?subject=friend%20recommendation%20from%20Cherokee%20Tribune&amp;body=A%20friend%20recommended%20the%20article%20%22Five%20set%20to%20gain%20induction%20into%20Cherokee%20County%20Sports%20Hall%20of%20Fame%22%20for%20you.%20%20Read%20it%20at%20http%3A%2F%2Fcherokeetribune.com%2Fbookmark%2F27075635%2Farticle-Five-set-to-gain-induction-into-Cherokee-County-Sports-Hall-of-Fame." id="5fe2d466e7ca00c7"><span style="position: relative;"><img alt="email to a friend" class="dont_touch_me" src="http://uber-assets.solesolution.com/images/email-this.gif" title="email to a friend" /></span></a>&nbsp;|&nbsp;<span><a href="/printer_friendly/27075635" target="_blank"><img alt="print" class="dont_touch_me" src="http://uber-assets.solesolution.com/images/print_icon.gif" title="print" /></a></span><span id="email_content_message_27075635" class="signature_email_message"></span></div>
+
+        
+		  </div>
+      <div class="story_item_content entry-content">
+	
+      <div  style="float: left;">
+                <div class="story_item_media_file"><div class="image_container" style="">
+	<div class="image_image">
+		<a href="http://matchbin-assets.s3.amazonaws.com/public/sites/625/assets/3AYN_rgbCCSHOF_Logob.jpg" target="_blank"><img class="image_img" src='http://matchbin-assets.s3.amazonaws.com/public/sites/625/assets/3AYN_rgbCCSHOF_Logob.jpg' alt='cc' title='cc' /></a>
+	</div>
+	<a style="display:none;" href='http://matchbin-assets.s3.amazonaws.com/public/sites/625/assets/3AYN_rgbCCSHOF_Logob.jpg' title='cc' rel='lightbox[27075633]'>slideshow</a>
+</div>
+</div>
+	<div class="story_item_images">
+       	  
+
+          <div class="newline"> </div>
+	</div>
+          <div class="newline"> </div>
+</div>
+	The Cherokee County Sports Hall of Fame announced its 14th class of inductees Thursday. <br /><br />The class includes former Sequoyah standout Adam Benton, Sequoyah softball coach Todd Morrissey, Etowah’s Wayne Moss and Bryant Rogowski and Cherokee’s Cindy Richards Woody. The Sequoyah wrestling teams from 1990-2000, including the state championship teams of ’96 and ’99, will also be honored at the annual enshrinement banquet May 6.<br /><br />Benton was a three-year standout for the Sequoyah basketball team who still holds team records for career points (1,501), points in a season (576), season scoring average (23.1), points in a game (42), free throws made in a game (16) and two-point field goals made in a game (13), more than 20 years after his graduation.<br /><br />Benton also made an impact on the football field. He began playing quarterback for the Chiefs as a junior and finished with 3,029 passing yards and 25 touchdowns. He was named first team all-county in 1992 and ’93 as both a quarterback and punter.<br /><br />Benton earned a scholarship to play basketball at Providence, but he transferred to Akron after his freshman year. He was named a co-captain of the Zips for the 1996-97 season.<br /><br />Benton died in 2003 at the age of 27.<br /><br />At the same time Benton was starring at Sequoyah, Moss was doing the same for Etowah. <br /><br />Moss started on the varsity basketball team all four years and was voted a team captain for his final three seasons. During his sophomore, junior and senior seasons, Moss led the Eagles in points, assists and steals, and he was named first team all-county three times.<br /><br />Moss ranked near the top of all three points, assists and steals columns when he graduated, ranking second with nearly 1,100 career points. <br /><br />He received a scholarship to play at Shorter, where he was named an NAIA academic all-American for the 1996-97 and 1997-98 seasons. Moss now works as a financial planner.<br /><br />Morrissey got his start as a softball coach in California in 1989 before coming to Sequoyah in 2003 as an assistant. In 2006, he took the head-coaching job with the Lady Chiefs’ softball team and enjoyed immediate success, going 33-9 record with the Class AAAA state championship. <br /><br />In 10 seasons under Morrissey, Sequoyah went 206-91, made the playoffs seven times and reached the elite eight twice. In all, he sent 18 players to play in college before retiring from coaching after the 2015 season.<br /><br />As a freshman, Rogowski was named the most improved wrestler from Etowah’s junior varsity team — a sign of things to come. <br /><br />He won the same award the following year as a sophomore for the varsity team, finishing 25-5 on his way to a region championship and state quarterfinal appearance. Rogowski captured another region championship his junior year and also returned to the state quarterfinals while finishing the season 26-2-1. <br /><br />Rogowski took his biggest step as a senior, when he won his third region championship and became just the fifth wrestler form Etowah, and the ninth from Cherokee County, to win a state championship.<br /><br />He graduated in 1989 with an 80-8-1 career record, earning a scholarship to Chattanooga, where he was in the lineup for a Mocs team that won the Southern Conference championship four times.<br /><br />Rogowski is currently an assistant wrestling coach at Stephens County High School in Toccoa. <br /><br />Woody was a two-sport standout at Cherokee and received offers to play both softball and basketball at Shorter.<br /><br />As a basketball player, she lettered all four seasons, winning the Cherokee Warriorette and the Best Percentage Foul Shot trophies. <br /><br />In softball, Woody was a starter on region championship teams in 1988 and ’89, and she was awarded the Christian Athlete Award. She also played at the club level throughout high school, starting on district and state championship teams.<br /><br />Woody stuck to softball at Shorter, where she was a starter from 1990-93 and earned Georgia Intercollegiate Athletic Conference all-conference honors her final three years. She was also named team MVP in 1991 and ’92 — a season in which she batted .500 and recorded 61 hits. <br /><br />Woody returned to Cherokee County to teach, but she died in 1995 of cystic fibrosis — which she had for much of her life, even through her athletic career. She was 24.<br /><br /><script type="text/javascript"> (function() {        var params =        {            id: "5606d427-abb7-4106-a30e-b8f14eaa463a",            d:  "Y2hlcm9rZWV0cmlidW5lLmNvbQ==",            wid: "7139"        };        var qs="";for(var key in params){qs+=key+"="+params[key]+"&"}qs=qs.substring(0,qs.length-1);        document.write('<script type="text/javascript" src="http://api.content.ad/Scripts/widget2.js?' + qs + '"><'+'\/script>');    })();</script>
+        <div class="newline"> </div>
+</div>
+
+		  
+      <span id="copyright-container" style="display:none;">
+        <a rel="item-license" id="site_footer_container" href="#site_footer_container">Copyright 2016 Cherokee Tribune. All rights reserved.</a>
+      </span>
+      
+	  </div>
+	  <script type="text/javascript">
+var addthis_config = {
+                       services_exclude: 'email,print,pdfonline,aolmail,mailto,hotmail,yahoomail,gmail',
+                       username: "matchjerk",
+                       data_track_clickback: true
+                     }
+</script>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://addthis.com/bookmark.php?v=250" class="addthis_button_compact" addthis:url="http://cherokeetribune.com/bookmark/27075635/article-Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:title="Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:description="The class includes former Sequoyah standout Adam Benton, Sequoyah softball coach Todd Morrissey, Etowah’s Wayne Moss and Bryant Rogowski and Cherokee’s Cindy Richards Woody.">Share This Article</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook" addthis:url="http://cherokeetribune.com/bookmark/27075635/article-Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:title="Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:description="The class includes former Sequoyah standout Adam Benton, Sequoyah softball coach Todd Morrissey, Etowah’s Wayne Moss and Bryant Rogowski and Cherokee’s Cindy Richards Woody."></a>
+<a class="addthis_button_twitter" addthis:url="http://cherokeetribune.com/bookmark/27075635/article-Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:title="Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:description="The class includes former Sequoyah standout Adam Benton, Sequoyah softball coach Todd Morrissey, Etowah’s Wayne Moss and Bryant Rogowski and Cherokee’s Cindy Richards Woody."></a>
+<a class="addthis_button_google_plusone" g:plusone:annotation="none" addthis:url="http://cherokeetribune.com/bookmark/27075635/article-Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:title="Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:description="The class includes former Sequoyah standout Adam Benton, Sequoyah softball coach Todd Morrissey, Etowah’s Wayne Moss and Bryant Rogowski and Cherokee’s Cindy Richards Woody."></a>
+<a class="addthis_button_digg" addthis:url="http://cherokeetribune.com/bookmark/27075635/article-Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:title="Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:description="The class includes former Sequoyah standout Adam Benton, Sequoyah softball coach Todd Morrissey, Etowah’s Wayne Moss and Bryant Rogowski and Cherokee’s Cindy Richards Woody."></a>
+<a class="addthis_button_fark" addthis:url="http://cherokeetribune.com/bookmark/27075635/article-Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:title="Five set to gain induction into Cherokee County Sports Hall of Fame" addthis:description="The class includes former Sequoyah standout Adam Benton, Sequoyah softball coach Todd Morrissey, Etowah’s Wayne Moss and Bryant Rogowski and Cherokee’s Cindy Richards Woody."></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+<!-- AddThis Button END -->
+
+	  <div class="related_content">
+  <div class="related_content_label">similar stories</div>
+  <div class="related_content_body">
+    <h2 class=" hnews hentry item" style="font-size:smaller;">
+  
+  <a href="/view/full_story/27062779/article-Top-players--coaches-honored-in-Gridiron-Club-s-annual-end-of-year-celebration?" class="entry-title">Top players, coaches honored in Gridiron Club’s annual end-of-year celebration</a>
+  <span class="title_date updated" title="2016-01-27T22:56:00-05:00"> | 20&nbsp;days&nbsp;ago</span>
+  <span style="display:none;">
+    
+        <span class="story_item_author" >
+          by
+          <span class="author vcard">
+            <span class="fn">Alex Resnak<Br>aresnak@cherokeetribune.com</span>
+          </span>
+          
+          <span class="source-org vcard" style="display: none;">
+            <span class="org fn">Cherokee Tribune</span>
+          </span>
+        </span>
+      
+    
+      <span id="copyright-container" style="display:none;">
+        <a rel="item-license" id="site_footer_container" href="#site_footer_container">Copyright 2016 Cherokee Tribune. All rights reserved.</a>
+      </span>
+      
+  </span>
+</h2>
+
+    <h2 class=" hnews hentry item" style="font-size:smaller;">
+  
+  <a href="/view/full_story/27062627/article-Safe-Kids-Cherokee-receives-donation?" class="entry-title">Safe Kids Cherokee receives donation</a>
+  <span class="title_date updated" title="2016-01-28T00:00:00-05:00"> | 20&nbsp;days&nbsp;ago</span>
+  <span style="display:none;">
+    
+        <span class="story_item_author" >
+          by
+          <span class="author vcard">
+            <span class="fn"><a href="/bookmark/26805835-Kayla_Elder">Kayla Elder</a></span>
+          </span>
+          
+          <span class="source-org vcard" style="display: none;">
+            <span class="org fn">Cherokee Tribune</span>
+          </span>
+        </span>
+      
+    
+      <span id="copyright-container" style="display:none;">
+        <a rel="item-license" id="site_footer_container" href="#site_footer_container">Copyright 2016 Cherokee Tribune. All rights reserved.</a>
+      </span>
+      
+  </span>
+</h2>
+
+    <h2 class=" hnews hentry item" style="font-size:smaller;">
+  
+  <a href="/view/full_story/27085271/article-Chipper-Jones--Hines-Ward-in-Georgia-Hall-of-Fame-class-?" class="entry-title">Chipper Jones, Hines Ward in Georgia Hall of Fame class</a>
+  <span class="title_date updated" title="2016-02-12T15:42:00-05:00"> | 5&nbsp;days&nbsp;ago</span>
+  <span style="display:none;">
+    
+        <span class="story_item_author" >
+          <span class="source-org author vcard" style="display: none;">
+            <span class="org fn">Associated Press</span>
+          </span>
+        </span>
+      
+    
+      <span id="copyright-container" style="display:none;">
+        <a rel="item-license" id="site_footer_container" href="#site_footer_container">Copyright 2016 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</a>
+      </span>
+      
+  </span>
+</h2>
+
+    <h2 class=" hnews hentry item" style="font-size:smaller;">
+  
+  <a href="/view/full_story/27076305/article-Favre--Stabler-lead-eight-man-Hall-of-Fame-induction-class?" class="entry-title">Favre, Stabler lead eight-man Hall of Fame induction class</a>
+  <span class="title_date updated" title="2016-02-06T23:34:00-05:00"> | 10&nbsp;days&nbsp;ago</span>
+  <span style="display:none;">
+    
+        <span class="story_item_author" >
+          by
+          <span class="author vcard">
+            <span class="fn">Howard Fendrich<br>Associated Press Sports Writer</span>
+          </span>
+          
+          <span class="source-org vcard" style="display: none;">
+            <span class="org fn">Associated Press</span>
+          </span>
+        </span>
+      
+    
+      <span id="copyright-container" style="display:none;">
+        <a rel="item-license" id="site_footer_container" href="#site_footer_container">Copyright 2016 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</a>
+      </span>
+      
+  </span>
+</h2>
+
+    <h2 class=" hnews hentry item" style="font-size:smaller;">
+  
+  <a href="/view/full_story/27063413/article-Black-Keys-among-guests-at-Rock-Hall-induction-ceremony-?" class="entry-title">Black Keys among guests at Rock Hall induction ceremony</a>
+  <span class="title_date updated" title="2016-01-28T11:18:00-05:00"> | 20&nbsp;days&nbsp;ago</span>
+  <span style="display:none;">
+    
+        <span class="story_item_author" >
+          <span class="source-org author vcard" style="display: none;">
+            <span class="org fn">Associated Press</span>
+          </span>
+        </span>
+      
+    
+      <span id="copyright-container" style="display:none;">
+        <a rel="item-license" id="site_footer_container" href="#site_footer_container">Copyright 2016 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</a>
+      </span>
+      
+  </span>
+</h2>
+
+  </div>
+</div>
+
+	  <script type="text/javascript" language="javascript">
+  function updateChars(dom_id, remaining_chars_dom_id, max_length) {
+
+    var message_text = $(dom_id).value;
+    var remaining_characters = max_length - message_text.length;
+    if (remaining_characters < 0) {
+      message_text = message_text.substring(0, max_length);
+      $(dom_id).value = message_text;
+      remaining_characters = max_length - message_text.length;
+    }
+
+    $(remaining_chars_dom_id).innerHTML = remaining_characters;
+  }
+
+  function cancelAddComment(element) {
+    var parentElement = $(element).up('.comment_add');
+    parentElement.childElements()[0].remove();
+    parentElement.hide();
+  }
+
+  function removeComment(element) {
+    $(element).up('.comment').hide();
+  }
+</script>
+
+<div class="spacer"> </div>
+<div id="comments_container">
+  <a name="comments_27075635"></a>
+  <style type="text/css">
+
+#pt1_full_story #comments_container {
+  width:95%;
+}
+
+div#comments_container {
+  background:#F6F5F5 none repeat scroll 0%;
+  border:1px solid #DADADA;
+  margin-bottom:10px;
+  min-height:60px;
+  _height:60px;
+  padding:15px 2.5%;
+  width:95%;
+}
+
+.comment_header {
+  border: 1px;
+  border-color: #ddd;
+  background: #3C3C3C url('/images/arrow-notch.png') left center no-repeat;
+  color: #fff;
+  padding: 4px;
+  overflow: auto;
+  margin: 0 0 15px 0;
+}
+
+.comment_title {
+  float: left;
+  font-size: 17px;
+  margin: 0 4px 0 9px;
+}
+
+.comment_count {
+  font-size: 12px;
+  float: left;
+  padding-top: 1px;
+}
+
+.comment_post_link {
+  float: right;
+}
+
+.comment_post_link { 
+  float: right;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.comment_post_link a, .comment_post_link a:visited { 
+  color: #fff;
+}
+
+.comment_add {
+  background: #FFFFFF none repeat scroll 0%;
+  border-color:#EDECEC #EDECEC #EDECEC #C1C1C1;
+  border-style:solid solid solid dotted;
+  border-width:1px;
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+
+div.comment {
+  background: #FFFFFF none repeat scroll 0%;
+  border-color:#EDECEC #EDECEC #EDECEC #C1C1C1;
+  border-style:solid solid solid dotted;
+  border-width:1px;
+  padding: 15px;
+  margin: 0 0 15px 0;
+}
+
+div.comment_reply {
+  margin-left: 30px;  
+}
+
+.comment_head {
+}
+
+.comment_author {
+  font-weight: bold; 
+  float:left;
+  font-size: 14px;
+}
+
+.comment_author a, .comment_author a:visited  {
+  color: #3C3C3C;
+}
+
+.comment_author_time_separator {
+   float:left;
+   padding: 0 7px;
+   color: #bbb;
+   font-size: 12px;
+}
+
+.comment_time {
+  float: left;
+  color: #777;
+  font-size: 11px;
+  padding-top: 1px;
+}
+
+.comment_body {
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+.comment_foot {
+  margin-top: 5px;
+}
+
+.comment_reply_link {
+  float: left;  
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.comment_abuse {
+  float: right;  
+  font-size: 12px;
+}
+
+.comment_abuse a, .comment_abuse a:visited {
+  color: #c53949;
+}
+
+.comment_field_label {
+  font-weight: bold; 
+  font-size: 13px;
+  padding: 3px;
+}
+
+.comment_field {
+  padding-bottom: 10px;
+}
+
+.comment_field_char_count {
+  padding: 2px;
+  font-size: 12px;
+  font-weight: bold;  
+}
+
+.comment_field_bottom {
+  position: relative;
+  min-height: 170px;
+}
+
+.comment_field_captcha {
+  float: left;
+}
+
+.comment_field_buttons {
+  float: right;
+  position: absolute; 
+  right: 0;
+  bottom: 0;
+  width: 180p x;
+}
+
+.comment_notice {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.comment_none {
+  padding-bottom: 20px;
+}
+
+.comment_more {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.comment_errors {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.comment_remove_link_separator {
+  padding: 0 5px;
+  color: #bbb;
+}
+
+.ui-form-field-instructions-short {
+  color: #888;
+  font-style: italic;
+  font-size: 11px;
+}
+
+</style>
+
+<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
+<div class="comment_header">
+  <a name="cb_post_comment_27075635"></a>
+  <div class="comment_title"> Comments</div>
+    <div class="comment_count">(0)</div>
+  <div class='comment_post_link'>
+    <a href="#" onClick="new Ajax.Updater('comment_27075635_add', '/community/content/show_comment_add?content_instance=27075635', {asynchronous:true, evalScripts:true});
+        window.location.hash = 'cb_post_comment_27075635'; $('comment_27075635_add').show(); return false;" >
+      <img alt="Comments-icon" src="http://uber-assets.solesolution.com/images/comments-icon.png" />
+      Post a Comment
+    </a>
+  </div>
+</div>
+
+
+
+<div id="comment_27075635_add" class="comment_add" style='display: none;'>
+  
+</div>
+
+<div id="comments_12ac20590cfc4b8e89d0">
+</div>
+
+
+  <div class="comment">
+    <div class="comment_head comment_none">
+      <div class="comment_author" > 
+        No Comments Yet
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+</div>
+
+    </div>
+      
+
+  </div>
+</div>
+				<div style="color:red">*We welcome your comments on the stories and issues of the day and seek to provide a forum for the community to voice opinions. All comments are subject to moderator approval before being made visible on the website but are not edited. The use of profanity, obscene and vulgar language, hate speech, and racial slurs is strictly prohibited. Advertisements, promotions, and spam will also be rejected. Please read our <a href="http://mdjwebcontent.com/mdj/mdj_tc.pdf" target="_blank">terms of service</a> for full guides</div>
+			</div>
+		</div>
+	
+	</div>
+	
+	<div id="pt1_right_column">
+		<div class="pt1_pane">
+			<div class="pt1_pane_body">
+				<div id="content_container" align="left">	<div>
+	<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://www.mdjadmaster.com/www/delivery/ajs.php':'http://www.mdjadmaster.com/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=334&block=1");
+   document.write ('&;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&;charset='+document.charset : (document.characterSet ? '&;charset='+document.characterSet : ''));
+   document.write ("&;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://www.mdjadmaster.com/www/delivery/ck.php?n=a68f94b1&;cb=12985637864738' target='_blank'><img src='http://www.mdjadmaster.com/www/delivery/avw.php?zoneid=2&;cb=12985637864738&;n=a68f94b1' border='0' alt='' /></a></noscript>
+
+</div>
+</div>
+			</div>
+		</div>
+		<div class="pt1_pane">
+			<div class="pt1_pane_body">
+				<div id="content_container" align="left">	<div>
+	<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://www.mdjadmaster.com/www/delivery/ajs.php':'http://www.mdjadmaster.com/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=421&block=1");
+   document.write ('&;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&;charset='+document.charset : (document.characterSet ? '&;charset='+document.characterSet : ''));
+   document.write ("&;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://www.mdjadmaster.com/www/delivery/ck.php?n=a68f94b1&;cb=12985637864738' target='_blank'><img src='http://www.mdjadmaster.com/www/delivery/avw.php?zoneid=2&;cb=12985637864738&;n=a68f94b1' border='0' alt='' /></a></noscript>
+
+</div>
+</div>
+			</div>
+		</div>
+		<div class="pt1_pane">
+			<div class="pt1_pane_body">
+				<div id="content_container" align="left">	<div>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- mdj300x250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1886240281577246"
+     data-ad-slot="7390210612"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+		<div>
+
+	<div class="newline"> </div>
+
+	<div class="leaderboards">
+		<div style="float:left; width:728px; height:90px; padding: 10px 6px 0px 0px;">
+			<div id="content_container" align="left">	<div>
+	<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://www.mdjadmaster.com/www/delivery/ajs.php':'http://www.mdjadmaster.com/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=422&block=1");
+   document.write ('&;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&;charset='+document.charset : (document.characterSet ? '&;charset='+document.characterSet : ''));
+   document.write ("&;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://www.mdjadmaster.com/www/delivery/ck.php?n=a68f94b1&;cb=12985637864738' target='_blank'><img src='http://www.mdjadmaster.com/www/delivery/avw.php?zoneid=2&;cb=12985637864738&;n=a68f94b1' border='0' alt='' /></a></noscript>
+
+</div>
+</div>
+		</div>
+		<div style="float:left; width:220px; height:90px; padding: 10px 0px 0px 6px;">
+			<div id="content_container" align="left">	<div>
+	<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://www.mdjadmaster.com/www/delivery/ajs.php':'http://www.mdjadmaster.com/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=335&block=1");
+   document.write ('&;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&;charset='+document.charset : (document.characterSet ? '&;charset='+document.characterSet : ''));
+   document.write ("&;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://www.mdjadmaster.com/www/delivery/ck.php?n=a68f94b1&;cb=12985637864738' target='_blank'><img src='http://www.mdjadmaster.com/www/delivery/avw.php?zoneid=2&;cb=12985637864738&;n=a68f94b1' border='0' alt='' /></a></noscript>
+
+</div>
+</div>
+		</div>
+	</div>
+	<div id="pt1_site_footer" class="pt1_pane_subtle">
+		<div class="pt1_pane_body">
+			<div id="content_container" align="left">	<div>
+	<div class="footer_container" style="margin-left: 70px;">
+	<div class="foot_col" id="foot_col" style="float: left;">
+		<span class="foot_topix">Create an Account</span><br>
+		<span class="foot_link"><a href="/pages/digital">Register</a></span><br>
+		<span class="foot_link"><a href="/pages/tempgraph_full">Subscribe to print edition</a></span><br>
+		<span class="foot_link"><a href="/pages/tempgraph_full">Subscribe to e-edition</a></span><br>
+		<div class="foot_spacer"></div>
+		<span class="foot_topix">Help & Information Services</span><br>
+		<span class="foot_link"><a href="/pages/qna">Cherokee Tribune Digital Subscription Q&A</a></span>
+		<span class="foot_link"><a href="/pages/tempgraph_full">Subscriber Services</a></span><br>
+		<!--<span class="foot_link"><a href="http://issuu.com/mdjonline/docs/2011_media_guide?mode=embed&layout=http%3A%2F%2Fskin.issuu.com%2Fv%2Flight%2Flayout.xml&showFlipBtn=true" target="_blank" target="_blank">TCT Rate Card</a></span><br>-->
+		<span class="foot_link"><a href="#1" onclick="newWindow = window.open('/help/privacy_policy', 'help', 'width=650,height=700,menubar=1,scrollbars=1,toolbar=0,resizable=1'); newWindow.focus;; return false;">Privacy Policy</a></span><br>
+		<span class="foot_link"><a href="http://mdjwebcontent.com/mdj/09tctContactUs.pdf">Contact Us</a></span><br>
+
+	</div>
+
+
+
+	<div class="foot_col" style="float: left;">
+		<span class="foot_topix">CherokeeTribune.com</span><br>
+		<span class="foot_link"><a href="http://cherokeetribune.ga.newsmemory.com/" target="_blank">Today's Newspaper</a></span><br>
+		<span class="foot_link"><a href="/pages/news_local?leaderboardtop=159&leaderboardbot=158&pillowtop=379&pillowbot=156&box=338&tt=155">Local News</a></span><br>
+		<span class="foot_link"><a href="/pages/news_editorial?leaderboardtop=138&leaderboardbot=137&pillowtop=375&pillowbot=135&box=343&tt=134">Editorial Page</a></span><br>
+		<span class="foot_link"><a href="/pages/news_lifestyle?leaderboardtop=154&leaderboardbot=153&pillowtop=378&pillowbot=151&box=337&tt=150">Lifestyle</a></span><br>
+		<span class="foot_link"><a href="/pages/news_obits?leaderboardtop=167&leaderboardbot=166">Obituaries</a></span><br>
+		<span class="foot_link"><a href="/pages/news_state?leaderboardtop=177&leaderboardbot=176&pillowtop=382&pillowbot=174&box=341&tt=173">State/National</a></span><br>
+		<span class="foot_link"><a href="http://nl.newsbank.com/sites/ctga/" target="_blank">Archives</a></span><br>
+		<span class="foot_link"><a href="https://marietta.onlineads.advpubtech.com/showads" target="_blank.>Classifieds</a></span><br>
+		<span class="foot_link"><a href="/pages/news_blogs?leaderboardtop=126&leaderboardbot=127&pillowtop=373&pillowbot=124&box=339&tt=125">Blogs</a></span><br>
+		<span class="foot_link"><a href="https://marietta.onlineads.advpubtech.com/showads/section/Legal-10475/?pub=Cherokee+Tribune" target="_blank">Cherokee Legal Notices</a></span><br>
+		<span class="foot_link"><a href="http://mdjmarketplace.uber.matchbin.net/">Marketplace</a></span><br>
+		<span class="foot_link"><a href="https://contest.mdjonline.com/mainform1.php" target="_blank">Milestones</a></span><br>
+		<!--<span class="foot_link"><a href="http://gacarsource.com" target="_blank">GaCarSource.com</a></span>-->
+
+	</div>
+
+
+
+	<div class="foot_col" style="float: left;">
+		<span class="foot_topix">Tools & Formats</span><br>
+		<span class="foot_link"><a href="http://cherokeetribune.mycapture.com/mycapture/index.asp">TCT Photos</a></span><br>
+		<span class="foot_link"><a href="mailto:pix@mdjonline.com">Post Your Photos</a></span><br>
+		<span class="foot_link"><a href="http://www.mdjmarketplace.com/events?Zipcode=30114">Community Calendar</a></span><br>
+		<span class="foot_link"><a href="http://cherokeetribune.mycapture.com/mycapture/index.asp" target="_blank">Purchase Photos</a></span><br>
+		<span class="foot_link"><a href="https://marietta.onlineads.advpubtech.com/placead">Place Classified Ad</a></span><br>
+	</div>
+
+
+
+	<div class="foot_col" style="float: left;">
+		<span class="foot_topix">Digital Network</span><br>
+		<span class="foot_link"><a href="http://cherokeetribune.com" target="_blank">Cherokee Tribune</a></span><br>
+		<span class="foot_link"><a href="http://mdjonline.com">Marietta Daily Journal</a></span><br>
+		<span class="foot_link"><a href="http://www.cobblifemagazine.com" target="_blank">Cobb Life Magazine</a></span><br>
+		<span class="foot_link"><a href="http://www.cherokeelifemagazine.com" target="_blank">Cherokee Life Magazine</a></span><br>
+
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=alpharetta&leaderboardtop=245&leaderboardbot=246&pillowtop=383&pillowbot=248&tt=249&box=250" target="_blank">Alpharetta Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=clayton&leaderboardtop=305&leaderboardbot=306&pillowtop=388&pillowbot=308&tt=309&box=310" target="_blank">Clayton Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=bartow&leaderboardtop=293&leaderboardbot=294&pillowtop=384&pillowbot=296&tt=297&box=298" target="_blank">Bartow Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=dekalb&leaderboardtop=275&leaderboardbot=276&pillowtop=389&pillowbot=278&tt=279&box=280" target="_blank">Dekalb Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=douglas&leaderboardtop=281&leaderboardbot=282&pillowtop=390&pillowbot=284&tt=285&box=286" target="_blank">Douglas Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=henry&leaderboardtop=311&leaderboardbot=312&pillowtop=392&pillowbot=314&tt=315&box=316" target="_blank">Henry Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=johns&leaderboardtop=257&leaderboardbot=258&pillowtop=394&pillowbot=260&tt=261&box=262" target="_blank">John's Creek Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=milton&leaderboardtop=263&leaderboardbot=264&pillowtop=396&pillowbot=266&tt=267&box=268" target="_blank">Milton Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=buckhead&leaderboardtop=221&leaderboardbot=222&pillowtop=386&pillowbot=224&tt=225&box=226" target="_blank">Northside Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=paulding&leaderboardtop=287&leaderboardbot=288&pillowtop=398&pillowbot=290&tt=291&box=292" target="_blank">Paulding Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=roswell&leaderboardtop=251&leaderboardbot=252&pillowtop=399&pillowbot=254&tt=255&box=256" target="_blank">Roswell Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=sandy&leaderboardtop=233&leaderboardbot=234&pillowtop=400&pillowbot=236&tt=237&box=238" target="_blank">Sandy Springs Neighbor</a></span><br>
+		<span class="foot_link"><a href="http://neighbornewspapers.com/nni_al?neighbor=south&leaderboardtop=299&leaderboardbot=300&pillowtop=401&pillowbot=302&tt=303&box=304" target="_blank">South Metro Neighbor</a></span><br>
+	</div>
+</div>
+<!--<div align="center">Copyright 2009 Marietta Daily Jounral</div>-->
+<div align="center" id="site_footer_container">
+  
+	
+	<span class="footnote">software copyright &copy; 2016 <a href="/matchbin">Sole Solution</a> Content copyright &copy; 2016 Marietta Daily Journal</span>
+	<br />
+	<span class="footnote bold">this software is in a public beta test phase</span> <a href="#1" onclick="newWindow = window.open('/help/privacy_policy', 'help', 'width=650,height=700,menubar=1,scrollbars=1,toolbar=0,resizable=1'); newWindow.focus;; return false;"><span class="link">read our privacy policy</span></a>
+
+	<br />
+	<span class="footnote"><a href="http://www.ap.org/termsandconditions" target="_blank">Associated Press Terms and Conditions</a></span>
+	<br>
+	<span class="footnote">The Cherokee Tribune is in Canton, Ga.</span>
+
+</div>
+<!-- Javascript tag: -->
+<!-- begin ZEDO for channel: Cherokee Tribune - Pops , publisher: Marietta Daily , Ad Dimension: Pixel/Popup - 1 x 1 -->
+<script language="JavaScript">
+var zflag_nid="305"; var zflag_cid="18040/18027/1"; var zflag_sid="2909"; var zflag_width="1"; var zflag_height="1"; var zflag_sz="15";
+</script>
+<script language="JavaScript" src="http://c5.zedo.com/jsc/c5/fo.js"></script>
+<!-- end ZEDO for channel: Cherokee Tribune - Pops , publisher: Marietta Daily , Ad Dimension: Pixel/Popup - 1 x 1 -->
+</div>
+</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+    if (typeof(_gat) == 'undefined') {
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+</script>
+<script type="text/javascript">
+try {
+      var matchbinPageTracker = _gat._getTracker("UA-2581399-1");
+
+      matchbinPageTracker._trackPageview();
+} catch(e) {
+}
+
+try {
+
+matchbinReloadAds = function() {
+      var allFrames = $$('iframe');
+      for (var i = 0; i < allFrames.length; i++) {
+        try {
+          var frame = allFrames[i];
+          //change the src of the iframe to reload ad 
+          var src = frame.src;
+          var new_src = src.replace(/&random_for_refresh.*$/, '') + "&random_for_refresh=" + Math.random();
+
+          if (!src.match(/ads.radiatemedia.com/)) {
+            next;
+          }
+
+          if (Prototype.Browser.IE) {
+            //replace the iframe to avoid browser history problems
+            var new_iframe = frame.cloneNode(true);
+            //new_iframe.id = '';
+            var new_src = src.replace(/&random_for_refresh.*$/, '') + "&random_for_refresh=" + Math.random();
+            new_iframe.src = new_src;
+            //prevent flicker when ads are refreshed
+            if (parseInt(navigator.userAgent.substring(navigator.userAgent.indexOf("MSIE")+5)) >= 8) {
+              $(new_iframe).observe('load', (function(event) {
+                new_iframe.style.visibility = '';
+                new_iframe.style.position = '';
+                new_iframe.stopObserving();
+                if (frame.parentNode) {
+                  frame.parentNode.replaceChild(new_iframe, frame);
+                }
+                new_iframe.id = frame.id;
+              }).bind(this));
+              new_iframe.style.visibility = 'hidden';
+              new_iframe.style.position = 'absolute';
+              frame.parentNode.appendChild(new_iframe);
+            } else {
+              frame.parentNode.replaceChild(new_iframe, frame);
+              frame.parentNode.removeChild(frame);
+            }
+          } else {
+            frame.src = new_src;
+          }
+        } catch (e) {
+        }
+      }
+}
+
+matchbinAjaxHook = (function(url) {
+      try {
+        if (url && url.match && url.match(/pages|default|comment/) && !url.match(/account|noreload|ad_frame/)) {
+          matchbinPageTracker._trackPageview(url);
+          if (window.pageTracker) {
+            window.pageTracker._trackPageview(url);
+          }
+          if (typeof(window.ajaxAnalyticsHook) == 'function') {
+            window.ajaxAnalyticsHook(url);
+          }
+          matchbinReloadAds();
+        }
+      } catch (e) {
+      }
+}).bind(this);
+} catch(e) {
+}
+</script>
+<script type="text/javascript">
+var showTynt = (("ht" + "tp:") == document.location.protocol);
+if (showTynt) {
+      var tyntVariables = {"ap":"#{Read more: }"};
+      document.write(unescape("%3Cscript src='ht" + "tp://tcr.tynt.com/javascripts/Tracer.js?user=d56qUQzfGr34Onadbi-bpO&amp;su=0&amp;st=1' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+</body>
+<script type="text/javascript">initSearch()</script>
+</html>

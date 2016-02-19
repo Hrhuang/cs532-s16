@@ -1,0 +1,3236 @@
+<!-- html-header type=current begin -->
+	
+	<!DOCTYPE html>
+	
+	<html lang="en">
+	<head>
+	<!-- Render IE9 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	
+
+
+	<script id="before-content" type="text/javascript">
+(function () {
+    if (typeof window.sdmedia !== 'object') {
+         window.sdmedia = {};
+    }
+    if (typeof window.sdmedia.site !== 'object') {
+        window.sdmedia.site = {};
+    }
+
+    var site = window.sdmedia.site;
+    site.rootdir = "//slashdot.org";
+}());
+
+var pageload = {
+	pagemark: '304924294717248452',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+		pagemark: pageload.pagemark,
+		dom: pageload.content_ready_time,
+		js: pageload.script_ready_time
+	} });
+}
+</script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	
+		<title>Amazon Launches Free Game Engine Lumberyard - Slashdot</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+		<meta name="description" content="Dave Knott writes: Amazon has both announced and released a new, free game engine, Lumberyard, which offers deep integration with its Amazon Web Services server infrastructure to empower online play, and also with Twitch, its video game-focused streaming service.   Lumberyard is powerful and full-fe...">
+		<meta itemprop="name" content="Amazon Launches Free Game Engine Lumberyard - Slashdot">
+		<meta itemprop="description" content="Dave Knott writes: Amazon has both announced and released a new, free game engine, Lumberyard, which offers deep integration with its Amazon Web Services server infrastructure to empower online play, and also with Twitch, its video game-focused streaming service.   Lumberyard is powerful and full-fe...">
+	
+	
+		<meta property="fb:admins" content="100000696822412">
+		<meta property="fb:page_id" content="267995220856">
+	
+		<meta name="viewport" content="width=1000, user-scalable=yes, minimum-scale=0, maximum-scale=10.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+		<meta property="og:image" content="http://a.fsdn.com/sd/topics/graphics_64.png">
+	
+	
+		<link rel="canonical" href="http://games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard">
+		
+		<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.slashdot.org/story/307007" >
+	
+
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/classic.css?release_20160212" >
+		<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie8-classic.css?release_20160212" ><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie7-classic.css?release_20160212" ><![endif]-->
+	
+	
+	
+
+
+
+	
+	<!--  -->
+
+	
+	
+
+	
+	<!-- SMACKS: NEW CSS -->
+	<link rel="stylesheet" href="//a.fsdn.com/sd/css/app.css?release_20160212">
+
+	
+	<script src="//a.fsdn.com/sd/all-minified.js?release_20160212" type="text/javascript"></script>
+	
+	
+	<script type="text/javascript">
+(function(){
+var regexp=/\s*(?:\d+|many)\s+more\s*/i;
+
+	
+	var auto_more_count = 1;
+
+	function auto_more(){
+		var $more_link = $('#more-experiment a');
+		$more_link.each(function(){
+			var $lastitem = $('#firehoselist>article.fhitem:visible:last');
+			if ( Bounds.intersect(window, $lastitem) ) {
+			
+			
+				!--auto_more_count && (auto_more=undefined);
+				// don't allow a call till the next paginate gets built and |more_possible|
+				$(document).unbind('scroll', call_auto_more);
+			}
+		});
+	};
+
+	function call_auto_more(){ auto_more && auto_more(); }
+	
+
+$('#more-experiment a').
+	live('more-possible', function( event ){
+		var $more_link=$(this);
+		if ( regexp.test($more_link.text()) ) {
+		
+			$(document).bind('scroll', call_auto_more);
+		} else {
+			$(document).unbind('scroll', call_auto_more);
+		
+		}
+	});
+})();
+</script>
+	<!--[if lt IE 9]><script src="//a.fsdn.com/sd/html5.js"></script><![endif]-->
+	
+	
+	<script type="text/javascript">
+		(function() {
+			if (typeof window.janrain !== 'object') window.janrain = {};
+			if (typeof window.janrain.settings !== 'object') window.janrain.settings = {};
+
+			/* _______________ can edit below this line _______________ */
+
+			janrain.settings.tokenUrl = 'https://slashdot.org/token_callback.pl';
+			janrain.settings.type = 'embed';
+			janrain.settings.appId = 'ggidemlconlmjciiohla';
+			janrain.settings.appUrl = 'https://login.slashdot.org';
+			janrain.settings.providers = [
+			'googleplus',
+			'facebook',
+			'twitter',
+			'linkedin'];
+			janrain.settings.providersPerPage = '5';
+			janrain.settings.format = 'one column';
+			janrain.settings.actionText = 'Sign in with';
+			janrain.settings.showAttribution = false;
+			janrain.settings.fontColor = '#666666';
+			janrain.settings.fontFamily = 'lucida grande, Helvetica, Verdana, sans-serif';
+			janrain.settings.backgroundColor = '#ffffff';
+			janrain.settings.width = '300';
+			janrain.settings.borderColor = '#cccccc';
+			janrain.settings.borderRadius = '5';    janrain.settings.buttonBorderColor = '#CCCCCC';
+			janrain.settings.buttonBorderRadius = '0';
+			janrain.settings.buttonBackgroundStyle = 'gray';
+			janrain.settings.language = '';
+			janrain.settings.linkClass = 'janrainEngage';
+
+			/* _______________ can edit above this line _______________ */
+
+			function isReady() { janrain.ready = true; };
+			if (document.addEventListener) {
+			  document.addEventListener("DOMContentLoaded", isReady, false);
+			} else {
+			  window.attachEvent('onload', isReady);
+			}
+
+			var e = document.createElement('script');
+			e.type = 'text/javascript';
+			e.id = 'janrainAuthWidget';
+
+			if (document.location.protocol === 'https:') {
+			  e.src = 'https://rpxnow.com/js/lib/login.slashdot.org/engage.js';
+			} else {
+			  e.src = 'http://widget-cdn.rpxnow.com/js/lib/login.slashdot.org/engage.js';
+			}
+
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(e, s);
+		})();
+	</script>
+	
+		<script src="//cdn-social.janrain.com/social/janrain-social.min.js"></script>
+		<script type="text/javascript">
+			(function($) {
+				$(function(){
+					janrain.settings.appUrl = "https://login.slashdot.org";
+					$twitter = $('body .janrain_twitterButton');
+					$twitter.append('<i class="icon-twitter"></i>');
+
+					janrain.settings.social = {
+						providers: [
+							"facebook",
+							"twitter",
+							"linkedin",
+							"native-googleplus",
+							"native-reddit"
+						],
+						shareCountMin: "100",
+						shareCountMode: "combined"
+					};
+					janrain.settings.social.providerIcons = {
+					  facebook: "https://example.com/facebook.png",
+					  "native-facebook": "https://example.com/facebook2.png"
+					};
+				});
+			})($j);
+		</script>
+	<!-- index2_variant ||-->
+	
+	<!-- TABOOLA -->
+	<script type="text/javascript">
+	  window._taboola = window._taboola || [];
+	  _taboola.push({home:'auto'});
+	  !function (e, f, u) {
+		e.async = 1;
+		e.src = u;
+		f.parentNode.insertBefore(e, f);
+	  }(document.createElement('script'),
+	  document.getElementsByTagName('script')[0],
+	  '//cdn.taboola.com/libtrc/slashdot/loader.js');
+	</script>
+	
+	<!-- html-header type=current end --><!-- header type=current begin -->
+	
+	
+	
+	<link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//games.slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdotGames" type="application/rss+xml">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<!-- Nativo ads -->
+
+  <script type="text/javascript" src="//s.ntv.io/serve/load.js" async></script>
+
+
+
+<!-- load GPT library: asynchronous -->
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+
+
+<!-- prep GPT ads -->
+<script type='text/javascript'>
+(function() {
+	function page_type (loc) {
+		/*
+		only four page types:
+		- Story
+		- Poll
+		- Homepage (/ only)
+		- Other (but AdOps wants 'Homepage' again)
+		*/
+		var path = loc.pathname;
+		var just_the_root = /^\/?$/.test(path);
+		var story_or_poll = /^\/(story|submission|poll)\//i.exec(path);
+
+		var page_type = just_the_root ? 'homepage'
+		              : story_or_poll ? story_or_poll[1]
+		              :                 'other'
+
+		// exceptions
+		page_type = page_type.toLowerCase() === 'submission'
+		          ? 'story'  // submissions are like stories, right?
+		          : page_type
+		page_type = page_type.toLowerCase() === 'other'
+		          ? 'homepage'  // this one might move out of here
+		          : page_type;
+
+		return page_type;
+	}
+	function page_section (loc) {
+		var greek = ['alpha', 'beta', 'gamma', 'delta'].join('|');
+		var hostwise = '^([a-z]+)(?:-(?:'+greek+'))?\\.(?:slashdot\\.org|[a-z]+-[0-9]+\\.sb\\.sf\\.net)$';
+		var pathwise = '^/(?:(recent|popular|blog)|stories/([^/]+))';
+		var rootwise = '^\/?$';
+
+		var hostwisely = new RegExp(hostwise,'i').exec(loc.hostname);
+		var pathwisely = new RegExp(pathwise,'i').exec(loc.pathname);
+		var rootwisely = new RegExp(rootwise,'i').exec(loc.pathname);
+
+		var all_greek_to_me = new RegExp( '^(' + greek + ')$' ,'i');
+
+		function no_greek_for_me (barbarian) {
+			return all_greek_to_me.test(barbarian)
+			     ? false
+			     : barbarian
+			     ;
+		}
+
+		var section = (hostwisely && no_greek_for_me(hostwisely[1]))
+		           || (rootwisely && 'homepage')
+		           || (pathwisely && (pathwisely[1] || pathwisely[2]))
+		           || ''
+		            ;
+
+                section.replace(/[^_a-z]/ig, '');
+
+		return section;
+	}
+	function single_size (size) {
+		return '' + size[0] + 'x' + size[1];
+	}
+	function sz_sz (sz) {
+		var str = '';
+		var sizes = [];
+		if (sz[0] instanceof Array) {
+			for (size in sz) {
+				sizes.push(single_size(sz[size]));
+			}
+			return sizes.join(',');
+		} else {
+			return single_size(sz);
+		}
+	}
+
+	function merge_tpc_array_to_str(array1,array2) {
+		var tpc_final = array1.concat(array2);
+		var uniq = tpc_final.reduce(function(a,b){
+		if (a.indexOf(b) < 0 ) a.push(b);
+			return a;
+		},[]);
+
+		var tpc_str = uniq.join(',');
+		tpc_str = tpc_str.replace(/[^_a-z,]/ig, '');
+		tpc_str = tpc_str.replace(/^,/ig, '');
+		return tpc_str;
+	}
+
+	/* LEGEND:
+		- 'sz' = "size"
+		- 'npt' = "no page type" in ad unit name
+		- 'oops' = "out-of-page slot" for great justice
+	*/
+	var tags = {
+        
+        	'728x90_A': { 'sz': [[728, 90], [970, 90], [970, 250], [980, 66]] },
+        
+        '728x90_B': { 'sz': [728, 90] },
+        'HubIcon_200x90_A': { 'sz': [[200, 90], [220, 90]]},
+        'PowerSwitch_980x66_A': { 'sz': [980, 66] },
+        'PollPeel': { 'sz': [200, 90] },
+        'VideoWidget_300x250': { 'sz': [300, 250], 'npt': 1 },
+        '300x250_A': { 'sz': [[300, 250], [300, 600], [300, 1050]] },
+        '300x250_B': { 'sz': [[300, 250], [300, 600]] },
+        '300x250_C': { 'sz': [[300, 250], [300, 600]] },
+        '300x250_D': { 'sz': [[300, 250], [300, 600]] },
+        'Pulse_300x600_A': { 'sz': [300, 600] },
+        'Polls_Detail_300x250_A': { 'sz': [[300, 250], [300, 600]], 'npt': 1 },
+        '1x1': { 'sz': [1, 1] }
+		//,					 'SD_Story_1x1': { 'sz': [1, 1] }
+	};
+
+	var network_path = '/4140/ostg.slashdot/';
+	var tag_name_prefix = 'SD';
+	var tag_name_linkage = '_';
+	var tag_name_pagetype = page_type(location);
+	var tag_topic = page_section(location);
+
+	var before_tag_pagetyped    = network_path
+	                            + tag_name_prefix
+	                            + tag_name_linkage
+	                            + tag_name_pagetype
+	                            + tag_name_linkage
+	                            ;
+	var before_tag_pagetypeless = network_path
+	                            + tag_name_prefix
+	                            + tag_name_linkage
+	                         /* + tag_name_pagetype */
+	                         /* + tag_name_linkage */
+	                            ;
+
+
+	googletag.cmd.push(function() {
+		function define_me_a_slot (tag, oops) {
+			var sandbox_regex = /[a-z]+-[0-9]+\.sb\.sf\.net$/i;
+			var beta_regex = /\b(alpha|beta|gamma|delta)\b/i;
+			var full_name = tags[tag].npt  // "no page type"
+			              ? before_tag_pagetypeless + tag
+			              : before_tag_pagetyped    + tag
+			              ;
+			var div_id = 'div-gpt-ad-' + tag.toLowerCase();
+
+			var service;
+            // extend jQuery and get URL query params
+            jQuery.extend({
+              getQueryParameters : function(str) {
+            	  return (str || document.location.search).replace(/(^\?)/,'').split("&").map(function(n){
+                  return n = n.split("="),this[n[0]] = n[1],this
+                  }.bind({}))[0];
+              }
+            });
+
+            var queryParams = $.getQueryParameters();
+
+            if( queryParams.source === 'autorefresh' ) {
+                full_name = full_name.replace(/(\d+x\d+)/,'$1_Ref');
+                //console.log('TAG NAME: ', full_name);
+            }
+
+			if (oops) {  // out-of-page slot
+				service = googletag.defineOutOfPageSlot(
+					  full_name
+					, div_id + '-oops'
+				).addService(googletag.pubads());
+			} else {
+				service = googletag.defineSlot(
+					  full_name
+					, tags[tag].sz
+					, div_id
+				).addService(googletag.pubads());
+			}
+			if (!oops) {  // no sizes for out-of-page slots
+				service.setTargeting('sz', tags[tag].sz);
+			}
+
+			
+			var frontend_tpc = tag_topic.split(",");
+			var backend_tpc = [ "developers", "graphics", "software", "games", "amazon" ];
+
+			var tpc_final = merge_tpc_array_to_str(frontend_tpc,backend_tpc);
+
+			service.setTargeting('tpc', tpc_final);
+			if (location.hostname.match(sandbox_regex)) {
+				service.setTargeting('test', 'adops');
+			}
+			if (location.hostname.match(beta_regex)) {
+				service.setTargeting('site', 'beta');
+			}
+
+			// this is a little hackish: if slot has oops:1
+			//  then do the same slot one more time,
+			//  but set it up as out-of-page
+			if (tags[tag].oops) {  // "out-of-page slot"
+				tags[tag].oops = 0;  // infinite recursion!
+				define_me_a_slot(tag, true);
+			}
+		}
+
+		for (tag in tags) {
+			define_me_a_slot(tag, false);
+		}
+
+		googletag.pubads().enableAsyncRendering();
+
+		//googletag.pubads().enableSingleRequest();
+		googletag.pubads().collapseEmptyDivs();
+		googletag.enableServices();
+	});
+})();
+</script>
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-32013-5";
+
+var _gaq = _gaq || [];
+
+
+
+
+
+  _gaq.push(['_setAccount', 'UA-36136016-1']);
+  _gaq.push(['b._setAccount', 'UA-32013-5']);
+  _gaq.push(['_setDomainName', '.slashdot.org']);
+  _gaq.push(['b._setDomainName', '.slashdot.org']);
+
+	
+		_gaq.push(['_addIgnoredRef', 'slashdot.org']);
+		_gaq.push(['b._addIgnoredRef', 'slashdot.org']);
+	
+
+
+  _gaq.push(['_setCustomVar', 1, 'User Type',  'Anon', 3]);
+  _gaq.push(['b._setCustomVar', 1, 'User Type',  'Anon', 3]);		
+	
+	_gaq.push(['_setCustomVar', 2, 'Page','article2', 3]);
+	_gaq.push(['b._setCustomVar', 2, 'Page','article2', 3]);
+
+	
+
+
+
+// track beta behavior for user
+var betamatches = document.cookie.match(/betagroup=(-?\d+)/);
+
+if(betamatches && betamatches[1]) {
+  if(betamatches[1] == -1) {
+    _gaq.push(['_setCustomVar', 3, 'Beta-Usage','opt-out', 3]);
+  } else {
+    _gaq.push(['_setCustomVar', 3, 'Beta-Usage','unredirected', 3]);
+  }
+}
+
+
+
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="anon firehose ">
+
+	
+		<div id="top_parent"></div>
+		<a name="topothepage"></a>
+		
+		<div class="container">
+			<div class="nav-wrap">
+				<nav class="nav-primary" role="navigation" aria-label="Global Navigation">
+					<h1 class="logo">
+	<a href="//slashdot.org"><span>Slashdot</span></a>
+</h1>
+
+<ul class="nav-site">
+	<li><a href="//slashdot.org"><i class="icon-book" title="Stories"></i><span>Stories</span></a></li>
+	<li>
+		<ul class="filter-firehose">
+			<li class="nav-label">Firehose <i class="icon-angle-right"></i></li>
+			<li><a href="//slashdot.org/recent">All</a></li>
+			<li><a href="//slashdot.org/popular">Popular</a></li>
+		</ul>
+	</li>
+	<li><a href="//slashdot.org/polls"><i class="icon-chart-bar" title="Polls"></i><span>Polls</span></a></li>
+	<li><a href="//slashdot.org/videos"><i class="icon-videocam" title="Video"></i><span>Video</span> </a></li>
+
+	<!--
+	<li><a href="//ask.slashdot.org"><i class="icon-question-circle"></i><span>Ask</span></a></li>
+	
+	<li><a href="//events.slashdot.org"><i class="icon-calendar"></i><span>Events</span></a></li>
+	-->
+	<li><a href="http://deals.slashdot.org/?utm_source=slashdot&amp;utm_medium=navbar&amp;utm_campaign=dealshp_1" target="_blank"><i class="sd-mini" title="Deals"></i> <span>Deals</span></a></li>
+</ul>
+<a href="//slashdot.org/submission" class="btn btn-success">Submit</a>
+				</nav>
+				<nav class="nav-user" role="navigation" aria-label="user access and account controls">
+					<form id="search" class="form-inline nav-search-form" method="get" action="//slashdot.org/index2.pl">
+<!-- //games.slashdot.org/index2.pl" -->
+	<div class="form-group">
+		<label class="sr-only" for="sitesearch">Search Slashdot</label>
+		<div class="input-group">
+			<input type="text" id="" class="" name="fhfilter" value="" placeholder="Search">
+		</div>
+	</div>
+	<button type="submit" class="btn icon-search"></button>
+</form>
+<ul class="user-access">
+	
+		
+			<li >
+				<a href="//slashdot.org/my/login"  onclick="show_login_box(); return false;"><i class="icon-login"></i><span> Login</span></a>
+				
+			</li>
+		
+	
+		
+			<li class="nav-label">or</li>
+		
+	
+		
+			<li >
+				<a href="//slashdot.org/my/newuser"  onclick="getModalPrefs('newUserModal', 'Create Account', 1); $('#modal_box').addClass('join'); return false;"><i class="icon-user-add"></i><span> Sign up</span></a>
+				
+			</li>
+		
+	
+</ul>
+				</nav>
+			</div>
+			<div class="nav-secondary-wrap">
+				<nav class="nav-secondary" role="secondary-navigation">
+	<ul>
+		<li class="nav-label">Topics: </li>
+		<li><a href="//devices.slashdot.org">Devices</a></li>
+		<li><a href="//build.slashdot.org">Build</a></li>
+		<li><a href="//entertainment.slashdot.org">Entertainment</a></li>
+		<li><a href="//technology.slashdot.org">Technology</a></li>
+		<li><a href="//slashdot.org/?fhfilter=opensource">Open Source</a></li>
+		<li><a href="//science.slashdot.org">Science</a></li>
+		<li><a href="//yro.slashdot.org">YRO</a></li>
+		<!-- <li><a href="//slashdot.org/topics.pl">more...</a></li> -->
+	</ul>
+</nav>
+<nav class="nav-social" role="social navigation">
+	<ul>
+		<li class="nav-label">Follow us:</li>
+		<li><a href="http://rss.slashdot.org/Slashdot/slashdotMain" target="_blank"><i class="icon-rss-squared"></i><span class="sr-only">RSS</span></a></li>
+		<li><a href="http://www.facebook.com/slashdot" target="_blank"><i class="icon-facebook-squared"></i><span class="sr-only">Facebook</span></a></li>
+		<li><a href="https://plus.google.com/113450234747488780301" target="_blank"><i class="icon-gplus-squared"></i><span class="sr-only">Google+</span></a></li>
+		<li><a href="http://twitter.com/slashdot" target="_blank"><i class="icon-twitter-squared"></i><span class="sr-only">Twitter</span></a></li>
+		<li><a href="//slashdot.org/newsletter" target="_blank"><i class="icon-mail-squared"></i><span class="sr-only">Newsletter</span></a></li>
+	</ul>
+</nav>
+			</div>
+		</div>
+
+		<section>
+		
+			<div class="message-bar" id="firehose-message-tray">
+				<span class="icon-quote-left"></span>
+				<p>
+					
+						
+						Please <strong><a href="//games.slashdot.org/login.pl" onclick="javascript:getModalPrefs('newUserModal', 'Create Account', 1); $('#modal_box').addClass('join'); return false;">create an account</a></strong> to participate in the Slashdot moderation system
+					
+				</p>
+			</div>
+		
+		
+			<div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+<div id="janrainEngageEmbed"></div>
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+		
+		
+			<div class="adwrap">
+				
+				<div id='div-gpt-ad-728x90_a'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-728x90_a');});</script></div>
+				<div id='div-gpt-ad-728x90_a-oops'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-728x90_a-oops');});</script></div>
+				<div id='div-gpt-ad-hubicon_200x90_a'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-hubicon_200x90_a');});</script></div>
+			</div>
+		
+		<a name="main-articles"></a>
+	
+	<!-- header type=current end --><!-- body begin -->
+
+
+
+
+
+
+
+	
+
+	<style type="text/css">
+menu, menu * {
+	text-decoration:none;
+}
+
+menu[type=context] {
+	display:none;
+	position:absolute;
+	z-index:10000;
+}
+
+menu[type=context]:not(.brief) {
+	background-color:#dfdfdf;
+	margin:0;
+	padding:2px 0.5em;
+	border-style:solid;
+	border-width:1px;
+	border-color:#eeeeee #aaaaaa #aaaaaa #eeeeee;
+	-moz-border-radius-topright:.7em;
+	-webkit-border-top-right-radius: 0.7em 0.7em;
+}
+
+menu.full[type=context] > a.slash-hover:first-child {
+	-moz-border-radius-topright:.6em;
+	-webkit-border-top-right-radius: 0.6em 0.6em;
+}
+
+
+
+menu.brief[type=context] > a {
+	-moz-border-radius:.6em;
+	-webkit-border-radius: 0.6em;
+	color:#ffffff;
+	background-color:#000000;
+}
+
+/*
+span.briefmenu a.tag:not(.datatype) {
+    padding-left:.5em;
+}
+*/
+
+
+
+
+/* #tag-menu a, #feedback-menu a  { */
+menu.tag-menu-admin a {
+	display:list-item;
+	list-style:none;
+	text-align:left;
+	font-weight:bold;
+	color:black;
+	padding:0.1em 0.5em;
+	margin:-0.1em -0.5em;
+	cursor:pointer;
+}
+
+
+.tags .edit-bar { position:relative; }
+article aside .share .addthis_toolbox { display:block; width:60px; float:left; }
+article aside.view_mode .share { min-width:120px; padding-top:.5em; }
+#firehose.list article header h2 {padding-left: 20px; !important}
+.novote .vote { display:none; }
+
+.vote > a, .votedup > a, .voteddown > a {
+	display:inline-block;
+	height:22px;
+	width:22px;
+	margin: 2px 10px 0 0;
+	color:rgb(255,255,255);
+	text-decoration:none;
+	line-height:22px;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	border-width:1px;
+	border-style:solid;
+	border-color:rgba(0,0,0,0.5);
+}
+
+.vote > a, .votedup > a, .voteddown > a {color:rgb(0,0,0);}
+
+article.fhitem-submission h2 .vote > a, article.fhitem-submission h2 .votedup > a, article.fhitem-submission h2 .voteddown > a { border-color:rgba(0,0,0,0.15); }
+.vote .up, .vote .down, .votedup .up, .votedup .down, .voteddown .up, .voteddown .down { border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; /* text-shadow:0 0 2px #000000; }*/}
+article:not(.fhitem-story) .vote .up,article:not(.fhitem-story) .vote .down,article:not(.fhitem-story) .votedup .up,article:not(.fhitem-story) .votedup .down,article:not(.fhitem-story) .voteddown .up,article:not(.fhitem-story) .voteddown .down { /*text-shadow:none !important; */}
+.voteddown .down, .votedup .up { margin-right: 10px; text-indent:2px; line-height:24px; }
+article:not(.fhitem-story) .votedup .up,article:not(.fhitem-story) .voteddown .down {background: rgb(174,174,174);background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(174,174,174)), to(rgb(193,193,193)));background-image: -moz-linear-gradient(100% 100% 90deg,rgb(193,193,193), rgb(174,174,174) 100%);color:rgb(0,0,0);}
+article.fhitem-story .votedup .up,article.fhitem-story .voteddown .down {background: rgb(0,66,66);background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0,53,53)), to(rgb(0,102,102)));background-image: -moz-linear-gradient(100% 100% 90deg,rgb(0,102,102), rgb(0,53,53) 100%);}
+
+
+
+
+#tag-menu span.var-tag {
+font-weight:normal;
+color:#444444;
+}
+
+menu.reasons-menu a {
+padding:0 .25em 0 .25em;
+font-size:80%;
+-moz-border-radius:.5em;
+-webkit-border-radius:.5em;
+cursor:pointer;
+}
+
+menu.reasons-menu a:hover {
+background:rgb(153,153,153);
+background:-moz-linear-gradient(100% 100% 90deg, rgb(102,102,102), rgb(153,153,153) 70%) repeat scroll 0 0 rgb(102,102,102);
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(153,153,153)), to(rgb(102,102,102)));
+color:#fff;
+text-decoration:none;
+font-weignt:normal;
+}
+
+article.fhitem-story menu.reasons-menu a:hover {
+background:#002323 !important;
+background:-moz-linear-gradient(100% 100% 90deg, #002323, #005353 70%) repeat scroll 0 0 #002323 !important;
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#005353), to(#002323)) !important;
+}
+
+
+menu.reasons-menu {
+	display:none;
+	margin:0;
+	padding:0;
+}
+
+div.fhitem h3 menu.reasons-menu {
+margin:0.25em 0 0;
+}
+
+div.fhitem h3 menu.reasons-menu a.tag {
+font-size:.8em;
+}
+
+#tag-menu a.slash-hover,
+#feedback-menu a.slash-hover,
+
+.tag-display span.tag:hover,
+.tag-display span.tag.trigger {
+	color:white;
+	background-color:rgb(0, 85, 85);
+}
+
+#tag-menu a.slash-hover span.var-tag {
+	color:#eee;
+}
+
+.tag-entry.default {
+        color:#ccc;
+}
+
+.brief .nix {
+	margin-top:-1.35em;
+	margin-left:0px;
+	margin-top:-1.15em;
+	text-decoration:none;
+	line-height:1.35em;
+	padding:0 2px;
+	-moz-border-radius:.6em 0 0 .6em;
+	-webkit-border-radius:.6em 0 0 .6em;
+	-o-border-radius:.6em 0 0 .6em;
+	border-radius:.6em 0 0 .6em;
+    color:#fff !important;
+    background:transparent !important;
+}
+
+.brief .nix:hover {
+    background:rgb(153,153,153) !important;
+    background:-moz-linear-gradient(100% 100% 90deg, rgb(102,102,102), rgb(153,153,153) 70%) repeat scroll 0 0 rgb(102,102,102) !important;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(153,153,153)), to(rgb(102,102,102))) !important;
+}
+
+</style>
+
+<menu id="nix-reasons" style="display:none">
+	<a class="tag">binspam</a><a class="tag">dupe</a><a class="tag">notthebest</a><a class="tag">offtopic</a><a class="tag">slownewsday</a><a class="tag">stale</a><a class="tag">stupid</a>
+</menu>
+<menu id="nod-reasons" style="display:none">
+	<a class="tag">fresh</a><a class="tag">funny</a><a class="tag">insightful</a><a class="tag">interesting</a><a class="tag">maybe</a>
+</menu>
+<menu id="comment-nix-reasons" style="display:none">
+	<a class="tag">offtopic</a><a class="tag">flamebait</a><a class="tag">troll</a><a class="tag">redundant</a><a class="tag">overrated</a>
+</menu>
+<menu id="comment-nod-reasons" style="display:none">
+	<a class="tag">insightful</a><a class="tag">interesting</a><a class="tag">informative</a><a class="tag">funny</a><a class="tag">underrated</a>
+</menu>
+
+<menu id="tag-nod-reasons" style="display:none">
+	<a class="tag">descriptive</a>
+</menu>
+<menu id="feedback-menu" class="tag-menu-admin" type="context">
+	<a class="tag">typo</a><a class="tag">dupe</a><a class="tag">error</a>
+</menu>
+<menu id="tag-menu" class="tag-menu-admin none" type="context">
+
+<!--	<a data-op="!" class="nix">!<span class="var-tag hide"></span></a>-->
+
+</menu>
+
+<script type="text/javascript">
+$(function(){
+var $CURRENT_MENU, $TAG_MENU=$('#tag-menu'), NOTNOT=/^!!/, IE7=/^7\.0/, TAG_PREFIX=/^\/tag\//;
+
+function get_tag_name( $tag ){
+	return ($tag.attr('href') || '').replace(TAG_PREFIX, '') || $tag.text().toLowerCase();
+}
+
+function trigger_menu( e, selector, $menu, menu_content ){
+	var $target=$(original_target(e, selector)), in_use=$target.is('.trigger');
+	if ( $CURRENT_MENU ) {
+		$CURRENT_MENU.menu('cancel', e);
+		$CURRENT_MENU = null;
+	}
+
+	if ( !in_use ) {
+		menu_content && $menu.stop(true, true).hide().html(menu_content);
+		($CURRENT_MENU=$menu).menu('context', e);
+	}
+	return !in_use;
+}
+
+function open_menu( trigger, $menu ){
+	var $trigger=$(trigger), $fhitem=$trigger.closest('.fhitem');
+	$fhitem.length && user_intent('interest', $fhitem[0]);
+
+	$menu.appendTo(document.body).css({ opacity:0 }).show();
+
+	var 	right	= $fhitem.offset().left + $fhitem.width(),
+		global	= $trigger.offset(),
+		local	= $menu.offsetParent().offset();
+
+	// Ugly IE position hack required:
+	$.browser.msie && IE7.test($.browser.version) && (local.top = 0);
+
+	// pin the menu (horizontally) on-screen
+	global.left = Math.min(global.left, right-$menu.width());
+
+	$trigger.addClass('trigger');
+	$menu.css({
+		position:	'absolute',
+		top:		global.top - local.top + $trigger.height(),
+		left:		global.left - local.left,
+		opacity:	1
+	});
+}
+
+function close_menu( trigger, $menu ){
+	$menu.hide();
+	$(trigger).removeClass('trigger');
+	($CURRENT_MENU===$menu) && ($CURRENT_MENU=false);
+}
+
+/* T2 tag context-menu */
+var $TAG_MENU=$('#tag-menu'), NOTNOT=/^!!/;
+
+
+    var user_is_admin = 0;
+
+
+
+$('a[rel=tag]').live('mousedown',function(ea){
+    window.open(this.href);
+    return false;
+})
+
+$('.tag-bar .disagree').live('mousedown',function(ee){
+	var fhitem = $(original_target(ee)).closest('.fhitem')[0],
+		command = ('!' + $(original_target(ee)).attr("data-tag")).replace(NOTNOT, '');
+    try { Tags.submit(fhitem, command); } catch ( err ) {  }
+    return false;
+})
+
+
+
+$('a[rel=tag]').
+	live('mousedown', function( e ){
+        
+            return true;
+        
+
+	}).
+	live('click', function( e ){
+		if ( !logged_in ) {
+			var	target	= original_target(e),
+				tag	= $(target).text();
+			addfhfilter(tag);
+		}
+		e.preventDefault();
+		return false;
+	});
+
+$TAG_MENU.menu({
+	cssNamespace: 'slash',
+	liveTriggers: true,
+	clickDuration: 300,
+
+	start: function( e, ui ){
+		var	$tag	= $(ui.trigger),
+			tag	= get_tag_name($tag),
+			context	= firehose_settings && firehose_settings.viewtitle;
+
+		// Insert the tagname into the menu items where needed.
+		$TAG_MENU.find('span.var-tag').text(tag);
+		$TAG_MENU.find('a.nix').attr('title','not ' + tag);
+
+
+			// non-admins may only delete their own tags
+		$TAG_MENU.find('a:[data-op="-"]').toggle($tag.is('.my'));
+	
+
+		// *tagname* in *viewtitle*
+		$TAG_MENU.find('a:[data-op="="]').toggle(!!context);
+		context && $TAG_MENU.find('span.var-view').text(context);
+
+		open_menu($tag, $TAG_MENU);
+	},
+
+	select: function( e, ui ){
+		var	$tag	= $(ui.trigger),
+			tag	= get_tag_name($tag),
+			op	= $(ui.select).attr('data-op'),
+			fhitem,
+			command;
+
+		// Global for positioning other things.
+		$related_trigger = $tag;
+
+		switch ( op ) {
+			case '=':
+				addfhfilter(tag);
+				break;
+
+			default:
+				fhitem = $tag.closest('.fhitem')[0];
+				command = (op + tag).replace(NOTNOT, '');
+				try { Tags.submit(fhitem, command); } catch ( err ) {  }
+				break;
+		}
+	},
+
+	stop: function( e, ui ){ close_menu(ui.trigger, $TAG_MENU); }
+});
+
+
+
+
+/* T2 feedback context-menu */
+
+
+
+/* T2 datatype context-menu (admin-only) */
+
+
+
+
+
+
+});
+</script>
+
+	
+
+<!-- SMACKS: BEGIN STORY CONTENT -->
+<div class="container">
+	<!--SMACKS: BEGING CENTER COLUMN -->
+	<div class="main-wrap has-rail-right">
+		<div class="main-content">
+			<div class="grid_24 a2 ">
+			</div>
+			<div id="firehose" class="nothumbs">
+			<div id="firehoselist" class="fhroot fleft  grid_24">
+				
+				<article id="firehose-81048433" data-fhid="81048433" data-fhtype="story" class="fhitem fhitem-story article usermode thumbs grid_24">
+		<span class="sd-info-block" style="display: none">
+			<span class="sd-key-firehose-id">81048433</span>
+			<span class="type">story</span>
+			
+		</span>
+
+
+
+
+
+
+
+	
+	
+
+<header>
+	
+		<span class="topic" id="topic-81048433">
+			<a href="//games.slashdot.org/index2.pl?fhfilter=graphics" onclick="return addfhfilter('graphics');">
+			
+				<img src="//a.fsdn.com/sd/topics/graphics_64.png" width="64" height="64" alt="Graphics" title="Graphics">
+			
+		</a>
+		
+	
+		
+		
+		
+		
+
+		
+		<a href="//games.slashdot.org/index2.pl?fhfilter=software" onclick="return addfhfilter('software');">
+			
+				<img src="//a.fsdn.com/sd/topics/software_64.png" width="64" height="64" alt="Software" title="Software">
+			
+		</a>
+		
+	
+		
+		
+
+		
+		<a href="//games.slashdot.org/index2.pl?fhfilter=games" onclick="return addfhfilter('games');">
+			
+				<img src="//a.fsdn.com/sd/topics/games_64.png" width="64" height="64" alt="Games" title="Games">
+			
+		</a>
+		</span>
+	
+
+	<h2 class="story">
+		
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+		<span id="title-81048433" class="story-title"> <a   href="//games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard">Amazon Launches Free Game Engine Lumberyard</a></span>
+
+		
+		
+		<!--<span class="comments commentcnt-81048433" >56</span>-->
+		
+
+		
+		<!-- comment bubble -->
+		
+			<span class="comment-bubble"><a href="//games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard#comments" title="">56</a></span>
+		
+	</h2>
+	<div class="details" id="details-81048433">
+		<span class="story-details">
+		<span class="story-views">
+			<span class="sodify" onclick="firehose_set_options('color', 'red')" title="Filter Firehose to entries rated red or better"></span><span class="icon-beaker pop1 " alt="Popularity" title="Filter Firehose to entries rated red or better" onclick="firehose_set_options('color', 'red')"><span></span></span> 
+		</span>
+		</span>
+		<span class="story-byline">
+	
+				
+			Posted
+				by 
+		
+		
+			
+				timothy
+			
+		
+		
+
+		
+		
+		<time id="fhtime-81048433" datetime="on Tuesday February 09, 2016 @01:28PM">on Tuesday February 09, 2016 @01:28PM</time>
+		
+		
+			 from the <span class="dept-text">gratis-not-libre</span> dept.
+		
+		</span>
+	</div>
+</header>
+
+<div class="body" id="fhbody-81048433">
+	
+		
+	
+
+	
+		
+		<div id="text-81048433" class="p">
+			
+		 	
+				<a href="/~Dave+Knott">Dave Knott</a> writes: <i>Amazon has both <a href="http://gamasutra.com/view/news/265425/Amazon_launches_new_free_highquality_game_engine_Lumberyard.php">announced and released a new, free game engine</a>, <a href="http://aws.amazon.com/lumberyard/">Lumberyard</a>, which offers deep integration with its Amazon Web Services server infrastructure to empower online play, and also with Twitch, its video game-focused streaming service.   Lumberyard is powerful and full-featured enough to develop triple-A current-gen console games, with mobile support is coming down the road.  Its core engine technology is based on Crytek's CryEngine.  However, Lumberyard represents a branch of that tech, and the company is replacing or upgrading many of CryEngine's systems.  Monetization for Lumberyard will come strictly through the use of Amazon Web Services' cloud computing.  If you use the engine for your game, you're permitted to roll your own server tech, but if you're using a third-party provider, it has to be Amazon.  Integration of Amazon's Twitch video streaming tools at a low level also helps to cement that platform's dominance in the game streaming space.  Alongside Lumberyard, the company has also announced and released <a href="http://aws.amazon.com/gamelift/">GameLift</a>, a new managed service for deploying, operating, and scaling server-based online games using AWS.  GameLift will be available only to developers who use Lumberyard, though it's an optional add-on.  The game engine is in beta, but is freely usable and downloadable today.</i>
+		 	
+		</div>
+
+		
+
+		
+
+		
+			
+		
+	</div>
+	<aside class="grid_24 view_mode">
+		
+			<div class="units-12 story-detail-tags">
+				<span id="sharethis-81048433" class="">
+					
+						
+
+						
+
+						
+							<div class="story-controls">
+								<div
+								  class="janrainSocialPlaceholder"
+								  data-janrain-url="http://games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard"
+								  data-janrain-title="Amazon Launches Free Game Engine Lumberyard"
+								  data-janrain-message="Amazon Launches Free Game Engine Lumberyard @slashdot"
+								></div>
+							</div>
+						
+					
+				</span>
+
+				<div class="story-tags">
+					<div class="tright tw">
+						
+							<span class="tright tags">
+								
+									<menu type="toolbar" class="edit-bar">
+		<span id="tagbar-81048433" class="tag-bar none">
+			<a  class="topic tag" rel="statictag" href="//slashdot.org/tag/" target="_blank"></a>
+<a  class="popular tag" rel="statictag" href="//slashdot.org/tag/games" target="_blank">games</a>
+<a  class="popular tag" rel="statictag" href="//slashdot.org/tag/amazon" target="_blank">amazon</a>
+<a  class="popular tag" rel="statictag" href="//slashdot.org/tag/graphics" target="_blank">graphics</a>
+
+		</span>
+		
+			<a class="edit-toggle" href="/my/login/" onclick="show_login_box();return false;">
+				<span class="icon-tag btn collapse"></span>
+			</a>
+		
+		
+		<div class="tag-menu">
+			<input class="tag-entry default" type="text" value="apply tags">
+		</div>
+		
+
+		
+		
+
+	</menu>
+								
+							</span>
+						
+					</div>
+				</div>
+			</div>
+
+			
+				
+				
+				
+			 	
+					<section class="grid_24" id="newa2footerv2">
+						<div class="grid_6 pr">
+							<h3><a title="Previous story" href="//it.slashdot.org/story/16/02/09/170228/president-obama-unveils-19-billion-plan-to-overhaul-us-cybersecurity?sdsrc=prev">&larr;</a></h3>
+						</div>
+						<div class="grid_12 rl">
+							<h3>You may like to read:</h3>
+						</div>
+						<div class="grid_6 ns">
+							<h3><a title="Next story" href="//science.slashdot.org/story/16/02/09/1732246/ligo-will-make-gravitational-waves-announcement-on-thursday?sdsrc=next">&rarr;</a></h3>
+						</div>
+						<div class="grid_6">
+							<span class="c">
+								<a href="//it.slashdot.org/story/16/02/09/170228/president-obama-unveils-19-billion-plan-to-overhaul-us-cybersecurity?sdsrc=prev">President Obama Unveils $19 Billion Plan To Overhaul U.S. Cybersecurity </a>
+							</span>
+						</div>
+						<div class="grid_12">
+							<span class="c">
+								
+									
+									
+									
+									
+
+																				<h2><a href="//games.slashdot.org/story/15/05/11/1414213/psychologist-porn-and-video-game-addiction-are-leading-to-masculinity-crisis?sdsrc=popbyskid">Psychologist: Porn and Video Game Addiction Are Leading To 'Masculinity Crisis'</a><br></h2>
+																				<h2><a href="//games.slashdot.org/story/15/03/25/1915200/gen-con-threatens-to-leave-indianapolis-over-religious-freedom-bill?sdsrc=popbyskid">Gen Con Threatens To Leave Indianapolis Over Religious Freedom Bill</a><br></h2>
+																				<h2><a href="//games.slashdot.org/story/15/03/22/2055223/online-swatting-becomes-a-hazard-for-gamers-who-play-live-on-the-internet?sdsrc=popbyskid">Online "Swatting" Becomes a Hazard For Gamers Who Play Live On the Internet</a><br></h2>
+																				<h2><a href="//games.slashdot.org/story/16/01/03/1438235/kid-racks-up-5900-bill-playing-jurassic-world-on-dads-ipad?sdsrc=popbyskid">Kid Racks Up $5,900 Bill Playing Jurassic World On Dad's iPad</a><br></h2>
+																				<h2><a href="//games.slashdot.org/story/15/08/17/0119210/steamos-has-dropped-support-for-suspend?sdsrc=popbyskid">SteamOS Has Dropped Support For Suspend</a><br></h2>
+									
+								
+								
+									<h3 class="js_disp_only hide"><a class="jshandle_related" data-goto-url="//games.slashdot.org/submission/5545149/amazon-launches-new-free-high-quality-game-engine-lumberyard?sdsrc=rel" href="#">Submission: Amazon Launches New, Free, High-quality Game Engine: Lumberyard</a></h3><script type="text/javascript">
+		(function($){
+			$('.js_disp_only').show();
+			$('a.jshandle_related').on('click', '', function(e) {
+				e.preventDefault();
+				var url = $(this).data('goto-url');
+				window.location = url
+			});
+		})($j);
+	</script>
+								
+							</span>
+						</div>
+						<div class="grid_6">
+							<span class="c">
+								
+									<a href="//science.slashdot.org/story/16/02/09/1732246/ligo-will-make-gravitational-waves-announcement-on-thursday?sdsrc=next">LIGO Will Make Gravitational Waves Announcement on Thursday</a>
+								
+							</span>
+						</div>
+					</section>
+				
+			
+		
+	</aside>
+	
+
+
+
+	</article>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!-- SMACKS: BEGIN RIGHT RAIL -->
+	<aside id="slashboxes" class="rail-right">
+		
+		<div class="railad">
+<div id='div-gpt-ad-300x250_a'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-300x250_a');});</script></div>
+</div>
+			<div id="slashboxesin" class="yui-b">
+				
+				
+				
+			</div>
+		
+	</aside>
+		<!-- SMACKS: END RIGHT RAIL -->
+</div>
+<!-- END STORY CONTENT -->
+
+<!-- SMACKS: BEGIN COMMENTS CONTAINER -->
+<div class="container">
+	<!-- SMACKS: BEGIN COMMENTS SECTION -->
+	<div class="main-wrap">
+		<div class="main-content">
+			<div id="comments" class="a2commentwrap">
+			<div>
+					<a name="comments"></a>
+<div id="comments" class="container">
+	<div class="main-wrap">
+		<div class="main-content">
+			<section class="d2incommentspl">
+				<div class="commentwrap" id="commentwrap">
+					
+						<div class="commentBox">
+							<div class="title hide">
+								<h4>
+									
+										<span class="escape-link"><a href="//games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard" title="Back to Article - Amazon Launches Free Game Engine Lumberyard">Amazon Launches Free Game Engine Lumberyard</a></span>
+									
+									<span class="commentBoxLinks"><a href="#" onclick="D2.ajaxFetchComments(0,1); return false"><span id="more_comments_num_d"></span> More</a>
+
+
+
+	| <span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=" onclick="D2.replyTo(0); return false;">Reply</a>
+
+
+	<a class="login"  href="//games.slashdot.org/login.pl" onclick="show_login_box(); return false">Login</a></span>
+								</h4>
+							</div>
+						</div>
+					
+
+					<section class="grid_24" id="d2header"><div>
+						
+							<h2 class="commentspl test"><a title="Back to Article - Amazon Launches Free Game Engine Lumberyard" href="//games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard">Amazon Launches Free Game Engine Lumberyard</a></h2>
+						
+						<nav class="grid_24">
+							<div class="grid_14 widthauto">
+							
+								<span class="ind"></span><a class="btn first" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=" onclick="D2.replyTo(0); return false;">Post</a>
+							
+							<!-- <a href="//games.slashdot.org/search.pl?op=comments&amp;sid=8726641" class="btn">Search <span class="totalcommentcnt">56</span> Comments</a> -->
+							
+								
+									<a href="#" onclick="D2.ajaxFetchComments(0,1,'','',-1); return false" class="btn" id="d2loadall">Load All Comments</a>
+								
+							
+							
+								</div>
+								<div class="grid_10 d1or2">
+							
+
+							
+								<div id="d2out" class="horizontal rooted grid_15">
+									<div id="d2act" class="hide">
+										<div class="loki" id="gods">
+											<script type="text/javascript">
+												 $(function(){
+													 D2.slider = new D2.Slider(
+														 D2.user_threshold(),
+														 D2.user_highlightthresh(),
+														 'x'
+													 );
+												 });
+											</script>
+											<div id="bones" class="grid_12">
+												<div class="ccw-count-container grid_24">
+													<span id="ccw-full-count-text" class="grid_8 ccw-count-text tcenter"><span></span><span id="ccw-full-phrase">&nbsp;Full</span></span>
+													<span id="ccw-abbr-count-text" class="grid_8 ccw-count-text"><span></span><span id="ccw-abbr-phrase">&nbsp;Abbreviated</span></span>
+													<span id="ccw-hide-count-text" class="grid_8 ccw-count-text tleft"><span></span><span id="ccw-hide-phrase">&nbsp;Hidden</span></span>
+												</div>
+												<div id="ccw">
+													<div id="ccw-body" class="ccw-core">
+														<div id="ccw-panel-container" class="ccw-core">
+															<div id="ccw-full-panel" class="ccw-panel">
+																/Sea<div class="ccw-panel-border"></div>
+																<div id="ccw-full-count-pos" class="ccw-core-pos ccw-count-pos"></div>
+															</div>
+															<div id="ccw-abbr-panel" class="ccw-panel">
+																<div class="ccw-panel-border"></div>
+																<div id="ccw-abbr-count-pos" class="ccw-core-pos ccw-count-pos"></div>
+															</div>
+															<div id="ccw-hide-panel" class="ccw-panel">
+																<div id="ccw-hide-count-pos" class="ccw-core-pos ccw-count-pos"></div>
+															</div>
+														</div>
+														<div id="ccw-control" class="ccw-core">
+															<div id="ccw-centering-rail" class="ccw-core">
+																<div id="ccw-hide-bar-pos" class="ccw-core-pos">
+																	<div id="ccw-hide-bar" class="ccw-bar">
+																		<div id="ccw-hide-bar-tab" class="ccw-bar-tab"></div>
+																		<div class="ccwa"></div>
+																		<div class="ccwb"></div>
+																		<div id="ccw-hide-bar-upzone" class="ccw-upzone" onclick="D2.slider.stepTHT(HIDE_BAR, +1)"></div>
+																		<div id="ccw-hide-bar-downzone" class="ccw-downzone" onclick="D2.slider.stepTHT(HIDE_BAR, -1)"></div>
+																	</div>
+																</div>
+																<div id="ccw-abbr-bar-pos" class="ccw-core-pos">
+																	<div id="ccw-abbr-bar" class="ccw-bar">
+																		<div id="ccw-abbr-bar-tab" class="ccw-bar-tab"></div>
+																		<div class="ccwa"></div>
+																		<div class="ccwb"></div>
+																		<div id="ccw-abbr-bar-upzone" class="ccw-upzone" onclick="D2.slider.stepTHT(ABBR_BAR, +1)"></div>
+																		<div id="ccw-abbr-bar-downzone" class="ccw-downzone" onclick="D2.slider.stepTHT(ABBR_BAR, -1)"></div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="ccw-score-label grid_24">
+														<div class="grid_3"><span class="sc">Score:</span></div>
+														<div class="grid_3">5<span class="lg"></span></div>
+														<div class="grid_3">4<span class="lg"></span></div>
+														<div class="grid_3">3<span class="lg"></span></div>
+														<div class="grid_3">2<span class="lg"></span></div>
+														<div class="grid_3">1<span class="lg"></span></div>
+														<div class="grid_3">0<span class="lg"></span></div>
+														<div class="grid_3">-1<span class="lg"></span></div>
+													</div>
+												</div>
+											</div>
+											<div class="commentControlFooter">
+												<a href="#" onclick="D2.ajaxFetchComments(0,1); return false"><span id="more_comments_num_c"></span> More</a>
+
+
+
+	| <span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=" onclick="D2.replyTo(0); return false;">Reply</a>
+
+
+	<a class="login"  href="//games.slashdot.org/login.pl" onclick="show_login_box(); return false">Login</a><div id="login_cover" class="hide" onclick="hide_login_box()"></div>
+<div id="login_box" class="hide">
+	<div id="login_box_content">
+		<div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="//games.slashdot.org/comments.pl?sid=8726641">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+<div id="janrainEngageEmbed"></div>
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+		<div class="actions">
+			<a class="ico close" href="#" onclick="hide_login_box(); return false"><span>Close</span></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">logged_in = 0</script>
+											</div>
+											<div id="commentControlBoxStatus" class="hide"></div>
+										</div>
+									</div>
+								</div>
+							
+							
+							<a href="//games.slashdot.org/search.pl?op=comments&amp;sid=8726641" class="ui-icon search_comments">Search <span class="totalcommentcnt">56</span> Comments</a>
+							
+								<a class="pref ui-icon-w" href="//games.slashdot.org/users.pl" onclick="show_login_box(); $('#modal_box').addClass('login'); return false;">Log In/Create an Account</a>
+							
+						</div>
+					</nav>
+					<section id="besttabs" class="grid_24">
+						<span class="legend">Comments Filter:</span>
+						<ul class="besttabslist">
+							<li class="active">
+								<a href="#" data-filter-url="//games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard#comments">All</a>
+							</li>
+						
+							<li >
+								<a href="" data-filter-url="//games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard/insightful-comments#comments">Insightful</a>
+							</li>
+						
+							<li >
+								<a href="" data-filter-url="//games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard/informative-comments#comments">Informative</a>
+							</li>
+						
+							<li >
+								<a href="" data-filter-url="//games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard/interesting-comments#comments">Interesting</a>
+							</li>
+						
+							<li >
+								<a href="" data-filter-url="//games.slashdot.org/story/16/02/09/1727232/amazon-launches-free-game-engine-lumberyard/funny-comments#comments">Funny</a>
+							</li>
+						
+					</ul>
+					<script>
+					(function($){
+						$('#besttabs').show();
+						$('.besttabslist').on('click', 'li a', function(e){
+							e.preventDefault();
+							var url = $(this).data('filter-url');
+							//console.log('URL= ', url);
+							$(this)
+								.closest('ul').find('li').removeClass('active')
+								.end()
+								.closest('li').addClass('active');
+							window.location = url;
+						});
+					})($j);
+					</script>
+			</section>
+				<aside class="grid_24">
+					<p>
+						<small><strong>The Fine Print:</strong> The following comments are owned by whoever posted them.  We are not responsible for them in any way.</small>
+					</p>
+				</aside>
+			</section>
+			
+		</div>
+	</div>
+</div><script src="//a.fsdn.com/sd/comments-minified.js?release_20160212" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+<!--
+D2.d2_keybindings_disable()[191] = 1;
+D2.boxStatus(1);
+D2.comments({ 51473659: { uid: 666, pid: 51472595, subject: "Re:It's an interesting concept..", read: 0, points: 0, kids: [  ], opid: 51472595 }, 51476319: { uid: 666, pid: 51472041, subject: "Re:Terrible name", read: 0, points: 0, kids: [  ], opid: 51472041 }, 51472595: { uid: 693085, pid: 0, read: 0, points: 2, kids: [ 51472919, 51473659 ], opid: 0 }, 51472139: { uid: 666, pid: 51472041, subject: "Re:Terrible name", read: 0, points: 0, kids: [  ], opid: 51472041 }, 51474887: { uid: 666, pid: 0, read: 0, points: 0, kids: [  ], opid: 0 }, 51477179: { uid: 707885, pid: 51471909, subject: "Re:Meh. Not cross-platform enough.", read: 0, points: 2, kids: [  ], opid: 51471909 }, 51476323: { uid: 571051, pid: 51471909, read: 0, points: 2, kids: [ 51480083 ], opid: 51471909 }, 51472085: { uid: 666, pid: 51471745, read: 0, points: 0, kids: [ 51472191, 51473511 ], opid: 51471745 }, 51471917: { uid: 663186, pid: 51471875, subject: "Re:Gratis but not free", read: 0, points: 2, kids: [ 51471993 ], opid: 51471875 }, 51471843: { uid: 666, pid: 51471755, subject: "Re:Gratis but not free", read: 0, points: 1, kids: [  ], opid: 51471755 }, 51478567: { uid: 2202674, pid: 51472745, subject: "Re:Amazon Lumberyard Engine Service Terms", read: 0, points: 2, kids: [  ], opid: 51472745 }, 51472919: { uid: 666, pid: 51472595, subject: "Re:It's an interesting concept..", read: 0, points: 0, kids: [  ], opid: 51472595 }, 51472681: { uid: 166417, pid: 51472527, subject: "Re:It's a trap!", read: 0, points: 2, kids: [  ], opid: 51472527 }, 51472653: { uid: 666, pid: 0, read: 0, points: 1, kids: [  ], opid: 0 }, 51477121: { uid: 666, pid: 51472277, subject: "Re:Gratis but not free", read: 0, points: 0, kids: [  ], opid: 51472277 }, 51472191: { uid: 3654617, pid: 51472085, subject: "Re:So it's between the BSD/MIT and GPL licenses.", read: 0, points: 3, kids: [  ], opid: 51472085 }, 51471873: { uid: 666, pid: 0, read: 0, points: 0, kids: [ 51472161 ], opid: 0 }, 51472249: { uid: 723572, pid: 51471909, subject: "Re:Meh. Not cross-platform enough.", read: 0, points: 5, kids: [ 51472795, 51472805 ], opid: 51471909 }, 51474527: { uid: 666, pid: 51472219, read: 0, points: 0, kids: [  ], opid: 51472219 }, 51472041: { uid: 723572, pid: 51471669, subject: "Re:Terrible name", read: 0, points: 0, kids: [ 51472139, 51476319 ], opid: 51471669 }, 51471755: { uid: 697113, pid: 51471745, subject: "Re:Gratis but not free", read: 0, points: 2, kids: [ 51471843, 51471875 ], opid: 51471745 }, 51471851: { uid: 574732, pid: 51471745, subject: "Re:Gratis but not free", read: 0, points: 2, kids: [ 51471923, 51474405 ], opid: 51471745 }, 51471993: { uid: 464142, pid: 51471917, subject: "Re:Gratis but not free", read: 0, points: 2, kids: [  ], opid: 51471917 }, 51471895: { uid: 697113, pid: 51471875, subject: "Re:Gratis but not free", read: 0, points: 2, kids: [  ], opid: 51471875 }, 51472277: { uid: 3654617, pid: 51471879, subject: "Re:Gratis but not free", read: 0, points: 2, kids: [ 51477121 ], opid: 51471879 }, 51472527: { uid: 666, pid: 0, read: 0, points: 0, kids: [ 51472681 ], opid: 0 }, 51477659: { uid: 666, pid: 51471669, subject: "Re:Terrible name", read: 0, points: 0, kids: [  ], opid: 51471669 }, 51472959: { uid: 723572, pid: 51472795, subject: "Re:Meh. Not cross-platform enough.", read: 0, points: 2, kids: [  ], opid: 51472795 }, 51472977: { uid: 723572, pid: 51472805, subject: "Re:Meh. Not cross-platform enough.", read: 0, points: 2, kids: [  ], opid: 51472805 }, 51471923: { uid: 666, pid: 51471851, subject: "Re:Gratis but not free", read: 0, points: 0, kids: [  ], opid: 51471851 }, 51472219: { uid: 512701, pid: 51472103, subject: "Re:Gratis but not free", read: 0, points: 1, kids: [ 51472399, 51474527 ], opid: 51472103 }, 51472209: { uid: 666, pid: 0, read: 0, points: 0, kids: [  ], opid: 0 }, 51472235: { uid: 666, pid: 51471909, subject: "Re:Meh. Not cross-platform enough.", read: 0, points: 0, kids: [  ], opid: 51471909 }, 51472167: { uid: 1034238, pid: 0, read: 0, points: 2, kids: [  ], opid: 0 }, 51474405: { uid: 666, pid: 51471851, read: 0, points: 0, kids: [  ], opid: 51471851 }, 51472159: { uid: 122110, pid: 51471909, subject: "Re:Meh. Not cross-platform enough.", read: 0, points: 3, kids: [  ], opid: 51471909 }, 51475511: { uid: 666, pid: 0, read: 0, points: 0, kids: [  ], opid: 0 }, 51472057: { uid: 9119, pid: 0, read: 0, points: 2, kids: [  ], opid: 0 }, 51471879: { uid: 321705, pid: 51471745, subject: "Re:Gratis but not free", read: 0, points: 2, kids: [ 51472043, 51472103, 51472277 ], opid: 51471745 }, 51471653: { uid: 666, pid: 0, read: 0, points: 0, kids: [  ], opid: 0 }, 51471745: { uid: 3654617, pid: 0, read: 0, points: 5, kids: [ 51471755, 51471851, 51471879, 51472085, 51472591 ], opid: 0 }, 51472591: { uid: 666, pid: 51471745, read: 0, points: 0, kids: [  ], opid: 51471745 }, 51472103: { uid: 666, pid: 51471879, subject: "Re:Gratis but not free", read: 0, points: 0, kids: [ 51472219 ], opid: 51471879 }, 51471669: { uid: 168184, pid: 0, read: 0, points: 3, kids: [ 51472041, 51477659 ], opid: 0 }, 51472805: { uid: 4151743, pid: 51472249, subject: "Re:Meh. Not cross-platform enough.", read: 0, points: 2, kids: [ 51472977 ], opid: 51472249 }, 51471875: { uid: 464142, pid: 51471755, subject: "Re:Gratis but not free", read: 0, points: 3, kids: [ 51471895, 51471917, 51473699 ], opid: 51471755 }, 51472795: { uid: 1628283, pid: 51472249, subject: "Re:Meh. Not cross-platform enough.", read: 0, points: 3, kids: [ 51472959 ], opid: 51472249 }, 51472161: { uid: 666, pid: 51471873, subject: "Re:\"deep integration empowering\"... amazon commerc", read: 0, points: 0, kids: [  ], opid: 51471873 }, 51472043: { uid: 666, pid: 51471879, subject: "Re:Gratis but not free", read: 0, points: 0, kids: [  ], opid: 51471879 }, 51473511: { uid: 666, pid: 51472085, subject: "Re:So it's between the BSD/MIT and GPL licenses.", read: 0, points: 0, kids: [  ], opid: 51472085 }, 51480083: { uid: 2734467, pid: 51476323, subject: "Re:Unity also kinda stinks", read: 0, points: 2, kids: [  ], opid: 51476323 }, 51472745: { uid: 784345, pid: 0, read: 0, points: 4, kids: [ 51472915, 51478567 ], opid: 0 }, 51473699: { uid: 524767, pid: 51471875, subject: "Re:Gratis but not free", read: 0, points: 3, kids: [  ], opid: 51471875 }, 51472399: { uid: 666, pid: 51472219, read: 0, points: 0, kids: [  ], opid: 51472219 }, 51471909: { uid: 181303, pid: 0, read: 0, points: 5, kids: [ 51472159, 51472235, 51472249, 51476323, 51477179 ], opid: 0 }, 51472915: { uid: 574732, pid: 51472745, subject: "Re:Amazon Lumberyard Engine Service Terms", read: 0, points: 2, kids: [  ], opid: 51472745 } });
+
+D2.thresh_totals({6:{6:{1:56,3:0,2:0}},4:{6:{1:52,3:2,2:2},4:{1:52,3:4,2:0},5:{1:52,3:4,2:0}},1:{6:{1:24,3:2,2:30},4:{1:24,3:5,2:27},1:{1:24,3:32,2:0},3:{1:24,3:13,2:19},2:{1:24,3:30,2:2},5:{1:24,3:4,2:28}},3:{6:{1:46,3:2,2:8},4:{1:46,3:5,2:5},3:{1:46,3:10,2:0},5:{1:46,3:4,2:6}},0:{6:{1:0,3:2,2:54},4:{1:0,3:5,2:51},1:{1:0,3:38,2:18},3:{1:0,3:13,2:43},0:{1:0,3:56,2:0},2:{1:0,3:30,2:26},5:{1:0,3:4,2:52}},2:{6:{1:27,3:2,2:27},4:{1:27,3:5,2:24},3:{1:27,3:13,2:16},2:{1:27,3:29,2:0},5:{1:27,3:4,2:25}},5:{6:{1:53,3:2,2:1},5:{1:53,3:3,2:0}},"-1":{6:{1:0,3:2,2:54},4:{1:0,3:5,2:51},1:{1:0,3:38,2:18},3:{1:0,3:13,2:43},0:{1:0,3:56,2:0},2:{1:0,3:30,2:26},5:{1:0,3:4,2:52},"-1":{1:0,3:56,2:0}}});
+
+D2.root_comment(0);
+D2.root_comments([51471653,51471669,51471745,51471873,51471909,51472057,51472167,51472209,51472527,51472595,51472653,51472745,51474887,51475511]);
+D2.root_comments_hash({51472595:1,51474887:1,51472653:1,51471873:1,51472527:1,51472209:1,51472167:1,51475511:1,51472057:1,51471745:1,51471653:1,51471669:1,51472745:1,51471909:1});
+
+D2.d2_comment_order(0);
+D2.user_uid(666);
+D2.user_is_anon(1);
+D2.user_is_admin(0);
+D2.user_is_subscriber(0);
+D2.user_smallscreen(0);
+D2.user_threshold(1);
+D2.user_highlightthresh(4);
+D2.user_d2asp(0);
+
+D2.discussion_id(8726641);
+
+D2.d2_seen('51471653,16,76,10,88,8,22,2,4,16,14,8,6,70,48,2,14,28,18,36,20,2,6,24,18,10,16,14,28,122,128,64,4,58,28,64,50,10,110,4,40,18,534,148,40,706,122,360,624,808,4,798,58,480,908,1516');
+D2.more_comments_num(0);
+
+
+//-->
+</script>
+
+
+
+
+	
+	
+	
+	
+		<ul id="commentlisting" class="d2">
+			<li id="tree_51471653" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51471653" class="commentstatus"></div>
+<div id="comment_51471653" class="cw">
+</div>
+
+<div id="replyto_51471653"></div>
+
+<ul id="group_51471653">
+	<li id="hiddens_51471653" class="hide"></li>
+</ul>
+
+</li><li id="tree_51471669" class="comment full contain"><span class="ind"></span>
+<div id="comment_status_51471669" class="commentstatus"></div>
+<div id="comment_51471669" class="cw">
+	<div id="comment_top_51471669" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471669" name="comment_link_51471669" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471669" onclick="return D2.setFocusComment(51471669)" >Terrible name</a>
+
+
+		 	<span id="comment_score_51471669" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471669); return false"><span class=opt>Score:</span>3</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~The-Ixian">The-Ixian</a>  <span class="uid"><a href="//slashdot.org/~The-Ixian">(168184)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471669">		
+		on Tuesday February 09, 2016 @01:33PM (<span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471669">#51471669</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471669"><p>Our new triple A rated three dimensional action game powered by Lumberyard under the hood.</p><p>It just makes me think of saw dust or Mendards/Home Depot</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471669">
+<span class="ind"></span><a id="reply_link_51471669" class="btn link" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=Reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=51471669" onclick="D2.replyTo(51471669); return false;">Reply to This</a> 	<a href="#" class="comment_share_toggle btn link">Share</a>
+	<div class="comment_share sharethis-0 hide"><span class="au"></span>
+		<a class="janrain t" href="#" data-provider="twitter" data-message="Terrible name by The-Ixian @slashdot" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51471669" data-title="Terrible name">twitter</a>
+		<a class="janrain f" href="#" data-provider="facebook" data-message="Terrible name by The-Ixian" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51471669" data-title="Terrible name">facebook</a>
+		<a class="janrain l" href="#" data-provider="linkedin" data-message="Terrible name by The-Ixian" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51471669" data-title="Terrible name">linkedin</a>
+		<a class="g" href="http://plus.google.com/share?url=http://games.slashdot.org/comments.pl?sid=8726641%26cid=51471669" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="//www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+	</div>
+ <span class="ind"></span><a id="reply_link_51471669" title="Flag this comment as Inappropriate" class="ui-icon flag fright" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=flag&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=51471669" onclick="return false;">Flag as Inappropriate</a>
+</div>
+</div>
+
+<div id="replyto_51471669"></div>
+
+<ul id="group_51471669">
+	<li id="hiddens_51471669" class="hide"></li>
+</ul>
+
+<ul id="commtree_51471669"><li id="tree_51472041" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472041" class="commentstatus"></div>
+<div id="comment_51472041" class="cw">
+</div>
+
+<div id="replyto_51472041"></div>
+
+<ul id="group_51472041">
+	<li id="hiddens_51472041" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472041"><li id="tree_51472139" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472139" class="commentstatus"></div>
+<div id="comment_51472139" class="cw">
+</div>
+
+<div id="replyto_51472139"></div>
+
+<ul id="group_51472139">
+	<li id="hiddens_51472139" class="hide"></li>
+</ul>
+
+</li><li id="tree_51476319" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51476319" class="commentstatus"></div>
+<div id="comment_51476319" class="cw">
+</div>
+
+<div id="replyto_51476319"></div>
+
+<ul id="group_51476319">
+	<li id="hiddens_51476319" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_51472041"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51472041">2 replies</a> beneath your current threshold.</b></noscript></li></ul></li><li id="tree_51477659" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51477659" class="commentstatus"></div>
+<div id="comment_51477659" class="cw">
+</div>
+
+<div id="replyto_51477659"></div>
+
+<ul id="group_51477659">
+	<li id="hiddens_51477659" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_51471669"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51471669">2 replies</a> beneath your current threshold.</b></noscript></li></ul></li><li id="tree_51471745" class="comment full contain"><span class="ind"></span>
+<div id="comment_status_51471745" class="commentstatus"></div>
+<div id="comment_51471745" class="cw">
+	<div id="comment_top_51471745" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471745" name="comment_link_51471745" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471745" onclick="return D2.setFocusComment(51471745)" >Gratis but not free</a>
+
+
+		 	<span id="comment_score_51471745" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471745); return false"><span class=opt>Score:</span>5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~NotInHere">NotInHere</a>  <span class="uid"><a href="//slashdot.org/~NotInHere">(3654617)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471745">		
+		on Tuesday February 09, 2016 @01:40PM (<span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471745">#51471745</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471745"><p>From <a href="https://aws.amazon.com/de/lumberyard/faq/#licensing" title="amazon.com">https://aws.amazon.com/de/lumb...</a> [amazon.com]<nobr> <wbr></nobr>:</p><p><div class="quote"><p> <b>Q. Is Lumberyard &ldquo;open source&rdquo;?</b></p><p>No. We make the source code available to enable you to fully customize your game, but your rights are limited by the Lumberyard Service Terms. For example, you may not publicly release the Lumberyard engine source code, or use it to release your own game engine.</p></div><p>Limberyard is gratis, and free as in beer, but it isn't free as in freedom.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471745">
+<span class="ind"></span><a id="reply_link_51471745" class="btn link" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=Reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=51471745" onclick="D2.replyTo(51471745); return false;">Reply to This</a> 	<a href="#" class="comment_share_toggle btn link">Share</a>
+	<div class="comment_share sharethis-0 hide"><span class="au"></span>
+		<a class="janrain t" href="#" data-provider="twitter" data-message="Gratis but not free by NotInHere @slashdot" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51471745" data-title="Gratis but not free">twitter</a>
+		<a class="janrain f" href="#" data-provider="facebook" data-message="Gratis but not free by NotInHere" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51471745" data-title="Gratis but not free">facebook</a>
+		<a class="janrain l" href="#" data-provider="linkedin" data-message="Gratis but not free by NotInHere" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51471745" data-title="Gratis but not free">linkedin</a>
+		<a class="g" href="http://plus.google.com/share?url=http://games.slashdot.org/comments.pl?sid=8726641%26cid=51471745" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="//www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+	</div>
+ <span class="ind"></span><a id="reply_link_51471745" title="Flag this comment as Inappropriate" class="ui-icon flag fright" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=flag&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=51471745" onclick="return false;">Flag as Inappropriate</a>
+</div>
+</div>
+
+<div id="replyto_51471745"></div>
+
+<ul id="group_51471745">
+	<li id="hiddens_51471745" class="hide"></li>
+</ul>
+
+<ul id="commtree_51471745"><li id="tree_51471755" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51471755" class="commentstatus"></div>
+<div id="comment_51471755" class="cw">
+	<div id="comment_top_51471755" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471755" name="comment_link_51471755" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471755" onclick="return D2.setFocusComment(51471755)" >Re:</a>
+
+
+		 	<span id="comment_score_51471755" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471755); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~110010001000">110010001000</a>  <span class="uid"><a href="//slashdot.org/~110010001000">(697113)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471755"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471755">Yeah, but it is empowering.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471755">
+
+</div>
+</div>
+
+<div id="replyto_51471755"></div>
+
+<ul id="group_51471755">
+	<li id="hiddens_51471755" class="hide"></li>
+</ul>
+
+<ul id="commtree_51471755"><li id="tree_51471843" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51471843" class="commentstatus"></div>
+<div id="comment_51471843" class="cw">
+	<div id="comment_top_51471843" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471843" name="comment_link_51471843" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471843" onclick="return D2.setFocusComment(51471843)" >Re:</a>
+
+
+		 	<span id="comment_score_51471843" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471843); return false"><span class=opt>Score:</span>1</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span>Anonymous Coward</span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471843"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471843"><p>Much like beer...</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471843">
+
+</div>
+</div>
+
+<div id="replyto_51471843"></div>
+
+<ul id="group_51471843">
+	<li id="hiddens_51471843" class="hide"></li>
+</ul>
+
+</li><li id="tree_51471875" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51471875" class="commentstatus"></div>
+<div id="comment_51471875" class="cw">
+	<div id="comment_top_51471875" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471875" name="comment_link_51471875" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471875" onclick="return D2.setFocusComment(51471875)" >Re:</a>
+
+
+		 	<span id="comment_score_51471875" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471875); return false"><span class=opt>Score:</span>3</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~Dunbal">Dunbal</a>  <span class="uid"><a href="//slashdot.org/~Dunbal">(464142)</a></span></a> <a href="/faq/subscriptions.shtml#subscription_other_advantages">*</a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471875"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471875">If by empowering you mean it binds you and restricts you, then yeah, it's empowering. Amazon is a corporation. Lumberyard is a fraction of a fraction of their revenue. One day a new manager will come along and change the TOS and you will be completely fucked with no recourse. By all means, develop away.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471875">
+
+</div>
+</div>
+
+<div id="replyto_51471875"></div>
+
+<ul id="group_51471875">
+	<li id="hiddens_51471875" class="hide"></li>
+</ul>
+
+<ul id="commtree_51471875"><li id="tree_51471895" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51471895" class="commentstatus"></div>
+<div id="comment_51471895" class="cw">
+	<div id="comment_top_51471895" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471895" name="comment_link_51471895" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471895" onclick="return D2.setFocusComment(51471895)" >Re:</a>
+
+
+		 	<span id="comment_score_51471895" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471895); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~110010001000">110010001000</a>  <span class="uid"><a href="//slashdot.org/~110010001000">(697113)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471895"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471895">We have always been at war with Eastasia. Empowering always means binding and restricting in Corporatespeak.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471895">
+
+</div>
+</div>
+
+<div id="replyto_51471895"></div>
+
+<ul id="group_51471895">
+	<li id="hiddens_51471895" class="hide"></li>
+</ul>
+
+</li><li id="tree_51471917" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51471917" class="commentstatus"></div>
+<div id="comment_51471917" class="cw">
+	<div id="comment_top_51471917" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471917" name="comment_link_51471917" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471917" onclick="return D2.setFocusComment(51471917)" >Re:</a>
+
+
+		 	<span id="comment_score_51471917" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471917); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~rwven">rwven</a>  <span class="uid"><a href="//slashdot.org/~rwven">(663186)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471917"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471917"><p>Changes of that nature are rarely, if ever, retroactive. A ToS change would almost certainly only apply to future versions/updates to the engine.</p><p>There would also be no wisdom in changing a revenue model that guarantees AWS income to one that would drive people away from providing that income. It would be counter-productive to attempt to screw over your customer base.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471917">
+
+</div>
+</div>
+
+<div id="replyto_51471917"></div>
+
+<ul id="group_51471917">
+	<li id="hiddens_51471917" class="hide"></li>
+</ul>
+
+<ul id="commtree_51471917"><li id="tree_51471993" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51471993" class="commentstatus"></div>
+<div id="comment_51471993" class="cw">
+	<div id="comment_top_51471993" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471993" name="comment_link_51471993" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471993" onclick="return D2.setFocusComment(51471993)" >Re:</a>
+
+
+		 	<span id="comment_score_51471993" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471993); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~Dunbal">Dunbal</a>  <span class="uid"><a href="//slashdot.org/~Dunbal">(464142)</a></span></a> <a href="/faq/subscriptions.shtml#subscription_other_advantages">*</a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471993"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471993"><p><div class="quote"><p>A ToS change would almost certainly only apply to future versions/updates to the engine.</p></div><p>Oh? How about "We've decided we no longer wish to continue the service due to reorganization". Boom, there goes your app. What are you going to do - sue? Read the TOS. Once you get past the arbitration instead of law-suit clauses you'll see that they hold all the cards and you hold none. Yeah ok, you might save yourself a few weeks' of coding. In return for which you become their little bitch.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471993">
+
+</div>
+</div>
+
+<div id="replyto_51471993"></div>
+
+<ul id="group_51471993">
+	<li id="hiddens_51471993" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_51473699" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51473699" class="commentstatus"></div>
+<div id="comment_51473699" class="cw">
+	<div id="comment_top_51473699" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51473699" name="comment_link_51473699" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51473699" onclick="return D2.setFocusComment(51473699)" >Re:</a>
+
+
+		 	<span id="comment_score_51473699" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51473699); return false"><span class=opt>Score:</span>3</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~null+etc.">null etc.</a>  <span class="uid"><a href="//slashdot.org/~null+etc.">(524767)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51473699"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51473699"><p>You're right, we should definitely not engage with any technology or solution whose availability isn't guaranteed to exist until the end of time, and offer us 150% of the features we need.  After all, if I'm building sandcastles in the sky, I can't let my dreams of creating a game that makes me a billionaire be threatened by even the most unlikely of hypothetical scenarios.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51473699">
+
+</div>
+</div>
+
+<div id="replyto_51473699"></div>
+
+<ul id="group_51473699">
+	<li id="hiddens_51473699" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li><li id="tree_51471851" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51471851" class="commentstatus"></div>
+<div id="comment_51471851" class="cw">
+	<div id="comment_top_51471851" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471851" name="comment_link_51471851" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471851" onclick="return D2.setFocusComment(51471851)" >Re:</a>
+
+
+		 	<span id="comment_score_51471851" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471851); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~supremebob">supremebob</a>  <span class="uid"><a href="//slashdot.org/~supremebob">(574732)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471851"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471851"><p>Well, of course it isn't open source, silly. If it was, the first thing the developers would do it pull out the code requiring you to host your production game servers on AWS.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471851">
+
+</div>
+</div>
+
+<div id="replyto_51471851"></div>
+
+<ul id="group_51471851">
+	<li id="hiddens_51471851" class="hide"></li>
+</ul>
+
+<ul id="commtree_51471851"><li id="tree_51471923" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51471923" class="commentstatus"></div>
+<div id="comment_51471923" class="cw">
+</div>
+
+<div id="replyto_51471923"></div>
+
+<ul id="group_51471923">
+	<li id="hiddens_51471923" class="hide"></li>
+</ul>
+
+</li><li id="tree_51474405" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51474405" class="commentstatus"></div>
+<div id="comment_51474405" class="cw">
+</div>
+
+<div id="replyto_51474405"></div>
+
+<ul id="group_51474405">
+	<li id="hiddens_51474405" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_51471851"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51471851">2 replies</a> beneath your current threshold.</b></noscript></li></ul></li><li id="tree_51471879" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51471879" class="commentstatus"></div>
+<div id="comment_51471879" class="cw">
+	<div id="comment_top_51471879" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471879" name="comment_link_51471879" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471879" onclick="return D2.setFocusComment(51471879)" >Re:</a>
+
+
+		 	<span id="comment_score_51471879" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471879); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~gstoddart">gstoddart</a>  <span class="uid"><a href="//slashdot.org/~gstoddart">(321705)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471879"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471879"><p>Right, because I'm sure the people trying to make money off selling their games are all crusading for free software.</p><p>Why would you expect Amazon to be making an open source tool here?</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471879">
+
+</div>
+</div>
+
+<div id="replyto_51471879"></div>
+
+<ul id="group_51471879">
+	<li id="hiddens_51471879" class="hide"></li>
+</ul>
+
+<ul id="commtree_51471879"><li id="tree_51472043" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472043" class="commentstatus"></div>
+<div id="comment_51472043" class="cw">
+</div>
+
+<div id="replyto_51472043"></div>
+
+<ul id="group_51472043">
+	<li id="hiddens_51472043" class="hide"></li>
+</ul>
+
+</li><li id="tree_51472103" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472103" class="commentstatus"></div>
+<div id="comment_51472103" class="cw">
+</div>
+
+<div id="replyto_51472103"></div>
+
+<ul id="group_51472103">
+	<li id="hiddens_51472103" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472103"><li id="tree_51472219" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472219" class="commentstatus"></div>
+<div id="comment_51472219" class="cw">
+	<div id="comment_top_51472219" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472219" name="comment_link_51472219" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472219" onclick="return D2.setFocusComment(51472219)" >Re:</a>
+
+
+		 	<span id="comment_score_51472219" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472219); return false"><span class=opt>Score:</span>1</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~Shalian">Shalian</a>  <span class="uid"><a href="//slashdot.org/~Shalian">(512701)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472219"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472219"><p>The revenue of the entire video game industry (91 billion) is less than that of a single automotive manufacturer (Fiat at 113 billion) How much open source is coming from automotive manufacturers compared to video games?</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472219">
+
+</div>
+</div>
+
+<div id="replyto_51472219"></div>
+
+<ul id="group_51472219">
+	<li id="hiddens_51472219" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472219"><li id="tree_51472399" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472399" class="commentstatus"></div>
+<div id="comment_51472399" class="cw">
+</div>
+
+<div id="replyto_51472399"></div>
+
+<ul id="group_51472399">
+	<li id="hiddens_51472399" class="hide"></li>
+</ul>
+
+</li><li id="tree_51474527" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51474527" class="commentstatus"></div>
+<div id="comment_51474527" class="cw">
+</div>
+
+<div id="replyto_51474527"></div>
+
+<ul id="group_51474527">
+	<li id="hiddens_51474527" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_51472219"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51472219">2 replies</a> beneath your current threshold.</b></noscript></li></ul></li></ul></li><li id="tree_51472277" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472277" class="commentstatus"></div>
+<div id="comment_51472277" class="cw">
+	<div id="comment_top_51472277" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472277" name="comment_link_51472277" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472277" onclick="return D2.setFocusComment(51472277)" >Re:</a>
+
+
+		 	<span id="comment_score_51472277" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472277); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~NotInHere">NotInHere</a>  <span class="uid"><a href="//slashdot.org/~NotInHere">(3654617)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472277"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472277"><p>And who guarantees you that Lumberyard will be free for use in, say 2 years? Perhaps Amazon is pulling this off, getting as many game developers interested in their engine as possible, and then starting to require a 50% revenue fee on published games? And it doesn't have to be bad intent. Just some new guy in middle management who wants to present great numbers to his bosses, and after the quarter he is off to the next company.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472277">
+
+</div>
+</div>
+
+<div id="replyto_51472277"></div>
+
+<ul id="group_51472277">
+	<li id="hiddens_51472277" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472277"><li id="tree_51477121" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51477121" class="commentstatus"></div>
+<div id="comment_51477121" class="cw">
+</div>
+
+<div id="replyto_51477121"></div>
+
+<ul id="group_51477121">
+	<li id="hiddens_51477121" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_51472277"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51472277">1 reply</a> beneath your current threshold.</b></noscript></li></ul></li><li id="hidestring_51471879"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51471879">2 replies</a> beneath your current threshold.</b></noscript></li></ul></li><li id="tree_51472085" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472085" class="commentstatus"></div>
+<div id="comment_51472085" class="cw">
+</div>
+
+<div id="replyto_51472085"></div>
+
+<ul id="group_51472085">
+	<li id="hiddens_51472085" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472085"><li id="tree_51472191" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472191" class="commentstatus"></div>
+<div id="comment_51472191" class="cw">
+	<div id="comment_top_51472191" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472191" name="comment_link_51472191" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472191" onclick="return D2.setFocusComment(51472191)" >Re:</a>
+
+
+		 	<span id="comment_score_51472191" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472191); return false"><span class=opt>Score:</span>3</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~NotInHere">NotInHere</a>  <span class="uid"><a href="//slashdot.org/~NotInHere">(3654617)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472191"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472191"><p>The GPL doesn't restrict the <b>use</b> of the compiled binaries, you can use them for everything. The only thing the GPL restricts one to do is to close down the source or harm user freedom. You aren't allowed to share modifications of lumberyard, the GPL allows this. And the GPL doesn't cover assets. You still can monetize your game on an asset only basis.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472191">
+
+</div>
+</div>
+
+<div id="replyto_51472191"></div>
+
+<ul id="group_51472191">
+	<li id="hiddens_51472191" class="hide"></li>
+</ul>
+
+</li><li id="tree_51473511" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51473511" class="commentstatus"></div>
+<div id="comment_51473511" class="cw">
+</div>
+
+<div id="replyto_51473511"></div>
+
+<ul id="group_51473511">
+	<li id="hiddens_51473511" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_51472085"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51472085">1 reply</a> beneath your current threshold.</b></noscript></li></ul></li><li id="tree_51472591" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472591" class="commentstatus"></div>
+<div id="comment_51472591" class="cw">
+</div>
+
+<div id="replyto_51472591"></div>
+
+<ul id="group_51472591">
+	<li id="hiddens_51472591" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_51471745"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51471745">2 replies</a> beneath your current threshold.</b></noscript></li></ul></li><li id="tree_51471873" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51471873" class="commentstatus"></div>
+<div id="comment_51471873" class="cw">
+</div>
+
+<div id="replyto_51471873"></div>
+
+<ul id="group_51471873">
+	<li id="hiddens_51471873" class="hide"></li>
+</ul>
+
+<ul id="commtree_51471873"><li id="tree_51472161" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472161" class="commentstatus"></div>
+<div id="comment_51472161" class="cw">
+</div>
+
+<div id="replyto_51472161"></div>
+
+<ul id="group_51472161">
+	<li id="hiddens_51472161" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_51471873"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51471873">1 reply</a> beneath your current threshold.</b></noscript></li></ul></li><li id="tree_51471909" class="comment full contain"><span class="ind"></span>
+<div id="comment_status_51471909" class="commentstatus"></div>
+<div id="comment_51471909" class="cw">
+	<div id="comment_top_51471909" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51471909" name="comment_link_51471909" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471909" onclick="return D2.setFocusComment(51471909)" >Meh. Not cross-platform enough.</a>
+
+
+		 	<span id="comment_score_51471909" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51471909); return false"><span class=opt>Score:</span>5</a>, Interesting)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~BenJeremy">BenJeremy</a>  <span class="uid"><a href="//slashdot.org/~BenJeremy">(181303)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51471909">		
+		on Tuesday February 09, 2016 @01:55PM (<span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51471909">#51471909</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51471909"><p>PC, Playstation and Xbox support, Android and iOS in the wings... no specific mention of Windows Metro, Linux or OSX (I assume PC only means standard Windows).</p><p>Unity3D has all the bases covered, and a large number of third-party support through assets and plugins.</p><p>The CryEngine is certainly nice, though.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51471909">
+<span class="ind"></span><a id="reply_link_51471909" class="btn link" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=Reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=51471909" onclick="D2.replyTo(51471909); return false;">Reply to This</a> 	<a href="#" class="comment_share_toggle btn link">Share</a>
+	<div class="comment_share sharethis-0 hide"><span class="au"></span>
+		<a class="janrain t" href="#" data-provider="twitter" data-message="Meh. Not cross-platform enough. by BenJeremy @slashdot" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51471909" data-title="Meh. Not cross-platform enough.">twitter</a>
+		<a class="janrain f" href="#" data-provider="facebook" data-message="Meh. Not cross-platform enough. by BenJeremy" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51471909" data-title="Meh. Not cross-platform enough.">facebook</a>
+		<a class="janrain l" href="#" data-provider="linkedin" data-message="Meh. Not cross-platform enough. by BenJeremy" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51471909" data-title="Meh. Not cross-platform enough.">linkedin</a>
+		<a class="g" href="http://plus.google.com/share?url=http://games.slashdot.org/comments.pl?sid=8726641%26cid=51471909" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="//www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+	</div>
+ <span class="ind"></span><a id="reply_link_51471909" title="Flag this comment as Inappropriate" class="ui-icon flag fright" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=flag&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=51471909" onclick="return false;">Flag as Inappropriate</a>
+</div>
+</div>
+
+<div id="replyto_51471909"></div>
+
+<ul id="group_51471909">
+	<li id="hiddens_51471909" class="hide"></li>
+</ul>
+
+<ul id="commtree_51471909"><li id="tree_51472159" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472159" class="commentstatus"></div>
+<div id="comment_51472159" class="cw">
+	<div id="comment_top_51472159" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472159" name="comment_link_51472159" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472159" onclick="return D2.setFocusComment(51472159)" >Re:</a>
+
+
+		 	<span id="comment_score_51472159" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472159); return false"><span class=opt>Score:</span>3</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~WPIDalamar">WPIDalamar</a>  <span class="uid"><a href="//slashdot.org/~WPIDalamar">(122110)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472159"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472159"><p>They did say linux and osx are coming.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472159">
+
+</div>
+</div>
+
+<div id="replyto_51472159"></div>
+
+<ul id="group_51472159">
+	<li id="hiddens_51472159" class="hide"></li>
+</ul>
+
+</li><li id="tree_51472235" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472235" class="commentstatus"></div>
+<div id="comment_51472235" class="cw">
+</div>
+
+<div id="replyto_51472235"></div>
+
+<ul id="group_51472235">
+	<li id="hiddens_51472235" class="hide"></li>
+</ul>
+
+</li><li id="tree_51472249" class="comment full contain"><span class="ind"></span>
+<div id="comment_status_51472249" class="commentstatus"></div>
+<div id="comment_51472249" class="cw">
+	<div id="comment_top_51472249" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472249" name="comment_link_51472249" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472249" onclick="return D2.setFocusComment(51472249)" >Re:Meh. Not cross-platform enough.</a>
+
+
+		 	<span id="comment_score_51472249" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472249); return false"><span class=opt>Score:</span>5</a>, Insightful)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~bluefoxlucid">bluefoxlucid</a>  <span class="uid"><a href="//slashdot.org/~bluefoxlucid">(723572)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472249">		
+		on Tuesday February 09, 2016 @02:24PM (<span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472249">#51472249</a>)
+		<small><a href="//slashdot.org/~bluefoxlucid/journal/" title="Thursday May 07, 2009 @09:27PM" class="user_journal_display">Journal</a> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472249"><p>
+Unity 3D even has continued support for years and years, whereas Mighty No. 9 is all like, "We're having trouble and have to mess with the source code and maintain and bugfix UE3 ourselves because it's no longer updated even though it cost $350,000 per seat!"  That was fucking irresponsible, and I called it from the start:  they initially budgeted under a million dollars and wanted a (then) half-million-dollar engine instead of the $1,500 Unity 3D engine; they're struggling now even though they got nearly five million dollars of funding.</p><p>
+Maybe if you're Blizzard or Bethesda you can use UE4.  It makes sense, even though it's expensive:  Ubisoft dumps like 30 huge games every year, so of course they get a lower marginal cost (no matter how low you go, when you divide up a licensing cost across dozens of units, there's a limit to how much you're going to save by taking the less-expensive option).  If UE4 does something Unity 3D doesn't and your game will be significantly harder to develop without that feature, deal with it; if this happens and you generally develop dozens of games each year, then maybe you should buy UE4.  Of course this applies less now than it did with UE3, since UE3 was ridiculously expensive compared to UE4.
+</p><p>
+The financials don't make sense.  I'd try to fund a moderately-complex game on $100,000 with Unity 3D Pro.  It can be done.  I computed $58,000 for art for a 2D top-down ARPG, plus another $19,000 for music; I can do the story-writing and much of the programming myself, but a competent programmer will cost you $26,000 in under a full-time 4 months.  I'm also a project manager, so I can plan these sorts of things out with reasonable effectiveness, instead of dicking around on a long tail of things going wrong on top of other things going wrong, turning a $100k budget into a $6 million, 9-year project; again, a competent project manager will throw you $100k a year himself.  Your real resource costs for a simple 2D or 3D game might be $150k per development-year, plus a relatively fixed cost for assets (3D models, textures, music, animation).  If you're making *one* *game*, the cost of your engine is your biggest factor.
+</p><p>
+That leaves a big question:  What are the marginal costs of Lumberyard?  Is low cost plus royalty, like UE4?  Subscription, like Unity 3D?  High cost, like UE3?  Answer:  It's free plus monetization, like UE4, but with monetization being tie-in service:  you can either build an in-house support infrastructure for your online experience, or you can use Amazon.  That means if it comes down to engine cost, you might want to go Unity 3D or UE4.  The cost of internal infrastructure would exceed the cost of almost *any* outsource service--Amazon, Azure, Verizon--and being tied to Amazon might cost you a lot more than $1,500 for each developer.  If so, you need to decide:  Will the royalties on UE4 cost you more than Unity?  Between all three, will selecting any given one save you enough programmer time to offset the *lifetime* cost of any of these factors?
+</p><p>
+Financials.  I love it.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472249">
+<span class="ind"></span><a id="reply_link_51472249" class="btn link" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=Reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=51472249" onclick="D2.replyTo(51472249); return false;">Reply to This</a> <span class="ind"></span><a class="btn link" href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;cid=51471909" onclick="return D2.selectParent(51471909)">Parent</a> 	<a href="#" class="comment_share_toggle btn link">Share</a>
+	<div class="comment_share sharethis-0 hide"><span class="au"></span>
+		<a class="janrain t" href="#" data-provider="twitter" data-message="Re:Meh. Not cross-platform enough. by bluefoxlucid @slashdot" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51472249" data-title="Re:Meh. Not cross-platform enough.">twitter</a>
+		<a class="janrain f" href="#" data-provider="facebook" data-message="Re:Meh. Not cross-platform enough. by bluefoxlucid" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51472249" data-title="Re:Meh. Not cross-platform enough.">facebook</a>
+		<a class="janrain l" href="#" data-provider="linkedin" data-message="Re:Meh. Not cross-platform enough. by bluefoxlucid" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51472249" data-title="Re:Meh. Not cross-platform enough.">linkedin</a>
+		<a class="g" href="http://plus.google.com/share?url=http://games.slashdot.org/comments.pl?sid=8726641%26cid=51472249" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="//www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+	</div>
+ <span class="ind"></span><a id="reply_link_51472249" title="Flag this comment as Inappropriate" class="ui-icon flag fright" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=flag&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=51472249" onclick="return false;">Flag as Inappropriate</a>
+</div>
+</div>
+
+<div id="replyto_51472249"></div>
+
+<ul id="group_51472249">
+	<li id="hiddens_51472249" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472249"><li id="tree_51472795" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472795" class="commentstatus"></div>
+<div id="comment_51472795" class="cw">
+	<div id="comment_top_51472795" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472795" name="comment_link_51472795" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472795" onclick="return D2.setFocusComment(51472795)" >Re:</a>
+
+
+		 	<span id="comment_score_51472795" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472795); return false"><span class=opt>Score:</span>3</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~war4peace">war4peace</a>  <span class="uid"><a href="//slashdot.org/~war4peace">(1628283)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472795"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472795"><p>Um... isn't UE4 free of charge for development and then once your game exceeds 3K bucks a month they will take 5% of that?</p><p><div class="quote"><p>5% WHEN YOU SHIP</p><p>The 5% royalty starts after the first $3,000 of revenue per product per quarter. Pay no royalty for film projects, contracting and consulting projects such as architecture, simulation and visualization.</p></div><p> <a href="https://www.unrealengine.com/what-is-unreal-engine-4" title="unrealengine.com">https://www.unrealengine.com/w...<span class="substr"> </span></a> [unrealengine.com] </p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472795">
+
+</div>
+</div>
+
+<div id="replyto_51472795"></div>
+
+<ul id="group_51472795">
+	<li id="hiddens_51472795" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472795"><li id="tree_51472959" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472959" class="commentstatus"></div>
+<div id="comment_51472959" class="cw">
+	<div id="comment_top_51472959" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472959" name="comment_link_51472959" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472959" onclick="return D2.setFocusComment(51472959)" >Re:</a>
+
+
+		 	<span id="comment_score_51472959" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472959); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~bluefoxlucid">bluefoxlucid</a>  <span class="uid"><a href="//slashdot.org/~bluefoxlucid">(723572)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472959"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472959"><p>
+I may be out of date.  UE4 used to be $20/month (i.e. essentially free) and 5% royalty all the time; it's now 5% when you ship.  Unity 3D lets you go free, but makes you pay $75/mo or $1,500 all at once per seat if you make over $100,000 of income as a business (1.5% per seat).  As mentioned, UE3 was expensive as ass--starting around $1.5 million when first released and eventually falling to $375,000 for a full, unrestricted license with engine source code (it was still $750,000 when UE4 came out).
+</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472959">
+
+</div>
+</div>
+
+<div id="replyto_51472959"></div>
+
+<ul id="group_51472959">
+	<li id="hiddens_51472959" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_51472805" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472805" class="commentstatus"></div>
+<div id="comment_51472805" class="cw">
+	<div id="comment_top_51472805" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472805" name="comment_link_51472805" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472805" onclick="return D2.setFocusComment(51472805)" >Re:</a>
+
+
+		 	<span id="comment_score_51472805" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472805); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~known_coward_69">known_coward_69</a>  <span class="uid"><a href="//slashdot.org/~known_coward_69">(4151743)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472805"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472805">you have to use AWS and pay for amazon's services for the backend of your game. since MS went to Azure for xbox one games, Amazon doesn't want to lose business</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472805">
+
+</div>
+</div>
+
+<div id="replyto_51472805"></div>
+
+<ul id="group_51472805">
+	<li id="hiddens_51472805" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472805"><li id="tree_51472977" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472977" class="commentstatus"></div>
+<div id="comment_51472977" class="cw">
+	<div id="comment_top_51472977" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472977" name="comment_link_51472977" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472977" onclick="return D2.setFocusComment(51472977)" >Re:</a>
+
+
+		 	<span id="comment_score_51472977" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472977); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~bluefoxlucid">bluefoxlucid</a>  <span class="uid"><a href="//slashdot.org/~bluefoxlucid">(723572)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472977"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472977"><p>
+Yes, I covered that. You have the option of running in-house for the back-end, but that's likely more expensive than outsourcing.
+</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472977">
+
+</div>
+</div>
+
+<div id="replyto_51472977"></div>
+
+<ul id="group_51472977">
+	<li id="hiddens_51472977" class="hide"></li>
+</ul>
+
+</li></ul></li></ul></li><li id="tree_51476323" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51476323" class="commentstatus"></div>
+<div id="comment_51476323" class="cw">
+	<div id="comment_top_51476323" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51476323" name="comment_link_51476323" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51476323" onclick="return D2.setFocusComment(51476323)" >Unity also kinda stinks</a>
+
+
+		 	<span id="comment_score_51476323" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51476323); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~rsilvergun">rsilvergun</a>  <span class="uid"><a href="//slashdot.org/~rsilvergun">(571051)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51476323"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51476323">and I don't say that lightly. There's something off with the Cameras in every Unity game I've played. My bro thinks it's because they've written their code to be easy to port to mobile and there are too many limitations with that. Got me. But even Unity games I like (Wasteland II comes to mind) feel a tad clunkier than Unreal based equivalents. Unity space sims tend to feel more like first person shooters. That's more to the physics though but stil... <br> <br>
+
+That said if my bro is right then Lumberyard might ha</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51476323">
+
+</div>
+</div>
+
+<div id="replyto_51476323"></div>
+
+<ul id="group_51476323">
+	<li id="hiddens_51476323" class="hide"></li>
+</ul>
+
+<ul id="commtree_51476323"><li id="tree_51480083" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51480083" class="commentstatus"></div>
+<div id="comment_51480083" class="cw">
+	<div id="comment_top_51480083" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51480083" name="comment_link_51480083" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51480083" onclick="return D2.setFocusComment(51480083)" >Re:</a>
+
+
+		 	<span id="comment_score_51480083" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51480083); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~Kiwikwi">Kiwikwi</a>  <span class="uid"><a href="//slashdot.org/~Kiwikwi">(2734467)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51480083"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51480083"><p>I don't know if Unreal comes with a "better" camera out of the box (they do enable a lot of shiny but expensive effects by default, where Unity gives you a more bare bones rendering by default). In either engine, I'm fairly confident that the camera is what you make it. See e.g. <a href="https://www.youtube.com/watch?v=QNR9Nvjsv9Y" title="youtube.com">this tech talk<span class="substr"> </span></a> [youtube.com] on procedural cinematography in <a href="http://desertsofkharak.com/" title="desertsofkharak.com">Homeworld: Deserts of Kharak</a> [desertsofkharak.com].  As for  physics, both Unity and Unreal 3D physics are powered by the latest NVIDIA PhysX, so I'll wager that most (if not all) differences you're seeing i</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51480083">
+
+</div>
+</div>
+
+<div id="replyto_51480083"></div>
+
+<ul id="group_51480083">
+	<li id="hiddens_51480083" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_51477179" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51477179" class="commentstatus"></div>
+<div id="comment_51477179" class="cw">
+	<div id="comment_top_51477179" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51477179" name="comment_link_51477179" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51477179" onclick="return D2.setFocusComment(51477179)" >Re:</a>
+
+
+		 	<span id="comment_score_51477179" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51477179); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~AK+Marc">AK Marc</a>  <span class="uid"><a href="//slashdot.org/~AK+Marc">(707885)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51477179"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51477179">Windows Metro doesn't exist anymore.  They are now "Windows Apps" and you can build a windows program or app and both will run on 8+, no need to develop multiple times unless you are going for Windows Phone, which uses apps only.</div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51477179">
+
+</div>
+</div>
+
+<div id="replyto_51477179"></div>
+
+<ul id="group_51477179">
+	<li id="hiddens_51477179" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_51471909"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51471909">1 reply</a> beneath your current threshold.</b></noscript></li></ul></li><li id="tree_51472057" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472057" class="commentstatus"></div>
+<div id="comment_51472057" class="cw">
+	<div id="comment_top_51472057" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472057" name="comment_link_51472057" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472057" onclick="return D2.setFocusComment(51472057)" >The power is the size of multuplayer.</a>
+
+
+		 	<span id="comment_score_51472057" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472057); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~BrookHarty">BrookHarty</a>  <span class="uid"><a href="//slashdot.org/~BrookHarty">(9119)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472057"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472057"><p>So it embraces aws growth for multiplayer, does it spawn additional servers if more players join? How many users can you have in a game? Can we have battles with thousands of users playing a fps in real time?</p><p>I can see why Amazon is releasing this, you are using aws services (with costs) and twitch, that uses aws servers.</p><p>Not sure this would be cheaper than dedicated game rental companies.  But if auto spin up of instances for on demand growth is a real feature, that is pretty awesome.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472057">
+
+</div>
+</div>
+
+<div id="replyto_51472057"></div>
+
+<ul id="group_51472057">
+	<li id="hiddens_51472057" class="hide"></li>
+</ul>
+
+</li><li id="tree_51472167" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472167" class="commentstatus"></div>
+<div id="comment_51472167" class="cw">
+	<div id="comment_top_51472167" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472167" name="comment_link_51472167" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472167" onclick="return D2.setFocusComment(51472167)" >"With mobile support is coming..." [sic]</a>
+
+
+		 	<span id="comment_score_51472167" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472167); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~Bearhouse">Bearhouse</a>  <span class="uid"><a href="//slashdot.org/~Bearhouse">(1034238)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472167"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472167"><p>C'mon Timmy, I know they've got you posting 24/7 but still...<br>Unicode support - we understand it's hard, we can wait.<br>But checking the English is something our new overlords could fix fast..</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472167">
+
+</div>
+</div>
+
+<div id="replyto_51472167"></div>
+
+<ul id="group_51472167">
+	<li id="hiddens_51472167" class="hide"></li>
+</ul>
+
+</li><li id="tree_51472209" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472209" class="commentstatus"></div>
+<div id="comment_51472209" class="cw">
+</div>
+
+<div id="replyto_51472209"></div>
+
+<ul id="group_51472209">
+	<li id="hiddens_51472209" class="hide"></li>
+</ul>
+
+</li><li id="tree_51472527" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472527" class="commentstatus"></div>
+<div id="comment_51472527" class="cw">
+</div>
+
+<div id="replyto_51472527"></div>
+
+<ul id="group_51472527">
+	<li id="hiddens_51472527" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472527"><li id="tree_51472681" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472681" class="commentstatus"></div>
+<div id="comment_51472681" class="cw">
+	<div id="comment_top_51472681" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472681" name="comment_link_51472681" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472681" onclick="return D2.setFocusComment(51472681)" >Re:</a>
+
+
+		 	<span id="comment_score_51472681" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472681); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~Opportunist">Opportunist</a>  <span class="uid"><a href="//slashdot.org/~Opportunist">(166417)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472681"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472681"><p>If that means I get the stuff I order again in 2-4 days they used to deliver in instead of 1-2 weeks as it is now, I sure as fuck don't mind.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472681">
+
+</div>
+</div>
+
+<div id="replyto_51472681"></div>
+
+<ul id="group_51472681">
+	<li id="hiddens_51472681" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_51472595" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472595" class="commentstatus"></div>
+<div id="comment_51472595" class="cw">
+	<div id="comment_top_51472595" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472595" name="comment_link_51472595" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472595" onclick="return D2.setFocusComment(51472595)" >It's an interesting concept..</a>
+
+
+		 	<span id="comment_score_51472595" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472595); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~HerculesMO">HerculesMO</a>  <span class="uid"><a href="//slashdot.org/~HerculesMO">(693085)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472595"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472595"><p>Because they are losing game developers out to Azure. Look at Titanfall, for an example (whether you like it or not is irrelevant).</p><p>The problem AWS has is that it is entirely VM/IaaS based. There is little to no PaaS offerings so developers have to write integration layers for the VMs and at many times, use more resources than they need. With PaaS services they can tailor it to be much more dynamic and that's the allure Azure brings them. The scaling can be elastic but also not waste any resources.</p><p>AWS is pro<span class="substr"> </span></p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472595">
+
+</div>
+</div>
+
+<div id="replyto_51472595"></div>
+
+<ul id="group_51472595">
+	<li id="hiddens_51472595" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472595"><li id="tree_51472919" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51472919" class="commentstatus"></div>
+<div id="comment_51472919" class="cw">
+</div>
+
+<div id="replyto_51472919"></div>
+
+<ul id="group_51472919">
+	<li id="hiddens_51472919" class="hide"></li>
+</ul>
+
+</li><li id="tree_51473659" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51473659" class="commentstatus"></div>
+<div id="comment_51473659" class="cw">
+</div>
+
+<div id="replyto_51473659"></div>
+
+<ul id="group_51473659">
+	<li id="hiddens_51473659" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_51472595"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=51472595">2 replies</a> beneath your current threshold.</b></noscript></li></ul></li><li id="tree_51472653" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472653" class="commentstatus"></div>
+<div id="comment_51472653" class="cw">
+	<div id="comment_top_51472653" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472653" name="comment_link_51472653" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472653" onclick="return D2.setFocusComment(51472653)" >Lots of Engines</a>
+
+
+		 	<span id="comment_score_51472653" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472653); return false"><span class=opt>Score:</span>1</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span>Anonymous Coward</span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472653"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472653"><p>Lots of "free" engines available these days, but it really ignores the real issue: CONTENT. You can get the best engine for free or extremely cheap (Lumberyard, UE4, Unity, etc) but if you don't have the art assets, story, and gameplay, the engine doesn't matter.</p><p>Engines are becoming a black box and selection of it is down on the bottom; you need the assets and those are a different skillset than engine creation/optimization.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472653">
+
+</div>
+</div>
+
+<div id="replyto_51472653"></div>
+
+<ul id="group_51472653">
+	<li id="hiddens_51472653" class="hide"></li>
+</ul>
+
+</li><li id="tree_51472745" class="comment full contain"><span class="ind"></span>
+<div id="comment_status_51472745" class="commentstatus"></div>
+<div id="comment_51472745" class="cw">
+	<div id="comment_top_51472745" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472745" name="comment_link_51472745" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472745" onclick="return D2.setFocusComment(51472745)" >Amazon Lumberyard Engine Service Terms</a>
+
+
+		 	<span id="comment_score_51472745" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472745); return false"><span class=opt>Score:</span>4</a>, Funny)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~zyche">zyche</a>  <span class="uid"><a href="//slashdot.org/~zyche">(784345)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472745">		
+		on Tuesday February 09, 2016 @03:23PM (<span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472745">#51472745</a>)
+		<small> </small>
+</span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472745"><p><div class="quote"><p>57.10</p><p>Acceptable Use; Safety-Critical Systems. Your use of the Lumberyard Materials must comply with the AWS Acceptable Use Policy. The Lumberyard Materials are not intended for use with life-critical or safety-critical systems, such as use in operation of medical equipment, automated transportation systems, autonomous vehicles, aircraft or air traffic control, nuclear facilities, manned spacecraft, or military use in connection with live combat. However, this restriction will not apply in the event of the occurrence (certified by the United States Centers for Disease Control or successor body) of a widespread viral infection transmitted via bites or contact with bodily fluids that causes human corpses to reanimate and seek to consume living human flesh, blood, brain or nerve tissue and is likely to result in the fall of organized civilization.</p></div><p>From: <a href="http://aws.amazon.com/service-terms/#57._Amazon_Lumberyard_Engine" title="amazon.com" rel="nofollow">http://aws.amazon.com/service-...</a> [amazon.com]</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472745">
+<span class="ind"></span><a id="reply_link_51472745" class="btn link" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=Reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=51472745" onclick="D2.replyTo(51472745); return false;">Reply to This</a> 	<a href="#" class="comment_share_toggle btn link">Share</a>
+	<div class="comment_share sharethis-0 hide"><span class="au"></span>
+		<a class="janrain t" href="#" data-provider="twitter" data-message="Amazon Lumberyard Engine Service Terms by zyche @slashdot" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51472745" data-title="Amazon Lumberyard Engine Service Terms">twitter</a>
+		<a class="janrain f" href="#" data-provider="facebook" data-message="Amazon Lumberyard Engine Service Terms by zyche" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51472745" data-title="Amazon Lumberyard Engine Service Terms">facebook</a>
+		<a class="janrain l" href="#" data-provider="linkedin" data-message="Amazon Lumberyard Engine Service Terms by zyche" data-url="http://games.slashdot.org/comments.pl?sid=8726641&cid=51472745" data-title="Amazon Lumberyard Engine Service Terms">linkedin</a>
+		<a class="g" href="http://plus.google.com/share?url=http://games.slashdot.org/comments.pl?sid=8726641%26cid=51472745" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="//www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>
+	</div>
+ <span class="ind"></span><a id="reply_link_51472745" title="Flag this comment as Inappropriate" class="ui-icon flag fright" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=flag&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=51472745" onclick="return false;">Flag as Inappropriate</a>
+</div>
+</div>
+
+<div id="replyto_51472745"></div>
+
+<ul id="group_51472745">
+	<li id="hiddens_51472745" class="hide"></li>
+</ul>
+
+<ul id="commtree_51472745"><li id="tree_51472915" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51472915" class="commentstatus"></div>
+<div id="comment_51472915" class="cw">
+	<div id="comment_top_51472915" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51472915" name="comment_link_51472915" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51472915" onclick="return D2.setFocusComment(51472915)" >Re:</a>
+
+
+		 	<span id="comment_score_51472915" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51472915); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~supremebob">supremebob</a>  <span class="uid"><a href="//slashdot.org/~supremebob">(574732)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51472915"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51472915"><p>Well, it's about time the lawyers started taking the Zombie threat seriously!</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51472915">
+
+</div>
+</div>
+
+<div id="replyto_51472915"></div>
+
+<ul id="group_51472915">
+	<li id="hiddens_51472915" class="hide"></li>
+</ul>
+
+</li><li id="tree_51478567" class="comment oneline"><span class="ind"></span>
+<div id="comment_status_51478567" class="commentstatus"></div>
+<div id="comment_51478567" class="cw">
+	<div id="comment_top_51478567" class="commentTop newcomment">
+		<div class="title">
+			<h4><a id="comment_link_51478567" name="comment_link_51478567" href="//games.slashdot.org/comments.pl?sid=8726641&amp;cid=51478567" onclick="return D2.setFocusComment(51478567)" >Re:</a>
+
+
+		 	<span id="comment_score_51478567" class="score"> (<a href="#" onclick="getModalPrefs('modcommentlog', 'Moderation Comment Log', 51478567); return false"><span class=opt>Score:</span>2</a>)</span></h4>
+		</div>
+		<div class="details">
+			<span class="by"><span class="byby">by </span><a href="//slashdot.org/~hackertourist">hackertourist</a>  <span class="uid"><a href="//slashdot.org/~hackertourist">(2202674)</a></span></a></span><span class="writes" style="display:none"> writes:</span> 
+			<span class="otherdetails" id="comment_otherdetails_51478567"></span>
+		</div>
+	</div>
+	<div class="commentBody">
+		<div id="comment_body_51478567"><p>Thank goodness. Item #1 on my zombie apocalypse plan was always to take over a nuclear powerplant and rewrite its control system in Lumberyard, but the damn license would have thwarted that.</p></div>
+	</div>
+
+	<div class="commentSub" id="comment_sub_51478567">
+
+</div>
+</div>
+
+<div id="replyto_51478567"></div>
+
+<ul id="group_51478567">
+	<li id="hiddens_51478567" class="hide"></li>
+</ul>
+
+</li></ul></li><li id="tree_51474887" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51474887" class="commentstatus"></div>
+<div id="comment_51474887" class="cw">
+</div>
+
+<div id="replyto_51474887"></div>
+
+<ul id="group_51474887">
+	<li id="hiddens_51474887" class="hide"></li>
+</ul>
+
+</li><li id="tree_51475511" class="comment hidden"><span class="ind"></span>
+<div id="comment_status_51475511" class="commentstatus"></div>
+<div id="comment_51475511" class="cw">
+</div>
+
+<div id="replyto_51475511"></div>
+
+<ul id="group_51475511">
+	<li id="hiddens_51475511" class="hide"></li>
+</ul>
+
+</li><li id="hidestring_0"><noscript><b class='more'><span class="ind"></span><a href="//games.slashdot.org/comments.pl?sid=8726641&amp;threshold=-1&amp;commentsort=0&amp;mode=thread&amp;pid=0">6 replies</a> beneath your current threshold.</b></noscript></li>
+			<li id="roothiddens" class="hide"></li>
+		</ul>
+	
+	
+	
+	
+
+<noscript><p><b>There may be more comments in this discussion. Without JavaScript enabled, you might want to <a href="//games.slashdot.org/users.pl?op=editcomm">turn on Classic Discussion System</a> in your preferences instead.</b></p></noscript>
+<div id="discussion_buttons" class="clearfix">
+
+
+
+
+
+
+</div>
+
+
+<div class="newcmnt"><div id="replyto_0"></div></div>
+
+
+	<script type="text/javascript">
+<!--
+		D2.currents()['hidden']   = 24;
+		D2.currents()['full']     = 5;
+		D2.currents()['oneline']  = 27;
+		// D2.currents_total(56);
+
+		D2.abbrev_comments({51472595:529,51476323:520,51472795:514,51480083:371});
+		D2.noshow_comments([51471653,51472041,51472139,51476319,51477659,51471923,51474405,51472043,51472103,51472399,51474527,51477121,51472085,51473511,51472591,51471873,51472161,51472235,51472209,51472527,51472919,51473659,51474887,51475511]);
+		D2.pieces_comments([51471755,51471843,51471875,51471895,51471917,51471993,51473699,51471851,51471879,51472219,51472277,51472191,51472159,51472795,51472959,51472805,51472977,51476323,51480083,51477179,51472057,51472167,51472681,51472595,51472653,51472915,51478567]);
+		D2.init_hiddens([51472041,51471669,51471851,51472219,51472277,51471879,51472085,51471745,51471873,51471909,51472595,0]);
+
+		D2.finishLoading();
+
+
+		if (D2.thresh_totals()[6][6][1] == 0) {
+			D2.replyTo(0, 1);
+		}
+
+
+//-->
+	</script>
+
+
+</div>
+
+
+</section>
+			</div>
+		</div>
+		<div class="row top-space">
+			<div class="grid_24">
+				<!-- 728px ad -->
+				<div class="railad">
+<div id='div-gpt-ad-728x90_b'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-728x90_b');});</script></div>
+</div>
+				<!-- end 728px ad -->
+				<!-- Slashdot Deals 6 Best Sellers -->
+					<div class="row deals-footer">
+						<div class="units-8 indent-2 deals-wrapper">
+						  <div class="deals-header"><h1>Slashdot Top Deals</h1></div>
+						  <div id="deals-output">
+							<script id="deals-template" type="text/x-handlebars-template">
+							  {{#each deal}}
+								<div class="deal">
+								  <a href="{{urlPath permalink}}?&utm_source=slashdot.org&utm_medium=dealfeed-footerfeed&utm_campaign={{slug}}" target="_blank">
+								  	<img src="{{main_image}}" alt="" />
+								  </a>
+								  <p class="title"><a href="{{urlPath permalink}}?&utm_source=slashdot.org&utm_medium=dealfeed-footerfeed&utm_campaign={{slug}}" target="_blank">{{title}}</a></p>
+								  <p class="deal-price">{{centConversion price_in_cents}}</p>
+								</div>
+							  {{/each}}
+							</script>
+						  </div>
+						</div>
+					</div>
+					<script>
+				        var isAdBlockActive = true;
+				    </script>
+				    <script src="//a.fsdn.com/sd/js/scripts/ad.js?release_20160212"></script>
+					<script>
+						if ( isAdBlockActive ) {
+							$.getScript( "//a.fsdn.com/sd/js/scripts/min/deals-min.js", function(){
+								runDealsWidget();
+							});
+						}
+					</script>
+
+					<!-- End Slashdot Deals 6 Best Sellers -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- SMACKS: END COMMENTS SECTION -->
+</div>
+<!-- SMACKS: END COMMENTS CONTAINER -->
+
+
+	
+
+<script type="text/javascript">
+
+$(function(){
+$('#firehose-filter').
+	focus(function(event){
+		gFocusedText = this;
+	}).
+	blur(function(event){
+		if ( gFocusedText === this ) {
+			gFocusedText = null;
+		}
+	});
+
+
+apply_updates_when(		'at-end', true);
+});
+</script>
+
+
+<!-- body end --><!-- footer type=current begin -->
+	
+	</section>
+	
+	
+
+
+	<footer id="fhft" class="grid_24 nf aoc">
+		<div id="logo_nf" class="fleft">
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+		</div>
+		<nav role="firehose footer">
+			
+				
+				
+				
+				
+
+				
+						<span class="ind"></span><a class="btn first" href="//games.slashdot.org/comments.pl?sid=8726641&amp;op=reply&amp;threshold=1&amp;commentsort=0&amp;mode=thread&amp;pid=" onclick="D2.replyTo(0); return false;">Post</a>
+				
+				<a class="btn hide" id="footer_moderate_button">Moderate</a>
+				<a class="btn hide" id="footer_moderatorhelp_button">Moderator Help</a>
+				<a class="btn hide" id="footer_delete_button" title="Checked comments will be deleted.">Delete</a>
+				<script>
+					(function($){
+						var old_moderate_btn = $("#discussion_moderate_button");
+						if (old_moderate_btn.length) {
+							var moderate_btn = $("#footer_moderate_button");
+							moderate_btn.click(
+								function(){old_moderate_btn.click()}
+							);
+							moderate_btn.removeClass('hide');
+						}
+
+						var old_moderatorhelp_btn = $("#discussion_moderatorhelp_button");
+						if (old_moderatorhelp_btn.length) {
+							var moderatorhelp_btn = $("#footer_moderatorhelp_button");
+							moderatorhelp_btn.click(
+								function(){old_moderatorhelp_btn.click()}
+							);
+							moderatorhelp_btn.attr(
+								'href', old_moderatorhelp_btn.attr('href')
+							);
+							moderatorhelp_btn.removeClass('hide');
+						}
+
+						var old_delete_btn = $("#discussion_delete_button");
+						if (old_delete_btn.length) {
+							var delete_btn = $("#footer_delete_button");
+							delete_btn.click(
+								function(){old_delete_btn.click()}
+							);
+							delete_btn.removeClass('hide');
+						}
+
+						$('#discussion_buttons').addClass('hide');
+					})(Slash.jQuery); // (function($){
+				</script>
+				<ul class="fleft">
+					
+						<li class="fleft selected">
+							<span class="nbutton btn hide link reset" id="more_comments_button">
+								<a href="#" onclick="D2.ajaxFetchComments(0,1); return false">
+									<span id="more_comments_num_a" class="hide">Get more comments</span>
+								</a>
+							</span>
+						</li>
+					
+					
+						<li class="fleft">
+							<span class="loadedcommentcnt">56</span> of <span class="totalcommentcnt">56</span> loaded
+						</li>
+					
+				</ul>
+				
+					<script type="text/javascript">D2.finishLoading()</script>
+				
+			
+
+			
+			<ul class="fright submitstory">
+					<li class="fright">
+						<a href="/submit">Submit<span class="opt"> Story</span></a>
+					</li>
+			</ul>
+		</nav>
+		
+
+
+	</footer>
+	<section class="bq">
+		<blockquote class="msg grid_24" cite="http://slashdot.org">
+			<p>"The four building blocks of the universe are fire, water, gravel and vinyl."
+		-- Dave Barry</p>
+			<span class="slant"></span>
+		</blockquote>
+	</section>
+	<footer id="ft" class="grid_24">
+		<nav class="grid_10" role="footer">
+			<ul>
+				<li><a href="//slashdot.org/faq">FAQ</a></li>
+				<li><a href="//slashdot.org/archive.pl">Story Archive</a></li>
+				<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+				<li><a href="http://slashdotmedia.com/advertising-and-marketing-services/">Advertising</a></li>
+				<li><a href="http://slashdotmedia.com/terms-of-use/">Terms</a></li>
+				<li><a href="http://slashdotmedia.com/privacy-statement/">Privacy</a></li>
+				<li id="teconsent"></li>
+				<li><a href="http://slashdotmedia.com/opt-out-choices/">Opt Out Choices</a></li>
+				<li><a href="//slashdot.org/faq/slashmeta.shtml">About</a></li>
+				<li><a href="mailto:feedback@slashdot.org">Feedback</a></li>
+				<li><a href="#" onclick="set_mobile_pref('mobile',1);return false;">Mobile View</a></li>
+				<li><a href="//slashdot.org/blog">Blog</a></li>
+			</ul>
+		</nav>
+		<br>
+		
+		<div class="grid_14 tright tm">Trademarks property of their respective owners. Comments owned by the poster. <span class="nobr">Copyright &copy; 2016 SlashdotMedia. All Rights Reserved.</span></div>
+	</footer>
+
+	
+	<div class="overlay"></div>
+<div class="modal-box">
+    <a href="#" id="close-modal">Close</a>
+    <article class="modal-content">
+    </article>
+    <footer>
+</div>
+
+
+
+
+<div id="modal_cover" class="hide" onclick="hide_modal_box(); return false;"></div>
+<div id="modal_box" class="hide">
+      <div id="modal_box_content"></div>
+      <header class="n">
+                  <span class="fadeout"></span>
+                  <span class="fadeoutfade"></span>
+		  <span class="pf"><a class="ico close" onclick="hide_modal_box(); return false;" href="#"><span>Close</span></a></span>
+		  <h3 class="pf"><div id="logo"><a href="//slashdot.org">Slashdot</a></div><span id="preference_title"></span></h3>
+      </header>
+</div>
+	
+	<script type="text/javascript">
+COMSCORE.beacon({
+  c1:2,
+  c2:6035546,
+  c3:"",
+  c4:"",
+  c5:"",
+  c6:"",
+  c15:""
+});
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2"></noscript>
+
+
+<!-- Google Remarketing tag -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1002083962;
+var google_conversion_label = "G_uGCOaBlAQQ-qzq3QM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1002083962/?value=0&amp;label=G_uGCOaBlAQQ-qzq3QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+	<script id="after-content" type="text/javascript">
+(function( $, fn, console ){
+	$ && fn && $(function(){ fn($, console); });
+})(window.jQuery, window.pageload_done, window.console);
+</script>
+	
+	<script type='text/javascript'>
+	if(!document.location.href.match(/source=autorefresh/)) {
+		document.write('<img src="//slashdot.org/images/js.gif?686">');
+	}
+</script>
+<noscript>
+	<img src="//slashdot.org/images/njs.gif?962">
+</noscript>
+	<div class="busy genericspinner hide"><span>Working...</span></div>
+	<script>
+		if(typeof(Storage)!=="undefined"){
+			window.scrollTo(0,sessionStorage.scrollPos);
+				$(window).scroll(function () {
+				//You've scrolled this much:
+				sessionStorage.scrollPos = $(window).scrollTop();
+			});
+		}
+		$(function(){
+			$('a').click(function(){
+				delete sessionStorage.scrollPos;
+			})
+		});
+		// window.onbeforeunload = function () {
+		// 	console.log('bakc button clicked');
+		// 	delete sessionStorage.scrollPos;
+		// }
+		window.onpopstate=function() {
+			delete sessionStorage.scrollPos;
+		}
+	</script>
+	
+
+	
+		<!-- 1x1 story page -->
+		<div id='div-gpt-ad-1x1'><script type='text/javascript'>
+googletag.cmd.push(function(){
+googletag.display('div-gpt-ad-1x1');});</script></div>
+	
+
+	</body>
+	</html>
+
+	<!-- footer type=current end -->

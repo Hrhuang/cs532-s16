@@ -1,0 +1,814 @@
+ <!DOCTYPE html>
+<html  >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>秒拍视频</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link href="http://wsacdn2.miaopai.com/static20131031/favicon.ico" rel="SHORTCUT ICON">
+<meta name="keywords" content="360手机游戏中心pvrtx,360手机游戏中心pvrtx的秒拍,秒拍,秒拍短视频,短视频">
+<meta name="description" content="360手机游戏中心pvrtx的秒拍视频。#猴年放肆玩#女神@seohyun徐玄 给大家送祝福啦！欧尼的中文说的怎么样？游戏菌可没教她说“猴赛雷”哦！这次教会“可可魔城”只花了一分钟，大家说我下次教什么词呐～">
+<!-- 判断是否为播放页是否有视频信息 -->
+<meta property="og:type" content="video"/>
+<meta property="og:title" content="秒拍视频"/>
+<meta property="og:image" content="http://wsqncdn.miaopai.com/stream/YiL7h8enf8arT1VZv1OPuQ___m.jpg"/>
+<meta property="og:url" content="http://p.weibo.com/show/YiL7h8enf8arT1VZv1OPuQ__.htm"/>
+<meta property="og:videosrc" content="http://p.weibo.com/show/YiL7h8enf8arT1VZv1OPuQ__.swf"/>
+<meta property="og:width" content="480" />
+<meta property="og:height" content="480" />
+<!--End -->
+<link href="http://wsacdn2.miaopai.com/static20131031/miaopai20140729/css/reset.css" rel="stylesheet" type="text/css">
+<link href="http://wsacdn3.miaopai.com/static20131031/miaopai20140729/css/miaopai-2.4.css" rel="stylesheet" type="text/css">
+<link href="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/css/emoji-1.1.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/js/jquery-1.10.2.1.js"></script>
+<script type="text/javascript" src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/js/miaopai-1.6.js"></script>
+<script type="text/javascript" src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/js/md5.js"></script>
+
+
+</head>
+<style>
+.talk_action .auto .a:hover{
+	color:#ffffff;
+}
+.main3 ul li .share a:hover{
+	color:#363636;
+}
+.share ol li a:hover{
+	color: #fcb840;
+}
+.list ol li a:hover{
+color: #fcb840;
+}
+
+/*.personal a {
+color: #939393;
+margin-left: 10px;
+text-decoration: none;
+line-height:58px;
+}*/
+.personal .person img {
+vertical-align: middle;
+padding-top: 0;
+*padding-top: 13px;
+}
+.pername b{
+        width:300px;
+    }
+    .pername strong.d_reply{
+        color: #fcb538;
+        cursor: pointer;
+    }
+    .d_reply_box{
+        width: 392px;
+        background: #eeeeee;
+        display: block;
+        float: left;
+        position: relative;
+        padding-bottom: 17px;
+        border: 1px solid #e1e1e1;
+        top: 7px;
+        border-radius: 1px;
+        margin-bottom: 12px;
+    }
+    .WB_arrow{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 10px;
+        top: -14px;
+    }
+    .S_line1_c{
+        position: absolute;
+        font-size: 30px;
+        color: #eee;
+        z-index: 1;
+        top: 1px;
+        right:0;
+        z-index: 1;
+    }
+    .S_bg1_c{
+        font-size: 30px;
+        color: #e1e1e1;
+        position: absolute;
+        right:0;
+        z-index: 0;
+    }
+    .d_reply_box{
+        display: none;
+    }
+    .d_reply_box .txt_reply{
+        width:376px;
+        max-width:376px;
+        margin:9px 0 0 5px;
+        border:1px solid #e1e1e1;
+    }
+     .r1 #r9+label b{
+        margin-top:3px;
+     }
+    .r1 #r9:checked+label b {
+        background: #fff center center url(http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/r1.png) no-repeat;
+        background: none\0;
+    }
+    .auto1{
+        position: relative;
+        top:0;
+    }
+    .auto1 .r1{
+        margin:0;
+    }
+    .auto1 .review{
+        border: none;
+        float: right;
+        width: 80px;
+        background: #fcb538;
+        border-radius: 4px;
+        color: #fff;
+        margin-right: 8px;
+        text-align: center;
+        padding: 2px 0;
+        margin-top: 9px;
+    }
+    #r9{
+        position: absolute;
+        top: 14px;
+        left: 11px;
+        z-index: -1;
+        z-index: 9\0;
+    }
+    .comments_list ul li:last-child {
+		border-bottom: none;
+	}
+	.d_reply_box .txt_reply{
+        width: 376px;
+        max-width: 376px;
+        margin: 9px 0 0 5px;
+        border: 1px solid #e1e1e1;
+        height: 32px;
+        line-height: 32px;
+    }
+/****微信登陆*******/
+.dialog,.dialog1{
+    height:522px;
+}
+.sina_login,.wx_login{
+    width: 257px;
+    height: 50px;
+    background: url(http://wsacdn4.miaopai.com/static20131031/miaopai20140729/img/login_wechat.png) no-repeat;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.sina_login{
+    background: url(http://wsacdn4.miaopai.com/static20131031/miaopai20140729/img/login_sina.png) no-repeat;
+}
+.header ul{
+	float: right;
+	}
+
+</style>
+<body>
+	<div class="header_big">
+		<div class="header">
+			<div class="logo">
+				<a href='http://www.miaopai.com/'><b class="head_logo"></b></a>
+			</div>
+			<!--form action="http://www.miaopai.com/miaopai/mp_search" method='post' id='form_search'>
+			<div class="search" style="visibility: hidden;">
+				<input type="text" name='keyword' id='keyword' placeholder='搜索用户/视频' value=''/>
+				<span class="button" id='search_button'><img src="http://wsacdn3.miaopai.com/static20131031/miaopai20140729/img/search.png" alt="" /></span>
+			</div>
+			<script type="text/javascript">
+				$('#search_button').click(function(){
+					var keyword = $('#keyword').val();
+					var form_obj = $('#form_search');
+					if(keyword == ''){
+						return void(0);
+					}else{
+						
+						form_obj.submit();
+					}
+					
+				
+				});
+			</script>
+			</form-->
+			<div class="personal">
+							<div class="person"><!--<img src="http://wsacdn2.miaopai.com/static20131031/miaopai20140729/img/person.png" alt="">--></div>
+				<a href='javascript:;' title="登录" class="login">[登录]</a>					
+						</div>	
+			<ul id="banner_t">
+				<li ><a href='http://www.miaopai.com/'>首页</a></li>
+				<!--li ><a href='http://www.miaopai.com/miaopai/plaza'>广场</a></li-->
+				
+			</ul>
+			
+		</div>
+	</div>
+
+<!--/head-->
+
+
+<div class="D_main clearfix">
+		<div class="D_left">
+			<div class="D_video">
+				<div class="video_img">
+					<img width='480' height='480' src="http://wsqncdn.miaopai.com/stream/YiL7h8enf8arT1VZv1OPuQ___m.jpg">
+					<b class="D_play"></b>
+				</div>
+				<div class="video_flash" style="width: 480px; height: 480px;">
+            
+                    <object width="480" height="480" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+	                    <param name="src" value="http://wscdn.miaopai.com/splayer2.1.1.swf?scid=YiL7h8enf8arT1VZv1OPuQ__&token=&autopause=false&fromweibo=false"> 
+		 				<param name="wmode" value="transparent">  
+		 				<param name="wmode" value="opaque">   
+		 				<param name="quality" value="high">   
+						<param name="allowfullscreen" value="true">   
+						<param name="allowscriptaccess" value="always">   
+					<embed id=em src="http://wscdn.miaopai.com/splayer2.1.1.swf?scid=YiL7h8enf8arT1VZv1OPuQ__&token=&autopause=false&fromweibo=false" type="application/x-shockwave-flash" autostart=false width="100%" height="100%" quality="high" allowfullscreen="true" wmode="transparent" allowscriptaccess="always" pluginspage="http://www.macromedia.com/go/getflashplayer">    
+					</object>
+                </div>
+				
+				<div class="introduction">
+					<div class="head_icon2"><a title='360手机游戏中心pvrtx' href='/u/paike_5p5mgvws7i' target='_blank'><img src="http://tp1.sinaimg.cn/3195002852/180/5734484302/1"></a></div>
+					<div class="D_head_name">
+						<h1><a title='360手机游戏中心pvrtx' href='/u/paike_5p5mgvws7i' target='_blank'>360手机游戏中心pvrtx</a>
+						<img src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/v2.png" alt=""></h1>
+						<h2><b>02-09&nbsp;&nbsp;&nbsp;17.2万 观看</b></h2>
+					</div>
+					<p>#猴年放肆玩#女神 <a style='color:#fcb840' href='http://www.miaopai.com/u/wxsso_g0z3e2tw4m'>@seohyun徐玄 </a>给大家送祝福啦！欧尼的中文说的怎么样？游戏菌可没教她说“猴赛雷”哦！这次教会“可可魔城”只花了一分钟，大家说我下次教什么词呐～ </p>
+					<p class='clearfix'><a class='tpc' href='http://www.miaopai.com/miaopai/topic?topicname=猴年放肆玩'>#猴年放肆玩#</a></p>				</div>
+				<div class="talk">
+					
+					<div class="talk_action clearfix">
+					<input type='hidden' name='likecnt' id='likecnt' value='2192'/>
+						<a class='a liked' href="javascript:;" scid='YiL7h8enf8arT1VZv1OPuQ__' token='' islike='no'><font style="color:">赞</font> <em style="color:">2192</em></a>
+						
+						<a class='a' href="javascript:pre_review();">评论 51</a>
+						<div class='share_t'>
+							
+							<div class="sh_btn_ts">
+								<ul class='clearfix'>
+										<li><a title='分享到新浪微博' href="http://service.weibo.com/share/share.php?appkey=2637646381&url=http://www.miaopai.com/show/YiL7h8enf8arT1VZv1OPuQ__.htm&title=%E6%88%91%E4%BB%8E%40%E7%A7%92%E6%8B%8D+%E5%88%86%E4%BA%AB%E4%BA%86%E4%B8%80%E4%B8%AA%E8%A7%86%E9%A2%91-%23%E7%8C%B4%E5%B9%B4%E6%94%BE%E8%82%86%E7%8E%A9%23%E5%A5%B3%E7%A5%9E%40seohyun%E5%BE%90%E7%8E%84+%E7%BB%99%E5%A4%A7%E5%AE%B6%E9%80%81%E7%A5%9D%E7%A6%8F%E5%95%A6%EF%BC%81%E6%AC%A7%E5%B0%BC%E7%9A%84%E4%B8%AD%E6%96%87%E8%AF%B4%E7%9A%84%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F%E6%B8%B8%E6%88%8F%E8%8F%8C%E5%8F%AF%E6%B2%A1%E6%95%99%E5%A5%B9%E8%AF%B4%E2%80%9C%E7%8C%B4%E8%B5%9B%E9%9B%B7%E2%80%9D%E5%93%A6%EF%BC%81%E8%BF%99%E6%AC%A1%E6%95%99%E4%BC%9A%E2%80%9C%E5%8F%AF%E5%8F%AF%E9%AD%94%E5%9F%8E%E2%80%9D%E5%8F%AA%E8%8A%B1%E4%BA%86%E4%B8%80%E5%88%86%E9%92%9F%EF%BC%8C%E5%A4%A7%E5%AE%B6%E8%AF%B4%E6%88%91%E4%B8%8B%E6%AC%A1%E6%95%99%E4%BB%80%E4%B9%88%E8%AF%8D%E5%91%90%EF%BD%9E&ralateUid=3044746573&source=秒拍&sourceUrl=http%3A%2F%2Fwww.miaopai.com&content=utf8&searchPic=false" target='_blank'><img src="http://wsacdn3.miaopai.com/static20131031/miaopai20140729/img/s_sina.jpg" alt="分享到新浪微博"></a></li>
+										<li><a title='分享到QQ微博' href="http://www.jiathis.com/send/?webid=tqq&url=http://www.miaopai.com/show/YiL7h8enf8arT1VZv1OPuQ__.htm&title=%E6%88%91%E4%BB%8E%40%E7%A7%92%E6%8B%8D+%E5%88%86%E4%BA%AB%E4%BA%86%E4%B8%80%E4%B8%AA%E8%A7%86%E9%A2%91-%23%E7%8C%B4%E5%B9%B4%E6%94%BE%E8%82%86%E7%8E%A9%23%E5%A5%B3%E7%A5%9E%40seohyun%E5%BE%90%E7%8E%84+%E7%BB%99%E5%A4%A7%E5%AE%B6%E9%80%81%E7%A5%9D%E7%A6%8F%E5%95%A6%EF%BC%81%E6%AC%A7%E5%B0%BC%E7%9A%84%E4%B8%AD%E6%96%87%E8%AF%B4%E7%9A%84%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F%E6%B8%B8%E6%88%8F%E8%8F%8C%E5%8F%AF%E6%B2%A1%E6%95%99%E5%A5%B9%E8%AF%B4%E2%80%9C%E7%8C%B4%E8%B5%9B%E9%9B%B7%E2%80%9D%E5%93%A6%EF%BC%81%E8%BF%99%E6%AC%A1%E6%95%99%E4%BC%9A%E2%80%9C%E5%8F%AF%E5%8F%AF%E9%AD%94%E5%9F%8E%E2%80%9D%E5%8F%AA%E8%8A%B1%E4%BA%86%E4%B8%80%E5%88%86%E9%92%9F%EF%BC%8C%E5%A4%A7%E5%AE%B6%E8%AF%B4%E6%88%91%E4%B8%8B%E6%AC%A1%E6%95%99%E4%BB%80%E4%B9%88%E8%AF%8D%E5%91%90%EF%BD%9E&appkey=d815c200286a07961d81465d11a30a46" target='_blank'><img src="http://wsacdn4.miaopai.com/static20131031/miaopai20140729/img/s_qq.jpg" alt="分享到QQ微博"></a></li>
+										<li><a title='分享到微信' href="http://www.jiathis.com/send/?webid=weixin&url=http://www.miaopai.com/show/YiL7h8enf8arT1VZv1OPuQ__.htm&title=%E6%88%91%E4%BB%8E%40%E7%A7%92%E6%8B%8D+%E5%88%86%E4%BA%AB%E4%BA%86%E4%B8%80%E4%B8%AA%E8%A7%86%E9%A2%91-%23%E7%8C%B4%E5%B9%B4%E6%94%BE%E8%82%86%E7%8E%A9%23%E5%A5%B3%E7%A5%9E%40seohyun%E5%BE%90%E7%8E%84+%E7%BB%99%E5%A4%A7%E5%AE%B6%E9%80%81%E7%A5%9D%E7%A6%8F%E5%95%A6%EF%BC%81%E6%AC%A7%E5%B0%BC%E7%9A%84%E4%B8%AD%E6%96%87%E8%AF%B4%E7%9A%84%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F%E6%B8%B8%E6%88%8F%E8%8F%8C%E5%8F%AF%E6%B2%A1%E6%95%99%E5%A5%B9%E8%AF%B4%E2%80%9C%E7%8C%B4%E8%B5%9B%E9%9B%B7%E2%80%9D%E5%93%A6%EF%BC%81%E8%BF%99%E6%AC%A1%E6%95%99%E4%BC%9A%E2%80%9C%E5%8F%AF%E5%8F%AF%E9%AD%94%E5%9F%8E%E2%80%9D%E5%8F%AA%E8%8A%B1%E4%BA%86%E4%B8%80%E5%88%86%E9%92%9F%EF%BC%8C%E5%A4%A7%E5%AE%B6%E8%AF%B4%E6%88%91%E4%B8%8B%E6%AC%A1%E6%95%99%E4%BB%80%E4%B9%88%E8%AF%8D%E5%91%90%EF%BD%9E" target='_blank'><img src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/s_weixin.jpg" alt="分享到微信"></a></li>
+										<li><a title='分享到朋友圈' href="http://www.jiathis.com/send/?webid=weixin&url=http://www.miaopai.com/show/YiL7h8enf8arT1VZv1OPuQ__.htm&title=%E6%88%91%E4%BB%8E%40%E7%A7%92%E6%8B%8D+%E5%88%86%E4%BA%AB%E4%BA%86%E4%B8%80%E4%B8%AA%E8%A7%86%E9%A2%91-%23%E7%8C%B4%E5%B9%B4%E6%94%BE%E8%82%86%E7%8E%A9%23%E5%A5%B3%E7%A5%9E%40seohyun%E5%BE%90%E7%8E%84+%E7%BB%99%E5%A4%A7%E5%AE%B6%E9%80%81%E7%A5%9D%E7%A6%8F%E5%95%A6%EF%BC%81%E6%AC%A7%E5%B0%BC%E7%9A%84%E4%B8%AD%E6%96%87%E8%AF%B4%E7%9A%84%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F%E6%B8%B8%E6%88%8F%E8%8F%8C%E5%8F%AF%E6%B2%A1%E6%95%99%E5%A5%B9%E8%AF%B4%E2%80%9C%E7%8C%B4%E8%B5%9B%E9%9B%B7%E2%80%9D%E5%93%A6%EF%BC%81%E8%BF%99%E6%AC%A1%E6%95%99%E4%BC%9A%E2%80%9C%E5%8F%AF%E5%8F%AF%E9%AD%94%E5%9F%8E%E2%80%9D%E5%8F%AA%E8%8A%B1%E4%BA%86%E4%B8%80%E5%88%86%E9%92%9F%EF%BC%8C%E5%A4%A7%E5%AE%B6%E8%AF%B4%E6%88%91%E4%B8%8B%E6%AC%A1%E6%95%99%E4%BB%80%E4%B9%88%E8%AF%8D%E5%91%90%EF%BD%9E" target='_blank'><img src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/s_friend.jpg" alt=""></a></li>
+										<li><a title='分享到人人网' href="http://www.jiathis.com/send/?webid=renren&url=http://www.miaopai.com/show/YiL7h8enf8arT1VZv1OPuQ__.htm&title=%E6%88%91%E4%BB%8E%40%E7%A7%92%E6%8B%8D+%E5%88%86%E4%BA%AB%E4%BA%86%E4%B8%80%E4%B8%AA%E8%A7%86%E9%A2%91-%23%E7%8C%B4%E5%B9%B4%E6%94%BE%E8%82%86%E7%8E%A9%23%E5%A5%B3%E7%A5%9E%40seohyun%E5%BE%90%E7%8E%84+%E7%BB%99%E5%A4%A7%E5%AE%B6%E9%80%81%E7%A5%9D%E7%A6%8F%E5%95%A6%EF%BC%81%E6%AC%A7%E5%B0%BC%E7%9A%84%E4%B8%AD%E6%96%87%E8%AF%B4%E7%9A%84%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F%E6%B8%B8%E6%88%8F%E8%8F%8C%E5%8F%AF%E6%B2%A1%E6%95%99%E5%A5%B9%E8%AF%B4%E2%80%9C%E7%8C%B4%E8%B5%9B%E9%9B%B7%E2%80%9D%E5%93%A6%EF%BC%81%E8%BF%99%E6%AC%A1%E6%95%99%E4%BC%9A%E2%80%9C%E5%8F%AF%E5%8F%AF%E9%AD%94%E5%9F%8E%E2%80%9D%E5%8F%AA%E8%8A%B1%E4%BA%86%E4%B8%80%E5%88%86%E9%92%9F%EF%BC%8C%E5%A4%A7%E5%AE%B6%E8%AF%B4%E6%88%91%E4%B8%8B%E6%AC%A1%E6%95%99%E4%BB%80%E4%B9%88%E8%AF%8D%E5%91%90%EF%BD%9E" target='_blank'><img src="http://wsacdn2.miaopai.com/static20131031/miaopai20140729/img/s_renren.jpg" alt=""></a></li>
+								
+								</ul>
+							</div>
+						</div>
+						<p style='border-bottom:1px solid #dedede; clear:both'></p>
+						<!-- <textarea name="content" id="content" placeholder='说点儿什么吧...' style='resize: none;'
+></textarea> -->
+						<div class="auto">
+						<style>
+							.r1 #r2{ left:10px;top:10px}
+						</style>
+							<div class="r1 r2" style='display:none'>
+																<input type="checkbox" id='r2' checked />
+								<label for="r2"><b style='border:1px solid #fcb840;border:none\0;#border:none'></b>同时评论到Ta的微博</label>
+																
+							</div>
+							<!-- <a class='review a' href="javascript:;" id='review'>评论</a> -->
+						</div>
+						
+					</div>
+				</div>
+				<div class="revs">
+					
+					
+					<div class="comments_list">
+						<div class="Scroller-Container" style=' padding-bottom: 10px;' >
+							<ul  id='video_comments'>
+								
+							</ul>
+						</div>
+					</div>
+					<div class="page1">
+						<span class='prev1 disable'><b></b><span></span>上一页</span>
+						<ul id='pages_ul'>
+							
+						</ul>
+						<span class='next1'><b></b><span></span>下一页</span>
+					</div>	
+				</div>
+			</div>
+		</div>
+			
+		<div class="D_right">
+			<h3 class="t1">热门话题</h3>
+			<div class="div1">
+				<img src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/up.png" alt="" class="up">
+				<style>
+					.div1 ul li{
+						width: 204px;height: 49px;box-sizing: border-box;
+					}
+				</style>
+				<ul>
+									<li><a title='#虎妈猫爸绕口令#' target='_blank' href='/miaopai/topic?topic=C8m3O84pFxLVie81'>#虎妈猫爸绕口令#</a></li>
+									<li><a title='#生如夏花#' target='_blank' href='/miaopai/topic?topic=73nz1g8wqZkah8~d'>#生如夏花#</a></li>
+									<li><a title='#杯子歌#' target='_blank' href='/miaopai/topic?topic=sygvcCN2qtdleBUu'>#杯子歌#</a></li>
+									<li><a title='#杯子丰唇法#' target='_blank' href='/miaopai/topic?topic=9U6hxQUGi5LpF87W'>#杯子丰唇法#</a></li>
+									<li><a title='#女神爱时尚#' target='_blank' href='/miaopai/topic?topic=BFZVg2joHIUw9nN-'>#女神爱时尚#</a></li>
+									<li><a title='#愚乐无极限#' target='_blank' href='/miaopai/topic?topic=xVcISoo-q9i68e6k'>#愚乐无极限#</a></li>
+									
+				</ul>
+			</div>
+			<h3 class="t1">热门视频</h3>
+			<div class="div2">
+				<img src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/up.png" alt="" class="up">
+				<ul class='clearfix'>
+									<li>
+						
+							<a href='/show/rP1kUVq1dpIijviefmRf1Q__.htm'><img width='110' height='110' src="http://wsqncdn.miaopai.com/stream/rP1kUVq1dpIijviefmRf1Q___m.jpg"></a>
+							<b class="s_p"></b>
+							<a href='/u/paike_8qjpl3lj78' target='_blank'><p style='width:110px;text-overflow: ellipsis;white-space:nowrap;font-size:16px;height:39px' title='余枫要做活神仙' class='pnick'  >余枫要做活神仙</p></a>
+							<a title='哇哈哈哈哈。滑雪啦！[嘻嘻][嘻嘻][嘻嘻]' href="/show/rP1kUVq1dpIijviefmRf1Q__.htm"><p style="height:38px;">哇哈哈哈哈。滑雪啦！<img style='vertical-align:middle;width:17px;height:17px;vertical-align: middle;margin-top: -4px;' src='http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/expressionv2/d_xixi.png' /><img style='vertical-align:middle;width:17px;height:17px;vertical-align: middle;margin-top: -4px;' src='http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/expressionv2/d_xixi.png' /><img style='vertical-align:middle;width:17px;height:17px;vertical-align: middle;margin-top: -4px;' src='http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/expressionv2/d_xixi.png' /> </p></a>
+						
+					</li>
+									<li>
+						
+							<a href='/show/zjgPE78kELq4LOwl8if8MQ__.htm'><img width='110' height='110' src="http://dlqncdn.miaopai.com/stream/zjgPE78kELq4LOwl8if8MQ___m.jpg"></a>
+							<b class="s_p"></b>
+							<a href='/u/paike_3w0o1hzabb' target='_blank'><p style='width:110px;text-overflow: ellipsis;white-space:nowrap;font-size:16px;height:39px' title='饼子脸杏儿眼' class='pnick'  >饼子脸杏儿眼</p></a>
+							<a title='粘人精，天天陪我吹头发(〃▽〃)' href="/show/zjgPE78kELq4LOwl8if8MQ__.htm"><p style="height:38px;">粘人精，天天陪我吹头发(〃▽〃) </p></a>
+						
+					</li>
+									<li>
+						
+							<a href='/show/7hOsnw8qe7jsvsOan913gw__.htm'><img width='110' height='110' src="http://wscdn.miaopai.com/stream/7hOsnw8qe7jsvsOan913gw___tmp_11_004_.png"></a>
+							<b class="s_p"></b>
+							<a href='/u/paike_hd6fs0l4wj' target='_blank'><p style='width:110px;text-overflow: ellipsis;white-space:nowrap;font-size:16px;height:39px' title='暴走漫画' class='pnick'  >暴走漫画</p></a>
+							<a title='看看我的暴米花Siri你打多少分？' href="/show/7hOsnw8qe7jsvsOan913gw__.htm"><p style="height:38px;">看看我的暴米花Siri你打多少分？ </p></a>
+						
+					</li>
+									<li>
+						
+							<a href='/show/uZH24STzGMR-tBPrge6u4w__.htm'><img width='110' height='110' src="http://wscdn.miaopai.com/stream/uZH24STzGMR-tBPrge6u4w___tmp_11_239_.jpg"></a>
+							<b class="s_p"></b>
+							<a href='/u/paike_jdbflzx15j' target='_blank'><p style='width:110px;text-overflow: ellipsis;white-space:nowrap;font-size:16px;height:39px' title='美食台foodvideo' class='pnick'  >美食台foodvideo</p></a>
+							<a title='教你做鸡高汤，居家必备，调鲜妙招！' href="/show/uZH24STzGMR-tBPrge6u4w__.htm"><p style="height:38px;">教你做鸡高汤，居家必备，调鲜妙招！ </p></a>
+						
+					</li>
+									<li>
+						
+							<a href='/show/yKbNl8Gr7O1AfG5LULuKIw__.htm'><img width='110' height='110' src="http://wsacdn3.miaopai.com/stream/yKbNl8Gr7O1AfG5LULuKIw___tmp_11_644_.jpg"></a>
+							<b class="s_p"></b>
+							<a href='/u/paike_bsw0btwvj5' target='_blank'><p style='width:110px;text-overflow: ellipsis;white-space:nowrap;font-size:16px;height:39px' title='罗休休' class='pnick'  >罗休休</p></a>
+							<a title='［告诉我！谁是世界上最美丽的人？］爱我你们怕了吗？😂没想到你是这样的siri！说好做彼此的天“屎”呢？😳赶紧一起来试试吧！哈哈哈哈哈 喜欢记得点赞噢！☺我的微博：罗休休' href="/show/yKbNl8Gr7O1AfG5LULuKIw__.htm"><p style="height:38px;">［告诉我！谁是世界上最美丽的人？］爱我你们怕了吗？<span class="emoji emoji1f602"></span>没想到你是这样的siri！说好做彼此的天“屎”呢？<span class="emoji emoji1f633"></span>赶紧一起来试试吧！哈哈哈哈哈 喜欢记得点赞噢！<span class="emoji emoji263a"></span>我的微博:罗休休 </p></a>
+						
+					</li>
+									<li>
+						
+							<a href='/show/wsDkvgOIuNCvzvpYSJzN5w__.htm'><img width='110' height='110' src="http://wsacdn1.miaopai.com/stream/wsDkvgOIuNCvzvpYSJzN5w___tmp_11_579_.jpg"></a>
+							<b class="s_p"></b>
+							<a href='/u/paike_bzzcblgyzg' target='_blank'><p style='width:110px;text-overflow: ellipsis;white-space:nowrap;font-size:16px;height:39px' title='人类实验室' class='pnick'  >人类实验室</p></a>
+							<a title='美女把钥匙掉进事业线，路人尴尬爆表！#人类实验室##搞笑##恶搞#' href="/show/wsDkvgOIuNCvzvpYSJzN5w__.htm"><p style="height:38px;">美女把钥匙掉进事业线，路人尴尬爆表！#人类实验室##搞笑##恶搞# </p></a>
+						
+					</li>
+									<li>
+						
+							<a href='/show/fxm4~Ks4SN0ku2m8m~-JdA__.htm'><img width='110' height='110' src="http://wscdn.miaopai.com/stream/fxm4~Ks4SN0ku2m8m~-JdA___tmp_11_598_.jpg"></a>
+							<b class="s_p"></b>
+							<a href='/u/paike_q5mspq7feq' target='_blank'><p style='width:110px;text-overflow: ellipsis;white-space:nowrap;font-size:16px;height:39px' title='半部喜剧' class='pnick'  >半部喜剧</p></a>
+							<a title='历史总是惊人的相似#半部喜剧#' href="/show/fxm4~Ks4SN0ku2m8m~-JdA__.htm"><p style="height:38px;">历史总是惊人的相似#半部喜剧# </p></a>
+						
+					</li>
+									<li>
+						
+							<a href='/show/BLRMXrNmciQJZlkNnWVsYg__.htm'><img width='110' height='110' src="http://dlqncdn.miaopai.com/stream/BLRMXrNmciQJZlkNnWVsYg___m.jpg"></a>
+							<b class="s_p"></b>
+							<a href='/u/paike_ndbay3svw2' target='_blank'><p style='width:110px;text-overflow: ellipsis;white-space:nowrap;font-size:16px;height:39px' title='团子熊Por' class='pnick'  >团子熊Por</p></a>
+							<a title='哈哈哈TOP跳舞忘我到忘记要戳GD，GD当场自戳，这处理尴尬的能力也是绝了哈哈哈哈！#୧(๑•̀⌄•́๑)૭#
+' href="/show/BLRMXrNmciQJZlkNnWVsYg__.htm"><p style="height:38px;">哈哈哈TOP跳舞忘我到忘记要戳GD，GD当场自戳，这处理尴尬的能力也是绝了哈哈哈哈！#୧(๑•̀⌄•́๑)૭#
+ </p></a>
+						
+					</li>
+									<li>
+						
+							<a href='/show/1~JMls1I4HJuuWiSGAEQLQ__.htm'><img width='110' height='110' src="http://dlqncdn.miaopai.com/stream/1~JMls1I4HJuuWiSGAEQLQ___m.jpg"></a>
+							<b class="s_p"></b>
+							<a href='/u/paike_8f2n8xfhte' target='_blank'><p style='width:110px;text-overflow: ellipsis;white-space:nowrap;font-size:16px;height:39px' title='destiny明明' class='pnick'  >destiny明明</p></a>
+							<a title='#美人鱼观后感##我是一名史诗级动漫影评家# 以后微博和公众号先更新哈！熬了那么久，总算出来了🙈！好像大家都差不多看过了！要的就是这个效果！因为没看过体会不了我里面台词的真谛😂！微信订阅：dymingming或搜索“有话明说”  ' href="/show/1~JMls1I4HJuuWiSGAEQLQ__.htm"><p style="height:38px;">#美人鱼观后感##我是一名史诗级动漫影评家# 以后微博和公众号先更新哈！熬了那么久，总算出来了<span class="emoji emoji1f648"></span>！好像大家都差不多看过了！要的就是这个效果！因为没看过体会不了我里面台词的真谛<span class="emoji emoji1f602"></span>！微信订阅:dymingming或搜索“有话明说”   </p></a>
+						
+					</li>
+					
+				</ul>
+				<!--div class="fl_btn">
+				<img src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/n_1_img3.jpg"  alt="">
+				<div class="div3">
+					<a title='IPhone版下载' class='small_i' href="http://um0.cn/1xUlkP/"></a>
+					<a title='Android版下载' class='small_a' href="http://m.yixia.com/miaopai.php"></a>
+					<a title='联系我们' class='ts1' href="http://weibo.com/shoujipaike?topnav=1&wvr=5&topsug=1" target='_blank'><p style='margin-top:24px;'>联系我们:  <b class='sina_icon'></b></p></a>
+				</div>
+				</div-->
+				<div class="fl_btn">
+                    <!-- <img src="static/img/img3.jpg"  alt=""> -->
+                    <div class="div3">
+                        <a class='small_i' href="">iPhone</a>
+                        <a class='small_a' href="">Android</a>
+                        <a class='down_ewm' href=""></a>
+                        <a class='ts1' href="http://weibo.com/shoujipaike?topnav=1&wvr=5&topsug=1"  target='_blank'> <b class='sina_icon'></b><p style='margin-top: 24px;display: inline;color: #bababa;font-size: 16px;border-bottom: 1px solid #bababa;'>联系我们的微博</p></a>
+                    </div>
+                </div>
+				
+			</div>
+		</div>
+	</div>
+		<script>
+		var follow_url= "/fu/follow";
+		var like_url="/miaopai/domark";
+		miaopai = new miaopai();
+		miaopai.detail();
+	</script>
+	<script>
+				
+				var page_W;
+				var total = 51;
+				var pagelist = 5;
+				
+				var now = 1;
+				var per = 20;
+				var total_page = Math.ceil(total/per);
+				var scid = "YiL7h8enf8arT1VZv1OPuQ__";
+				if($("#r2").get(0).checked==false){
+					var sync_weibo = 1;
+				}else{
+					var sync_weibo = 0;
+				}
+				
+				function get_v2_comments(page)
+				{
+					
+					$.get("/miaopai/get_v2_comments?scid="+scid+"&per="+per+"",{page:page},function(data){
+						var _html = $(data).hide();
+						$('#video_comments').html(_html);
+						_html.fadeIn();
+					});
+				}
+				$('#review').click(function(){
+					var token = "";
+					if(!is_login_state){
+						$(".login").click();
+						return false;
+					}
+					
+					var content = $('#content').val();
+					
+					if(content == ''){
+					    alert('请填写评论信息！');
+					    return false;
+					}
+				$.get("/miaopai/add_comment?scid="+scid,{content:content,sync_weibo:sync_weibo},function(data){
+						$('#content').val('');
+						var html = $(data);
+						html.hide();
+						$('#video_comments').prepend(html);
+						html.fadeIn();
+					});
+				});
+
+				$(document).delegate("._reply","click",function(){
+					if(!is_login_state){
+						$(".login").click();
+						return false;
+					}
+					
+					var content = $(this).closest(".d_reply_box ").find("textarea").val();
+					
+					
+					if(content == ''){
+					    alert('请填写评论信息！');
+					    return false;
+					}
+					var obj = $(this);
+				$.get("/miaopai/add_comment?scid="+scid,{content:content,sync_weibo:sync_weibo},function(data){
+						obj.closest(".d_reply_box ").hide();
+						var html = $(data);
+						html.hide();
+						$('#video_comments').prepend(html);
+						html.fadeIn();
+					});
+				});
+				
+				$('#content').focus(function(){ 
+					$(this).css({'background-color':'#fff','border-color':'#fcb538','outline-color':'#fcb538'})
+				});
+				$('#content').blur(function(){ 
+					$(this).css({'background-color':'#f4f4f4','border-color':'#e1e1e1','outline-color':'#e1e1e1'})
+				});
+				
+				function init_pages(now){
+					
+					var html_li = '';
+					now==1?disable($(".prev1"),"no"):disable($(".prev1"));
+					now==total_page?disable($(".next1"),"no"):disable($(".next1"));
+					//判断是否是不用出现省略号
+					if(total_page <= pagelist){
+						for(var i=1;i<=total_page;i++){
+							if(i == now){
+								html_li += '<li class="hover">'+i+'</li>';
+							}else{
+								html_li += '<li>'+i+'</li>';
+							}
+						}
+					}else{
+						//判断是否是前几页
+						
+						if(now <= pagelist-3){
+							for(var i=1;i<=pagelist-2;i++){
+								if(i == now){
+									html_li += '<li class="hover">'+i+'</li>';
+								}else{
+									html_li += '<li>'+i+'</li>';
+								}
+							}
+							html_li += "<li class='ts_li_2'>...</li>";
+							html_li += "<li>"+total_page+"</li>";
+						}else if(now >= total_page-2){ //判断是否是后几页
+							for(var i=total_page-pagelist+1;i<=total_page;i++){
+								if(i == now){
+									html_li += '<li class="hover">'+i+'</li>';
+								}else{
+									html_li += '<li>'+i+'</li>';
+								}
+							}
+						}else{
+							
+							for(var i=now-pagelist+4;i<=now+1;i++){
+								if(i == now){
+									html_li += '<li class="hover">'+i+'</li>';
+								}else{
+									html_li += '<li>'+i+'</li>';
+								}
+							}
+							html_li += "<li class='ts_li_2'>...</li>";
+							html_li += "<li>"+total_page+"</li>";
+						}
+					}
+
+					//获取评论数据
+					get_v2_comments(now);
+					
+					if(total_page <= 1){
+						$('.page1').css('display','none');
+						return ;
+					}
+					
+					$('#pages_ul').html(html_li);
+					
+					page_W = $(".page1 ul").width();
+					$(".page1").width(page_W+160);
+					
+					return now;
+					
+				}
+				function disable(obj,dec){
+					if(dec!=undefined){
+						obj.addClass("disable");
+					}else{
+						obj.removeClass("disable");
+					}
+				}
+				init_pages(now);
+				$(document).ready(function(){
+					var new_agu = 1 ;
+					$(document).delegate('#pages_ul li',"click",function(){
+						var page = $(this).html();
+						if(page == '...'){
+							return false;
+						}else{
+							page = parseInt(page);
+							new_agu=init_pages(page);
+							$('html,body').animate({scrollTop:$('#video_comments').offset().top},100);
+						}
+					});
+					$(document).delegate('.prev1',"click",function(){
+						new_agu = new_agu<=1? 1: new_agu-1;
+						init_pages(new_agu);
+					});
+					
+					$(document).delegate('.next1',"click",function(){
+						new_agu = new_agu>=total_page? total_page: new_agu+1;
+						init_pages(new_agu);
+					});
+				});
+				
+				function pre_review(){
+					var content = $('#content');
+					content.focus();
+					$('html,body').animate({scrollTop:$('.talk_action').offset().top},300)
+				}
+				
+				var tmp_str = '<div class="d_reply_box"><div class="WB_arrow"><em class="S_line1_c">◆</em><span class=" S_bg1_c">◆</span></div><textarea class="txt_reply"></textarea><div class="auto auto1"><a class="review a _reply" href="javascript:;">评论</a></div></div>';
+				$(document).delegate(".d_reply","click", function(){
+					var temp = '回复@'+$(this).closest(".pername").find("._nick").text()+':';
+					if($(this).closest(".pername").find(".d_reply_box").length==0){
+						$(".d_reply_box").hide();
+						$(this).closest(".pername").append(tmp_str);
+						$(this).closest(".pername").find(".d_reply_box").show();
+						$(this).closest(".pername").find(".txt_reply").focus();
+						$(this).closest(".pername").find(".txt_reply").val(temp);
+					}else if($(this).closest(".pername").find(".d_reply_box").length==1){
+						if($(this).closest(".pername").find(".d_reply_box").css("display") == "none"){
+							$(".d_reply_box").hide();
+							
+						
+							$(this).closest(".pername").find(".d_reply_box").show();
+							if($(this).closest(".pername").find(".txt_reply").val() == ''){ 
+								$(this).closest(".pername").find(".txt_reply").focus();
+								$(this).closest(".pername").find(".txt_reply").val(temp);
+							}
+						}else{
+							$(this).closest(".pername").find(".d_reply_box").hide();
+						}
+						$(this).closest(".pername").find(".txt_reply").focus();
+					}else{
+						$(".d_reply_box").hide();
+					}
+
+				});
+       
+			</script>
+			
+<div class="footer">
+<!-- 		<ul class='clearfix'>
+			<li><a href="">关于我们</a></li>
+			<li><a href="">意见反馈</a></li>
+			<li class='logo_s'><b></b></li>
+		</ul> -->
+		<p style="padding-top:30px;">京ICP备12022740号 Copyright © YIXIA All rights reserved.</p>
+		<!-- <p style="margin-top:10px;">商务合作： 杨先生  18501264917</p> -->
+		
+	</div>
+	<div class="dialog">
+		<div class="dialog1">
+			<div class="dialog_bj"></div>
+			<div class="dialog_con">
+				<div class="dialog_left">
+					<div class="d_top">
+						<span class="exit"><img src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/exit.gif"></span>
+					</div>
+					<div class="d_center">
+						<div class="dialog_img"></div>
+						<p>秒拍，10秒拍大片</p>
+					</div>
+					<div class="d_login">
+						<a class='sina_login' href="https://api.weibo.com/oauth2/authorize?client_id=2637646381&redirect_uri=http%3A%2F%2Fwww.miaopai.com%2Fcu%2Flogin&response_type=code&state=" target="_blank"></a>
+                        <a class='wx_login' href="https://open.weixin.qq.com/connect/qrconnect?appid=wxa2f893aa61e8444e&redirect_uri=http%3A%2F%2Fwww.miaopai.com%2Fcu%2Flogin&response_type=code&scope=snsapi_login&state=wxlogin#wechat_redirect" target="_blank"></a>                        
+						<a class='qq_login' href="https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=101018941&redirect_uri=www.miaopai.com%2Fcu%2Flogin&state=qqlogin&scope=" target="_blank"></a>
+						<a class='phone' href="javascript:;"></a>
+					</div>
+				</div>
+				<div class="dialog_right">
+					<div class="d_top"> 
+						<span class="back"><img src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/back.gif"></span>
+						<span class="exit"><img src="http://wsacdn1.miaopai.com/static20131031/miaopai20140729/img/exit.gif"></span>
+					</div>
+					<div class="d_center">
+						<div class="dialog_img"></div>
+						<p>秒拍，10秒拍大片</p>
+					</div>
+					<div class="d_login_con">
+						<div class="input1">
+							<input id="phone" type="text" placeholder='请输入手机号'>
+						</div>
+						<div class="input1">
+							<input id="pwd" type="password" placeholder='请输入密码'>
+							<input id="ph" type="hidden" value="0" />
+						</div>
+						<div class="r1">
+							<input type="checkbox" id='r1' />
+							<label for="r1"><b></b>下次自动登录</label>
+							<span id="yzm"></span>
+						</div>
+						<button class="login_button">登录</button>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+		<script type="text/javascript">
+	miaopai.overall();
+	</script>
+	<script type="text/javascript">
+	var follow_url= "/fu/follow";
+	var delete_url= "/fu/delete";
+	var like_url="/miaopai/domark";
+	var is_login_state = false;
+		$(".login_button").click(function(){
+			var url="cu/login";
+			//var url="http://www.miaopai.com/cu/login"
+			var isChecked=$("#r1").is(":checked");
+			var phones=$("#phone").val();
+			var pwds=hex_md5($("#pwd").val());
+			var phs=$("#ph").val();
+			if(phones=='' || pwds==''){
+				alert("账号或密码不能为空");
+			}else{
+				$.getJSON(url,{phone:phones,pwd:pwds,checked:isChecked,ph:phs},function(data){
+						if(data.status){
+							html='<div class="person person_name"><a href="'+data.url+'">'+data.nick+'</a></div><a href="javascript:;" class="logout">[登出]</a>';					
+							$(".personal").html(html);
+							$(".gz").each(function(i){
+								$(this).attr("token",data.token);
+
+							})							
+							$(".exit").click();
+						}else{
+							alert(data.msg);
+							}
+					})
+			    }
+		  })
+		  $(document).delegate(".logout","click",function(){	  
+			  var url="/ou/logout";		  
+				  window.location.href=url
+
+			})
+			
+		function send(){
+					var phones=$(".input1 input:eq(0)").val();
+					var url="/send/"+phones;
+					var stime=29;
+					$.getJSON(url,{phone:phones},function(data){
+					if(data.status==200){
+						$("#yzm").css("color","#ccc");
+						$("#yzm").html("30秒后重新发送");
+						var si=setInterval(function(){
+							//console.log(stime);
+							if(stime==0){
+								$("#yzm").css("color","#22BEEE");
+								$("#yzm").html('<a onclick="send()" style="color:#22BEEE">验证码直接登录</a>');
+								window.clearInterval(si);
+								
+							}else{
+								$("#yzm").html(stime+"秒后重新发送");
+								stime--;		
+							}
+
+						},1000)
+						$("#ph").val("1");
+					}else{
+						alert(data.msg);
+					}
+						
+						
+					})
+
+		}
+		$(".sina_login,.qq_login,.wx_login").click(function(){
+			var cki=1;
+			var ck=setInterval(checkcookie,500);	
+			function checkcookie(){
+			var url="/cc/checkcookie";				
+			$.getJSON(url,{type:"cookie",ctime:Math.random()},function(data){
+				if(data.msg){
+					is_login_state = true;
+					window.clearInterval(ck);
+					$(".exit").click();
+					pn = $(".person_name").length;
+					if(pn == 0){
+						html='<div class="person person_name"><a href="'+data.uurl+'">'+data.nick+'</a></div><a href="javascript:;" class="logout">[登出]</a>';					
+						$(".personal").html(html);
+							if(data.isgroup >=300){
+									ban_html = '<li id="adm"><a href="http://www.miaopai.com/admin_media/video">管理中心</a></li>';
+									$("#banner_t").append(ban_html);
+									$("#banner_t").css("margin-left","0px");
+							}
+					}	
+					$(".gz").each(function(i){
+						$(this).attr("token",data.token);
+
+					})				
+				}
+			})
+	
+			}
+		})
+        //每次登陆页面判断是否有cookie
+        
+        $.getJSON("/cc/checkcookie",{type:"cookie",ctime:Math.random()},function(data){
+            if(data.msg){
+                is_login_state = true;
+                html='<div class="person person_name"><a href="'+data.uurl+'">'+data.nick+'</a></div><a href="javascript:;" class="logout">[登出]</a>';
+                $(".personal").html(html);
+                if(data.isgroup >=300){
+                    ban_html = '<li id="adm"><a href="http://www.miaopai.com/admin_media/video">管理中心</a></li>';
+                    $("#banner_t").append(ban_html);
+                    $("#banner_t").css("margin-left","0px");
+                }
+            }else{
+                is_login_state = false;
+                    if($("#banner_t")){
+                        $("#adm").remove();
+                        $("#banner_t").css("margin-left","70px");
+                    }
+                    $(".personal").html('<div class="person"></div><a href="javascript:;" title="登录" class="login">[登录]</a>');
+                }
+        })			
+	</script>
+<div style="display:none"><script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe8fa5926bca558076246d7fb7ca12071'type='text/javascript'%3E%3C/script%3E"));
+</script></div></body>
+</html>

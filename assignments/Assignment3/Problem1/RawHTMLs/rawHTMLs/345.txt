@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<!--
+                ⟡ ◦ ◌°
+              ◦° ◌ ◯ ◦ ⟡
+    TNW v3.0 "Lemon Soda"
+
+    Stop looking at our code and write some! ^_^
+    http://thenextweb.com/jobs
+
+    ╭──────────────────────────────────────────╮
+    │ ≡ Design & Front-end                     │
+    ╞══════════════════════════════════════════╡
+    │                                          │
+    │ ALEXANDER GRIFFIOEN                      │
+    ├──────────┬───────────────────────────────┤
+    │ Email    │ alexander@thenextweb.com      │
+    ├──────────┼───────────────────────────────┤
+    │ Twitter  │ @oscaralexander               │
+    ├──────────┼───────────────────────────────┤
+    │ Location │ Amsterdam, NL                 │
+    ╰──────────┴───────────────────────────────╯
+
+    ╭──────────────────────────────────────────╮
+    │ ≡ Front-end & Back-end                   │
+    ╞══════════════════════════════════════════╡
+    │                                          │
+    │ LAURA GONZÁLEZ                           │
+    ├──────────┬───────────────────────────────┤
+    │ Email    │ laura@thenextweb.com          │
+    ├──────────┼───────────────────────────────┤
+    │ Twitter  │ @lawwrr                       │
+    ├──────────┼───────────────────────────────┤
+    │ Location │ Oviedo, ES                    │
+    ╰──────────┴───────────────────────────────╯
+
+    ╭──────────────────────────────────────────╮
+    │ ≡ Front-end & Back-end                   │
+    ╞══════════════════════════════════════════╡
+    │                                          │
+    │ PABLO ROMÁN                              │
+    ├──────────┬───────────────────────────────┤
+    │ Email    │ pablo@thenextweb.com          │
+    ├──────────┼───────────────────────────────┤
+    │ Twitter  │ @pabloroman                   │
+    ├──────────┼───────────────────────────────┤
+    │ Location │ Amsterdam, NL                 │
+    ╰──────────┴───────────────────────────────╯
+
+-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#" 
+xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" itemscope itemtype='http://schema.org/'>
+    <head>
+        <title>Amazon wants game developers to use it&#039;s free 3D engine</title>
+      
+			<link rel="stylesheet" href="http://cdn0.tnwcdn.com/wp-content/themes/icetea/lemonsoda/stylesheets/base.min.css?v=1455715439" type="text/css" />
+			                <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-title" content="The Next Web">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="theme-color" content="#FF4020">
+        <meta name="readability-verification" content="gg98CaM5YewFSAnFdCqrXVhu7AvvbXqSaC8QJtt90">
+        <meta property="twitter:account_id" content="10876852">
+        <meta property="fb:app_id" content="378011798897423">
+        <link rel="alternate" type="application/rss+xml" title="TNW Network All Stories RSS Feed" href="http://feeds2.feedburner.com/thenextweb">
+        <link rel="alternate" type="application/rss+xml" title="TNW Network Top Stories RSS Feed" href="http://feeds2.feedburner.com/thenextwebtopstories">
+        <link rel="alternate" type="application/rss+xml" title="TNW Design &amp; Dev RSS Feed" href="http://feeds2.feedburner.com/tnwdesign">
+        <link href="/opensearch.xml" rel="search" title="The Next Web" type="application/opensearchdescription+xml">
+        <link rel="shortcut icon" href="http://thenextweb.com/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/icons/touch-icon-iphone-precomposed.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/icons/touch-icon-ipad-precomposed.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/icons/touch-icon-iphone-retina-precomposed.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/icons/touch-icon-ipad-retina-precomposed.png">
+        <link rel="apple-touch-startup-image" href="http://cdn1.tnwcdn.com/wp-content/themes/icetea/static/images/apple-startup-screen.png">
+        <link rel="pingback" href="http://thenextweb.com/xmlrpc.php">
+        <link href="https://plus.google.com/115081025762845243709/" rel="publisher">
+        <script type="application/ld+json">
+{"@context":"http:\/\/schema.org","@type":"NewsArticle","articleSection":"Design &amp; Dev","creator":"Owen Williams","editor":"Owen Williams","dateCreated":"2016-02-09T11:22:42","datePublished":"2016-02-09","dateModified":"2016-02-10","headline":"Amazon wants game developers to use its new free 3D engine","name":"Amazon wants game developers to use its new free 3D engine","alternativeHeadline":"Amazon wants game developers to use its new free 3D engine","keywords":[],"url":"http:\/\/thenextweb.com\/dd\/2016\/02\/09\/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine\/","thumbnailUrl":"http:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/02\/ZombiesEditor-520x245.png","wordCount":443,"description":"Amazon has a surprise: it's built a free, open-source 3D engine for game developers called Lumberyard. Built for &quot;AAA&quot; games, the engine integrates the company's AWS cloud ...","articleBody":"Amazon has a surprise: it's built a free, open-source 3D engine for game developers called Lumberyard. Built for &quot;AAA&quot; games, the engine integrates the company's AWS cloud platform deeply to provide server-side processing.\r\n\r\nLumberyard is a full game studio; you can build and design levels, create your visuals, animate characters, generate particles, engineer audio, handle weather and AI and basically everything else you can imagine. It provides both the infrastructure for the multiplayer component of the game as well as the tools to build the game itself.\r\n\r\nThe game engine\u00a0uses Cryengine for graphics, which can generate 'photo-realistic' worlds -- it's best known for being the engine behind the PC-crippling Crysis games.\r\n\r\nA new AWS service called GameLift is integrated into the app to provide scalable multiplayer architecture without requiring deep infrastructure skills. The company touts that using GameLift means developers don't need to spend &quot;thousands of hours&quot; building out this infrastructure, instead promising it takes just a matter of minutes.\r\n\r\nThe new platform also offers deep Twitch integration, so developers can build in impressive new features to games.\u00a0Twitch ChatPlay developers can build features that allow observers to join in with game streams by voting on levels or the game's direction and Twitch JoinIn lets broadcasters instantly invite viewers to join them in-game.\r\n\r\nIt's obvious why the company is making Lumberyard available for free\u00a0-- as Microsoft has leveraged Azure for Xbox Live, Amazon wants game developers to use its cloud as well.\r\n\r\nBy building a tool like Lumberyard and making it freely available, the company is actively encouraging both developers and designers to deeply integrate Amazon's cloud stack into their titles; ultimately, it's locking them in long-term.\r\n\r\nThe most impressive part of Lumberyard is that it's both entirely free and the code is available for developers to modify. Other game engines can cost developers in the thousands and often charge for per-seat pricing, so Amazon's proposition is likely interesting for both large and small game developers.\r\n\r\n\u27a4 Amazon Lumberyard\u00a0[AWS]\r\n\r\n&amp;nbsp;","copyrightYear":"2016","publisher":{"@type":"Organization","name":"The Next Web","logo":{"@type":"ImageObject","url":"http:\/\/thenextweb.com\/wp-content\/themes\/icetea\/lemonsoda\/img\/tnw-amp.png","width":193,"height":60}},"provider":"The Next Web","sourceOrganization":"The Next Web","copyrightHolder":"The Next Web","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/thenextweb.com\/dd\/2016\/02\/09\/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine\/"},"author":{"@type":"Person","name":"Owen Williams"},"image":{"@type":"ImageObject","url":"http:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/02\/ZombiesEditor-520x245.png","width":800,"height":428},"interactionStatistic":[{"@type":"InteractionCounter","interactionService":{"@type":"Website","name":"Twitter","url":"http:\/\/www.twitter.com"},"interactionType":"http:\/\/schema.org\/ShareAction","userInteractionCount":"217"},{"@type":"InteractionCounter","interactionType":"http:\/\/schema.org\/CommentAction","userInteractionCount":"0"}]}        </script>
+            <meta property="bt:body" content="Amazon has a surprise: it's built a free, open-source 3D engine for game developers called Lumberyard. Built for &quot;AAA&quot; games, the engine integrates the company's AWS cloud platform deeply to provide server-side processing.
+
+Lumberyard is a full game studio; you can build and design levels, create your visuals, animate characters, generate particles, engineer audio, handle weather and AI and basically everything else you can imagine. It provides both the infrastructure for the multiplayer component of the game as well as the tools to build the game itself.
+
+The game engine uses Cryengine for graphics, which can generate 'photo-realistic' worlds -- it's best known for being the engine behind the PC-crippling Crysis games.
+
+A new AWS service called GameLift is integrated into the app to provide scalable multiplayer architecture without requiring deep infrastructure skills. The company touts that using GameLift means developers don't need to spend &quot;thousands of hours&quot; building out this infrastructure, instead promising it takes just a matter of minutes.
+
+The new platform also offers deep Twitch integration, so developers can build in impressive new features to games. Twitch ChatPlay developers can build features that allow observers to join in with game streams by voting on levels or the game's direction and Twitch JoinIn lets broadcasters instantly invite viewers to join them in-game.
+
+It's obvious why the company is making Lumberyard available for free -- as Microsoft has leveraged Azure for Xbox Live, Amazon wants game developers to use its cloud as well.
+
+By building a tool like Lumberyard and making it freely available, the company is actively encouraging both developers and designers to deeply integrate Amazon's cloud stack into their titles; ultimately, it's locking them in long-term.
+
+The most impressive part of Lumberyard is that it's both entirely free and the code is available for developers to modify. Other game engines can cost developers in the thousands and often charge for per-seat pricing, so Amazon's proposition is likely interesting for both large and small game developers.
+
+➤ Amazon Lumberyard [AWS]
+
+&amp;nbsp;">
+            <meta name="author" content="Owen Williams">
+            <meta property="article:modified" content="2016-02-10">
+            <meta property="article:published" content="2016-02-09">
+            <meta name="twitter:image:src" content="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/ZombiesEditor.png">
+            <meta name="og:image" content="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/ZombiesEditor.png">
+
+<script type="text/javascript">
+		var TNWPre = {"c":{"plusJsUrl":"http:\/\/cdn0.tnwcdn.com\/assets\/shared\/js\/plus.js","themeName":"icetea","canvas":{"artProportion":20},"canvasFile":"cms","paths":{"site":"http:\/\/thenextweb.com\/","secureSite":"https:\/\/thenextweb.com\/","base":"http:\/\/thenextweb.com\/wp-content\/themes\/icetea\/","assets":"http:\/\/cdn1.tnwcdn.com\/wp-content\/themes\/icetea\/lemonsoda\/","sponsor_assets":"http:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/sponsors\/"}},"p":{"currentPost":{"post_id":952274,"thumbnail":"<img src=\"http:\/\/cdn1.tnwcdn.com\/assets\/images\/transparent.png\" data-src=\"http:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/02\/ZombiesEditor-60x50.png\" width=\"60\" height=\"50\" title=\"Amazon wants game developers to use its new free 3D engine\" alt=\"ZombiesEditor\" class=\"lazy\" \/>\n\t\t\t<noscript><img src=\"http:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/02\/ZombiesEditor-60x50.png\" width=\"60\" height=\"50\" title=\"Amazon wants game developers to use its new free 3D engine\" alt=\"ZombiesEditor\" class=\"lazy\" \/><\/noscript>","permalink":"http:\/\/thenextweb.com\/dd\/2016\/02\/09\/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine\/","title":"Amazon wants game developers to use its new free 3D engine","short_title":"Amazon wants game developers to use its new free 3D engine","social_title":"Amazon wants game developers to use its new free 3D engine","date":"February 9, 2016","timestamp":1455013362,"author":"Owen Williams","category":"Design &amp; Dev","categoryId":46,"sponsored":false,"paid":false,"sponsor_name":null,"isColumn":false,"isFYI":false}}};
+		var SITE_URL = TNWPre.c.paths.site;
+		var SITE_SECURE_URL = TNWPre.c.paths.secureSite;
+		var THEME_URL = 'http://thenextweb.com/wp-content/themes/icetea/';
+		var THEME_CDN_URL = 'http://cdn0.tnwcdn.com/wp-content/themes/icetea/';
+		var adBlocker = true;
+		var POST_ID = '952274';
+		var CURRENT_POST = TNWPre.p.currentPost;
+		var TNW_ADS = {"ads_disabled":false,"banners":true,"project":"","roadblocked":false,"siteskin":false,"top_lb":"","med_rt":"","mob_top":"","mob_med_rt":"","mob_bot":"","mob_sec":"","bot_lb":"","bot_com_lb":"","onexone":"","sticky":false,"sharethrough":"d3a5e594"};
+
+		var PAGE = {"category":"dd","template":"article"};
+
+</script>
+
+
+<script>
+var ecommerceDataLayer = {
+			"ecommerce": {
+				"impressions": [
+
+					]
+			}
+		};
+</script>
+			<script>
+	TNWPre.c.locale = {
+		country: "US",
+		region: "NA",
+		city: ""
+	};
+	COUNTRY_CODE = TNWPre.c.locale.country;
+	REGION_CODE = TNWPre.c.locale.region;
+	CITY_CODE = TNWPre.c.locale.city;
+</script>
+
+<script type="text/javascript" src="//native.sharethrough.com/assets/sfp.js" async></script>
+
+		        <script type="application/ld+json">
+            { "@context": "http://schema.org",
+              "@type": "Organization",
+              "name" : "The Next Web",
+              "logo" : "http://cdn3.tnwcdn.com/plus/img/tnw-brandmark.svg",
+              "url" : "http://thenextweb.com",
+              "sameAs" : [ "http://www.facebook.com/thenextweb",
+                "https://www.twitter.com/thenextweb",
+                "https://plus.google.com/+TheNextWeb/",
+                "https://instagram.com/thenextweb",
+                "https://www.youtube.com/user/thenextweb",
+                "https://www.pinterest.com/thenextweb/",
+                "https://www.linkedin.com/company/the-next-web",
+                "https://vine.co/thenextweb",
+                "https://thenextweb.tumblr.com",
+                "https://soundcloud.com/thenextweb",
+                "https://vimeo.com/thenextweb",
+                "https://vk.com/thenextweb",
+                "https://www.slideshare.net/thenextweb",
+                "https://flipboard.com/@thenextweb",
+                "https://storify.com/thenextweb",
+                "https://www.stumbleupon.com/channel/thenextweb",
+                "https://www.flickr.com/photos/thenextweb/",
+                "https://foursquare.com/thenextweb"]
+            }
+        </script>
+        
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="original-source" href="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/" />
+<meta name="description" content="Amazon has a surprise: it&#039;s built a free, open-source 3D engine for game developers called Lumberyard. Built for &quot;AAA&quot; games, the engine integrates the com"/>
+<link rel="canonical" href="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/" />
+<link rel="publisher" href="https://plus.google.com/+thenextweb"/>
+<meta property="article:section" content="Design &amp; Dev" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Amazon wants game developers to use it&#039;s free 3D engine" />
+<meta property="og:description" content="Amazon has a surprise: it&#039;s built a free, open-source 3D engine for game developers called Lumberyard. Built for &quot;AAA&quot; games, the engine integrates the com" />
+<meta property="og:url" content="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/" />
+<meta property="og:site_name" content="The Next Web" />
+<meta property="article:publisher" content="https://www.facebook.com/thenextweb" />
+<meta property="article:author" content="https://www.facebook.com/Ow3n.Williams" />
+<meta property="article:published_time" content="2016-02-09T11:22:42+01:00" />
+<meta property="article:modified_time" content="2016-02-10T09:42:33+01:00" />
+<meta property="og:updated_time" content="2016-02-10T09:42:33+01:00" />
+<meta property="og:image" content="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/ZombiesEditor.png" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="Amazon has a surprise: it&#039;s built a free, open-source 3D engine for game developers called Lumberyard. Built for &quot;AAA&quot; games, the engine integrates the com"/>
+<meta name="twitter:title" content="Amazon wants game developers to use it&#039;s free 3D engine"/>
+<meta name="twitter:site" content="@thenextweb"/>
+<meta name="twitter:domain" content="The Next Web"/>
+<meta name="twitter:image" content="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/ZombiesEditor.png"/>
+<meta name="twitter:creator" content="@ow"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="The Next Web &raquo; Amazon wants game developers to use its new free 3D engine Comments Feed" href="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/cdn1.tnwcdn.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://thenextweb.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thenextweb.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thenextweb.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='http://thenextweb.com/?p=952274' />
+<link rel="alternate" type="application/json+oembed" href="http://thenextweb.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fthenextweb.com%2Fdd%2F2016%2F02%2F09%2Famazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://thenextweb.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fthenextweb.com%2Fdd%2F2016%2F02%2F09%2Famazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine%2F&#038;format=xml" />
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http:\/\/thenextweb.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"http:\/\/thenextweb.com\/Design &amp; Dev","name":"Design &amp; Dev"}}]}</script>            <script src="//cdn.goroost.com/roostjs/af8c631d64e248a6bb35e08555cd04a4" async></script>
+                    <script>
+                var _roost = _roost || [];
+                _roost.push( [ 'autoprompt', false ] );
+                                    _roost.push( [ 'minvisits', "2" ] );
+                            </script>
+    <link rel="amphtml" href="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/amp/" />                <script>
+            (function() {
+                var _fbq = window._fbq || (window._fbq = []);
+                if (!_fbq.loaded) {
+                    var fbds = document.createElement('script');
+                    fbds.async = true;
+                    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(fbds, s);
+                    _fbq.loaded = true;
+                }
+                _fbq.push(['addPixelId', '710910915665976']);
+            })();
+            window._fbq = window._fbq || [];
+            window._fbq.push(['track', 'PixelInitialized', {}]);
+        </script>
+        <!-- DataLayer -->
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          dataLayer.push({
+            'version': '3 / 4.4.1',
+            'location': [{
+              'region': window.REGION_CODE,
+              'country': window.COUNTRY_CODE,
+              'city': window.CITY_CODE
+            }],
+            'page': [{
+              'hostname': window.location.host,
+              'parameters': window.location.search.replace("?", ""),
+              'category': window.PAGE.category,
+              'template': window.PAGE.template,
+              'ads': [{
+                'siteskin': window.TNW_ADS.siteskin,
+                'sponsored': 'No'
+              }],
+            }],
+            'user': [{
+                'shares': [{
+                    'fb': 0,
+                    'tw': 0,
+                    'li': 0,
+                    'go': 0,
+                    're': 0
+                }]
+            }]
+          });
+        </script>
+                    <script type="text/javascript">
+                dataLayer.push({
+                'page': [{
+                  'id': 952274,
+                  'url': 'http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/',
+                  'pages': 1,
+                  'paginated': 'No',
+                  'comments': 0,
+                  'words': 443,
+                  'time': window.TNWPre.p.currentPost.timestamp,
+                  'column': window.TNWPre.p.currentPost.isColumn,
+                  'fyi': window.TNWPre.p.currentPost.isFYI,
+                  'author': 'Owen Williams',
+                  'date': '2016-02-09',
+                  'date_published': '2016-02-09 11-22',
+                  'type_format': 'article',
+                  'type': 'Article',
+                  'tags': [],
+                  'categories': ["Design &amp; Dev","Insider"],
+                  'sections': ["Launch"],
+                  'companies': [],
+                  'profiles': [],
+                  'events': [],
+                  'source': 'AWS',
+                  'shares': [{
+                    'fb': '152',
+                    'tw': '217',
+                    'li': '25',
+                    'go': '27',
+                    're': '1'
+                  }],
+                  'ads': [{
+                    'roadblocked': 'false',
+                    'sponsor': '',
+                    'sponsored': 'No',
+                  }]
+                }]});
+            </script>
+                                <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=710910915665976&amp;ev=PixelInitialized"></noscript>
+        <script type='text/javascript'>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function() {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+            })();
+        </script>
+                <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MHDDSC');
+        </script>
+        <!-- End Google Tag Manager -->
+    </head>
+                <body class="single single-post postid-952274 single-format-standard category-dd irregular grid-4" data-for="blog" id="">
+                <!-- Google Tag Manager -->
+    <noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-MHDDSC" style="display: none; visibility: hidden;" width="0"></iframe></noscript>
+    <!-- End Google Tag Manager -->
+    			
+		    <!-- Parse.ly -->
+    <div id="parsely-root" style="display: none">
+        <a id="parsely-cfg" data-parsely-site="thenextweb.com" href="http://parsely.com" rel="nofollow">.</a>
+    </div>
+
+    <script>
+        window.___gcfg = {lang: 'en-US'};
+        (function(w, d, s) {
+            function go() {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                var load = function(url, id) {
+                    if (d.getElementById(id)) {return;}
+                    js = d.createElement(s); js.src = url; js.id = id;
+                    fjs.parentNode.insertBefore(js, fjs);
+                };
+                load('http://static.parsely.com/p.js', 'js-parsely');
+            }
+            if (w.addEventListener) { w.addEventListener("load", go, false); }
+            else if (w.attachEvent) { w.attachEvent("onload",go); }
+        }(window, document, 'script'));
+    </script>
+        <div id="fb-root"></div>
+    <div id="section-preview"></div>
+<div id="top" class="tnwg2-header">
+		
+	<div class="tnwNav">
+		<div class="tnwNav-inner">
+			<a  class="tnwNav-logo"></a>
+			<div class="tnwNav-platform">
+				<a href="/" title="News" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'News', {'nonInteraction': 1, transport: 'beacon'});">News</a>
+			</div>
+		</div>
+		<ul class="tnwNav-dropdown">
+			<li><a href="/" title="News" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'News', {'nonInteraction': 1, transport: 'beacon'});">&mdash; News</a></li>
+			<li><a href="http://thenextweb.com/conference/europe" title="TNW Conference" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'Conference', {'nonInteraction': 1, transport: 'beacon'});">Conference</a></li>
+			<li><a href="https://index.co" title="Index.co" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'Index', {'nonInteraction': 1, transport: 'beacon'});">Index</a></li>
+			<li><a href="//deals.thenextweb.com?utm_medium=referral&amp;utm_source=thenextweb.com&amp;utm_campaign=top-navigation" title="TNW Deals" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'Deals', {'nonInteraction': 1, transport: 'beacon'});">Deals</a></li>
+			<li><a href="http://academy.thenextweb.com" title="TNW Academy" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'Academy', {'nonInteraction': 1, transport: 'beacon'});">Academy</a></li>
+			<li><a href="http://thenextweb.com/worldtour/" title="TNW World Tour" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'World Tour', {'nonInteraction': 1, transport: 'beacon'});">World Tour</a></li>
+			
+		</ul>
+	</div>
+	<nav class="tnwgh2-header-menu" id="menu" role="navigation">
+		<ul>
+			                        <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35259&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/apps/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Apps', {'nonInteraction': 1, transport: 'beacon'});">Apps</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35262&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/gear/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Gear', {'nonInteraction': 1, transport: 'beacon'});">Gear</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35266&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/tech/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Tech', {'nonInteraction': 1, transport: 'beacon'});">Tech</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35260&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/creative/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Creative', {'nonInteraction': 1, transport: 'beacon'});">Creative</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35265&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/money/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Money', {'nonInteraction': 1, transport: 'beacon'});">Money</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35263&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/insights/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Insights', {'nonInteraction': 1, transport: 'beacon'});">Insights</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35264&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/launch/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Launch', {'nonInteraction': 1, transport: 'beacon'});">Launch</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35267&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/world/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'World', {'nonInteraction': 1, transport: 'beacon'});">World</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35261&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/distract/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Distract', {'nonInteraction': 1, transport: 'beacon'});">Distract</a>
+                        </li>
+                        			<li class="has-dropdown" id="menu-more">
+				<a class="show-from-m text" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'More', {'nonInteraction': 1, transport: 'beacon'});">More</a>
+				<a class="icon hide-from-m" onclick="ga('primary.send', 'event', 'Top', 'Hamburger', {'nonInteraction': 1, transport: 'beacon'});"><i class="ss-pika ss-rows"></i></a>
+				<div class="tnwgh2-dropdown">
+					<div class="row">
+						<div class="col">
+							<h4>Sections</h4>
+							<ul class="tnwgh2-dropdown-links">
+								                                            <li>
+                                                <a href="http://thenextweb.com/section/apps/" title="Apps" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Apps', {'nonInteraction': 1, transport: 'beacon'});">Apps</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/gear/" title="Gear" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Gear', {'nonInteraction': 1, transport: 'beacon'});">Gear</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/tech/" title="Tech" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Tech', {'nonInteraction': 1, transport: 'beacon'});">Tech</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/creative/" title="Creative" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Creative', {'nonInteraction': 1, transport: 'beacon'});">Creative</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/money/" title="Money" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Money', {'nonInteraction': 1, transport: 'beacon'});">Money</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/insights/" title="Insights" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Insights', {'nonInteraction': 1, transport: 'beacon'});">Insights</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/launch/" title="Launch" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Launch', {'nonInteraction': 1, transport: 'beacon'});">Launch</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/world/" title="World" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'World', {'nonInteraction': 1, transport: 'beacon'});">World</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/distract/" title="Distract" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Distract', {'nonInteraction': 1, transport: 'beacon'});">Distract</a>
+                                            </li>
+                                                            <li>
+                    <a href="/offers/" title="Offers" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Offers', {'nonInteraction': 1, transport: 'beacon'});">Offers</a>
+                </li>
+							</ul>
+						</div>
+						<div class="col">
+							<h4>The Next Web</h4>
+							<ul class="tnwgh2-dropdown-links">
+								<li><a href="http://thenextweb.com/about/" title="About" onclick="ga('primary.send', 'event', 'Top', 'The Next Web', 'About', {'nonInteraction': 1, transport: 'beacon'});">About</a></li>
+								<li><a href="http://thenextweb.com/jobs/" title="Jobs" onclick="ga('primary.send', 'event', 'Top', 'The Next Web', 'Jobs', {'nonInteraction': 1, transport: 'beacon'});">Jobs</a></li>
+								<li><a href="http://thenextweb.com/about/team" title="Team" onclick="ga('primary.send', 'event', 'Top', 'The Next Web', 'Team', {'nonInteraction': 1, transport: 'beacon'});">Team</a></li>
+								<li><a href="https://tnwads.typeform.com/to/NdJwzX" class="typeform-share link" title="Advertise" data-mode="1" target="_blank" onclick="ga('primary.send', 'event', 'Top', 'The Next Web', 'Advertise', {'nonInteraction': 1, transport: 'beacon'});">Advertise</a></li>
+								<li><a href="mailto:beta@thenextweb.com" title="Feedback" target="_blank" onclick="ga('primary.send', 'event', 'Top', 'The Next Web', 'Feedback', {'nonInteraction': 1, transport: 'beacon'});">Feedback</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="tnwgh2-dropdown-touchMenu">
+						<div class="tnwgh2-dropdown-block">
+							<ul class="tnwg2-header-followInMenu">
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--twitter"><a href="https://www.twitter.com/thenextweb" title="Follow us on Twitter" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-twitter"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--facebook"><a href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Facebook', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-facebook"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--instagram"><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Instagram', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-instagram"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--googleplus"><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Google+', {'nonInteraction': 1, transport: 'beacon'});" target="_blank">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="22" height="22">
+										<path d="M48,22h-5v-5h-4v5h-5v4h5v5h4v-5h5 M16,21v6.24h8.72c-0.67,3.76-3.93,6.5-8.72,6.5c-5.28,0-9.57-4.47-9.57-9.75s4.29-9.74,9.57-9.74c2.38,0,4.51,0.82,6.19,2.42v0.01l4.51-4.51C23.93,9.59,20.32,8,16,8C7.16,8,0,15.16,0,24s7.16,16,16,16c9.24,0,15.36-6.5,15.36-15.64c0-1.17-0.11-2.29-0.31-3.36C31.05,21,16,21,16,21z"/>
+									</svg>
+								</a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--youtube"><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube" onclick="ga('primary.send', 'event', 'Top', 'Social', 'YouTube', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-youtube"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--linkedin"><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn" onclick="ga('primary.send', 'event', 'Top', 'Social', 'LinkedIn', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-linkedin"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--pinterest"><a href="http://pinterest.com/thenextweb/" title="Follow us on Pinterest" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Pinterest', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-pinterest"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--rss"><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" onclick="ga('primary.send', 'event', 'Top', 'Social', 'RSS', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-rss"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--push"><a href="/notifications" title="Receive push alerts" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Push alerts', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-pika ss-notifications"></i></a></li>
+							</ul>
+						</div>
+						<form target="_blank" action="http://thenextweb.us1.list-manage1.com/subscribe/post?u=22ec88eb9b9d8bc3bcf660787&id=32f70ba9aa" accept-charset="utf-8" autocomplete="off" class="borderless" method="post" onsubmit="dataLayer.push({'event': 'newsletterSignup', 'newsletter': [{'location': 'Header' }] });">
+							<div class="input-block subscribe-options">
+								<div class="option inline">
+									<input id="subscribe-weekly-menu" name="group[6][4]" type="checkbox" checked />
+									<label for="subscribe-weekly-menu">Weekly</label>
+								</div>
+								<div class="option inline">
+									<input id="subscribe-daily-menu" name="group[6][2]" type="checkbox" />
+									<label for="subscribe-daily-menu">Daily</label>
+								</div>
+								<div class="option inline">
+									<input id="subscribe-updates-menu" name="group[69][32]" type="checkbox" />
+									<label for="subscribe-updates-menu">Updates</label>
+								</div>
+							</div>
+							<div class="input-block input-and-button">
+								<input name="EMAIL" class="w-75" name="email" type="email" placeholder="Email address" type="text">
+								<button class="w-25 button" type="submit"><i class="ss-pika ss-mail"></i></button>
+							</div>
+							<input type="hidden" value="TheNextWeb" name="uri">
+							<input type="hidden" name="loc" value="en_US">
+						</form>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<nav id="icon-menus">
+		<ul>
+ 			<li><a class="js-search" href="#" title="Search" onclick="ga('primary.send', 'event', 'Top', 'Search', {'nonInteraction': 1, transport: 'beacon'});"><i class="ss-pika ss-search"></i></a></li>
+		</ul>
+	</nav>
+	<div class="tnwg2-header-follow">
+		<div class="tnwg2-header-follow-channels">
+			<ul class="tnwg2-header-follow-channels-wrap">
+
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--twitter tnwg2-header-socialColor--twitter"><a href="https://www.twitter.com/thenextweb" title="Follow us on Twitter" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-twitter"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--facebook tnwg2-header-socialColor--facebook"><a href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Facebook', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-facebook"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--instagram tnwg2-header-socialColor--instagram"><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Instagram', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-instagram"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--googleplus tnwg2-header-socialColor--googleplus"><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Google+', {'nonInteraction': 1, transport: 'beacon'});" target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="22" height="22">
+						<path d="M48,22h-5v-5h-4v5h-5v4h5v5h4v-5h5 M16,21v6.24h8.72c-0.67,3.76-3.93,6.5-8.72,6.5c-5.28,0-9.57-4.47-9.57-9.75s4.29-9.74,9.57-9.74c2.38,0,4.51,0.82,6.19,2.42v0.01l4.51-4.51C23.93,9.59,20.32,8,16,8C7.16,8,0,15.16,0,24s7.16,16,16,16c9.24,0,15.36-6.5,15.36-15.64c0-1.17-0.11-2.29-0.31-3.36C31.05,21,16,21,16,21z"/>
+					</svg>
+				</a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--youtube tnwg2-header-socialColor--youtube"><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube" onclick="ga('primary.send', 'event', 'Top', 'Social', 'YouTube', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-youtube"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--linkedin tnwg2-header-socialColor--linkedin"><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn" onclick="ga('primary.send', 'event', 'Top', 'Social', 'LinkedIn', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-linkedin"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--pinterest tnwg2-header-socialColor--pinterest"><a href="http://pinterest.com/thenextweb/" title="Follow us on Pinterest" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Pinterest', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-pinterest"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--rss tnwg2-header-socialColor--rss"><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" onclick="ga('primary.send', 'event', 'Top', 'Social', 'RSS', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-rss"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--push tnwg2-header-socialColor--push"><a href="http://thenextweb.com/notifications" title="Receive push alerts" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Push alerts', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-pika ss-notifications"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--disclosure tnwg2-header-socialColor--disclosure"></li>
+			</ul>
+						
+			<div class="tnwgh2-dropdown" id="menu-follow">
+				<form target="_blank" action="http://thenextweb.us1.list-manage1.com/subscribe/post?u=22ec88eb9b9d8bc3bcf660787&id=32f70ba9aa" accept-charset="utf-8" autocomplete="off" class="borderless" method="post" onsubmit="dataLayer.push({'event': 'newsletterSignup', 'newsletter': [{'location': 'Header' }] });">
+					<h4>The hottest news to your doorstep</h4>
+					<div class="input-block subscribe-options">
+						<div class="option inline">
+							<input id="subscribe-weekly" name="group[6][4]" type="checkbox" checked />
+							<label for="subscribe-weekly">Weekly</label>
+						</div>
+						<div class="option inline">
+							<input id="subscribe-daily" name="group[6][2]" type="checkbox" />
+							<label for="subscribe-daily">Daily</label>
+						</div>
+						<div class="option inline">
+							<input id="subscribe-updates" name="group[69][32]" type="checkbox" />
+							<label for="subscribe-updates">Updates</label>
+						</div>
+					</div>
+					<div class="input-block input-and-button">
+						<input name="EMAIL" class="w-75" name="email" type="email" placeholder="Email address" type="text">
+						<button class="w-25 button" type="submit"><i class="ss-pika ss-mail"></i></button>
+					</div>
+					<input type="hidden" value="TheNextWeb" name="uri">
+					<input type="hidden" name="loc" value="en_US">
+				</form>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="tnwg2-header-search">
+		<form role="search" method="get" action="http://thenextweb.com/" onsubmit="ga('primary.send', 'event', 'Search', 'Top', {'nonInteraction': 1, transport: 'beacon'});">
+			<div class="bigSearch u-wrapper">
+				<i class="ss-pika ss-search"></i>
+				<input autocomplete="off" type="search" name="s" />
+			</div>
+			<a class="tnwg2-header-search-cancel" onclick="ga('primary.send', 'event', 'Top', 'Search', 'Close', {'nonInteraction': 1, transport: 'beacon'});">×</a>
+		</form>
+	</div>
+	
+</div>
+    <progress value="0" max="100" id="reading_progress" style="z-index:800; display: none" ></progress>
+    <div id="main">
+    <div class="canvasPreloader" id="canvas"></div>    <div class="l-postSingle l-postSingle--canvas">
+        <div class="l-postSingle-wrap">
+            							<div id="announcement" class="announcement announcement">
+					 <div id="ad-unit-announcement"><div id="div-gpt-ad-13687323425-2"></div></div>
+				</div>
+				
+			                <!-- Ad unit: Top -->
+                <div id="ad-unit-top-wrapper" class="fixedWrapper fixedWrapper--top">
+                    <div id="ad-unit-top" class="adUnit adUnit--top adUnit--afterCanvas">
+                        <div id='div-gpt-ad-1368717423425-2' style='display:none;'></div>
+                    </div>
+                </div>
+                                <div
+                    class="l-postSingle-header">
+                    <div class="l-postSingle-header-inner">
+                      <div id="breadcrumbs"><span><a href="http://thenextweb.com">Home</a></span> / <span><a href="http://thenextweb.com/dd">Design &amp; Dev</a></span></div>                        <h1 class="title">Amazon wants game developers to use its new free 3D engine</h1>
+                        <div class="meta">
+                            <a href="http://thenextweb.com/author/owilliams/"
+                               onclick="ga('primary.send', 'event', 'Article', 'Author - Owen Williams', 'Profile', {'nonInteraction': 1, transport: 'beacon'});"><img alt='Owen Williams' src='http://1.gravatar.com/avatar/a544db9fef327cb146b31c9a40277b17?s=80&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a544db9fef327cb146b31c9a40277b17?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /></a>
+                            by <a class="author" href="http://thenextweb.com/author/owilliams/"
+                                  onclick="ga('primary.send', 'event', 'Article', 'Author - Owen Williams', 'Profile', {'nonInteraction': 1, transport: 'beacon'});">Owen Williams</a>
+                            </a>
+                                                            <a class="mail" href="mailto:owen@thenextweb.com"
+                                   onclick="ga('primary.send', 'event', 'Article', 'Author - Owen Williams', 'E-mail', {'nonInteraction': 1, transport: 'beacon'});"
+                                   target="_blank"><i class="ss-pika ss-mail"></i></a>
+                                                                <a class="tweet tooltip-long-text js-socialPreload"
+                                   data-social-preload-type="twitterIntent"
+                                   data-tooltip="Tweet: Interesting post by @ow “Amazon wants game developers to use its new free 3D ...” http://tnw.to/b4kvN"
+                                   href="https://twitter.com/intent/tweet/?text=Interesting%20post%20by%20%40ow%20%E2%80%9CAmazon%20wants%20game%20developers%20to%20use%20its%20new%20free%203D%20...%E2%80%9D%20http%3A%2F%2Ftnw.to%2Fb4kvN&via=thenextweb"
+                                   onclick="ga('primary.send', 'event', 'Article', 'Share - Author - Owen Williams', 'Twitter - Author', {'nonInteraction': 1, transport: 'beacon'});"
+                                   target="_blank"><i class="ss-social ss-twitter"></i> Tweet</a>
+                                                            &mdash;
+                                                            <time datetime="2016-02-09T11:22:42+0100"
+                                      class="timeago"></time>                                 in <h2><a class="channel" href="http://thenextweb.com/dd/"
+                                          onclick="ga('primary.send', 'event', 'Article', 'Category', 'Design &amp; Dev', {'nonInteraction': 1, transport: 'beacon'} );">Design &amp; Dev</a>
+                                </h2>
+                                                            <span id="post-edit"></span>
+                        </div>
+                    </div>
+                </div>
+                            <div class="l-postSingle-content">
+                <div class="l-postSingle-content-main">
+                                            <div class="l-postSingle-content-main-photo"
+                             style="background-image: url('http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/ZombiesEditor.png')">
+                                                    </div>
+                                            <div class="l-postSingle-content-main-share articleShare articleShare-top js_articleShare">
+                            <ul class="articleShare-buttons">
+                                	<li><a
+		data-permalink="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/"
+		data-title="Amazon wants game developers to use its new free 3D engine"
+		data-network="Twitter"
+		data-url="https://twitter.com/intent/tweet?url=http%3A%2F%2Ftnw.to%2Fg4xwk&via=thenextweb&related=thenextweb&text=Amazon+wants+game+developers+to+use+its+new+free+3D+engine"
+		data-width="685"
+		data-height="500"
+		data-count="217"
+		class="articleShare-buttons-button has-count twitter js_button"
+		title="Share on Twitter"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-twitter"></i>
+				<span> Tweet <span class="count"></span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/"
+		data-title="Amazon wants game developers to use its new free 3D engine"
+		data-network="Facebook"
+		data-url="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A%2F%2Ftnw.to%2Fi4xme&p[title]=Amazon+wants+game+developers+to+use+its+new+free+3D+engine&p[images][0]=http%3A%2F%2Fcdn1.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2016%2F02%2FZombiesEditor.png&p[summary]=Amazon+has+a+surprise%3A+it%27s+built+a+free%2C+open-source+3D+engine+for+game+developers+called+Lumberyard.+Built+for+%26quot%3BAAA%26quot%3B+games%2C+the+engine+integrates+the+company%27s+AWS+cloud+...&u=http%3A%2F%2Ftnw.to%2Fi4xme&t=Amazon+wants+game+developers+to+use+its+new+free+3D+engine"
+		data-width="850"
+		data-height="500"
+		data-count="152"
+		class="articleShare-buttons-button has-count facebook js_button"
+		title="Share on Facebook"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Facebook', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-facebook"></i>
+				<span> Share <span class="count"></span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/"
+		data-title="Amazon wants game developers to use its new free 3D engine"
+		data-network="Google+"
+		data-url="https://plus.google.com/share?url=http%3A%2F%2Ftnw.to%2Fg4xwl"
+		data-width="600"
+		data-height="600"
+		data-count="27"
+		class="articleShare-buttons-button has-count googleplus js_button"
+		title="Share on Google+"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Google+', {'nonInteraction': 1, transport: 'beacon'});">
+					<div class="social-icon googleplus-icon"></div>
+				<span> Share <span class="count"></span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/"
+		data-title="Amazon wants game developers to use its new free 3D engine"
+		data-network="LinkedIn"
+		data-url="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fthenextweb.com%2Fdd%2F2016%2F02%2F09%2Famazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine%2F"
+		data-width="510"
+		data-height="500"
+		data-count="25"
+		class="articleShare-buttons-button has-count linkedin js_button"
+		title="Share on LinkedIn"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'LinkedIn', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-linkedin"></i>
+				<span> Share <span class="count"></span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/"
+		data-title="Amazon wants game developers to use its new free 3D engine"
+		data-network="Reddit"
+		data-url="http://www.reddit.com/submit?url=http%3A%2F%2Ftnw.to%2Fc4lLe"
+		data-width="510"
+		data-height="500"
+		data-count="1"
+		class="articleShare-buttons-button has-count reddit js_button"
+		title="Share on Reddit"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Reddit', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-reddit"></i>
+				<span> Share <span class="count"></span> </span>
+	</a></li>
+	<li>
+		<a class="button mail social-mail" target="_blank"  href="mailto:?subject=Amazon wants game developers to use its new free 3D engine&body=http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/" onclick="ga('primary.send', 'event', 'Article', 'Share', 'Email', {'nonInteraction': 1, transport: 'beacon'});">
+			<i class="ss-pika ss-mail"></i>
+			<span> Email </span>
+		</a>
+	</li>
+			<li>
+			<a class="button social-slack js_button" data-width="600" data-height="500" data-url="http://slackbutton.herokuapp.com/post/new/?url=http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/?utm_source=slack&amp;utm_medium=referral&amp;utm_campaign=share-button" onclick="ga('primary.send', 'event', 'Article', 'Share', 'Slack', {'nonInteraction': 1, transport: 'beacon'});">
+				<div class="social-icon slack-icon"></div>
+				<span> Slack it </span>
+			</a>
+		</li>
+				 				
+		
+
+		<li><a
+			href="whatsapp://send?text=Amazon%20wants%20game%20developers%20to%20use%20its%20new%20free%203D%20engine%20-%20http%3A%2F%2Ftnw.to%2Fc4lLe"
+			class="articleShare-buttons-button has-count whatsapp"
+			onclick="ga('primary.send', 'event', 'Article', 'Share', 'Whatsapp', {'nonInteraction': 1, transport: 'beacon'});">
+			<i class="ss-social ss-whatsapp"></i><span> Share</span>
+		</a></li>
+	
+		
+		<li><a
+			href="whatsapp://send?text=Amazon%20wants%20game%20developers%20to%20use%20its%20new%20free%203D%20engine%20-%20http%3A%2F%2Ftnw.to%2Fc4lLe"
+			class="articleShare-buttons-button has-count whatsapp"
+			onclick="ga('primary.send', 'event', 'Article', 'Share', 'Whatsapp', {'nonInteraction': 1, transport: 'beacon'});">
+			<i class="ss-social ss-whatsapp"></i><span> Share</span>
+		</a></li>
+	                            </ul>
+                            <div class="articleShare-shortlink-comments">
+                                <div class="articleShare-shortlink">
+                                    <div class="flip">
+                                        <div class="side side--a"><i class="ss-pika ss-link"></i> <span
+                                                class="articleShare-shortlink-url">http://tnw.to/b4kvN</span>
+                                        </div>
+                                        <div class="side side--b"><i class="ss-pika ss-check"></i> Copied!</div>
+                                    </div>
+                                </div>
+                                <div class="articleShare-comments">
+                                    <a href="#comments"
+                                       onclick="ga('primary.send', 'event', 'Article', 'Comments', {'nonInteraction': 1, transport: 'beacon'});"><i
+                                            class="ss-pika ss-chat"></i>                                            <fb:comments-count
+                                                href="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/"></fb:comments-count> Comments                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-postSingle-content-main-content postContent">
+                            <a target="_blank" href="http://thenextweb.com/conference/europe/?utm_medium=display&amp;utm_source=thenextweb.com&amp;utm_campaign=TNWEU16_Yellowlink"><div class="announcement" style="color: #444444; cursor:pointer; padding-top: 10px; padding-bottom: 10px; margin-bottom: 1rem;"><span style="font-weight:bold">
+                                      5 Days left</span>: TNW Europe early bird sales end soon. <span style="color:#FF4422;">Learn more!</span></div></a><p>Amazon has a surprise: it’s built a free, open-source 3D engine for game developers called <a href="http://aws.amazon.com/lumberyard/details/" target="_blank">Lumberyard</a>. Built for “AAA” games, the engine integrates the company’s AWS cloud platform deeply to provide server-side processing.</p>
+<p>Lumberyard is a full game studio; you can build and design levels, create your visuals, animate characters, generate particles, engineer audio, handle weather and AI and basically everything else you can imagine. It provides both the infrastructure for the multiplayer component of the game as well as the tools to build the game itself.</p>
+<p>The game engine <a href="https://docs.aws.amazon.com/lumberyard/latest/developerguide/graphics-rendering-intro.html" target="_blank">uses Cryengine</a> for graphics, which can generate ‘photo-realistic’ worlds — it’s best known for being the engine behind the PC-crippling <a href="http://crysis.com/" target="_blank">Crysis games</a>.</p>
+<p>A <a href="http://aws.amazon.com/gamelift/" target="_blank">new AWS service called GameLift</a> is integrated into the app to provide scalable multiplayer architecture without requiring deep infrastructure skills. The company touts that using GameLift means developers don’t need to spend “thousands of hours” building out this infrastructure, instead promising it takes just a matter of minutes.</p>
+<p>The new platform also offers deep Twitch integration, so developers can build in impressive new features to games. <a href="https://docs.aws.amazon.com/lumberyard/latest/userguide/chatplay-intro.html" target="_blank">Twitch ChatPlay</a> developers can build features that allow observers to join in with game streams by voting on levels or the game’s direction and <a href="https://docs.aws.amazon.com/lumberyard/latest/userguide/chatplay-joinin.html" target="_blank">Twitch JoinIn</a> lets broadcasters instantly invite viewers to join them in-game.</p>
+<p>It’s obvious why the company is making Lumberyard available for free — as Microsoft has leveraged Azure for Xbox Live, Amazon wants game developers to use its cloud as well.</p>
+<p>By building a tool like Lumberyard and making it freely available, the company is actively encouraging both developers and designers to deeply integrate Amazon’s cloud stack into their titles; ultimately, it’s locking them in long-term.</p>
+<p>The most impressive part of Lumberyard is that it’s both entirely free and the code is available for developers to modify. Other game engines can cost developers in the thousands and often charge for per-seat pricing, so Amazon’s proposition is likely interesting for both large and small game developers.</p>
+<p>➤ <a href="http://aws.amazon.com/lumberyard/" target="_blank">Amazon Lumberyard</a> [AWS]</p>
+<p> </p><div class="featured-image-credits image-credits">
+	Featured image credit:
+			<a href="https://aws.amazon.com/lumberyard/" target="_blank">
+			Amazon Lumberyard		</a>
+	</div>
+                            <div
+                                class="l-postSingle-content-bottom-share articleShare articleShare-bottom js_articleShare">
+                                <ul class="articleShare-buttons">
+                                    	<li><a
+		data-permalink="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/"
+		data-title="Amazon wants game developers to use its new free 3D engine"
+		data-network="Twitter"
+		data-url="https://twitter.com/intent/tweet?url=http%3A%2F%2Ftnw.to%2Fg4xwk&via=thenextweb&related=thenextweb&text=Amazon+wants+game+developers+to+use+its+new+free+3D+engine"
+		data-width="685"
+		data-height="500"
+		data-count="217"
+		class="articleShare-buttons-button has-count twitter js_button"
+		title="Share on Twitter"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-twitter"></i>
+				<span> Tweet <span class="count">217</span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/"
+		data-title="Amazon wants game developers to use its new free 3D engine"
+		data-network="Facebook"
+		data-url="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A%2F%2Ftnw.to%2Fi4xme&p[title]=Amazon+wants+game+developers+to+use+its+new+free+3D+engine&p[images][0]=http%3A%2F%2Fcdn1.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2016%2F02%2FZombiesEditor.png&p[summary]=Amazon+has+a+surprise%3A+it%27s+built+a+free%2C+open-source+3D+engine+for+game+developers+called+Lumberyard.+Built+for+%26quot%3BAAA%26quot%3B+games%2C+the+engine+integrates+the+company%27s+AWS+cloud+...&u=http%3A%2F%2Ftnw.to%2Fi4xme&t=Amazon+wants+game+developers+to+use+its+new+free+3D+engine"
+		data-width="850"
+		data-height="500"
+		data-count="152"
+		class="articleShare-buttons-button has-count facebook js_button"
+		title="Share on Facebook"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Facebook', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-facebook"></i>
+				<span> Share <span class="count">152</span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/"
+		data-title="Amazon wants game developers to use its new free 3D engine"
+		data-network="LinkedIn"
+		data-url="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fthenextweb.com%2Fdd%2F2016%2F02%2F09%2Famazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine%2F"
+		data-width="510"
+		data-height="500"
+		data-count="25"
+		class="articleShare-buttons-button has-count linkedin js_button"
+		title="Share on LinkedIn"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'LinkedIn', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-linkedin"></i>
+				<span> Share <span class="count">25</span> </span>
+	</a></li>
+	<li>
+		<a class="button mail social-mail" target="_blank"  href="mailto:?subject=Amazon wants game developers to use its new free 3D engine&body=http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/" onclick="ga('primary.send', 'event', 'Article', 'Share', 'Email', {'nonInteraction': 1, transport: 'beacon'});">
+			<i class="ss-pika ss-mail"></i>
+			<span> Email </span>
+		</a>
+	</li>
+	                                </ul>
+                            </div>
+
+
+                        </div>
+
+                                            <!-- Ad unit: Bottom -->
+                        <div id="ad-unit-bottom">
+                            <div id="div-gpt-ad-1368717423425-0" style="display: none;"></div>
+                        </div>
+                        <div class="authorBlock">
+    <div class="authorBlock-avatar">
+        <a href="http://thenextweb.com/author/owilliams/" onclick="ga('primary.send', 'event', 'Article', 'Author - Owen Williams', 'Avatar', {'nonInteraction': 1, transport: 'beacon'} );"><img alt='Owen Williams' src='http://1.gravatar.com/avatar/a544db9fef327cb146b31c9a40277b17?s=150&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a544db9fef327cb146b31c9a40277b17?s=300&amp;d=mm&amp;r=g 2x' class='avatar avatar-150 photo' height='150' width='150' /></a>
+    </div>
+	<div class="authorBlock-header">
+    	<div>
+            <h3 class="authorBlock-header-title">
+                <a href="http://thenextweb.com/author/owilliams/">Owen Williams</a>
+    		</h3>
+			
+			    	    		<span class="authorBlock-header-nickname">
+    					a.k.a. <a data-tooltip="Ask me why on Twitter!" onclick="ga('primary.send', 'event', 'Article', 'Author - Owen Williams', 'Username', {'nonInteraction': 1, transport: 'beacon'} );" href="https://twitter.com/intent/tweet?text=So @ow nickname is ow? Wonder what the story is there: http://thenextweb.com/author/owilliams/&via=thenextweb">ow</a>
+    	    		</span>
+                        	</div>
+    	    	    	<p class="authorBlock-header-bio">
+    	        	Owen is a reporter for TNW that loves to code.    	    	</p>
+                		<p>
+			
+		</p>
+    	<p class="authorBlock-header-tweet">
+			Say <a class="tooltip-long-text" data-tooltip="Tweet: Hey @ow! I &#x2764; your post “Amazon wants game developers to use its new free 3D ...” http://tnw.to/i4xmg" href="https://twitter.com/intent/tweet?text=Hey @ow! I &#x2764; your post “Amazon wants game developers to use its new free 3D ...” http://tnw.to/i4xmg&via=thenextweb" onclick="ga('primary.send', 'event', 'Article', 'Share - Author - Owen Williams', 'Twitter - Thanks', {'nonInteraction': 1, transport: 'beacon'});"><i class="ss-social ss-twitter"></i> thanks</a>
+			or <a class="tooltip-long-text" data-tooltip="Tweet: Hey @ow! Sorry… Your post “Amazon wants game developers to ...” makes me 😠😢😱😡 http://tnw.to/i4xmg" href="https://twitter.com/intent/tweet?text=Hey @ow! Sorry… Your post “Amazon wants game developers to ...” makes me 😠😢😱😡 http://tnw.to/i4xmg&via=thenextweb" onclick="ga('primary.send', 'event', 'Article', 'Share - Author - Owen Williams', 'Twitter - Boo', {'nonInteraction': 1, transport: 'beacon'});"><i class="ss-social ss-twitter"></i> boo</a>
+			to Owen    	</p>
+    </div>
+	<div class="authorBlock-meta">
+		<div class="authorBlock-meta-block">
+			<h3 class="authorBlock-meta-block-title">Contact</h3>
+			<div class="authorBlock-meta-block-content">
+				                        <a data-tooltip="Follow Owen Williams on Twitter" href="https://twitter.com/ow" onclick="ga('primary.send', 'event', 'Article', 'Author - Owen Williams', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social ss-twitter"></i></a>&nbsp;
+                                                <a data-tooltip="Email Owen Williams" href="mailto:owen@thenextweb.com" onclick="ga('primary.send', 'event', 'Article', 'Author - Owen Williams', 'E-mail', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-pika ss-mail"></i></a>
+                        			</div>
+		</div>
+		    			<div class="authorBlock-meta-block">
+    				<h3 class="authorBlock-meta-block-title">Location</h3>
+    				<div class="authorBlock-meta-block-content">
+    					<a target="_blank" data-tooltip="See Amsterdam, NL on a map" href="https://www.google.nl/maps/place/Amsterdam, NL">Amsterdam, NL</a>
+    				</div>
+    			</div>
+                    			<div class="authorBlock-meta-block">
+    				<h3 class="authorBlock-meta-block-title">Posts</h3>
+    				<div class="authorBlock-meta-block-content">
+    					<a data-tooltip="See all posts by Owen Williams" href="http://thenextweb.com/author/owilliams/" >1274</a>
+    				</div>
+    			</div>
+                    			<div class="authorBlock-meta-block">
+    				<h3 class="authorBlock-meta-block-title">Posts / Mo</h3>
+    				<div class="authorBlock-meta-block-content">
+    					<a class="tooltip-long-text" data-tooltip="Owen Williams publishes 31.94 post per month, on average. Click to see them all." href="http://thenextweb.com/author/owilliams/" >31.94</a>
+    				</div>
+    			</div>
+                    </div>
+</div>    	<div class="l-postSingle-content-main-related postGrid postGrid--article relatedPosts">
+    		<div class="tabbed tabbed--light" role="application">
+    			<ul class="tabs" role="tablist">
+    				<li><a aria-controls="stories-tax" class="active" href="#stories-tax" id="tab-stories-tax" role="tab" onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'More in Design &amp; Dev', {'nonInteraction': 1, transport: 'beacon'});">More in Design &amp; Dev</a></li>
+    				                            <li><a aria-controls="stories-author" href="#stories-author" id="tab-stories-author" role="tab" onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'More by Owen', {'nonInteraction': 1, transport: 'beacon'});">More by Owen</a></li>
+                                			</ul>
+    			<div aria-labeledby="tab-stories-tax" class="active" id="stories-tax" role="tabpanel">
+    				<ul class="postGrid-list postGrid--light">
+    						
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/12/robots-1200x600.jpg"></div>
+		<h3><span>Super-smart AI epically fails 8th grade science test</span></h3>
+		<time datetime="2016-02-17T22:36:13+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/17/super-smart-ai-epically-fails-8th-grade-science-test/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Super-smart AI epically fails 8th grade science test</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/GitHubTemplateTNW-768x390.jpg"></div>
+		<h3><span>GitHub adds templates for Pull Requests and Issues to help push projects forward</span></h3>
+		<time datetime="2016-02-17T21:13:54+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/17/github-adds-templates-for-pull-requests-and-issues-to-help-push-projects-forward/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">GitHub adds templates for Pull Requests and Issues to help push projects forward</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/lookback-mac-desktop-preview-768x384.jpg"></div>
+		<h3><span>Lookback gives you iOS and Apple TV screen recording that’s better than QuickTime</span></h3>
+		<time datetime="2016-02-17T19:15:57+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/17/lookback-gives-you-screen-recording-from-ios-and-apple-tv-thats-better-than-quicktime/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Lookback gives you iOS and Apple TV screen recording that’s better than QuickTime</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/11/AppleTVRemote-1200x640.jpg"></div>
+		<h3><span>Apple TV apps will soon have video previews just like iOS</span></h3>
+		<time datetime="2016-02-17T19:06:05+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apple/2016/02/17/apple-tv-apps-will-soon-have-video-previews-just-like-ios/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Apple TV apps will soon have video previews just like iOS</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_191020970-520x441.jpg"></div>
+		<h3><span>What app developers can learn from games</span></h3>
+		<time datetime="2016-02-17T18:09:36+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/what-app-developers-can-learn-from-games/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">What app developers can learn from games</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Bad-Design-768x384.jpg"></div>
+		<h3><span>Why are some of the ugliest sites on the Web also the most popular?</span></h3>
+		<time datetime="2016-02-17T15:29:57+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/17/why-are-some-of-the-ugliest-sites-on-the-web-also-the-most-popular/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Why are some of the ugliest sites on the Web also the most popular?</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/giphy-5.gif"></div>
+		<h3><span>Hey developer! DevOps doesn’t mean what you think it does</span></h3>
+		<time datetime="2016-02-17T12:03:02+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/17/hey-developer-devops-doesnt-mean-what-you-think-it-does/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Hey developer! DevOps doesn’t mean what you think it does</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_300613664-iOS-testing-768x384.jpg"></div>
+		<h3><span>Google has open-sourced its iOS app testing tool</span></h3>
+		<time datetime="2016-02-17T08:44:11+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/17/google-has-open-sourced-its-ios-app-testing-tool/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Google has open-sourced its iOS app testing tool</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/GitHubOfficeTNW-768x409.jpg"></div>
+		<h3><span>GitHub responds to letter regarding developers&#8217; concerns, says &#8216;surprises&#8217; are coming</span></h3>
+		<time datetime="2016-02-16T19:14:33+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/16/github-responds-to-letter-regarding-developers-concerns-says-surprises-are-coming/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">GitHub responds to letter regarding developers&#8217; concerns, says &#8216;surprises&#8217; are coming</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Screen-Shot-2016-02-15-at-9.20.08-AM-768x352.png"></div>
+		<h3><span>Google is aligning its Places API with Maps search results for developers</span></h3>
+		<time datetime="2016-02-16T17:59:07+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/16/google-is-aligning-its-places-api-with-maps-search-results-for-developers/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Google is aligning its Places API with Maps search results for developers</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2013/11/IBM.jpg"></div>
+		<h3><span>IBM has just open-sourced 44,000 lines of blockchain code on GitHub</span></h3>
+		<time datetime="2016-02-16T16:35:08+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/16/ibm-has-just-open-sourced-44000-lines-of-blockchain-code-on-github/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">IBM has just open-sourced 44,000 lines of blockchain code on GitHub</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/InfinitFileSystemTNW-768x390.jpg"></div>
+		<h3><span>Infinit&#8217;s new product is a decentralized p2p file system for DevOps</span></h3>
+		<time datetime="2016-02-16T14:59:54+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/16/infinits-new-product-is-a-decentralized-p2p-file-system-for-devops/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Infinit&#8217;s new product is a decentralized p2p file system for DevOps</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/medium-768x307.jpg"></div>
+		<h3><span>InVision has acquired startup design firm Waybury</span></h3>
+		<time datetime="2016-02-16T14:59:38+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/16/invision-has-acquired-startup-design-firm-waybury/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">InVision has acquired startup design firm Waybury</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/DevMateTNW-768x390.jpg"></div>
+		<h3><span>Developer analytics and distribution suite DevMate is now completely free to use</span></h3>
+		<time datetime="2016-02-15T20:36:45+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/15/developer-analytics-and-distribution-suite-devmate-is-now-completely-free-to-use/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Developer analytics and distribution suite DevMate is now completely free to use</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Screen-Shot-2016-02-15-at-10.42.30-AM-768x336.png"></div>
+		<h3><span>Kotlin, the &#8216;pragmatic&#8217; language for Android and JVM, has reached its 1.0 release</span></h3>
+		<time datetime="2016-02-15T20:14:57+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/15/kotlin-the-pragmatic-language-for-android-and-jvm-has-reached-its-1-0-release/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Kotlin, the &#8216;pragmatic&#8217; language for Android and JVM, has reached its 1.0 release</a>
+	</li>
+    				</ul>
+    				<div class="clear">
+    				    <a class="relatedPosts-link" href="http://thenextweb.com/dd/" onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'See all Design &amp; Dev', {'nonInteraction': 1, transport: 'beacon'});">See all Design &amp; Dev</a>
+    				</div>
+    			</div>
+    			            			<div aria-labeledby="tab-stories-author" id="stories-author" role="tabpanel">
+            				<ul class="postGrid-list postGrid--light">
+            						
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/AW.gif"></div>
+		<h3><span>There&#8217;s finally a game that makes sense on an Apple Watch</span></h3>
+		<time datetime="2016-02-17T15:42:19+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apple/2016/02/17/theres-finally-a-game-that-makes-sense-on-an-apple-watch/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">There&#8217;s finally a game that makes sense on an Apple Watch</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/11/Popcorn-Time-1200x600.jpg"></div>
+		<h3><span>The original Popcorn Time is back from the dead &#8212; but nobody knows who&#8217;s running it</span></h3>
+		<time datetime="2016-02-17T13:31:32+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/the-original-popcorn-time-is-back-from-the-dead-but-nobody-knows-whos-running-it/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">The original Popcorn Time is back from the dead &#8212; but nobody knows who&#8217;s running it</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Screen-Shot-2016-02-17-at-11.39.10-AM-768x421.png"></div>
+		<h3><span>56,224 hard drives later, Backblaze finds Western Digital disks most likely to fail</span></h3>
+		<time datetime="2016-02-17T12:30:37+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/insider/2016/02/17/56224-hard-drives-later-backblaze-finds-western-digital-disks-most-likely-to-fail/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">56,224 hard drives later, Backblaze finds Western Digital disks most likely to fail</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/shakes-520x317.gif"></div>
+		<h3><span>How I cleared my mind and became less stressed: deleting all my apps</span></h3>
+		<time datetime="2016-02-15T17:25:41+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/opinion/2016/02/15/how-i-cleared-my-mind-and-became-less-stressed-deleting-all-my-apps/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">How I cleared my mind and became less stressed: deleting all my apps</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_213748822-1-520x347.jpg"></div>
+		<h3><span>Apple&#8217;s WWDR certificate has expired, causing problems for developers</span></h3>
+		<time datetime="2016-02-15T13:31:50+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apple/2016/02/15/apples-wwdr-certificate-expired-today-causing-problems-for-developers/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Apple&#8217;s WWDR certificate has expired, causing problems for developers</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://thenextweb.com/wp-content/blogs.dir/1/files/2016/02/Screen-Shot-2016-02-15-at-12.46.29-PM-520x337.png"></div>
+		<h3><span>Samsung-funded smart shoes that analyze your feet are becoming a reality</span></h3>
+		<time datetime="2016-02-15T12:59:22+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/gadgets/2016/02/15/samsung-funded-smart-shoes-that-analyze-your-feet-are-becoming-a-reality/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Samsung-funded smart shoes that analyze your feet are becoming a reality</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/love-768x333.gif"></div>
+		<h3><span>Spotify wants to make a sexy Valentine&#8217;s Day playlist for you</span></h3>
+		<time datetime="2016-02-12T13:38:37+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/insider/2016/02/12/spotify-wants-to-make-a-sexy-valentines-day-playlist-for-you/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Spotify wants to make a sexy Valentine&#8217;s Day playlist for you</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/self.gif"></div>
+		<h3><span>You can buy a self-playing piano with an iPod built in because of course</span></h3>
+		<time datetime="2016-02-12T11:39:38+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/gadgets/2016/02/12/you-can-buy-a-self-playing-piano-with-an-ipod-built-in-because-of-course/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">You can buy a self-playing piano with an iPod built in because of course</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/1-_xxujSQT5Q2NlHq62uzEAA-520x306.png"></div>
+		<h3><span>Runkeeper has been acquired by sportwear company ASICS</span></h3>
+		<time datetime="2016-02-12T10:20:56+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/12/runkeeper-has-been-acquired-by-sportwear-company-asics/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Runkeeper has been acquired by sportwear company ASICS</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/adblock-768x384.png"></div>
+		<h3><span>This adblocker-blocker helps you get around sites that ban you for hiding ads ¯\_(ツ)_/¯</span></h3>
+		<time datetime="2016-02-11T14:47:36+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/11/around-and-around-we-go/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">This adblocker-blocker helps you get around sites that ban you for hiding ads ¯\_(ツ)_/¯</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Screen-Shot-2016-02-11-at-1.47.35-PM-768x367.png"></div>
+		<h3><span>Quartz’s iOS app turns news into a conversation and it feels like the future</span></h3>
+		<time datetime="2016-02-11T13:49:37+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/11/quartzs-ios-app-turns-news-into-a-conversation-and-its-unlike-anything-else-youve-used/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Quartz’s iOS app turns news into a conversation and it feels like the future</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/wow.gif"></div>
+		<h3><span>What happens if you short-circuit a radio tower is amazing</span></h3>
+		<time datetime="2016-02-11T13:19:07+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/shareables/2016/02/11/what-happens-if-you-short-circuit-a-radio-tower-is-amazing/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">What happens if you short-circuit a radio tower is amazing</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Screen-Shot-2016-02-11-at-12.42.56-PM-520x315.png"></div>
+		<h3><span>Get every great Windows 3.1 game right in your browser</span></h3>
+		<time datetime="2016-02-11T12:54:47+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/11/get-every-great-windows-3-1-game-right-in-your-browser/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Get every great Windows 3.1 game right in your browser</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/12/shutterstock_257403316-520x347.jpg"></div>
+		<h3><span>The Node.js Foundation plans to incubate one of the community&#8217;s most popular packages</span></h3>
+		<time datetime="2016-02-10T16:59:04+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/10/the-node-js-foundation-plans-to-incubate-one-of-the-communitys-most-popular-packages/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">The Node.js Foundation plans to incubate one of the community&#8217;s most popular packages</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Parse_Illustration-21-768x403.jpg"></div>
+		<h3><span>Facebook&#8217;s Parse may be shutting down, but that means it can grow bigger than ever</span></h3>
+		<time datetime="2016-02-10T15:30:22+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/opinion/2016/02/10/facebooks-parse-may-be-shutting-down-but-that-means-it-can-grow-bigger-than-ever/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Facebook&#8217;s Parse may be shutting down, but that means it can grow bigger than ever</a>
+	</li>
+            				</ul>
+            				<div class="clear">
+            				    <a class="relatedPosts-link" href="http://thenextweb.com/author/owilliams/" onclick="ga('primary.send', 'event', 'Article', 'Author Posts', 'See all stories by Owen', {'nonInteraction': 1, transport: 'beacon'});">See all stories by Owen</a>
+            				</div>
+            			</div> 
+                            		</div>
+
+			
+
+    	</div>
+                                <!-- Ad unit: Bottom 2 -->
+                        <div id="ad-unit-bottom-2">
+                            <div id="div-gpt-ad-1399993607171-0" style="display:none;"></div>
+                        </div>
+                                                <div class="l-postSingle-content-main-comments" id="comments">
+                                                            <div class="fb-comments js-socialPreload" data-social-preload-type="facebookComments"
+                                     data-href="http://thenextweb.com/dd/2016/02/09/amazon-wants-game-developers-to-use-its-new-free-open-source-3d-engine/" data-numposts="4"
+                                     data-width="100%"></div>
+                                                    </div>
+                                        </div>
+                <div class="l-postSingle-content-sidebar sidebar">
+                                        <div class="l-postSingle-content-sidebar-fixables">
+                                                    <div class="sidebar-block sidebar-block--deals" style="display:none;">
+                                <h2 class="sidebar-block-title">Deal of the day</h2>
+                                <a class="postMicro ab-test" href="http://thenextweb.com/offers/2016/02/17/win-7-top-quality-essentials-for-modern-life-in-this-giveaway/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/The-ADVENTURES-OF-A-CATDRONE-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Win 7 top-quality essentials for modern life in this giveaway</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="111">111</span>
+		</span>
+		<time datetime="2016-02-17T16:05:42+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+                            </div>
+                                                        <div class="sidebar-block sidebar-block--evergreen" style="display:none;">
+                                <h2 class="sidebar-block-title">Evergreen posts</h2>
+                                <a class="postMicro ab-test" href="http://thenextweb.com/businessapps/2015/01/24/complete-guide-backing-computer-properly/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/01/storage_feature-520x231.jpg"></div>
+	<h3 class="postMicro-title"><span>The complete guide to backing up your computer the best way</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="2009">2K</span>
+		</span>
+		<time datetime="2015-01-24T23:03:53+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/gadgets/2014/07/04/use-personal-drones-legally-beginners-guide/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/07/drone-730x280.jpg"></div>
+	<h3 class="postMicro-title"><span>How to use personal drones legally: A beginner&#8217;s guide</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="1111">1.1K</span>
+		</span>
+		<time datetime="2014-07-04T18:01:15+0200" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/apps/2014/04/19/11-android-apps-make-notifications-interesting/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/Notifications-730x280.jpg"></div>
+	<h3 class="postMicro-title"><span>11 Android apps to make notifications more interesting</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="2083">2.1K</span>
+		</span>
+		<time datetime="2014-04-19T19:00:03+0200" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/entrepreneur/2014/03/24/raise-prices-without-ruining-business/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/03/blank-price-tag-520x275.jpg"></div>
+	<h3 class="postMicro-title"><span>How to raise prices without ruining your business</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="724">724</span>
+		</span>
+		<time datetime="2014-03-24T17:41:28+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/entrepreneur/2014/03/20/mobile-bridging-brick-mortars-data-gap/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/03/shopping-in-store-tablet-520x269.jpg"></div>
+	<h3 class="postMicro-title"><span>How mobile is bridging brick and mortar&#8217;s data gap</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="832">832</span>
+		</span>
+		<time datetime="2014-03-20T15:12:04+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+                            </div>
+                                                        <div class="sidebar-block sidebar-block--recommended">
+                                <h2 class="sidebar-block-title">Recommended</h2>
+                                <a class="postMicro ab-test" href="http://thenextweb.com/future-of-communications/2016/02/17/the-ultimate-guide-to-selecting-a-device-authentication/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_232618711-220x220.jpg"></div>
+	<h3 class="postMicro-title"><span>The ultimate guide to device authentication</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="139">139</span>
+		</span>
+		<time datetime="2016-02-17T15:50:52+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+                            </div>
+                                                        <!-- Ad unit: Sharethrough -->
+                            <div class="sidebar-block sidebar-block--ad" id="ad-unit-sharethrough-sidebar">
+                                <div id="div-gpt-ad-13687837252244825-0" style="display:none;"></div>
+                            </div>
+                            <!-- Ad unit: Right -->
+                            <div class="sidebar-block sidebar-block--ad" id="ad-unit-right">
+                                <div id="div-gpt-ad-1368717423425-1" style="display:none;"></div>
+                            </div>
+                                                        <div class="sidebar-block sidebar-block--most-popular">
+                                <h2 class="sidebar-block-title">Most popular</h2>
+                                <a class="postMicro ab-test" href="http://thenextweb.com/apps/2016/02/16/ibm-has-just-open-sourced-44000-lines-of-blockchain-code-on-github/" onclick="ga('primary.send', 'event', 'Article', 'Most Popular', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2013/11/IBM-730x280.jpg"></div>
+	<h3 class="postMicro-title"><span>IBM has just open-sourced 44,000 lines of blockchain code on GitHub</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="4106">4.1K</span>
+		</span>
+		<time datetime="2016-02-16T16:35:08+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/insider/2016/02/16/why-you-wont-recognize-seo-in-5-years/" onclick="ga('primary.send', 'event', 'Article', 'Most Popular', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/anderson1-copy-2-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Why you won&#8217;t recognize SEO in 5 years</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="1256">1.3K</span>
+		</span>
+		<time datetime="2016-02-16T14:30:26+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/dd/2016/02/17/google-has-open-sourced-its-ios-app-testing-tool/" onclick="ga('primary.send', 'event', 'Article', 'Most Popular', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://thenextweb.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_300613664-iOS-testing-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Google has open-sourced its iOS app testing tool</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="1085">1.1K</span>
+		</span>
+		<time datetime="2016-02-17T08:44:11+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/gadgets/2016/02/16/the-zx-spectrum-is-coming-back-as-a-handheld-console/" onclick="ga('primary.send', 'event', 'Article', 'Most Popular', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/vegaplus_feat-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>The ZX Spectrum is coming back as a handheld console</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="2240">2.2K</span>
+		</span>
+		<time datetime="2016-02-16T13:02:54+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/apple/2016/02/17/judge-orders-apple-to-help-unlock-san-bernadino-shooters-iphone/" onclick="ga('primary.send', 'event', 'Article', 'Most Popular', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/iPhone-unlock-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Apple says it can’t comply with court order to hack San Bernadino shooter&#8217;s iPhone</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="1340">1.3K</span>
+		</span>
+		<time datetime="2016-02-17T05:43:14+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+                            </div>
+                                                    <!-- Ad unit: Sharethrough -->
+                        <div class="sidebar-block sidebar-block--ad" id="ad-unit-sharethrough-sidebar-direct">
+                            <div id="div-gpt-ad-136823425554825-0" style="display:none;"></div>
+                        </div>
+                                                    <div class="sidebar-block sidebar-block--latest-stories">
+                                <h2 class="sidebar-block-title">Latest stories</h2>
+                                <a class="postMicro ab-test" href="http://thenextweb.com/dd/2016/02/17/super-smart-ai-epically-fails-8th-grade-science-test/" onclick="ga('primary.send', 'event', 'Article', 'Latest News', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/12/robots-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Super-smart AI epically fails 8th grade science test</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="0">0</span>
+		</span>
+		<time datetime="2016-02-17T22:36:13+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/apps/2016/02/17/fandango-just-bought-rotten-tomatoes-and-flixster/" onclick="ga('primary.send', 'event', 'Article', 'Latest News', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Fandango-Certified-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Fandango just bought Rotten Tomatoes and Flixster</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="1">1</span>
+		</span>
+		<time datetime="2016-02-17T22:21:49+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/apple/2016/02/17/apple-is-issuing-1-5-billion-in-bonds-to-help-the-company-go-green/" onclick="ga('primary.send', 'event', 'Article', 'Latest News', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2013/10/applecampus-3-645x250-520x201.png"></div>
+	<h3 class="postMicro-title"><span>Apple is issuing $1.5 billion in bonds to help the company go green</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="0">0</span>
+		</span>
+		<time datetime="2016-02-17T22:17:57+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/dd/2016/02/17/github-adds-templates-for-pull-requests-and-issues-to-help-push-projects-forward/" onclick="ga('primary.send', 'event', 'Article', 'Latest News', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/GitHubTemplateTNW-520x264.jpg"></div>
+	<h3 class="postMicro-title"><span>GitHub adds templates for Pull Requests and Issues to help push projects forward</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="0">0</span>
+		</span>
+		<time datetime="2016-02-17T21:13:54+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/microsoft/2016/02/17/outlooks-web-app-gets-themes-giphy-support-and-tight-office-integration-in-big-update/" onclick="ga('primary.send', 'event', 'Article', 'Latest News', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Outlook-out-of-preview-1b-1024x576-520x293.png"></div>
+	<h3 class="postMicro-title"><span>Outlook&#8217;s Web app gets themes, Giphy support and tight Office integration in big update</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="0">0</span>
+		</span>
+		<time datetime="2016-02-17T20:57:27+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+                            </div>
+                                                    <div class="sidebar-block">
+                            <h2 class="sidebar-block-title">Stay tuned</h2>
+                            <h3 class="sidebar-block-subtitle">Let the news come to you.</h3>
+                            <div class="sidebar-block-box socialBlock">
+                                <form method="post" target="_blank"
+                                      action="http://thenextweb.us1.list-manage1.com/subscribe/post?u=22ec88eb9b9d8bc3bcf660787&id=32f70ba9aa"
+                                      class="socialBlock-thing socialBlock-thing--newsletter newsletterSignup"
+                                      onsubmit="dataLayer.push({'event': 'newsletterSignup', 'newsletter': [{'location': 'Article' }] });">
+                                    <input name="EMAIL" class="newsletterSignup-input" type="email"
+                                           placeholder="Email address">
+                                    <button type="submit" class="newsletterSignup-submit button">Subscribe</button>
+                                    <input type="hidden" value="TheNextWeb" name="uri">
+                                    <input type="hidden" name="loc" value="en_US">
+                                </form>
+                                <div class="socialBlock-thing socialBlock-thing--follow js-socialPreload"
+                                     data-social-preload-type="twitterFollow">
+                                    <img
+                                        src="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/img/twitter/twttr-follow-button-v2.png">
+                                </div>
+                                                                    <div class="socialBlock-thing socialBlock-thing--facebox js-socialPreload"
+                                         data-social-preload-type="facebookFacebox"></div>
+                                                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    		</div><!--/ #main -->
+				<footer class="footer">
+			<div class="clear footer-block footer-block--top">
+				<div class="u-wrapper">
+					<a class="footer-logo" href="/" onclick="ga('primary.send', 'event', 'Footer', 'Logo', {'nonInteraction': 1, transport: 'beacon'});" title="The Next Web">The Next Web</a>
+					<ul class="footer-links">
+						<li><a href="http://thenextweb.com/about/" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'About', {'nonInteraction': 1, transport: 'beacon'});" title="About">About</a></li>
+						<li><a href="http://thenextweb.homerun.hr" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Jobs', {'nonInteraction': 1, transport: 'beacon'});" title="Jobs">Jobs</a></li>
+						<li><a href="http://thenextweb.com/about/team/" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Team', {'nonInteraction': 1, transport: 'beacon'});" title="Team">Team</a></li>
+						<li><a href="http://thenextweb.com/advertise/" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Advertise', {'nonInteraction': 1, transport: 'beacon'});" title="Advertise">Advertise</a></li>
+						<li><a href="http://thenextweb.com/privacy-policy/" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Privacy', {'nonInteraction': 1, transport: 'beacon'});" title="Privacy">Privacy</a></li>
+						<li><a href="http://thenextweb.com/tos/" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Terms', {'nonInteraction': 1, transport: 'beacon'});" title="Terms">Terms</a></li>
+						<li><a href="mailto:beta@thenextweb.com" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Feedback on beta', {'nonInteraction': 1, transport: 'beacon'});" title="Feedback">Feedback</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear footer-block footer-block--bottom">
+				<div class="u-wrapper">
+					<div class="footer-half footer-half--left">
+						<ul class="footer-follow">
+							<li class="footer-follow--twitter"><a href="https://www.twitter.com/thenextweb" title="Follow us on Twitter" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-twitter"></i></a></li>
+							<li class="footer-follow--facebook"><a href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Facebook', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-facebook"></i></a></li>
+							<li class="footer-follow--googleplus"><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Google+', {'nonInteraction': 1, transport: 'beacon'});" target="_blank">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="22" height="22">
+									<path d="M48,22h-5v-5h-4v5h-5v4h5v5h4v-5h5 M16,21v6.24h8.72c-0.67,3.76-3.93,6.5-8.72,6.5c-5.28,0-9.57-4.47-9.57-9.75s4.29-9.74,9.57-9.74c2.38,0,4.51,0.82,6.19,2.42v0.01l4.51-4.51C23.93,9.59,20.32,8,16,8C7.16,8,0,15.16,0,24s7.16,16,16,16c9.24,0,15.36-6.5,15.36-15.64c0-1.17-0.11-2.29-0.31-3.36C31.05,21,16,21,16,21z"/>
+								</svg>
+							</a></li>
+							<li class="footer-follow--youtube"><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube" onclick="ga('primary.send', 'event', 'Top', 'Social', 'YouTube', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-youtube"></i></a></li>
+							<li class="footer-follow--linkedin"><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn" onclick="ga('primary.send', 'event', 'Top', 'Social', 'LinkedIn', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-linkedin"></i></a></li>
+							<li class="footer-follow--pinterest"><a href="https://www.pinterest.com/thenextweb/" title="Follow us on Pinterest" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Pinterest', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-pinterest"></i></a></li>
+							<li class="footer-follow--instagram"><a href="https://instagram.com/thenextweb/" title="Follow us on Instagram" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Instagram', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-instagram"></i></a></li>
+							<li class="footer-follow--vine"><a href="https://vine.co/thenextweb/" title="Follow us on Vine" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Vine', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-vine"></i></a></li>
+							<li class="footer-follow--rss"><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" onclick="ga('primary.send', 'event', 'Top', 'Social', 'RSS', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-rss"></i></a></li>
+						</ul>
+						<blockquote class="footer-quote">
+							<div class="m-1">
+								<span></span>
+								<cite></cite>
+							</div>
+							<a class="button button--small button--twitter js-socialPreload" data-social-preload-type="twitterIntent" title="Share this quote on Twitter" href="https://twitter.com/intent/tweet?"
+							onclick="ga('primary.send', 'event', 'Footer Quote', 'Footer Quote', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});"
+							target='_blank'>
+								<i class="ss-social ss-twitter"></i> Share
+							</a>
+						</blockquote>
+
+					</div>
+					<div class="footer-half footer-half--right">
+						<ul class="footer-partners">
+							<li><!-- Ad unit: Footer --><span id="div-gpt-ad-1383298902094-0"></span></li>
+							<li><a href="http://www.maxcdn.com/" onclick="ga('primary.send', 'event', 'Footer', 'Sponsor', 'MaxCDN', {'nonInteraction': 1, transport: 'beacon'});" rel="nofollow" title="MaxCDN"><img alt="MaxCDN" src="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/img/maxcdn.png" data-no-retina width="250" height="250"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="u-wrapper">
+				<p class="footer-legal">
+					&copy; 2001&ndash;2016					The Next Web, Inc.
+					All&nbsp;rights&nbsp;reserved.
+				</p>
+			</div>
+		</footer>
+		<!-- TNW Modal -->
+		<div class="modal tnw-modal" id="newsletter-signup-modal"
+	 data-outbound-modal	 data-analytics="newsletter">
+	<div class="modal-window">
+		<div class="modal-header">
+			<a class="closeIcon" href="#close" title="Esc">
+				<i class="ss-pika ss-delete"></i>
+			</a>
+		</div>
+		<div class="modal-body">
+			<div class="modal-newsletter m-3">
+
+
+	<h2 class="m-0-5">
+		Don't Miss The Hottest Tech News
+	</h2>
+	<div class="wrapper">
+		<p class="m-1-5">
+			Get our free weekly digest by our <br /> Editor-at-Large <img alt='Martin Bryant' src='http://1.gravatar.com/avatar/7f87e4ffb862af3cb3cf401c2e40b7e6?s=150&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7f87e4ffb862af3cb3cf401c2e40b7e6?s=300&amp;d=mm&amp;r=g 2x' class='avatar avatar-150 photo' height='150' width='150' /> Martin Bryant
+		</p>
+		<div>
+			<form target="_blank" action="/ajax/subscribeNewsletter.php" accept-charset="utf-8" autocomplete="off" method="post" data-xhr onsubmit="dataLayer.push({'event': 'newsletterSignup', 'newsletter': [{'location': 'Modal' }] });">
+				<div class="input-block input-and-button">
+					<span class="input-arrow"> <i class="ss-pika ss-right"></i> </span>
+					<span class="email-icon"> <i class="ss-pika ss-mail"></i> </span>
+					<input name="email" class="w-75" name="email" type="email" placeholder="Enter your email" required>
+					<button class="w-25 button" type="submit">Go</button>
+				</div>
+				<input type="hidden" name="group[6][4]" value="1">
+			</form>
+		</div>
+		<div class="modal-thankYou">
+			Thanks for subscribing! You will receive your first newsletter soon.
+		</div>
+		<div class="modal-error">
+			Ooops! We're sorry, but something went wrong.
+		</div>
+	</div>
+</div>		</div>
+	</div>
+</div>		<!-- / TNW Modal -->
+		<div id="img-preload" style="display: none;"></div>
+		<!-- Ad unit: 1x1 -->
+		<div id="roadblock-1x1">
+			<div id="div-gpt-ad-1416913725-0" style="display: none;"></div>
+		</div>
+		<script src="http://cdn0.tnwcdn.com/assets/js/advertising.js"></script>
+					<script src="http://cdn0.tnwcdn.com/wp-content/themes/icetea/lemonsoda/js/scripts.min.js?v=1455715455" type="text/javascript"></script>
+					<noscript>
+			<img alt="" height="1" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1055417172/?value=0&amp;guid=ON&amp;script=0" style="border-style: none;" width="1">
+		</noscript>
+					
+				<script type='text/javascript' src='http://cdn1.tnwcdn.com/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+
+					<script>
+						var _roost = _roost || [];
+						TNW.components.browserNotifications.init();
+						 _roost.push(['onload', function(data) {
+							  dataLayer.push({'event': 'roostPopup' });
+						 }]);
+					</script>
+					</body>
+</html>

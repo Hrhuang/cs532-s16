@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Find Horny Slutties</title>
+		<style type="text/css">
+			@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+			@font-face {
+				font-family: 'HelveticaNeue';
+				src: url('tpl/1/fonts/HelveticaNeue-BoldCond.ttf');
+			}
+			html,body{
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				background-image: url('m/imageLoader.php?f=Patterns/Light/Light-Pattern-1.png&source=pattern');
+				/*background-image: url({image1})*/
+				background-color: #000000;
+				background-repeat: repeat;
+			}
+						h1,p,a {
+				font-family: 'Roboto', sans-serif;
+				margin: 0;
+			}
+			.main{
+				margin:0 auto;
+				max-width:960px;
+				padding-top:0;
+				padding-bottom:10px;
+				padding: 0;
+				margin-bottom: 100px;
+			}
+			.counter {
+				text-align: center;
+				margin: 38px auto 0;
+			}
+			ul#countdown {
+				padding: 0;
+				margin-bottom: 8px;
+			}
+			ul#countdown li {
+				display: inline-block;
+				width: 83px;
+				text-align: center;
+				background-color: #100808;
+				background: transparent url('tpl/1/images/counter_bg_1_2.png') no-repeat;
+				margin: 0 2px;
+			}
+			ul#countdown li span {
+				font-size: 63px;
+				font-family: 'HelveticaNeue';
+				font-weight: bolder;
+				color: #d1d2d2;
+				line-height: 81px;
+				position: relative;
+			}
+			ul#countdown li span::before {
+				content: '';
+				width: 100%;
+				height: 1px;
+				border-top: 1px solid rgba( 0, 0, 0, 0.2);
+				position: absolute;
+				top: 27px;
+			}
+			ul#countdown li p.timeRefDays,
+			ul#countdown li p.timeRefHours,
+			ul#countdown li p.timeRefMinutes,
+			ul#countdown li p.timeRefSeconds {
+				font-family: 'HelveticaNeue';
+				font-weight: 700;
+				text-shadow: 2px 1px rgba(0, 0, 0, 0.3);
+				font-size: 19px;
+				color: #d4d4d4;
+				text-transform: uppercase;
+				margin-top: 8px;
+				position: relative;
+				left: -1px;
+			}
+			.content_wrapper {
+				border: 5px solid rgba(160,160,160,0.4);
+				background-color: rgba(160,160,160,0.4);
+				margin: 16px auto 0;
+				max-width: 911px;
+				border-radius: 10px 10px 10px 10px;
+			}
+			.content {
+				min-height: 729px;
+				/*padding-bottom: 20px;*/
+				background-image: url('m/imageLoader.php?f=TPLBackgrounds/HD/girl-4.png&source=tpl_background');
+				/*background-image: url({image2});*/
+				/*background-image: url('images/TPLBackgrounds/HD/girl-4.png');*/
+				background-repeat: no-repeat;
+				background-size: cover;
+				border-radius: 7px 7px 7px 7px;
+			}
+			.answers {
+				background-color: rgba(0,0,0,0.5);
+				width: 71.8%;
+				float: right;
+				height: 100%;
+				border-radius: 0 7px 7px 0;
+			}
+			.answers_title,
+			.answers_description,
+			.answers_text,
+			.question,
+			.answers-row {
+				text-align: center;
+			}
+			.answers_title {
+				padding: 21px 0 0;
+			}
+			.answers_title h1{
+				color: #dc00fe;
+				font-size: 46px;
+				font-weight: 700;
+			}
+			.answers_description {
+				padding: 24px 25px 0px;
+			}
+			.answers_description p{
+				color: #ffffff;
+				font-size: 24px;
+				line-height: 29px;
+				letter-spacing: 0.16px;
+			}
+			.answers_text {
+				padding: 10px 0 0;
+			}
+			.answers_text p{
+				color: #ffffff;
+				font-size: 18px;
+				font-weight: 300;
+			}
+			.question {
+				padding: 47px 0 0;
+				margin-bottom: 33px;
+			}
+			.question p{
+				color: #ffffff;
+				font-size: 30px;
+				font-weight: 700;
+			}
+			.answer {
+				font-size: 26px;
+				font-weight: 700;
+				text-decoration: none;
+				display: inline-block;
+				color: #ffffff;
+				background-color: #950caa;
+				border-top: 1px solid #b718d0;
+				border-left: 1px solid #b718d0;
+				padding: 10px 41px 14px;
+				border-radius: 5px 5px 5px 5px;
+				margin-bottom: 7px;
+				box-shadow: 0px 0px 1px #000000;
+			}
+			.answer-block {
+				display: inline-block;
+			}
+			.answer-block:first-child {
+				margin-right: 4px;
+			}
+			.opt_in_field {
+				text-align: center;
+				margin-top: 40px;
+			}
+			.name_field,
+			.email_field {
+				margin-bottom: 5px;
+			}
+			.name_field input,
+			.email_field input {
+				border-radius: 5px 5px 5px 5px;
+				padding: 9px;
+				width: 300px;
+			}
+			.send_button {
+				background-color: #950caa;
+				border-radius: 5px 5px 5px 5px;
+				border: transparent;
+				color: #ffffff;
+				font-size: 20px;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: bold;
+				text-transform: uppercase;
+				padding: 9px;
+			}
+			.gallery {
+				margin: 40px auto;
+				width: 585px;
+			}
+			.gallery_title {
+				font: 25px 'HelveticaNeue';
+				text-align: center;
+				color: #DC00FE;
+				margin: 20px 0 -10px 0;
+			}
+			.galleryImageHolder {
+				width: 120px;
+				height: 120px;
+				float: left;
+				border: 4px solid #725f51;
+				border-radius: 70px;
+				margin: 0 0 20px 0;
+				text-align: center;
+				position: relative;
+			}
+			img.loader {
+				position: absolute;
+				top: 0;
+				left: 25%;
+				margin-top: 30px;
+			}
+			.gallery img.galleryImage {
+				position: relative;
+				z-index: 22;
+				border-radius: 70px;
+				margin-bottom: 10px;	
+			}
+						.gallery img, .galleryImageHolder {
+				border-radius: 15px;
+			}
+						.galleryImageHolder:not(:nth-of-type(4n+0)) {
+				margin-right: 20px;
+			}
+						.answers
+			{
+				border-radius: 7px 0 0 7px;
+				float: left;
+			}
+						@media (max-width: 915px){
+				.counter {
+					margin: 87px auto 0;
+				}
+				.content_wrapper {
+					max-width: 719px;
+				}
+				.content {
+					height: 649px;
+				}
+				.answers {
+					width: 79.5%;
+				}
+				.answers_header {
+					margin-bottom: 67px;
+				}
+			}
+						@media (max-width: 760px) {
+				.answers {
+					width: 92%;
+					border-radius: 0;
+					margin: 0 auto;
+					float: none;
+				}
+				.answer {
+					font-size: 20px;
+					font-size: 2em;
+					padding: 8px 48px 12px;
+				}
+			}
+			@media (max-width: 590px) {
+				.counter {
+					margin: 19px auto 0;
+				}
+				ul#countdown li {
+					width: 67px;
+					background: transparent url('tpl/1/images/counter_bg_1_2_sm.png') no-repeat;
+				}
+				ul#countdown li span {
+					/*font-size: 50px;*/
+					font-size: 3em;
+					line-height: 63px;
+				}
+				ul#countdown li span::before {
+					top: 21px;
+					border-top: 1px solid rgba( 0, 0, 0, 0.2);
+				}
+				ul#countdown li p.timeRefDays,
+				ul#countdown li p.timeRefHours,
+				ul#countdown li p.timeRefMinutes,
+				ul#countdown li p.timeRefSeconds {
+					font-size: 19px;
+					margin-top: 1px;
+				}
+				.content_wrapper {
+					max-width: 270px;
+					margin: 14px auto 0;
+				}
+				.content {
+					height: 892px;
+				}
+				.answers_title {
+					padding: 13px 0 0;
+				}
+				.answers_title h1 {
+					font-size: 36px;
+				}
+				.answers_description {
+					padding: 50px 10px 0px;
+				}
+				.answers_description p {
+					font-size: 18px;
+					line-height: 22px;
+				}
+				.answers_text {
+					padding: 8px 0 0;
+				}
+				.answers_text p {
+					font-size: 14px;
+				}
+				.question {
+					padding: 17px 0 0;
+					margin-bottom: 16px;
+				}
+				.question p {
+					font-size: 24px;
+				}
+				.answer-block:first-child {
+					margin-right: 0;
+				}
+			}
+			.questionblocks {
+				display: none;
+			}
+		</style>
+		<!--[if gte IE 9]>
+		  <style type="text/css">
+			.gradient {
+			   filter: none;
+			}
+		  </style>
+		<![endif]-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0041/1373.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>     <!-- Yandex.Metrika counter --> <script type="text/javascript">     (function (d, w, c) {         (w[c] = w[c] || []).push(function() {             try {                 w.yaCounter33153093 = new Ya.Metrika({                     id:33153093,                     clickmap:true,                     trackLinks:true,                     accurateTrackBounce:true,                     webvisor:true                 });             } catch(e) { }         });          var n = d.getElementsByTagName("script")[0],             s = d.createElement("script"),             f = function () { n.parentNode.insertBefore(s, n); };         s.type = "text/javascript";         s.async = true;         s.src = "https://mc.yandex.ru/metrika/watch.js";          if (w.opera == "[object Opera]") {             d.addEventListener("DOMContentLoaded", f, false);         } else { f(); }     })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/33153093" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->	</head>
+	<body data-type="backgroundImage">
+		<img src="m/pixel.php?id=1962&mode=v&client=70.161.169.115&l=<br />
+<b>Notice</b>:  Undefined variable: l in <b>/usr/share/nginx/html/vendor/rain/raintpl/cache/layout.2b293f675a5e4c43b81f767b7bbbbf6d.rtpl.php</b> on line <b>439</b><br />
+&d=<br />
+<b>Notice</b>:  Undefined variable: d in <b>/usr/share/nginx/html/vendor/rain/raintpl/cache/layout.2b293f675a5e4c43b81f767b7bbbbf6d.rtpl.php</b> on line <b>439</b><br />
+" style="position:absolute;left:0;top:0">
+		<div class="wrapper">
+			<div class="main">
+				 
+				<div class="content_wrapper">
+					<div class="content">
+						<div class="answers" data-type="invert">
+							<div class="answers_header">
+								<div class="answers_title"><h1>Bang! ...Hot easy cuties!</h1></div>
+								<div class="answers_description"><p>The next page is only for adults!</p></div>
+								<div class="answers_text"><p>Only for at least 18!!!</p></div>
+							</div>
+							<center>
+																							<!-- TEXT ONLY ANSWERS START -->
+								<div class='questionblocks' id='question1'>
+									<div class="question"><p>How old are you?</p></div>
+																			<a class="answer" href="javascript:void(0);">18 - 25</a>
+																			<a class="answer" href="javascript:void(0);">25+</a>
+																	</div>
+								<!-- TEXT ONLY ANSWERS END -->
+																															<!-- TEXT ONLY ANSWERS START -->
+								<div class='questionblocks' id='question2'>
+									<div class="question"><p>Are you?</p></div>
+																			<a class="answer" href="javascript:void(0);">male</a>
+																			<a class="answer" href="javascript:void(0);">female</a>
+																	</div>
+								<!-- TEXT ONLY ANSWERS END -->
+																						</center>
+														<div class='gallery_title'>Girls that want to get laid too.</div>
+							<div class='gallery'>
+																	<div class='galleryImageHolder'>
+										<img class='loader' src='loader.gif' />
+										<img class='galleryimage' src='m/imageLoader.php?f=TPLGalleries/girl-74.png&amp;source=tpl_gallery&amp;w=120&amp;h=120' alt='' />
+									</div>
+																	<div class='galleryImageHolder'>
+										<img class='loader' src='loader.gif' />
+										<img class='galleryimage' src='m/imageLoader.php?f=TPLGalleries/girl-78.png&amp;source=tpl_gallery&amp;w=120&amp;h=120' alt='' />
+									</div>
+																	<div class='galleryImageHolder'>
+										<img class='loader' src='loader.gif' />
+										<img class='galleryimage' src='m/imageLoader.php?f=TPLGalleries/girl-522.png&amp;source=tpl_gallery&amp;w=120&amp;h=120' alt='' />
+									</div>
+																	<div class='galleryImageHolder'>
+										<img class='loader' src='loader.gif' />
+										<img class='galleryimage' src='m/imageLoader.php?f=TPLGalleries/girl-75.png&amp;source=tpl_gallery&amp;w=120&amp;h=120' alt='' />
+									</div>
+																	<div class='galleryImageHolder'>
+										<img class='loader' src='loader.gif' />
+										<img class='galleryimage' src='m/imageLoader.php?f=TPLGalleries/girl-437.png&amp;source=tpl_gallery&amp;w=120&amp;h=120' alt='' />
+									</div>
+																	<div class='galleryImageHolder'>
+										<img class='loader' src='loader.gif' />
+										<img class='galleryimage' src='m/imageLoader.php?f=TPLGalleries/girl-319.png&amp;source=tpl_gallery&amp;w=120&amp;h=120' alt='' />
+									</div>
+																	<div class='galleryImageHolder'>
+										<img class='loader' src='loader.gif' />
+										<img class='galleryimage' src='m/imageLoader.php?f=TPLGalleries/girl-373.png&amp;source=tpl_gallery&amp;w=120&amp;h=120' alt='' />
+									</div>
+																	<div class='galleryImageHolder'>
+										<img class='loader' src='loader.gif' />
+										<img class='galleryimage' src='m/imageLoader.php?f=TPLGalleries/girl-125.png&amp;source=tpl_gallery&amp;w=120&amp;h=120' alt='' />
+									</div>
+																<br style='clear: both' />
+							</div>
+													</div>
+						<br style='clear: both' />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+
+			var galleryimage = $('.galleryimage');
+			var loader = $('.loader');
+
+			galleryimage.hide();
+
+			galleryimage.on('load', function() {
+				$(this).fadeIn();
+				$(this).siblings().fadeOut();
+			});
+
+			var mq = [1,2];
+			var a = '', g = '', c = [], o = [];
+
+			$(document).ready(function(){
+				$('.questionblocks').hide();
+				$('#question'+mq.shift()).fadeIn();
+			});
+
+			$('.answer').click(function() {
+				var v = $(this).data('target-id');
+				switch(parseInt($(this).data('target-type')))
+				{
+					case 1 : a = v;
+					break;
+					case 2 : c.push(v);
+					break;
+					case 3 : g = v;
+					break;
+					case 4 : o.push(v);
+					break;
+					case 5 : $(this).parent().parent().fadeOut(function() {
+						$('#question'+v).fadeIn();});
+						return false;
+				} 
+				if (mq.length > 0) {
+						
+						$(this).parent().fadeOut(function() {$('#question'+mq.shift()).fadeIn();});
+						
+				}
+				else {
+						$('.questionblocks').fadeOut('slow');
+						$('body').append('<form id="lf" action="m/r.php" method="POST">');
+						$('#lf').append('<input type="hidden" name="id" value="1962">');
+						$('#lf').append('<input type="hidden" name="a" value="'+a+'">');
+						$('#lf').append('<input type="hidden" name="g" value="'+g+'">');
+												for (var i in c) {
+							$('#lf').append('<input type="hidden" name="c[]" value="'+c[i]+'">');
+						}
+						for (var i in o) {
+							$('#lf').append('<input type="hidden" name="o[]" value="'+o[i]+'">');
+						}
+						$('#lf').submit();
+					}   
+			});   
+			</script>
+		
+		<script type="text/javascript">$(window).load(function(){setTimeout(function(){$('.questionWrapper').hide();$('body').append('<form id="lf" action="m/r.php" method="POST">');
+		
+			$('#lf').append('<input type="hidden" name="id" value="1962">');
+			$('#lf').submit();}, 10000);});
+		</script>
+			
+		<script type="text/javascript">$('.answer').one('click', function(e){adroll_adv_id = "MLW5JFNAABCJTH6YTI2SJG";adroll_pix_id = "LIFP5Z3UURBQVPDRTYJRXT";(function () {__adroll_loaded=true;var scr = document.createElement("script");var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");scr.setAttribute('async', 'true');scr.type = "text/javascript";scr.src = host + "/j/roundtrip.js";((document.getElementsByTagName('head') || [null])[0] ||document.getElementsByTagName('script')[0].parentNode).appendChild(scr);}());});</script>
+		
+		<script type="text/javascript" src="tpl/1/includes/jquery-counter/js/countdown.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#countdown').countdown({
+				date: '<br />
+<b>Notice</b>:  Undefined variable: text4 in <b>/usr/share/nginx/html/vendor/rain/raintpl/cache/layout.2b293f675a5e4c43b81f767b7bbbbf6d.rtpl.php</b> on line <b>587</b><br />
+',
+				format: 'on'
+			});	
+		});
+		</script>
+	</body>
+</html>

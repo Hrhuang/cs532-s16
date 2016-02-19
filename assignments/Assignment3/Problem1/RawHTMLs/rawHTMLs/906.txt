@@ -1,0 +1,1440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="description" content="ばにばにパズル「浜辺のビンキーとお花」のジグソーパズル,ジグソーパズル パズコレ！！パズコレは投稿画像をもとに、オンライン上でFLASHジグソーパズルゲームを無料で作成＆遊んで楽しめるサイトです。会員登録すると途中セーブや遊んだジグソーパズルの成績を残したりコメントをつける事ができます。">
+<meta name="keywords"    content="ばにばにパズル「浜辺のビンキーとお花」,ジグソーパズル,パズル,FLASH,無料,オンライン,ゲーム">
+<meta name="robots" content="index,follow" />
+<link rel="contents" href="http://www.puzzcore.com/" title="ジグソーパズル パズコレ！！パズコレは投稿画像をもとに、オンライン上でFLASHジグソーパズルゲームを無料で作成＆遊んで楽しめるサイトです。会員登録すると途中セーブや遊んだジグソーパズルの成績を残したりコメントをつける事ができます。"/>
+<meta name="google-translate-customization" content="4a4b6cc5535667d3-4ed258f7fa3a3eda-gdfb3f1be9918c339-10">
+<title>ばにばにパズル「浜辺のビンキーとお花」のジグソーパズル | パズコレ 無料オンラインFLASHジグソーパズル ゲーム</title>
+<link rel="stylesheet" type="text/css" href="http://src.puzzcore.com//css/app.css?20150731"  >
+<link rel="shortcut icon" href="http://img.puzzcore.com/favicon.ico" >
+<link rel="image_src" href="http://img.puzzcore.com/img/webpagethumbnail.jpg" >
+<script type="text/javascript" src="http://src.puzzcore.com//js/jquery.js" ></script>
+<script type="text/javascript" src="http://src.puzzcore.com//js/jquery.suggest.min.js?20150731"  ></script>
+<script type="text/javascript" src="http://src.puzzcore.com//js/common.min.js?20150919"  ></script>
+<!--[if (gte IE 8)|!(IE)]><!-->
+<script type="text/javascript" src="http://src.puzzcore.com//js/reflection.js?130615"  ></script>
+<!--<![endif]-->
+<script type="text/javascript" src="http://src.puzzcore.com//js/comment.min.js?20151012"  ></script>
+<script type="text/javascript" src="http://src.puzzcore.com//js/pzl.js?20151012"  ></script>
+<link  rel="stylesheet" type="text/css" href="http://src.puzzcore.com//css/pzl.css?20151012">
+</head>
+<body>
+<a name="top"></a>
+<div id="container">
+	<div id="header">
+	<div id="header-logo">
+		<h1><a href="http://www.puzzcore.com/"><img src="http://img.puzzcore.com/img/img_logo.jpg" alt="ジグソーパズル パズコレ！！パズコレは投稿画像をもとに、オンライン上でFLASHジグソーパズルゲームを無料で作成＆遊んで楽しめるサイトです。会員登録すると途中セーブや遊んだジグソーパズルの成績を残したりコメントをつける事ができます。"></a></h1>
+	</div>
+	<div id="header-msg">
+	無料で遊べる、オンラインFLASH ジグソーパズルゲームサイトです<br/>
+	好きな画像を投稿する事でジグソーパズルが作って遊べます！！
+	<br/>
+	</div>
+	<div id="header-user">
+					こんにちはゲストさん
+			</div>
+	<div id="header-navi">
+		<dl class="dropdown">
+			
+							<dt><a href="/"         >TOP</a></dt>
+			<dt><a href="/signup/"  >会員登録</a></dt>
+			<dt><a href="/login/"   >ログイン</a></dt>
+			<dt><a href="/help/"    >ヘルプ</a></dt>
+			<dt><a href="/contact/" >お問合せ</a></dt>
+				</dl>
+	</div>
+		<div id="header-bookmark">
+		<div class="boxSocial" align="right">
+			<table align="right">
+				<tr>
+					<td><a href="https://plus.google.com/share?url=http://www.puzzcore.com/"  class="btnSNS google"  onclick="ga('send', 'event', 'share', 'google','/');"  target="_blank"><i class="icon-sns icon-google-plus"></i></a></td>
+					<td><a href="http://twitter.com/intent/tweet?url=http://www.puzzcore.com/&text=%E3%83%91%E3%82%BA%E3%82%B3%E3%83%AC+%E7%84%A1%E6%96%99%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3FLASH%E3%82%B8%E3%82%B0%E3%82%BD%E3%83%BC%E3%83%91%E3%82%BA%E3%83%AB+%E3%82%B2%E3%83%BC%E3%83%A0&tw_p=tweetbutton" class="btnSNS twitter"  onclick="ga('send', 'event', '_trackEvent', 'share', 'twitter','/');" target="_blank"><i class="icon-sns icon-twitter"></i></a></td>
+					<td><a href="http://www.facebook.com/sharer.php?src=bm&u=http://www.puzzcore.com/&t=%E3%83%91%E3%82%BA%E3%82%B3%E3%83%AC+%E7%84%A1%E6%96%99%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3FLASH%E3%82%B8%E3%82%B0%E3%82%BD%E3%83%BC%E3%83%91%E3%82%BA%E3%83%AB+%E3%82%B2%E3%83%BC%E3%83%A0" class="btnSNS facebook"  onclick="ga('send', 'event', 'share', 'facebook','/');" target="_blank"><i class="icon-sns icon-facebook" ></i></a></td>
+					<td><a href="http://b.hatena.ne.jp/add?mode=confirm&url=http://www.puzzcore.com/" class="btnSNS hatebu"  onclick="ga('send', 'event', 'share', 'hatebu','/');" target="_blank"><i class="icon-sns icon-hatebu" ></i></a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div id="header-ads">
+		<p class="semihide" style="width:728px; text-align:left;"><span class="mark">■</span><span style="font-weight:bold;">スポンサードリンク</span></p>
+
+<script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='INSERT_CLICKURL_HERE';
+
+if (location.protocol=='https:') {
+} else {
+   var m3_u = 'http://vsc.send.microad.jp/delivery/ajs.php';
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=1804");
+   document.write ('&amp;snr=2&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+}
+//]]>--></script><noscript><a href='http://vsc.send.microad.jp/delivery/ck.php?n=aed5fedf&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://vsc.send.microad.jp/delivery/avw.php?zoneid=1804&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=aed5fedf&amp;ct0=INSERT_CLICKURL_HERE&amp;snr=2' border='0' alt='' /></a></noscript>
+<div id="bnrHd"></div>
+
+
+	</div>
+	<div id="header-ads-t">
+		<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3460725456668384";
+google_ad_slot = "1853328023";
+google_ad_width = 468;
+google_ad_height = 15;
+google_ad_region = "puzzcore";
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+	</div>
+	
+	<!-- search ======================================================================= -->
+	<div id="header-link">
+		 | <a href="/latest/">最近投稿されたパズル</a>
+		 | <a href="/played/">最近遊ばれたパズル</a>
+		 | <a href="/popular/">人気のパズル</a>
+		 | <a href="/random/">ランダムパズル</a>
+		 | <a href="/tag/">タグ一覧</a>
+		 | 
+	</div>
+	<div id="header-piece">
+		<span class="caption" style="float:left">ピース数</span>
+		<ul class="celearfix">
+			<li> | <a href="/piece/2-15">2～15</a>&nbsp;</li>
+			<li> | <a href="/piece/16-49">16～49</a>&nbsp;</li>
+			<li> | <a href="/piece/50-99">50～99</a>&nbsp;</li>
+			<li> | <a href="/piece/100-149">100～149</a>&nbsp;</li>
+			<li> | <a href="/piece/150-199">150～199</a>&nbsp;</li>
+			<li> | <a href="/piece/200-299">200～299</a>&nbsp;</li>
+			<li> | <a href="/piece/300-399">300～399</a>&nbsp;</li>
+			<li> | <a href="/piece/400-450">400～450</a> | </li>
+		</ul>
+		<br />
+		<span class="caption" style="float:left">モザイク</span>
+		<ul class="celearfix">
+			<li> | <a href="/mosaic/">モザイクのみ</a> | </li>
+		</ul>
+	</div>
+	
+	<div id="header-search" class="clearfix">
+		<div class="form">
+			<div class="txt"><input type="text"   id="search_word" value=""></div>
+			<div class="btn"><input type="button" id="btnSearch" name="btnSearch" value="検索"></div>
+		</div>
+	</div>
+</div>
+	<div id="main" align="center">
+		<div id="main-box">
+			<div id="main-frame">
+				<div id="main-content">
+					<!-- google_ad_section_start -->
+					<script language="javascript">
+var PUZZLE_ID   = '1306255RRY';
+var URL_BNR_H   = '<iframe width="160" height="340" src="http://bnr.puzzcore.com/bnr_h/1306255RRY" scrolling="no" frameborder="0" style="border:solid 1px #cccccc;"></iframe>';
+var URL_BNR_W   = '<iframe width="400" height="200" src="http://bnr.puzzcore.com/bnr_w/1306255RRY" scrolling="no" frameborder="0" style="border:solid 1px #cccccc;"></iframe>';
+$(function()
+{
+	$('#codeBlogParts').attr('value', URL_BNR_H );
+});
+</script>
+<h2 class="hd"><span class="TBase TPuzzle" title="ばにばにパズル「浜辺のビンキーとお花」のジグソーパズル">ばにばにパズル「浜辺のビンキーとお花」</span></h2>
+<p class="semihide" style="width:728px; text-align:left;"><span class="mark">■</span><span style="font-weight:bold;">スポンサードリンク</span></p>
+<div id="ads-page-top">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-3460725456668384"
+     data-ad-slot="2472913512"
+     data-ad-region="puzzcore"
+     ></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<br/>
+
+
+<!-- detail ======================================================================= -->
+<div id="pzl-detail">
+	<h3 class="title">ばにばにパズル「浜辺のビンキーとお花」<wbr/></h3>
+	<div class="comment">
+		かなり難易度が高く上級者向け。<br />ビンキー「浜辺で紫色のお花を見つけたよ！」<br />　❤ばにばにをフォローしよう！【Twitter：@bunnybunnych 】
+		<span class="username"> by <a href="/user/9SQIMP82">ばにばに</a></span>
+	</div>
+	
+	<table id="pzl-detail-c">
+		<tr>
+						<td class="l">
+				<div class="img-in">
+					<div class="img">
+						<a href="javascript:void(0)" onClick="javascript:openPuzzleGame('1306255RRY');">
+						<img class="reflect rheight40 ropacity40"  src="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/1306255RRY/thumb2.jpg" alt="このパズルで遊ぶ"/></a>
+					</div>
+					<div class="play">
+						<a href="javascript:void(0)" onClick="javascript:openPuzzleGame('1306255RRY');" class="btnUI btnPlayPuzzle"    title="このジグソーパズルで遊ぶ">このジグソーパズルで遊ぶ</a>
+					</div>
+										<div class="palette">
+						<div align="left"><span class="mark">■</span>画像の色</div>
+												<a href="/color/333333" class="color" style="background:#333333"></a>
+												<a href="/color/666633" class="color" style="background:#666633"></a>
+												<a href="/color/336633" class="color" style="background:#336633"></a>
+												<a href="/color/669966" class="color" style="background:#669966"></a>
+												<a href="/color/999966" class="color" style="background:#999966"></a>
+												<a href="/color/cccccc" class="color" style="background:#cccccc"></a>
+												<a href="/color/666666" class="color" style="background:#666666"></a>
+												<a href="/color/333300" class="color" style="background:#333300"></a>
+												<a href="/color/cc9999" class="color" style="background:#cc9999"></a>
+												<a href="/color/669933" class="color" style="background:#669933"></a>
+												<a href="/color/ffcccc" class="color" style="background:#ffcccc"></a>
+												<a href="/color/999999" class="color" style="background:#999999"></a>
+												<a href="/color/996666" class="color" style="background:#996666"></a>
+												<a href="/color/000000" class="color" style="background:#000000"></a>
+												<a href="/color/cccc99" class="color" style="background:#cccc99"></a>
+												<a href="/color/99cc99" class="color" style="background:#99cc99"></a>
+												<a href="/color/000033" class="color" style="background:#000033"></a>
+												<a href="/color/ffffff" class="color" style="background:#ffffff"></a>
+												<a href="/color/663333" class="color" style="background:#663333"></a>
+												<a href="/color/99cc66" class="color" style="background:#99cc66"></a>
+												<a href="/color/336600" class="color" style="background:#336600"></a>
+												<a href="/color/003300" class="color" style="background:#003300"></a>
+											</div>
+										<div class="ads">
+						<p class="semihide"><span class="mark">■</span><span style="font-weight:bold;">スポンサードリンク</span></p>
+						<div>
+<script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='INSERT_CLICKURL_HERE';
+
+if (location.protocol=='https:') {
+} else {
+   var m3_u = 'http://vsc.send.microad.jp/delivery/ajs.php';
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=1834");
+   document.write ('&amp;snr=2&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+}
+//]]>--></script><noscript><a href='http://vsc.send.microad.jp/delivery/ck.php?n=a096e836&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://vsc.send.microad.jp/delivery/avw.php?zoneid=1834&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a096e836&amp;ct0=INSERT_CLICKURL_HERE&amp;snr=2' border='0' alt='' /></a></noscript>
+</div>
+					</div>
+				</div>
+			</td>
+						<td class="r">
+				<div id="pzl-detai-info">
+					<div class="item">
+						<h3 class="sub" style="font-size:10px;font-weight:normal;">このパズルについて</h3>
+						<div class="social">
+							<div class="boxSocial" align="right">
+	<table align="right">
+		<tr>
+			<td><a href="https://plus.google.com/share?url=http://www.puzzcore.com/pzl%2F1306255RRY"  class="btnSNS google"  onclick="ga('send', 'event', 'share', 'google','/pzl/1306255RRY');" target="_blank"><i class="icon-sns icon-google-plus"></i></a></td>
+			<td><a href="http://twitter.com/intent/tweet?url=http://www.puzzcore.com/pzl%2F1306255RRY&text=%E3%81%B0%E3%81%AB%E3%81%B0%E3%81%AB%E3%83%91%E3%82%BA%E3%83%AB%E3%80%8C%E6%B5%9C%E8%BE%BA%E3%81%AE%E3%83%93%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%A8%E3%81%8A%E8%8A%B1%E3%80%8D%E3%81%AE%E3%82%B8%E3%82%B0%E3%82%BD%E3%83%BC%E3%83%91%E3%82%BA%E3%83%AB+%7C+%E3%83%91%E3%82%BA%E3%82%B3%E3%83%AC+%E7%84%A1%E6%96%99%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3FLASH%E3%82%B8%E3%82%B0%E3%82%BD%E3%83%BC%E3%83%91%E3%82%BA%E3%83%AB+%E3%82%B2%E3%83%BC%E3%83%A0%20%23jigsaw%20%23puzzle%20%23game&tw_p=tweetbutton" class="btnSNS twitter"  onclick="ga('send', 'event', 'share', 'twitter','/pzl/1306255RRY');"  target="_blank"><i class="icon-sns icon-twitter"></i></a></td>
+			<td><a href="http://www.facebook.com/sharer.php?src=bm&u=http://www.puzzcore.com/pzl%2F1306255RRY&t=%E3%81%B0%E3%81%AB%E3%81%B0%E3%81%AB%E3%83%91%E3%82%BA%E3%83%AB%E3%80%8C%E6%B5%9C%E8%BE%BA%E3%81%AE%E3%83%93%E3%83%B3%E3%82%AD%E3%83%BC%E3%81%A8%E3%81%8A%E8%8A%B1%E3%80%8D%E3%81%AE%E3%82%B8%E3%82%B0%E3%82%BD%E3%83%BC%E3%83%91%E3%82%BA%E3%83%AB+%7C+%E3%83%91%E3%82%BA%E3%82%B3%E3%83%AC+%E7%84%A1%E6%96%99%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3FLASH%E3%82%B8%E3%82%B0%E3%82%BD%E3%83%BC%E3%83%91%E3%82%BA%E3%83%AB+%E3%82%B2%E3%83%BC%E3%83%A0" class="btnSNS facebook"  onclick="ga('send', 'event', 'share', 'facebook', '/pzl/1306255RRY');"  target="_blank"><i class="icon-sns icon-facebook" ></i></a></td>
+			<td><a href="http://b.hatena.ne.jp/add?mode=confirm&url=http://www.puzzcore.com/pzl%2F1306255RRY" class="btnSNS hatebu"  onclick="ga('send', 'event', 'share', 'hatebu', '/pzl/1306255RRY');"  target="_blank"><i class="icon-sns icon-hatebu" ></i></a></td>
+		</tr>
+	</table>
+</div>
+													</div>
+						<h3 class="sub">パズルの情報</h3>
+						<table class="info">
+							<tr>
+								<th>ピース数：</th><td class="pt">450</td>
+							</tr>
+							<tr>
+								<th>行 x 列：</th><td>18 x 25</td>
+							</tr>
+							<tr>
+								<th>ジャンル：</th>
+								<td>
+																			--
+																	</td>
+							</tr>
+							<tr>
+								<th>作成日：</th><td>2013/06/25 01:21</td>
+							</tr>
+							<tr>
+								<th>閲覧回数：</th><td>1539</td>
+							</tr>
+							<tr>
+								<th>総プレイ回数：</th><td>14</td>
+							</tr>
+							<tr>
+								<th>総クリア回数：</th><td>4</td>
+							</tr>
+						</table>
+					</div>
+																				
+										<div class="item">
+						<h3 class="sub">クリア時間ランキング</h3>
+						<table class="ranking">
+																									<tr class="pickup " >
+								<td class="rank">
+																			<img src="http://img.puzzcore.com/img/img_rank_1.gif" alt="1位" />
+																	</td>
+								<td class="photo"><a href="/user/ZZ83PG0R">
+																			<img class="user-icon" src="/img_user/ZZ8/ZZ83PG0R/360d597161f9fe7e3c647e2a199559cfffc0be26_w32.jpg" width="32"></a>
+																		
+								</td>
+								<td class="user"><a href="/user/ZZ83PG0R">車庫番</a>&nbsp;さん</td>
+								<td class="time pt">02:20:18</td>
+							</tr>
+																			<tr class="pickup " >
+								<td class="rank">
+																			<img src="http://img.puzzcore.com/img/img_rank_2.gif" alt="2位" />
+																	</td>
+								<td class="photo"><a href="/user/WD4ZOI00">
+																			<img class="user-icon" src="http://img.puzzcore.com//img_user/img_notfound_4_w32.jpg" width="32"></a>
+																		
+								</td>
+								<td class="user"><a href="/user/WD4ZOI00">にゃんざくら</a>&nbsp;さん</td>
+								<td class="time pt">03:00:38</td>
+							</tr>
+																			<tr>
+								<th colspan="3" class="avg">平均クリア時間：</th>
+								<td class="time pt avg">04:44:30</td>
+							</tr>
+						</table>
+						<div class="cmn-block-clear"></div>
+						<div><span class="caution-s">※ランキングはログインしている方のみが対象です</span></div>
+						<div><span class="caution-s">※ランキングは 02/18 08:24 に更新されました</span></div>
+											</div>
+										<div class="item">
+						<h3 class="sub">遊んだ人の評判</h3>
+						<table class="score">
+							<tr>
+								<th>難易度：</th><td><img src='http://img.puzzcore.com//img/img_icon_str_y.gif' /><img src='http://img.puzzcore.com//img/img_icon_str_y.gif' /><img src='http://img.puzzcore.com//img/img_icon_str_y.gif' /><img src='http://img.puzzcore.com//img/img_icon_str_y.gif' />(Lv 4.00)</td>
+							</tr>
+							<tr>
+								<th>遊んだ感じ良かった：</th><td class="pt">1pt</td>
+							</tr>
+							<tr>
+								<th>見た感じ良かった：</th><td class="pt">1pt</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+								<div id="pzl-pagecode">
+					<div class="url" ><span class="mark">■</span>このパズルのURL:<br/><input type="text" name="puzzle_url" value="http://www.puzzcore.com/pzl/1306255RRY" onClick="javascript:this.select();"  class="uiCode"></div>
+					<div class="blog"><span class="mark">■</span>貼り付けコード[<a href="/guide/blogparts/" target="_blank">？</a>] :<br/>
+						<select name="selectBlogParts" id="selectBlogParts">
+							<option value="bnr_h">リンクバナー縦</option>
+							<option value="bnr_w">リンクバナー横</option>
+						</select>
+						<input type="text" name="codeBlogParts" id="codeBlogParts" onClick="javascript:this.select();" style="font-size:12px;" value="読み込み中･･･"  class="uiCode">
+					</div>
+				    <div class="cmn-block-clear"></div>
+				</div>
+				<div id="pzl-notify">
+					<h3 class="sub">不正なパズルの報告</h3>
+					<p><img src="http://img.puzzcore.com/img/icon/exclam.png" class="icon"><a href="/claim/1306255RRY">不正なパズルの報告はこちらから</a></p>
+				</div>
+			</td>
+		</tr>
+	</table>
+		<div id="pzl-detail-b">
+				<div id="pzl-tag">
+			<div><span class="mark">■</span>登録されているタグ</div>
+			<span id="listTag">
+							<a href="/tag/海">海</a>
+							<a href="/tag/砂浜">砂浜</a>
+							<a href="/tag/浜">浜</a>
+							<a href="/tag/ばにばに">ばにばに</a>
+							<a href="/tag/ビンキー">ビンキー</a>
+						</span>
+				    </div>
+	</div>
+</div>
+<br/>
+
+
+<a name="comment" id="comment"></a>
+<h3 class="hd"><span class="TSub TPuzzleComment" title="このジグソーパズルに対するコメント">このジグソーパズルに対するコメント</span></h3>
+<div id="pzl-comment">
+				<span class="caution-s">※コメントを投稿するにはログインが必要です</span>
+		<br/>
+		
+	
+		<ol>
+		</ol>
+	<div style="margin-top:5px;"><span class="caution-s">※色が塗られているのはパズルの作者コメントです</span></div>
+	<div class="toDetail">
+		<div align="right"><a href="/comment/1306255RRY" class="btnUI btnMore"  title="もっとみる"></a></div>
+	</div>
+		</div>
+
+<div align="left">
+<table>
+	<tr>
+		<td align="left" width="340">
+			<p class="semihide"><span class="mark">■</span><span style="font-weight:bold;">スポンサードリンク</span></p>
+			<div>
+<div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-3460725456668384"
+     data-ad-slot="9095315793"
+     data-ad-region="puzzcore"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+		</td>
+		<td>
+			　　
+		</td>
+		<td width="340">
+			<p class="semihide">　</p>
+			<div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-3460725456668384"
+     data-ad-slot="8443896316"
+     data-ad-region="puzzcore"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+		</td>
+	</tr>
+</table>
+</div>
+<br/><br/>
+<h3 class="hd"><span class="TSub TPuzzleRelated" title="関連ジグソーパズル">関連ジグソーパズル</span></h3>
+<div id="pzl-related">
+	<div class="list">
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1511013SYU"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/4AQ/4AQAT8KK/1511013SYU/thumb1.jpg" alt="ドレミー・スイート" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1511013SYU" title="ドレミー・スイート">ドレミー・スイート</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 100ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130625QG87"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/130625QG87/thumb1.jpg" alt="ばにばにパズル「バナナの森で」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130625QG87" title="ばにばにパズル「バナナの森で」">ばにばにパズル「...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 130ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130626NHG5"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/130626NHG5/thumb1.jpg" alt="ばにばにパズル特別編「揺れる炸裂」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130626NHG5" title="ばにばにパズル特別編「揺れる炸裂」">ばにばにパズル特...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 324ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130725NRE1"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/F53/F53WZLES/130725NRE1/thumb1.jpg" alt="いっしょうけんめい" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130725NRE1" title="いっしょうけんめい">いっしょうけんめい</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 170ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/150617AJ4D"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/PHC/PHCQS5X9/150617AJ4D/thumb1.jpg" alt="とある科学の超電磁砲" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/150617AJ4D" title="とある科学の超電磁砲">とある科学の超電磁砲</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 100ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1110071T2B"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/IVL/IVL75WHI/1110071T2B/thumb1.jpg" alt="【パチンコ】デチハネCR北斗の拳ユリアSTV 大当たり" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1110071T2B" title="【パチンコ】デチハネCR北斗の拳ユリアSTV 大当たり">【パチンコ】デチ...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 289ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1306250EMB"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/1306250EMB/thumb1.jpg" alt="ばにばにパズル「みんなで育てよう」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1306250EMB" title="ばにばにパズル「みんなで育てよう」">ばにばにパズル「...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 24ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1306261VFW"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/1306261VFW/thumb1.jpg" alt="ばにばにパズル特別編「動く波１」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1306261VFW" title="ばにばにパズル特別編「動く波１」">ばにばにパズル特...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 72ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1112206K1L"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/1K9/1K9ZQ1E6/1112206K1L/thumb1.jpg" alt="船上の夕暮れ" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1112206K1L" title="船上の夕暮れ">船上の夕暮れ</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 154ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1306245DGL"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/1306245DGL/thumb1.jpg" alt="ばにばにパズル「タイムアタック!!」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1306245DGL" title="ばにばにパズル「タイムアタック!!」">ばにばにパズル「...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 60ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130625BWZV"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/130625BWZV/thumb1.jpg" alt="ばにばにパズル「砂に描いたビンキー」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130625BWZV" title="ばにばにパズル「砂に描いたビンキー」">ばにばにパズル「...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 252ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1108056ZRS"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/BCR/BCR8A6FQ/1108056ZRS/thumb1.jpg" alt="少女時代" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1108056ZRS" title="少女時代">少女時代</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 180ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130108VORS"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/2SF/2SFSV75C/130108VORS/thumb1.jpg" alt="★マリン・スポーツ★" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130108VORS" title="★マリン・スポーツ★">★マリン・スポーツ★</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 160ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130530LNC4"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/KM5/KM51YGL0/130530LNC4/thumb1.jpg" alt="私の南国" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130530LNC4" title="私の南国">私の南国</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 140ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1306250LN0"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/1306250LN0/thumb1.jpg" alt="ばにばにパズル「ビンキーのサーフィン」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1306250LN0" title="ばにばにパズル「ビンキーのサーフィン」">ばにばにパズル「...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 70ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/160210JN5M"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/4AR/4ARA6FJO/160210JN5M/thumb1.jpg" alt="青と赤の髪" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/160210JN5M" title="青と赤の髪">青と赤の髪</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 204ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1306258D6X"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/1306258D6X/thumb1.jpg" alt="ばにばにパズル「東京科学未来館」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1306258D6X" title="ばにばにパズル「東京科学未来館」">ばにばにパズル「...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 70ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/141102RLSA"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/N9M/N9MBDMK8/141102RLSA/thumb1.jpg" alt="Taberna del Egeo" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/141102RLSA" title="Taberna del Egeo">Taberna del Egeo</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 450ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/140311N9UA"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/RZF/RZFM8MY9/140311N9UA/thumb1.jpg" alt="Try-136" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/140311N9UA" title="Try-136">Try-136</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 450ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/150810YGY9"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/PHC/PHCQS5X9/150810YGY9/thumb1.jpg" alt="水泳の日" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/150810YGY9" title="水泳の日">水泳の日</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 104ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1009145OLO"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/37U/37UKP5FW/1009145OLO/thumb1.jpg" alt="taemin" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1009145OLO" title="taemin">taemin</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 220ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1212272J1T"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/4AQ/4AQAT8KK/1212272J1T/thumb1.jpg" alt="藤原妹紅" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1212272J1T" title="藤原妹紅">藤原妹紅</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 120ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1006157F3I"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/ANK/ANKMRHXH/1006157F3I/thumb1.jpg" alt="スーパー海物語" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1006157F3I" title="スーパー海物語">スーパー海物語</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 352ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130626GO6G"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/130626GO6G/thumb1.jpg" alt="ばにばにパズル特別編「異次元」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130626GO6G" title="ばにばにパズル特別編「異次元」">ばにばにパズル特...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 350ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/13091079YA"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/V0D/V0DQSXV4/13091079YA/thumb1.jpg" alt="種子島" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/13091079YA" title="種子島">種子島</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 144ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130626ABWA"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/130626ABWA/thumb1.jpg" alt="ばにばにパズル特別編「動く波２」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130626ABWA" title="ばにばにパズル特別編「動く波２」">ばにばにパズル特...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 273ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/1406049RN3"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/EWP/EWPHX5CO/1406049RN3/thumb1.jpg" alt="日本海" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/1406049RN3" title="日本海">日本海</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 100ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130629BKOK"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/G2F/G2FOVPUJ/130629BKOK/thumb1.jpg" alt=":*:･(*´∀｀*)･:*:･" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130629BKOK" title=":*:･(*´∀｀*)･:*:･">:*:･(*´∀｀*)･:*:･</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 2ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/150228IIDQ"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/IX0/IX0M08W2/150228IIDQ/thumb1.jpg" alt="とうらぶ" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/150228IIDQ" title="とうらぶ">とうらぶ</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 234ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130626BZS6"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/130626BZS6/thumb1.jpg" alt="ばにばにパズル「空飛ぶキャンディー」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130626BZS6" title="ばにばにパズル「空飛ぶキャンディー」">ばにばにパズル「...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 48ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/100930OGPW"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/P3D/P3D9CMHL/100930OGPW/thumb1.jpg" alt="空と海とカラスと街" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/100930OGPW" title="空と海とカラスと街">空と海とカラスと街</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 70ピース</div>
+</div>
+					
+<div class="unit">
+	<div class="img"><a href="/pzl/130625M7RV"><img class="lazy reflect" src="http://img.puzzcore.com/img/loader_pzl.gif" data-original="http://imgpzl.puzzcore.com//img_pzl/9SQ/9SQIMP82/130625M7RV/thumb1.jpg" alt="ばにばにパズル「イタリアに来たよ」" width="64" height="48"></a></div>
+	<div class="title"><a href="/pzl/130625M7RV" title="ばにばにパズル「イタリアに来たよ」">ばにばにパズル「...</a></div>
+	<div class="piece"><img src="http://img.puzzcore.com/img/img_icon_piece.gif" alt="ピース数"/> 130ピース</div>
+</div>
+			</div>
+</div>
+<br/><br/>
+
+					<!-- google_ad_section_end -->
+					<br/><br/>
+<div class="ads">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3460725456668384";
+google_ad_slot = "0969645393";
+google_ad_width = 468;
+google_ad_height = 15;
+google_ad_region = "puzzcore";
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+					<div style="width:100%; margin-top:100px;margin-bottom:50px; text-align:right;">
+	<div align="right" style="margin-right:10px;"><a href="#top" class="btnUI btnToTop"  title="ページの先頭へ"></a></div>
+</div>
+				</div>
+			</div>
+		</div>
+		<div id="navi-r">
+	<div class="ads-top">
+		
+<div class="ads">
+	<div>
+<script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='INSERT_CLICKURL_HERE';
+
+if (location.protocol=='https:') {
+} else {
+   var m3_u = 'http://vsc.send.microad.jp/delivery/ajs.php';
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=1474");
+   document.write ('&amp;snr=2&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+}
+//]]>--></script><noscript><a href='http://vsc.send.microad.jp/delivery/ck.php?n=a1fc37c6&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://vsc.send.microad.jp/delivery/avw.php?zoneid=1474&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a1fc37c6&amp;ct0=INSERT_CLICKURL_HERE&amp;snr=2' border='0' alt='' /></a></noscript>
+		</div>
+</div>
+
+
+
+
+
+	</div>
+	
+		<div class="box">
+	<div class="box-t">&nbsp;</div>
+	<div class="box-m">
+		<div class="box-c">
+			
+	<h3 class="sub">検索 <span class="semihide">search</span></h3>
+	<div id="navi-search-google">
+	<form action="http://www.google.com/cse" id="cse-search-box">
+	  <div>
+	    <input type="hidden" name="cx" value="partner-pub-3460725456668384:5081239305" />
+	    <input type="hidden" name="ie" value="UTF-8" />
+	    <input type="text" name="q" style="width:250px;" />
+	    <input type="submit" name="sa" value="検索" />
+	  </div>
+	</form>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+	<script type="text/javascript" src="http://www.google.com/cse/t13n?form=cse-search-box&t13n_langs=en"></script>
+	<script type="text/javascript" src="http://www.google.co.jp/coop/cse/brand?form=cse-search-box&amp;lang=ja"></script>
+	</div>
+			</div>
+	</div>
+	<div class="box-b">&nbsp;</div>
+</div>
+		<div class="box">
+	<div class="box-t">&nbsp;</div>
+	<div class="box-m">
+		<div class="box-c">
+			
+	<h3 class="sub">翻訳 <span class="semihide">translation</span></h3>
+	<div id="navi-translate" class="clearfix">
+		<p><img src="http://img.puzzcore.com/img/ico_language.jpg"> 言語:　</p>
+		<div id="google_translate_element"></div><script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'ja', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, gaTrack: true, gaId: 'UA-23412845-1'}, 'google_translate_element');
+		}
+		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		        
+	</div>
+			</div>
+	</div>
+	<div class="box-b">&nbsp;</div>
+</div>
+	
+		<div class="box">
+	<div class="box-t">&nbsp;</div>
+	<div class="box-m">
+		<div class="box-c">
+			
+	<div id="navi-genre">
+		<h3 class="sub">ジャンル一覧 <span class="semihide">genre</span></h3>
+		<ul class="clearfix">
+			<li><a href="/genre/G100">グルメ</a></li>
+			<li><a href="/genre/G101">インテリア</a></li>
+			<li><a href="/genre/G102">ファッション</a></li>
+			<li><a href="/genre/G110">スポーツ</a></li>
+			<li><a href="/genre/G115">季節物</a></li>
+			<li><a href="/genre/G120">自然・風景</a></li>
+			<li><a href="/genre/G130">街・建物</a></li>
+			<li><a href="/genre/G135">天体・宇宙</a></li>
+			<li><a href="/genre/G140">芸術</a></li>
+			<li><a href="/genre/G145">イラスト</a></li>
+			<li><a href="/genre/G146">CG</a></li>
+			<li><a href="/genre/G147">書籍</a></li>
+			<li><a href="/genre/G150">乗り物</a></li>
+			<li><a href="/genre/G160">動物</a></li>
+			<li><a href="/genre/G170">植物</a></li>
+			<li><a href="/genre/G190">ペット</a></li>
+			<li><a href="/genre/G210">人物</a></li>
+			<li><a href="/genre/G400">ゲーム</a></li>
+			<li><a href="/genre/G410">音楽</a></li>
+			<li><a href="/genre/G500">エンタメ</a></li>
+			<li><a href="/genre/G900">その他</a></li>
+		</ul>
+	</div>
+			</div>
+	</div>
+	<div class="box-b">&nbsp;</div>
+</div>
+
+	
+	
+		<div class="box">
+	<div class="box-t">&nbsp;</div>
+	<div class="box-m">
+		<div class="box-c">
+			
+	<div id="navi-tag">
+		<h3 class="sub">タグ <span class="semihide">tag</span></h3>
+		<ul class="clearfix">
+			<li><a href="/tag/デザート">デザート</a></li>
+			<li><a href="/tag/ケーキ">ケーキ</a></li>
+			<li><a href="/tag/スイーツ">スイーツ</a></li>
+			<li><a href="/tag/フルーツ">フルーツ</a></li>
+			
+			<li><a href="/tag/ハンバーガー">ハンバーガー</a></li>
+			<li><a href="/tag/パン">パン</a></li>
+			<li><a href="/tag/ラーメン">ラーメン</a></li>
+			<li><a href="/tag/カレー">カレー</a></li>
+			<li><a href="/tag/ランチ">ランチ</a></li>
+			<li><a href="/tag/民族料理">民族料理</a></li>
+			<li><a href="/tag/和食">和食</a></li>
+			<li><a href="/tag/寿司">寿司</a></li>
+			<li><a href="/tag/和菓子">和菓子</a></li>
+			<li><a href="/tag/弁当">弁当</a></li>
+			<li><a href="/tag/肉">肉</a></li>
+			<li><a href="/tag/お菓子">お菓子</a></li>
+
+			<li><a href="/tag/世界遺産">世界遺産</a></li>
+			<li><a href="/tag/城">城</a></li>
+			<li><a href="/tag/橋">橋</a></li>
+			<li><a href="/tag/神社">神社</a></li>
+			<li><a href="/tag/寺院">寺院</a></li>
+			<li><a href="/tag/旅行">旅行</a></li>
+			<li><a href="/tag/ヨーロッパ">ヨーロッパ</a></li>
+			<li><a href="/tag/アメリカ">アメリカ</a></li>
+			<li><a href="/tag/カナダ">カナダ</a></li>
+			<li><a href="/tag/イタリア">イタリア</a></li>
+			<li><a href="/tag/イギリス">イギリス</a></li>
+			<li><a href="/tag/ドイツ">ドイツ</a></li>
+			<li><a href="/tag/スイス">スイス</a></li>
+			<li><a href="/tag/スペイン">スペイン</a></li>
+			<li><a href="/tag/フランス">フランス</a></li>
+			
+			<li><a href="/tag/春">春</a></li>
+			<li><a href="/tag/夏">夏</a></li>
+			<li><a href="/tag/秋">秋</a></li>
+			<li><a href="/tag/冬">冬</a></li>
+			<li><a href="/tag/ハロウィン">ハロウィン</a></li>
+			<li><a href="/tag/クリスマス">クリスマス</a></li>
+			
+			<li><a href="/tag/北海道">北海道</a></li>
+			<li><a href="/tag/京都">京都</a></li>
+			<li><a href="/tag/東京">東京</a></li>
+			<li><a href="/tag/沖縄">沖縄</a></li>
+			<li><a href="/tag/公園">公園</a></li>
+			<li><a href="/tag/街">街</a></li>
+			<li><a href="/tag/部屋">部屋</a></li>
+			<li><a href="/tag/タワー">タワー</a></li>
+			
+			<li><a href="/tag/動物">動物</a></li>
+			<li><a href="/tag/犬">犬</a></li>
+			<li><a href="/tag/猫">猫</a></li>
+			<li><a href="/tag/小鳥">小鳥</a></li>
+			<li><a href="/tag/野鳥">野鳥</a></li>
+			<li><a href="/tag/馬">馬</a></li>
+			<li><a href="/tag/競馬">競馬</a></li>
+			
+			<li><a href="/tag/絵画">絵画</a></li>
+			<li><a href="/tag/名画">名画</a></li>
+			<li><a href="/tag/芸術">芸術</a></li>
+			<li><a href="/tag/日本画">日本画</a></li>
+			<li><a href="/tag/浮世絵">浮世絵</a></li>
+			
+			<li><a href="/tag/空">空</a></li>
+			<li><a href="/tag/夜景">夜景</a></li>
+			<li><a href="/tag/夕焼け">夕焼け</a></li>
+			<li><a href="/tag/夕暮れ">夕暮れ</a></li>
+			<li><a href="/tag/雲">雲</a></li>
+			<li><a href="/tag/虹">虹</a></li>
+			<li><a href="/tag/山">山</a></li>
+			<li><a href="/tag/海">海</a></li>
+			<li><a href="/tag/滝">滝</a></li>
+			<li><a href="/tag/湖">湖</a></li>
+			<li><a href="/tag/庭">庭</a></li>
+			<li><a href="/tag/花火">花火</a></li>
+			<li><a href="/tag/雪">雪</a></li>
+			<li><a href="/tag/宇宙">宇宙</a></li>
+			<li><a href="/tag/月">月</a></li>
+
+			<li><a href="/tag/車">車</a></li>
+			<li><a href="/tag/自動車">自動車</a></li>
+			<li><a href="/tag/鉄道">鉄道</a></li>
+			<li><a href="/tag/電車">電車</a></li>
+			<li><a href="/tag/蒸気機関車">蒸気機関車</a></li>
+			<li><a href="/tag/貨物列車">貨物列車</a></li>
+			<li><a href="/tag/戦闘機">戦闘機</a></li>
+			<li><a href="/tag/飛行機">飛行機</a></li>
+			<li><a href="/tag/船">船</a></li>
+			<li><a href="/tag/バイク">バイク</a></li>
+			<li><a href="/tag/プラモデル">プラモデル</a></li>
+			<li><a href="/tag/ミリタリー">ミリタリー</a></li>
+			
+			<li><a href="/tag/文化">文化</a></li>
+			<li><a href="/tag/観光">観光</a></li>
+			<li><a href="/tag/風景">風景</a></li>
+			
+			<li><a href="/tag/旅行">旅行</a></li>
+			<li><a href="/tag/時計">時計</a></li>
+			
+			<li><a href="/tag/自然">自然</a></li>
+			<li><a href="/tag/果物">果物</a></li>
+			<li><a href="/tag/野菜">野菜</a></li>
+			<li><a href="/tag/花">花</a></li>
+			<li><a href="/tag/桜">桜</a></li>
+			<li><a href="/tag/紅葉">紅葉</a></li>
+			<li><a href="/tag/梅">梅</a></li>
+			<li><a href="/tag/紫陽花">紫陽花</a></li>
+			<li><a href="/tag/チューリップ">チューリップ</a></li>
+			<li><a href="/tag/薔薇">薔薇</a></li>
+			<li><a href="/tag/花束">花束</a></li>
+			
+			<li><a href="/tag/木">木</a></li>
+			<li><a href="/tag/植物">植物</a></li>
+			
+			<li><a href="/tag/水族館">水族館</a></li>
+			
+			<li><a href="/tag/カラフル">カラフル</a></li>
+			<li><a href="/tag/激ムズ">激ムズ</a></li>
+			
+		</ul>
+	</div>
+	<div class="txtR mR10">
+		<a href="/tag/">タグ一覧</a>
+	</div>
+			</div>
+	</div>
+	<div class="box-b">&nbsp;</div>
+</div>
+	
+	
+			
+<div style="margin-left:15px;">
+	<h3 class="sub">スポンサードリンク</h3>
+</div>
+<div class="ads-top">
+<script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='INSERT_CLICKURL_HERE';
+
+if (location.protocol=='https:') {
+} else {
+   var m3_u = 'http://vsc.send.microad.jp/delivery/ajs.php';
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=1475");
+   document.write ('&amp;snr=2&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+}
+//]]>--></script><noscript><a href='http://vsc.send.microad.jp/delivery/ck.php?n=a59c7b47&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://vsc.send.microad.jp/delivery/avw.php?zoneid=1475&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a59c7b47&amp;ct0=INSERT_CLICKURL_HERE&amp;snr=2' border='0' alt='' /></a></noscript>
+</div>
+
+
+
+
+
+		
+		<div class="box">
+	<div class="box-t">&nbsp;</div>
+	<div class="box-m">
+		<div class="box-c">
+			
+	<div id="navi-color">
+		<h3 class="sub">色 <span class="semihide">color</span></h3>
+		<table>
+			<tr>
+				<td>
+					<ul class="clearfix">
+						<li><a href="/color/ffffff" style="background:#ffffff"></a></li>
+						<li><a href="/color/ffffcc" style="background:#ffffcc"></a></li>
+						<li><a href="/color/ffff99" style="background:#ffff99"></a></li>
+						<li><a href="/color/ffff66" style="background:#ffff66"></a></li>
+						<li><a href="/color/ffff33" style="background:#ffff33"></a></li>
+						<li><a href="/color/ffff00" style="background:#ffff00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/ffccff" style="background:#ffccff"></a></li>
+						<li><a href="/color/ffcccc" style="background:#ffcccc"></a></li>
+						<li><a href="/color/ffcc99" style="background:#ffcc99"></a></li>
+						<li><a href="/color/ffcc66" style="background:#ffcc66"></a></li>
+						<li><a href="/color/ffcc33" style="background:#ffcc33"></a></li>
+						<li><a href="/color/ffcc00" style="background:#ffcc00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/ff99ff" style="background:#ff99ff"></a></li>
+						<li><a href="/color/ff99cc" style="background:#ff99cc"></a></li>
+						<li><a href="/color/ff9999" style="background:#ff9999"></a></li>
+						<li><a href="/color/ff9966" style="background:#ff9966"></a></li>
+						<li><a href="/color/ff9933" style="background:#ff9933"></a></li>
+						<li><a href="/color/ff9900" style="background:#ff9900"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/ff66ff" style="background:#ff66ff"></a></li>
+						<li><a href="/color/ff66cc" style="background:#ff66cc"></a></li>
+						<li><a href="/color/ff6699" style="background:#ff6699"></a></li>
+						<li><a href="/color/ff6666" style="background:#ff6666"></a></li>
+						<li><a href="/color/ff6633" style="background:#ff6633"></a></li>
+						<li><a href="/color/ff6600" style="background:#ff6600"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/ff33ff" style="background:#ff33ff"></a></li>
+						<li><a href="/color/ff33cc" style="background:#ff33cc"></a></li>
+						<li><a href="/color/ff3399" style="background:#ff3399"></a></li>
+						<li><a href="/color/ff3366" style="background:#ff3366"></a></li>
+						<li><a href="/color/ff3333" style="background:#ff3333"></a></li>
+						<li><a href="/color/ff3300" style="background:#ff3300"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/ff00ff" style="background:#ff00ff"></a></li>
+						<li><a href="/color/ff00cc" style="background:#ff00cc"></a></li>
+						<li><a href="/color/ff0099" style="background:#ff0099"></a></li>
+						<li><a href="/color/ff0066" style="background:#ff0066"></a></li>
+						<li><a href="/color/ff0033" style="background:#ff0033"></a></li>
+						<li><a href="/color/ff0000" style="background:#ff0000"></a></li>
+					</ul>
+				</td>
+				<td>
+					<ul class="clearfix">
+						<li><a href="/color/ccffff" style="background:#ccffff"></a></li>
+						<li><a href="/color/ccffcc" style="background:#ccffcc"></a></li>
+						<li><a href="/color/ccff99" style="background:#ccff99"></a></li>
+						<li><a href="/color/ccff66" style="background:#ccff66"></a></li>
+						<li><a href="/color/ccff33" style="background:#ccff33"></a></li>
+						<li><a href="/color/ccff00" style="background:#ccff00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/ccccff" style="background:#ccccff"></a></li>
+						<li><a href="/color/cccccc" style="background:#cccccc"></a></li>
+						<li><a href="/color/cccc99" style="background:#cccc99"></a></li>
+						<li><a href="/color/cccc66" style="background:#cccc66"></a></li>
+						<li><a href="/color/cccc33" style="background:#cccc33"></a></li>
+						<li><a href="/color/cccc00" style="background:#cccc00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/cc99ff" style="background:#cc99ff"></a></li>
+						<li><a href="/color/cc99cc" style="background:#cc99cc"></a></li>
+						<li><a href="/color/cc9999" style="background:#cc9999"></a></li>
+						<li><a href="/color/cc9966" style="background:#cc9966"></a></li>
+						<li><a href="/color/cc9933" style="background:#cc9933"></a></li>
+						<li><a href="/color/cc9900" style="background:#cc9900"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/cc66ff" style="background:#cc66ff"></a></li>
+						<li><a href="/color/cc66cc" style="background:#cc66cc"></a></li>
+						<li><a href="/color/cc6699" style="background:#cc6699"></a></li>
+						<li><a href="/color/cc6666" style="background:#cc6666"></a></li>
+						<li><a href="/color/cc6633" style="background:#cc6633"></a></li>
+						<li><a href="/color/cc6600" style="background:#cc6600"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/cc33ff" style="background:#cc33ff"></a></li>
+						<li><a href="/color/cc33cc" style="background:#cc33cc"></a></li>
+						<li><a href="/color/cc3399" style="background:#cc3399"></a></li>
+						<li><a href="/color/cc3366" style="background:#cc3366"></a></li>
+						<li><a href="/color/cc3333" style="background:#cc3333"></a></li>
+						<li><a href="/color/cc3300" style="background:#cc3300"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/cc00ff" style="background:#cc00ff"></a></li>
+						<li><a href="/color/cc00cc" style="background:#cc00cc"></a></li>
+						<li><a href="/color/cc0099" style="background:#cc0099"></a></li>
+						<li><a href="/color/cc0066" style="background:#cc0066"></a></li>
+						<li><a href="/color/cc0033" style="background:#cc0033"></a></li>
+						<li><a href="/color/cc0000" style="background:#cc0000"></a></li>
+					</ul>
+				</td>
+				<td>
+					<ul class="clearfix">
+						<li><a href="/color/99ffff" style="background:#99ffff"></a></li>
+						<li><a href="/color/99ffcc" style="background:#99ffcc"></a></li>
+						<li><a href="/color/99ff99" style="background:#99ff99"></a></li>
+						<li><a href="/color/99ff66" style="background:#99ff66"></a></li>
+						<li><a href="/color/99ff33" style="background:#99ff33"></a></li>
+						<li><a href="/color/99ff00" style="background:#99ff00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/99ccff" style="background:#99ccff"></a></li>
+						<li><a href="/color/99cccc" style="background:#99cccc"></a></li>
+						<li><a href="/color/99cc99" style="background:#99cc99"></a></li>
+						<li><a href="/color/99cc66" style="background:#99cc66"></a></li>
+						<li><a href="/color/99cc33" style="background:#99cc33"></a></li>
+						<li><a href="/color/99cc00" style="background:#99cc00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/9999ff" style="background:#9999ff"></a></li>
+						<li><a href="/color/9999cc" style="background:#9999cc"></a></li>
+						<li><a href="/color/999999" style="background:#999999"></a></li>
+						<li><a href="/color/999966" style="background:#999966"></a></li>
+						<li><a href="/color/999933" style="background:#999933"></a></li>
+						<li><a href="/color/999900" style="background:#999900"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/9966ff" style="background:#9966ff"></a></li>
+						<li><a href="/color/9966cc" style="background:#9966cc"></a></li>
+						<li><a href="/color/996699" style="background:#996699"></a></li>
+						<li><a href="/color/996666" style="background:#996666"></a></li>
+						<li><a href="/color/996633" style="background:#996633"></a></li>
+						<li><a href="/color/996600" style="background:#996600"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/9933ff" style="background:#9933ff"></a></li>
+						<li><a href="/color/9933cc" style="background:#9933cc"></a></li>
+						<li><a href="/color/993399" style="background:#993399"></a></li>
+						<li><a href="/color/993366" style="background:#993366"></a></li>
+						<li><a href="/color/993333" style="background:#993333"></a></li>
+						<li><a href="/color/993300" style="background:#993300"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/9900ff" style="background:#9900ff"></a></li>
+						<li><a href="/color/9900cc" style="background:#9900cc"></a></li>
+						<li><a href="/color/990099" style="background:#990099"></a></li>
+						<li><a href="/color/990066" style="background:#990066"></a></li>
+						<li><a href="/color/990033" style="background:#990033"></a></li>
+						<li><a href="/color/990000" style="background:#990000"></a></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ul class="clearfix">
+						<li><a href="/color/66ffff" style="background:#66ffff"></a></li>
+						<li><a href="/color/66ffcc" style="background:#66ffcc"></a></li>
+						<li><a href="/color/66ff99" style="background:#66ff99"></a></li>
+						<li><a href="/color/66ff66" style="background:#66ff66"></a></li>
+						<li><a href="/color/66ff33" style="background:#66ff33"></a></li>
+						<li><a href="/color/66ff00" style="background:#66ff00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/66ccff" style="background:#66ccff"></a></li>
+						<li><a href="/color/66cccc" style="background:#66cccc"></a></li>
+						<li><a href="/color/66cc99" style="background:#66cc99"></a></li>
+						<li><a href="/color/66cc66" style="background:#66cc66"></a></li>
+						<li><a href="/color/66cc33" style="background:#66cc33"></a></li>
+						<li><a href="/color/66cc00" style="background:#66cc00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/6699ff" style="background:#6699ff"></a></li>
+						<li><a href="/color/6699cc" style="background:#6699cc"></a></li>
+						<li><a href="/color/669999" style="background:#669999"></a></li>
+						<li><a href="/color/669966" style="background:#669966"></a></li>
+						<li><a href="/color/669933" style="background:#669933"></a></li>
+						<li><a href="/color/669900" style="background:#669900"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/6666ff" style="background:#6666ff"></a></li>
+						<li><a href="/color/6666cc" style="background:#6666cc"></a></li>
+						<li><a href="/color/666699" style="background:#666699"></a></li>
+						<li><a href="/color/666666" style="background:#666666"></a></li>
+						<li><a href="/color/666633" style="background:#666633"></a></li>
+						<li><a href="/color/666600" style="background:#666600"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/6633ff" style="background:#6633ff"></a></li>
+						<li><a href="/color/6633cc" style="background:#6633cc"></a></li>
+						<li><a href="/color/663399" style="background:#663399"></a></li>
+						<li><a href="/color/663366" style="background:#663366"></a></li>
+						<li><a href="/color/663333" style="background:#663333"></a></li>
+						<li><a href="/color/663300" style="background:#663300"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/6600ff" style="background:#6600ff"></a></li>
+						<li><a href="/color/6600cc" style="background:#6600cc"></a></li>
+						<li><a href="/color/660099" style="background:#660099"></a></li>
+						<li><a href="/color/660066" style="background:#660066"></a></li>
+						<li><a href="/color/660033" style="background:#660033"></a></li>
+						<li><a href="/color/660000" style="background:#660000"></a></li>
+					</ul>
+				</td>
+				<td>
+					<ul class="clearfix">
+						<li><a href="/color/33ffff" style="background:#33ffff"></a></li>
+						<li><a href="/color/33ffcc" style="background:#33ffcc"></a></li>
+						<li><a href="/color/33ff99" style="background:#33ff99"></a></li>
+						<li><a href="/color/33ff66" style="background:#33ff66"></a></li>
+						<li><a href="/color/33ff33" style="background:#33ff33"></a></li>
+						<li><a href="/color/33ff00" style="background:#33ff00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/33ccff" style="background:#33ccff"></a></li>
+						<li><a href="/color/33cccc" style="background:#33cccc"></a></li>
+						<li><a href="/color/33cc99" style="background:#33cc99"></a></li>
+						<li><a href="/color/33cc66" style="background:#33cc66"></a></li>
+						<li><a href="/color/33cc33" style="background:#33cc33"></a></li>
+						<li><a href="/color/33cc00" style="background:#33cc00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/3399ff" style="background:#3399ff"></a></li>
+						<li><a href="/color/3399cc" style="background:#3399cc"></a></li>
+						<li><a href="/color/339999" style="background:#339999"></a></li>
+						<li><a href="/color/339966" style="background:#339966"></a></li>
+						<li><a href="/color/339933" style="background:#339933"></a></li>
+						<li><a href="/color/339900" style="background:#339900"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/3366ff" style="background:#3366ff"></a></li>
+						<li><a href="/color/3366cc" style="background:#3366cc"></a></li>
+						<li><a href="/color/336699" style="background:#336699"></a></li>
+						<li><a href="/color/336666" style="background:#336666"></a></li>
+						<li><a href="/color/336633" style="background:#336633"></a></li>
+						<li><a href="/color/336600" style="background:#336600"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/3333ff" style="background:#3333ff"></a></li>
+						<li><a href="/color/3333cc" style="background:#3333cc"></a></li>
+						<li><a href="/color/333399" style="background:#333399"></a></li>
+						<li><a href="/color/333366" style="background:#333366"></a></li>
+						<li><a href="/color/333333" style="background:#333333"></a></li>
+						<li><a href="/color/333300" style="background:#333300"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/3300ff" style="background:#3300ff"></a></li>
+						<li><a href="/color/3300cc" style="background:#3300cc"></a></li>
+						<li><a href="/color/330099" style="background:#330099"></a></li>
+						<li><a href="/color/330066" style="background:#330066"></a></li>
+						<li><a href="/color/330033" style="background:#330033"></a></li>
+						<li><a href="/color/330000" style="background:#330000"></a></li>
+					</ul>
+				</td>
+				<td>
+					<ul class="clearfix">
+						<li><a href="/color/00ffff" style="background:#00ffff"></a></li>
+						<li><a href="/color/00ffcc" style="background:#00ffcc"></a></li>
+						<li><a href="/color/00ff99" style="background:#00ff99"></a></li>
+						<li><a href="/color/00ff66" style="background:#00ff66"></a></li>
+						<li><a href="/color/00ff33" style="background:#00ff33"></a></li>
+						<li><a href="/color/00ff00" style="background:#00ff00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/00ccff" style="background:#00ccff"></a></li>
+						<li><a href="/color/00cccc" style="background:#00cccc"></a></li>
+						<li><a href="/color/00cc99" style="background:#00cc99"></a></li>
+						<li><a href="/color/00cc66" style="background:#00cc66"></a></li>
+						<li><a href="/color/00cc33" style="background:#00cc33"></a></li>
+						<li><a href="/color/00cc00" style="background:#00cc00"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/0099ff" style="background:#0099ff"></a></li>
+						<li><a href="/color/0099cc" style="background:#0099cc"></a></li>
+						<li><a href="/color/009999" style="background:#009999"></a></li>
+						<li><a href="/color/009966" style="background:#009966"></a></li>
+						<li><a href="/color/009933" style="background:#009933"></a></li>
+						<li><a href="/color/009900" style="background:#009900"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/0066ff" style="background:#0066ff"></a></li>
+						<li><a href="/color/0066cc" style="background:#0066cc"></a></li>
+						<li><a href="/color/006699" style="background:#006699"></a></li>
+						<li><a href="/color/006666" style="background:#006666"></a></li>
+						<li><a href="/color/006633" style="background:#006633"></a></li>
+						<li><a href="/color/006600" style="background:#006600"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/0033ff" style="background:#0033ff"></a></li>
+						<li><a href="/color/0033cc" style="background:#0033cc"></a></li>
+						<li><a href="/color/003399" style="background:#003399"></a></li>
+						<li><a href="/color/003366" style="background:#003366"></a></li>
+						<li><a href="/color/003333" style="background:#003333"></a></li>
+						<li><a href="/color/003300" style="background:#003300"></a></li>
+						<div class="cmn-all-clear"></div>
+						<li><a href="/color/0000ff" style="background:#0000ff"></a></li>
+						<li><a href="/color/0000cc" style="background:#0000cc"></a></li>
+						<li><a href="/color/000099" style="background:#000099"></a></li>
+						<li><a href="/color/000066" style="background:#000066"></a></li>
+						<li><a href="/color/000033" style="background:#000033"></a></li>
+						<li><a href="/color/000000" style="background:#000000"></a></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+			</div>
+	</div>
+	<div class="box-b">&nbsp;</div>
+</div>
+	
+		<div class="box">
+	<div class="box-t">&nbsp;</div>
+	<div class="box-m">
+		<div class="box-c">
+			
+	<div id="navi-piece">
+		<h3 class="sub">ピース数別 <span class="semihide">number of piece</span></h3>
+		<ul class="clearfix">
+			<li><a href="/piece/2-15">  2～15ピース</a></li>
+			<li><a href="/piece/16-49">   16～49ピース</a></li>
+			<li><a href="/piece/50-99">   50～99ピース</a></li>
+			<li><a href="/piece/100-149"> 100～149ピース</a></li>
+			<li><a href="/piece/150-199"> 150～199ピース</a></li>
+			<li><a href="/piece/200-299"> 200～299ピース</a></li>
+			<li><a href="/piece/300-399"> 300～399ピース</a></li>
+			<li><a href="/piece/400-450"> 400～450ピース</a></li>
+		</ul>
+	</div>
+			</div>
+	</div>
+	<div class="box-b">&nbsp;</div>
+</div>
+	
+		<div class="box">
+	<div class="box-t">&nbsp;</div>
+	<div class="box-m">
+		<div class="box-c">
+			
+	<div id="navi-search">
+		<h3 class="sub">最近の検索 <span class="semihide">recently searched word</span></h3>
+				<a href="/search/はいてない">はいてない</a>,
+				<a href="/search/白">白</a>,
+				<a href="/search/che">che</a>,
+				<a href="/search/プリキュア">プリキュア</a>,
+				<a href="/search/ムーミン">ムーミン</a>,
+				<a href="/search/ポケモン">ポケモン</a>,
+				<a href="/search/C">C</a>,
+				<a href="/search/ca">ca</a>,
+				<a href="/search/IS">IS</a>,
+				<a href="/search/SAO">SAO</a>,
+				<a href="/search/ケーキ カラフル">ケーキ カラフル</a>,
+				<a href="/search/ミニチュアダックス">ミニチュアダックス</a>,
+				<a href="/search/君のいる町">君のいる町</a>,
+				<a href="/search/東方">東方</a>,
+				<a href="/search/ルパン">ルパン</a>,
+				<a href="/search/gate 自衛隊">gate 自衛隊</a>,
+				<a href="/search/nnn">nnn</a>,
+				<a href="/search/TDL">TDL</a>,
+				<a href="/search/羊羹">羊羹</a>,
+				<a href="/search/ＫＩＴＴＹ">ＫＩＴＴＹ</a>,
+				<a href="/search/フルメタル・パニック!">フルメタル・パニック!</a>,
+				<a href="/search/スヌーピー">スヌーピー</a>,
+				<a href="/search/T2000">T2000</a>,
+				<a href="/search/アニメ　キャラクター">アニメ　キャラクター</a>,
+				<a href="/search/M">M</a>,
+				<a href="/search/ワンピース">ワンピース</a>,
+				<a href="/search/名探偵コナン">名探偵コナン</a>,
+				<a href="/search/SSH♥">SSH♥</a>,
+				<a href="/search/キティちゃん">キティちゃん</a>,
+				<a href="/search/小嶋陽菜">小嶋陽菜</a>,
+				<a href="/search/コナン">コナン</a>,
+				<a href="/search/真木">真木</a>,
+				<a href="/search/ウェディング">ウェディング</a>,
+				<a href="/search/安藤美姫">安藤美姫</a>,
+				<a href="/search/ジブリ">ジブリ</a>,
+				<a href="/search/艦これ">艦これ</a>,
+				<a href="/search/この素晴らしい世界に祝福を">この素晴らしい世界に祝福を</a>,
+				<a href="/search/この素晴らしい">この素晴らしい</a>,
+				<a href="/search/RIN">RIN</a>,
+				<a href="/search/michael マイケル">michael マイケル</a>,
+				<a href="/search/中村　静香">中村　静香</a>,
+				<a href="/search/原　幹恵">原　幹恵</a>,
+				<a href="/search/BROTHERS CONFRICT">BROTHERS CONFRICT</a>,
+				<a href="/search/*">*</a>,
+				<a href="/search/one peice">one peice</a>,
+				<a href="/search/梨">梨</a>,
+				<a href="/search/カナ">カナ</a>,
+				<a href="/search/大和田南那">大和田南那</a>,
+				<a href="/search/暗殺教室">暗殺教室</a>,
+				<a href="/search/女の子">女の子</a>,
+			</div>
+			</div>
+	</div>
+	<div class="box-b">&nbsp;</div>
+</div>
+	<div class="box">
+	<div class="box-t">&nbsp;</div>
+	<div class="box-m">
+		<div class="box-c">
+			
+		
+ジグソークラブ楽天市場店<br/>
+<a href="http://hb.afl.rakuten.co.jp/hgc/0c4d30e2.cf6ec60f.0c4d30e5.4378ea97/?pc=http%3a%2f%2fwww.rakuten.co.jp%2fjigsawclub%2f" target="_blank">
+<img border="0" width="234" height="60" alt="" src="http://www25.a8.net/svt/bgt?aid=110813154816&wid=006&eno=01&mid=s00000010493001044000&mc=1"></a>
+
+		<br/><br/>
+<div>
+	オスダメ!? ミステリー小説<br/>
+	<a href="http://osudame.com" target="_blank">
+	<img src="http://img.puzzcore.com/img/ad/bnr_osudame.jpg" alt="ミステリ専門おすすめ感想サイト"/><br/>
+	</a>
+	ミステリ専門おすすめ感想サイト
+</div>
+		<br/>
+<div>
+広告<br/>
+<div>
+	<a href="http://www.e-tunagari.net/mahalo/product/search/do/?do=search&word=&category=20&order=&term=&limit=30&page=1" target="_blank" rel="external nofollow"><img src="http://img.puzzcore.com/img/ad/bnr_sig_mahalo_jewelry.jpg" /></a>
+</div>
+</div>
+			</div>
+	</div>
+	<div class="box-b">&nbsp;</div>
+</div>
+</div>
+
+
+		<div class="cmn-block-clear"></div>
+		<div id="main-content-bottom">
+			
+<div class="ads-page">
+<p class="semihide" style="text-align:left;width:728px;margin:0 auto;"><span class="mark">■</span><span style="font-weight:bold;">スポンサードリンク</span></p>
+<script type='text/javascript'><!--//<![CDATA[
+   document.MAX_ct0 ='INSERT_CLICKURL_HERE';
+
+if (location.protocol=='https:') {
+} else {
+   var m3_u = 'http://vsc.send.microad.jp/delivery/ajs.php';
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=1805");
+   document.write ('&amp;snr=2&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {
+       document.write ("&amp;ct0=" + escape(document.MAX_ct0));
+   }
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+}
+//]]>--></script><noscript><a href='http://vsc.send.microad.jp/delivery/ck.php?n=a034300a&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://vsc.send.microad.jp/delivery/avw.php?zoneid=1805&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a034300a&amp;ct0=INSERT_CLICKURL_HERE&amp;snr=2' border='0' alt='' /></a></noscript>
+</div>
+<br/>
+<div id="footer-ads">
+<br/>
+<div>
+	<iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=puzzcore-22&o=9&p=13&l=ur1&category=toys&f=ifr" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+	<a href="http://hb.afl.rakuten.co.jp/hsc/0e08188d.edef6b8e.0e081501.02903949/" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hsb/0e08188d.edef6b8e.0e081501.02903949/" border="0"></a>
+</div>
+</div>
+<br/>
+<br/>
+<br/>
+
+
+		</div>
+	</div>
+	
+<div id="footer">
+	<div class="ffTotop">
+		<div class="totop"><a href="#top" class="btnUI btnFtToTop"  title="ページの先頭へ"></a></div>
+	</div>
+	<div>
+	<div class="line">&nbsp;</div>
+	<div id="footer-c">
+		<div class="main">
+			<div class="link">
+				<ul class="clearfix">
+					<li><a href="/">HOME</a></li>
+					<li><a href="/guide/">はじめての方へ</a></li>
+					<li><a href="/help/">ヘルプ</a></li>
+					<li><a href="http://twitter.com/#!/puzzcore_adm" target="_blank">運営者</a></li>
+					<li><a href="/term/">利用規約</a></li>
+					<li><a href="/demand/">要望を投稿する</a></li>
+					<li><a href="/contact/">お問合せ</a></li>
+				</ul>
+			</div>
+			<p class="copy">
+				Copyright(c) puzzcore.com All right reserved.
+			</p>
+		</div>
+	</div>
+
+</div>
+<script type="text/javascript" src="/js/jquery.lazyload.min.js?20150917"  ></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29507406-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div id="blogparts">
+</div>
+</div>
+<script type="text/javascript" charset="UTF-8" src="http://cache.ssend.microad.jp/js/adfunnel-sp-load.js"></script>
+<div class="adfunnel_sp" data-adfunnel='{ "spotid":"4f46a35441fcbc9b", "seq":1,"display":"overlay" }'></div>
+</body>
+</html>

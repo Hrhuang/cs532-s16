@@ -1,0 +1,218 @@
+   #[1]Matthias Duyck » Feed [2]Matthias Duyck » Comments Feed [3]Matthias
+   Duyck » Mobile Game Testing Comments Feed [4]The world needs more
+   Apples [5]Unity3D Mobile Game Testing: Part one, the setup [6]alternate
+   [7]alternate [8]Matthias Duyck [9]WordPress.com
+
+   [10]Skip to content
+
+[11]Matthias Duyck
+
+My geek basement on the interblag.
+
+   (BUTTON) Menu
+     * [12]About
+     * [13]APPS
+     * [14]Digital Media & Web Design
+     * [15]Unity3D Mobile Game Testing
+
+Mobile Game Testing
+
+   [16]09/02/201612/02/2016 ~ [17]matthiasduyck
+
+   This is a series of posts on mobile game testing with Unity3D for my
+   internship at La Mosca where I’ll be investigating how to limit battery
+   usage.
+
+   Today I started my internship at La Mosca in Ghent. La Mosca makes
+   location based mobile applications for Android and iOS using the
+   cross-platform game engine Unity. I have been tasked with optimising
+   the battery performance of their games, specifically through creating a
+   test application to simulate different scenarios.
+
+   The games use various features of the mobile device such as the GPU,
+   GPS and mobile data. Figuring out which of these features drains the
+   battery most or can be cut back in some way will be the main goal of
+   this project.
+
+   It seems to be common knowledge that Unity3D drains the battery of
+   mobile devices significantly and thus its use should be avoided if at
+   all possible for things other than games, even though its
+   cross-platformness makes it so great.
+
+     Unity is a game engine meaning it will run as fast as possible
+     instead of waiting for events. And because of that it will tax the
+     battery a whole lot more than an event driven application.
+
+     Also, if the most important thing is multiplatform, then look at
+     other solutions that have that. e.g. phonegap or mosync.
+     [18](source)
+
+   Prior public testing, specifically towards unity on mobile, seems to be
+   very limited with the general assumption that lowering framerate or
+   effects might be a good idea whenever possible, even down to 1fps.
+   These are some of the sources on this topic I have found:
+     * [19]https://www.reddit.com/r/Unity3D/comments/3eldta/suggestion_low
+       _battery_mode_for_non_game_apps/
+     * [20]http://forum.unity3d.com/threads/suggestion-low-battery-mode-fo
+       r-non-game-apps.343632/#post-2222953
+     * [21]http://www.makinggames.biz/news/unreal-vs-unity-which-engine-is
+       -better-for-mobile-games,8472.html
+     * [22]http://answers.unity3d.com/questions/774342/save-battery-on-mob
+       ile.html
+     * [23]http://www.moddb.com/members/gamieon/blogs/unity3d-ios-30-fps-v
+       s-60-fps-a-case-study-in-battery-life
+     * [24]https://www.reddit.com/r/Unity3D/comments/245841/using_unity_fo
+       r_regular_mobile_app_development/
+
+   I will be using this blog to report results and make notes of my
+   thoughts and progress, finally found a good use for this dusty old
+   thing! All posts related to this topic can be found [25]here, and
+   [26]here is the RSS feed.
+
+Share this:
+
+     * [27]Twitter
+     * [28]Facebook
+     * [29]Google
+     *
+
+Like this:
+
+   Like Loading...
+
+Related
+
+   Posted in [30]Uncategorized, [31]Unity3D Mobile Game Testing
+
+Post navigation
+
+   [32]< Previous The world needs more Apples
+   [33]Next > Unity3D Mobile Game Testing: Part one, the setup
+
+Leave a Reply [34]Cancel reply
+
+   Enter your comment here...
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+
+   Fill in your details below or click an icon to log in:
+     *
+     *
+     *
+     *
+     *
+
+       IFRAME: [35]googleplus-sign-in
+
+   [36]Gravatar
+   Email (required) (Address never made public)
+   ____________________
+   Name (required)
+   ____________________
+   Website
+   ____________________
+   WordPress.com Logo
+
+   You are commenting using your WordPress.com account.
+   ( [37]Log Out / [38]Change )
+   Twitter picture
+
+   You are commenting using your Twitter account.
+   ( [39]Log Out / [40]Change )
+   Facebook photo
+
+   You are commenting using your Facebook account.
+   ( [41]Log Out / [42]Change )
+   Google+ photo
+
+   You are commenting using your Google+ account.
+   ( [43]Log Out / [44]Change )
+   [45]Cancel
+
+   Connecting to %s
+
+   [ ] Notify me of new comments via email.
+
+   Post Comment
+
+   [46]Create a free website or blog at WordPress.com. ~ [47]The
+   Penscratch Theme.
+
+   [48]Follow
+
+Follow “Matthias Duyck”
+
+   Get every new post delivered to your Inbox.
+
+   ____________________
+
+   Sign me up
+   [49]Build a website with WordPress.com
+
+   IFRAME: [50]likes-master
+
+   %d bloggers like this:
+
+References
+
+   Visible links
+   1. https://matthiasduyck.wordpress.com/feed/
+   2. https://matthiasduyck.wordpress.com/comments/feed/
+   3. https://matthiasduyck.wordpress.com/2016/02/09/mobile-game-testing/feed/
+   4. https://matthiasduyck.wordpress.com/2014/12/14/the-world-needs-more-apples/
+   5. https://matthiasduyck.wordpress.com/2016/02/09/unity3d-mobile-game-testing-part-one-the-setup/
+   6. https://public-api.wordpress.com/oembed/1.0/?format=json&url=https://matthiasduyck.wordpress.com/2016/02/09/mobile-game-testing/&for=wpcom-auto-discovery
+   7. https://public-api.wordpress.com/oembed/1.0/?format=xml&url=https://matthiasduyck.wordpress.com/2016/02/09/mobile-game-testing/&for=wpcom-auto-discovery
+   8. https://matthiasduyck.wordpress.com/osd.xml
+   9. https://s1.wp.com/opensearch.xml
+  10. file:///mnt/hgfs/SchoolWork/WebScience/Assignments/HW3/Problem1/RawHTMLs/rawHTMLs/929.txt#content
+  11. https://matthiasduyck.wordpress.com/
+  12. https://matthiasduyck.wordpress.com/about/
+  13. https://matthiasduyck.wordpress.com/apps/
+  14. https://matthiasduyck.wordpress.com/media/
+  15. https://matthiasduyck.wordpress.com/category/unity3d-mobile-game-testing/
+  16. https://matthiasduyck.wordpress.com/2016/02/09/mobile-game-testing/
+  17. https://matthiasduyck.wordpress.com/author/matthiasduyck/
+  18. https://www.reddit.com/r/Unity3D/comments/245841/using_unity_for_regular_mobile_app_development/
+  19. https://www.reddit.com/r/Unity3D/comments/3eldta/suggestion_low_battery_mode_for_non_game_apps/
+  20. http://forum.unity3d.com/threads/suggestion-low-battery-mode-for-non-game-apps.343632/#post-2222953
+  21. http://www.makinggames.biz/news/unreal-vs-unity-which-engine-is-better-for-mobile-games,8472.html
+  22. http://answers.unity3d.com/questions/774342/save-battery-on-mobile.html
+  23. http://www.moddb.com/members/gamieon/blogs/unity3d-ios-30-fps-vs-60-fps-a-case-study-in-battery-life
+  24. https://www.reddit.com/r/Unity3D/comments/245841/using_unity_for_regular_mobile_app_development/
+  25. https://matthiasduyck.wordpress.com/category/unity3d-mobile-game-testing/
+  26. https://matthiasduyck.wordpress.com/category/unity3d-mobile-game-testing/feed/
+  27. https://matthiasduyck.wordpress.com/2016/02/09/mobile-game-testing/?share=twitter
+  28. https://matthiasduyck.wordpress.com/2016/02/09/mobile-game-testing/?share=facebook
+  29. https://matthiasduyck.wordpress.com/2016/02/09/mobile-game-testing/?share=google-plus-1
+  30. https://matthiasduyck.wordpress.com/category/uncategorized/
+  31. https://matthiasduyck.wordpress.com/category/unity3d-mobile-game-testing/
+  32. https://matthiasduyck.wordpress.com/2014/12/14/the-world-needs-more-apples/
+  33. https://matthiasduyck.wordpress.com/2016/02/09/unity3d-mobile-game-testing-part-one-the-setup/
+  34. file:///2016/02/09/mobile-game-testing/#respond
+  35. https://public-api.wordpress.com/connect/?googleplus-sign-in=https://matthiasduyck.wordpress.com
+  36. https://gravatar.com/site/signup/
+  37. javascript:HighlanderComments.doExternalLogout( 'wordpress' );
+  38. file:///mnt/hgfs/SchoolWork/WebScience/Assignments/HW3/Problem1/RawHTMLs/rawHTMLs/929.txt
+  39. javascript:HighlanderComments.doExternalLogout( 'twitter' );
+  40. file:///mnt/hgfs/SchoolWork/WebScience/Assignments/HW3/Problem1/RawHTMLs/rawHTMLs/929.txt
+  41. javascript:HighlanderComments.doExternalLogout( 'facebook' );
+  42. file:///mnt/hgfs/SchoolWork/WebScience/Assignments/HW3/Problem1/RawHTMLs/rawHTMLs/929.txt
+  43. javascript:HighlanderComments.doExternalLogout( 'googleplus' );
+  44. file:///mnt/hgfs/SchoolWork/WebScience/Assignments/HW3/Problem1/RawHTMLs/rawHTMLs/929.txt
+  45. javascript:HighlanderComments.cancelExternalWindow();
+  46. https://wordpress.com/?ref=footer_website
+  47. https://wordpress.com/themes/penscratch/
+  48. javascript:void(0)
+  49. https://wordpress.com/?ref=lof
+  50. https://widgets.wp.com/likes/master.html?ver=20151208#ver=20151208&mp6=1
+
+   Hidden links:
+  52. https://wordpress.com/about-these-ads/
+  53. file://localhost/mnt/hgfs/SchoolWork/WebScience/Assignments/HW3/Problem1/RawHTMLs/rawHTMLs/929.txt#comment-form-guest
+  54. file://localhost/mnt/hgfs/SchoolWork/WebScience/Assignments/HW3/Problem1/RawHTMLs/rawHTMLs/929.txt#comment-form-load-service:WordPress.com
+  55. file://localhost/mnt/hgfs/SchoolWork/WebScience/Assignments/HW3/Problem1/RawHTMLs/rawHTMLs/929.txt#comment-form-load-service:Twitter
+  56. file://localhost/mnt/hgfs/SchoolWork/WebScience/Assignments/HW3/Problem1/RawHTMLs/rawHTMLs/929.txt#comment-form-load-service:Facebook

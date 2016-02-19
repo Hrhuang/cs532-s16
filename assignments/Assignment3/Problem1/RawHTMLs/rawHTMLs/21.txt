@@ -1,0 +1,931 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+<link rel="stylesheet" href="/templates/conv_template/css/template.css" type="text/css" />
+<script src="/templates/conv_template/js/jquery-1.8.2.min.js"></script><script type="text/javascript">jQuery.noConflict();  $conv=jQuery;</script>
+  <base href="http://ripplehire.com/blog/entry/gamification-in-recruitment" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Brainwaves" />
+  <meta name="description" content="RippleHire is a technology product that gamifies employee referrals and  enables social recruiting. By empowering the best way you hire (Employee  Referrals), we can reduce your hiring cost &amp; effort and unlock the  multiplier in your employee social networks.  Game mechanics make the  process fun, engaging and drives great results." />
+  <meta name="generator" content="Convergence IT Services PVT LTD. www.convergenceservices.in" />
+  <title>Game, set, recruit - Blog - Gamification | Employee Referral | Employee Engagement | Social Recruting | Recruiting Software</title>
+  <link href="/blog?rsd=RealSimpleDiscovery" rel="EditURI" type="application/rsd+xml" title="RSD" />
+  <link href="http://ripplehire.com/components/com_easyblog/classes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml" />
+  <link href="/templates/conv_template/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="http://ripplehire.com/components/com_easyblog/assets/css/common.css" type="text/css" />
+  <link rel="stylesheet" href="http://ripplehire.com/components/com_easyblog/themes/default/css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="http://ripplehire.com/components/com_easyblog/themes/defaulttest/css/styles.css" type="text/css" />
+  <script src="http://ripplehire.com/media/foundry/2.1/scripts/foundry.js" type="text/javascript"></script>
+  <script src="http://ripplehire.com/media/com_easyblog/scripts/abstract.js" type="text/javascript"></script>
+  <script type="text/javascript">
+/*<![CDATA[*/
+	var eblog_site 	= 'http://ripplehire.com/index.php?option=com_easyblog&lang=none&Itemid=103';
+	var spinnerPath = 'http://ripplehire.com/components/com_easyblog/assets/images/loader.gif';
+	var lang_direction	= 'ltr';
+	var eblog_lightbox_title = false;
+	var eblog_enable_lightbox = false;
+	var eblog_lightbox_enforce_size = false;
+	var eblog_lightbox_width = 640;
+	var eblog_lightbox_height = 480;
+/*]]>*/
+dispatch
+	.to("Foundry/2.1 Bootstrap")
+	.at(function($, manifest) {
+
+		
+		$.rootPath    = 'http://ripplehire.com/';
+		$.indexUrl    = 'http://ripplehire.com/index.php';
+		$.path        = 'http://ripplehire.com/media/foundry/2.1/';
+		$.scriptPath  = 'http://ripplehire.com/media/foundry/2.1/scripts/';
+		$.environment = 'production';
+		$.joomlaVersion = 2.5;
+		$.locale = {
+			lang: 'en-GB'
+		};
+
+		// Make sure core plugins are installed first
+		dispatch("Foundry/2.1")
+			.containing($)
+			.onlyTo("Foundry/2.1 Core Plugins");
+	});
+
+/*<![CDATA[*/
+dispatch("Foundry/2.1").to(function($, manifest) {
+
+	$.Component(
+		"EasyBlog",
+		{
+			// Overwrite the component's URL
+			baseUrl: 'http://ripplehire.com/index.php?option=com_easyblog&lang=none&Itemid=103',
+
+			environment: 'production',
+
+			version: '3.6.13546',
+
+			scriptVersioning: true,
+
+			optimizeResources: true,
+
+			dependencies: function(require) {
+
+				require
+					.library(
+						'ui/core',
+						'ui/widget',
+						'ui/position',
+						'ui/stars',
+						'fancybox',
+						'bookmarklet',
+						'checked',
+						'checkList'
+					)
+					.script(
+						'eblog',
+						'ejax'
+					);
+			},
+
+			ajax: {
+				data: {
+					"af7c684a72e111b52200919fbf4aff71" : 1
+				}
+			}
+		},
+		function() {
+			try {
+				console.info("EasyBlog client-side component is now ready!");
+			} catch(e) {
+
+			}
+		}
+	);
+
+});
+
+/*]]>*/
+
+  </script>
+  <meta property="og:image" content="http://ripplehire.com/images/easyblog_images/881/b2ap3_thumbnail_Gamification_Blog_RippleHire_20151026-115754_1.jpg"/>
+  <meta property="fb:app_id" content=""/>
+  <meta property="fb:admins" content=""/>
+  <meta property="og:title" content="Game, set, recruit" />
+  <meta property="og:description" content="Recruitment is different in every company. The processes depend on company sizes, hiring needs and efforts put by the recruitment team. There are three leading actors in any recruitment process - recruiters, candidates and employees.&amp;nbsp;It is proven that referrals are the best way to hire today. Then, why is the success ratio so low in many compa..." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://ripplehire.com/blog/entry/gamification-in-recruitment" />
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:url" content="http://ripplehire.com/blog/entry/gamification-in-recruitment" />
+  <meta property="twitter:title" content="Game, set, recruit" />
+  <meta property="twitter:description" content="Recruitment is different in every company. The processes depend on company sizes, hiring needs and efforts put by the recruitment team. There are three leading actors in any recruitment process - recruiters, candidates and employees.&amp;nbsp;It is proven that referrals are the best way to hire today. Then, why is the success ratio so low in many companies? &amp;nbsp;A great candidate experience is the key to conversions. Then, why are we unable to provide one? It is because we still haven’t been able to bridge the gap of engagement with both - employees and candidates. We are still following the traditional ways to do so without realising that our audience has changed. We are hiring a generation that is exceptionally social and has a short span of attention. As a result, we have to adopt newer ways to engage them.&amp;nbsp;Have you heard about gamification? What strikes your mind when you first hear it?&amp;nbsp;Games? Points? Winning and losing? Ranking? It’s similar. Gamification is a subtle science of psychology. It is the science of applying game mechanics and techniques to business scenarios to achieve tangible results. We all have played enough games to know the impact it creates on our minds. You start again even when you have lost a game repeatedly. We do so because we are challenged to achieve a certain goal.&amp;nbsp;When it comes to employees, gamification can engage them and help you get referrals. Monetary incentives aren’t the only driver to refer somebody today. Recognition and other non monetary rewards are equally important. Employees want to be recognized for helping the company by bringing in a great new employee. You can give them points, badges and recognize them. While points, badges, leaderboard and levels are most commonly known, the key facet of gamification is activity loops. Activity loop is the science of bringing about repetitive behaviour while making the process fun. For example, submitting time sheets is a boring and repetitive activity. Gamifying it the right way can result in people engaging in repetitive loops to file their timesheets before the deadline. There are four ways in which you can use the game elements to perform the following actions in a referral process:&amp;nbsp;Recommend friends: Game elements can propel them to perform the actions and make sourcing easy for you. You can define some points for referring, some more if their referral is shortlisted and upgrade their level once the referral is offered the job. We have seen that in 8 out of 10 times, an employee does not see success with his/her referrals. These points and badges encourage them to participate again even after facing failure.&amp;nbsp;Share the jobs on social media: When employees share the jobs on their social network, they are not only sharing jobs but also spreading the company culture. It becomes a catalyst for candidates to apply. Gamification can be used to drive social shares. Define badges that the employees will get if they share each job on all of their social networks. Run the same activity for a week and reward the employee who shares a job most number of times. This incentivizes them to participate and when their referral is hired, they are automatically motivated to do it again.&amp;nbsp;Post offer engagement: We all lose top candidates at the offer stage. It hurts when everybody in team finally agrees on a candidate but they don’t join. Would it not be awesome if the employee could talk the candidate into joining the company? The impact created when an employee explains them about growth and opportunities in the company is huge. You could easily incentivise this behaviour too.&amp;nbsp;Onboarding: Now that their referral has accepted the offer, employees can also be encouraged to help recruiters with a good onboarding. A mainstream onboarding process usually includes a lot of documentation. They can be recognized as employee of the month or quarter for helping mentor a friend/colleague get started well. &amp;nbsp;A good company culture’s only drawback is that a lot of people want to join your company. In which case, you can start by assessing who fits the skill set. &amp;nbsp;You can run coding competitions, hackathons, assessments for a particular role, etc. because you can’t assess each of them one by one and this eliminates junk. A gamified hiring process is one that makes employers more attractive in the eyes of job seekers. Think about the competitions organised by tech giants like Google or Facebook – Google Code Jam and the Facebook Hacker Cup. These both resulted in two-fold gains: more exposure and an opportunity to acquire fresh talent.&amp;nbsp;These competitions can be run on points, badges and levels. Usually, the competitions go on for weeks and engaging candidates becomes tough. A live leaderboard can keep them engaged. Showing their competitions boosts them to give their best. Grouping them can help in choosing the best faster. You can also measure some soft skills like time management, teamwork spirit, the passion about their work, etc. &amp;nbsp;Another good idea for candidate focused websites or career site is to provide a neat progress bar so candidates can instantly see how far they are into the recruitment process, helping them to focus on reaching later stages and completing the goal. &amp;nbsp;While gamification can have a tremendous impact on how you identify and hire people, it can be just as powerful—if not more so—as a tool for keeping them engaged after they have been hired. Engagement has become a hot topic today, with Gallup reportingthat nearly 70% of U.S. employees overall (and more than 70% of Millennials specifically) are not engaged employees. Given that ADP estimates the cost to a company of just one disengaged employee is more than $2,200 a year, it’s no wonder businesses are looking for ways to encourage employee engagement.&amp;nbsp;Gamification in companies is becoming so popular that, according to Gartner research covered in a Harvard Business Review blog post, elements of gaming will be used in 25% of redesigned business processes by 2015, and 70% of Global 2000 businesses expected to manage at least one gamified application or system.&amp;nbsp;The power of gamification comes down to this:It taps into the competitive fires that we all have. As we play a game, we become more engaged. We are willing to go the extra mile to achieve the goals and attain a greater sense of accomplishment." />
+  <meta property="twitter:image" content="http://ripplehire.com/images/easyblog_images/881/b2ap3_thumbnail_Gamification_Blog_RippleHire_20151026-115754_1.jpg"/>
+  <link rel="canonical" href="http://ripplehire.com/blog/entry/gamification-in-recruitment"/>
+  <meta itemprop="name" content="Game, set, recruit" />
+  <meta itemprop="description" content="Recruitment is different in every company. The processes depend on company sizes, hiring needs and efforts put by the recruitment team. There are three leading actors in any recruitment process - recruiters, candidates and employees.
+&amp;nbsp;
+It is proven that referrals are the best way to hire today. Then, why is the success ratio so low in many c..." />
+
+<!--[if IE 7]>
+<style type="text/css">
+  /* css for IE 7 */
+.submit_button{padding: 3px 20px!important}
+div.contactSocial ul{margin-left:20px;}
+div.contactSocial p{margin-left:20px;}
+.ccms_form_element select{border:0px!important;}
+.cfdiv_select select{width:331px!important;}
+.ccms_form_element.cfdiv_select{border:1px solid #d3d3d3!important;padding:10px 0px 10px 0px;}
+.ccms_form_element select{padding:0px!important;}
+#chronoform_Contact2 label{display:block;float:left;color:#d3d3d3;width:15%;padding:5px 0px 0px 5px;font-size:12px;}
+.form_text input, .form_textarea textarea{width:60%;padding: 12px 0px 12px 13px;border: 1px solid #fff;margin-bottom: 0;margin-top: -1px;}
+.form_text, .form_textarea{border:1px solid #d3d3d3;width:98%;overflow:hidden;}
+.form_textarea textarea{width:100%;}
+#chronoform_DemoForm label{display:block;float:left;color:#d3d3d3;padding:5px 0px 0px 5px;font-size:12px;height:15px!important;width:100px!important;}
+.ccms_form_element.cfdiv_text{border: 1px solid #d3d3d3;width: 331px;}
+.ccms_form_element{margin-bottom:0px!important;}
+.ccms_form_element input{width:auto;border:1px solid #fff;margin-bottom: 0;margin-top:1px;}
+  </style>
+<![endif]-->
+<!--[if IE 8]>
+<style type="text/css">
+#chronoform_Contact2 label{display:block;float:left;color:#d3d3d3;width:15%;padding:5px 0px 0px 5px;font-size:12px;}
+.form_text input, .form_textarea textarea{width:60%;padding: 12px 0px 12px 13px;border: 1px solid #fff;margin-bottom: 0;margin-top: -1px;}
+.form_text, .form_textarea{border:1px solid #d3d3d3;width:98%;overflow:hidden;}
+.form_textarea textarea{width:100%;}
+#chronoform_DemoForm label{display:block;float:left;color:#d3d3d3;padding:5px 0px 0px 5px;font-size:12px;height:15px!important;width:100px!important;}
+.ccms_form_element.cfdiv_text{border: 1px solid #d3d3d3;width: 331px;}
+.ccms_form_element{margin-bottom:0px!important;}
+.ccms_form_element input{width:auto;border:1px solid #fff;margin-bottom: 0;margin-top:1px;}
+  </style>
+<![endif]-->
+<!--[if IE 9]>
+<style type="text/css">
+#chronoform_Contact2 label{display:block;float:left;color:#d3d3d3;width:15%;padding:5px 0px 0px 5px;font-size:12px;}
+.form_text input, .form_textarea textarea{width:60%;padding: 12px 0px 12px 13px;border: 1px solid #fff;margin-bottom: 0;margin-top: -1px;}
+.form_text, .form_textarea{border:1px solid #d3d3d3;width:98%;overflow:hidden;}
+.form_textarea textarea{width:100%;}
+#chronoform_DemoForm label{display:block;float:left;color:#d3d3d3;padding:5px 0px 0px 5px;font-size:12px;height:15px!important;width:100px!important;}
+.ccms_form_element.cfdiv_text{border: 1px solid #d3d3d3;width: 331px;}
+.ccms_form_element{margin-bottom:0px!important;}
+.ccms_form_element input{width:auto;border:1px solid #fff;margin-bottom: 0;margin-top:1px;}
+  </style>
+<![endif]-->
+  
+  <script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37897338-1']);
+  _gaq.push(['_setDomainName', 'ripplehire.com']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+  <meta name="google-site-verification" content="RVmhtgGljEELv1gHXzpnZ5lDrLP_8dd-ih_Nri6Gn5Q" />
+</head>
+<body>
+<a name="up" id="up"></a>
+  <div id="wrapper">
+    <div id="wrapperinner">
+      <div id="header">
+      <div id="headerleft">
+        <a href="/index.php"><img src="/templates/conv_template/images/ripple_logo.png" border="0" /></a>
+        </div>
+        <div id="mainnav">
+           
+<ul class="menu">
+<li class="item-101"><a href="/" >Home</a></li><li class="item-102 parent"><a href="/features/overview" >Features</a></li><li class="item-104"><a href="/request-a-demo" >Request a Demo </a></li><li class="item-103 current active"><a href="/blog" >Blog</a></li><li class="item-105 parent"><a href="/about-us/about-overview" >About Us</a></li><li class="item-186"><a href="https://trampolinetech.ripplehire.com/ripplehire/careers" target="_blank" >We are Hiring</a></li></ul>
+
+        </div>
+        <div id="login">
+
+             
+
+<div class="custom"  >
+	<div style="display: none;">
+<p style="margin-top: 13px;"><a class="buttonbg" href="/component/content/?id=19&amp;Itemid=156">Job Seeker Login</a></p>
+</div></div>
+
+
+            </div>
+
+      </div>
+
+
+<div id="system-message-container">
+</div>
+
+      <div id="slider">
+
+        
+
+      </div>
+
+      <div class="clr"></div>
+
+      <div id="area">
+
+      <div id="areainner">
+
+
+
+
+            <!--logic for dynamic width of area -->
+
+            
+                       
+                        <div id="contentarea" style="width:735px">
+
+                        
+
+                       <div id="eblog-wrapper" class="eblog-defaulttest eblog-site "><script type="text/javascript">
+EasyBlog.ready(function($){
+
+	$('#ezblog-head #ezblog-search').bind('focus', function(){
+		$(this).animate({ width: '170'} );
+	});
+
+	$('#ezblog-head #ezblog-search').bind( 'blur' , function(){
+		$(this).animate({ width: '120'});
+	});
+
+});
+</script>
+<div id="ezblog-head">
+	<div class="in clearfix">
+
+		
+
+
+				<h1 class="component-title reset-h"> </h1>
+		<p class="rip mts mbm"></p>
+		
+		
+		
+		
+	</div>
+</div>
+<!-- EasyBlog wrappers -->
+<div id="ezblog-body" itemscope itemtype="http://schema.org/Blog">
+	<!-- Entry wrapper -->
+	<div id="entry-24" class="blog-read clearfix">
+
+		
+							
+		<!-- @module: easyblog-before-entry -->
+		
+		<div class="blog-head mtm">
+						<h1 id="title-24" class="blog-title rip" itemprop="name">Game, set, recruit</h1>
+		</div>
+
+		<div class="blog-brief ptl pbl mbl">
+			<div class="in clearfix">
+									<!-- @template: Avatar -->
+					<!-- Avatar wrappers -->
+<div class="blog-avatar float-l prel">
+			<a href="/blog/blogger/listings/harshita" class="avatar float-l">
+			<img src="http://ripplehire.com/images/easyblog_avatar/881_LinkedIn.png" alt="Harshita Kumbhar" class="avatar isBlogger" width="60" height="60" />
+		</a>
+	</div>				
+				<!-- Post metadata -->
+				<div class="blog-meta">
+	<div class="in">
+		<span>Posted</span>
+		
+					<!-- Author information -->
+			<span class="blog-author">
+				by				<a href="/blog/blogger/listings/harshita" itemprop="author">Harshita Kumbhar</a>
+			</span>
+		
+					<!-- Creation date -->
+			<span class="blog-created">
+				on				<time datetime="2015-11-07">
+					<span>07 November 2015</span>
+				</time>
+			</span>
+		
+					<!-- Category info -->
+			<span class="blog-category">
+								in <a href="/blog/categories/listings/brainwaves">Brainwaves</a>			</span>
+			</div>
+</div>
+
+				<div class="blog-option mts">
+					<ul class="reset-ul float-li small fsm">
+
+						<script type="text/javascript">
+EasyBlog.ready(function($){
+
+	// Bind event's on the font size changer.
+	$( '#ezblog-body .font-switcher a' ).click( function(){
+		var blogText	= $( '#ezblog-body .blog-text' );
+		var current 	= $( blogText ).css( 'font-size' );
+		var num			= parseFloat(current, 10);
+		var unit		= current.slice(-2);
+
+		if( this.id == 'fontLarge' )
+		{
+			num = num * 1.4;
+		}
+		else if (this.id == 'fontSmall')
+		{
+			num = num / 1.4;
+		}
+
+		$( blogText ).css( 'font-size' , num + unit );
+
+		return false;
+	});
+});
+</script>
+<li class="font-switcher">
+	<span>Font size:</span>
+	<a id="fontLarge" class="fontChanger" href="javascript:void(0);">Larger</a>
+	<a id="fontSmall" class="fontChanger" href="javascript:void(0);">Smaller</a>
+</li>
+
+						
+						
+						
+						
+<li id="bookmark-link" class="bookmark">
+	<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=xa-4be11e1875bf6363" class="addthis_button_compact">Bookmark</a>
+	<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4be11e1875bf6363"></script>
+</li>
+											</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Load social buttons -->
+		
+		<!-- @Trigger: onAfterDisplayTitle -->
+				<div class="blog-text clearfix prel mtm mbm">
+
+			<!-- Blog Image -->
+						<div style="text-align:center;">
+				<img src="http://ripplehire.com/images/easyblog_images/881/2e1ax_defaulttest_entry_Gamification_Blog_RippleHire_20151026-115754_1.jpg" class="blog-image" style="margin: 0 5px 5px 0;border: 1px solid #ccc;padding:3px;" />
+			</div>
+			
+			<!-- @Trigger: onBeforeDisplayContent -->
+			
+			<!-- Table of contents if necessary -->
+			
+			<!-- @module: easyblog-before-content -->
+			
+			<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Recruitment is different in every company. The processes depend on company sizes, hiring needs and efforts put by the recruitment team. There are three leading actors in any recruitment process - recruiters, candidates and employees.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><a href="http://ripplehire.com/blog/entry/best-way-to-hire-employee-referrals"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">It is proven that referrals are the best way to hire today</span></a><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;"><a href="http://ripplehire.com/blog/entry/best-way-to-hire-employee-referrals">.</a> Then, why is the success ratio so low in many companies? </span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><a href="http://ripplehire.com/blog/entry/candidate-experience"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">A great candidate experience is the key to conversions</span></a><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">. Then, why are we unable to provide one? It is because we still haven’t been able to bridge the gap of engagement with both - employees and candidates. We are still following the traditional ways to do so without realising that our audience has changed. We are hiring a generation that is exceptionally social and has a short span of attention. As a result, we have to adopt newer ways to engage them.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Have you heard about gamification? What strikes your mind when you first hear it?</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Games? Points? Winning and losing? Ranking? It’s similar. Gamification is a subtle science of psychology. It is the science of applying game mechanics and techniques to business scenarios to achieve tangible results. We all have played enough games to know the impact it creates on our minds. You start again even when you have lost a game repeatedly. We do so because we are challenged to achieve a certain goal.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">When it comes to employees, gamification can engage them and help you get referrals. Monetary incentives aren’t the only driver to refer somebody today. Recognition and other non monetary rewards are equally important. Employees want to be recognized for helping the company by bringing in a great new employee. You can give them points, badges and recognize them. While points, badges, leaderboard and levels are most commonly known, the key facet of gamification is activity loops. Activity loop is the science of bringing about repetitive behaviour while making the process fun. For example, submitting time sheets is a boring and repetitive activity. Gamifying it the right way can result in people engaging in repetitive loops to file their timesheets before the deadline. There are four ways in which you can use the game elements to perform the following actions in a referral process:</span></p>
+<p>&nbsp;</p>
+<ol>
+<li dir="ltr">
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Recommend friends</span><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">: Game elements can propel them to perform the actions and make sourcing easy for you. You can define some points for referring, some more if their referral is shortlisted and upgrade their level once the referral is offered the job. We have seen that in 8 out of 10 times, an employee does not see success with his/her referrals. These points and badges encourage them to participate again even after facing failure.</span></p>
+</li>
+</ol>
+<p dir="ltr">&nbsp;</p>
+<ol start="2">
+<li dir="ltr">
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Share the jobs on social media</span><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">: When employees share the jobs on their social network, they are not only sharing jobs but also spreading the company culture. It becomes a catalyst for candidates to apply. Gamification can be used to drive social shares. Define badges that the employees will get if they share each job on all of their social networks. Run the same activity for a week and reward the employee who shares a job most number of times. This </span><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">incentivizes </span><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">them to participate and when their referral is hired, they are automatically motivated to do it again.</span></p>
+</li>
+</ol>
+<p>&nbsp;</p>
+<ol start="3">
+<li dir="ltr">
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Post offer engagement</span><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">: We all lose top candidates at the offer stage. It hurts when everybody in team finally agrees on a candidate but they don’t join. Would it not be awesome if the employee could talk the candidate into joining the company? The impact created when an employee explains them about growth and opportunities in the company is huge. You could easily incentivise this behaviour too.</span></p>
+</li>
+</ol>
+<p>&nbsp;</p>
+<ol start="4">
+<li dir="ltr">
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Onboarding</span><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">: Now that their referral has accepted the offer, employees can also be encouraged to help recruiters with a good onboarding. A mainstream onboarding process usually includes a lot of documentation. They can be recognized as employee of the month or quarter for helping mentor a friend/colleague get started well. </span></p>
+</li>
+</ol>
+<p>&nbsp;</p>
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">A good company culture’s only drawback is that a lot of people want to join your company. In which case, you can start by assessing who fits the skill set. </span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">You can run coding competitions, hackathons, assessments for a particular role, etc. because you can’t assess each of them one by one and this eliminates junk. A gamified hiring process is one that makes employers more attractive in the eyes of job seekers. Think about the competitions organised by tech giants like Google or Facebook – </span><a href="https://code.google.com/codejam"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Google Code Jam</span></a><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;"> and the </span><a href="https://www.facebook.com/hackercup"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Facebook Hacker Cup</span></a><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">. These both resulted in two-fold gains: more exposure and an opportunity to acquire fresh talent.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">These competitions can be run on points, badges and levels. Usually, the competitions go on for weeks and engaging candidates becomes tough. A live leaderboard can keep them engaged. Showing their competitions boosts them to give their best. Grouping them can help in choosing the best faster. You can also measure some soft skills like time management, teamwork spirit, the passion about their work, etc. </span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Another good idea for candidate focused websites or career site is to provide a neat progress bar so candidates can instantly see how far they are into the recruitment process, helping them to focus on reaching later stages and completing the goal. </span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">While gamification can have a tremendous impact on how you identify and hire people, it can be just as powerful—if not more so—as a tool for keeping them engaged after they have been hired. Engagement has become a hot topic today, with </span><a href="http://www.gallup.com/poll/181289/majority-employees-not-engaged-despite-gains-2014.aspx"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Gallup reporting</span></a><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">that nearly 70% of U.S. employees overall (and more than 70% of Millennials specifically) are not engaged employees. Given that </span><a href="http://www.adp.com/~/media/Solution%20Center/MNC/PDF/infographic-employee-engagement-mnc.ashx"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">ADP estimates</span></a><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;"> the cost to a company of just one disengaged employee is more than $2,200 a year, it’s no wonder businesses are looking for ways to encourage employee engagement.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">Gamification in companies is becoming so popular that, according to Gartner research covered in a Harvard Business Review blog post, </span><a href="http://blogs.hbr.org/2013/01/how-deloitte-made-learning-a-g/"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">elements of gaming will be used in 25% of redesigned business processes by 2015</span></a><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">, and 70% of Global 2000 businesses expected to manage at least one gamified application or system.</span></p>
+<p>&nbsp;</p>
+<p dir="ltr"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">The power of gamification comes down to this:</span></p>
+<p><span id="docs-internal-guid-0378a2e4-a3f3-a159-5b71-23194103e65b"><span style="font-family: georgia, san-serif; font-size: 20px; line-height: 1.6; letter-spacing: 0.03rem; word-spacing: 2px; text-align: left;">It taps into the competitive fires that we all have. As we play a game, we become more engaged. We are willing to go the extra mile to achieve the goals and attain a greater sense of accomplishment.</span></span></p>
+			<!-- @module: easyblog-after-content -->
+			
+			
+			<!-- Copyright text -->
+					</div>
+
+		
+					<!-- Tags listings -->
+		
+					<div id="socialbutton" class="alignleft bottom width-full"><div class="socialbutton-vertical alignleft"><div class="social-button social-button-plain linkedin-share"><span id="sb-1804810559"></span></div></div><script type="text/javascript">EasyBlog.ready(function($){$("#sb-1804810559").bookmarklet("linkedIn", {
+				url: "http://ripplehire.com/blog/entry/gamification-in-recruitment",
+				counter: ""
+			});});</script><div class="socialbutton-vertical alignleft"><div class="social-button social-button-plain retweet"><span id="sb-1992405219"></span></div></div><script type="text/javascript">EasyBlog.ready(function($){$("#sb-1992405219").bookmarklet("twitter", {
+				url: "http://ripplehire.com/blog/entry/gamification-in-recruitment",
+				via: "",
+				count: "none"
+			});});</script><div class="socialbutton-vertical alignleft"><div class="social-button social-button-small google-plusone"><span id="sb-38386504"></span></div></div><script type="text/javascript">EasyBlog.ready(function($){$("#sb-38386504").bookmarklet("googlePlusOne", {
+				href: "http://ripplehire.com/blog/entry/gamification-in-recruitment",
+				size: "medium"
+			});});</script><div class="socialbutton-vertical alignleft"><div class="social-button social-button-small facebook-like"><span id="sb-1826585998"></span><script type="text/javascript">EasyBlog.ready(function($){$("#sb-1826585998").bookmarklet("facebookLike", {
+			url: "http://ripplehire.com/blog/entry/gamification-in-recruitment",
+			send: "false",
+			layout: "button_count",
+			verb: "like",
+			locale: "en_GB",
+			faces: "false",
+			theme: "light",
+			height: "30",
+			width: "auto"
+		});});</script></div></div><div class="socialbutton-vertical alignleft"><div class="social-button social-button-plain pinterest"><span id="sb-622356968"></span></div><script type="text/javascript">EasyBlog.ready(function($){$("#sb-622356968").bookmarklet("pinterest", {
+					url: "http%3A%2F%2Fripplehire.com%2Fblog%2Fentry%2Fgamification-in-recruitment",
+					style: "none",
+					media: "http%3A%2F%2Fripplehire.com%2Fimages%2Feasyblog_images%2F881%2F2e1ax_defaulttest_frontpage_Gamification_Blog_RippleHire_20151026-115754_1.jpg",
+					description: "Recruitment+is+different+in+every+company.+The+processes+depend+on+company+sizes%2C+hiring+needs+and+efforts+put+by+the+recruitment+team.+There+are+three+leading+actors+in+any+recruitment+process+-+recruiters%2C+candidates+and+employees.+%26nbsp%3B+It+is+proven+that+referrals+are+the+best+way+to+hire+today.+Then%2C+why+is+the+success+ratio+so+low+in+many+com..."
+				});});</script></div></div>		
+		<!-- Standard facebook like button needs to be at the bottom -->
+		
+		<!-- Blog navigations for previous / next link -->
+<ul class="blog-navi reset-ul float-li clearfix">
+		<li class="entry-prev">
+		<a href="/blog/entry/best-way-to-hire-employee-referrals" title="View previous post: Proved: Employee referrals are the #1 source for h...">
+			Proved: Employee referrals are the #1 source for h...		</a>
+	</li>
+	
+		<li class="entry-next">
+		<a href="/blog/entry/best-sales-tips-from-recruitment-leaders" title="View next post: 5 Best Sales Tips from Recruitment Leaders">
+			5 Best Sales Tips from Recruitment Leaders		</a>
+	</li>
+	</ul>
+	</div>
+
+	
+	<script type="text/javascript">
+EasyBlog.ready( function(){
+	eblog.blog.tab.init();
+});
+</script>
+
+
+
+
+	
+	<!-- @Trigger: onAfterDisplayContent -->
+		
+			<!-- Comment form and comment listings -->
+		<a id="comments"></a><div id="section-comments" class="blog-section">
+	<h3 class="section-title"><span>Comments</span></h3>
+	<div id="fb-root"></div>
+	<script src="http://connect.facebook.net/en_GB/all.js#xfbml=1"></script>
+	<fb:comments href="http://ripplehire.com/blog/entry/gamification-in-recruitment" num_posts="10" width="auto"></fb:comments>
+</div>	</div>
+<span id="easyblog-token" style="display:none;"><input type="hidden" name="af7c684a72e111b52200919fbf4aff71" value="1" /></span></div>
+
+                        </div>
+
+            
+            <div id="rightcolumn">
+
+ 		<div class="moduletable">
+					
+
+<div class="custom"  >
+	<p><br /><br /><br /></p>
+<div class="beliefs8" style="width: 190px; margin-left: 44px; position: fixed;">
+<div class="action">
+<p style="padding: 13px 45px 4px 39px; font-size: 14px !important; text-align: center; line-height: 1.4;">See RippleHire in Action!</p>
+<div class="demodiv" style="margin-top: 13px; margin-left: 3px;"><a class="demo" href="/index.php/request-a-demo" style="font-size: 12px;">Request a Demo</a></div>
+</div>
+</div></div>
+		</div>
+	
+
+            </div>
+        </div>
+
+        </div>  
+    <div class="clr"></div>
+    
+          <div class="clr"></div>
+
+    <div id="footer">
+
+      <div id="footer1">
+
+           		<div class="moduletable_chimp">
+					<h3>Hear From Us</h3>
+					
+
+
+                  
+
+<div class="module_chimp" >
+
+	<script type="text/javascript" src="http://ripplehire.com/modules/mod_mailchimp2/ajax.js"> </script>
+
+
+
+	<script type="text/javascript">
+
+	//<![CDATA[
+
+
+
+	// Global Ajax request
+
+	var MCajaxReq = new MCAjaxRequest();
+
+
+
+	// Add a new email address on the server using Ajax
+
+	function getInterestGroup(inputgroup){
+
+		var iginputs = document.getElementById(inputgroup);
+
+		if(!iginputs){
+
+			return('');
+
+		}
+
+		var group_id = iginputs.getElementsByTagName('legend');
+
+		ig_values = 'mcig_' + group_id[0].title + ','
+
+		if(iginputs){
+
+			if(iginputs.getElementsByTagName('input').length){
+
+				var inputs = iginputs.getElementsByTagName('input'); 	// radio or checkbox
+
+			} else {
+
+				var inputs = iginputs.getElementsByTagName('option'); 	// select list
+
+			}
+
+			if(inputs){
+
+				for (var i=0; i < inputs.length; i++) {
+
+ 					// checked for radio or checkbox, selected for select list
+
+					if (inputs[i].checked || inputs[i].selected) { 
+
+					      ig_values = ig_values + inputs[i].value + ",";
+
+	      				}
+
+				}
+
+			}
+
+		}
+
+		return(ig_values);
+
+	}	// end of getInterestGroup
+
+
+
+	function getInterestGroups(){
+
+		var retstring;
+
+		retstring = '';
+
+		for(i=1; i<10; i++){
+
+			var groupname;
+
+			groupname = 'mciginputs' + i;
+
+			retstring = retstring + getInterestGroup(groupname);
+
+		}
+
+		return(retstring);
+
+	} // end of getInterestGroups
+
+	
+
+
+
+
+
+	function addEmailAddress() {
+
+
+
+		var lang_error_invalid_email = 'Invalid Email Address';
+
+		var lang_message_adding = 'Adding...';
+
+
+
+		
+		// check email address for validity.
+
+		// disabled by default.
+
+		var regex = /^[\w\.\-_\+]+@[\w-]+(\.\w{2,6})+$/;
+
+
+
+		if(!regex.test(document.getElementById("mc2_email").value)){
+
+			// document.getElementById("status").innerHTML = "Invalid email address";
+
+			document.getElementById("mc2_status").innerHTML = lang_error_invalid_email;
+
+			return;
+
+		}
+
+		
+
+
+
+
+		// Disable the Add button and set the status to busy
+
+		document.getElementById("mc2_add").disabled = true;
+
+		document.getElementById("mc2_status").innerHTML = lang_message_adding;
+
+
+
+		// Send the new email entry and our module id data as an Ajax request
+
+		postvars = "ajax=true" + "&mid=119" + "&email=" + document.getElementById("mc2_email").value;
+
+		var mergeVarInputs = document.getElementById('mcmergevars');
+
+		mvinputs = mergeVarInputs.getElementsByTagName('input'); //does not get selects.  
+
+
+
+		maxj = mvinputs.length;
+
+		for(j=0; j < maxj; j++){
+
+			if(mvinputs[j].getAttribute("type") == "radio") { //don't automatically add all radio inputs
+
+				
+
+				if (mvinputs[j].checked && mvinputs[j].value) { 
+
+					postvars = postvars + "&" + mvinputs[j].getAttribute('name') + 
+
+						"=" + mvinputs[j].value;
+
+				}
+
+				
+
+			} else if(mvinputs[j].value){ //input but not radiobutton
+
+				postvars = postvars + "&" + mvinputs[j].getAttribute('name') + 
+
+					"=" + mvinputs[j].value;
+
+			}
+
+
+
+		}
+
+		
+
+		
+
+		mvselects = mergeVarInputs.getElementsByTagName('select');
+
+		
+
+		maxj = mvselects.length;
+
+		for(j=0; j < maxj; j++){
+
+			if(mvselects[j].value){
+
+				postvars = postvars + "&" + mvselects[j].getAttribute('name') + 
+
+					"=" + mvselects[j].value;
+
+			}
+
+
+
+		}
+
+		
+
+	
+
+		var i_groups;	
+
+		i_groups = getInterestGroups();
+
+		if(i_groups.length){
+
+			postvars = postvars + "&ig=" + i_groups;
+
+		}
+
+		MCajaxReq.send("POST", "http://ripplehire.com/modules/mod_mailchimp2/send_to_mc.php", handleRequest, "application/x-www-form-urlencoded; charset=UTF-8", postvars);
+
+
+
+	}	// end of addEmailAddress
+
+
+
+	// Handle the Ajax request
+
+	function handleRequest() {
+
+		if (MCajaxReq.getReadyState() == 4 && MCajaxReq.getStatus() == 200) {
+
+			// Confirm the addition of the email entry
+
+			document.getElementById("mc2_status").innerHTML = MCajaxReq.getResponseText();
+
+			document.getElementById("mc2_add").disabled = false;
+
+			document.getElementById("mc2_email").value = "";
+
+			var mvinputs = document.getElementById('mcmergevars');	// clear mergevars
+
+			if(mvinputs.getElementsByTagName('input').length){
+
+				var inputs = mvinputs.getElementsByTagName('input');
+
+				if(inputs){
+
+					for (var i=0; i < inputs.length; i++) {	
+
+						inputs[i].value = '';		
+
+					}
+
+				}
+
+			}
+
+			/* clear checkboxes and radios */
+
+			var iginputs = document.getElementById('mciginputs');
+
+			ig_values = "";
+
+			if(iginputs){
+
+				if(iginputs.getElementsByTagName('input').length){
+
+					var inputs = iginputs.getElementsByTagName('input'); 	// radio or checkbox
+
+				} else {
+
+					var inputs = iginputs.getElementsByTagName('option'); 	// select list
+
+				}
+
+				if(inputs){
+
+					for (var i=0; i < inputs.length; i++) {
+
+	 					// checked for radio or checkbox, selected for select list
+
+						if (inputs[i].checked || inputs[i].selected) { 
+
+							inputs[i].checked = false;
+
+		      				}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	//]]>
+
+	</script>
+
+
+
+
+ 
+
+	
+
+	<form name="mailchimp2" action="">
+
+	<!--<span class="modmc2_label">Email address:</span><br />-->
+	<span class="mailchimp_introtext">Receive apt, crisp and stimulating titbits every two weeks on the power and challenges of being in HR</span>
+	<div style="float:left;"><input style="margin:0px 5px 0px 0px; padding:5px;" type="text"  id="mc2_email" name="email" onfocus="if(this.value == 'E-mail') this.value = '';" onblur="if(this.value=='') this.value='E-mail';" type="text" class="inputbox required" name="user[email]" value="E-mail"  size="22"/><br /></div>
+	
+
+	
+	<div id="mcmergevars" style="display: none">
+
+	<span class="modmc2_label notreq">First Name: </span><br />
+<input class="mergevars" type="text" name="FNAME" size="22"/><br />
+<span class="modmc2_label notreq">Last Name: </span><br />
+<input class="mergevars" type="text" name="LNAME" size="22"/><br />
+
+		</div>
+		
+			
+		
+	<input type="submit" class="button subbutton" id="mc2_add" value="Submit" onclick="addEmailAddress(); return false;" /></form>
+
+
+<span class="mailchimp_posttext">Ofcourse, you can unsubscribe at any time</span>	
+	
+
+
+</div>
+<div id="mc2_status"></div>
+
+
+
+		</div>
+			<div class="moduletablecontact">
+					<h3>Contact Us</h3>
+					
+
+<div class="customcontact"  >
+	<p class="Cno"> <span>+91 22 2500 2026</span></p>
+<p class="Cmail"><a href="mailto:contact@ripplehire.com">contact@ripplehire.com</a></p>
+<p class="Caddress">D/504, Kailas Esplanade, LBS Marg<br /> Ghatkopar West, Mumbai 400086</p></div>
+		</div>
+			<div class="moduletablefooternav">
+					<h3>RippleHire</h3>
+					
+<ul class="menufooternav">
+<li class="item-165"><a href="/about-us/about-overview" >About Us</a></li><li class="item-166"><a class="aboutactive" href="/features/overview" >Features</a></li><li class="item-167"><a href="/request-a-demo" >Get Your Free Demo </a></li><li class="item-168"><a href="https://trampolinetech.ripplehire.com/ripplehire/careers" target="_blank" >Careers </a></li><li class="item-169"><a href="/privacy-policy" >Privacy Policy</a></li><li class="item-170"><a href="/terms-of-use" >Terms of Use</a></li></ul>
+		</div>
+			<div class="moduletablesocial">
+					<h3>Stay In Touch</h3>
+					
+
+<div class="customsocial"  >
+	<ul>
+<li class="facebook_icon"><a href="http://www.facebook.com/Ripplehire" target="_blank">Facebook</a></li>
+<li class="twitter_icon"><a href="https://twitter.com/RippleHire" target="_blank">Twitter</a></li>
+<li class="google_icon"><a href="https://plus.google.com/b/113329019137009427580/113329019137009427580/posts" target="_blank">Google+</a></li>
+<li class="pinterest_icon"><a href="http://pinterest.com/ripplehire/" target="_blank">Pinterest</a></li>
+<li class="linkedin_icon"><a href="http://www.linkedin.com/company/trampoline-tech-private-limited?trk=top_nav_home" target="_blank">LinkedIn</a></li>
+</ul></div>
+		</div>
+	
+
+            </div>
+
+            <div class="clr"></div>
+
+            <div id="footer2">
+
+            
+
+<div class="custom"  >
+	<p>© 2015 Trampoline Tech Private Limited</p></div>
+
+
+            </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+  
+</body>
+
+</html>

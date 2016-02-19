@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<!--
+                ⟡ ◦ ◌°
+              ◦° ◌ ◯ ◦ ⟡
+    TNW v3.0 "Lemon Soda"
+
+    Stop looking at our code and write some! ^_^
+    http://thenextweb.com/jobs
+
+    ╭──────────────────────────────────────────╮
+    │ ≡ Design & Front-end                     │
+    ╞══════════════════════════════════════════╡
+    │                                          │
+    │ ALEXANDER GRIFFIOEN                      │
+    ├──────────┬───────────────────────────────┤
+    │ Email    │ alexander@thenextweb.com      │
+    ├──────────┼───────────────────────────────┤
+    │ Twitter  │ @oscaralexander               │
+    ├──────────┼───────────────────────────────┤
+    │ Location │ Amsterdam, NL                 │
+    ╰──────────┴───────────────────────────────╯
+
+    ╭──────────────────────────────────────────╮
+    │ ≡ Front-end & Back-end                   │
+    ╞══════════════════════════════════════════╡
+    │                                          │
+    │ LAURA GONZÁLEZ                           │
+    ├──────────┬───────────────────────────────┤
+    │ Email    │ laura@thenextweb.com          │
+    ├──────────┼───────────────────────────────┤
+    │ Twitter  │ @lawwrr                       │
+    ├──────────┼───────────────────────────────┤
+    │ Location │ Oviedo, ES                    │
+    ╰──────────┴───────────────────────────────╯
+
+    ╭──────────────────────────────────────────╮
+    │ ≡ Front-end & Back-end                   │
+    ╞══════════════════════════════════════════╡
+    │                                          │
+    │ PABLO ROMÁN                              │
+    ├──────────┬───────────────────────────────┤
+    │ Email    │ pablo@thenextweb.com          │
+    ├──────────┼───────────────────────────────┤
+    │ Twitter  │ @pabloroman                   │
+    ├──────────┼───────────────────────────────┤
+    │ Location │ Amsterdam, NL                 │
+    ╰──────────┴───────────────────────────────╯
+
+-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#" 
+xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" itemscope itemtype='http://schema.org/'>
+    <head>
+        <title>Firewatch lets you order photo prints from your in-game camera</title>
+      
+			<link rel="stylesheet" href="http://cdn0.tnwcdn.com/wp-content/themes/icetea/lemonsoda/stylesheets/base.min.css?v=1455715439" type="text/css" />
+			                <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-title" content="The Next Web">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="theme-color" content="#FF4020">
+        <meta name="readability-verification" content="gg98CaM5YewFSAnFdCqrXVhu7AvvbXqSaC8QJtt90">
+        <meta property="twitter:account_id" content="10876852">
+        <meta property="fb:app_id" content="378011798897423">
+        <link rel="alternate" type="application/rss+xml" title="TNW Network All Stories RSS Feed" href="http://feeds2.feedburner.com/thenextweb">
+        <link rel="alternate" type="application/rss+xml" title="TNW Network Top Stories RSS Feed" href="http://feeds2.feedburner.com/thenextwebtopstories">
+        <link rel="alternate" type="application/rss+xml" title="TNW Apps RSS Feed" href="http://feeds.feedburner.com/Appetite">
+        <link href="/opensearch.xml" rel="search" title="The Next Web" type="application/opensearchdescription+xml">
+        <link rel="shortcut icon" href="http://thenextweb.com/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/icons/touch-icon-iphone-precomposed.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/icons/touch-icon-ipad-precomposed.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/icons/touch-icon-iphone-retina-precomposed.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/icons/touch-icon-ipad-retina-precomposed.png">
+        <link rel="apple-touch-startup-image" href="http://cdn1.tnwcdn.com/wp-content/themes/icetea/static/images/apple-startup-screen.png">
+        <link rel="pingback" href="http://thenextweb.com/xmlrpc.php">
+        <link href="https://plus.google.com/115081025762845243709/" rel="publisher">
+        <script type="application/ld+json">
+{"@context":"http:\/\/schema.org","@type":"NewsArticle","articleSection":"Apps","creator":"Abhimanyu Ghoshal","editor":"Abhimanyu Ghoshal","dateCreated":"2016-02-09T09:11:49","datePublished":"2016-02-09","dateModified":"2016-02-09","headline":"Firewatch lets you order prints of photos from your in-game camera","name":"Firewatch lets you order prints of photos from your in-game camera","alternativeHeadline":"Firewatch lets you order prints of photos from your in-game camera","keywords":["Campo Santo","Easter Egg","Firewatch","games","gaming","panic","Prints"],"url":"http:\/\/thenextweb.com\/apps\/2016\/02\/09\/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera\/","thumbnailUrl":"http:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/02\/Firewatch-520x245.jpg","wordCount":262,"description":"If you're excited to try indie development studios Campo Santo and Panic's gripping mystery game Firewatch, you'll be happy to learn that there's a cool easter egg to look forward to ...","articleBody":"If you're excited to try indie development studios Campo Santo and Panic's gripping mystery game Firewatch, you'll be happy to learn that there's a cool easter egg to look forward to in the PC version.\r\n\r\nThere's a disposable camera somewhere in the forest that lets you snap photos in the game world. Once you finish the game, you'll be able to order actual 4x6 prints of your shots to be mailed to you anywhere in the world.\r\n\r\nTechnoBuffalo reported that prior to this week's official launch, a set of prints cost $15. and shipped in two to four weeks. The price may have gone up since, but if you enjoyed the game, this is as cool a memento as you could ever ask for.\r\n\r\nSadly, the feature isn't yet available for PlayStation 4 as it requires network access and is a bit more complicated to implement for consoles. Panic's Cabel Sasser told Polygon, &quot;We are actively investigating what it would take to make this happen on the PlayStation 4. Sony wants it and so do we!&quot;\r\n\r\n\u27a4 In Firewatch on PC, you find a camera \u2013 You can have the pics you snap physically developed [TechnoBuffalo]","copyrightYear":"2016","publisher":{"@type":"Organization","name":"The Next Web","logo":{"@type":"ImageObject","url":"http:\/\/thenextweb.com\/wp-content\/themes\/icetea\/lemonsoda\/img\/tnw-amp.png","width":193,"height":60}},"provider":"The Next Web","sourceOrganization":"The Next Web","copyrightHolder":"The Next Web","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/thenextweb.com\/apps\/2016\/02\/09\/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera\/"},"author":{"@type":"Person","name":"Abhimanyu Ghoshal"},"image":{"@type":"ImageObject","url":"http:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/02\/Firewatch-520x245.jpg","width":1612,"height":806},"interactionStatistic":[{"@type":"InteractionCounter","interactionService":{"@type":"Website","name":"Twitter","url":"http:\/\/www.twitter.com"},"interactionType":"http:\/\/schema.org\/ShareAction","userInteractionCount":"150"},{"@type":"InteractionCounter","interactionType":"http:\/\/schema.org\/CommentAction","userInteractionCount":"0"}]}        </script>
+            <meta property="bt:body" content="If you're excited to try indie development studios Campo Santo and Panic's gripping mystery game Firewatch, you'll be happy to learn that there's a cool easter egg to look forward to in the PC version.
+
+There's a disposable camera somewhere in the forest that lets you snap photos in the game world. Once you finish the game, you'll be able to order actual 4x6 prints of your shots to be mailed to you anywhere in the world.
+
+TechnoBuffalo reported that prior to this week's official launch, a set of prints cost $15. and shipped in two to four weeks. The price may have gone up since, but if you enjoyed the game, this is as cool a memento as you could ever ask for.
+
+Sadly, the feature isn't yet available for PlayStation 4 as it requires network access and is a bit more complicated to implement for consoles. Panic's Cabel Sasser told Polygon, &quot;We are actively investigating what it would take to make this happen on the PlayStation 4. Sony wants it and so do we!&quot;
+
+➤ In Firewatch on PC, you find a camera – You can have the pics you snap physically developed [TechnoBuffalo]">
+            <meta name="author" content="Abhimanyu Ghoshal">
+            <meta property="article:modified" content="2016-02-09">
+            <meta property="article:published" content="2016-02-09">
+            <meta name="twitter:image:src" content="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Firewatch.jpg">
+            <meta name="og:image" content="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Firewatch.jpg">
+
+<script type="text/javascript">
+		var TNWPre = {"c":{"plusJsUrl":"http:\/\/cdn0.tnwcdn.com\/assets\/shared\/js\/plus.js","themeName":"icetea","canvas":{"artProportion":20},"canvasFile":"cms","paths":{"site":"http:\/\/thenextweb.com\/","secureSite":"https:\/\/thenextweb.com\/","base":"http:\/\/thenextweb.com\/wp-content\/themes\/icetea\/","assets":"http:\/\/cdn1.tnwcdn.com\/wp-content\/themes\/icetea\/lemonsoda\/","sponsor_assets":"http:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/sponsors\/"}},"p":{"currentPost":{"post_id":952246,"thumbnail":"<img src=\"http:\/\/cdn1.tnwcdn.com\/assets\/images\/transparent.png\" data-src=\"http:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/02\/Firewatch-60x50.jpg\" width=\"60\" height=\"50\" title=\"Firewatch lets you order prints of photos from your in-game camera\" alt=\"Firewatch\" class=\"lazy\" \/>\n\t\t\t<noscript><img src=\"http:\/\/cdn1.tnwcdn.com\/wp-content\/blogs.dir\/1\/files\/2016\/02\/Firewatch-60x50.jpg\" width=\"60\" height=\"50\" title=\"Firewatch lets you order prints of photos from your in-game camera\" alt=\"Firewatch\" class=\"lazy\" \/><\/noscript>","permalink":"http:\/\/thenextweb.com\/apps\/2016\/02\/09\/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera\/","title":"Firewatch lets you order prints of photos from your in-game camera","short_title":"Firewatch lets you order prints of photos from your in-game camera ...","social_title":"Firewatch lets you order prints of photos from your in-game camera","date":"February 9, 2016","timestamp":1455005509,"author":"Abhimanyu Ghoshal","category":"Apps","categoryId":15,"sponsored":false,"paid":false,"sponsor_name":null,"isColumn":false,"isFYI":false}}};
+		var SITE_URL = TNWPre.c.paths.site;
+		var SITE_SECURE_URL = TNWPre.c.paths.secureSite;
+		var THEME_URL = 'http://thenextweb.com/wp-content/themes/icetea/';
+		var THEME_CDN_URL = 'http://cdn0.tnwcdn.com/wp-content/themes/icetea/';
+		var adBlocker = true;
+		var POST_ID = '952246';
+		var CURRENT_POST = TNWPre.p.currentPost;
+		var TNW_ADS = {"ads_disabled":false,"banners":true,"project":"","roadblocked":false,"siteskin":false,"top_lb":"","med_rt":"","mob_top":"","mob_med_rt":"","mob_bot":"","mob_sec":"","bot_lb":"","bot_com_lb":"","onexone":"","sticky":false,"sharethrough":"d3a5e594"};
+
+		var PAGE = {"category":"apps","template":"article"};
+
+</script>
+
+
+<script>
+var ecommerceDataLayer = {
+			"ecommerce": {
+				"impressions": [
+
+					]
+			}
+		};
+</script>
+			<script>
+	TNWPre.c.locale = {
+		country: "US",
+		region: "NA",
+		city: ""
+	};
+	COUNTRY_CODE = TNWPre.c.locale.country;
+	REGION_CODE = TNWPre.c.locale.region;
+	CITY_CODE = TNWPre.c.locale.city;
+</script>
+
+<script type="text/javascript" src="//native.sharethrough.com/assets/sfp.js" async></script>
+
+		        <script type="application/ld+json">
+            { "@context": "http://schema.org",
+              "@type": "Organization",
+              "name" : "The Next Web",
+              "logo" : "http://cdn3.tnwcdn.com/plus/img/tnw-brandmark.svg",
+              "url" : "http://thenextweb.com",
+              "sameAs" : [ "http://www.facebook.com/thenextweb",
+                "https://www.twitter.com/thenextweb",
+                "https://plus.google.com/+TheNextWeb/",
+                "https://instagram.com/thenextweb",
+                "https://www.youtube.com/user/thenextweb",
+                "https://www.pinterest.com/thenextweb/",
+                "https://www.linkedin.com/company/the-next-web",
+                "https://vine.co/thenextweb",
+                "https://thenextweb.tumblr.com",
+                "https://soundcloud.com/thenextweb",
+                "https://vimeo.com/thenextweb",
+                "https://vk.com/thenextweb",
+                "https://www.slideshare.net/thenextweb",
+                "https://flipboard.com/@thenextweb",
+                "https://storify.com/thenextweb",
+                "https://www.stumbleupon.com/channel/thenextweb",
+                "https://www.flickr.com/photos/thenextweb/",
+                "https://foursquare.com/thenextweb"]
+            }
+        </script>
+        
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="news_keywords" content="Campo Santo,Easter Egg,Firewatch,games,gaming,panic,Prints" />
+<link rel="original-source" href="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/" />
+<meta name="description" content="Excited about trying the gripping new mystery game Firewatch? You&#039;ll be happy to learn that there&#039;s a cool easter egg to look forward to in the PC version."/>
+<link rel="canonical" href="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/" />
+<link rel="publisher" href="https://plus.google.com/+thenextweb"/>
+<meta property="article:section" content="Apps" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Firewatch lets you order photo prints from your in-game camera" />
+<meta property="og:description" content="Excited about trying the gripping new mystery game Firewatch? You&#039;ll be happy to learn that there&#039;s a cool easter egg to look forward to in the PC version." />
+<meta property="og:url" content="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/" />
+<meta property="og:site_name" content="The Next Web" />
+<meta property="article:publisher" content="https://www.facebook.com/thenextweb" />
+<meta property="article:author" content="http://www.facebook.com/abhimanyu" />
+<meta property="article:tag" content="Campo Santo" />
+<meta property="article:tag" content="Easter Egg" />
+<meta property="article:tag" content="Firewatch" />
+<meta property="article:tag" content="games" />
+<meta property="article:tag" content="gaming" />
+<meta property="article:tag" content="panic" />
+<meta property="article:tag" content="Prints" />
+<meta property="article:published_time" content="2016-02-09T09:11:49+01:00" />
+<meta property="article:modified_time" content="2016-02-09T09:15:30+01:00" />
+<meta property="og:updated_time" content="2016-02-09T09:15:30+01:00" />
+<meta property="og:image" content="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Firewatch.jpg" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="Excited about trying the gripping new mystery game Firewatch? You&#039;ll be happy to learn that there&#039;s a cool easter egg to look forward to in the PC version."/>
+<meta name="twitter:title" content="Firewatch lets you order photo prints from your in-game camera"/>
+<meta name="twitter:site" content="@thenextweb"/>
+<meta name="twitter:domain" content="The Next Web"/>
+<meta name="twitter:image" content="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Firewatch.jpg"/>
+<meta name="twitter:creator" content="@aghoshal"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="The Next Web &raquo; Firewatch lets you order prints of photos from your in-game camera Comments Feed" href="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/cdn1.tnwcdn.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://thenextweb.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thenextweb.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thenextweb.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='http://thenextweb.com/?p=952246' />
+<link rel="alternate" type="application/json+oembed" href="http://thenextweb.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fthenextweb.com%2Fapps%2F2016%2F02%2F09%2Ffirewatch-lets-you-order-prints-of-photos-from-your-in-game-camera%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://thenextweb.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fthenextweb.com%2Fapps%2F2016%2F02%2F09%2Ffirewatch-lets-you-order-prints-of-photos-from-your-in-game-camera%2F&#038;format=xml" />
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http:\/\/thenextweb.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"http:\/\/thenextweb.com\/Apps","name":"Apps"}}]}</script>            <script src="//cdn.goroost.com/roostjs/af8c631d64e248a6bb35e08555cd04a4" async></script>
+                    <script>
+                var _roost = _roost || [];
+                _roost.push( [ 'autoprompt', false ] );
+                                    _roost.push( [ 'minvisits', "2" ] );
+                            </script>
+    <link rel="amphtml" href="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/amp/" />                <script>
+            (function() {
+                var _fbq = window._fbq || (window._fbq = []);
+                if (!_fbq.loaded) {
+                    var fbds = document.createElement('script');
+                    fbds.async = true;
+                    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(fbds, s);
+                    _fbq.loaded = true;
+                }
+                _fbq.push(['addPixelId', '710910915665976']);
+            })();
+            window._fbq = window._fbq || [];
+            window._fbq.push(['track', 'PixelInitialized', {}]);
+        </script>
+        <!-- DataLayer -->
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          dataLayer.push({
+            'version': '3 / 4.4.1',
+            'location': [{
+              'region': window.REGION_CODE,
+              'country': window.COUNTRY_CODE,
+              'city': window.CITY_CODE
+            }],
+            'page': [{
+              'hostname': window.location.host,
+              'parameters': window.location.search.replace("?", ""),
+              'category': window.PAGE.category,
+              'template': window.PAGE.template,
+              'ads': [{
+                'siteskin': window.TNW_ADS.siteskin,
+                'sponsored': 'No'
+              }],
+            }],
+            'user': [{
+                'shares': [{
+                    'fb': 0,
+                    'tw': 0,
+                    'li': 0,
+                    'go': 0,
+                    're': 0
+                }]
+            }]
+          });
+        </script>
+                    <script type="text/javascript">
+                dataLayer.push({
+                'page': [{
+                  'id': 952246,
+                  'url': 'http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/',
+                  'pages': 1,
+                  'paginated': 'No',
+                  'comments': 0,
+                  'words': 262,
+                  'time': window.TNWPre.p.currentPost.timestamp,
+                  'column': window.TNWPre.p.currentPost.isColumn,
+                  'fyi': window.TNWPre.p.currentPost.isFYI,
+                  'author': 'Abhimanyu Ghoshal',
+                  'date': '2016-02-09',
+                  'date_published': '2016-02-09 09-11',
+                  'type_format': 'article',
+                  'type': 'Article',
+                  'tags': ["Campo Santo","Easter Egg","Firewatch","games","gaming","panic","Prints"],
+                  'categories': ["Apps"],
+                  'sections': ["Apps"],
+                  'companies': [],
+                  'profiles': [],
+                  'events': [],
+                  'source': 'TechnoBuffalo',
+                  'shares': [{
+                    'fb': '87',
+                    'tw': '150',
+                    'li': '7',
+                    'go': '2',
+                    're': ''
+                  }],
+                  'ads': [{
+                    'roadblocked': 'false',
+                    'sponsor': '',
+                    'sponsored': 'No',
+                  }]
+                }]});
+            </script>
+                                <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=710910915665976&amp;ev=PixelInitialized"></noscript>
+        <script type='text/javascript'>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function() {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+            })();
+        </script>
+                <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MHDDSC');
+        </script>
+        <!-- End Google Tag Manager -->
+    </head>
+                <body class="single single-post postid-952246 single-format-standard category-apps irregular grid-4" data-for="blog" id="">
+                <!-- Google Tag Manager -->
+    <noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-MHDDSC" style="display: none; visibility: hidden;" width="0"></iframe></noscript>
+    <!-- End Google Tag Manager -->
+    			
+		    <!-- Parse.ly -->
+    <div id="parsely-root" style="display: none">
+        <a id="parsely-cfg" data-parsely-site="thenextweb.com" href="http://parsely.com" rel="nofollow">.</a>
+    </div>
+
+    <script>
+        window.___gcfg = {lang: 'en-US'};
+        (function(w, d, s) {
+            function go() {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                var load = function(url, id) {
+                    if (d.getElementById(id)) {return;}
+                    js = d.createElement(s); js.src = url; js.id = id;
+                    fjs.parentNode.insertBefore(js, fjs);
+                };
+                load('http://static.parsely.com/p.js', 'js-parsely');
+            }
+            if (w.addEventListener) { w.addEventListener("load", go, false); }
+            else if (w.attachEvent) { w.attachEvent("onload",go); }
+        }(window, document, 'script'));
+    </script>
+        <div id="fb-root"></div>
+    <div id="section-preview"></div>
+<div id="top" class="tnwg2-header">
+		
+	<div class="tnwNav">
+		<div class="tnwNav-inner">
+			<a  class="tnwNav-logo"></a>
+			<div class="tnwNav-platform">
+				<a href="/" title="News" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'News', {'nonInteraction': 1, transport: 'beacon'});">News</a>
+			</div>
+		</div>
+		<ul class="tnwNav-dropdown">
+			<li><a href="/" title="News" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'News', {'nonInteraction': 1, transport: 'beacon'});">&mdash; News</a></li>
+			<li><a href="http://thenextweb.com/conference/europe" title="TNW Conference" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'Conference', {'nonInteraction': 1, transport: 'beacon'});">Conference</a></li>
+			<li><a href="https://index.co" title="Index.co" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'Index', {'nonInteraction': 1, transport: 'beacon'});">Index</a></li>
+			<li><a href="//deals.thenextweb.com?utm_medium=referral&amp;utm_source=thenextweb.com&amp;utm_campaign=top-navigation" title="TNW Deals" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'Deals', {'nonInteraction': 1, transport: 'beacon'});">Deals</a></li>
+			<li><a href="http://academy.thenextweb.com" title="TNW Academy" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'Academy', {'nonInteraction': 1, transport: 'beacon'});">Academy</a></li>
+			<li><a href="http://thenextweb.com/worldtour/" title="TNW World Tour" onclick="ga('primary.send', 'event', 'Top', 'Navigation', 'World Tour', {'nonInteraction': 1, transport: 'beacon'});">World Tour</a></li>
+			
+		</ul>
+	</div>
+	<nav class="tnwgh2-header-menu" id="menu" role="navigation">
+		<ul>
+			                        <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35259&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/apps/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Apps', {'nonInteraction': 1, transport: 'beacon'});">Apps</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35262&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/gear/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Gear', {'nonInteraction': 1, transport: 'beacon'});">Gear</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35266&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/tech/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Tech', {'nonInteraction': 1, transport: 'beacon'});">Tech</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35260&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/creative/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Creative', {'nonInteraction': 1, transport: 'beacon'});">Creative</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35265&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/money/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Money', {'nonInteraction': 1, transport: 'beacon'});">Money</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35263&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/insights/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Insights', {'nonInteraction': 1, transport: 'beacon'});">Insights</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35264&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/launch/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Launch', {'nonInteraction': 1, transport: 'beacon'});">Launch</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35267&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/world/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'World', {'nonInteraction': 1, transport: 'beacon'});">World</a>
+                        </li>
+                                                <li data-section-preview-url="http://thenextweb.com/wp-content/themes/icetea/ajax/section.php?id=35261&tax=section" class="has-section-preview show-from-l">
+                            <a href="http://thenextweb.com/section/distract/" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'Distract', {'nonInteraction': 1, transport: 'beacon'});">Distract</a>
+                        </li>
+                        			<li class="has-dropdown" id="menu-more">
+				<a class="show-from-m text" onclick="ga('primary.send', 'event', 'Top', 'Channels', 'More', {'nonInteraction': 1, transport: 'beacon'});">More</a>
+				<a class="icon hide-from-m" onclick="ga('primary.send', 'event', 'Top', 'Hamburger', {'nonInteraction': 1, transport: 'beacon'});"><i class="ss-pika ss-rows"></i></a>
+				<div class="tnwgh2-dropdown">
+					<div class="row">
+						<div class="col">
+							<h4>Sections</h4>
+							<ul class="tnwgh2-dropdown-links">
+								                                            <li>
+                                                <a href="http://thenextweb.com/section/apps/" title="Apps" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Apps', {'nonInteraction': 1, transport: 'beacon'});">Apps</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/gear/" title="Gear" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Gear', {'nonInteraction': 1, transport: 'beacon'});">Gear</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/tech/" title="Tech" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Tech', {'nonInteraction': 1, transport: 'beacon'});">Tech</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/creative/" title="Creative" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Creative', {'nonInteraction': 1, transport: 'beacon'});">Creative</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/money/" title="Money" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Money', {'nonInteraction': 1, transport: 'beacon'});">Money</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/insights/" title="Insights" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Insights', {'nonInteraction': 1, transport: 'beacon'});">Insights</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/launch/" title="Launch" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Launch', {'nonInteraction': 1, transport: 'beacon'});">Launch</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/world/" title="World" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'World', {'nonInteraction': 1, transport: 'beacon'});">World</a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="http://thenextweb.com/section/distract/" title="Distract" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Distract', {'nonInteraction': 1, transport: 'beacon'});">Distract</a>
+                                            </li>
+                                                            <li>
+                    <a href="/offers/" title="Offers" onclick="ga('primary.send', 'event', 'Top', 'Sections', 'Offers', {'nonInteraction': 1, transport: 'beacon'});">Offers</a>
+                </li>
+							</ul>
+						</div>
+						<div class="col">
+							<h4>The Next Web</h4>
+							<ul class="tnwgh2-dropdown-links">
+								<li><a href="http://thenextweb.com/about/" title="About" onclick="ga('primary.send', 'event', 'Top', 'The Next Web', 'About', {'nonInteraction': 1, transport: 'beacon'});">About</a></li>
+								<li><a href="http://thenextweb.com/jobs/" title="Jobs" onclick="ga('primary.send', 'event', 'Top', 'The Next Web', 'Jobs', {'nonInteraction': 1, transport: 'beacon'});">Jobs</a></li>
+								<li><a href="http://thenextweb.com/about/team" title="Team" onclick="ga('primary.send', 'event', 'Top', 'The Next Web', 'Team', {'nonInteraction': 1, transport: 'beacon'});">Team</a></li>
+								<li><a href="https://tnwads.typeform.com/to/NdJwzX" class="typeform-share link" title="Advertise" data-mode="1" target="_blank" onclick="ga('primary.send', 'event', 'Top', 'The Next Web', 'Advertise', {'nonInteraction': 1, transport: 'beacon'});">Advertise</a></li>
+								<li><a href="mailto:beta@thenextweb.com" title="Feedback" target="_blank" onclick="ga('primary.send', 'event', 'Top', 'The Next Web', 'Feedback', {'nonInteraction': 1, transport: 'beacon'});">Feedback</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="tnwgh2-dropdown-touchMenu">
+						<div class="tnwgh2-dropdown-block">
+							<ul class="tnwg2-header-followInMenu">
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--twitter"><a href="https://www.twitter.com/thenextweb" title="Follow us on Twitter" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-twitter"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--facebook"><a href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Facebook', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-facebook"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--instagram"><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Instagram', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-instagram"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--googleplus"><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Google+', {'nonInteraction': 1, transport: 'beacon'});" target="_blank">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="22" height="22">
+										<path d="M48,22h-5v-5h-4v5h-5v4h5v5h4v-5h5 M16,21v6.24h8.72c-0.67,3.76-3.93,6.5-8.72,6.5c-5.28,0-9.57-4.47-9.57-9.75s4.29-9.74,9.57-9.74c2.38,0,4.51,0.82,6.19,2.42v0.01l4.51-4.51C23.93,9.59,20.32,8,16,8C7.16,8,0,15.16,0,24s7.16,16,16,16c9.24,0,15.36-6.5,15.36-15.64c0-1.17-0.11-2.29-0.31-3.36C31.05,21,16,21,16,21z"/>
+									</svg>
+								</a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--youtube"><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube" onclick="ga('primary.send', 'event', 'Top', 'Social', 'YouTube', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-youtube"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--linkedin"><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn" onclick="ga('primary.send', 'event', 'Top', 'Social', 'LinkedIn', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-linkedin"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--pinterest"><a href="http://pinterest.com/thenextweb/" title="Follow us on Pinterest" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Pinterest', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-pinterest"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--rss"><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" onclick="ga('primary.send', 'event', 'Top', 'Social', 'RSS', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-rss"></i></a></li>
+								<li class="tnwg2-header-followInMenu-channel tnwg2-header-socialColor--push"><a href="/notifications" title="Receive push alerts" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Push alerts', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-pika ss-notifications"></i></a></li>
+							</ul>
+						</div>
+						<form target="_blank" action="http://thenextweb.us1.list-manage1.com/subscribe/post?u=22ec88eb9b9d8bc3bcf660787&id=32f70ba9aa" accept-charset="utf-8" autocomplete="off" class="borderless" method="post" onsubmit="dataLayer.push({'event': 'newsletterSignup', 'newsletter': [{'location': 'Header' }] });">
+							<div class="input-block subscribe-options">
+								<div class="option inline">
+									<input id="subscribe-weekly-menu" name="group[6][4]" type="checkbox" checked />
+									<label for="subscribe-weekly-menu">Weekly</label>
+								</div>
+								<div class="option inline">
+									<input id="subscribe-daily-menu" name="group[6][2]" type="checkbox" />
+									<label for="subscribe-daily-menu">Daily</label>
+								</div>
+								<div class="option inline">
+									<input id="subscribe-updates-menu" name="group[69][32]" type="checkbox" />
+									<label for="subscribe-updates-menu">Updates</label>
+								</div>
+							</div>
+							<div class="input-block input-and-button">
+								<input name="EMAIL" class="w-75" name="email" type="email" placeholder="Email address" type="text">
+								<button class="w-25 button" type="submit"><i class="ss-pika ss-mail"></i></button>
+							</div>
+							<input type="hidden" value="TheNextWeb" name="uri">
+							<input type="hidden" name="loc" value="en_US">
+						</form>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<nav id="icon-menus">
+		<ul>
+ 			<li><a class="js-search" href="#" title="Search" onclick="ga('primary.send', 'event', 'Top', 'Search', {'nonInteraction': 1, transport: 'beacon'});"><i class="ss-pika ss-search"></i></a></li>
+		</ul>
+	</nav>
+	<div class="tnwg2-header-follow">
+		<div class="tnwg2-header-follow-channels">
+			<ul class="tnwg2-header-follow-channels-wrap">
+
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--twitter tnwg2-header-socialColor--twitter"><a href="https://www.twitter.com/thenextweb" title="Follow us on Twitter" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-twitter"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--facebook tnwg2-header-socialColor--facebook"><a href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Facebook', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-facebook"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--instagram tnwg2-header-socialColor--instagram"><a href="https://instagram.com/thenextweb" title="Follow us on Instagram" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Instagram', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-instagram"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--googleplus tnwg2-header-socialColor--googleplus"><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Google+', {'nonInteraction': 1, transport: 'beacon'});" target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="22" height="22">
+						<path d="M48,22h-5v-5h-4v5h-5v4h5v5h4v-5h5 M16,21v6.24h8.72c-0.67,3.76-3.93,6.5-8.72,6.5c-5.28,0-9.57-4.47-9.57-9.75s4.29-9.74,9.57-9.74c2.38,0,4.51,0.82,6.19,2.42v0.01l4.51-4.51C23.93,9.59,20.32,8,16,8C7.16,8,0,15.16,0,24s7.16,16,16,16c9.24,0,15.36-6.5,15.36-15.64c0-1.17-0.11-2.29-0.31-3.36C31.05,21,16,21,16,21z"/>
+					</svg>
+				</a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--youtube tnwg2-header-socialColor--youtube"><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube" onclick="ga('primary.send', 'event', 'Top', 'Social', 'YouTube', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-youtube"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--linkedin tnwg2-header-socialColor--linkedin"><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn" onclick="ga('primary.send', 'event', 'Top', 'Social', 'LinkedIn', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-linkedin"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--pinterest tnwg2-header-socialColor--pinterest"><a href="http://pinterest.com/thenextweb/" title="Follow us on Pinterest" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Pinterest', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-pinterest"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--rss tnwg2-header-socialColor--rss"><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" onclick="ga('primary.send', 'event', 'Top', 'Social', 'RSS', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-rss"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--push tnwg2-header-socialColor--push"><a href="http://thenextweb.com/notifications" title="Receive push alerts" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Push alerts', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-pika ss-notifications"></i></a></li>
+				<li class="tnwg2-header-follow-channels-channel tnwg2-header-follow-channels-channel--disclosure tnwg2-header-socialColor--disclosure"></li>
+			</ul>
+						
+			<div class="tnwgh2-dropdown" id="menu-follow">
+				<form target="_blank" action="http://thenextweb.us1.list-manage1.com/subscribe/post?u=22ec88eb9b9d8bc3bcf660787&id=32f70ba9aa" accept-charset="utf-8" autocomplete="off" class="borderless" method="post" onsubmit="dataLayer.push({'event': 'newsletterSignup', 'newsletter': [{'location': 'Header' }] });">
+					<h4>The hottest news to your doorstep</h4>
+					<div class="input-block subscribe-options">
+						<div class="option inline">
+							<input id="subscribe-weekly" name="group[6][4]" type="checkbox" checked />
+							<label for="subscribe-weekly">Weekly</label>
+						</div>
+						<div class="option inline">
+							<input id="subscribe-daily" name="group[6][2]" type="checkbox" />
+							<label for="subscribe-daily">Daily</label>
+						</div>
+						<div class="option inline">
+							<input id="subscribe-updates" name="group[69][32]" type="checkbox" />
+							<label for="subscribe-updates">Updates</label>
+						</div>
+					</div>
+					<div class="input-block input-and-button">
+						<input name="EMAIL" class="w-75" name="email" type="email" placeholder="Email address" type="text">
+						<button class="w-25 button" type="submit"><i class="ss-pika ss-mail"></i></button>
+					</div>
+					<input type="hidden" value="TheNextWeb" name="uri">
+					<input type="hidden" name="loc" value="en_US">
+				</form>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="tnwg2-header-search">
+		<form role="search" method="get" action="http://thenextweb.com/" onsubmit="ga('primary.send', 'event', 'Search', 'Top', {'nonInteraction': 1, transport: 'beacon'});">
+			<div class="bigSearch u-wrapper">
+				<i class="ss-pika ss-search"></i>
+				<input autocomplete="off" type="search" name="s" />
+			</div>
+			<a class="tnwg2-header-search-cancel" onclick="ga('primary.send', 'event', 'Top', 'Search', 'Close', {'nonInteraction': 1, transport: 'beacon'});">×</a>
+		</form>
+	</div>
+	
+</div>
+    <progress value="0" max="100" id="reading_progress" style="z-index:800; display: none" ></progress>
+    <div id="main">
+    <div class="canvasPreloader" id="canvas"></div>    <div class="l-postSingle l-postSingle--canvas">
+        <div class="l-postSingle-wrap">
+            							<div id="announcement" class="announcement announcement">
+					 <div id="ad-unit-announcement"><div id="div-gpt-ad-13687323425-2"></div></div>
+				</div>
+				
+			                <!-- Ad unit: Top -->
+                <div id="ad-unit-top-wrapper" class="fixedWrapper fixedWrapper--top">
+                    <div id="ad-unit-top" class="adUnit adUnit--top adUnit--afterCanvas">
+                        <div id='div-gpt-ad-1368717423425-2' style='display:none;'></div>
+                    </div>
+                </div>
+                                <div
+                    class="l-postSingle-header">
+                    <div class="l-postSingle-header-inner">
+                      <div id="breadcrumbs"><span><a href="http://thenextweb.com">Home</a></span> / <span><a href="http://thenextweb.com/apps">Apps</a></span></div>                        <h1 class="title">Firewatch lets you order prints of photos from your in-game camera</h1>
+                        <div class="meta">
+                            <a href="http://thenextweb.com/author/abhimanyughoshal/"
+                               onclick="ga('primary.send', 'event', 'Article', 'Author - Abhimanyu Ghoshal', 'Profile', {'nonInteraction': 1, transport: 'beacon'});"><img alt='Abhimanyu Ghoshal' src='http://0.gravatar.com/avatar/0ed72e6e1b92bf0fab7ea3686d68a754?s=80&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/0ed72e6e1b92bf0fab7ea3686d68a754?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /></a>
+                            by <a class="author" href="http://thenextweb.com/author/abhimanyughoshal/"
+                                  onclick="ga('primary.send', 'event', 'Article', 'Author - Abhimanyu Ghoshal', 'Profile', {'nonInteraction': 1, transport: 'beacon'});">Abhimanyu Ghoshal</a>
+                            </a>
+                                                            <a class="mail" href="mailto:abhimanyu@thenextweb.com"
+                                   onclick="ga('primary.send', 'event', 'Article', 'Author - Abhimanyu Ghoshal', 'E-mail', {'nonInteraction': 1, transport: 'beacon'});"
+                                   target="_blank"><i class="ss-pika ss-mail"></i></a>
+                                                                <a class="tweet tooltip-long-text js-socialPreload"
+                                   data-social-preload-type="twitterIntent"
+                                   data-tooltip="Tweet: Interesting post by @aghoshal “Firewatch lets you order prints of photos from your ...” http://tnw.to/x0G1"
+                                   href="https://twitter.com/intent/tweet/?text=Interesting%20post%20by%20%40aghoshal%20%E2%80%9CFirewatch%20lets%20you%20order%20prints%20of%20photos%20from%20your%20...%E2%80%9D%20http%3A%2F%2Ftnw.to%2Fx0G1&via=thenextweb"
+                                   onclick="ga('primary.send', 'event', 'Article', 'Share - Author - Abhimanyu Ghoshal', 'Twitter - Author', {'nonInteraction': 1, transport: 'beacon'});"
+                                   target="_blank"><i class="ss-social ss-twitter"></i> Tweet</a>
+                                                            &mdash;
+                                                            <time datetime="2016-02-09T09:11:49+0100"
+                                      class="timeago"></time>                                 in <h2><a class="channel" href="http://thenextweb.com/apps/"
+                                          onclick="ga('primary.send', 'event', 'Article', 'Category', 'Apps', {'nonInteraction': 1, transport: 'beacon'} );">Apps</a>
+                                </h2>
+                                                            <span id="post-edit"></span>
+                        </div>
+                    </div>
+                </div>
+                            <div class="l-postSingle-content">
+                <div class="l-postSingle-content-main">
+                                            <div class="l-postSingle-content-main-photo"
+                             style="background-image: url('http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Firewatch.jpg')">
+                                                    </div>
+                                            <div class="l-postSingle-content-main-share articleShare articleShare-top js_articleShare">
+                            <ul class="articleShare-buttons">
+                                	<li><a
+		data-permalink="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/"
+		data-title="Firewatch lets you order prints of photos from your in-game camera"
+		data-network="Twitter"
+		data-url="https://twitter.com/intent/tweet?url=http%3A%2F%2Ftnw.to%2Fa4lRz&via=thenextweb&related=thenextweb&text=Firewatch+lets+you+order+prints+of+photos+from+your+in-game+camera"
+		data-width="685"
+		data-height="500"
+		data-count="150"
+		class="articleShare-buttons-button has-count twitter js_button"
+		title="Share on Twitter"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-twitter"></i>
+				<span> Tweet <span class="count"></span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/"
+		data-title="Firewatch lets you order prints of photos from your in-game camera"
+		data-network="Facebook"
+		data-url="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A%2F%2Ftnw.to%2Fi4xmb&p[title]=Firewatch+lets+you+order+prints+of+photos+from+your+in-game+camera&p[images][0]=http%3A%2F%2Fcdn1.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2016%2F02%2FFirewatch.jpg&p[summary]=If+you%27re+excited+to+try+indie+development+studios+Campo+Santo+and+Panic%27s+gripping+mystery+game+Firewatch%2C+you%27ll+be+happy+to+learn+that+there%27s+a+cool+easter+egg+to+look+forward+to+...&u=http%3A%2F%2Ftnw.to%2Fi4xmb&t=Firewatch+lets+you+order+prints+of+photos+from+your+in-game+camera"
+		data-width="850"
+		data-height="500"
+		data-count="87"
+		class="articleShare-buttons-button has-count facebook js_button"
+		title="Share on Facebook"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Facebook', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-facebook"></i>
+				<span> Share <span class="count"></span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/"
+		data-title="Firewatch lets you order prints of photos from your in-game camera"
+		data-network="Google+"
+		data-url="https://plus.google.com/share?url=http%3A%2F%2Ftnw.to%2Fu0Iy"
+		data-width="600"
+		data-height="600"
+		data-count="2"
+		class="articleShare-buttons-button has-count googleplus js_button"
+		title="Share on Google+"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Google+', {'nonInteraction': 1, transport: 'beacon'});">
+					<div class="social-icon googleplus-icon"></div>
+				<span> Share <span class="count"></span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/"
+		data-title="Firewatch lets you order prints of photos from your in-game camera"
+		data-network="LinkedIn"
+		data-url="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fthenextweb.com%2Fapps%2F2016%2F02%2F09%2Ffirewatch-lets-you-order-prints-of-photos-from-your-in-game-camera%2F"
+		data-width="510"
+		data-height="500"
+		data-count="7"
+		class="articleShare-buttons-button has-count linkedin js_button"
+		title="Share on LinkedIn"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'LinkedIn', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-linkedin"></i>
+				<span> Share <span class="count"></span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/"
+		data-title="Firewatch lets you order prints of photos from your in-game camera"
+		data-network="Reddit"
+		data-url="http://www.reddit.com/submit?url=http%3A%2F%2Ftnw.to%2Fh4yMo"
+		data-width="510"
+		data-height="500"
+		data-count="0"
+		class="articleShare-buttons-button has-count reddit js_button"
+		title="Share on Reddit"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Reddit', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-reddit"></i>
+				<span> Share <span class="count"></span> </span>
+	</a></li>
+	<li>
+		<a class="button mail social-mail" target="_blank"  href="mailto:?subject=Firewatch lets you order prints of photos from your in-game camera&body=http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/" onclick="ga('primary.send', 'event', 'Article', 'Share', 'Email', {'nonInteraction': 1, transport: 'beacon'});">
+			<i class="ss-pika ss-mail"></i>
+			<span> Email </span>
+		</a>
+	</li>
+			<li>
+			<a class="button social-slack js_button" data-width="600" data-height="500" data-url="http://slackbutton.herokuapp.com/post/new/?url=http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/?utm_source=slack&amp;utm_medium=referral&amp;utm_campaign=share-button" onclick="ga('primary.send', 'event', 'Article', 'Share', 'Slack', {'nonInteraction': 1, transport: 'beacon'});">
+				<div class="social-icon slack-icon"></div>
+				<span> Slack it </span>
+			</a>
+		</li>
+				 				
+		
+
+		<li><a
+			href="whatsapp://send?text=Firewatch%20lets%20you%20order%20prints%20of%20photos%20from%20your%20in-game%20camera%20-%20http%3A%2F%2Ftnw.to%2Fh4yMo"
+			class="articleShare-buttons-button has-count whatsapp"
+			onclick="ga('primary.send', 'event', 'Article', 'Share', 'Whatsapp', {'nonInteraction': 1, transport: 'beacon'});">
+			<i class="ss-social ss-whatsapp"></i><span> Share</span>
+		</a></li>
+	
+		
+		<li><a
+			href="whatsapp://send?text=Firewatch%20lets%20you%20order%20prints%20of%20photos%20from%20your%20in-game%20camera%20-%20http%3A%2F%2Ftnw.to%2Fh4yMo"
+			class="articleShare-buttons-button has-count whatsapp"
+			onclick="ga('primary.send', 'event', 'Article', 'Share', 'Whatsapp', {'nonInteraction': 1, transport: 'beacon'});">
+			<i class="ss-social ss-whatsapp"></i><span> Share</span>
+		</a></li>
+	                            </ul>
+                            <div class="articleShare-shortlink-comments">
+                                <div class="articleShare-shortlink">
+                                    <div class="flip">
+                                        <div class="side side--a"><i class="ss-pika ss-link"></i> <span
+                                                class="articleShare-shortlink-url">http://tnw.to/x0G1</span>
+                                        </div>
+                                        <div class="side side--b"><i class="ss-pika ss-check"></i> Copied!</div>
+                                    </div>
+                                </div>
+                                <div class="articleShare-comments">
+                                    <a href="#comments"
+                                       onclick="ga('primary.send', 'event', 'Article', 'Comments', {'nonInteraction': 1, transport: 'beacon'});"><i
+                                            class="ss-pika ss-chat"></i>                                            <fb:comments-count
+                                                href="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/"></fb:comments-count> Comments                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-postSingle-content-main-content postContent">
+                            <a target="_blank" href="http://thenextweb.com/conference/europe/?utm_medium=display&amp;utm_source=thenextweb.com&amp;utm_campaign=TNWEU16_Yellowlink"><div class="announcement" style="color: #444444; cursor:pointer; padding-top: 10px; padding-bottom: 10px; margin-bottom: 1rem;"><span style="font-weight:bold">
+                                      5 Days left</span>: TNW Europe early bird sales end soon. <span style="color:#FF4422;">Learn more!</span></div></a><p>If you’re excited to try indie development studios Campo Santo and Panic’s gripping mystery game <a href="http://thenextweb.com/insider/2016/02/08/firewatch-is-a-beautiful-game-that-pulled-me-in-like-nothing-else-id-ever-played/">Firewatch</a>, you’ll be happy to learn that there’s a cool easter egg to look forward to in the PC version.</p>
+<p>There’s a disposable camera somewhere in the forest that lets you snap photos in the game world. Once you finish the game, you’ll be able to order actual 4×6 prints of your shots to be mailed to you anywhere in the world.</p>
+<p><a href="http://www.technobuffalo.com/2016/02/08/firewatch-pc-photos-developed/" target="_blank">TechnoBuffalo reported</a> that prior to this week’s official launch, a set of prints cost $15. and shipped in two to four weeks. The price may have gone up since, but if you enjoyed the game, this is as cool a memento as you could ever ask for.</p>
+<p>Sadly, the feature isn’t yet available for PlayStation 4 as it requires network access and is a bit more complicated to implement for consoles. Panic’s <a href="http://www.polygon.com/2016/2/8/10940370/firewatch-photos-hey-there-delilah" target="_blank">Cabel Sasser told Polygon</a>, “We are actively investigating what it would take to make this happen on the PlayStation 4. Sony<a href='https://index.co/company/Sony' data-index='' target='_blank' class='u-indexIcon'></a> wants it and so do we!”</p>
+<p>➤ <a href="http://www.technobuffalo.com/2016/02/08/firewatch-pc-photos-developed/" target="_blank">In Firewatch on PC, you find a camera – You can have the pics you snap physically developed</a> [TechnoBuffalo]</p><div class="featured-image-credits image-credits">
+	Featured image credit:
+			<a href="http://store.steampowered.com/app/383870/" target="_blank">
+			Steam		</a>
+	</div>
+                            <div
+                                class="l-postSingle-content-bottom-share articleShare articleShare-bottom js_articleShare">
+                                <ul class="articleShare-buttons">
+                                    	<li><a
+		data-permalink="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/"
+		data-title="Firewatch lets you order prints of photos from your in-game camera"
+		data-network="Twitter"
+		data-url="https://twitter.com/intent/tweet?url=http%3A%2F%2Ftnw.to%2Fa4lRz&via=thenextweb&related=thenextweb&text=Firewatch+lets+you+order+prints+of+photos+from+your+in-game+camera"
+		data-width="685"
+		data-height="500"
+		data-count="150"
+		class="articleShare-buttons-button has-count twitter js_button"
+		title="Share on Twitter"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-twitter"></i>
+				<span> Tweet <span class="count">150</span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/"
+		data-title="Firewatch lets you order prints of photos from your in-game camera"
+		data-network="Facebook"
+		data-url="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http%3A%2F%2Ftnw.to%2Fi4xmb&p[title]=Firewatch+lets+you+order+prints+of+photos+from+your+in-game+camera&p[images][0]=http%3A%2F%2Fcdn1.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2016%2F02%2FFirewatch.jpg&p[summary]=If+you%27re+excited+to+try+indie+development+studios+Campo+Santo+and+Panic%27s+gripping+mystery+game+Firewatch%2C+you%27ll+be+happy+to+learn+that+there%27s+a+cool+easter+egg+to+look+forward+to+...&u=http%3A%2F%2Ftnw.to%2Fi4xmb&t=Firewatch+lets+you+order+prints+of+photos+from+your+in-game+camera"
+		data-width="850"
+		data-height="500"
+		data-count="87"
+		class="articleShare-buttons-button has-count facebook js_button"
+		title="Share on Facebook"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'Facebook', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-facebook"></i>
+				<span> Share <span class="count">87</span> </span>
+	</a></li>
+	<li><a
+		data-permalink="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/"
+		data-title="Firewatch lets you order prints of photos from your in-game camera"
+		data-network="LinkedIn"
+		data-url="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fthenextweb.com%2Fapps%2F2016%2F02%2F09%2Ffirewatch-lets-you-order-prints-of-photos-from-your-in-game-camera%2F"
+		data-width="510"
+		data-height="500"
+		data-count="7"
+		class="articleShare-buttons-button has-count linkedin js_button"
+		title="Share on LinkedIn"
+		onclick="ga('primary.send', 'event', 'Article', 'Share', 'LinkedIn', {'nonInteraction': 1, transport: 'beacon'});">
+					<i class="ss-social ss-linkedin"></i>
+				<span> Share <span class="count">7</span> </span>
+	</a></li>
+	<li>
+		<a class="button mail social-mail" target="_blank"  href="mailto:?subject=Firewatch lets you order prints of photos from your in-game camera&body=http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/" onclick="ga('primary.send', 'event', 'Article', 'Share', 'Email', {'nonInteraction': 1, transport: 'beacon'});">
+			<i class="ss-pika ss-mail"></i>
+			<span> Email </span>
+		</a>
+	</li>
+	                                </ul>
+                            </div>
+
+
+                        </div>
+
+                                            <!-- Ad unit: Bottom -->
+                        <div id="ad-unit-bottom">
+                            <div id="div-gpt-ad-1368717423425-0" style="display: none;"></div>
+                        </div>
+                        <div class="authorBlock">
+    <div class="authorBlock-avatar">
+        <a href="http://thenextweb.com/author/abhimanyughoshal/" onclick="ga('primary.send', 'event', 'Article', 'Author - Abhimanyu Ghoshal', 'Avatar', {'nonInteraction': 1, transport: 'beacon'} );"><img alt='Abhimanyu Ghoshal' src='http://0.gravatar.com/avatar/0ed72e6e1b92bf0fab7ea3686d68a754?s=150&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/0ed72e6e1b92bf0fab7ea3686d68a754?s=300&amp;d=mm&amp;r=g 2x' class='avatar avatar-150 photo' height='150' width='150' /></a>
+    </div>
+	<div class="authorBlock-header">
+    	<div>
+            <h3 class="authorBlock-header-title">
+                <a href="http://thenextweb.com/author/abhimanyughoshal/">Abhimanyu Ghoshal</a>
+    		</h3>
+			
+			    	    		<span class="authorBlock-header-nickname">
+    					a.k.a. <a data-tooltip="Ask me why on Twitter!" onclick="ga('primary.send', 'event', 'Article', 'Author - Abhimanyu Ghoshal', 'Username', {'nonInteraction': 1, transport: 'beacon'} );" href="https://twitter.com/intent/tweet?text=So @aghoshal nickname is Papa Shango? Wonder what the story is there: http://thenextweb.com/author/abhimanyughoshal/&via=thenextweb">Papa Shango</a>
+    	    		</span>
+                        	</div>
+    	    	    	<p class="authorBlock-header-bio">
+    	        	Abhimanyu is an avid gamer, street food gourmet and design connoisseur. Hit him up on <a href="https://twitter.com/aghoshal">Twitter</a>, <a href="http://abhimanyughoshal.com">his site</a>, or via mail:<a href="mailto:abhimanyu@thenextweb.com"> abhimanyu@thenextweb.com</a>.    	    	</p>
+                		<p>
+			
+		</p>
+    	<p class="authorBlock-header-tweet">
+			Say <a class="tooltip-long-text" data-tooltip="Tweet: Hey @aghoshal! I &#x2764; your post “Firewatch lets you order prints of photos from your ...” http://tnw.to/y09V" href="https://twitter.com/intent/tweet?text=Hey @aghoshal! I &#x2764; your post “Firewatch lets you order prints of photos from your ...” http://tnw.to/y09V&via=thenextweb" onclick="ga('primary.send', 'event', 'Article', 'Share - Author - Abhimanyu Ghoshal', 'Twitter - Thanks', {'nonInteraction': 1, transport: 'beacon'});"><i class="ss-social ss-twitter"></i> thanks</a>
+			or <a class="tooltip-long-text" data-tooltip="Tweet: Hey @aghoshal! Sorry… Your post “Firewatch lets you order prints ...” makes me 😠😢😱😡 http://tnw.to/y09V" href="https://twitter.com/intent/tweet?text=Hey @aghoshal! Sorry… Your post “Firewatch lets you order prints ...” makes me 😠😢😱😡 http://tnw.to/y09V&via=thenextweb" onclick="ga('primary.send', 'event', 'Article', 'Share - Author - Abhimanyu Ghoshal', 'Twitter - Boo', {'nonInteraction': 1, transport: 'beacon'});"><i class="ss-social ss-twitter"></i> boo</a>
+			to Abhimanyu    	</p>
+    </div>
+	<div class="authorBlock-meta">
+		<div class="authorBlock-meta-block">
+			<h3 class="authorBlock-meta-block-title">Contact</h3>
+			<div class="authorBlock-meta-block-content">
+				                        <a data-tooltip="Follow Abhimanyu Ghoshal on Twitter" href="https://twitter.com/aghoshal" onclick="ga('primary.send', 'event', 'Article', 'Author - Abhimanyu Ghoshal', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social ss-twitter"></i></a>&nbsp;
+                                                <a data-tooltip="Email Abhimanyu Ghoshal" href="mailto:abhimanyu@thenextweb.com" onclick="ga('primary.send', 'event', 'Article', 'Author - Abhimanyu Ghoshal', 'E-mail', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-pika ss-mail"></i></a>
+                        			</div>
+		</div>
+		    			<div class="authorBlock-meta-block">
+    				<h3 class="authorBlock-meta-block-title">Location</h3>
+    				<div class="authorBlock-meta-block-content">
+    					<a target="_blank" data-tooltip="See Bangalore, IN on a map" href="https://www.google.nl/maps/place/Bangalore, IN">Bangalore, IN</a>
+    				</div>
+    			</div>
+                    			<div class="authorBlock-meta-block">
+    				<h3 class="authorBlock-meta-block-title">Posts</h3>
+    				<div class="authorBlock-meta-block-content">
+    					<a data-tooltip="See all posts by Abhimanyu Ghoshal" href="http://thenextweb.com/author/abhimanyughoshal/" >1365</a>
+    				</div>
+    			</div>
+                    			<div class="authorBlock-meta-block">
+    				<h3 class="authorBlock-meta-block-title">Posts / Mo</h3>
+    				<div class="authorBlock-meta-block-content">
+    					<a class="tooltip-long-text" data-tooltip="Abhimanyu Ghoshal publishes 31.48 post per month, on average. Click to see them all." href="http://thenextweb.com/author/abhimanyughoshal/" >31.48</a>
+    				</div>
+    			</div>
+                    </div>
+</div>    	<div class="l-postSingle-content-main-related postGrid postGrid--article relatedPosts">
+    		<div class="tabbed tabbed--light" role="application">
+    			<ul class="tabs" role="tablist">
+    				<li><a aria-controls="stories-tax" class="active" href="#stories-tax" id="tab-stories-tax" role="tab" onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'More in Apps', {'nonInteraction': 1, transport: 'beacon'});">More in Apps</a></li>
+    				                            <li><a aria-controls="stories-author" href="#stories-author" id="tab-stories-author" role="tab" onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'More by Abhimanyu', {'nonInteraction': 1, transport: 'beacon'});">More by Abhimanyu</a></li>
+                                			</ul>
+    			<div aria-labeledby="tab-stories-tax" class="active" id="stories-tax" role="tabpanel">
+    				<ul class="postGrid-list postGrid--light">
+    						
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://thenextweb.com/wp-content/blogs.dir/1/files/2016/02/Fandango-Certified-768x384.jpg"></div>
+		<h3><span>Fandango just bought Rotten Tomatoes and Flixster</span></h3>
+		<time datetime="2016-02-17T22:21:49+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/fandango-just-bought-rotten-tomatoes-and-flixster/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Fandango just bought Rotten Tomatoes and Flixster</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Outlook-out-of-preview-1b-1024x576-768x432.png"></div>
+		<h3><span>Outlook&#8217;s Web app gets themes, Giphy support and tight Office integration in big update</span></h3>
+		<time datetime="2016-02-17T20:57:27+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/microsoft/2016/02/17/outlooks-web-app-gets-themes-giphy-support-and-tight-office-integration-in-big-update/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Outlook&#8217;s Web app gets themes, Giphy support and tight Office integration in big update</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/DominosAppleWatchTNW-768x390.jpg"></div>
+		<h3><span>Fat kids rejoice! We can now order Domino&#8217;s from an Apple Watch</span></h3>
+		<time datetime="2016-02-17T19:38:27+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/fat-kids-rejoice-we-can-now-order-dominos-from-an-apple-watch/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Fat kids rejoice! We can now order Domino&#8217;s from an Apple Watch</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/instant-articles-e28094-poster-frame-768x432.jpg"></div>
+		<h3><span>Facebook will soon let any publisher post Instant Articles</span></h3>
+		<time datetime="2016-02-17T19:17:21+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/facebook/2016/02/17/facebook-will-soon-let-any-publisher-post-instant-articles/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Facebook will soon let any publisher post Instant Articles</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/lookback-mac-desktop-preview-768x384.jpg"></div>
+		<h3><span>Lookback gives you iOS and Apple TV screen recording that’s better than QuickTime</span></h3>
+		<time datetime="2016-02-17T19:15:57+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/17/lookback-gives-you-screen-recording-from-ios-and-apple-tv-thats-better-than-quicktime/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Lookback gives you iOS and Apple TV screen recording that’s better than QuickTime</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_326638799-1-520x335.jpg"></div>
+		<h3><span>Tech to empower your classroom</span></h3>
+		<time datetime="2016-02-17T19:10:07+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/insider/2016/02/17/tech-to-empower-your-classroom/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Tech to empower your classroom</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_191020970-520x441.jpg"></div>
+		<h3><span>What app developers can learn from games</span></h3>
+		<time datetime="2016-02-17T18:09:36+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/what-app-developers-can-learn-from-games/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">What app developers can learn from games</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Highstreet-hed-768x384.jpg"></div>
+		<h3><span>Highstreet turns your online store into a full-featured mobile shopping app</span></h3>
+		<time datetime="2016-02-17T14:48:54+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/highstreet-turns-your-online-store-into-a-full-featured-mobile-shopping-app/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Highstreet turns your online store into a full-featured mobile shopping app</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/11/Popcorn-Time-1200x600.jpg"></div>
+		<h3><span>The original Popcorn Time is back from the dead &#8212; but nobody knows who&#8217;s running it</span></h3>
+		<time datetime="2016-02-17T13:31:32+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/the-original-popcorn-time-is-back-from-the-dead-but-nobody-knows-whos-running-it/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">The original Popcorn Time is back from the dead &#8212; but nobody knows who&#8217;s running it</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Nextdoor-768x384.jpg"></div>
+		<h3><span>Neighborly social network Nextdoor launches in Europe</span></h3>
+		<time datetime="2016-02-17T12:19:30+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/neighborly-social-network-nextdoor-launches-in-europe/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Neighborly social network Nextdoor launches in Europe</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_300613664-iOS-testing-768x384.jpg"></div>
+		<h3><span>Google has open-sourced its iOS app testing tool</span></h3>
+		<time datetime="2016-02-17T08:44:11+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/17/google-has-open-sourced-its-ios-app-testing-tool/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Google has open-sourced its iOS app testing tool</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/shutterstock_200260748_Nintendo_Mario-1200x600.jpg"></div>
+		<h3><span>Nintendo opens account registration for cross-platform sync and rewards program</span></h3>
+		<time datetime="2016-02-17T06:58:57+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/nintendo-opens-account-registration-for-cross-platform-sync-and-rewards-program/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Nintendo opens account registration for cross-platform sync and rewards program</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/02/instagram_android_2.jpg"></div>
+		<h3><span>Instagram has added two-factor authentication</span></h3>
+		<time datetime="2016-02-16T23:21:46+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/16/instagram-has-added-two-factor-authentication/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Instagram has added two-factor authentication</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/1PasswordFamiliesTNW-768x390.jpg"></div>
+		<h3><span>1Password has a new family plan to help you manage passwords for up to 5 people</span></h3>
+		<time datetime="2016-02-16T19:44:30+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/16/1password-has-a-new-family-plan-to-help-you-manage-passwords-for-up-to-5-people/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">1Password has a new family plan to help you manage passwords for up to 5 people</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/01/Venmo-Feed-768x363.jpg"></div>
+		<h3><span>Venmo crosses $1B monthly transfers for the first time</span></h3>
+		<time datetime="2016-02-16T18:50:40+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/16/venmo-crosses-1b-monthly-transfers-for-the-first-time/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Venmo crosses $1B monthly transfers for the first time</a>
+	</li>
+    				</ul>
+    				<div class="clear">
+    				    <a class="relatedPosts-link" href="http://thenextweb.com/apps/" onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'See all Apps', {'nonInteraction': 1, transport: 'beacon'});">See all Apps</a>
+    				</div>
+    			</div>
+    			            			<div aria-labeledby="tab-stories-author" id="stories-author" role="tabpanel">
+            				<ul class="postGrid-list postGrid--light">
+            						
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Bad-Design-768x384.jpg"></div>
+		<h3><span>Why are some of the ugliest sites on the Web also the most popular?</span></h3>
+		<time datetime="2016-02-17T15:29:57+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/17/why-are-some-of-the-ugliest-sites-on-the-web-also-the-most-popular/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Why are some of the ugliest sites on the Web also the most popular?</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Highstreet-hed-768x384.jpg"></div>
+		<h3><span>Highstreet turns your online store into a full-featured mobile shopping app</span></h3>
+		<time datetime="2016-02-17T14:48:54+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/highstreet-turns-your-online-store-into-a-full-featured-mobile-shopping-app/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Highstreet turns your online store into a full-featured mobile shopping app</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_300613664-iOS-testing-768x384.jpg"></div>
+		<h3><span>Google has open-sourced its iOS app testing tool</span></h3>
+		<time datetime="2016-02-17T08:44:11+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/dd/2016/02/17/google-has-open-sourced-its-ios-app-testing-tool/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Google has open-sourced its iOS app testing tool</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Freedom-251-768x384.jpg"></div>
+		<h3><span>This $4 handset for India is the world&#8217;s cheapest smartphone</span></h3>
+		<time datetime="2016-02-17T07:34:17+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/mobile/2016/02/17/this-4-handset-for-india-is-the-worlds-cheapest-smartphone/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">This $4 handset for India is the world&#8217;s cheapest smartphone</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/shutterstock_200260748_Nintendo_Mario-1200x600.jpg"></div>
+		<h3><span>Nintendo opens account registration for cross-platform sync and rewards program</span></h3>
+		<time datetime="2016-02-17T06:58:57+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/17/nintendo-opens-account-registration-for-cross-platform-sync-and-rewards-program/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Nintendo opens account registration for cross-platform sync and rewards program</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/iPhone-unlock-768x384.jpg"></div>
+		<h3><span>Judge orders Apple to help unlock San Bernadino shooter&#8217;s iPhone</span></h3>
+		<time datetime="2016-02-17T05:43:14+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apple/2016/02/17/judge-orders-apple-to-help-unlock-san-bernadino-shooters-iphone/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Judge orders Apple to help unlock San Bernadino shooter&#8217;s iPhone</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Trbble-768x384.jpg"></div>
+		<h3><span>Trbble lets you share just the best parts of your favorite songs</span></h3>
+		<time datetime="2016-02-16T14:32:16+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/16/trbble-lets-you-share-just-the-best-parts-of-your-favorite-songs/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Trbble lets you share just the best parts of your favorite songs</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Samsung-Galaxy-S7-Edge-768x384.jpg"></div>
+		<h3><span>Samsung’s new Galaxy S7 Edge repels water and any attempt to update the design</span></h3>
+		<time datetime="2016-02-16T11:13:22+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/mobile/2016/02/16/samsungs-upcoming-galaxy-s7-edge-seems-resistant-to-water-change/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Samsung’s new Galaxy S7 Edge repels water and any attempt to update the design</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Spotify-clone-768x384.jpg"></div>
+		<h3><span>Spotify clones built with a $38 script might soon be shut down</span></h3>
+		<time datetime="2016-02-16T09:12:33+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/16/spotify-clones-built-with-a-38-script-might-soon-be-shut-down/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Spotify clones built with a $38 script might soon be shut down</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Mixradio-768x384.jpg"></div>
+		<h3><span>MixRadio is shutting down just a year after being acquired by Line</span></h3>
+		<time datetime="2016-02-16T07:07:05+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/16/mixradio-is-shutting-down-just-a-year-after-being-acquired-by-line/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">MixRadio is shutting down just a year after being acquired by Line</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Foodie-768x384.jpg"></div>
+		<h3><span>Line&#8217;s new camera app has a handy feature to help you take better food photos</span></h3>
+		<time datetime="2016-02-16T06:44:01+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/apps/2016/02/16/lines-new-camera-app-has-a-handy-feature-to-help-you-take-better-food-photos/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Line&#8217;s new camera app has a handy feature to help you take better food photos</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/LG-Stylus-2-768x384.jpg"></div>
+		<h3><span>LG&#8217;s next phone will alert you if you leave your stylus behind</span></h3>
+		<time datetime="2016-02-16T06:01:41+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/mobile/2016/02/16/lgs-next-phone-will-alert-you-if-you-leave-your-stylus-behind/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">LG&#8217;s next phone will alert you if you leave your stylus behind</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/View-Master-Viewr-DLX-768x384.jpg"></div>
+		<h3><span>View-Master’s retro VR headset is getting bigger and better this Fall</span></h3>
+		<time datetime="2016-02-15T08:52:15+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/gadgets/2016/02/15/view-master-is-launching-an-improved-vr-headset-this-fall/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">View-Master’s retro VR headset is getting bigger and better this Fall</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Sony-HUIS-Control-768x384.jpg"></div>
+		<h3><span>Sony&#8217;s new universal remote packs a low-power e-ink display</span></h3>
+		<time datetime="2016-02-15T07:52:44+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/gadgets/2016/02/15/sonys-new-universal-remote-packs-a-low-power-e-ink-display/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Sony&#8217;s new universal remote packs a low-power e-ink display</a>
+	</li>
+	
+	<li class="postGrid-post">
+		<div class="image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/ThingMaker-768x384.jpg"></div>
+		<h3><span>Autodesk and Mattel&#8217;s $300 3D printer for kids kicks off pre-orders</span></h3>
+		<time datetime="2016-02-15T06:25:04+0100" class="timeago"></time>
+		<a class="trigger" href="http://thenextweb.com/gadgets/2016/02/15/autodesk-and-mattels-300-3d-printer-for-kids-kicks-off-pre-orders/" 
+			onclick="ga('primary.send', 'event', 'Article', 'Related Posts', 'Post', {'nonInteraction': 1, transport: 'beacon'});">Autodesk and Mattel&#8217;s $300 3D printer for kids kicks off pre-orders</a>
+	</li>
+            				</ul>
+            				<div class="clear">
+            				    <a class="relatedPosts-link" href="http://thenextweb.com/author/abhimanyughoshal/" onclick="ga('primary.send', 'event', 'Article', 'Author Posts', 'See all stories by Abhimanyu', {'nonInteraction': 1, transport: 'beacon'});">See all stories by Abhimanyu</a>
+            				</div>
+            			</div> 
+                            		</div>
+
+			
+
+    	</div>
+                                <!-- Ad unit: Bottom 2 -->
+                        <div id="ad-unit-bottom-2">
+                            <div id="div-gpt-ad-1399993607171-0" style="display:none;"></div>
+                        </div>
+                                                <div class="l-postSingle-content-main-comments" id="comments">
+                                                            <div class="fb-comments js-socialPreload" data-social-preload-type="facebookComments"
+                                     data-href="http://thenextweb.com/apps/2016/02/09/firewatch-lets-you-order-prints-of-photos-from-your-in-game-camera/" data-numposts="4"
+                                     data-width="100%"></div>
+                                                    </div>
+                                        </div>
+                <div class="l-postSingle-content-sidebar sidebar">
+                                        <div class="l-postSingle-content-sidebar-fixables">
+                                                    <div class="sidebar-block sidebar-block--deals" style="display:none;">
+                                <h2 class="sidebar-block-title">Deal of the day</h2>
+                                <a class="postMicro ab-test" href="http://thenextweb.com/offers/2016/02/17/win-7-top-quality-essentials-for-modern-life-in-this-giveaway/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/The-ADVENTURES-OF-A-CATDRONE-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Win 7 top-quality essentials for modern life in this giveaway</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="111">111</span>
+		</span>
+		<time datetime="2016-02-17T16:05:42+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+                            </div>
+                                                        <div class="sidebar-block sidebar-block--evergreen" style="display:none;">
+                                <h2 class="sidebar-block-title">Evergreen posts</h2>
+                                <a class="postMicro ab-test" href="http://thenextweb.com/businessapps/2015/01/24/complete-guide-backing-computer-properly/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/01/storage_feature-520x231.jpg"></div>
+	<h3 class="postMicro-title"><span>The complete guide to backing up your computer the best way</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="2009">2K</span>
+		</span>
+		<time datetime="2015-01-24T23:03:53+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/gadgets/2014/07/04/use-personal-drones-legally-beginners-guide/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/07/drone-730x280.jpg"></div>
+	<h3 class="postMicro-title"><span>How to use personal drones legally: A beginner&#8217;s guide</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="1111">1.1K</span>
+		</span>
+		<time datetime="2014-07-04T18:01:15+0200" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/apps/2014/04/19/11-android-apps-make-notifications-interesting/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/Notifications-730x280.jpg"></div>
+	<h3 class="postMicro-title"><span>11 Android apps to make notifications more interesting</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="2083">2.1K</span>
+		</span>
+		<time datetime="2014-04-19T19:00:03+0200" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/entrepreneur/2014/03/24/raise-prices-without-ruining-business/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/03/blank-price-tag-520x275.jpg"></div>
+	<h3 class="postMicro-title"><span>How to raise prices without ruining your business</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="724">724</span>
+		</span>
+		<time datetime="2014-03-24T17:41:28+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/entrepreneur/2014/03/20/mobile-bridging-brick-mortars-data-gap/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/03/shopping-in-store-tablet-520x269.jpg"></div>
+	<h3 class="postMicro-title"><span>How mobile is bridging brick and mortar&#8217;s data gap</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="832">832</span>
+		</span>
+		<time datetime="2014-03-20T15:12:04+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+                            </div>
+                                                        <div class="sidebar-block sidebar-block--recommended">
+                                <h2 class="sidebar-block-title">Recommended</h2>
+                                <a class="postMicro ab-test" href="http://thenextweb.com/future-of-communications/2016/02/17/the-ultimate-guide-to-selecting-a-device-authentication/" onclick="ga('primary.send', 'event', 'Article', 'Recommended', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_232618711-220x220.jpg"></div>
+	<h3 class="postMicro-title"><span>The ultimate guide to device authentication</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="139">139</span>
+		</span>
+		<time datetime="2016-02-17T15:50:52+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+                            </div>
+                                                        <!-- Ad unit: Sharethrough -->
+                            <div class="sidebar-block sidebar-block--ad" id="ad-unit-sharethrough-sidebar">
+                                <div id="div-gpt-ad-13687837252244825-0" style="display:none;"></div>
+                            </div>
+                            <!-- Ad unit: Right -->
+                            <div class="sidebar-block sidebar-block--ad" id="ad-unit-right">
+                                <div id="div-gpt-ad-1368717423425-1" style="display:none;"></div>
+                            </div>
+                                                        <div class="sidebar-block sidebar-block--most-popular">
+                                <h2 class="sidebar-block-title">Most popular</h2>
+                                <a class="postMicro ab-test" href="http://thenextweb.com/apps/2016/02/16/ibm-has-just-open-sourced-44000-lines-of-blockchain-code-on-github/" onclick="ga('primary.send', 'event', 'Article', 'Most Popular', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2013/11/IBM-730x280.jpg"></div>
+	<h3 class="postMicro-title"><span>IBM has just open-sourced 44,000 lines of blockchain code on GitHub</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="4106">4.1K</span>
+		</span>
+		<time datetime="2016-02-16T16:35:08+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/insider/2016/02/16/why-you-wont-recognize-seo-in-5-years/" onclick="ga('primary.send', 'event', 'Article', 'Most Popular', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/anderson1-copy-2-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Why you won&#8217;t recognize SEO in 5 years</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="1256">1.3K</span>
+		</span>
+		<time datetime="2016-02-16T14:30:26+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/dd/2016/02/17/google-has-open-sourced-its-ios-app-testing-tool/" onclick="ga('primary.send', 'event', 'Article', 'Most Popular', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://thenextweb.com/wp-content/blogs.dir/1/files/2016/02/shutterstock_300613664-iOS-testing-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Google has open-sourced its iOS app testing tool</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="1085">1.1K</span>
+		</span>
+		<time datetime="2016-02-17T08:44:11+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/gadgets/2016/02/16/the-zx-spectrum-is-coming-back-as-a-handheld-console/" onclick="ga('primary.send', 'event', 'Article', 'Most Popular', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/vegaplus_feat-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>The ZX Spectrum is coming back as a handheld console</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="2240">2.2K</span>
+		</span>
+		<time datetime="2016-02-16T13:02:54+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/apple/2016/02/17/judge-orders-apple-to-help-unlock-san-bernadino-shooters-iphone/" onclick="ga('primary.send', 'event', 'Article', 'Most Popular', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/iPhone-unlock-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Apple says it can’t comply with court order to hack San Bernadino shooter&#8217;s iPhone</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="1340">1.3K</span>
+		</span>
+		<time datetime="2016-02-17T05:43:14+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+                            </div>
+                                                    <!-- Ad unit: Sharethrough -->
+                        <div class="sidebar-block sidebar-block--ad" id="ad-unit-sharethrough-sidebar-direct">
+                            <div id="div-gpt-ad-136823425554825-0" style="display:none;"></div>
+                        </div>
+                                                    <div class="sidebar-block sidebar-block--latest-stories">
+                                <h2 class="sidebar-block-title">Latest stories</h2>
+                                <a class="postMicro ab-test" href="http://thenextweb.com/dd/2016/02/17/super-smart-ai-epically-fails-8th-grade-science-test/" onclick="ga('primary.send', 'event', 'Article', 'Latest News', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/12/robots-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Super-smart AI epically fails 8th grade science test</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="0">0</span>
+		</span>
+		<time datetime="2016-02-17T22:36:13+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/apps/2016/02/17/fandango-just-bought-rotten-tomatoes-and-flixster/" onclick="ga('primary.send', 'event', 'Article', 'Latest News', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Fandango-Certified-520x260.jpg"></div>
+	<h3 class="postMicro-title"><span>Fandango just bought Rotten Tomatoes and Flixster</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="1">1</span>
+		</span>
+		<time datetime="2016-02-17T22:21:49+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/apple/2016/02/17/apple-is-issuing-1-5-billion-in-bonds-to-help-the-company-go-green/" onclick="ga('primary.send', 'event', 'Article', 'Latest News', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2013/10/applecampus-3-645x250-520x201.png"></div>
+	<h3 class="postMicro-title"><span>Apple is issuing $1.5 billion in bonds to help the company go green</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="0">0</span>
+		</span>
+		<time datetime="2016-02-17T22:17:57+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/dd/2016/02/17/github-adds-templates-for-pull-requests-and-issues-to-help-push-projects-forward/" onclick="ga('primary.send', 'event', 'Article', 'Latest News', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/GitHubTemplateTNW-520x264.jpg"></div>
+	<h3 class="postMicro-title"><span>GitHub adds templates for Pull Requests and Issues to help push projects forward</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="0">0</span>
+		</span>
+		<time datetime="2016-02-17T21:13:54+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+<a class="postMicro ab-test" href="http://thenextweb.com/microsoft/2016/02/17/outlooks-web-app-gets-themes-giphy-support-and-tight-office-integration-in-big-update/" onclick="ga('primary.send', 'event', 'Article', 'Latest News', 'Sidebar',{'nonInteraction': 1, transport: 'beacon'});">
+	<div class="postMicro-image lazyloadableImage" data-original="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/Outlook-out-of-preview-1b-1024x576-520x293.png"></div>
+	<h3 class="postMicro-title"><span>Outlook&#8217;s Web app gets themes, Giphy support and tight Office integration in big update</span></h3>
+	<div class="postMicro-info">
+		<span class="postMicro-shares">
+			<i class="ss-pika ss-stock"></i>
+			<span class="postMicro-shares-text" data-number="0">0</span>
+		</span>
+		<time datetime="2016-02-17T20:57:27+0100" class="timeago postMicro-timeago"></time>
+	</div>
+</a>
+                            </div>
+                                                    <div class="sidebar-block">
+                            <h2 class="sidebar-block-title">Stay tuned</h2>
+                            <h3 class="sidebar-block-subtitle">Let the news come to you.</h3>
+                            <div class="sidebar-block-box socialBlock">
+                                <form method="post" target="_blank"
+                                      action="http://thenextweb.us1.list-manage1.com/subscribe/post?u=22ec88eb9b9d8bc3bcf660787&id=32f70ba9aa"
+                                      class="socialBlock-thing socialBlock-thing--newsletter newsletterSignup"
+                                      onsubmit="dataLayer.push({'event': 'newsletterSignup', 'newsletter': [{'location': 'Article' }] });">
+                                    <input name="EMAIL" class="newsletterSignup-input" type="email"
+                                           placeholder="Email address">
+                                    <button type="submit" class="newsletterSignup-submit button">Subscribe</button>
+                                    <input type="hidden" value="TheNextWeb" name="uri">
+                                    <input type="hidden" name="loc" value="en_US">
+                                </form>
+                                <div class="socialBlock-thing socialBlock-thing--follow js-socialPreload"
+                                     data-social-preload-type="twitterFollow">
+                                    <img
+                                        src="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/img/twitter/twttr-follow-button-v2.png">
+                                </div>
+                                                                    <div class="socialBlock-thing socialBlock-thing--facebox js-socialPreload"
+                                         data-social-preload-type="facebookFacebox"></div>
+                                                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    		</div><!--/ #main -->
+				<footer class="footer">
+			<div class="clear footer-block footer-block--top">
+				<div class="u-wrapper">
+					<a class="footer-logo" href="/" onclick="ga('primary.send', 'event', 'Footer', 'Logo', {'nonInteraction': 1, transport: 'beacon'});" title="The Next Web">The Next Web</a>
+					<ul class="footer-links">
+						<li><a href="http://thenextweb.com/about/" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'About', {'nonInteraction': 1, transport: 'beacon'});" title="About">About</a></li>
+						<li><a href="http://thenextweb.homerun.hr" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Jobs', {'nonInteraction': 1, transport: 'beacon'});" title="Jobs">Jobs</a></li>
+						<li><a href="http://thenextweb.com/about/team/" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Team', {'nonInteraction': 1, transport: 'beacon'});" title="Team">Team</a></li>
+						<li><a href="http://thenextweb.com/advertise/" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Advertise', {'nonInteraction': 1, transport: 'beacon'});" title="Advertise">Advertise</a></li>
+						<li><a href="http://thenextweb.com/privacy-policy/" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Privacy', {'nonInteraction': 1, transport: 'beacon'});" title="Privacy">Privacy</a></li>
+						<li><a href="http://thenextweb.com/tos/" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Terms', {'nonInteraction': 1, transport: 'beacon'});" title="Terms">Terms</a></li>
+						<li><a href="mailto:beta@thenextweb.com" target="_blank" onclick="ga('primary.send', 'event', 'Footer', 'Feedback on beta', {'nonInteraction': 1, transport: 'beacon'});" title="Feedback">Feedback</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear footer-block footer-block--bottom">
+				<div class="u-wrapper">
+					<div class="footer-half footer-half--left">
+						<ul class="footer-follow">
+							<li class="footer-follow--twitter"><a href="https://www.twitter.com/thenextweb" title="Follow us on Twitter" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-twitter"></i></a></li>
+							<li class="footer-follow--facebook"><a href="https://www.facebook.com/thenextweb" title="Follow us on Facebook" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Facebook', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-facebook"></i></a></li>
+							<li class="footer-follow--googleplus"><a href="https://plus.google.com/+TheNextWeb" title="Follow us on Google+" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Google+', {'nonInteraction': 1, transport: 'beacon'});" target="_blank">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="22" height="22">
+									<path d="M48,22h-5v-5h-4v5h-5v4h5v5h4v-5h5 M16,21v6.24h8.72c-0.67,3.76-3.93,6.5-8.72,6.5c-5.28,0-9.57-4.47-9.57-9.75s4.29-9.74,9.57-9.74c2.38,0,4.51,0.82,6.19,2.42v0.01l4.51-4.51C23.93,9.59,20.32,8,16,8C7.16,8,0,15.16,0,24s7.16,16,16,16c9.24,0,15.36-6.5,15.36-15.64c0-1.17-0.11-2.29-0.31-3.36C31.05,21,16,21,16,21z"/>
+								</svg>
+							</a></li>
+							<li class="footer-follow--youtube"><a href="https://www.youtube.com/user/thenextweb" title="Watch our videos on YouTube" onclick="ga('primary.send', 'event', 'Top', 'Social', 'YouTube', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-youtube"></i></a></li>
+							<li class="footer-follow--linkedin"><a href="https://www.linkedin.com/company/the-next-web" title="Follow us on LinkedIn" onclick="ga('primary.send', 'event', 'Top', 'Social', 'LinkedIn', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-linkedin"></i></a></li>
+							<li class="footer-follow--pinterest"><a href="https://www.pinterest.com/thenextweb/" title="Follow us on Pinterest" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Pinterest', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-pinterest"></i></a></li>
+							<li class="footer-follow--instagram"><a href="https://instagram.com/thenextweb/" title="Follow us on Instagram" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Instagram', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-instagram"></i></a></li>
+							<li class="footer-follow--vine"><a href="https://vine.co/thenextweb/" title="Follow us on Vine" onclick="ga('primary.send', 'event', 'Top', 'Social', 'Vine', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-vine"></i></a></li>
+							<li class="footer-follow--rss"><a href="http://feeds2.feedburner.com/thenextweb" title="Read our RSS feed" onclick="ga('primary.send', 'event', 'Top', 'Social', 'RSS', {'nonInteraction': 1, transport: 'beacon'});" target="_blank"><i class="ss-social-regular ss-rss"></i></a></li>
+						</ul>
+						<blockquote class="footer-quote">
+							<div class="m-1">
+								<span></span>
+								<cite></cite>
+							</div>
+							<a class="button button--small button--twitter js-socialPreload" data-social-preload-type="twitterIntent" title="Share this quote on Twitter" href="https://twitter.com/intent/tweet?"
+							onclick="ga('primary.send', 'event', 'Footer Quote', 'Footer Quote', 'Twitter', {'nonInteraction': 1, transport: 'beacon'});"
+							target='_blank'>
+								<i class="ss-social ss-twitter"></i> Share
+							</a>
+						</blockquote>
+
+					</div>
+					<div class="footer-half footer-half--right">
+						<ul class="footer-partners">
+							<li><!-- Ad unit: Footer --><span id="div-gpt-ad-1383298902094-0"></span></li>
+							<li><a href="http://www.maxcdn.com/" onclick="ga('primary.send', 'event', 'Footer', 'Sponsor', 'MaxCDN', {'nonInteraction': 1, transport: 'beacon'});" rel="nofollow" title="MaxCDN"><img alt="MaxCDN" src="http://cdn1.tnwcdn.com/wp-content/themes/icetea/lemonsoda/img/maxcdn.png" data-no-retina width="250" height="250"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="u-wrapper">
+				<p class="footer-legal">
+					&copy; 2001&ndash;2016					The Next Web, Inc.
+					All&nbsp;rights&nbsp;reserved.
+				</p>
+			</div>
+		</footer>
+		<!-- TNW Modal -->
+		<div class="modal tnw-modal" id="newsletter-signup-modal"
+	 data-outbound-modal	 data-analytics="newsletter">
+	<div class="modal-window">
+		<div class="modal-header">
+			<a class="closeIcon" href="#close" title="Esc">
+				<i class="ss-pika ss-delete"></i>
+			</a>
+		</div>
+		<div class="modal-body">
+			<div class="modal-newsletter m-3">
+
+
+	<h2 class="m-0-5">
+		Don't Miss The Hottest Tech News
+	</h2>
+	<div class="wrapper">
+		<p class="m-1-5">
+			Get our free weekly digest by our <br /> Editor-at-Large <img alt='Martin Bryant' src='http://1.gravatar.com/avatar/7f87e4ffb862af3cb3cf401c2e40b7e6?s=150&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7f87e4ffb862af3cb3cf401c2e40b7e6?s=300&amp;d=mm&amp;r=g 2x' class='avatar avatar-150 photo' height='150' width='150' /> Martin Bryant
+		</p>
+		<div>
+			<form target="_blank" action="/ajax/subscribeNewsletter.php" accept-charset="utf-8" autocomplete="off" method="post" data-xhr onsubmit="dataLayer.push({'event': 'newsletterSignup', 'newsletter': [{'location': 'Modal' }] });">
+				<div class="input-block input-and-button">
+					<span class="input-arrow"> <i class="ss-pika ss-right"></i> </span>
+					<span class="email-icon"> <i class="ss-pika ss-mail"></i> </span>
+					<input name="email" class="w-75" name="email" type="email" placeholder="Enter your email" required>
+					<button class="w-25 button" type="submit">Go</button>
+				</div>
+				<input type="hidden" name="group[6][4]" value="1">
+			</form>
+		</div>
+		<div class="modal-thankYou">
+			Thanks for subscribing! You will receive your first newsletter soon.
+		</div>
+		<div class="modal-error">
+			Ooops! We're sorry, but something went wrong.
+		</div>
+	</div>
+</div>		</div>
+	</div>
+</div>		<!-- / TNW Modal -->
+		<div id="img-preload" style="display: none;"></div>
+		<!-- Ad unit: 1x1 -->
+		<div id="roadblock-1x1">
+			<div id="div-gpt-ad-1416913725-0" style="display: none;"></div>
+		</div>
+		<script src="http://cdn0.tnwcdn.com/assets/js/advertising.js"></script>
+					<script src="http://cdn0.tnwcdn.com/wp-content/themes/icetea/lemonsoda/js/scripts.min.js?v=1455715455" type="text/javascript"></script>
+					<noscript>
+			<img alt="" height="1" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1055417172/?value=0&amp;guid=ON&amp;script=0" style="border-style: none;" width="1">
+		</noscript>
+					
+				<script type='text/javascript' src='http://cdn1.tnwcdn.com/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+
+					<script>
+						var _roost = _roost || [];
+						TNW.components.browserNotifications.init();
+						 _roost.push(['onload', function(data) {
+							  dataLayer.push({'event': 'roostPopup' });
+						 }]);
+					</script>
+					</body>
+</html>

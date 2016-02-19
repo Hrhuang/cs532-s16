@@ -1,0 +1,1498 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" charset=UTF-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+	
+
+<!--Shortcut icon-->
+	<link rel="shortcut icon" href="http://www.datasciencebowl.com/wp-content/uploads/2015/12/favicon-32x32.png" />
+
+
+<title> 5 Awesome Problems Solved Through Data Science - The Data Science Bowl | Passion. Curiosity. Purpose. </title>
+
+
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://www.datasciencebowl.com/5_awesome_problems_solved_through_data_science/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="5 Awesome Problems Solved Through Data Science - The Data Science Bowl | Passion. Curiosity. Purpose." />
+<meta property="og:description" content="Booz Allen does not just have a data science team. Yes, we are proud of our industry leading, 600+ member group of data scientists; but that team is not evidence..." />
+<meta property="og:url" content="http://www.datasciencebowl.com/5_awesome_problems_solved_through_data_science/" />
+<meta property="og:site_name" content="The Data Science Bowl | Passion. Curiosity. Purpose." />
+<meta property="article:section" content="Booz Allen" />
+<meta property="article:published_time" content="2016-01-11T17:20:33+00:00" />
+<meta property="article:modified_time" content="2016-01-12T09:57:06+00:00" />
+<meta property="og:updated_time" content="2016-01-12T09:57:06+00:00" />
+<meta property="og:image" content="http://www.datasciencebowl.com/wp-content/uploads/2016/01/batters-box.png" />
+<meta property="og:image" content="http://www.datasciencebowl.com/wp-content/uploads/2016/01/digital-disease.png" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Booz Allen does not just have a data science team. Yes, we are proud of our industry leading, 600+ member group of data scientists; but that team is not evidence..."/>
+<meta name="twitter:title" content="5 Awesome Problems Solved Through Data Science - The Data Science Bowl | Passion. Curiosity. Purpose."/>
+<meta name="twitter:domain" content="The Data Science Bowl | Passion. Curiosity. Purpose."/>
+<meta name="twitter:image" content="http://www.datasciencebowl.com/wp-content/uploads/2016/01/batters-box.png"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="The Data Science Bowl | Passion. Curiosity. Purpose. &raquo; Feed" href="http://www.datasciencebowl.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Data Science Bowl | Passion. Curiosity. Purpose. &raquo; Comments Feed" href="http://www.datasciencebowl.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.datasciencebowl.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='options_typography_Open+Sans-400-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400' type='text/css' media='all' />
+<link rel='stylesheet' id='options_typography_Montserrat-400-css'  href='https://fonts.googleapis.com/css?family=Montserrat:400' type='text/css' media='all' />
+<link rel='stylesheet' id='options_typography_Asap-400-css'  href='https://fonts.googleapis.com/css?family=Asap:400' type='text/css' media='all' />
+<link rel='stylesheet' id='options_typography_Asap-700-css'  href='https://fonts.googleapis.com/css?family=Asap:700' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.datasciencebowl.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.datasciencebowl.com/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.17.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.datasciencebowl.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rgs-css'  href='http://www.datasciencebowl.com/wp-content/themes/salient/css/rgs.css?ver=5.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.datasciencebowl.com/wp-content/themes/salient/css/font-awesome.min.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='main-styles-css'  href='http://www.datasciencebowl.com/wp-content/themes/salient-child/style.css?ver=5.5.4' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='nectar-ie8-css'  href='http://www.datasciencebowl.com/wp-content/themes/salient/css/ie8.css?ver=4.3.1' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='responsive-css'  href='http://www.datasciencebowl.com/wp-content/themes/salient/css/responsive.css?ver=5.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css?ver=1.3.9' type='text/css' media='all' />
+<!--[if IE 7]>
+<link rel='stylesheet' id='fontawesome-ie-css'  href='//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css?ver=1.3.9' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='js_composer_custom_css-css'  href='http://www.datasciencebowl.com/wp-content/uploads/js_composer/custom.css?ver=4.3.5' type='text/css' media='screen' />
+		<style>
+			/* Accessible for screen readers but hidden from view */
+			.fa-hidden { position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden; }
+			.rtl .fa-hidden { left:10000px; }
+			.fa-showtext { margin-right: 5px; }
+		</style>
+		<script type='text/javascript' src='http://www.datasciencebowl.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/themes/salient/js/modernizr.js?ver=2.6.2'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/plugins/js_composer_salient/assets/lib/progress-circle/ProgressCircle.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/plugins/js_composer_salient/assets/lib/vc_chart/jquery.vc_chart.js?ver=4.3.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.datasciencebowl.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.datasciencebowl.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.1" />
+<link rel='shortlink' href='http://www.datasciencebowl.com/?p=4014' />
+<style type="text/css">body a{color:#6ac6c1;}header#top nav ul li a:hover,header#top nav .sf-menu li.sfHover > a,header#top nav .sf-menu li.current-menu-item > a,header#top nav .sf-menu li.current_page_item > a .sf-sub-indicator i,header#top nav .sf-menu li.current_page_ancestor > a .sf-sub-indicator i,header#top nav ul li a:hover,header#top nav .sf-menu li.sfHover > a,header#top nav .sf-menu li.current_page_ancestor > a,header#top nav .sf-menu li.current-menu-ancestor > a,header#top nav .sf-menu li.current_page_item > a,body header#top nav .sf-menu li.current_page_item > a .sf-sub-indicator [class^="icon-"],header#top nav .sf-menu li.current_page_ancestor > a .sf-sub-indicator [class^="icon-"],header#top nav .sf-menu li.current-menu-ancestor > a,header#top nav .sf-menu li.current_page_item > a,.sf-menu li ul li.sfHover > a .sf-sub-indicator [class^="icon-"],ul.sf-menu > li > a:hover > .sf-sub-indicator i,ul.sf-menu > li > a:active > .sf-sub-indicator i,ul.sf-menu > li.sfHover > a > .sf-sub-indicator i,.sf-menu ul li.current_page_item > a,.sf-menu ul li.current-menu-ancestor > a,.sf-menu ul li.current_page_ancestor > a,.sf-menu ul a:focus,.sf-menu ul a:hover,.sf-menu ul a:active,.sf-menu ul li:hover > a,.sf-menu ul li.sfHover > a,.sf-menu li ul li a:hover,.sf-menu li ul li.sfHover > a,#footer-outer a:hover,.recent-posts .post-header a:hover,article.post .post-header a:hover,article.result a:hover,article.post .post-header h2 a,.single article.post .post-meta a:hover,.comment-list .comment-meta a:hover,label span,.wpcf7-form p span,.icon-3x[class^="icon-"],.icon-3x[class*=" icon-"],.icon-tiny[class^="icon-"],.circle-border,article.result .title a,.home .blog-recent .col .post-header a:hover,.home .blog-recent .col .post-header h3 a,#single-below-header a:hover,header#top #logo:hover,.sf-menu > li.current_page_ancestor > a > .sf-sub-indicator [class^="icon-"],.sf-menu > li.current-menu-ancestor > a > .sf-sub-indicator [class^="icon-"],body #mobile-menu li.open > a [class^="icon-"],.pricing-column h3,.comment-author a:hover,.project-attrs li i,#footer-outer #copyright li a i:hover,.col:hover > [class^="icon-"].icon-3x.accent-color.alt-style.hovered,.col:hover > [class*=" icon-"].icon-3x.accent-color.alt-style.hovered,#header-outer .widget_shopping_cart .cart_list a,.woocommerce .star-rating,.woocommerce-page table.cart a.remove,.woocommerce form .form-row .required,.woocommerce-page form .form-row .required,body #header-secondary-outer #social a:hover i,.woocommerce ul.products li.product .price,body .twitter-share:hover i,.twitter-share.hovered i,body .linkedin-share:hover i,.linkedin-share.hovered i,body .google-plus-share:hover i,.google-plus-share.hovered i,.pinterest-share:hover i,.pinterest-share.hovered i,.facebook-share:hover i,.facebook-share.hovered i,.woocommerce-page ul.products li.product .price,.nectar-milestone .number.accent-color,header#top nav > ul > li.megamenu > ul > li > a:hover,header#top nav > ul > li.megamenu > ul > li.sfHover > a,body #portfolio-nav a:hover i,span.accent-color,.nectar-love:hover i,.nectar-love.loved i,.portfolio-items .nectar-love:hover i,.portfolio-items .nectar-love.loved i,body .hovered .nectar-love i,header#top nav ul #search-btn a:hover span,header#top nav ul .slide-out-widget-area-toggle a:hover span,#search-outer #search #close a span:hover,.carousel-wrap[data-full-width="true"] .carousel-heading a:hover i,#search-outer .ui-widget-content li:hover a .title,#search-outer .ui-widget-content .ui-state-hover .title,#search-outer .ui-widget-content .ui-state-focus .title,.portfolio-filters-inline .container ul li a.active,body [class^="icon-"].icon-default-style,.team-member a.accent-color:hover,.ascend .comment-list .reply a,.wpcf7-form .wpcf7-not-valid-tip,.text_on_hover.product .add_to_cart_button{color:#6ac6c1!important;}.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.accent-color.alt-style.hovered,body .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.accent-color.alt-style.hovered,.ascend #header-outer:not(.transparent) .cart-outer:hover .cart-menu-wrap:not(.has_products) .icon-salient-cart{color:#6ac6c1!important;}.orbit-wrapper div.slider-nav span.right,.orbit-wrapper div.slider-nav span.left,.flex-direction-nav a,.jp-play-bar,.jp-volume-bar-value,.jcarousel-prev:hover,.jcarousel-next:hover,.portfolio-items .col[data-default-color="true"] .work-info-bg,.portfolio-items .col[data-default-color="true"] .bottom-meta,.portfolio-filters a,.portfolio-filters #sort-portfolio,.project-attrs li span,.progress li span,.nectar-progress-bar span,#footer-outer #footer-widgets .col .tagcloud a:hover,#sidebar .widget .tagcloud a:hover,article.post .more-link span:hover,article.post.quote .post-content .quote-inner,article.post.link .post-content .link-inner,#pagination .next a:hover,#pagination .prev a:hover,.comment-list .reply a:hover,input[type=submit]:hover,input[type="button"]:hover,#footer-outer #copyright li a.vimeo:hover,#footer-outer #copyright li a.behance:hover,.toggle.open h3 a,.tabbed > ul li a.active-tab,[class*=" icon-"],.icon-normal,.bar_graph li span,.nectar-button[data-color-override="false"].regular-button,.nectar-button.tilt.accent-color,body .swiper-slide .button.transparent_2 a.primary-color:hover,#footer-outer #footer-widgets .col input[type="submit"],.carousel-prev:hover,.carousel-next:hover,.blog-recent .more-link span:hover,.post-tags a:hover,.pricing-column.highlight h3,#to-top:hover,#to-top.dark:hover,#pagination a.page-numbers:hover,#pagination span.page-numbers.current,.single-portfolio .facebook-share a:hover,.single-portfolio .twitter-share a:hover,.single-portfolio .pinterest-share a:hover,.single-post .facebook-share a:hover,.single-post .twitter-share a:hover,.single-post .pinterest-share a:hover,.mejs-controls .mejs-time-rail .mejs-time-current,.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current,.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,article.post.quote .post-content .quote-inner,article.post.link .post-content .link-inner,article.format-status .post-content .status-inner,article.post.format-aside .aside-inner,body #header-secondary-outer #social li a.behance:hover,body #header-secondary-outer #social li a.vimeo:hover,#sidebar .widget:hover [class^="icon-"].icon-3x,.woocommerce-page div[data-project-style="text_on_hover"] .single_add_to_cart_button,article.post.quote .content-inner .quote-inner .whole-link,.iosSlider .prev_slide:hover,.iosSlider .next_slide:hover,body [class^="icon-"].icon-3x.alt-style.accent-color,body [class*=" icon-"].icon-3x.alt-style.accent-color,#slide-out-widget-area,#header-outer .widget_shopping_cart a.button,#header-outer a.cart-contents .cart-wrap span,.swiper-slide .button.solid_color a,.swiper-slide .button.solid_color_2 a,.portfolio-filters,button[type=submit]:hover,#buddypress button:hover,#buddypress a.button:hover,#buddypress ul.button-nav li.current a,header#top nav ul .slide-out-widget-area-toggle a:hover i.lines,header#top nav ul .slide-out-widget-area-toggle a:hover i.lines:after,header#top nav ul .slide-out-widget-area-toggle a:hover i.lines:before,#buddypress a.button:focus,.text_on_hover.product a.added_to_cart,.woocommerce div.product .woocommerce-tabs .full-width-content ul.tabs li a:after,.woocommerce div[data-project-style="text_on_hover"] .cart .quantity input.minus,.woocommerce div[data-project-style="text_on_hover"] .cart .quantity input.plus,.woocommerce .span_4 input[type="submit"].checkout-button{background-color:#6ac6c1!important;}.col:hover > [class^="icon-"].icon-3x:not(.alt-style).accent-color.hovered,.col:hover > [class*=" icon-"].icon-3x:not(.alt-style).accent-color.hovered,body .nectar-button.see-through-2[data-hover-color-override="false"]:hover,.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x:not(.alt-style).accent-color.hovered,.col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x:not(.alt-style).accent-color.hovered{background-color:#6ac6c1!important;}.tabbed > ul li a.active-tab,body .recent_projects_widget a:hover img,.recent_projects_widget a:hover img,#sidebar #flickr a:hover img,body .nectar-button.see-through-2[data-hover-color-override="false"]:hover,#footer-outer #flickr a:hover img,#featured article .post-title a:hover,body #featured article .post-title a:hover,div.wpcf7-validation-errors{border-color:#6ac6c1!important;}.default-loading-icon:before{border-top-color:#6ac6c1!important;}#header-outer a.cart-contents span:before{border-color:transparent #6ac6c1!important;}.col:not(#post-area):not(.span_12):not(#sidebar):hover .hovered .circle-border,#sidebar .widget:hover .circle-border{border-color:#6ac6c1;}.gallery a:hover img{border-color:#6ac6c1!important;}@media only screen and (min-width :1px) and (max-width :1000px){body #featured article .post-title > a{background-color:#6ac6c1;}body #featured article .post-title > a{border-color:#6ac6c1;}}.nectar-button.regular-button.extra-color-1,.nectar-button.tilt.extra-color-1{background-color:#641a3e!important;}.icon-3x[class^="icon-"].extra-color-1:not(.alt-style),.icon-tiny[class^="icon-"].extra-color-1,.icon-3x[class*=" icon-"].extra-color-1:not(.alt-style),.icon-3x[class*=" icon-"].extra-color-1:not(.alt-style) .circle-border,.woocommerce-page table.cart a.remove,#header-outer .widget_shopping_cart .cart_list li a.remove,#header-outer .woocommerce.widget_shopping_cart .cart_list li a.remove,.nectar-milestone .number.extra-color-1,span.extra-color-1,.team-member ul.social.extra-color-1 li a,.stock.out-of-stock,body [class^="icon-"].icon-default-style.extra-color-1,.team-member a.extra-color-1:hover{color:#641a3e!important;}.col:hover > [class^="icon-"].icon-3x.extra-color-1:not(.alt-style),.col:hover > [class*=" icon-"].icon-3x.extra-color-1:not(.alt-style).hovered,body .swiper-slide .button.transparent_2 a.extra-color-1:hover,body .col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-1:not(.alt-style).hovered,body .col:not(#post-area):not(#sidebar):not(.span_12):hover a [class*=" icon-"].icon-3x.extra-color-1:not(.alt-style).hovered,#sidebar .widget:hover [class^="icon-"].icon-3x.extra-color-1:not(.alt-style){background-color:#641a3e!important;}body [class^="icon-"].icon-3x.alt-style.extra-color-1,body [class*=" icon-"].icon-3x.alt-style.extra-color-1,[class*=" icon-"].extra-color-1.icon-normal,.extra-color-1.icon-normal,.bar_graph li span.extra-color-1,.nectar-progress-bar span.extra-color-1,#header-outer .widget_shopping_cart a.button,.woocommerce ul.products li.product .onsale,.woocommerce-page ul.products li.product .onsale,.woocommerce span.onsale,.woocommerce-page span.onsale,.woocommerce-page table.cart a.remove:hover,.swiper-slide .button.solid_color a.extra-color-1,.swiper-slide .button.solid_color_2 a.extra-color-1,.toggle.open.extra-color-1 h3 a{background-color:#641a3e!important;}.col:hover > [class^="icon-"].icon-3x.extra-color-1.alt-style.hovered,.col:hover > [class*=" icon-"].icon-3x.extra-color-1.alt-style.hovered,.no-highlight.extra-color-1 h3,.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-1.alt-style.hovered,body .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.extra-color-1.alt-style.hovered{color:#641a3e!important;}.col:not(#post-area):not(.span_12):not(#sidebar):hover .extra-color-1.hovered .circle-border,.woocommerce-page table.cart a.remove,#header-outer .woocommerce.widget_shopping_cart .cart_list li a.remove,#header-outer .woocommerce.widget_shopping_cart .cart_list li a.remove,#sidebar .widget:hover .extra-color-1 .circle-border,.woocommerce-page table.cart a.remove{border-color:#641a3e;}.pricing-column.highlight.extra-color-1 h3{background-color:#641a3e!important;}.nectar-button.regular-button.extra-color-2,.nectar-button.tilt.extra-color-2{background-color:#d7df23!important;}.icon-3x[class^="icon-"].extra-color-2:not(.alt-style),.icon-3x[class*=" icon-"].extra-color-2:not(.alt-style),.icon-tiny[class^="icon-"].extra-color-2,.icon-3x[class*=" icon-"].extra-color-2 .circle-border,.nectar-milestone .number.extra-color-2,span.extra-color-2,.team-member ul.social.extra-color-2 li a,body [class^="icon-"].icon-default-style.extra-color-2,.team-member a.extra-color-2:hover{color:#d7df23!important;}.col:hover > [class^="icon-"].icon-3x.extra-color-2:not(.alt-style).hovered,.col:hover > [class*=" icon-"].icon-3x.extra-color-2:not(.alt-style).hovered,body .swiper-slide .button.transparent_2 a.extra-color-2:hover,.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-2:not(.alt-style).hovered,.col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.extra-color-2:not(.alt-style).hovered,#sidebar .widget:hover [class^="icon-"].icon-3x.extra-color-2:not(.alt-style){background-color:#d7df23!important;}body [class^="icon-"].icon-3x.alt-style.extra-color-2,body [class*=" icon-"].icon-3x.alt-style.extra-color-2,[class*=" icon-"].extra-color-2.icon-normal,.extra-color-2.icon-normal,.bar_graph li span.extra-color-2,.nectar-progress-bar span.extra-color-2,.woocommerce .product-wrap .add_to_cart_button.added,.woocommerce-message,.woocommerce-error,.woocommerce-info,.woocommerce .widget_price_filter .ui-slider .ui-slider-range,.woocommerce-page .widget_price_filter .ui-slider .ui-slider-range,.swiper-slide .button.solid_color a.extra-color-2,.swiper-slide .button.solid_color_2 a.extra-color-2,.toggle.open.extra-color-2 h3 a{background-color:#d7df23!important;}.col:hover > [class^="icon-"].icon-3x.extra-color-2.alt-style.hovered,.col:hover > [class*=" icon-"].icon-3x.extra-color-2.alt-style.hovered,.no-highlight.extra-color-2 h3,.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-2.alt-style.hovered,body .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.extra-color-2.alt-style.hovered{color:#d7df23!important;}.col:not(#post-area):not(.span_12):not(#sidebar):hover .extra-color-2.hovered .circle-border,#sidebar .widget:hover .extra-color-2 .circle-border{border-color:#d7df23;}.pricing-column.highlight.extra-color-2 h3{background-color:#d7df23!important;}.nectar-button.regular-button.extra-color-3,.nectar-button.tilt.extra-color-3{background-color:#0c2b2c!important;}.icon-3x[class^="icon-"].extra-color-3:not(.alt-style),.icon-3x[class*=" icon-"].extra-color-3:not(.alt-style),.icon-tiny[class^="icon-"].extra-color-3,.icon-3x[class*=" icon-"].extra-color-3 .circle-border,.nectar-milestone .number.extra-color-3,span.extra-color-3,.team-member ul.social.extra-color-3 li a,body [class^="icon-"].icon-default-style.extra-color-3,.team-member a.extra-color-3:hover{color:#0c2b2c!important;}.col:hover > [class^="icon-"].icon-3x.extra-color-3:not(.alt-style).hovered,.col:hover > [class*=" icon-"].icon-3x.extra-color-3:not(.alt-style).hovered,body .swiper-slide .button.transparent_2 a.extra-color-3:hover,.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-3:not(.alt-style).hovered,.col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.extra-color-3:not(.alt-style).hovered,#sidebar .widget:hover [class^="icon-"].icon-3x.extra-color-3:not(.alt-style){background-color:#0c2b2c!important;}body [class^="icon-"].icon-3x.alt-style.extra-color-3,body [class*=" icon-"].icon-3x.alt-style.extra-color-3,.extra-color-3.icon-normal,[class*=" icon-"].extra-color-3.icon-normal,.bar_graph li span.extra-color-3,.nectar-progress-bar span.extra-color-3,.swiper-slide .button.solid_color a.extra-color-3,.swiper-slide .button.solid_color_2 a.extra-color-3,.toggle.open.extra-color-3 h3 a{background-color:#0c2b2c!important;}.col:hover > [class^="icon-"].icon-3x.extra-color-3.alt-style.hovered,.col:hover > [class*=" icon-"].icon-3x.extra-color-3.alt-style.hovered,.no-highlight.extra-color-3 h3,.col:not(#post-area):not(.span_12):not(#sidebar):hover [class^="icon-"].icon-3x.extra-color-3.alt-style.hovered,body .col:not(#post-area):not(.span_12):not(#sidebar):hover a [class*=" icon-"].icon-3x.extra-color-3.alt-style.hovered{color:#0c2b2c!important;}.col:not(#post-area):not(.span_12):not(#sidebar):hover .extra-color-3.hovered .circle-border,#sidebar .widget:hover .extra-color-3 .circle-border{border-color:#0c2b2c;}.pricing-column.highlight.extra-color-3 h3{background-color:#0c2b2c!important;}body #header-outer,body #search-outer{background-color:#641a3e;}header#top nav > ul > li > a,header#top #logo,header#top .span_9 > .slide-out-widget-area-toggle i,.sf-sub-indicator [class^="icon-"],body[data-header-color="custom"].ascend #boxed #header-outer .cart-menu .cart-icon-wrap i,body.ascend #boxed #header-outer .cart-menu .cart-icon-wrap i,.sf-sub-indicator [class*=" icon-"],header#top nav ul #search-btn a span,header#top #toggle-nav i,header#top #toggle-nav i,header#top #mobile-cart-link i,#header-outer .cart-menu .cart-icon-wrap .icon-salient-cart,#search-outer #search input[type="text"],#search-outer #search #close a span{color:#ffffff!important;}header#top nav ul .slide-out-widget-area-toggle a i.lines,header#top nav ul .slide-out-widget-area-toggle a i.lines:after,header#top nav ul .slide-out-widget-area-toggle a i.lines:before{background-color:#ffffff!important;}body header#top nav > ul > li > a:hover,header#top #logo:hover,.ascend #header-outer:not(.transparent) .cart-outer:hover .cart-menu-wrap:not(.has_products) .icon-salient-cart,body header#top nav .sf-menu > li.sfHover > a,body header#top nav .sf-menu > li.current-menu-item > a,body header#top nav .sf-menu > li.current_page_item > a .sf-sub-indicator i,body header#top nav .sf-menu > li.current_page_ancestor > a .sf-sub-indicator i,body header#top nav .sf-menu > li.sfHover > a,body header#top nav .sf-menu > li.current_page_ancestor > a,body header#top nav .sf-menu > li.current-menu-ancestor > a,body header#top nav .sf-menu > li.current-menu-ancestor > a i,body header#top nav .sf-menu > li.current_page_item > a,body header#top nav .sf-menu > li.current_page_item > a .sf-sub-indicator [class^="icon-"],body header#top nav .sf-menu > li.current_page_ancestor > a .sf-sub-indicator [class^="icon-"],body header#top nav .sf-menu > li.current-menu-ancestor > a,body .sf-menu > li.sfHover > a .sf-sub-indicator [class^="icon-"],body .sf-menu > li:hover > a .sf-sub-indicator [class^="icon-"],body .sf-menu > li:hover > a,header#top nav ul #search-btn a:hover span,header#top nav ul .slide-out-widget-area-toggle a:hover span,#search-outer #search #close a span:hover{color:#d7df23!important;}header#top nav ul .slide-out-widget-area-toggle a:hover i.lines,header#top nav ul .slide-out-widget-area-toggle a:hover i.lines:after,header#top nav ul .slide-out-widget-area-toggle a:hover i.lines:before{background-color:#d7df23!important;}#search-outer .ui-widget-content,header#top .sf-menu li ul li a,header#top nav > ul > li.megamenu > ul.sub-menu,body header#top nav > ul > li.megamenu > ul.sub-menu > li > a,#header-outer .widget_shopping_cart .cart_list a,#header-secondary-outer ul ul li a,#header-outer .widget_shopping_cart .cart_list li,.woocommerce .cart-notification,#header-outer .widget_shopping_cart_content{background-color:#641a3e!important;}header#top .sf-menu li ul li a:hover,body header#top nav .sf-menu ul li.sfHover > a,header#top .sf-menu li ul li.current-menu-item > a,header#top .sf-menu li ul li.current-menu-ancestor > a,header#top nav > ul > li.megamenu > ul ul li a:hover,header#top nav > ul > li.megamenu > ul ul li.current-menu-item a,#header-secondary-outer ul ul li a:hover,body #header-secondary-outer .sf-menu ul li.sfHover > a,#header-outer .widget_shopping_cart .cart_list li:hover,#header-outer .widget_shopping_cart .cart_list li:hover a,#search-outer .ui-widget-content li:hover,.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{background-color:#641a3e!important;}#search-outer .ui-widget-content li a,#search-outer .ui-widget-content i,header#top .sf-menu li ul li a,body #header-outer .widget_shopping_cart .cart_list a,#header-secondary-outer ul ul li a,.woocommerce .cart-notification .item-name,.cart-outer .cart-notification,.sf-menu li ul .sf-sub-indicator [class^="icon-"],.sf-menu li ul .sf-sub-indicator [class*=" icon-"],#header-outer .widget_shopping_cart .quantity{color:#ffffff!important;}#search-outer .ui-widget-content li:hover a .title,#search-outer .ui-widget-content .ui-state-hover .title,#search-outer .ui-widget-content .ui-state-focus .title,#search-outer .ui-widget-content li:hover a,#search-outer .ui-widget-content li:hover i,#search-outer .ui-widget-content .ui-state-hover a,#search-outer .ui-widget-content .ui-state-focus a,#search-outer .ui-widget-content .ui-state-hover i,#search-outer .ui-widget-content .ui-state-focus i,#search-outer .ui-widget-content .ui-state-hover span,#search-outer .ui-widget-content .ui-state-focus span,body header#top nav .sf-menu ul li.sfHover > a,header#top nav > ul > li.megamenu > ul ul li.current-menu-item a,body #header-outer .widget_shopping_cart .cart_list li:hover a,#header-secondary-outer ul ul li:hover > a,body #header-secondary-outer ul ul li:hover > a i,body header#top nav .sf-menu ul li.sfHover > a .sf-sub-indicator i,#header-outer .widget_shopping_cart li:hover .quantity,body header#top nav .sf-menu ul li:hover > a .sf-sub-indicator i,body header#top nav .sf-menu ul li:hover > a,header#top nav > ul > li.megamenu > ul > li > a:hover,header#top nav > ul > li.megamenu > ul > li.sfHover > a,body header#top nav .sf-menu ul li.current-menu-item > a,body header#top nav .sf-menu ul li.current_page_item > a .sf-sub-indicator i,body header#top nav .sf-menu ul li.current_page_ancestor > a .sf-sub-indicator i,body header#top nav .sf-menu ul li.sfHover > a,#header-secondary-outer ul li.sfHover > a,body header#top nav .sf-menu ul li.current_page_ancestor > a,body header#top nav .sf-menu ul li.current-menu-ancestor > a,body header#top nav .sf-menu ul li.current_page_item > a,body header#top nav .sf-menu ul li.current_page_item > a .sf-sub-indicator [class^="icon-"],body header#top nav .sf-menu ul li.current_page_ancestor > a .sf-sub-indicator [class^="icon-"],body header#top nav .sf-menu ul li.current-menu-ancestor > a,body header#top nav .sf-menu ul li.current_page_item > a,body .sf-menu ul li ul li.sfHover > a .sf-sub-indicator [class^="icon-"],body ul.sf-menu > li > a:active > .sf-sub-indicator i,body ul.sf-menu > li.sfHover > a > .sf-sub-indicator i,body .sf-menu ul li.current_page_item > a,body .sf-menu ul li.current-menu-ancestor > a,body .sf-menu ul li.current_page_ancestor > a,body .sf-menu ul a:focus,body .sf-menu ul a:hover,body .sf-menu ul a:active,body .sf-menu ul li:hover > a,body .sf-menu ul li.sfHover > a,.body sf-menu li ul li a:hover,body .sf-menu li ul li.sfHover > a,body header#top nav > ul > li.megamenu ul li:hover > a{color:#d7df23!important;}#header-secondary-outer{background-color:#641a3e!important;}#header-secondary-outer nav > ul > li > a,body #header-secondary-outer nav > ul > li > a span.sf-sub-indicator [class^="icon-"],#header-secondary-outer #social li a i{color:#ffffff!important;}#header-secondary-outer #social li a:hover i,#header-secondary-outer nav > ul > li:hover > a,#header-secondary-outer nav > ul > li.current-menu-item > a,#header-secondary-outer nav > ul > li.sfHover > a,#header-secondary-outer nav > ul > li.sfHover > a span.sf-sub-indicator [class^="icon-"],#header-secondary-outer nav > ul > li.current-menu-item > a span.sf-sub-indicator [class^="icon-"],#header-secondary-outer nav > ul > li.current-menu-ancestor > a,#header-secondary-outer nav > ul > li.current-menu-ancestor > a span.sf-sub-indicator [class^="icon-"],body #header-secondary-outer nav > ul > li:hover > a span.sf-sub-indicator [class^="icon-"]{color:#d7df23!important;}#slide-out-widget-area{background-color:#641a3e!important;}#slide-out-widget-area,#slide-out-widget-area a,body #slide-out-widget-area a.slide_out_area_close .icon-default-style[class^="icon-"]{color:#ffffff!important;}#slide-out-widget-area .tagcloud a{border-color:#ffffff!important;}#slide-out-widget-area h1,#slide-out-widget-area h2,#slide-out-widget-area h3,#slide-out-widget-area h4,#slide-out-widget-area h5{color:#ffffff!important;}body #slide-out-widget-area a:hover,html body #slide-out-widget-area a.slide_out_area_close:hover .icon-default-style[class^="icon-"]{color:#d7df23!important;}#slide-out-widget-area .tagcloud a:hover{border-color:#d7df23!important;}#footer-outer{background-color:#0c2b2c!important;}#footer-outer #footer-widgets{border-bottom:none!important;}#footer-outer #footer-widgets .col ul li{border-bottom:1px solid rgba(0,0,0,0.1)!important;}#footer-outer #footer-widgets .col .widget_recent_comments ul li{background-color:rgba(0,0,0,0.07)!important;border-bottom:0!important;}#footer-outer,#footer-outer a{color:#ffffff!important;}#footer-outer .widget h4,#footer-outer .col .widget_recent_entries span,#footer-outer .col .recent_posts_extra_widget .post-widget-text span{color:#ffffff!important;}#footer-outer #copyright,body{border:none!important;background-color:#082323!important;}#footer-outer #copyright li a i,#footer-outer #copyright p{color:#888888!important;}#call-to-action{background-color:#ECEBE9!important;}#call-to-action span{color:#4B4F52!important;}body #slide-out-widget-area-bg{background-color:rgba(0,0,0,0.8);}</style><style type="text/css"> #header-outer{padding-top:28px;}#header-outer #logo img{height:30px;}#header-outer[data-format="centered-menu-under-logo"] header#top #logo .starting-logo{margin-top:-47px;}header#top nav > ul > li > a{padding-bottom:33px;padding-top:5px;}#header-outer .cart-menu{padding-bottom:33px;padding-top:33px;}header#top nav > ul li#search-btn,header#top nav > ul li.slide-out-widget-area-toggle{padding-bottom:4px;padding-top:5px;}header#top .sf-menu > li.sfHover > ul{top:20px;}.sf-sub-indicator{height:20px;}#header-space{height:86px;}body[data-smooth-scrolling="1"] #full_width_portfolio .project-title.parallax-effect{top:86px;}body.single-product div.product .product_title{padding-right:0;}@media only screen and (min-width:1000px) and (max-width:1300px){.nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2,.nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content h2,.full-width-content .vc_span12 .swiper-slide .content h2{font-size:45px!important;line-height:51px!important;}.nectar-slider-wrap[data-full-width="true"] .swiper-slide .content p,.nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content p,.full-width-content .vc_span12 .swiper-slide .content p{font-size:18px!important;line-height:31.2px!important;}}@media only screen and (min-width :690px) and (max-width :1000px){.nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2,.nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content h2,.full-width-content .vc_span12 .swiper-slide .content h2{font-size:33px!important;line-height:39px!important;}.nectar-slider-wrap[data-full-width="true"] .swiper-slide .content p,.nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content p,.full-width-content .vc_span12 .swiper-slide .content p{font-size:13.2px!important;line-height:24px!important;}}@media only screen and (max-width :690px){.nectar-slider-wrap[data-full-width="true"][data-fullscreen="false"] .swiper-slide .content h2,.nectar-slider-wrap[data-full-width="boxed-full-width"][data-fullscreen="false"] .swiper-slide .content h2,.full-width-content .vc_span12 .nectar-slider-wrap[data-fullscreen="false"] .swiper-slide .content h2{font-size:15px!important;line-height:21px!important;}.nectar-slider-wrap[data-full-width="true"][data-fullscreen="false"] .swiper-slide .content p,.nectar-slider-wrap[data-full-width="boxed-full-width"][data-fullscreen="false"] .swiper-slide .content p,.full-width-content .vc_span12 .nectar-slider-wrap[data-fullscreen="false"] .swiper-slide .content p{font-size:7.68px!important;line-height:17.52px!important;}}#mobile-menu #mobile-search,header#top nav ul #search-btn{display:none!important;}@media only screen and (min-width:1000px){.container,.woocommerce-tabs .full-width-content .tab-container{max-width:1425px;width:100%;margin:0 auto;padding:0 90px;}.swiper-slide .content{padding:0 90px;}body .container .container:not(.tab-container){width:100%!important;padding:0!important;}body .carousel-heading .container{padding:0 10px!important;}body .carousel-heading .container .carousel-next{right:10px;}body .carousel-heading .container .carousel-prev{right:35px;}.carousel-wrap[data-full-width="true"] .carousel-heading a.portfolio-page-link{left:90px;}.carousel-wrap[data-full-width="true"] .carousel-heading{margin-left:-20px;margin-right:-20px;}.carousel-wrap[data-full-width="true"] .carousel-next{right:90px!important;}.carousel-wrap[data-full-width="true"] .carousel-prev{right:115px!important;}.carousel-wrap[data-full-width="true"]{padding:0!important;}.carousel-wrap[data-full-width="true"] .caroufredsel_wrapper{padding:20px!important;}#search-outer #search #close a{right:90px;}#boxed,#boxed #header-outer,#boxed #header-secondary-outer,#boxed #page-header-bg[data-parallax="1"],#boxed #featured,#boxed .orbit > div,#boxed #featured article,.ascend #boxed #search-outer{max-width:1400px!important;width:90%!important;min-width:980px;}#boxed #search-outer #search #close a{right:0!important;}#boxed .container{width:92%;padding:0;}#boxed #footer-outer #footer-widgets,#boxed #footer-outer #copyright{padding-left:0;padding-right:0;}#boxed .carousel-wrap[data-full-width="true"] .carousel-heading a.portfolio-page-link{left:35px;}#boxed .carousel-wrap[data-full-width="true"] .carousel-next{right:35px!important;}#boxed .carousel-wrap[data-full-width="true"] .carousel-prev{right:60px!important;}}</style><style type="text/css">/* Text */
+.txt-neon {color: #d7df23;}
+.txt-purple {color: #641a3e;}
+.txt-light-teal {color: #379891;}
+.txt-dark-teal {color: #0c2b2c;}
+
+#header-outer i.icon-angle-down {
+    margin-left: -5px;
+    top: -1px !important;
+}
+
+span.meta-comment-count {
+    display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {color: #641a3e;}
+
+a {font-weight: 700;}
+
+blockquote {
+	border-left: 3px solid #6AC6C1;
+	padding-left: 30px
+}
+
+.ascend .comment-wrap {
+    border-top: 1px solid #E5E5E5;
+}
+
+/* Header */
+header#top {height: 30px;}
+
+div#header-outer {
+	top: 0 !important;
+	padding: 10px !important;
+	height: 50px;
+}
+
+#logo {
+	display: none !important;
+}
+
+/* Navigation */
+
+header#top nav > ul > li ul.sub-menu {
+	top: 30px !important;
+	min-width: 210px;
+	padding: 5px;
+	background: #641A3E;
+}
+
+header#top nav > ul > li > a {
+	border-left: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+ul > li:first-child > a {
+    border-left: 0 !important;
+}
+
+header#top nav > ul > li.social-icon > a {
+	border-left: 0;
+}
+
+#header-outer.transparent.dark-slide header#top nav .sf-menu > li.current-menu-item > a,
+#header-outer.transparent.dark-slide header#top nav .sf-menu > li.current_page_item > a,
+#header-outer.transparent.dark-slide header#top nav .sf-menu > li.current-menu-item > a:hover,
+#header-outer.transparent.dark-slide header#top nav .sf-menu > li.current_page_item > a:hover {
+	opacity: 1 !important;
+	background: rgba (255,255,255,.15);
+}
+
+#header-outer.transparent.dark-slide header#top nav .sf-menu > li.current-menu-item > a,
+#header-outer.transparent.dark-slide header#top nav .sf-menu > li.current_page_item > a,
+#header-outer.transparent.dark-slide header#top nav .sf-menu li a,
+nav > ul.sf-menu.sf-js-enabled.sf-arrows li a {
+	color: #641a3e!important;
+}
+
+#header-outer.transparent.dark-slide header#top nav .sf-menu > li.current-menu-item > a:hover,
+#header-outer.transparent.dark-slide header#top nav .sf-menu > li.current_page_item > a:hover,
+#header-outer.transparent.dark-slide header#top nav .sf-menu li a:hover,
+nav > ul.sf-menu.sf-js-enabled.sf-arrows li a:hover {
+	color: #641a3e!important;
+	background: rgba (255,255,255,.15);
+}
+
+nav a {
+	font-size: 14px !important;
+	letter-spacing: .03em;
+}
+
+/* Sub-Nav in Nav */
+#header-outer.transparent.dark-slide header#top nav .sf-menu li > ul.sub-menu li a,
+nav > ul.sf-menu.sf-js-enabled.sf-arrows li > ul.sub-menu li a {
+	line-height: 22px !important;
+	color: #ffffff !important;
+	letter-spacing: 0.03em;
+	font-weight: 300;
+	padding: 5px 10px;
+}
+
+#header-outer.transparent.dark-slide header#top nav .sf-menu li > ul.sub-menu li a:hover,
+nav > ul.sf-menu.sf-js-enabled.sf-arrows li > ul.sub-menu li a:hover {
+	color: #d7df23 !important;
+}
+
+/* Social Icons in Nav */
+nav ul li a i.icon-2x {
+	background-color: transparent !important;
+	font-size: 1.5em;
+	top: 2px !important;
+}
+
+/*
+#header-outer.transparent.dark-slide header#top nav .sf-menu > li.current-menu-item > a i.icon-2x,
+#header-outer.transparent.dark-slide header#top nav .sf-menu > li.current_page_item > a i.icon-2x,
+#header-outer.transparent.dark-slide header#top nav .sf-menu li.social-icon a i.icon-2x,
+#header-outer.transparent.dark-slide header#top nav .sf-menu li.social-icon,
+nav > ul.sf-menu.sf-js-enabled.sf-arrows li.social-icon a i.icon-2x {
+	color: #641a3e !important;
+}
+
+#header-outer.scrolled-down header#top nav .sf-menu li.social-icon,
+#header-outer.scrolled-down header#top nav .sf-menu li.social-icon a,
+#header-outer.scrolled-down header#top nav .sf-menu li.social-icon a i.icon-2x {
+	color: #fff !important;
+}
+*/
+
+header#top nav > ul > li > a {
+	padding: 0 5px 0 15px !important;
+}
+
+header#top nav > ul > li > a i.icon-2x:hover {
+	color: #d7df23!important;
+}
+
+#mobile-menu > div > ul > li.social-icon {
+	display: inline-block;
+	padding: 10px 20px 20px 0px;
+	margin-top: 10px;
+}
+
+#mobile-menu > div > ul > li.social-icon > a {
+	border-bottom: 0;
+	display: inline;
+	
+}
+
+#mobile-menu > div > ul > li.social-icon > a > i {
+	background-color: transparent !important;
+}
+
+/* Countdown */
+
+span.countdown_txt {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.ujic-classic span.countdown_amount {
+    display: inline-block;
+    color: #641a3e !important;
+    padding: 2px 5px;
+    width: 50px;
+    height: 50px;
+    margin-right: 2px;
+    font: 30px/1.5 'Montserrat',sans-serif !important;
+    box-shadow: none !important;
+	border-radius: 500px !important;
+	-webkit-border-radius: 500px !important; 
+	-moz-border-radius: 500px !important;
+	-ms-border-radius: 500px !important;
+	-o-border-radius: 500px !important;
+}
+
+/* Video Size */
+.wpb_video_wrapper .iframe-embed iframe {
+	max-width: 854px;
+	max-height: 480px;
+	margin: 0 auto !important;
+}
+
+/* Supporter Logos */
+.supporters img.img-with-animation {
+	padding: 0 20px;
+}
+.supporters div.vc_col-sm-8.wpb_column.column_container.col.no-extra-padding > div > div:nth-child(5) {
+	margin-bottom: 0;
+}
+
+/* Hero (Home Slider) */
+
+.nectar-slider-loading {
+    background-color: #D7DF23!important;
+    background-image: none!important;
+}
+
+.swiper-slide .content h2 {
+    line-height: 40px;
+}
+
+.parallax_slider_outer.first-section .swiper-slide .content {
+	margin-top: 0;
+}
+
+.swiper-slide.home-slide .content {
+	top: 5px !important;
+}
+
+.home-slide {
+	background-color: #d5de23 !important;
+}
+
+.home-slide .hero-content {
+    font-size: 24px;
+    letter-spacing: .02em;
+    text-align: left;
+    margin-left: 40%;
+    margin-top: 10px;
+    position: absolute;
+    width: 50%;
+}
+
+.home-slide h2 {
+    margin: 0 auto;
+    float: left;
+    content: none;
+    color: transparent !important;
+    min-width: 320px;
+    width: 40%;
+    max-width: 450px;
+    margin-top: -110px;
+}
+
+.home-slide h2:after, .home-slide h2::after  {
+    display: block;
+    margin: 0 auto;
+    content: '';
+    background: url('http://www.datasciencebowl.com/wp-content/uploads/2015/09/logo.png') no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.home-slide .hero-content img.quote {
+	margin: 0;
+	margin-bottom: 0;
+	max-width: 420px;
+	width: 100%;
+}
+
+.home-slide .hero-content a.btn {
+    display: inline-block;
+    color: #fff;
+    width: 215px;
+    z-index: 1000;
+    margin-right: 10px;
+}
+
+.home-slide .hero-content a.btn:hover {
+	color: #d7df23;
+    background: #4B122E;
+}
+
+.home-slide a {
+	color: #641a3e;
+	font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+.home-slide a:hover {
+	color: #ffffff;
+}
+
+.home-slide img.hero-imagery {
+	width: 52%;
+    position: absolute;
+    right: 9%;
+    top: 30%;
+    z-index: -50;
+}
+
+.swiper-wrapper .slider-down-arrow::before {
+    background: url('http://ec2-54-236-112-204.compute-1.amazonaws.com/wp-content/uploads/2015/07/hero-sponsors.png') no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 400px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: -170px;
+}
+
+.swiper-wrapper .slider-down-arrow {
+	text-align: center;
+	bottom: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+/* Logo in Header for default Pages */
+
+div#header-outer {
+	position: absolute;
+	margin-top: 200px;
+}
+
+body.home.page div#header-outer {
+	position: fixed;
+	top: 0 !important;
+	margin-top: 0 !important;
+}
+
+.parallax_slider_outer.first-section .swiper-slide .content {
+	margin-top: 40px;
+}
+
+body.page.page-child #page-header-bg > div.container > div.row > div.col.span_6 {
+	top: -45px !important;
+}
+
+body.page.page-child #page-header-bg > div > div > div > h1 {
+	margin-top: 25px;
+}
+
+#page-header-bg > div > div > div > h2,
+#page-header-bg > div > div > div > h1 {
+	margin: 0 auto;
+	margin-top: -70px;
+	content: none;
+	color: transparent;
+}
+
+#page-header-bg > div > div > div > h2:after,
+#page-header-bg > div > div > div > h2::after,
+#page-header-bg > div > div > div > h1:after,
+#page-header-bg > div > div > div > h1::after {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    height: 170px;
+    background: url('http://www.datasciencebowl.com/wp-content/uploads/2015/09/logo.png') no-repeat;
+    content: '';
+    background-size: 100%;
+}
+
+/* Home Recent Posts */
+.home-recent-posts h2.uppercase.recent-posts-title {
+	color: #fff;
+	margin-bottom: 0 !important;
+}
+
+.home-recent-posts h2.uppercase.recent-posts-title a {
+	font-weight: normal;
+	color: #C0EEEB;
+}
+
+.home-recent-posts h2.uppercase.recent-posts-title a:hover {
+	color: #fff;
+}
+
+.home-recent-posts p a {
+	font-size: 18px;
+	font-family: 'Montserrat', 'Helvetica', Arial, sans-serif;
+	font-weight: 400;
+	color: #fff;
+	background: #641a3e;
+	padding: 9px 12px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.home-recent-posts p a:hover {
+	background: #fff;
+	color: #641a3e;
+}
+
+.home-recent-posts h3.title a,
+.home .blog-recent .col .post-header h3.title a {
+	display: block;
+	margin-bottom: 18px;
+	font-size: 30px;
+	line-height: 34px;
+	color: #641a3e !important;
+}
+
+.home-recent-posts h3.title a:hover,
+.home .blog-recent .col .post-header h3.title a:hover {
+	color: #fff !important;
+}
+
+.home-recent-posts span.meta-author,
+.home-recent-posts span.meta-author a {
+	font-size: 18px;
+	font-weight: 700;
+	color: #222;
+}
+
+.home-recent-posts h3.title a:hover,
+.home-recent-posts span.meta-author a:hover {
+	color: #379891;
+}
+
+.home-recent-posts span.meta-author:before {
+	content: 'Written by ';
+}
+
+.home-recent-posts span.meta-category,
+.home-recent-posts span.meta-comment-count {
+	display: none;
+}
+
+.home-recent-posts p {
+	color: #222;
+}
+
+/* Button Links */
+a.btn,
+.ascend .container-wrap input[type="submit"],
+.ascend .container-wrap button[type="submit"],
+article.post .more-link span, 
+.blog-recent .more-link span {
+	font-size: 18px;
+	font-family: 'Montserrat', 'Helvetica', Arial, sans-serif;
+	font-weight: 400;
+	color: #fff;
+	background: #641a3e;
+	padding: 9px 12px 10px;
+	text-decoration: none;
+	border-radius: 5px !important;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+}
+
+a.btn:hover,
+.ascend .container-wrap input[type="submit"]:hover,
+.ascend .container-wrap button[type="submit"]:hover,
+article.post .more-link span:hover, 
+.blog-recent .more-link span:hover {
+	background: #6AC6C1;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Search Btn */
+.ascend .widget_search .search-form input[type=submit], 
+.ascend .newsletter-widget form input[type=submit] {
+	border-radius: 0 5px 5px 0 !important;
+}
+
+/* News Icon on Homepage */
+.news-icon, img.img-with-animation.news-icon {
+	width: 60%;
+	padding-top: 7.8%;
+	opacity: .8 !important;
+}
+
+/* Partners */
+.team-member {
+	margin: 7px 20px 0;
+	min-height: 280px;
+	border: 1px solid #EAEAEA;
+}
+	
+.team-member h4, .team-member .position, .team-member .social {
+	text-align: center;
+}
+
+.team-member h4 {
+	font-size: 20px;
+}
+
+.team-member ul.social li {
+	display: inline;
+	float: none;
+}
+
+.team-member > img {
+	width: 70% !important;
+	margin-top: 30px !important;
+	display: block !important;
+	margin: 0 auto;
+	border-radius: 500px;
+	border: 5px solid #EEEEEE;
+}
+
+.position {
+	font-size: 14px;
+}
+
+.team-member p.description {
+	margin: 15px 0 0;
+	font-size: 12px;
+	line-height: 18px;
+	padding-bottom: 20px !important;
+}
+
+.toggles {
+	margin: 0 20px;
+}
+
+.toggles .toggle p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.team-member {
+	margin-bottom: 0 !important;
+}
+
+/* Masters */
+.masters .vc_col-sm-2.wpb_column.column_container.col.no-extra-padding {
+	width: 18.32% !important;
+}
+
+.masters .team-member {
+	margin: 0;
+	min-height: 0;
+	border: 0;
+}
+
+.masters .team-member > img {
+	margin-top: 0 !important;
+	width: 100% !important;
+	border: 0;
+	border-radius: 0;
+}
+
+.team-member .position {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.team-member h4 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.masters .toggles {
+	margin: 0 0;
+}
+
+.masters .toggle > div {
+	box-shadow: none;
+}
+
+/* Awards */
+.awards {
+	margin-bottom: 0 !important;
+}
+
+/* Blog Pages */
+#page-header-bg .section-title.blog-title .entry-title {
+	margin-top: -120px;
+}
+
+.section-title.blog-title #single-below-header > h2,
+.section-title.blog-title #single-below-header,
+.section-title.blog-title #single-meta {
+	display: none;
+}
+
+.heading-title .section-title.blog-title #single-below-header,
+.heading-title .section-title.blog-title #single-meta {
+	display: block !important;
+}
+
+article.post .post-header h2.title {
+	line-height: 44px;
+	margin-bottom: 14px;
+}
+
+.main-content ol li {
+	margin-bottom: 20px;
+}
+
+/* border next to facebook btn */
+html .single-post #single-meta span.n-shortcode {
+	min-height: 22px !important;
+	display: block !important;
+	float: left;
+	margin-top: 1px !important;
+}
+
+/* Hover over Competitions */
+.bg-overlay {
+	transition: all .5s ease;
+	background-size: 120%;
+}
+
+.bg-overlay:hover {
+	background-size: 120%;
+	transition: all .5s ease;
+	opacity: .8;
+}
+
+.bg-overlay:hover .btn {
+	background: #6AC6C1;
+	color: #fff;
+}
+
+/* Home Video */
+
+body.home.page div.container-wrap div.container.main-content {
+	max-width: 100%;
+	width: 100%;
+	padding: 0;
+}
+
+body.home.page .wpb_video_wrapper .iframe-embed iframe {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+body.home.page .wpb_video_wrapper .iframe-embed {
+	margin-bottom: 0;
+}
+
+/* Blog */
+div#post-area {
+    float: right;
+    padding-right: 0;
+    padding-left: 20px
+}
+
+div#post-area.col {
+    margin-right: 0;
+    margin-left: 2%;
+}
+
+span.meta-comment-count {
+    display: none;
+}
+
+.infscr-loading-wrap {
+    display: none;
+}
+
+/* Footer Widgets */
+#text-2 {
+	text-align: center;
+}
+#text-2 h1 {
+	color: #fff;
+}
+#text-2 p img {
+	max-width: 50px;
+}
+#text-2 p img:hover {
+	opacity: .5;
+}
+
+#footer-widgets > div > div > div:nth-child(1) h4,
+#footer-widgets > div > div > div:nth-child(1) p,
+#footer-widgets > div > div > div.col.span_4.col_last h4, 
+#footer-widgets > div > div > div.col.span_4.col_last p,
+#copyright > div > div.col.span_7.col_last {
+	display: none;
+}
+
+#footer-outer #copyright {
+	padding: 6px 0 8px;
+}
+
+#copyright {
+	text-align: center !important;
+}
+
+#footer-widgets > div > div > div:nth-child(2),
+#copyright > div > div {
+	width: 100% !important;
+}
+
+#footer-outer .widget,
+#footer-widgets .container .col.span_4 {
+	margin-bottom: 0 !important;
+	padding: 0 !important;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1000px) and (min-width: 690px) {
+	div#header-outer > header#top div.container {
+		max-width: 95% !important;
+	}	
+}
+
+@media only screen and (max-width: 690px) and (min-width: 480px) {
+	div#header-outer > header#top div.container {
+		max-width: 95%;
+	}	
+	div#ajax-content-wrap > div.container-wrap > div.container.main-content {
+		max-width: 90% !important;
+	}
+}
+@media only screen and (max-device-width: 690px) and (min-device-width: 480px) {
+	.home-slide h2 {
+		margin-top: -50px !important;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	#mobile-menu {
+		margin-top: 45px;
+		background-color: #521532;
+	}
+	body h2, .col h2 {
+		font-size: 24px;
+		line-height: 38px;
+	}
+	.container {
+		max-width: 90%;
+	}
+	body.page.page-child #page-header-bg > div > div > div > h1 {
+		margin-top: 70px !important;
+	}
+	#full_width_portfolio .project-title {
+		top: 25px !important;
+		padding: 30px 0;
+	}
+	div#ajax-content-wrap > div#page-header-bg.has-bg > div.container > div.row {
+		top: 0 !important;
+	}
+	#page-header-wrap .has-bg,
+	div#ajax-content-wrap div#page-header-bg.has-bg {
+		height: 240px !important;
+	}
+	.masters .vc_col-sm-2.wpb_column.column_container.col.no-extra-padding {
+		width: 30% !important;
+		min-height: 0 !important;
+	}
+	div#header-outer {
+		position: fixed !important;
+		margin-top: 0;
+	}
+	body.home.page div#header-outer {
+		position: fixed;
+		top: 0 !important;
+		margin-top: 0 !important;
+		bottom: auto !important;
+	}
+	.home-slide h2 {
+		float: none;
+		margin-top: 0;
+	}
+	.home-slide h2:after,
+	.home-slide h2::after {
+		height: 200px;
+	}
+	.ujic-hold.ujic_center {
+		margin-top: 20px;
+	}
+	.home-slide img {
+		max-width: 70%;
+	}
+	.home-slide .hero-content {
+		margin-top: 0px !important;
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+	}
+	.home-slide .hero-content img.quote {
+		margin: 0 auto;
+	}
+	.home-slide .btn {
+		margin: 0 auto;
+	}
+	.home-slide img.hero-imagery {
+		display: none;
+	}
+	div#header-outer {
+		padding: 2px 10px !important;
+		height: 45px !important;
+	}
+	#page-header-bg > div > div > div > h2, #page-header-bg > div > div > div > h1 {
+		margin-top: 65px;
+	}
+	#page-header-bg > div > div > div.section-title.blog-title > h2.entry-title {
+		margin-top: 0;
+		top: -45px;
+	}
+/*
+	.wpb_row.vc_row-fluid.vc_row.standard_section {
+	    padding-top: 10px !important;
+	}
+*/
+	.news-icon, img.img-with-animation.news-icon {
+		display: none;
+	}
+		#fws_56664bc1a76ce > div.col.span_12.dark.left > div.vc_col-sm-2.wpb_column.column_container.col.padding-6-percent {
+	    display: none;
+	}
+	body.home.page #home-video {
+		padding-top: 0 !important;
+		
+	}
+	.home-intro, .home-news {
+		padding: 0 40px;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.masters .toggles .toggle p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.swiper-slide.home-slide {
+		padding-top: 0px !important;
+	}
+}
+
+@media only screen and (max-width: 830px) {
+	.masters .vc_col-sm-2.wpb_column.column_container.col.no-extra-padding {
+		width: 47% !important;
+	}
+	.ujic-classic span.countdown_amount {
+		font: 16px/1.5 'Montserrat',sans-serif !important;
+		width: 30px;
+		height: 30px;
+		padding: 2px 2px;
+	}
+	.wpb_row {
+		margin-bottom: 5px;
+	}
+}
+
+@media only screen and (max-width: 690px) {
+	div#header-outer > header#top div.container {
+		max-width: 95% !important;
+	}	
+	.masters .vc_col-sm-2.wpb_column.column_container.col.no-extra-padding {
+		width: 100% !important;
+	}
+	.single #single-below-header span {
+	    display: block !important;
+	}
+	#single-below-header > span.meta-comment-count {
+	    display: none !important;
+	}
+	.home-slide h3 {
+		font-size: 20px;
+	}
+	.home-slide .hero-content a.btn {
+		display: block;
+		margin-right: auto;
+	}
+	#page-header-bg > div > div > div > h1:after,
+	#page-header-bg > div > div > div > h1::after {
+		width: 280px;
+		margin-top: 0;
+	}
+	p, ol li, ul li {
+	    font-size: 12px;
+	    line-height: 20px;
+	    padding: 0;
+	}
+	#copyright p {
+		padding: 0;
+	}
+	#copyright .col.span_5 {
+		margin-bottom: 0;
+	}
+	blockquote {
+		padding-left: 5px;
+	}
+	.swiper-wrapper .slider-down-arrow::before {
+		width: 350px;
+		height: 100px;
+		left: -150px;
+	}
+	.home-recent-posts p a {
+		margin-top: 20px;
+		display: inline-block;
+	}
+	a.btn {
+	    display: inline-block;
+	    margin-top: 20px;
+	}
+	div#post-area {
+		padding-left: 0; 
+	}
+	article.post .post-header h2.title {
+		line-height: 26px;
+	}
+	.home-recent-posts h3.title a, 
+	.home .blog-recent .col .post-header h3.title a {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	body.home.page div.container-wrap div.container.main-content {
+		max-width: 100% !important;
+	}
+	.team-member > img {
+		max-width: 50% !important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.home-slide h3 {
+	    font-size: 18px;
+	    line-height: 26px;
+	}
+	.bg-overlay {
+		background-size: 150%;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	#page-header-bg > div > div > div.section-title.blog-title > h2.entry-title {
+		top: -100px;
+	}
+}
+
+@media only screen and (max-device-width: 480px){
+	#page-header-bg > div > div > div.section-title.blog-title > h2.entry-title {
+		top: -100px;
+	}
+}
+
+@media only screen and (max-width: 420px){
+	.home-slide .hero-content {
+		margin-top: 0 !important;
+	}
+	.home-slide h2 {
+		min-width: 290px;
+	}
+	.home-slide h2:after, .home-slide h2::after {
+		margin-top: -30px;
+		height: 180px;
+	}
+	.ujic-hold.ujic_center {
+		margin-top: 0;
+	}
+	.ujic-classic span.countdown_txt {
+		font-size: 11px !important;
+	}
+	.ujic-classic span.countdown_amount {
+		padding: 2px 5px;
+		width: 28px;
+		height: 28px;
+	}
+	body.home.page div.container-wrap div.container.main-content {
+		max-width: 100% !important;
+	}
+	#page-header-bg > div > div > div > h1:after,
+	#page-header-bg > div > div > div > h1::after {
+		width: 270px;
+		margin-top: 75px;
+	}
+	body.page.page-child #page-header-bg.has-bg > div > div > div > h1:after,
+	body.page.page-child #page-header-bg.has-bg > div > div > div > h1::after {
+		margin-top: -15px !important;
+	}
+}
+
+@media only screen and (min-width: 300px) {
+	div#page-header-bg {
+		min-height: 200px !important;
+	}
+}</style><style type="text/css"> body,.toggle h3 a,body .ui-widget,table,.bar_graph li span strong,#slide-out-widget-area .tagcloud a,#search-results .result .title span,.woocommerce ul.products li.product h3,.woocommerce-page ul.products li.product h3,body .nectar-love span,body .nectar-social .nectar-love .nectar-love-count,body .carousel-heading h2{font-family:Open Sans;font-size:16px;line-height:24px;}.bold,strong,b{font-family:Open Sans;font-weight:bold;}.nectar-fancy-ul ul li .icon-default-style[class^="icon-"]{line-height:24px!important;}header#top nav > ul > li > a{font-family:Montserrat;}header#top .sf-menu li ul li a,#header-secondary-outer nav > ul > li > a,#header-secondary-outer ul ul li a,#header-outer .widget_shopping_cart .cart_list a{font-family:Montserrat;}@media only screen and (min-width :1px) and (max-width :1000px){header#top .sf-menu a{font-family:Montserrat!important;font-size:14px!important;}}#page-header-bg h1,body h1,body .row .col.section-title h1{font-family:Montserrat;}@media only screen and (max-width:1300px) and (min-width:1000px),(max-width:690px){body .row .col.section-title h1,body h1{font-size:;line-height:;}}#page-header-bg h2,body h2,article.post .post-header h2,article.post.quote .post-content h2,article.post.link .post-content h2,article.post.format-status .post-content h2,#call-to-action span,.woocommerce .full-width-tabs #reviews h3{font-family:Asap;font-size:34px;line-height:56.1px;font-weight:700;}@media only screen and (max-width:1300px) and (min-width:1000px),(max-width:690px){.col h2{font-size:23.8px;line-height:39.27px;}}body h3,.row .col h3,.toggle h3 a,.ascend #respond h3,.ascend h3#comments,.woocommerce ul.products li.product.text_on_hover h3{font-family:Asap;font-weight:700;}@media only screen and (min-width:1000px){.ascend .comments-section .comment-wrap.full-width-section > h3{font-size:;line-height:;}}@media only screen and (max-width:1300px) and (min-width:1000px),(max-width:690px){.row .col h3{font-size:;line-height:;}}body h4,.row .col h4,.portfolio-items .work-meta h4,#respond h3,h3#comments{font-family:Asap;}body h5,.row .col h5{font-family:Asap;}body i,body em,.masonry.meta_overlaid article.post .post-header .meta-author > span,#post-area.masonry.meta_overlaid article.post .post-meta .date,#post-area.masonry.meta_overlaid article.post.quote .quote-inner .author,#post-area.masonry.meta_overlaid article.post.link .post-content .destination{font-family:Asap;line-height:;}body #page-header-bg h1,html body .row .col.section-title h1{font-family:Asap;}@media only screen and (min-width:690px) and (max-width:1000px){#page-header-bg .span_6 h1{font-size:;line-height:;}}@media only screen and (min-width:1000px) and (max-width:1300px){#page-header-bg .span_6 h1{font-size:;line-height:;}}body #page-header-bg .span_6 span.subheader,body .row .col.section-title > span{font-family:Asap;}@media only screen and (min-width:1000px) and (max-width:1300px){body #page-header-bg .span_6 span.subheader,body .row .col.section-title > span{font-size:;line-height:;}}.swiper-slide .content h2{font-family:Montserrat;}@media only screen and (min-width:1000px) and (max-width:1300px){body .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2,body .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content h2,body .full-width-content .vc_span12 .swiper-slide .content h2{font-size:;line-height:;}}@media only screen and (min-width:690px) and (max-width:1000px){body .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2,body .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content h2,body .full-width-content .vc_span12 .swiper-slide .content h2{font-size:;line-height:;}}@media only screen and (max-width:690px){body .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2,body .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content h2,body .full-width-content .vc_span12 .swiper-slide .content h2{font-size:;line-height:;}}#featured article .post-title h2 span,.swiper-slide .content p,#portfolio-filters-inline #current-category,body .vc_text_separator div{font-family:Montserrat;}#portfolio-filters-inline ul{line-height:;}.swiper-slide .content p.transparent-bg span{}@media only screen and (min-width:1000px) and (max-width:1300px){.nectar-slider-wrap[data-full-width="true"] .swiper-slide .content p,.nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content p,.full-width-content .vc_span12 .swiper-slide .content p{font-size:;line-height:;}}@media only screen and (min-width:690px) and (max-width:1000px){.nectar-slider-wrap[data-full-width="true"] .swiper-slide .content p,.nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content p,.full-width-content .vc_span12 .swiper-slide .content p{font-size:;line-height:;}}@media only screen and (max-width:690px){body .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content p,body .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content p,body .full-width-content .vc_span12 .swiper-slide .content p{font-size:;line-height:;}}.testimonial_slider blockquote,.testimonial_slider blockquote span,blockquote{font-family:Montserrat;font-size:16px;line-height:24px;}#footer-outer .widget h4,#sidebar h4,#call-to-action .container a,.uppercase,.nectar-button,body .widget_calendar table th,body #footer-outer #footer-widgets .col .widget_calendar table th,.swiper-slide .button a,header#top nav > ul > li.megamenu > ul > li > a,.carousel-heading h2,body .gform_wrapper .top_label .gfield_label,body .vc_pie_chart .wpb_pie_chart_heading,#infscr-loading div,#page-header-bg .author-section a,.ascend input[type="submit"],.ascend button[type="submit"],.widget h4,.text-on-hover-wrap .categories a,.text_on_hover.product .add_to_cart_button,.woocommerce-page div[data-project-style="text_on_hover"] .single_add_to_cart_button,.woocommerce div[data-project-style="text_on_hover"] .cart .quantity input.qty,.woocommerce-page #respond input#submit,.meta_overlaid article.post .post-header h2,.meta_overlaid article.post.quote .post-content h2,.meta_overlaid article.post.link .post-content h2,.meta_overlaid article.post.format-status .post-content h2,.meta_overlaid article .meta-author a{font-family:Montserrat;font-weight:normal;}.team-member h4,.row .col.section-title p,.row .col.section-title span,#page-header-bg .subheader,.nectar-milestone .subject,.testimonial_slider blockquote span{font-family:Montserrat;}-6px!important;}</style><meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://www.datasciencebowl.com/wp-content/plugins/js_composer_salient/assets/css/vc-ie8.css" media="screen"><![endif]-->
+</head>
+
+
+<body class="single single-post postid-4014 single-format-standard wpb-js-composer js-comp-ver-4.3.5 vc_responsive" data-header-inherit-rc="false" data-header-search="false" data-animated-anchors="true" data-ajax-transitions="false" data-full-width-header="false" data-slide-out-widget-area="false" data-loading-animation="none" data-bg-header="true" data-ext-responsive="true" data-header-resize="0" data-header-color="custom" data-transparent-header="false" data-smooth-scrolling="0" data-responsive="1" >
+
+
+
+<div id="header-space"></div>
+
+
+<div id="header-outer" data-has-menu="true"  data-user-set-bg="#641a3e" data-format="centered-menu" data-cart="false" data-transparency-option="0" data-shrink-num="6" data-full-width="false" data-using-secondary="0" data-using-logo="" data-logo-height="" data-padding="28" data-header-resize="">
+	
+	
+<div id="search-outer" class="nectar">
+		
+	<div id="search">
+	  	 
+		<div class="container">
+		  	 	
+		     <div id="search-box">
+		     	
+		     	<div class="col span_12">
+			      	<form action="http://www.datasciencebowl.com" method="GET">
+			      		<input type="text" name="s" id="s" value="Start Typing..." data-placeholder="Start Typing..." />
+			      	</form>
+			      			        </div><!--/span_12-->
+			      
+		     </div><!--/search-box-->
+		     
+		     <div id="close"><a href="#"><span class="icon-salient-x" aria-hidden="true"></span></a></div>
+		     
+		 </div><!--/container-->
+	    
+	</div><!--/search-->
+	  
+</div><!--/search-outer-->	
+	<header id="top">
+		
+		<div class="container">
+			
+			<div class="row">
+				  
+				<div class="col span_3">
+					
+					<a id="logo" href="http://www.datasciencebowl.com" class="no-image">
+						
+						The Data Science Bowl | Passion. Curiosity. Purpose. 
+					</a>
+
+				</div><!--/span_3-->
+				
+				<div class="col span_9 col_last">
+					
+					<a href="#mobilemenu" id="toggle-nav"><i class="icon-reorder"></i></a>					
+										
+					<nav>
+						<ul class="buttons">
+							<li id="search-btn"><div><a href="#searchbox"><span class="icon-salient-search" aria-hidden="true"></span></a></div> </li>
+						
+													</ul>
+						<ul class="sf-menu">	
+							<li id="menu-item-3128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3128"><a title="Home" href="http://www.datasciencebowl.com/">Home</a></li>
+<li id="menu-item-3794" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3794"><a title="Enter the competition on Kaggle" href="https://www.kaggle.com/c/second-annual-data-science-bowl">Compete</a></li>
+<li id="menu-item-3196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sf-with-ul menu-item-3196"><a title="About the Competitions" href="http://www.datasciencebowl.com/competitions/">About<span class="sf-sub-indicator"><i class="icon-angle-down"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-3781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3781"><a title="Transforming How We Diagnose Heart Disease" href="http://www.datasciencebowl.com/competitions/transforming-how-we-diagnose-heart-disease/">Current Competition</a></li>
+	<li id="menu-item-3782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3782"><a title="Assessing Ocean Health at Massive Speed and Scale" href="http://www.datasciencebowl.com/competitions/assessing-ocean-health-at-massive-speed-and-scale/">Past Competition</a></li>
+</ul>
+</li>
+<li id="menu-item-3316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3316"><a title="Our Partners" href="http://www.datasciencebowl.com/our-partners/">Partners</a></li>
+<li id="menu-item-3314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sf-with-ul menu-item-3314"><a title="Data Science Insights" href="http://www.datasciencebowl.com/data-science-insights/">Insights<span class="sf-sub-indicator"><i class="icon-angle-down"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-3816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3816"><a title="Read articles with new ideas and topics about data science" href="http://www.datasciencebowl.com/data-science-insights/">Understand Data Science</a></li>
+	<li id="menu-item-3810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3810"><a title="Meet the Data Science Team" href="http://www.datasciencebowl.com/competitions/the-data-science-team/">The Data Science Team</a></li>
+	<li id="menu-item-4059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4059"><a href="http://www.datasciencebowl.com/bah-nvidia-dsb-team/">BAH-NVIDIA DSB Team</a></li>
+	<li id="menu-item-3857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3857"><a title="Become a Data Scientist" href="http://www.jobs.net/jobs/booz-allen-hamilton/en-us/job/United-States/Data-Scientist/J3G82X6GNFMJ9S5SDB6/">Career Opportunities</a></li>
+</ul>
+</li>
+<li id="menu-item-3660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3660"><a title="Media Center &#038; Press Resources" href="http://www.datasciencebowl.com/media/">Media</a></li>
+<li id="menu-item-3315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3315"><a title="Contact Us and Submit New Ideas" href="http://www.datasciencebowl.com/submit-ideas/">Submit Ideas</a></li>
+<li id="menu-item-3504" class="menu-item menu-item-type-custom menu-item-object-custom social-icon twitter menu-item-3504"><a title="Follow us on Twitter" href="http://twitter.com/boozallen"><i class='icon-2x icon-twitter '></i><span class='fa-hidden'>Twitter</span></a></li>
+<li id="menu-item-3505" class="menu-item menu-item-type-custom menu-item-object-custom social-icon linkedin menu-item-3505"><a title="Follow Us on LinkedIn" href="http://www.linkedin.com/company/booz-allen-hamilton"><i class='icon-2x icon-linkedin '></i><span class='fa-hidden'>LinkedIn</span></a></li>
+<li id="menu-item-3506" class="menu-item menu-item-type-custom menu-item-object-custom social-icon google-plus menu-item-3506"><a title="Follow us on Google+" href="http://plus.google.com/+boozallenhamilton/posts"><i class='icon-2x icon-google-plus '></i><span class='fa-hidden'>Google+</span></a></li>
+<li id="menu-item-3507" class="menu-item menu-item-type-custom menu-item-object-custom social-icon facebook menu-item-3507"><a title="Follow us on Facebook" href="http://www.facebook.com/boozallen"><i class='icon-2x icon-facebook '></i><span class='fa-hidden'>Facebook</span></a></li>
+						</ul>
+						
+					</nav>
+					
+				</div><!--/span_9-->
+			
+			</div><!--/row-->
+			
+		</div><!--/container-->
+		
+	</header>
+	
+	
+	<div class="ns-loading-cover"></div>		
+	
+
+</div><!--/header-outer-->
+
+ 
+
+<div id="mobile-menu">
+	
+	<div class="container">
+		<ul>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3128"><a title="Home" href="http://www.datasciencebowl.com/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3794"><a title="Enter the competition on Kaggle" href="https://www.kaggle.com/c/second-annual-data-science-bowl">Compete</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3196"><a title="About the Competitions" href="http://www.datasciencebowl.com/competitions/">About</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3781"><a title="Transforming How We Diagnose Heart Disease" href="http://www.datasciencebowl.com/competitions/transforming-how-we-diagnose-heart-disease/">Current Competition</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3782"><a title="Assessing Ocean Health at Massive Speed and Scale" href="http://www.datasciencebowl.com/competitions/assessing-ocean-health-at-massive-speed-and-scale/">Past Competition</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3316"><a title="Our Partners" href="http://www.datasciencebowl.com/our-partners/">Partners</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3314"><a title="Data Science Insights" href="http://www.datasciencebowl.com/data-science-insights/">Insights</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3816"><a title="Read articles with new ideas and topics about data science" href="http://www.datasciencebowl.com/data-science-insights/">Understand Data Science</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3810"><a title="Meet the Data Science Team" href="http://www.datasciencebowl.com/competitions/the-data-science-team/">The Data Science Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4059"><a href="http://www.datasciencebowl.com/bah-nvidia-dsb-team/">BAH-NVIDIA DSB Team</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3857"><a title="Become a Data Scientist" href="http://www.jobs.net/jobs/booz-allen-hamilton/en-us/job/United-States/Data-Scientist/J3G82X6GNFMJ9S5SDB6/">Career Opportunities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3660"><a title="Media Center &#038; Press Resources" href="http://www.datasciencebowl.com/media/">Media</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3315"><a title="Contact Us and Submit New Ideas" href="http://www.datasciencebowl.com/submit-ideas/">Submit Ideas</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom social-icon twitter menu-item-3504"><a title="Follow us on Twitter" href="http://twitter.com/boozallen"><i class='icon-2x icon-twitter '></i><span class='fa-hidden'>Twitter</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom social-icon linkedin menu-item-3505"><a title="Follow Us on LinkedIn" href="http://www.linkedin.com/company/booz-allen-hamilton"><i class='icon-2x icon-linkedin '></i><span class='fa-hidden'>LinkedIn</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom social-icon google-plus menu-item-3506"><a title="Follow us on Google+" href="http://plus.google.com/+boozallenhamilton/posts"><i class='icon-2x icon-google-plus '></i><span class='fa-hidden'>Google+</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom social-icon facebook menu-item-3507"><a title="Follow us on Facebook" href="http://www.facebook.com/boozallen"><i class='icon-2x icon-facebook '></i><span class='fa-hidden'>Facebook</span></a></li>
+<li id="mobile-search">  
+					<form action="http://www.datasciencebowl.com" method="GET">
+			      		<input type="text" name="s" value="" placeholder="Search.." />
+					</form> 
+					</li>		
+		</ul>
+	</div>
+	
+</div>
+
+
+<div id="ajax-loading-screen" data-method="ajax"><span class="loading-icon "> <span class="default-skin-loading-icon"></span> </span></div>
+<div id="ajax-content-wrap">
+
+
+	    <div class="not-loaded " id="page-header-bg" data-alignment="left" data-parallax="0" data-height="250" style="background-color: #d7df23; background-image: url(http://www.datasciencebowl.com/wp-content/uploads/2015/07/watermark-cropped2.png); height: 250px;">
+			
+
+			<div class="container">	
+			
+					<img class="hidden-social-img" src="http://www.datasciencebowl.com/wp-content/uploads/2015/07/watermark-cropped2.png" alt="5 Awesome Problems Solved Through Data Science" />						
+						<div class="row">
+						<div class="col span_6 section-title blog-title">
+							<h2 class="entry-title">5 Awesome Problems Solved Through Data Science</h2>
+
+							 							
+							
+								<div id="single-meta" data-sharing="1">
+									<ul>
+						
+																
+									</ul>
+									
+									<div class="nectar-social"><span class="n-shortcode"><a href="#" class="nectar-love" id="nectar-love-4014" title="Love this"> <i class="icon-salient-heart"></i><span class="nectar-love-count">1</span></a></span><a class='facebook-share nectar-sharing' href='#' title='Share this'> <i class='icon-facebook'></i> <span class='count'></span></a><a class='twitter-share nectar-sharing' href='#' title='Tweet this'> <i class='icon-twitter'></i> <span class='count'></span></a><a class='google-plus-share nectar-sharing-alt' href='#' title='Share this'> <i class='icon-google-plus'></i> <span class='count'> 5 </span></a><a class='linkedin-share nectar-sharing' href='#' title='Share this'> <i class='icon-linkedin'></i> <span class='count'> </span></a></div>									
+								</div>
+
+								<!--/single-meta-->
+								
+
+								<div id="single-below-header">
+									<h2 class="entry-title">5 Awesome Problems Solved Through Data Science</h2>
+									<span class="meta-author vcard author"><span class="fn">By <a href="http://www.datasciencebowl.com/author/youngbang/" title="Posts by Young Bang" rel="author">Young Bang</a></span></span> 
+																			<span class="meta-date date updated">January 11, 2016</span>
+																		<span class="meta-category"><a href="http://www.datasciencebowl.com/category/booz-allen/">Booz Allen</a>, <a href="http://www.datasciencebowl.com/category/data-science/">Data Science</a></span>
+									<span class="meta-comment-count"><a href="http://www.datasciencebowl.com/5_awesome_problems_solved_through_data_science/#comments">No Comments</a></span>
+								
+								</div>
+
+								<!--/single-below-header-->
+
+							
+						</div><!--/section-title-->
+					</div><!--/row-->
+						
+							
+						
+						
+					
+										
+					
+				
+			</div>
+
+
+			 
+
+		</div>
+
+
+	   
+
+	    
+
+
+
+
+<div class="container-wrap  no-sidebar">
+
+	<div class="container main-content">
+		
+					
+			
+					<div class="row heading-title">
+						<div class="col span_12 section-title blog-title">
+							<h1 class="entry-title">5 Awesome Problems Solved Through Data Science</h1>
+							
+							<div id="single-below-header">
+								<span class="meta-author vcard author"><span class="fn">By <a href="http://www.datasciencebowl.com/author/youngbang/" title="Posts by Young Bang" rel="author">Young Bang</a></span></span> 
+																	<span class="meta-date date updated">January 11, 2016</span>
+																<span class="meta-category"><a href="http://www.datasciencebowl.com/category/booz-allen/">Booz Allen</a>, <a href="http://www.datasciencebowl.com/category/data-science/">Data Science</a></span>
+								<span class="meta-comment-count"><a href="http://www.datasciencebowl.com/5_awesome_problems_solved_through_data_science/#comments">No Comments</a></span>
+								
+							</ul><!--project-additional-->
+							</div><!--/single-below-header-->
+							
+							<div id="single-meta" data-sharing="1">
+								<ul>
+	
+											
+								</ul>
+								
+								<div class="nectar-social "><span class="n-shortcode"><a href="#" class="nectar-love" id="nectar-love-4014" title="Love this"> <i class="icon-salient-heart"></i><span class="nectar-love-count">1</span></a></span><a class='facebook-share nectar-sharing' href='#' title='Share this'> <i class='icon-facebook'></i> <span class='count'></span></a><a class='twitter-share nectar-sharing' href='#' title='Tweet this'> <i class='icon-twitter'></i> <span class='count'></span></a><a class='google-plus-share nectar-sharing-alt' href='#' title='Share this'> <i class='icon-google-plus'></i> <span class='count'> 5 </span></a><a class='linkedin-share nectar-sharing' href='#' title='Share this'> <i class='icon-linkedin'></i> <span class='count'> </span></a></div>								
+							</div><!--/single-meta-->
+						</div><!--/section-title-->
+					</div><!--/row-->
+				
+						
+					
+		<div class="row">
+			
+			<div id="post-area" class="col span_12 col_last">
+<article id="post-4014" class="regular post-4014 post type-post status-publish format-standard hentry category-booz-allen category-data-science">
+	
+	<div class="post-content">
+		
+				
+		<div class="content-inner">
+			
+						
+						
+		   
+			<p>Booz Allen does not just have a data science team. Yes, we are proud of our industry leading, 600+ member group of data scientists; but that team is not evidence of our firm simply checking a box in the technology market. Our data science capabilities, in contrast, are indicative of our diagnostic fascination with finding new, better ways of answering our world’s oldest questions.<span id="more-4014"></span></p>
+<p>To celebrate data science as a discipline against the backdrop of our Data Science Bowl, we have pulled together a selection of a few of our favorite problems solved by analytics. Here’s to growing this list in 2016 and beyond:</p>
+<p><strong><em>Predicting pass or run in the NFL</em></strong></p>
+<p>Last spring, we unveiled our <a href="http://www.forbes.com/sites/davidlariviere/2015/02/12/play-prediction-analytics-could-be-coming-soon-to-the-nfl/">BlitzD application for the Microsoft Surface Pro 3</a>, capable of predicting the next play of an NFL game in real-time. The platform awed audiences at the MIT Sloan Sports Analytics Conference, and we hope to one day bring this technology to a sideline near you.</p>
+<p><a href="http://www.datasciencebowl.com/wp-content/uploads/2016/01/batters-box.png"><img class="alignnone size-full wp-image-4024" src="http://www.datasciencebowl.com/wp-content/uploads/2016/01/batters-box.png" alt="batters box" width="853" height="569" /></a></p>
+<p><strong><em>From the boardroom to the batter’s box </em>    </strong></p>
+<p>Also from our Sports Analytics team, <a href="http://www.fastcolabs.com/3033324/how-sports-data-analytics-is-upsetting-the-game-all-over-again">this model is capable of predicting the next pitch</a> in an MLB game with an average of 74.5 percent accuracy. The initial framework encompassed 400 pitchers and officially launched our work in the sports world.</p>
+<p><strong><em>Wait, where should I park?</em></strong></p>
+<p>We analyzed open, public data from the San Francisco Police Department’s CABLE system and were able to pinpoint when and where it is most likely for your car to be stolen in the city; an incredible use case of data science’s direct ability to fight crime.</p>
+<p><a href="http://www.datasciencebowl.com/wp-content/uploads/2016/01/digital-disease.png"><img class="alignnone size-full wp-image-4023" src="http://www.datasciencebowl.com/wp-content/uploads/2016/01/digital-disease.png" alt="digital disease" width="837" height="467" /></a></p>
+<p><strong><em>Digital Disease Detection</em></strong></p>
+<p>Our Epidemico team’s <a href="http://www.healthmap.org/en/">HealthMap</a> platform uses public data to provide real-time, population health tracking around the world. This technology has become a trusted asset for global healthcare experts, international travelers and everyone looking to stay healthier, all year long.</p>
+<p><strong><em>Book your flights yesterday</em></strong></p>
+<p>Our analytics team works deeply within the airline industry and, last year, <a href="http://www.boozallen.com/media-center/press-releases/2015/08/flying-high--booz-allen-hamilton-highlights-what-2015s-record-br">discovered that booking behavior has shifted by one week</a>, resulting in earlier consumer competition for seats.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+			
+							
+		</div><!--/content-inner-->
+		
+	</div><!--/post-content-->
+		
+</article><!--/article-->
+					<div class="comments-section">
+						   
+<!-- You can start editing here. -->
+<div class="comment-wrap ">
+
+
+			<!-- If comments are closed. -->
+		<!--<p class="nocomments">Comments are closed.</p>-->
+
+	
+
+
+</div>					 </div>   
+
+
+				
+			</div><!--/span_9-->
+			
+			
+		</div><!--/row-->
+
+
+		<!--ascend only author/comment positioning-->
+		<div class="row">
+
+			
+			
+
+			  
+		</div>
+
+
+	   		
+	</div><!--/container-->
+
+</div><!--/container-wrap-->
+	
+
+<div id="footer-outer" data-using-widget-area="true">
+	
+			
+	<div id="footer-widgets">
+		
+		<div class="container">
+			
+			<div class="row">
+				
+								
+				<div class="col span_4">
+				      <!-- Footer widget area 1 -->
+		              	
+		              	  <div class="widget">		
+						  	 <h4 class="widgettitle">Widget Area 1</h4>
+						 	 <p class="no-widget-added"><a href="https://www.datasciencebowl.com/wp-admin/widgets.php">Click here to assign a widget to this area.</a></p>
+				     	  </div>
+				     				</div><!--/span_3-->
+				
+				<div class="col span_4">
+					 <!-- Footer widget area 2 -->
+		             <div id="text-2" class="widget widget_text">			<div class="textwidget"><h1>Join the Discussion</h1>
+
+<p style="padding:10px 0 0 0"><a href="http://twitter.com/hashtag/datascibowl?f=realtime"><img src="http://www.datasciencebowl.com/wp-content/uploads/2015/07/twitter.png" alt="twitter"></a> &nbsp;&nbsp;&nbsp; <a href="http://www.linkedin.com/vsearch/ic?type=content&amp;keywords=%23DataSciBowl&amp;orig=GLHD&amp;rsid=9666361418420056926&amp;pageKey=voltron_influencer_content_search_internal_jsp&amp;trkInfo=tarId%3A1418420065713"><img src="http://www.datasciencebowl.com/wp-content/uploads/2015/07/linkedin.png" alt="linkedin"></a> &nbsp;&nbsp;&nbsp; <a href="http://plus.google.com/explore/DataSciBowl"><img src="http://www.datasciencebowl.com/wp-content/uploads/2015/07/g-plus.png" alt="Google Plus"></a> &nbsp;&nbsp;&nbsp; <a href="http://facebook.com/hashtag/DataSciBowl"><img src="http://www.datasciencebowl.com/wp-content/uploads/2015/07/facebook.png" alt="facebook" style="width:30px;"></a></p>
+  <p style="color:#fff;font-family:'Montserrat';font-weight:800">#DATASCIBOWL</p></div>
+		</div>				     
+				</div><!--/span_3-->
+				
+									<div class="col span_4">
+						 <!-- Footer widget area 3 -->
+			              		
+			              	  <div class="widget">			
+							  	<h4 class="widgettitle">Widget Area 3</h4>
+							  	<p class="no-widget-added"><a href="https://www.datasciencebowl.com/wp-admin/widgets.php">Click here to assign a widget to this area.</a></p>
+							  </div>		   
+					     					     
+					</div><!--/span_3-->
+								
+								
+			</div><!--/row-->
+			
+		</div><!--/container-->
+	
+	</div><!--/footer-widgets-->
+	
+	
+	
+		<div class="row" id="copyright">
+			
+			<div class="container">
+				
+				<div class="col span_5">
+					
+											<p>© Copyright 2015 Booz Allen Hamilton, Inc. All rights reserved. </p>	
+										
+				</div><!--/span_5-->
+				
+				<div class="col span_7 col_last">
+					<ul id="social">
+																																																																																																																							</ul>
+				</div><!--/span_7-->
+			
+			</div><!--/container-->
+			
+		</div><!--/row-->
+		
+		
+</div><!--/footer-outer-->
+
+
+
+
+</div> <!--/ajax-content-wrap-->
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3954767-9', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var MyAcSearch = {"url":"https:\/\/www.datasciencebowl.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/themes/salient/nectar/assets/functions/ajax-search/wpss-search-suggest.js'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.datasciencebowl.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/themes/salient/js/superfish.js?ver=1.4.8'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/themes/salient/js/respond.js?ver=1.1'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/themes/salient/js/sticky.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/themes/salient/js/prettyPhoto.js?ver=5.5.4'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/themes/salient/js/isotope.min.js?ver=2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var nectarLove = {"ajaxurl":"https:\/\/www.datasciencebowl.com\/wp-admin\/admin-ajax.php","postID":"4014","rooturl":"http:\/\/www.datasciencebowl.com","pluginPages":[],"disqusComments":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/themes/salient/js/init.js?ver=5.5.4'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-content/themes/salient/js/infinitescroll.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.17.0'></script>
+<script type='text/javascript' src='http://www.datasciencebowl.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.3.1'></script>
+	
+
+</body>
+</html>

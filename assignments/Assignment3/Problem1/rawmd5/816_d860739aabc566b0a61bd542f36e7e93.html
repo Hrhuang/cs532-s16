@@ -1,0 +1,409 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Catalog
+</title><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="/javascript/jquery-1.9.min.js" type="text/javascript"></script>
+    <link rel='stylesheet' media='all' type='text/css' href='/css/Steiner.css' />
+<!--[if IE]><link rel='stylesheet' type='text/css' href='css/all-ie-only.css' /><![endif]-->
+<!--[if !IE]><link rel='stylesheet' type='text/css' href='css/not-ie.css' /><![endif]-->
+<!--[if gte IE 6]><link rel='stylesheet' type='text/css' href='css/ie6-and-up.css' /><![endif]-->
+<!--[if gt IE 6]><link rel='stylesheet' type='text/css' href='css/ie7-and-up.css' /><![endif]-->
+<!--[if gte IE 7]><link rel='stylesheet' type='text/css' href='css/ie7-and-up.css' /><![endif]-->
+<!--[if gt IE 7]><link rel='stylesheet' type='text/css' href='css/ie8-and-up.css' /><![endif]-->
+<!--[if gte IE 8]><link rel='stylesheet' type='text/css' href='css/ie8-and-up.css' /><![endif]-->
+
+    <link rel="stylesheet" media="all" type="text/css" href="/css/Steiner/catalog.css" />
+    <script type="text/javascript" src="/javascript/Imagemouseover.js"></script>
+    <script language="javascript" type="text/javascript">
+        $('#searchTextBox').keydown(function (e) {
+            if (e.keyCode == 13) {
+                document.form1.searchButton.click();
+            }
+        })
+
+        function startTimer(countdown, tzcd, tickedOnce) {
+            // This value is for when lots are closed.  We do this to sort them to the bottom of the list.  But since this is the time left,
+            // we don't want it to think it is just a lot with a really long time left, so we check for this value and just say "Lot is closed."
+            if (countdown == 999999999) {
+                document.getElementById(tzcd).innerHTML = 'Lot is closed';
+            }
+            else if (countdown > 0) {
+                var secs = countdown % 60;
+                if (secs < 10) {
+                    secs = '0' + secs;
+                }
+
+                var countdown1 = (countdown - secs) / 60;
+                var mins = countdown1 % 60;
+                if (mins < 10) {
+                    mins = '0' + mins;
+                }
+
+                countdown1 = (countdown1 - mins) / 60;
+                var hours = countdown1 % 24;
+                var days = (countdown1 - hours) / 24;
+                document.getElementById(tzcd).innerHTML = days + ' Day(s) ' + hours + 'h : ' + mins + 'm : ' + secs + 's';
+                if (countdown > 0) {
+                    setTimeout('startTimer(' + (countdown - 1) + ',\'' + tzcd + '\',true);', 999);
+                }
+            }
+            else {
+                if (tickedOnce == true)
+                    document.getElementById(tzcd).innerHTML = 'Please refresh for remaining time';
+                else
+                    document.getElementById(tzcd).innerHTML = 'Lot is closed';
+            }
+        }
+    </script>
+<link href="http://auction.steinersports.com/Category/Game_Used-5.html" rel="canonical" />
+</head>
+<body>
+    <form method="post" action="./Game_Used-5.html" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTYwODkyMDIwMw8WEh4MQ3VyckNhdGVnb3J5AgUeClNlYXJjaFR5cGVmHgtTZWFyY2hWYWx1ZQUETm9uZR4LU3BlY2lhbFR5cGVmHgZTb3J0QnkCCx4HTGFzdExvdGYeCEN1cnJQYWdlZh4LTG90c1BlclBhZ2UFAjUwHglEaXNwbGF5QnkCAhYCZg9kFgQCAQ9kFgQCAg8VAfQFPGxpbmsgcmVsPSdzdHlsZXNoZWV0JyBtZWRpYT0nYWxsJyB0eXBlPSd0ZXh0L2NzcycgaHJlZj0nL2Nzcy9TdGVpbmVyLmNzcycgLz4NCjwhLS1baWYgSUVdPjxsaW5rIHJlbD0nc3R5bGVzaGVldCcgdHlwZT0ndGV4dC9jc3MnIGhyZWY9J2Nzcy9hbGwtaWUtb25seS5jc3MnIC8+PCFbZW5kaWZdLS0+DQo8IS0tW2lmICFJRV0+PGxpbmsgcmVsPSdzdHlsZXNoZWV0JyB0eXBlPSd0ZXh0L2NzcycgaHJlZj0nY3NzL25vdC1pZS5jc3MnIC8+PCFbZW5kaWZdLS0+DQo8IS0tW2lmIGd0ZSBJRSA2XT48bGluayByZWw9J3N0eWxlc2hlZXQnIHR5cGU9J3RleHQvY3NzJyBocmVmPSdjc3MvaWU2LWFuZC11cC5jc3MnIC8+PCFbZW5kaWZdLS0+DQo8IS0tW2lmIGd0IElFIDZdPjxsaW5rIHJlbD0nc3R5bGVzaGVldCcgdHlwZT0ndGV4dC9jc3MnIGhyZWY9J2Nzcy9pZTctYW5kLXVwLmNzcycgLz48IVtlbmRpZl0tLT4NCjwhLS1baWYgZ3RlIElFIDddPjxsaW5rIHJlbD0nc3R5bGVzaGVldCcgdHlwZT0ndGV4dC9jc3MnIGhyZWY9J2Nzcy9pZTctYW5kLXVwLmNzcycgLz48IVtlbmRpZl0tLT4NCjwhLS1baWYgZ3QgSUUgN10+PGxpbmsgcmVsPSdzdHlsZXNoZWV0JyB0eXBlPSd0ZXh0L2NzcycgaHJlZj0nY3NzL2llOC1hbmQtdXAuY3NzJyAvPjwhW2VuZGlmXS0tPg0KPCEtLVtpZiBndGUgSUUgOF0+PGxpbmsgcmVsPSdzdHlsZXNoZWV0JyB0eXBlPSd0ZXh0L2NzcycgaHJlZj0nY3NzL2llOC1hbmQtdXAuY3NzJyAvPjwhW2VuZGlmXS0tPg0KZAIDD2QWAmYPFQUYL2Nzcy9TdGVpbmVyL2NhdGFsb2cuY3NzDUxvdCBpcyBjbG9zZWQGRGF5KHMpIVBsZWFzZSByZWZyZXNoIGZvciByZW1haW5pbmcgdGltZQ1Mb3QgaXMgY2xvc2VkZAIDD2QWCGYPFQGrHDwhLS1baWYgSUVdPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCiNzZWxlY3RBdWN0aW9uQ29udGVudCBzZWxlY3Qgb3B0aW9uIHsNCglmb250LXNpemU6MTJweCAhaW1wb3J0YW50Ow0KfQ0KDQojc2VsZWN0QXVjdGlvbkNvbnRlbnQgc2VsZWN0IHsNCglmb250LXNpemU6MTJweCAhaW1wb3J0YW50Ow0KfQ0KDQo8L3N0eWxlPg0KPCFbZW5kaWZdLS0+DQoNCg0KDQo8IS0tIDxsaW5rIGhyZWY9J2h0dHA6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU9zd2FsZDo0MDAsNzAwLDMwMCcgcmVsPSdzdHlsZXNoZWV0JyB0eXBlPSd0ZXh0L2Nzcyc+IC0tPg0KDQo8ZGl2IGlkPSJIZWFkZXJUb3BSb3ciPg0KICAgICAgICA8ZGl2IGlkPSJIZWFkZXJUb3BMZWZ0Ij4NCiAgICAgICAgICAgIDxwPkN1c3RvbWVyIFNlcnZpY2UgJm5ic3A7ICZuYnNwOyBDYWxsIDEuOTE0LjMwNy4xMDAwPC9wPg0KICAgICAgICAgICAgPGEgaWQ9InNvY2lhbGh1YiIgaHJlZj0iaHR0cDovL3d3dy5zdGVpbmVyc3BvcnRzLmNvbS9zb2NpYWwtbWVkaWEtaHViLmh0bWwiIHRhcmdldD0ibmV3IiB0aXRsZT0iU29jaWFsIEh1YiI+U29jaWFsIEh1YjwvYT4NCg0KICAgICAgICAgICAgPGEgaWQ9Im5ld3NsZXR0ZXIiIGhyZWY9IiNKb2luIiB0aXRsZT0iU2lnbiB1cCBmb3Igb3VyIG5ld3NsZXR0ZXIiPkpvaW4gTmV3c2xldHRlcjwvYT4NCiAgICAgICAgICAgIDwvZGl2PjwhLS0vSGVhZGVyVG9wTGVmdCAtLT4NCiAgICAgICAgICAgIA0KICAgICAgICAgICAgPGRpdiBpZD0iSGVhZGVyVG9wTWlkZGxlIj4NCiAgICAgICAgICAgIDxhIGlkPSJIZWFkZXJUb3BMb2dvIiBocmVmPSJodHRwOi8vYXVjdGlvbi5zdGVpbmVyc3BvcnRzLmNvbS9jYXRhbG9nLmFzcHgiIHRpdGxlPSJTdGVpbmVyIFNwb3J0cyBob21lIj48aW1nIHNyYz0iL1VzZXJGaWxlcy9JbWFnZS9sb2dvLnBuZyIgLz48L2E+DQogICAgICAgICAgICA8L2Rpdj48IS0tL0hlYWRlclRvcE1pZGRsZSAtLT4NCiAgICAgICAgICAgIA0KICAgICAgICAgICAgPGRpdiBpZD0iSGVhZGVyVG9wUmlnaHQiPg0KICAgICAgICAgICAgPGEgaWQ9IkhlYWRlclRvcE15QWNjb3VudCIgaHJlZj0iaHR0cDovL3d3dy5zdGVpbmVyc3BvcnRzLmNvbSI+SG9tZTwvYT4mbmJzcDsmbmJzcDsNCiAgICAgICAgICAgIDxhIGlkPSJIZWFkZXJUb3BNeUFjY291bnQiIGhyZWY9Im15YWNjb3VudC5hc3B4Ij5NeSBBY2NvdW50PC9hPg0KICAgICAgICAgICAgCQ0KICAgICAgICAgICAgICAgIDxkaXYgaWQ9IkhlYWRlclNlYXJjaEJveCI+DQogICAgICAgICAgICAgICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4NCiAgICBmdW5jdGlvbiBTZWFyY2hDbGljaygpIHsNCiAgICAgICAgdmFyIHNlYXJjaFRGID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInF1ZXJ5Iik7DQogICAgICAgIHZhciBzZWFyY2hUeXBlRERMID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIlNlYXJjaFR5cGVEREwiKTsNCiAgICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAnY2F0YWxvZy5hc3B4P3NlYXJjaGJ5PScgKyBzZWFyY2hUeXBlRERMLm9wdGlvbnNbc2VhcmNoVHlwZURETC5zZWxlY3RlZEluZGV4XS52YWx1ZSArICcmc2VhcmNodmFsdWU9JyArIHNlYXJjaFRGLnZhbHVlOw0KICAgIH0NCg0KICAgIGZ1bmN0aW9uIEhlYWRlckVudGVyS2V5KGUpIHsNCiAgICAgICAgdmFyIGV2ZW50SW5zdGFuY2UgPSB3aW5kb3cuZXZlbnQgPyBldmVudCA6IGU7DQogICAgICAgIHZhciB1bmljb2RlID0gZXZlbnRJbnN0YW5jZS5jaGFyQ29kZSA/IGV2ZW50SW5zdGFuY2UuY2hhckNvZGUgOiBldmVudEluc3RhbmNlLmtleUNvZGU7DQogICAgICAgIGlmICh1bmljb2RlID09IDEzKSB7DQogICAgICAgICAgICBTZWFyY2hDbGljaygpOw0KICAgICAgICAgICAgcmV0dXJuIGZhbHNlOw0KICAgICAgICB9DQogICAgfQ0KPC9zY3JpcHQ+DQoJCQkJCQ0KICAgICANCiAgICAgICAgICAgPHNlbGVjdCBpZD0iU2VhcmNoVHlwZURETCIgbmFtZT0iU2VhcmNoVHlwZURETCIgc3R5bGU9ImRpc3BsYXk6bm9uZTsiIGhpZGRlbj4gCQkJCQkJIAkJCTxvcHRpb24gdmFsdWU9IjMiIHNlbGVjdGVkPSJzZWxlY3RlZCI+VGl0bGUgYW5kIERlc2NyaXB0aW9uPC9vcHRpb24+DQogICAgICAgICAgIDwvc2VsZWN0PiAgDQoJCQkJDQogICAgICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgPGlucHV0IHR5cGU9InRleHQiIG5hbWU9InF1ZXJ5IiBpZD0icXVlcnkiIGNsYXNzPSJzZWFyY2hUZXh0IiBwbGFjZWhvbGRlcj0iU2VhcmNoIEF1Y3Rpb24iIG9ua2V5cHJlc3M9InJldHVybiBIZWFkZXJFbnRlcktleShldmVudCk7IiAgLz4gIA0KPGRpdiBjbGFzcz0ic2VhcmNoQnV0dG9uIj48aW1nIGNsYXNzPSJzZWFyY2hzdWJtaXQiIG9uY2xpY2s9IlNlYXJjaENsaWNrKCkiIHNyYz0iL1VzZXJGaWxlcy9JbWFnZS9zZWFyY2gtYnV0dG9uLnBuZyIgdnNwYWNlPSIwIiBib3JkZXI9IjAiIC8+PC9kaXY+DQo8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJzZWFyY2giIHZhbHVlPSIxIiAvPiANCiAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIA0KICAgICAgICAgICAgPC9kaXY+PCEtLS9IZWFkZXJUb3BSaWdodCAtLT4NCiAgICAgICAgICAgIA0KICAgICAgICAgICAgDQoJCTwvZGl2PjwhLS0vSGVhZGVyVG9wUm93biAtLT4NCiAgICAgICAgDQogICAgICAgIA0KICAgICAgICANCiAgICAgICAgDQogICAgICAgIDxkaXYgaWQ9IkhlYWRlck5hdlJvdyI+DQogICAgICAgIDx1bCBpZD0ibWFpbm5hdiI+DQogICAgICAgIA0KICAgICAgICA8bGk+PGEgaHJlZj0iYXVjdGlvbmxhbmRpbmcuYXNweCIgdGl0bGU9IlZpZXcgdGhlIEN1cnJlbnQgQXVjdGlvbiI+QXVjdGlvbjwvYT48L2xpPiANCiAgICAgICAgPGxpPjxhIGhyZWY9ImFkZHVzZXIuYXNweCIgdGl0bGU9IlJlZ2lzdGVyIHRvIEJpZCBmb3IgRnJlZSI+UmVnaXN0ZXIgdG8gQmlkPC9hPjwvbGk+DQogICAgICAgIDxsaT48YSBocmVmPSJydWxlcy5hc3B4IiB0aXRsZT0iQXVjdGlvbiBSdWxlcyI+QXVjdGlvbiBSdWxlczwvYT48L2xpPiAgICAgICANCiAgICAgICAgPGxpPjxhIGhyZWY9ImNvbnNpZ253aXRodXMuYXNweCIgdGl0bGU9IkNvbnNpZ24gV2l0aCBVcyI+Q29uc2lnbjwvYT48L2xpPg0KPGxpPjxhIGhyZWY9ImF1Y3Rpb25yZXN1bHRzLmFzcHgiIHRpdGxlPSJBdWN0aW9uIFJlc3VsdHMiPkF1Y3Rpb24gUmVzdWx0czwvYT48L2xpPiAgDQogICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vYnJhbmRvbnN0ZWluZXIuY29tLyI+QmxvZzwvYT48L2xpPg0KICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL2FwcC5zdGVpbmVyc3BvcnRzLmNvbS9mcm9udC9sZWFkL2FkZD90eXBlPUNVU1RPTUVSX0NBUkUiPkNvbnRhY3QgVXM8L2E+PC9saT4NCiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cuc3RlaW5lcnNwb3J0cy5j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Ah8JZ2QPFgRmAgECAgIDFgQQBQdDYXRhbG9nBQEyZxAFBUltYWdlBQExZxAFA0xvdAUBMGcQBQpQcmljZSBHcmlkBQEzZxYBZmQCNA8VAQdTb3J0IEJ5ZAI1DxAPFgIfCWdkDxYHZgIBAgICAwIEAgUCBhYHEAUUUHJpY2U6IEhpZ2hlc3QgUHJpY2UFATNnEAUTUHJpY2U6IExvd2VzdCBQcmljZQUBNGcQBQ9CaWRzOiBNb3N0IEJpZHMFATVnEAUQQmlkczogTGVhc3QgQmlkcwUBNmcQBRFCaWRzOiBNb3N0IFJlY2VudAUCMTFnEAUWTG90OiBMb3dlc3QgTG90IE51bWJlcgUBN2cQBRdMb3Q6IEhpZ2hlc3QgTG90IE51bWJlcgUBOGcWAQIEZAI2DxUBDUxvdHMgUGVyIFBhZ2VkAjcPEA8WAh8JZ2QPFgRmAgECAgIDFgQQBQIyNQUCMjVnEAUCMzAFAjMwZxAFAjUwBQI1MGcQBQMxMDAFAzEwMGcWAQICZAI4DxUBBlBhZ2luZ2QCOQ8PFgIfE2hkZAI7Dw8WAh8TaGRkAj8PDxYCHwsFAkdvZGQCQA8VAQEwZAICDxUBkAQ8ZGl2IGlkPSJzYXNmb290ZXIiPg0KDQogICAgDQogICAgDQogICAgPHAgYWxpZ249ImNlbnRlciIgc3R5bGU9Im1hcmdpbjowOyBwYWRkaW5nOjA7ICI+PGEgaHJlZj0iaHR0cDovL3d3dy5zaW1wbGVhdWN0aW9uc2l0ZS5jb20iIHRhcmdldD0iX2JsYW5rIj48aW1nIHNyYz0iVXNlcmZpbGVzL2ltYWdlL2hvbWUtc2FzbG9nby5wbmciIHN0eWxlPSJib3JkZXItd2lkdGg6MHB4OyBtYXJnaW46MDsgcGFkZGluZzowOyIgLz48L2E+PC9wPg0KPHAgYWxpZ249ImNlbnRlciIgc3R5bGU9ImZvbnQtZmFtaWx5OlZlcmRhbmE7Zm9udC1zaXplOjEwcHg7IGNvbG9yOiM1NTU7IHBhZGRpbmc6MHB4IDAgMTVweCAwOyBtYXJnaW46MDsiPsKpIFNvZnR3YXJlIENvcHlyaWdodCAyMDA0LTIwMTUgPGEgaHJlZj0iaHR0cDovL3d3dy5zaW1wbGVhdWN0aW9uc2l0ZS5jb20iIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6IzgyOWViMTsiPlNpbXBsZUF1Y3Rpb25TaXRlPC9hPi4gIEFsbCByaWdodHMgcmVzZXJ2ZWQuPC9wPg0KDQo8L2Rpdj5kAgMPFgIfDGhkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBSVjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIkY2F0ZWdvcnlWaWV324mxe3KpKPCSOPgzvWYomsvyUkQuwM4wyO0K+UxqZVI=" />
+
+
+<script src="../javascript/jquery-1.9.min.js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="784357A6" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdADgnveVWhECd7MWQ1U9hTI3dumvZF35p1WAbO6ljnn8CsyFMqHEHKlQTX3YS2k0Qthf2oCK07rgzsNDeubTN+uaakY6pg1q3TWQVlt++YmN+wxDKyFbFukke0ZGFXhNuPOZB3K5C1ZsTU0QOIZn5ylboYziLrSoQ8dQKCpBTgWoOSTnZcfTYzkQvw67m+hetFgxyuWOf3PoF+4ufdwX//2edxPf3dO9NMo5vBBsA4TEEk4YntVe8NI56L8AdcOTPt1FmgnWF2RMq/V7BMB3MSf+/aYUvk3fSb8taAZ6vTTeTw3PpRGAMqSRMeFDyZBO8qr9wxsNv0eyGWU697zcoyk/cfQFmJE6GtnC7HeNzxzqjxSWtp8ZeuOKRVKlpw5aHmzdBXRLGCyf6az9Q3jLjFGMlfX8NAwtY2ncZxp/Q7yNj9c4cjwF12sv6yi0q5HmH8LirMA0k+I2cuzY9j1QZAL7PBis8hougYuWEKfdpT+nu39CQCdX8f47Xx8v5sRSiPSGrpwjMc7T6rYg43qy1WeBm9cSKAJQarq6XVr/6zB2st+pMBjRG0qj6EVYi6pPlRUVX5wZEJd89C/k77d4YjtcToh0G3/6RQy26fPS2TsvTqYfelHBqPcPV2fXWWtO8fpbBLR7eZckQy3V8x3OXGemFFTYsEwU8pIhxfN/kE2PPXZ5KjMhnnhgOCcOxRCACs0nD2YoBLDgJuIJIGUtyOB5vHQuxMTgRq+l4hwC/T4MlcvsUjYRQwz0sSpyFTv9065PmsGLWCyawaQCOfVQaZ6ZUNcIWVjfXMWsYiktdq34FQsUfqEuYI5bzysYZjXNcf9SDoCcYs5Yl/XxvTpM/C1WbMUhkXQY0pap56x9+r9w05YeK6Tt2Lp8WoFAqJ8LckKXCay5GWzB0AmM8N/su1ah/fThtAYsyomLX36Fmy0zHEUx0I6aGogFJYF/uG9HZG6XCnjTI0zqH0A1Lb19NQRMFMF3wFageQS5KwAknWLon3VnOMk2HHDtUxRs73YZwqTAVe/tESkCnCmRzjUC0lKx+NK8GB1exOyemtjGysYOY6xIv5zgWIUCpRBbcYJH0r716yNblIPXrM1kd6rakvb7/my5ZCxuZGENifPMbgt4bRDXkidvYac1Mk5GCWG+u22VDWCCzGQnII0TpF6FQq7+SKex+yf/J0/yWKN9n8RJtEmwG9FSSsbfnrpI3eFkNWRzaPbNctkj6+ch1SfhW7iH3" />
+    <div id="Content">
+        <div id="PageHeader"><!--[if IE]>
+<style type="text/css">
+#selectAuctionContent select option {
+	font-size:12px !important;
+}
+
+#selectAuctionContent select {
+	font-size:12px !important;
+}
+
+</style>
+<![endif]-->
+
+
+
+<!-- <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'> -->
+
+<div id="HeaderTopRow">
+        <div id="HeaderTopLeft">
+            <p>Customer Service &nbsp; &nbsp; Call 1.914.307.1000</p>
+            <a id="socialhub" href="http://www.steinersports.com/social-media-hub.html" target="new" title="Social Hub">Social Hub</a>
+
+            <a id="newsletter" href="#Join" title="Sign up for our newsletter">Join Newsletter</a>
+            </div><!--/HeaderTopLeft -->
+            
+            <div id="HeaderTopMiddle">
+            <a id="HeaderTopLogo" href="http://auction.steinersports.com/catalog.aspx" title="Steiner Sports home"><img src="/UserFiles/Image/logo.png" /></a>
+            </div><!--/HeaderTopMiddle -->
+            
+            <div id="HeaderTopRight">
+            <a id="HeaderTopMyAccount" href="http://www.steinersports.com">Home</a>&nbsp;&nbsp;
+            <a id="HeaderTopMyAccount" href="myaccount.aspx">My Account</a>
+            	
+                <div id="HeaderSearchBox">
+                 <script type="text/javascript">
+    function SearchClick() {
+        var searchTF = document.getElementById("query");
+        var searchTypeDDL = document.getElementById("SearchTypeDDL");
+        window.location.href = 'catalog.aspx?searchby=' + searchTypeDDL.options[searchTypeDDL.selectedIndex].value + '&searchvalue=' + searchTF.value;
+    }
+
+    function HeaderEnterKey(e) {
+        var eventInstance = window.event ? event : e;
+        var unicode = eventInstance.charCode ? eventInstance.charCode : eventInstance.keyCode;
+        if (unicode == 13) {
+            SearchClick();
+            return false;
+        }
+    }
+</script>
+					
+     
+           <select id="SearchTypeDDL" name="SearchTypeDDL" style="display:none;" hidden> 						 			<option value="3" selected="selected">Title and Description</option>
+           </select>  
+				
+                    
+            <input type="text" name="query" id="query" class="searchText" placeholder="Search Auction" onkeypress="return HeaderEnterKey(event);"  />  
+<div class="searchButton"><img class="searchsubmit" onclick="SearchClick()" src="/UserFiles/Image/search-button.png" vspace="0" border="0" /></div>
+<input type="hidden" name="search" value="1" /> 
+                
+                </div>
+            
+            </div><!--/HeaderTopRight -->
+            
+            
+		</div><!--/HeaderTopRown -->
+        
+        
+        
+        
+        <div id="HeaderNavRow">
+        <ul id="mainnav">
+        
+        <li><a href="auctionlanding.aspx" title="View the Current Auction">Auction</a></li> 
+        <li><a href="adduser.aspx" title="Register to Bid for Free">Register to Bid</a></li>
+        <li><a href="rules.aspx" title="Auction Rules">Auction Rules</a></li>       
+        <li><a href="consignwithus.aspx" title="Consign With Us">Consign</a></li>
+<li><a href="auctionresults.aspx" title="Auction Results">Auction Results</a></li>  
+        <li><a href="http://brandonsteiner.com/">Blog</a></li>
+        <li><a href="http://app.steinersports.com/front/lead/add?type=CUSTOMER_CARE">Contact Us</a></li>
+        <li><a href="http://www.steinersports.com/">SteinerSports<span>.com</span></a></li>
+        </ul>
+               
+        
+        
+        </div><!--/HeaderNavRow -->
+    
+    
+    
+    
+    </div>
+        <div id="PageBase">
+            
+    <div id="CatalogContentSuper"></div>
+    <div id="CatalogExtraDiv1"></div>
+    <div id="CatalogExtraDiv2"></div>
+    <div id="CatalogContent">
+        <div id="leftColumn">
+            <div id="auctionContainer">
+                <h3 id="selectAuctionTop"><span>Select Auction</span></h3>
+                <div id="selectAuction">
+                    <div id="selectAuctionContent">
+                        <select size="4" name="ctl00$ContentPlaceHolder$AuctionDDL" id="AuctionDDL">
+	<option selected="selected" value="96">The Presidents Day Auction</option>
+	<option value="97">The Hoops All-Star Auction</option>
+
+</select>
+                    </div>
+                </div>
+                <div id="selectAuctionBottom"></div>
+            </div>
+            <div id="linkForClosedAuctionsContainer">
+                <a href="../AuctionResults.aspx?auctionid=96&ClosedSessionsOnly=1" id="linkForClosedAuctions">Click for closed sessions...</a>
+            </div>
+            <div id="searchContainer">
+                <h3 id="searchTop"><span>Search</span></h3>
+                <div id="searchContent">
+                    <h5><span>Search By:</span></h5>
+                    <select name="ctl00$ContentPlaceHolder$searchByDropDown" id="searchByDropDown">
+	<option value="3">Title &amp; Description</option>
+	<option value="4">Lot Number</option>
+	<option selected="selected" value="1">Title</option>
+	<option value="2">Description</option>
+	<option value="5">Serial Number</option>
+
+</select>
+                    <input name="ctl00$ContentPlaceHolder$searchTextBox" type="text" id="searchTextBox" />
+                    <input type="submit" name="ctl00$ContentPlaceHolder$searchButton" value="Search" id="searchButton" />
+                    <input type="submit" name="ctl00$ContentPlaceHolder$searchResetButton" value="Reset" id="searchResetButton" />
+                </div>
+                <div id="searchBottom"></div>
+            </div>
+            
+            <div id="category">
+                <h3 id="categoryTop"><span>Category</span></h3>
+                <div id="categoryContent">
+                    <a href="#categoryView_SkipLink"><img alt="Skip Navigation Links." src="/WebResource.axd?d=cwIB9M0JXS_4V0ke3DpSE396fVc7YCJb-NbsHAzLrB-xQhl5UtoNJkc2GCNqhOo7_r-zl8I-KPzGuvc6QElKZU9MIsP8fxZgznbDhT1rOdY1&amp;t=635823598080000000" width="0" height="0" border="0" /></a><div id="categoryView">
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder$categoryView&#39;,&#39;t1&#39;)"><img src="../images/treeview/lines/dashminus.gif" alt="Collapse All (140) " border="0" /></a></td><td><a href="All_Items-1.html" id="categoryViewt0"><font face="Verdana" size="1">All (140) </font></a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td><table width="20">
+				<tr>
+					<td></td>
+				</tr>
+			</table></td><td><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder$categoryView&#39;,&#39;t1\\2&#39;)"><img src="../images/treeview/lines/tminus.gif" alt="Collapse Baseball (95) " border="0" /></a></td><td><a href="Baseball-2.html" id="categoryViewt1"><font face="Verdana" size="1">Baseball (95) </font></a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td><table width="20">
+				<tr>
+					<td></td>
+				</tr>
+			</table></td><td><table width="20">
+				<tr>
+					<td><img src="../images/treeview/lines/i.gif" alt="" /></td>
+				</tr>
+			</table></td><td><img src="../images/treeview/lines/t.gif" alt="" /></td><td><a href="Game_Used-14.html" id="categoryViewt2"><font face="Verdana" size="1">Game Used (1) </font></a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td><table width="20">
+				<tr>
+					<td></td>
+				</tr>
+			</table></td><td><table width="20">
+				<tr>
+					<td><img src="../images/treeview/lines/i.gif" alt="" /></td>
+				</tr>
+			</table></td><td><img src="../images/treeview/lines/l.gif" alt="" /></td><td><a href="Signed_Baseballs-55.html" id="categoryViewt3"><font face="Verdana" size="1">Signed Baseballs (94) </font></a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td><table width="20">
+				<tr>
+					<td></td>
+				</tr>
+			</table></td><td><img src="../images/treeview/lines/t.gif" alt="" /></td><td><a href="Signed_16x20_Photographs-60.html" id="categoryViewt4"><font face="Verdana" size="1">Signed 16x20 Photographs (19) </font></a></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td><table width="20">
+				<tr>
+					<td></td>
+				</tr>
+			</table></td><td><img src="../images/treeview/lines/l.gif" alt="" /></td><td><a href="Signed_8x10_Photographs-59.html" id="categoryViewt5"><font face="Verdana" size="1">Signed 8x10 Photographs (26) </font></a></td>
+		</tr>
+	</table>
+</div><a id="categoryView_SkipLink"></a>
+                </div>
+                <div id="categoryBottom"></div>
+            </div>
+            
+        </div>
+        <div id="mainPanel">
+            <div id="imagetip" style="z-index:9999; position:absolute; display:none;">
+                <div><span id="largeimage" ></span></div>
+                </div>
+            <div id="ErrorDiv"></div>
+            <div id="catalogAuctionLabel">
+                <h1>
+                    <span>The Presidents Day Auction</span>
+                </h1>
+            </div>
+            <div id="CategoryDiv"></div>
+            <div id="messagePanel">
+	<h3 class="color_e">Auction closed on 2/15/2016.  Final prices include buyers premium.</h3>
+</div>
+            <div id="displayByTop">
+                <div id="displaybycatalogtop">
+                    <h2>Display By:</h2>
+                    <select name="ctl00$ContentPlaceHolder$displayByDropDownTop" id="displayByDropDownTop">
+	<option selected="selected" value="2">Catalog</option>
+	<option value="1">Image</option>
+	<option value="0">Lot</option>
+	<option value="3">Price Grid</option>
+
+</select>
+                </div>
+                <div id="displaybysorttop">
+                    <h2>Sort By:</h2>
+                    <select name="ctl00$ContentPlaceHolder$SortByDDLTop" id="SortByDDLTop">
+	<option value="3">Price: Highest Price</option>
+	<option value="4">Price: Lowest Price</option>
+	<option value="5">Bids: Most Bids</option>
+	<option value="6">Bids: Least Bids</option>
+	<option selected="selected" value="11">Bids: Most Recent</option>
+	<option value="7">Lot: Lowest Lot Number</option>
+	<option value="8">Lot: Highest Lot Number</option>
+
+</select>
+                </div>
+                <div id="dipslaybynumbertop">
+                    <h2>Lots Per Page:</h2>
+                    <select name="ctl00$ContentPlaceHolder$LotsPerPageDropDownTop" id="LotsPerPageDropDownTop">
+	<option value="25">25</option>
+	<option value="30">30</option>
+	<option selected="selected" value="50">50</option>
+	<option value="100">100</option>
+
+</select>
+                </div>
+                <div id="displaybypagingtop">
+                    <h2>Paging:</h2>
+                    <input type="submit" name="ctl00$ContentPlaceHolder$backAllButtonTop" value="&lt;&lt;" id="backAllButtonTop" disabled="disabled" class="aspNetDisabled" />
+                    <input type="submit" name="ctl00$ContentPlaceHolder$backButtonTop" value="&lt;" id="backButtonTop" disabled="disabled" class="aspNetDisabled" />
+                    <input name="ctl00$ContentPlaceHolder$CurrPageTopTB" type="text" value="1" id="CurrPageTopTB" />
+                    <input type="submit" name="ctl00$ContentPlaceHolder$PageJumpBtn" value="Go" id="PageJumpBtn" /><h2 id = "ofpages"> / 0</h2>
+                    <input type="submit" name="ctl00$ContentPlaceHolder$forwardButtonTop" value=">" id="forwardButtonTop" />
+                    <input type="submit" name="ctl00$ContentPlaceHolder$forwardAllButtonTop" value=">>" id="forwardAllButtonTop" />
+                </div>
+            </div>
+			<div id="Breadcrumbs">
+                <table id="TableBreadcrumbs" border="0">
+	<tr>
+		<td><a class="CategoryBreadcrumbLink" href='All-1.html'>All</a><span id="CategoryBreadcrumbSeparator"> > </span><a class="CategoryBreadcrumbLink" href='Football-4.html'>Football</a><span id="CategoryBreadcrumbSeparator"> > </span><a class="CategoryBreadcrumbLink" href='Game_Used-5.html'>Game Used</a></td>
+	</tr>
+</table>
+
+
+            </div>
+            
+                    
+            <!-- Category uses this  -->
+            
+                    <div id="galleryList">
+                        <ul>
+                
+                        </ul>
+                    </div>
+                
+            
+            <div id="displayByBot">
+                <div id="displaybycatalogbot">
+                    <h2>Display By:</h2>
+                    <select name="ctl00$ContentPlaceHolder$displayByDropDownBot" id="displayByDropDownBot">
+	<option selected="selected" value="2">Catalog</option>
+	<option value="1">Image</option>
+	<option value="0">Lot</option>
+	<option value="3">Price Grid</option>
+
+</select>
+                </div>
+                <div id="displaybysortbot">
+                    <h2>Sort By:</h2>
+                    <select name="ctl00$ContentPlaceHolder$SortByDDLBot" id="SortByDDLBot">
+	<option value="3">Price: Highest Price</option>
+	<option value="4">Price: Lowest Price</option>
+	<option value="5">Bids: Most Bids</option>
+	<option value="6">Bids: Least Bids</option>
+	<option selected="selected" value="11">Bids: Most Recent</option>
+	<option value="7">Lot: Lowest Lot Number</option>
+	<option value="8">Lot: Highest Lot Number</option>
+
+</select>
+                </div>
+                <div id="dipslaybynumberbot">
+                    <h2>Lots Per Page:</h2>
+                    <select name="ctl00$ContentPlaceHolder$LotsPerPageDropDownBot" id="LotsPerPageDropDownBot">
+	<option value="25">25</option>
+	<option value="30">30</option>
+	<option selected="selected" value="50">50</option>
+	<option value="100">100</option>
+
+</select>
+                </div>
+                <div id="displaybypagingbot">
+                    <h2>Paging:</h2>
+                    <input type="submit" name="ctl00$ContentPlaceHolder$backAllButtonBot" value="&lt;&lt;" id="backAllButtonBot" disabled="disabled" class="aspNetDisabled" />
+                    <input type="submit" name="ctl00$ContentPlaceHolder$backButtonBot" value="&lt;" id="backButtonBot" disabled="disabled" class="aspNetDisabled" />
+                    <input name="ctl00$ContentPlaceHolder$CurrPageBotTB" type="text" value="1" id="CurrPageBotTB" />
+                    <input type="submit" name="ctl00$ContentPlaceHolder$PageJumpBotBtn" value="Go" id="PageJumpBotBtn" /><h2 id="ofpagesbot"> / 0</h2>
+                    <input type="submit" name="ctl00$ContentPlaceHolder$forwardButtonBot" value=">" id="forwardButtonBot" />
+                    <input type="submit" name="ctl00$ContentPlaceHolder$forwardAllButtonBot" value=">>" id="forwardAllButtonBot" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="CatalogContentSub"></div>
+    <input name="ctl00$ContentPlaceHolder$showMouseOver" type="text" value="0" id="showMouseOver" style="display:none;" />
+
+        </div>
+        <div id="Footer">
+            <div id="sasfooter">
+
+    
+    
+    <p align="center" style="margin:0; padding:0; "><a href="http://www.simpleauctionsite.com" target="_blank"><img src="Userfiles/image/home-saslogo.png" style="border-width:0px; margin:0; padding:0;" /></a></p>
+<p align="center" style="font-family:Verdana;font-size:10px; color:#555; padding:0px 0 15px 0; margin:0;">© Software Copyright 2004-2015 <a href="http://www.simpleauctionsite.com" target="_blank" style="color:#829eb1;">SimpleAuctionSite</a>.  All rights reserved.</p>
+
+</div>
+            
+        </div>
+    </div>
+    </form>
+</body>
+</html>

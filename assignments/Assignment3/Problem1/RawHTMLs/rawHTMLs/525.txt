@@ -1,0 +1,634 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><link rel="stylesheet" type="text/css" href="/WebResource.axd?d=h2P8ZkbrH_KrnQCySwJHwqIyj3udUAXBxQZmkkzs3JHDS7BksXD9lHSiD3sxsFVNt1kvogur9kr85euRx2UtRJsWA2CoykCnJONtBLEO_8lK7hrSwXcAxrrCSpsPGzFw_m8i2w9RwNmbTf0LLu5WhjopZUdq-OmenuRE16Z_U6vq79b2AUkSk5RYkfi-PWs_0&amp;t=635102039638281250" />
+
+
+<style type="text/css" media="all">
+	@import "/master/info/stylesheet.css";
+</style>
+
+<!--[if lt IE 8]>
+	<style type="text/css" media="all">
+		@import "/master/info/stylesheetie.css";
+	</style>
+<![endif]-->
+
+<!--[if lt IE 7]>
+	<script defer type="text/javascript" src="/master/info/pngfix.js"></script>
+	<style type="text/css" media="all">
+		@import "/master/info/stylesheetie6.css";
+	</style>
+<![endif]-->
+
+<link rel="shortcut icon" href="/images/favicon.ico" /><meta name="author" content="MyRec.com" /><meta http-equiv="content-language" content="en-US" /><meta name="copyright" content="©  MyRec.com" />
+<script type="text/javascript" src="/info/scripts.js"></script>
+
+
+	<style type="text/css" media="all">
+	#tutorial {display: block;}
+	.softmain {width: auto;}
+	body {max-width: 980px; min-width: 765px; width: expression(Math.max(Math.min(document.documentElement.clientWidth - 20, 980), 765));}
+	#xCart {display: none;}
+	#MainContent .softmain p {padding: 0 1em;}
+	.soft .bodybg {width: auto;}
+	
+			.CrispAnncPadding {padding-top: 2.1em;}
+	
+	#Announcements, #Community, #Community2 {display: block;}
+	#MainContent {padding-top: 0;}
+	
+	</style>
+	<!--[if gt IE 6]>
+		<style type="text/css" media="all">
+			body {width: 99.6%;}
+		</style>
+	<![endif]-->
+	<meta name="keywords" content=" recreation website building program, administrative management system, on line registration, roster and facility management, website software, easy navigation, recreation center, administrative capabilities, recreation department" />
+
+<script type="text/javascript" src="/info/includes/fancybox2/jquery-1.7.1.min.js"></script><script type="text/javascript" src="/info/includes/fancybox2/jquery.mousewheel-3.0.6.pack.js"></script><script type="text/javascript" src="/info/includes/fancybox2/jquery.fancybox.js"></script><link rel="stylesheet" type="text/css" href="/info/includes/fancybox2/jquery.fancybox.css" media="screen"></link><script type="text/javascript" src="/info/includes/jquery/jquery.mask.min.js"></script><script type="text/javascript" src="/info/includes/jquery-ui-1.10.2.custom/js/jquery-ui-1.10.2.custom.js"></script><link rel="stylesheet" type="text/css" href="/info/includes/jquery-ui-1.10.2.custom/css/themes/eggplant/jquery-ui.css" media="screen"></link><script type="text/javascript" src="/info/includes/jquery.timeentry.package/jquery.timeentry.min.js"></script><script type="text/javascript" src="/info/includes/jquery.dateentry.package/jquery.dateentry.js"></script><title>
+	Granby Parks & Recreation: Online Activity Registration, Recreation Software
+</title></head>
+<style type="text/css" media="all">
+	.mainbgimg {background: url(/master/info/images/bgimage2.png) no-repeat right top;}
+</style>
+<!--[if lt IE 7]>
+	<script defer type="text/javascript" src="/master/info/pngfix.js"></script>
+	<style type="text/css" media="all">
+		.mainbgimg {background-image: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/master/info/images/bgimage2.png', sizingMethod='image');}
+	</style>
+<![endif]-->
+
+<body>
+
+
+<form method="post" action="./default.aspx" id="frmMain">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTEzMDQ2MTM3Mg9kFgJmD2QWBmYPZBYCAggPZBYCAgEPFgIeB1Zpc2libGVnZAIBDxYCHwBoZAICD2QWHGYPPCsABgEADxYCHg5fIVVzZVZpZXdTdGF0ZWdkFgJmD2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYCZg9kFgICAQ9kFgJmD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAIJFhJmD2QWCAIBDxYEHgVWYWx1ZQUEMTEyMx8AaGQCAg8VAgQxMTIzCUJ1cyBUcmlwc2QCAw8WBB8CAgQfAGcWCGYPZBYCZg8VAgUyNTkzMyNCb3N0b24gUmVkIFNveCBHYW1lcyBhdCBGZW53YXkgUGFya2QCAQ9kFgJmDxUCBTI5Mjk5MEJvc3RvbiBSZWQgU294IHZzIE5ldyBZb3JrIFlhbmtlZXMgaW4gdGhlIEJyb254IWQCAg9kFgJmDxUCBTI5MjgzEkJyb254IFpvbyBCdXMgVHJpcGQCAw9kFgJmDxUCBTI0MzI2CU5ZQyBUcmlwc2QCBA8UKwIBZGQCAQ9kFggCAQ8WBB8DBQQxMTI3HwBoZAICDxUCBDExMjcQQWR1bHQgQWN0aXZpdGllc2QCAw8WBB8CAgUfAGcWCmYPZBYCZg8VAgUyOTM0MztDYXJkIE1ha2luZyBDbGFzcyAtIENocmlzdG1hcy9Ib2xpZGF5IENhcmRzIC0gU3RhbXAgYSBTdGFja2QCAQ9kFgJmDxUCBTI5MzU5K0NhcmQgTWFraW5nIENsYXNzIC0gU3BlY2lhbCBUZWNobmlxdWUgQ2xhc3NkAgIPZBYCZg8VAgUyOTM1NzJDYXJkIE1ha2luZyBDbGFzcyAtIFN0YW1wIGEgU3RhY2sgLSBHcmVldGluZyBDYXJkc2QCAw9kFgJmDxUCBTI5MzQyIENhcmQgTWFraW5nIENsYXNzIC0gVGluIG9mIENhcmRzZAIED2QWAmYPFQIFMjkzNTMcQ29tZWR5IE5pZ2h0IGF0IEhvbGNvbWIgRmFybWQCBA8VAVU8YSAgY2xhc3M9Im1vcmV0ZXh0IiBocmVmPSIvaW5mby9hY3Rpdml0aWVzL2RlZmF1bHQuYXNweD9DYXRlZ29yeUlEPTExMjciPk1vcmUuLi48L2E+ZAICD2QWCAIBDxYEHwMFBDExMjQfAGhkAgIPFQIEMTEyNAxZb3V0aCBTcG9ydHNkAgMPFgQfAgIFHwBnFgpmD2QWAmYPFQIFMjkyNzIqQmFza2V0YmFsbCwgR3JhbmJ5IFlvdXRoIEJhc2tldGJhbGwgTGVhZ3VlZAIBD2QWAmYPFQIFMjU2MTcbSW5kb29yIEZpZWxkIEhvY2tleSBDbGluaWNzZAICD2QWAmYPFQIFMjkyOTgpSW5kb29yIEZpZWxkIEhvY2tleSBMZWFndWUgRm9yIEdyYWRlcyA1LThkAgMPZBYCZg8VAgUyNTk4NDNJbmRvb3IgRmllbGQgSG9ja2V5IExlYWd1ZSBmb3IgSGlnaCBTY2hvb2wgU3R1ZGVudHNkAgQPZBYCZg8VAgUyOTI3OS5TcHJpbmcgUHJlc2Vhc29uIENvbmRpdGlvbmluZyBhbmQgRml0bmVzcyBDYW1wZAIEDxUBVTxhICBjbGFzcz0ibW9yZXRleHQiIGhyZWY9Ii9pbmZvL2FjdGl2aXRpZXMvZGVmYXVsdC5hc3B4P0NhdGVnb3J5SUQ9MTEyNCI+TW9yZS4uLjwvYT5kAgMPZBYIAgEPFgQfAwUEMTEyOB8AaGQCAg8VAgQxMTI4FUNoaWxkcmVuJ3MgQWN0aXZpdGllc2QCAw8WBB8CAgUfAGcWCmYPZBYCZg8VAgUyOTMxNCVBZnRlciBTY2hvb2wgTEVHTyBFbnJpY2htZW50IFByb2dyYW1zZAIBD2QWAmYPFQIFMjkzMzQqQWZ0ZXIgU2Nob29sIFNwb3J0IENsdWJzIGJ5IEFsbCBQcm8gU3BvcnRzZAICD2QWAmYPFQIFMjYyNjctQW1lcmljYW4gUmVkIENyb3NzICJXaGVuIEknbSBpbiBDaGFyZ2UiIENsYXNzZAIDD2QWAmYPFQIFMjQ3NzclQW1lcmljYW4gUmVkIENyb3NzIEJhYnlzaXR0aW5nIENvdXJzZWQCBA9kFgJmDxUCBTI5MzA5D0NyZWF0aXZpdHkgQ2FtcGQCBA8VAVU8YSAgY2xhc3M9Im1vcmV0ZXh0IiBocmVmPSIvaW5mby9hY3Rpdml0aWVzL2RlZmF1bHQuYXNweD9DYXRlZ29yeUlEPTExMjgiPk1vcmUuLi48L2E+ZAIED2QWCAIBDxYEHwMFBDEzMTUfAGhkAgIPFQIEMTMxNRZTdW1tZXIgRGF5L1Nwb3J0IENhbXBzZAIDDxYEHwICBR8AZxYKZg9kFgJmDxUCBTI2NTczGlNhbG1vbiBCcm9vayBQYXJrIERheSBDYW1wZAIBD2QWAmYPFQIFMjY3NjIuTWlzc2lvbjogQWR2ZW50dXJlLCAgYSBDYW1wIGZvciBUZWVucyAmIFR3ZWVuc2QCAg9kFgJmDxUCBTI2MzI3JUJhc2ViYWxsIENhbXAsIENocmlzIENvcmt1bSAgQmFzZWJhbGxkAgMPZBYCZg8VAgUyNjMzMhpCZWFycyBCb3lzIEJhc2tldGJhbGwgQ2FtcGQCBA9kFgJmDxUCBTI2NDA0G0JlYXJzIEdpcmxzIEJhc2tldGJhbGwgQ2FtcGQCBA8VAVU8YSAgY2xhc3M9Im1vcmV0ZXh0IiBocmVmPSIvaW5mby9hY3Rpdml0aWVzL2RlZmF1bHQuYXNweD9DYXRlZ29yeUlEPTEzMTUiPk1vcmUuLi48L2E+ZAIFD2QWCAIBDxYEHwMFBDEzMTQfAGhkAgIPFQIEMTMxNBpTdW1tZXIgRW5yaWNobWVudCBQcm9ncmFtc2QCAw8WBB8CAgQfAGcWCGYPZBYCZg8VAgUyNjYwNCNMRUdPIENhbXBzIGJ5IFBsYXktV2VsbCBURUtub2xvZ2llc2QCAQ9kFgJmDxUCBTI5MzU4I0xlZ29GbGl4ICYgRW5naW5lZXJpbmcgRnVuZGFtZW50YWxzZAICD2QWAmYPFQIFMjYzOTUoTGV0J3MgR29naCBBcnQgU3VtbWVyIEFydC1WZW50dXJlcyBDYW1wc2QCAw9kFgJmDxUCBTI2Mzk0EFN1bW1lciBCYW5kIENhbXBkAgQPFCsCAWRkAgYPZBYIAgEPFgQfAwUEMTEyNh8AaGQCAg8VAgQxMTI2D0NhbXBzICYgQ2xpbmljc2QCAw8WBB8CAgEfAGcWAmYPZBYCZg8VAgUyNzExOTNBbGwgUHJvIFNwb3J0cyBTY2hvb2wgVmFjYXRpb24gTXVsdGktU3BvcnQgUHJvZ3JhbXNkAgQPFCsCAWRkAgcPZBYIAgEPFgQfAwUEMTMwMB8AaGQCAg8VAgQxMzAwHVNhbG1vbiBCcm9vayBQYXJrICBNZW1iZXJzaGlwZAIDDxYEHwICAR8AZxYCZg9kFgJmDxUCBTI2NTk0HFNhbG1vbiBCcm9vayBQYXJrIE1lbWJlcnNoaXBkAgQPFCsCAWRkAggPZBYIAgEPFgQfAwUEMTEzMB8AaGQCAg8VAgQxMTMwBkV2ZW50c2QCAw8WBB8CAgMfAGcWBmYPZBYCZg8VAgUyOTM1MxxDb21lZHkgTmlnaHQgYXQgSG9sY29tYiBGYXJtZAIBD2QWAmYPFQIFMjkzMDEaR3JlZW4gRWdncyAmIEhhbSBCcmVha2Zhc3RkAgIPZBYCZg8VAgUyOTM1NiVJcmlzaCBNdXNpYyBOaWdodCBhdCB0aGUgSG9sY29tYiBGYXJtZAIEDxQrAgFkZAIFDxYCHwBnZAIGDxYCHwBnFgICAQ9kFgJmDw8WAh4HQ29sdW1ucwIZFgIeCW9uS2V5RG93bgUZS2V5RG93bkhhbmRsZXIoYnRuU2VhcmNoKWQCBw8PFgIeBFRleHQFGUdyYW5ieSBQYXJrcyAmIFJlY3JlYXRpb25kZAIIDxYCHwBnFgwCAQ8PFgQfBgUJVG93biBTaXRlHgtOYXZpZ2F0ZVVybAUYaHR0cDovL3d3dy5ncmFuYnktY3QuZ292ZGQCAg8PFgQfBgUETmV3cx8HBQsvaW5mby9uZXdzL2RkAgMPDxYEHwYFCkFmZmlsaWF0ZXMfBwURL2luZm8vYWZmaWxpYXRlZC9kZAIEDw8WBB8GBQRIZWxwHwcFCy9pbmZvL2hlbHAvZGQCBQ8PFgQfBgUHQ29udGFjdB8HBQ4vaW5mby9jb250YWN0L2RkAgYPDxYEHwYFCENhbGVuZGFyHwcFK2h0dHA6Ly93d3cuZ3JhbmJ5cmVjLmNvbS9pbmZvL2RlZmF1bHQuYXNweCMWAh4HT25DbGljawUST3BlbkNhbGVuZGFyKCcwJyk7ZAIJDxYCHwBnFhICAQ8PFgQfBgUESG9tZR8HBQYvaW5mby9kZAICDw8WBB8GBQpBY3Rpdml0aWVzHwcFES9pbmZvL2FjdGl2aXRpZXMvZGQCAw8PFgIfAGhkZAIEDw8WBB8GBQ1Bbm5vdW5jZW1lbnRzHwcFGC9pbmZvL2Fubm91bmNlbWVudHMuYXNweGRkAgUPDxYEHwYFCURlcHQgSW5mbx8HBQsvaW5mby9kZXB0L2RkAgYPDxYEHwYFCkZhY2lsaXRpZXMfBwURL2luZm8vZmFjaWxpdGllcy9kZAIHDw8WBB8GBQhNZWV0aW5ncx8HBQ8vaW5mby9tZWV0aW5ncy9kZAIIDw8WBB8GBQdHYWxsZXJ5HwcFDi9pbmZvL2dhbGxlcnkvZGQCCQ8PFgQfBgUJVGVhbSBJbmZvHwcFCy9pbmZvL3RlYW0vZGQCCg8PFgIfAGdkFgICAQ8PFgIfAGdkFgICAQ8PFgIfBwUzaHR0cHM6Ly93d3cuZ3JhbmJ5cmVjLmNvbS9pbmZvL2hvdXNlaG9sZC9sb2dpbi5hc3B4ZGQCCw9kFgICCA8PFgIfBwUqamF2YXNjcmlwdDogQ2hvb3NlTWVtYmVyKCdmcm1NYWluJywnJywnJyk7ZGQCDg8PFgIfBgXpAjwhLS0gKGMpIDIwMDUsIDIwMTEuIEF1dGhvcml6ZS5OZXQgaXMgYSByZWdpc3RlcmVkIHRyYWRlbWFyayBvZiBDeWJlclNvdXJjZSBDb3Jwb3JhdGlvbiAtLT4gPGRpdiBjbGFzcz0iQXV0aG9yaXplTmV0U2VhbCI+IDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBsYW5ndWFnZT0iamF2YXNjcmlwdCI+dmFyIEFOU19jdXN0b21lcl9pZD0iYTM0OTNkYWQtYjhhZS00NTcyLTk4NDAtNDE5NjA3OTJjZTZlIjs8L3NjcmlwdD4gPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIGxhbmd1YWdlPSJqYXZhc2NyaXB0IiBzcmM9Ii8vdmVyaWZ5LmF1dGhvcml6ZS5uZXQvYW5ldHNlYWwvc2VhbC5qcyIgPjwvc2NyaXB0PiA8L2Rpdj5kZAIQD2QWAgIBD2QWCAIBDw8WAh8GZWRkAg8PFgIfAGhkAhMPFgIfAGhkAhcPFgIfAGhkAhEPZBYCAgEPFgQfAgIBHwBnFgJmD2QWAmYPFQI/PGI+PGNlbnRlcj48Zm9udCBzaXplPSI0Ij5HcmFuYnkgUmVjcmVhdGlvbjwvYj48L2ZvbnQ+PC9jZW50ZXI+ogo8cD5UaGUgR3JhbmJ5IFJlY3JlYXRpb24gRGVwdCBpcyBwcm91ZCB0byBwcm92aWRlIHRoZSBUb3duIG9mIEdyYW5ieSB3aXRoIG91ciBhY3Rpdml0eSByZWdpc3RyYXRpb24gc3lzdGVtIGFuZCB3ZWJzaXRlLiBUbyBnZXQgc3RhcnRlZCBwbGVhc2UgPGEgaHJlZj0iLi4vLi4vLi4vaW5mby9ob3VzZWhvbGQvYWNjb3VudF9jaGVjay5hc3B4Ij48c3Ryb25nPjxzcGFuIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsiPkNyZWF0ZSBhbiBBY2NvdW50PC9zcGFuPjwvc3Ryb25nPjwvYT4gd2l0aCBhbGwgeW91ciBob3VzZWhvbGQgaW5mb3JtYXRpb24uIFRoZSBkYXRhIHByb3ZpZGVkOyBlbWVyZ2VuY3kgY29udGFjdHMsIGFsbGVyZ2llcyBpbmZvIGFuZCBtb3JlLCB3aWxsIGhlbHAgdXMgYmV0dGVyIHNlcnZlIHlvdS4gVGhpcyBpbmZvIHdpbGwgYWxzbyBhdXRvbWF0aWNhbGx5IGZpbGwgb3V0IHlvdXIgcmVnaXN0cmF0aW9uIGZvcm1zLiA8YnIgLz48YnIgLz5XaGVuIHlvdSZyc3F1bztyZSByZWFkeSB0byBjb21wbGV0ZSBhIHJlZ2lzdHJhdGlvbiBmb3JtIGZvciA8YSBocmVmPSIuLi8uLi8uLi9pbmZvL2FjdGl2aXRpZXMiPjxzdHJvbmc+PHNwYW4gc3R5bGU9InRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyI+YWN0aXZpdGllczwvc3Bhbj48L3N0cm9uZz48L2E+IGJlIHN1cmUgdG8gcmV2aWV3IHRoZSA8YSBocmVmPSIuLi8uLi8uLi9pbmZvL3R1dG9yaWFsIj48c3Ryb25nPjxzcGFuIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsiPkhvdyB0byBSZWdpc3RlciBmb3IgYW4gQWN0aXZpdHk8L3NwYW4+PC9zdHJvbmc+PC9hPiBwYWdlLjxiciAvPjxiciAvPjwvcD4NCjxjZW50ZXI+PHN0cm9uZz5Db250YWN0IEluZm88L3N0cm9uZz48YnIgLz48c3BhbiBzdHlsZT0iY29sb3I6IGdyYXk7Ij5Db250YWN0IHRoZSBPZmZpY2U6PC9zcGFuPiA8YSBocmVmPSJtYWlsdG86cmVjcmVhdGlvbkBncmFuYnktY3QuZ292Ij5HcmFuYnkgUmVjcmVhdGlvbjwvYT48YnIgLz48c3BhbiBzdHlsZT0iY29sb3I6IGdyYXk7Ij5QaG9uZTo8L3NwYW4+IDg2MC02NTMtODk0NzxiciAvPjxzcGFuIHN0eWxlPSJjb2xvcjogZ3JheTsiPk9mZmljZSBIb3Vyczo8L3NwYW4+IDxiciAvPk1vbmRheS1GcmlkYXksIDktNFBNIG9yIGJ5IGFwcHQuPGJyIC8+PGJyIC8+PHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6IHJlZDsgZm9udC1zaXplOiBtZWRpdW07Ij5PTkxJTkUgQ1JFRElUIENBUkQgUEFZTUVOVCBJUyBOT1cgQVZBSUxBQkxFITwvc3Bhbj48L3N0cm9uZz48YnIgLz48YnIgLz48YnIgLz48L2NlbnRlcj5kAhQPZBYCAgEPFgQfAgINHwBnFhpmD2QWEAIBDxYCHwMFDzUzNjcwXzE3MDM1LmpwZ2QCAw8WAh8DBQVGYWxzZWQCBQ8WAh8DZWQCBw8WAh8DBQVGYWxzZWQCCQ8WAh8DZWQCCw8PFgIfAGhkZAIMDw8WCB4ISW1hZ2VVcmwFGi9QaG90b1Bvb2wvNTM2NzBfMTcwMzUuanBnHgdUb29sVGlwZR4NQWx0ZXJuYXRlVGV4dGUfAGdkZAINDxUBiwJKb2luIHVzIGZvciBhbiBBZHVsdHMgb25seSBmdW4gbmlnaHQgb3V0ISA8c3Ryb25nPjxhIGhyZWY9Ii9pbmZvL2FjdGl2aXRpZXMvcHJvZ3JhbV9kZXRhaWxzLmFzcHg/UHJvZ3JhbUlEPTI5MzUzIiB0YXJnZXQ9Il9ibGFuayI+Q2xpY2sgaGVyZSBmb3IgbW9yZSBpbmZvcm1hdGlvbiBhbmQgdG8gcHVyY2hhc2UgdGlja2V0czwvYT48L3N0cm9uZz4uJm5ic3A7IFNwb25zb3JlZCBieSBMaXRlJ24nVXAgRWF0ZXJ5IGFuZCBUaGUgR3JhbmJ5IFJlY3JlYXRpb24gRGVwdC5kAgEPZBYQAgEPFgIfAwUPNTM2NzBfMTY5NzQuanBnZAIDDxYCHwMFBUZhbHNlZAIFDxYCHwNlZAIHDxYCHwMFBUZhbHNlZAIJDxYCHwNlZAILDw8WAh8AaGRkAgwPDxYIHwkFGi9QaG90b1Bvb2wvNTM2NzBfMTY5NzQuanBnHwplHwtlHwBnZGQCDQ8VAb0DPHNwYW4gc3R5bGU9ImNvbG9yOiAjMzM5OTY2OyI+PHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6ICMwMDk5MDA7IGZvbnQtc2l6ZTogc21hbGw7Ij5HcmVlbiBFZ2dzICZhbXA7IEhhbSBCcmVha2Zhc3Q8L3NwYW4+PGJyIC8+PC9zdHJvbmc+PC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+WW91IHNob3VsZCBub3QsIHdpbGwgbm90IHdhbnQgdG8gbWlzczwvc3Bhbj48YnIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPkEgZnVuLWZpbGxlZCBicmVha2Zhc3QgcXVpdGUgbGlrZSB0aGlzPC9zcGFuPjxiciAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+PGEgaHJlZj0iL2luZm8vYWN0aXZpdGllcy9wcm9ncmFtX2RldGFpbHMuYXNweD9Qcm9ncmFtSUQ9MjkzMDEiPkNMSUNLIEhFUkUgRk9SIEFMTCBUSEUgSU5GTyE8L2E+PC9zcGFuPmQCAg9kFhACAQ8WAh8DBQ81MzY3MF8xNzAzOC5qcGdkAgMPFgIfAwUFRmFsc2VkAgUPFgIfA2VkAgcPFgIfAwUFRmFsc2VkAgkPFgIfA2VkAgsPDxYCHwBoZGQCDA8PFggfCQUaL1Bob3RvUG9vbC81MzY3MF8xNzAzOC5qcGcfCmUfC2UfAGdkZAINDxUBkAM8c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMHB0OyI+PHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6ICMwMDgwMDA7Ij5JUklTSCBNVVNJQyBOSUdIVDwvc3Bhbj48L3N0cm9uZz4gYXQgdGhlIEhvbGNvbWIgRmFybTwvc3Bhbj48YnIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMHB0OyI+U2F0dXJkYXksIE1hcmNoIDE5PC9zcGFuPjxiciAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEwcHQ7Ij48YSBocmVmPSIvaW5mby9hY3Rpdml0aWVzL3Byb2dyYW1fZGV0YWlscy5hc3B4P1Byb2dyYW1JRD0yOTM1NiI+Q2xpY2sgaGVyZSBmb3IgbW9yZSBpbmZvPC9hPjxiciAvPlNwb25zb3JlZCBieSBMaXRlJ04nVXAgRWF0ZXJ5IGFuZCB0aGUgR3JhbmJ5IFJlY3JlYXRpb24gRGVwdC48YnIgLz48L3NwYW4+ZAIDD2QWEAIBDxYCHwMFDzUzNjcwXzE3MDI3LmpwZ2QCAw8WAh8DBQVGYWxzZWQCBQ8WAh8DZWQCBw8WAh8DBQVGYWxzZWQCCQ8WAh8DZWQCCw8PFgIfAGhkZAIMDw8WCB8JBRovUGhvdG9Qb29sLzUzNjcwXzE3MDI3LmpwZx8KZR8LZR8AZ2RkAg0PFQHZAzxzcGFuIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+PHNwYW4gc3R5bGU9ImNvbG9yOiAjZmYwMDAwOyI+PHN0cm9uZz5IYXZpbmcgYSBIb2xpZGF5IFBhcnR5Pzwvc3Ryb25nPjwvc3Bhbj4mbmJzcDsgV2UgaGF2ZSBqdXN0IHRoZSBzcGFjZSBmb3IgeW91ISZuYnNwO0NhbGwgdXMgdG8gZ2V0Jm5ic3A7aW5mb3JtYXRpb24gb24gcmVudGluZyB0aGUgbmV3IDxhIGhyZWY9Imh0dHA6Ly93d3cuZ3JhbmJ5cmVjLmNvbS9pbmZvL2dhbGxlcnkvIj48ZW0+PHN0cm9uZz5Ob3J0aCBCYXJuIFBhdmlsaW9uPC9zdHJvbmc+PC9lbT48L2E+IGF0IEhvbGNvbWIgRmFybSBvciB0aGUgPGEgaHJlZj0iaHR0cDovL3d3dy5ncmFuYnlyZWMuY29tL2luZm8vZ2FsbGVyeS9kZWZhdWx0LmFzcHg/Q2F0ZWdvcnlJRD04NiI+PHN0cm9uZz48ZW0+R2F0aGVyaW5nIFJvb208L2VtPjwvc3Ryb25nPjwvYT4gYXQgU0JQLiA4NjAtNjUzLTg5NDc8L3NwYW4+ZAIED2QWEAIBDxYCHwMFDzUzNjcwXzE1NzMxLmpwZ2QCAw8WAh8DBQVGYWxzZWQCBQ8WAh8DZWQCBw8WAh8DBQVGYWxzZWQCCQ8WAh8DZWQCCw8PFgIfAGhkZAIMDw8WCB8JBRovUGhvdG9Qb29sLzUzNjcwXzE1NzMxLmpwZx8KZR8LZR8AZ2RkAg0PFQGfAzxhIGhyZWY9Ii4uLy4uLy4uL2luZm8vYWN0aXZpdGllcy9wcm9ncmFtX2RldGFpbHMuYXNweD9Qcm9ncmFtSUQ9MjU2MTciPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImNvbG9yOiAjZmYwMDAwOyI+SW5kb29yIEZpZWxkIEhvY2tleSBDbGluaWNzIEZvciBHcmFkZXMgNS04PC9zcGFuPjwvc3Ryb25nPjwvYT4gYmVnaW4gd2VlayBvZiBGZWIgOCBhbmQgPGEgaHJlZj0iLi4vLi4vLi4vaW5mby9hY3Rpdml0aWVzL3Byb2dyYW1fZGV0YWlscy5hc3B4P1Byb2dyYW1JRD0yNTk4NCI+PHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6ICMwMDAwZmY7Ij5XaW50ZXIgSW5kb29yIEhpZ2ggU2Nob29sIEZpZWxkIEhvY2tleSBMZWFndWU8L3NwYW4+PC9zdHJvbmc+IDwvYT5iZWdpbiB0aGUgd2VlayBvZiBGZWIuIDIzLiBSZWdpc3RlciB0b2RheS5kAgUPZBYQAgEPFgIfAwULMF8xMzgyNi5qcGdkAgMPFgIfAwUEVHJ1ZWQCBQ8WAh8DZWQCBw8WAh8DBQVGYWxzZWQCCQ8WAh8DBStXb21hbiBzdHJldGNoaW5nIGluIGEgZmllbGQgYmVmb3JlIHJ1bm5pbmcuZAILDw8WAh8AaGRkAgwPDxYIHwkFGy9TdG9ja1Bob3RvUG9vbC8wXzEzODI2LmpwZx8KBStXb21hbiBzdHJldGNoaW5nIGluIGEgZmllbGQgYmVmb3JlIHJ1bm5pbmcuHwsFK1dvbWFuIHN0cmV0Y2hpbmcgaW4gYSBmaWVsZCBiZWZvcmUgcnVubmluZy4fAGdkZAINDxUB9gE8cD48c3BhbiBzdHlsZT0iY29sb3I6ICNmZjAwMDA7IGZvbnQtc2l6ZTogc21hbGw7Ij48c3Ryb25nPlByZS1TZWFzb24gQ29uZGl0aW9uaW5nJm5ic3A7JmFtcDsgRml0bmVzcyBDbGluaWM8L3N0cm9uZz48L3NwYW4+PGJyIC8+PGEgaHJlZj0iL2luZm8vYWN0aXZpdGllcy9wcm9ncmFtX2RldGFpbHMuYXNweD9Qcm9ncmFtSUQ9MjkyNzkiPkNMSUNLIEhFUkUgVE8gR0VUIElORk8gJmFtcDsgUkVHSVNURVIgT05MSU5FPC9hPjwvcD5kAgYPZBYQAgEPFgIfAwULMF8xNDA1MS5qcGdkAgMPFgIfAwUEVHJ1ZWQCBQ8WAh8DZWQCBw8WAh8DBQVGYWxzZWQCCQ8WAh8DBRVBc3NvcnRlZCBTb2NjZXIgQmFsbHNkAgsPDxYCHwBoZGQCDA8PFggfCQUbL1N0b2NrUGhvdG9Qb29sLzBfMTQwNTEuanBnHwoFFUFzc29ydGVkIFNvY2NlciBCYWxscx8LBRVBc3NvcnRlZCBTb2NjZXIgQmFsbHMfAGdkZAINDxUB+QE8c3BhbiBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImNvbG9yOiAjZmYwMDAwOyI+QUZURVIgU0NIT09MIFNQT1JUIENMVUJTIEFSRSBCQUNLITwvc3Bhbj48L3N0cm9uZz4gPGEgaHJlZj0iL2luZm8vYWN0aXZpdGllcy9wcm9ncmFtX2RldGFpbHMuYXNweD9Qcm9ncmFtSUQ9MjkzMzQiPkNsaWNrIGhlcmUgZm9yIG1vcmUgaW5mbzwvYT48L3NwYW4+PGJyIC8+PHN0cm9uZz48YnIgLz48L3N0cm9uZz5kAgcPZBYQAgEPFgIfAwUPNTM2NzBfMTY5OTMuanBnZAIDDxYCHwMFBUZhbHNlZAIFDxYCHwNlZAIHDxYCHwMFBUZhbHNlZAIJDxYCHwNlZAILDw8WAh8AaGRkAgwPDxYIHwkFGi9QaG90b1Bvb2wvNTM2NzBfMTY5OTMuanBnHwplHwtlHwBnZGQCDQ8VAewBPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij5OZXchIDxzcGFuIHN0eWxlPSJjb2xvcjogIzMzOTk2NjsiPjxzdHJvbmc+SXRhbGlhbiBDbGFzczwvc3Ryb25nPiA8L3NwYW4+Zm9yIEFkdWx0cyAtIEJlZ2lucyBKYW51YXJ5IDExLSA8YSBocmVmPSIvaW5mby9hY3Rpdml0aWVzL3Byb2dyYW1fZGV0YWlscy5hc3B4P1Byb2dyYW1JRD0yOTMxOCI+Q2xpY2sgaGVyZSBmb3IgbW9yZSBpbmZvPC9hPjwvc3Bhbj5kAggPZBYQAgEPFgIfAwUPNTM2NzBfMTU4NzcuanBnZAIDDxYCHwMFBUZhbHNlZAIFDxYCHwNlZAIHDxYCHwMFBUZhbHNlZAIJDxYCHwNlZAILDw8WAh8AaGRkAgwPDxYIHwkFGi9QaG90b1Bvb2wvNTM2NzBfMTU4NzcuanBnHwplHwtlHwBnZGQCDQ8VAaABPGEgaHJlZj0iL2luZm8vYWN0aXZpdGllcy9wcm9ncmFtX2RldGFpbHMuYXNweD9Qcm9ncmFtSUQ9MjYzMjAiIHRhcmdldD0ibmV3Ij48c3Ryb25nPkNsaWNrIEhlcmU8L3N0cm9uZz48L2E+IHRvIGdldCBpbmZvIG9uIHRoaXMgc3VtbWVyJ3MgU2t5aGF3a3MgU3VtbWVyIENhbXBzLmQCCQ9kFhACAQ8WAh8DBQ81MzY3MF8xNTkwMS5qcGdkAgMPFgIfAwUFRmFsc2VkAgUPFgIfA2VkAgcPFgIfAwUFRmFsc2VkAgkPFgIfA2VkAgsPDxYCHwBoZGQCDA8PFggfCQUaL1Bob3RvUG9vbC81MzY3MF8xNTkwMS5qcGcfCmUfC2UfAGdkZAINDxUB+QM8cD48c3BhbiBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPkFmdGVyIHNjaG9vbCBwcm9ncmFtIHdpdGggPGJyIC8+PHNwYW4gc3R5bGU9ImNvbG9yOiAjZmYwMDAwOyI+PHN0cm9uZz5MZXQncyBHb2doIEFydDwvc3Ryb25nPjwvc3Bhbj4hPC9zcGFuPjxiciAvPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+TmV3IFNlc3Npb24gQmVnaW5zIEZlYnJ1YXJ5IDMgYXQgPGEgaHJlZj0iL2luZm8vYWN0aXZpdGllcy9wcm9ncmFtX2RldGFpbHMuYXNweD9Qcm9ncmFtSUQ9MjkzNDQiPktlbGx5IExhbmUgPC9hPiZuYnNwOyZhbXA7IEZlYnJ1YXJ5IDUgYXQgPGEgaHJlZj0iL2luZm8vYWN0aXZpdGllcy9wcm9ncmFtX2RldGFpbHMuYXNweD9Qcm9ncmFtSUQ9MjkzNTAiPktlYXJucyBTY2hvb2w8L2E+ITwvc3Bhbj48YnIgLz48c3BhbiBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPkNsaWNrIG9uIHlvdXIgc2Nob29sJm5ic3A7dG8gZ2V0IG1vcmUgaW5mbyZuYnNwOzwvc3Bhbj48L3A+ZAIKD2QWEAIBDxYCHwMFDzUzNjcwXzE1OTIzLmpwZ2QCAw8WAh8DBQVGYWxzZWQCBQ8WAh8DZWQCBw8WAh8DBQVGYWxzZWQCCQ8WAh8DZWQCCw8PFgIfAGhkZAIMDw8WCB8JBRovUGhvdG9Qb29sLzUzNjcwXzE1OTIzLmpwZx8KZR8LZR8AZ2RkAg0PFQHDAjxwPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+TG9va2luZyBmb3IgYSBTdW1tZXIgSm9iPyBXZSB3aWxsIGJlIGhpcmluZyBjYW1wIGNvdW5zZWxvcnMsIGxpZmVndWFyZHMgYW5kIGNvbmNlc3Npb25zIHN0YWZmLiZuYnNwOyA8YSBocmVmPSJodHRwOi8vd3d3LmdyYW5ieS1jdC5nb3YvUHVibGljX0RvY3VtZW50cy9HcmFuYnlDVF9XZWJEb2NzL2dyYW5ieWpvYnMiPkNMSUNLIEhFUkU8L2E+IHRvIGFjY2VzcyBvdXIgam9iIGFwcGxpY2F0aW9uLiZuYnNwOyBIdXJyeSEgRGVhZGxpbmUgZm9yIGFwcGxpY2F0aW9ucyBpcyBBcHJpbCAxLjwvc3Bhbj48L3A+ZAILD2QWEAIBDxYCHwMFDzUzNjcwXzE2OTMwLmpwZ2QCAw8WAh8DBQVGYWxzZWQCBQ8WAh8DZWQCBw8WAh8DBQVGYWxzZWQCCQ8WAh8DZWQCCw8PFgIfAGhkZAIMDw8WCB8JBRovUGhvdG9Qb29sLzUzNjcwXzE2OTMwLmpwZx8KZR8LZR8AZ2RkAg0PFQGmAzxzcGFuIHN0eWxlPSJjb2xvcjogIzAwODAwMDsgZm9udC1zaXplOiBzbWFsbDsiPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImNvbG9yOiAjMDAwMGZmOyI+TGlvbnMsICZhbXA7IFRpZ2VyICZhbXA7IEJlYXJzLCBPaCBNeSEmbmJzcDs8L3NwYW4+PC9zdHJvbmc+IEpvaW4gdXMgb24gQXVndXN0IDIyIGZvciBhIHRyaXAgdG8gdGhlIHdvcmxkIGZhbW91cyA8c3Ryb25nPkJyb254IFpvbzwvc3Ryb25nPi4mbmJzcDsgPHNwYW4gc3R5bGU9ImNvbG9yOiAjMDAwMGZmOyI+PGEgaHJlZj0iL2luZm8vYWN0aXZpdGllcy9wcm9ncmFtX2RldGFpbHMuYXNweD9Qcm9ncmFtSUQ9MjkyODMiIHRhcmdldD0iX2JsYW5rIj48c3BhbiBzdHlsZT0iY29sb3I6ICMwMDAwZmY7Ij5DTElDSyBIRVJFPC9zcGFuPjwvYT48L3NwYW4+IGZvciBtb3JlIGluZm88L3NwYW4+ZAIMD2QWEAIBDxYCHwMFDzUzNjcwXzE1ODcwLmpwZ2QCAw8WAh8DBQVGYWxzZWQCBQ8WAh8DZWQCBw8WAh8DBQVGYWxzZWQCCQ8WAh8DZWQCCw8PFgIfAGhkZAIMDw8WCB8JBRovUGhvdG9Qb29sLzUzNjcwXzE1ODcwLmpwZx8KZR8LZR8AZ2RkAg0PFQHRAjxhIHRpdGxlPSJTdXJ2ZXkgU29mdHdhcmUiIGhyZWY9Imh0dHA6Ly93d3cucXVlc3Rpb25wcm8uY29tLyI+U3VydmV5IFNvZnR3YXJlPC9hPiBQb3dlcmVkIEJ5IDxhIHRpdGxlPSJTdXJ2ZXkgU29mdHdhcmUiIGhyZWY9Imh0dHA6Ly93d3cucXVlc3Rpb25wcm8uY29tIj5RdWVzdGlvblBybzwvYT4gPGJyIC8+PGEgdGl0bGU9IldlYnNpdGUgUG9sbHMiIGhyZWY9Imh0dHA6Ly93d3cubWljcm9wb2xsLmNvbS8iPldlYnNpdGUgUG9sbHM8L2E+IFBvd2VyZWQgQnkgPGEgdGl0bGU9IkZyZWUgT25saW5lIFBvbGwiIGhyZWY9Imh0dHA6Ly93d3cubWljcm9wb2xsLmNvbS8iPk1pY3JvUG9sbDwvYT5kAhYPDxYCHwYFBDIwMTZkZAIXDw8WAh8GBRlHcmFuYnkgUGFya3MgJiBSZWNyZWF0aW9uZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFDGN0bDAwJHBjTWFpblCtiJqqoNlwHF13RbpQkXEmndT7X68lFfYvx/HiCP1Z" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['frmMain'];
+if (!theForm) {
+    theForm = document.frmMain;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FD341891" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAATljanb7dN1QRJsjp3NinThaj8LxpdTy7fcKiUyItbttonnKZ739bbLUFtALw7h4A9VekZAH7n66iWui6apxhYL5Ld0sKMvFh5vURz3kXYJ+Dsq0PxhvMks7yoXJOUyW0o=" />
+</div>
+
+
+
+<!--START BROWSE ACTIVITIES-->
+	<input type="hidden" id="pcMainWS" name="pcMainWS" value="0:0:-1:0:0:0:0:0:" />
+<div id="pcMain_PW-1" style="position:absolute;left:0px;top:0px;z-index:10000;visibility:hidden;display:none;">
+	<table id="pcMain_PWST-1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border-collapse:separate;position:relative;">
+		<tr>
+			<td class="dxpcControl" onmousedown="aspxPWMDown(event,&#39;pcMain&#39;,-1,false)" style="width:200px;cursor:default;"><table id="pcMain_CLW-1" cellspacing="0" cellpadding="0" style="width:200px;border-collapse:collapse;border-collapse:separate;">
+				<tr>
+					<td id="pcMain_PWC-1" class="dxpcContent" style="height:100%;"><div id="pcMain_Panel1">
+						
+
+				<div style="width: 700px;">
+					
+							
+							<div class="box"><div><b><a class="navTitle" href="/info/activities/default.aspx?CategoryID=1123">Bus Trips</a></b>
+								
+										<a href="/info/activities/program_details.aspx?ProgramID=25933">Boston Red Sox Games at Fenway Park</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29299">Boston Red Sox vs New York Yankees in the Bronx!</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29283">Bronx Zoo Bus Trip</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=24326">NYC Trips</a>
+									
+								
+							</div></div>
+						
+							
+							<div class="box"><div><b><a class="navTitle" href="/info/activities/default.aspx?CategoryID=1127">Adult Activities</a></b>
+								
+										<a href="/info/activities/program_details.aspx?ProgramID=29343">Card Making Class - Christmas/Holiday Cards - Stamp a Stack</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29359">Card Making Class - Special Technique Class</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29357">Card Making Class - Stamp a Stack - Greeting Cards</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29342">Card Making Class - Tin of Cards</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29353">Comedy Night at Holcomb Farm</a>
+									
+								<a  class="moretext" href="/info/activities/default.aspx?CategoryID=1127">More...</a>
+							</div></div>
+						
+							
+							<div class="box"><div><b><a class="navTitle" href="/info/activities/default.aspx?CategoryID=1124">Youth Sports</a></b>
+								
+										<a href="/info/activities/program_details.aspx?ProgramID=29272">Basketball, Granby Youth Basketball League</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=25617">Indoor Field Hockey Clinics</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29298">Indoor Field Hockey League For Grades 5-8</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=25984">Indoor Field Hockey League for High School Students</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29279">Spring Preseason Conditioning and Fitness Camp</a>
+									
+								<a  class="moretext" href="/info/activities/default.aspx?CategoryID=1124">More...</a>
+							</div></div>
+						
+							
+							<div class="box"><div><b><a class="navTitle" href="/info/activities/default.aspx?CategoryID=1128">Children's Activities</a></b>
+								
+										<a href="/info/activities/program_details.aspx?ProgramID=29314">After School LEGO Enrichment Programs</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29334">After School Sport Clubs by All Pro Sports</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=26267">American Red Cross "When I'm in Charge" Class</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=24777">American Red Cross Babysitting Course</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29309">Creativity Camp</a>
+									
+								<a  class="moretext" href="/info/activities/default.aspx?CategoryID=1128">More...</a>
+							</div></div>
+						
+							
+							<div class="box"><div><b><a class="navTitle" href="/info/activities/default.aspx?CategoryID=1315">Summer Day/Sport Camps</a></b>
+								
+										<a href="/info/activities/program_details.aspx?ProgramID=26573">Salmon Brook Park Day Camp</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=26762">Mission: Adventure,  a Camp for Teens & Tweens</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=26327">Baseball Camp, Chris Corkum  Baseball</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=26332">Bears Boys Basketball Camp</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=26404">Bears Girls Basketball Camp</a>
+									
+								<a  class="moretext" href="/info/activities/default.aspx?CategoryID=1315">More...</a>
+							</div></div>
+						
+							
+							<div class="box"><div><b><a class="navTitle" href="/info/activities/default.aspx?CategoryID=1314">Summer Enrichment Programs</a></b>
+								
+										<a href="/info/activities/program_details.aspx?ProgramID=26604">LEGO Camps by Play-Well TEKnologies</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29358">LegoFlix & Engineering Fundamentals</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=26395">Let's Gogh Art Summer Art-Ventures Camps</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=26394">Summer Band Camp</a>
+									
+								
+							</div></div>
+						
+							
+							<div class="box"><div><b><a class="navTitle" href="/info/activities/default.aspx?CategoryID=1126">Camps & Clinics</a></b>
+								
+										<a href="/info/activities/program_details.aspx?ProgramID=27119">All Pro Sports School Vacation Multi-Sport Programs</a>
+									
+								
+							</div></div>
+						
+							
+							<div class="box"><div><b><a class="navTitle" href="/info/activities/default.aspx?CategoryID=1300">Salmon Brook Park  Membership</a></b>
+								
+										<a href="/info/activities/program_details.aspx?ProgramID=26594">Salmon Brook Park Membership</a>
+									
+								
+							</div></div>
+						
+							
+							<div class="box"><div><b><a class="navTitle" href="/info/activities/default.aspx?CategoryID=1130">Events</a></b>
+								
+										<a href="/info/activities/program_details.aspx?ProgramID=29353">Comedy Night at Holcomb Farm</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29301">Green Eggs & Ham Breakfast</a>
+									
+										<a href="/info/activities/program_details.aspx?ProgramID=29356">Irish Music Night at the Holcomb Farm</a>
+									
+								
+							</div></div>
+						
+				</div>
+			
+					</div></td>
+				</tr>
+			</table></td><td style="background:url('/WebResource.axd?d=kSqAqqSXRk_s_ErnnVKTUXZzZSIMnyNxHYmxoaJka_cFGunKSaoQoZKm8dBfntZ_Ojo-F_ni0pIGwGyfWO4y6YV6ggdX-bi2X6ontDWmOE5f7_xhk9ctIqQyWPaVVpAqrmHHLOmswoYITjlswOE2D3qWRAu9O0cseQcsZAEgJWnQkMHi_yDSsM-lw8KQvBCU0&amp;t=635102039638281250') no-repeat left top;"></td>
+		</tr><tr>
+			<td style="background:url('/WebResource.axd?d=wmd_7935ps3nxBQyRkNKQPPDnT3aZ2ppIE2dSwoXanMaV4JPb8oCqysMxx4egK2NIffgdG0p_jLMXJCCkvhurKAN-7CauvTNSDuIqoH1sFxDBhsw7d0jV0M-bkBarybqdduAiKDawjO252uUhNmxIuXc3S3cTZsIroonU9whGR1ecaCIIK_D21wv46RHhPFi0&amp;t=635102039638281250') no-repeat left top;"></td><td><img src="/WebResource.axd?d=ixcppDGwIU1cCBGUW2v37q_eQNsBNq7glFJ057RWfXPoa26eifucOqvd9oBoTFOIN7iPhJfs4OoYAs8IzoJjSatTShTBfc9dS-nj1_KquYvcpQxt3k9iZTCdkaDdCMMZEiQob2lvr3IkBGRdzgXoYl4VN9s-aSXwXuEX0N43Lf-1mw35vWy6LOzDBj1LEUT9PV5u6iypBzrC_OCBKG-ygQ2&amp;amp;t=635102039638281250" alt="" style="height:5px;width:5px;" /></td>
+		</tr>
+	</table>
+</div><script id="dxis_1188364219" src="/WebResource.axd?d=yu-PPjCrNXwwiSGc_gJGELq2_TzAbHfHF6dkHZYy_sT2QAD2oYvLFQL_fDQZWgjqYdvkXaWA-75QQLicsIcLJjijeSNB8wfdOttGHh7wGr5JEUSvEbcu-nfSXLlxnQ_DrzBlNskevK261jtg1qxKoZvoogO7FhCO-pP3U6QHgYfaXbbZD0Vk3b1Lsi5_eoNO0&amp;t=635102039638281250" type="text/javascript"></script>
+<script id="dxis_391135602" src="/WebResource.axd?d=OVWjt6hv0U1djZYRtcwvpOS0d65tO11YTXjUW1iIDMFLFz7SHXu418N2M50sxW459RQ3MiT2aMjvYYqCyK_guoIIcxqtMK4amdp_NJHwXCnx5yN-HFd__z5zupiRY5MKx6qWXJUz5LdaTWQeO2_Php9m7W5WsOWCKpl4Eo-GpZqDQFDHkfU7IPBvTKx67Dtl0&amp;t=635102039638281250" type="text/javascript"></script>
+<script id="dxis_525900614" src="/WebResource.axd?d=9jtjHK6fTNpoEmdoq2gwbU7Ymj6l9sBpg8A71aeQ7AhPzeaxNXESSvJgpo44cRd7gbQLyNX1Iq-Zy9rDAJK2RCsQUZWQkvGsKieyPomE-5PG4juzz_NXKa8EyiQZ8EjsJFHIm1VNQ5UWINitkCESoAMEnRHgwkluK32gMMl9MfnRFkP8L5EwsNoxMqe5VDR10&amp;t=635102039638281250" type="text/javascript"></script>
+<script id="dxis_1095310874" src="/WebResource.axd?d=bc19Oou-HIVRfbeukflEVv25gBHpApDCcJaUFqUvfPqNpDc3I3ZoZUhjLbPSm1B0QggBPx2jLUUg2ZNIvmuhv87WFs9fwZSDEDI7ja8Waa42q0kUHsY-K01U5MYcWwxIAuqm_pOnup5sjEKOCiy0FOyzlHmlDEKLBgsUr5FuuE_ixSGmWio9CtbyqXvz5vcb0&amp;t=635102039638281250" type="text/javascript"></script>
+<script id="dxis_1855435529" src="/WebResource.axd?d=wp2FhY15D2fbat_P8ZbrXgLS3PBI5jhNDpbdTdLbuXeg9-geHOJkv7fw2mFgkrWr2iHDiQjzeSLT3oO6YAfxoyHPl72TuuwtNtSfpIjzCQW7MvYyuhLrcmPdXNtZTyn76B8g1Z-4Gz5vjukoe2UHaViGGIPeIXgKV5ai60pFUl-EKhMAZSod6hVYFqbhs_fLPf7CxWRT39MZjGbuXQOhxQ2&amp;t=635102039638281250" type="text/javascript"></script>
+<script id="dxss_1992091080" type="text/javascript">
+<!--
+
+window.pcMain = new ASPxClientPopupControl('pcMain');
+pcMain.uniqueID = 'ctl00$pcMain';
+pcMain.PopUp.AddHandler(function(s, e) { SetImageState(true); });
+pcMain.CloseUp.AddHandler(function(s, e) { SetImageState(false); });
+pcMain.popupAction='MouseOver';
+pcMain.closeAction='MouseOut';
+pcMain.popupHorizontalAlign='LeftSides';
+pcMain.popupVerticalAlign='Below';
+pcMain.isPopupPositionCorrectionOn=false;
+pcMain.popupElementID='imgButton';
+aspxAddHoverItems("pcMain", [["dxpcCloseButtonHover", "", ["HCB-1"]]]);
+
+//-->
+</script>
+
+
+<!--END BROWSE ACTIVITIES-->
+
+
+<!--START POPUP MESSAGE BOX-->
+	<div id="AlertMessage">
+		<input type="submit" name="ctl00$hiddenTargetControlForModalPopup" value="" id="hiddenTargetControlForModalPopup" style="display:none" />
+
+		
+		<div id="programmaticPopup" class="AlertMessageContent" style="display:none;width:300px;height:250px;">
+	
+			<div id="programmaticPopupDragHandle" class="AlertMessageTitle" style="padding:3px;">
+		
+				
+			
+	</div>
+
+			<div id="aMessageContent" style="padding:3px;">
+		
+				
+				<div class="center"><br/><br/><input type="button" id="lnkClosePopup" class="btn" value="Close" /></div>
+			
+	</div>
+		   <br />
+		
+</div>
+	</div>
+<!--END POPUP MESSAGE BOX-->
+
+
+	<div class="bannerwrap">
+		<div class="maintexture"><div class="maintextureimg"></div></div>
+		<div class="mainbg"><div class="mainbgimg"></div></div>
+		<div id="banner">
+			
+
+			<div class="bgborders"></div>
+			<img src="/master/info/images/bannerimage3.png" width="617" height="148" alt="" class="bannerbg" alt="" />
+			<div class="topaccent"></div>
+			<div class="topborders"></div>
+
+
+			
+				<p class="browse_deco">Browse <b>Activities</b></p>
+
+				<a href="/info/activities/default.aspx" class="browse" id="imgButton">Browse Activities <img src="/master/info/images/arrow.png" width="11" height="11" alt="" /><img src="/master/info/images/hand.png" width="30" height="29" alt="" class="hand" /></a>
+			
+
+			
+			<p class="search">
+				<span class="searchbox"><input name="ctl00$ctl14" type="text" size="25" onKeyDown="KeyDownHandler(btnSearch)" /></span>
+				<input type="submit" name="ctl00$btnSearch" value="Search" id="btnSearch" class="btn" /><br />
+				Try a search <a href="/info/search/">by Age</a> or <a href="/info/search/">by Grade</a>.
+			</p>
+			
+
+			<img src="/master/info/images/gold_accent.png" width="471" height="143" alt="" class="goldAccent" />
+			<div class="headcolorbar"></div>
+			<div class="headcolorbar2"></div>
+			<h2><span id="lblDepartmentName">Granby Parks & Recreation</span></h2>
+
+			
+				<div id="Nav">
+
+					<a id="hlTownSite" href="http://www.granby-ct.gov" target="_blank">Town Site</a><a id="hlNews" href="/info/news/">News</a><a id="hlAffiliates" href="/info/affiliated/">Affiliates</a><a id="hlHelp" href="/info/help/">Help</a><a id="hlContactUs" href="/info/contact/">Contact</a><a id="hlCalendar" OnClick="OpenCalendar(&#39;0&#39;);" href="http://www.granbyrec.com/info/default.aspx#">Calendar</a>
+
+				</div>
+			
+
+			
+				<div id="Nav2"><p>
+					<a id="hlHome" href="/info/">Home</a><a id="hlActivities" href="/info/activities/">Activities</a><a id="hlAnnouncements" href="/info/announcements.aspx">Announcements</a><a id="hlDeptInfo" href="/info/dept/">Dept Info</a><a id="hlFacilities" href="/info/facilities/">Facilities</a><a id="hlMeetings" href="/info/meetings/">Meetings</a><a id="hlPhotoGallery" href="/info/gallery/">Gallery</a><a id="hlTeamInfo" href="/info/team/">Team Info</a>
+				</p></div>
+			
+		</div>
+
+		<table id="layout">
+		<tr>
+			<td id="leftside">
+				<a href="/info/default.aspx"><img src="/master/info/images/myrec_com.jpg" width="153" height="49" alt="MyRec.com" class="logo" /></a>
+
+				<div id="plcHouseHoldLoginArea">
+	
+					<div id="Login"><a name="login"></a>
+						<h3>Account Info</h3>
+						<!--LOGIN-->
+							<div id="plcHouseHoldLogin">
+		
+								<a id="hlAccountLogin" href="https://www.granbyrec.com/info/household/login.aspx">Account Login</a><br />
+								<a id="hlCreateAccount" class="createAcct" href="/info/household/account_check.aspx">Create New Account</a>
+							
+	</div>
+						<!--LOGIN-->
+
+
+						<!--ACCOUNT INFO-->
+							
+						<!--ACCOUNT INFO-->
+					</div>
+				
+</div>
+
+<!--START CART-->
+	
+<!--END CART-->
+
+
+
+				
+
+
+				
+				<div style="width: 90px; margin: 0 auto; position: relative; padding: 20px 0 10px;"?
+					<span id="lblProcessorSeal"><!-- (c) 2005, 2011. Authorize.Net is a registered trademark of CyberSource Corporation --> <div class="AuthorizeNetSeal"> <script type="text/javascript" language="javascript">var ANS_customer_id="a3493dad-b8ae-4572-9840-41960792ce6e";</script> <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" ></script> </div></span>
+				</div>
+			</td>
+			<td id="rightside">
+				<div class="widthholder">
+
+					
+	
+
+
+					<div id="MainContent">
+						
+						
+	
+			<h1 class="softpad"><b><center><font size="4">Granby Recreation</b></font></center></h1>
+			<p><p>The Granby Recreation Dept is proud to provide the Town of Granby with our activity registration system and website. To get started please <a href="../../../info/household/account_check.aspx"><strong><span style="text-decoration: underline;">Create an Account</span></strong></a> with all your household information. The data provided; emergency contacts, allergies info and more, will help us better serve you. This info will also automatically fill out your registration forms. <br /><br />When you&rsquo;re ready to complete a registration form for <a href="../../../info/activities"><strong><span style="text-decoration: underline;">activities</span></strong></a> be sure to review the <a href="../../../info/tutorial"><strong><span style="text-decoration: underline;">How to Register for an Activity</span></strong></a> page.<br /><br /></p>
+<center><strong>Contact Info</strong><br /><span style="color: gray;">Contact the Office:</span> <a href="mailto:recreation@granby-ct.gov">Granby Recreation</a><br /><span style="color: gray;">Phone:</span> 860-653-8947<br /><span style="color: gray;">Office Hours:</span> <br />Monday-Friday, 9-4PM or by appt.<br /><br /><strong><span style="color: red; font-size: medium;">ONLINE CREDIT CARD PAYMENT IS NOW AVAILABLE!</span></strong><br /><br /><br /></center></p>
+		
+
+						
+
+						
+					</div>
+					<div id="Community">
+						
+	
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_0" src="/PhotoPool/53670_17035.jpg" /><br/>Join us for an Adults only fun night out! <strong><a href="/info/activities/program_details.aspx?ProgramID=29353" target="_blank">Click here for more information and to purchase tickets</a></strong>.&nbsp; Sponsored by Lite'n'Up Eatery and The Granby Recreation Dept.</div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_1" src="/PhotoPool/53670_16974.jpg" /><br/><span style="color: #339966;"><strong><span style="color: #009900; font-size: small;">Green Eggs &amp; Ham Breakfast</span><br /></strong></span><span style="font-size: small;">You should not, will not want to miss</span><br /><span style="font-size: small;">A fun-filled breakfast quite like this</span><br /><span style="font-size: small;"><a href="/info/activities/program_details.aspx?ProgramID=29301">CLICK HERE FOR ALL THE INFO!</a></span></div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_2" src="/PhotoPool/53670_17038.jpg" /><br/><span style="font-size: 10pt;"><strong><span style="color: #008000;">IRISH MUSIC NIGHT</span></strong> at the Holcomb Farm</span><br /><span style="font-size: 10pt;">Saturday, March 19</span><br /><span style="font-size: 10pt;"><a href="/info/activities/program_details.aspx?ProgramID=29356">Click here for more info</a><br />Sponsored by Lite'N'Up Eatery and the Granby Recreation Dept.<br /></span></div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_3" src="/PhotoPool/53670_17027.jpg" /><br/><span style="font-size: small;"><span style="color: #ff0000;"><strong>Having a Holiday Party?</strong></span>&nbsp; We have just the space for you!&nbsp;Call us to get&nbsp;information on renting the new <a href="http://www.granbyrec.com/info/gallery/"><em><strong>North Barn Pavilion</strong></em></a> at Holcomb Farm or the <a href="http://www.granbyrec.com/info/gallery/default.aspx?CategoryID=86"><strong><em>Gathering Room</em></strong></a> at SBP. 860-653-8947</span></div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_4" src="/PhotoPool/53670_15731.jpg" /><br/><a href="../../../info/activities/program_details.aspx?ProgramID=25617"><strong><span style="color: #ff0000;">Indoor Field Hockey Clinics For Grades 5-8</span></strong></a> begin week of Feb 8 and <a href="../../../info/activities/program_details.aspx?ProgramID=25984"><strong><span style="color: #0000ff;">Winter Indoor High School Field Hockey League</span></strong> </a>begin the week of Feb. 23. Register today.</div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_5" title="Woman stretching in a field before running." src="/StockPhotoPool/0_13826.jpg" alt="Woman stretching in a field before running." /><br/><p><span style="color: #ff0000; font-size: small;"><strong>Pre-Season Conditioning&nbsp;&amp; Fitness Clinic</strong></span><br /><a href="/info/activities/program_details.aspx?ProgramID=29279">CLICK HERE TO GET INFO &amp; REGISTER ONLINE</a></p></div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_6" title="Assorted Soccer Balls" src="/StockPhotoPool/0_14051.jpg" alt="Assorted Soccer Balls" /><br/><span style="font-size: small;"><strong><span style="color: #ff0000;">AFTER SCHOOL SPORT CLUBS ARE BACK!</span></strong> <a href="/info/activities/program_details.aspx?ProgramID=29334">Click here for more info</a></span><br /><strong><br /></strong></div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_7" src="/PhotoPool/53670_16993.jpg" /><br/><span style="font-size: small;">New! <span style="color: #339966;"><strong>Italian Class</strong> </span>for Adults - Begins January 11- <a href="/info/activities/program_details.aspx?ProgramID=29318">Click here for more info</a></span></div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_8" src="/PhotoPool/53670_15877.jpg" /><br/><a href="/info/activities/program_details.aspx?ProgramID=26320" target="new"><strong>Click Here</strong></a> to get info on this summer's Skyhawks Summer Camps.</div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_9" src="/PhotoPool/53670_15901.jpg" /><br/><p><span style="font-size: small;">After school program with <br /><span style="color: #ff0000;"><strong>Let's Gogh Art</strong></span>!</span><br /><span style="font-size: small;">New Session Begins February 3 at <a href="/info/activities/program_details.aspx?ProgramID=29344">Kelly Lane </a>&nbsp;&amp; February 5 at <a href="/info/activities/program_details.aspx?ProgramID=29350">Kearns School</a>!</span><br /><span style="font-size: small;">Click on your school&nbsp;to get more info&nbsp;</span></p></div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_10" src="/PhotoPool/53670_15923.jpg" /><br/><p><span style="font-size: small;">Looking for a Summer Job? We will be hiring camp counselors, lifeguards and concessions staff.&nbsp; <a href="http://www.granby-ct.gov/Public_Documents/GranbyCT_WebDocs/granbyjobs">CLICK HERE</a> to access our job application.&nbsp; Hurry! Deadline for applications is April 1.</span></p></div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_11" src="/PhotoPool/53670_16930.jpg" /><br/><span style="color: #008000; font-size: small;"><strong><span style="color: #0000ff;">Lions, &amp; Tiger &amp; Bears, Oh My!&nbsp;</span></strong> Join us on August 22 for a trip to the world famous <strong>Bronx Zoo</strong>.&nbsp; <span style="color: #0000ff;"><a href="/info/activities/program_details.aspx?ProgramID=29283" target="_blank"><span style="color: #0000ff;">CLICK HERE</span></a></span> for more info</span></div></div>
+		
+			
+			
+			
+			
+			
+			<div class="box"><div><img id="Community_rptCommunity_imgImageName_12" src="/PhotoPool/53670_15870.jpg" /><br/><a title="Survey Software" href="http://www.questionpro.com/">Survey Software</a> Powered By <a title="Survey Software" href="http://www.questionpro.com">QuestionPro</a> <br /><a title="Website Polls" href="http://www.micropoll.com/">Website Polls</a> Powered By <a title="Free Online Poll" href="http://www.micropoll.com/">MicroPoll</a></div></div>
+		
+
+						
+	
+
+					</div>
+					<div id="Footer">
+						<div class="right" style=" width: 95%; font-size: 1.3em; padding: 0 0 0.25em 1.1em;">
+							&bull; <a href="/info/tutorial/">How to Register for an Activity</a>
+						</div>
+						<br /><br />
+						<p><b>&copy;<span id="lblYear">2016</span> <span id="lblDepartmentName2">Granby Parks & Recreation</span> | <a href="/info/contact/">Contact Us</a> | <a href="/info/policies/">Terms of Use</a> | <a href="/info/policies/privacy.aspx">Privacy Policy</a></b><br />
+						Provided by <a href="http://www.myrec.com" target="_blank">MyRec.com</a> online activity registration &amp; recreation software.</p><br />
+
+						<!--Start Translator-->
+        				<br /><div id="google_translate_element" style="position: relative;"></div><script type="text/javascript">
+						function googleTranslateElementInit() {
+						  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+						}
+						</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+						<!--End Translator-->
+
+						<!--Start Text Size2-->
+						<script src="/info/includes/jquery.cookie.js"></script>
+						<script>
+							$(document).ready(function() {
+								var size = $('#frmMain').css('font-size');
+
+								var size2 = $.cookie("textSize2");
+								if (size2) {
+									//alert(size2);
+									$('#frmMain').css('font-size', parseInt(size2));
+								}
+
+								$("#resetFont").click(function(){
+									$('#frmMain').css('font-size', size);
+									$.cookie("textSize2", parseInt(size), { path: '/'});
+									return false;
+								});
+
+								$("#increaseFont").click(function() {
+									var size = $('#frmMain').css('font-size');
+									if (parseInt(size) < 22) {
+										$('#frmMain').css('font-size', parseInt(size)+2);
+										$.cookie("textSize2", parseInt(size)+2, { path: '/'});
+									}
+									else {
+										$('#frmMain').css('font-size', parseInt(size));
+									}
+									return false;
+								});
+
+								$("#decreaseFont").click(function() {
+									var size = $('#frmMain').css('font-size');
+									if (parseInt(size) > 12) {
+										$('#frmMain').css('font-size', parseInt(size)-2);
+										$.cookie("textSize2", parseInt(size)-2, { path: '/'});
+									}
+									else {
+										$('#frmMain').css('font-size', parseInt(size));
+									}
+									return false;
+								});
+							});
+						</script>
+						<div style="position: relative;"><br />
+							<a id="increaseFont" style="cursor: pointer;">Larger Text</a> |
+							<a id="decreaseFont" style="cursor: pointer;">Smaller Text</a> |
+							<a id="resetFont" style="cursor: pointer;">Reset</a>
+						</div>
+						<!--End Text Size-->
+						<br /><br />					
+					</div>
+				</div>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+function BindEvents() {
+	$("a.constant_contact").fancybox({
+		'titlePosition':'inside',
+		'transitionIn':'fade',
+		'transitionOut':'fade',
+		'speedIn':600,
+		'speedOut':100,
+		'width':225,
+		'height':100,
+		'autoDimensions':false,
+		'overlayShow':true
+	});
+
+	$(function() {
+		//$('.date').mask('99/99/9999');
+		$('.phone_us').mask('(999) 999-9999');
+		$('.zip_us').mask('99999-9999');
+
+		$( '.datepicker' ).datepicker({
+			yearRange: '2010:2050',
+			showOtherMonths: true,
+			selectOtherMonths: true,
+			changeMonth: true,
+			changeYear: true,
+			showOn: 'both',
+			buttonImage: '/info/images/button_calendar.png',
+			buttonImageOnly: true
+		});
+
+		$( '.birthdatepicker' ).datepicker({
+			yearRange: '1920:2016',
+			showOtherMonths: true,
+			selectOtherMonths: true,
+			changeMonth: true,
+			changeYear: true,
+			showOn: 'both',
+			buttonImage: '/info/images/button_calendar.png',
+			buttonImageOnly: true
+		});
+		$('.timeEntry').timeEntry({defaultTime: '00:00', spinnerImage: '', noSeparatorEntry: true, ampmPrefix: ' '});
+		$('.date').dateEntry({spinnerImage: ''});
+	});
+};
+Sys.Application.add_load(BindEvents);
+//]]>
+</script>
+</form>
+<!--BASIC-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17612787-45', 'www.granbyrec.com');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b83fa8d43a144cf"></script>
+</body>
+</html>

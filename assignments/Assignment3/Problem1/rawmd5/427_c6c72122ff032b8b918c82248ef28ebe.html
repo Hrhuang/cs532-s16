@@ -1,0 +1,206 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="alternate" href="android-app://com.superluckycasino.nolimit.slots.vegas.android.free/superlucky/slots-no-limit.superluckycasino.com/" />
+<script src="./mobile-detect.min.js"></script>		
+<script type="text/javascript">
+		/*DONT FORGET TO UPDATE <link rel="alternative" .../> TAG!*/
+		var customScheme = "slots-no-limit";
+		var androidPackage = "com.superluckycasino.nolimit.slots.vegas.android.free";
+		var kindlePackage = "unreleased";
+		var iosAppId = "unreleased";
+
+		function customFromGift(gift)
+		{
+			return customScheme + "://" + decodeURIComponent(gift);
+		}
+		function androidIntentFromGift(gift)
+		{
+			return "intent://" + decodeURIComponent(gift) + "/#Intent;scheme=" + customScheme + ";package=" + androidPackage + ";end";
+		}
+		function kindleIntentFromGift(gift)
+		{
+			return "intent://" + decodeURIComponent(gift) + "/#Intent;scheme=" + customScheme + ";package=" + kindlePackage + ";end"
+		}
+		function iosLinkFromGift(gift)
+		{
+			return customScheme + "://" + decodeURIComponent(gift);
+		}
+
+		var md = new MobileDetect(window.navigator.userAgent);
+		
+		var ios = false;
+		var ios_link = customScheme + "://action";
+		var ios_alt = "itms-apps://itunes.apple.com/app/id" + iosAppId;
+    var timer;
+    var heartbeat;
+		var lastInterval;
+		
+    var custom = "superlucky://" + customScheme + ".superluckycasino.com";
+    var alt = window.location.protocol + "//www.superluckycasino.com/games/" + customScheme;
+		var g_intent;
+		
+		var kindle_intent = "intent://" + customScheme + ".superluckycasino.com/#Intent;scheme=superlucky;package=" + kindlePackage + ";end";
+		var android_intent = "intent://" + customScheme + ".superluckycasino.com/#Intent;scheme=superlucky;package=" + androidPackage + ";end";
+		
+		var query = window.location.search.substring(1);
+		var vars = query.split('&');
+		for( var i = 0; i < vars.length; i++ )
+		{
+			var pair = vars[i].split('=');
+			if( pair[0] == 'g' )
+			{
+				custom = customFromGift(pair[1]);
+				kindle_intent = kindleIntentFromGift(pair[1]);
+				android_intent = androidIntentFromGift(pair[1]);
+				ios_link = iosLinkFromGift(pair[1]);
+			}
+		}
+		
+    var iframe_timer;
+		
+		if( md.is('iOS') )
+		{
+			//alert("IOS!");
+			ios = true;
+			
+			window.addEventListener("pageshow", function(evt){
+			    clearTimers();
+			}, false);
+
+			window.addEventListener("pagehide", function(evt){
+			    clearTimers();
+			}, false);
+		}
+
+		function getTime() {
+		    return (new Date()).getTime();
+		}
+
+		// For all other browsers except Safari (which do not support pageshow and pagehide properly)
+		function intervalHeartbeatIOS() {
+		    var now = getTime();
+		    var diff = now - lastInterval - 200;
+		    lastInterval = now;
+		    if(diff > 1000) { // don't trigger on small stutters less than 1000ms
+		        clearTimers();
+		    }
+		}
+		
+		if( md.is('Kindle') )
+		{
+			//alert("KINDLE!");
+			g_intent = kindle_intent;
+		}
+		if( md.is('AndroidOS') && ! md.is('Kindle')  )
+		{
+			//alert("ANDROID!!");
+			g_intent = android_intent;
+		}
+		
+		function iosMethod()
+		{
+			lastInterval = getTime();
+			heartbeat = setInterval(intervalHeartbeatIOS, 200);
+			document.location = ios_link;
+			timer = setTimeout(function () { document.location = ios_alt; }, 2000);
+		}
+ 
+    function clearTimers() {
+        clearTimeout(timer);
+        clearTimeout(heartbeat);
+        clearTimeout(iframe_timer);
+    }
+ 
+    function intervalHeartbeat() {
+        if (document.webkitHidden || document.hidden) {
+            clearTimers();
+        }
+    }
+ 
+    function tryIframeApproach() {
+        var iframe = document.createElement("iframe");
+        iframe.style.border = "none";
+        iframe.style.width = "1px";
+        iframe.style.height = "1px";
+        iframe.onload = function () {
+            document.location = alt;
+        };
+        iframe.src = custom;
+        document.body.appendChild(iframe);
+    }
+ 
+    function tryWebkitApproach() {
+        document.location = custom;
+        timer = setTimeout(function () {
+            document.location = alt;
+        }, 2500);
+    }
+ 
+    function useIntent() {
+        document.location = g_intent;
+    }
+ 
+    function launch_app_or_alt_url() {
+			if( ! md.mobile() )
+			{
+				document.location = alt;
+				return;
+			}
+      heartbeat = setInterval(intervalHeartbeat, 200);
+      if(navigator.userAgent.match(/Chrome/))
+			{
+				//useIntent();
+				document.onclick = useIntent;
+				if(md.is('Kindle'))
+				{
+					document.getElementById('amazon').style.display='block';
+				}
+				else
+				{
+					document.getElementById('google-play').style.display='block';
+				}
+      }
+			else if(navigator.userAgent.match(/Firefox/))
+			{
+				tryWebkitApproach();
+				iframe_timer = setTimeout(function () {
+					tryIframeApproach();
+				}, 1500);
+      }
+			else
+			{
+				tryIframeApproach();
+			}
+    }
+		
+		if( ios )
+		{
+			window.onload = function(){
+				document.onclick = iosMethod;
+				document.getElementById('app-store').style.display='block';
+			}
+			iosMethod();
+		}
+		else
+		{
+			window.onload = function(){launch_app_or_alt_url();}
+		}
+</script>
+		
+	</head>
+	<body style="text-align:center;padding-top:40px;">
+		<div id="google-play" style="display:none;">
+			<img src="./google_play.png" />
+			<p style="font-family:sans-serif;font-size:150%;">Tap to Play!</p>
+		</div>
+		<div id="app-store" style="display:none;">
+			<img src="./app_store.png" />
+			<p style="font-family:sans-serif;font-size:150%;">Tap to Play!</p>
+		</div>
+		<div id="amazon" style="display:none;">
+			<img src="./amazon.png" />
+			<p style="font-family:sans-serif;font-size:150%;">Tap to Play!</p>
+		</div>
+	</body>
+</html>

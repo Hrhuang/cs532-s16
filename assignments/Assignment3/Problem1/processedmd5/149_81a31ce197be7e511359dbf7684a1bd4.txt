@@ -1,0 +1,581 @@
+   #[1]GitHub [2]alternate [3]alternate [4]Recent Commits to
+   AI-for-Game-Design:340f04e95e6a78de0d026b6f3740b263725362c8
+
+   [5]Skip to content
+
+   [6]Sign up [7]Sign in
+   This repository
+   ____________________
+     * [8]Explore
+     * [9]Features
+     * [10]Enterprise
+     * [11]Pricing
+
+     * [12]Watch [13]3
+     * [14]Star [15]0
+     * [16]Fork [17]1
+
+[18]punster94/[19]AI-for-Game-Design
+
+   [20]Code [21]Issues 0 [22]Pull requests 0 [23]Pulse [24]Graphs
+
+   Loading…
+
+Added wall sensor. #5
+
+   Merged
+   [25]punster94 merged 1 commit into punster94:master from
+   GranoblasticMan:master Feb 9, 2016
+   +178 −29
+   [26]Conversation 0 [27]Commits 1 [28]Files changed 9
+
+Labels
+
+   None yet
+
+Milestone
+
+   No milestone
+
+Assignee
+
+   No one assigned
+
+2 participants
+
+   [29]@GranoblasticMan [30]@punster94
+   [31]@GranoblasticMan
+   Collaborator
+   [32]GranoblasticMan commented [33]Feb 9, 2016
+
+   Added wall sensor.
+   [34]@GranoblasticMan [35]GranoblasticMan [36]Added wall sensor.
+   [37]340f04e
+   @punster94 [38]punster94 merged commit [39]9ceec9b into
+   punster94:master [40]Feb 9, 2016
+   [41]Sign up for free to join this conversation on GitHub. Already have
+   an account? [42]Sign in to comment
+   Commits on Feb 9, 2016
+    1. [43]@GranoblasticMan
+       [44]Added wall sensor.
+       [45]GranoblasticMan committed Feb 9, 2016
+       (BUTTON) [46]340f04e
+
+   [47]Unified [48]Split
+   Showing (BUTTON) 9 changed files with 178 additions and 29 deletions.
+    1. +16 −16 [49]AI-for-Game-Design/Project/Assets/Assignment 1
+       Scene.unity
+    2. +20 −0 [50]AI-for-Game-Design/Project/Assets/SensedWall.cs
+    3. +12 −0 [51]AI-for-Game-Design/Project/Assets/SensedWall.cs.meta
+    4. +6 −0 [52]AI-for-Game-Design/Project/Assets/SubjectBehavior.cs
+    5. +101 −0 [53]AI-for-Game-Design/Project/Assets/WallSensor.cs
+    6. +12 −0 [54]AI-for-Game-Design/Project/Assets/WallSensor.cs.meta
+    7. +8 −11 [55]AI-for-Game-Design/Project/Project.sln
+    8. +1 −1
+       [56]AI-for-Game-Design/Project/ProjectSettings/ProjectVersion.txt
+    9. +2 −1
+       [57]AI-for-Game-Design/Project/ProjectSettings/TagManager.asset
+
+   [X] Show notes [58]View
+   32 AI-for-Game-Design/Project/Assets/Assignment 1 Scene.unity
+   @@ -210,9 +210,9 @@ GameObject:
+   - 4: {fileID: 491974665}
+   - 212: {fileID: 491974664}
+   - 61: {fileID: 491974666}
+   - m_Layer: 0
+   + m_Layer: 8
+   m_Name: Left Bound
+   - m_TagString: Untagged
+   + m_TagString: Wall
+   m_Icon: {fileID: 0}
+   m_NavMeshLayer: 0
+   m_StaticEditorFlags: 0
+   @@ -341,9 +341,9 @@ GameObject:
+   - 4: {fileID: 611000219}
+   - 212: {fileID: 611000218}
+   - 61: {fileID: 611000220}
+   - m_Layer: 0
+   + m_Layer: 8
+   m_Name: Wall2
+   - m_TagString: Untagged
+   + m_TagString: Wall
+   m_Icon: {fileID: 0}
+   m_NavMeshLayer: 0
+   m_StaticEditorFlags: 0
+   @@ -682,9 +682,9 @@ GameObject:
+   - 4: {fileID: 1254197619}
+   - 212: {fileID: 1254197618}
+   - 61: {fileID: 1254197620}
+   - m_Layer: 0
+   + m_Layer: 8
+   m_Name: Wall4
+   - m_TagString: Untagged
+   + m_TagString: Wall
+   m_Icon: {fileID: 0}
+   m_NavMeshLayer: 0
+   m_StaticEditorFlags: 0
+   @@ -755,9 +755,9 @@ GameObject:
+   - 4: {fileID: 1299749766}
+   - 212: {fileID: 1299749765}
+   - 61: {fileID: 1299749767}
+   - m_Layer: 0
+   + m_Layer: 8
+   m_Name: Bottom Bound
+   - m_TagString: Untagged
+   + m_TagString: Wall
+   m_Icon: {fileID: 0}
+   m_NavMeshLayer: 0
+   m_StaticEditorFlags: 0
+   @@ -828,9 +828,9 @@ GameObject:
+   - 4: {fileID: 1438051523}
+   - 212: {fileID: 1438051522}
+   - 61: {fileID: 1438051524}
+   - m_Layer: 0
+   + m_Layer: 8
+   m_Name: Right Bound
+   - m_TagString: Untagged
+   + m_TagString: Wall
+   m_Icon: {fileID: 0}
+   m_NavMeshLayer: 0
+   m_StaticEditorFlags: 0
+   @@ -901,9 +901,9 @@ GameObject:
+   - 4: {fileID: 1556597477}
+   - 212: {fileID: 1556597476}
+   - 61: {fileID: 1556597478}
+   - m_Layer: 0
+   + m_Layer: 8
+   m_Name: Wall1
+   - m_TagString: Untagged
+   + m_TagString: Wall
+   m_Icon: {fileID: 0}
+   m_NavMeshLayer: 0
+   m_StaticEditorFlags: 0
+   @@ -1065,9 +1065,9 @@ GameObject:
+   - 4: {fileID: 1858656674}
+   - 212: {fileID: 1858656673}
+   - 61: {fileID: 1858656675}
+   - m_Layer: 0
+   + m_Layer: 8
+   m_Name: Wall3
+   - m_TagString: Untagged
+   + m_TagString: Wall
+   m_Icon: {fileID: 0}
+   m_NavMeshLayer: 0
+   m_StaticEditorFlags: 0
+   @@ -1138,9 +1138,9 @@ GameObject:
+   - 4: {fileID: 1978625537}
+   - 212: {fileID: 1978625536}
+   - 61: {fileID: 1978625538}
+   - m_Layer: 0
+   + m_Layer: 8
+   m_Name: Top Bound
+   - m_TagString: Untagged
+   + m_TagString: Wall
+   m_Icon: {fileID: 0}
+   m_NavMeshLayer: 0
+   m_StaticEditorFlags: 0
+   [X] Show notes [59]View
+   20 AI-for-Game-Design/Project/Assets/SensedWall.cs
+   @@ -0,0 +1,20 @@
+   +using UnityEngine;
+   +using System.Collections;
+   +
+   +public class SensedWall : SensedObject {
+   + private string name;
+   + private float distance;
+   + private Vector3 intersection;
+   +
+   + public SensedWall(string wallName, float distance, Vector3
+   intersection)
+   + {
+   + this.name = wallName;
+   + this.distance = distance;
+   + this.intersection = intersection;
+   + }
+   +
+   + public override string toString()
+   + {
+   + return name + " " + distance + " units away";
+   + }
+   +}
+   [X] Show notes [60]View
+   12 AI-for-Game-Design/Project/Assets/SensedWall.cs.meta
+   [61]Diff suppressed. Click to show.
+   @@ -0,0 +1,12 @@
+   +fileFormatVersion: 2
+   +guid: d0aaabdc48b181c4188b34a24644ca17
+   +timeCreated: 1455043601
+   +licenseType: Free
+   +MonoImporter:
+   + serializedVersion: 2
+   + defaultReferences: []
+   + executionOrder: 0
+   + icon: {instanceID: 0}
+   + userData:
+   + assetBundleName:
+   + assetBundleVariant:
+   [X] Show notes [62]View
+   6 AI-for-Game-Design/Project/Assets/SubjectBehavior.cs
+   @@ -20,6 +20,7 @@ public class SubjectBehavior : MonoBehaviour {
+   static float aasRadius = 5f;
+   static string selfTag = "Subject";
+   static string sensableTag = "Sensable Agent";
+   + static string wallTag = "Wall";
+   // Sensors available to the subject
+   ArrayList sensors = new ArrayList();
+   @@ -33,6 +34,11 @@ public class SubjectBehavior : MonoBehaviour {
+   sensors.Add(new PieSliceSensor(self, sensableTag, aasRadius, 90, 90));
+   sensors.Add(new PieSliceSensor(self, sensableTag, aasRadius * 0.5f,
+   180, 90));
+   sensors.Add(new PieSliceSensor(self, sensableTag, aasRadius, 270, 90));
+   + sensors.Add(new WallSensor(self, wallTag, 10.0f, 3));
+   + sensors.Add(new WallSensor(self, wallTag, -10.0f, 3));
+   + sensors.Add(new WallSensor(self, wallTag, 30.0f, 2));
+   + sensors.Add(new WallSensor(self, wallTag, -30.0f, 2));
+   + sensors.Add(new WallSensor(self, wallTag, 180.0f, 1));
+   frame = 0;
+   // Initialize speed at zero
+   [X] Show notes [63]View
+   101 AI-for-Game-Design/Project/Assets/WallSensor.cs
+   @@ -0,0 +1,101 @@
+   +using UnityEngine;
+   +using System.Collections;
+   +using System;
+   +
+   +public class WallSensor : Sensor
+   +{
+   + private static string LAYER_FILTER_STRING = "Walls"; // String (name)
+   of the Unity2D layer that all walls are on
+   + private string tagString; // Required by base class, but not really
+   used
+   + private float maxDistance;
+   + private float relativeDirectionDegrees;
+   + private GameObject owner;
+   + private GameObject lineDrawer;
+   + private LineRenderer lineRenderer;
+   +
+   + public WallSensor(GameObject owner, string tagString, float
+   relativeDirectionDegrees, float maxDistance) : base(owner, tagString)
+   + {
+   + this.tagString = tagString;
+   + this.owner = owner;
+   + // Our sprite is set up so that "right" is actually 0 degrees and
+   "forward" is 90
+   + this.relativeDirectionDegrees = (relativeDirectionDegrees + 90.0f) %
+   360.0f;
+   + this.maxDistance = maxDistance;
+   +
+   + InitLineRenderer();
+   + }
+   +
+   + private void InitLineRenderer()
+   + {
+   + // Create a new object to hold the line renderer
+   + lineDrawer = new GameObject();
+   +
+   + lineRenderer = lineDrawer.AddComponent<LineRenderer>();
+   + lineRenderer.SetVertexCount(2);
+   + lineRenderer.SetWidth(0.1f, 0.1f);
+   + lineRenderer.useWorldSpace = true;
+   + lineRenderer.material.color = Color.magenta; // Magenta, because why
+   not?
+   + }
+   +
+   + // Find the endpoint of this sensor in world space
+   + private Vector3 getEndpoint()
+   + {
+   + Vector3 endPosition = ownerPosition() + getAbsoluteDirectionVector()
+   * this.maxDistance;
+   +
+   + return endPosition;
+   + }
+   +
+   + public override void drawTooltip()
+   + {
+   + // Draw a simple line =)
+   + lineRenderer.SetPosition(0, ownerPosition());
+   + lineRenderer.SetPosition(1, getEndpoint());
+   + }
+   +
+   + public override ArrayList sense()
+   + {
+   + // Super-class requires returning ArrayList, even though this
+   particular sensor will only "find" the nearest wall (or none)
+   + ArrayList nearestWall = new ArrayList();
+   +
+   + Vector2 origin = new Vector2(ownerPosition().x, ownerPosition().y);
+   +
+   + // Raycast, filtering out everything not on the "walls" layer. Only
+   the first object hit is returned from Raycast.
+   + RaycastHit2D hitWall = Physics2D.Raycast(origin,
+   getAbsoluteDirectionVector(), this.maxDistance,
+   LayerMask.GetMask(LAYER_FILTER_STRING));
+   + if(hitWall.collider != null)
+   + {
+   + nearestWall.Add(new SensedWall(hitWall.collider.gameObject.name,
+   hitWall.distance, new Vector3(hitWall.point.x, hitWall.point.y)));
+   + }
+   +
+   + return nearestWall;
+   + }
+   +
+   + public override string toString(ArrayList sensedObjects)
+   + {
+   + String output = "WallSensor on " + ownerName() + " @ " +
+   (this.relativeDirectionDegrees - 90.0f);
+   +
+   + // If we didn't hit anything
+   + if (sensedObjects.Count < 1)
+   + output += " detected nothing.";
+   + else
+   + {
+   + // We sensed something, output it to the console
+   + SensedObject obj = (SensedObject)sensedObjects[0];
+   + output += " detected wall " + obj.toString() + ".";
+   + }
+   +
+   + return output;
+   + }
+   +
+   + // Get the direction vector of this sensor in world-space terms
+   + public Vector3 getAbsoluteDirectionVector()
+   + {
+   + // Find the owner's heading
+   + float ownerDirectionDegrees = owner.transform.eulerAngles.z;
+   +
+   + // Add the owner's heading to the relative heading, keeping it
+   between 0.0f and 360.0f
+   + float absoluteHeading = (ownerDirectionDegrees +
+   relativeDirectionDegrees) % 360.0f;
+   +
+   + float x = Mathf.Cos(absoluteHeading * Mathf.Deg2Rad);
+   + float y = Mathf.Sin(absoluteHeading * Mathf.Deg2Rad);
+   +
+   + return new Vector3(x, y);
+   + }
+   +}
+   [X] Show notes [64]View
+   12 AI-for-Game-Design/Project/Assets/WallSensor.cs.meta
+   [65]Diff suppressed. Click to show.
+   @@ -0,0 +1,12 @@
+   +fileFormatVersion: 2
+   +guid: 73bd53db1e39ce24a9799424b855c073
+   +timeCreated: 1454953768
+   +licenseType: Free
+   +MonoImporter:
+   + serializedVersion: 2
+   + defaultReferences: []
+   + executionOrder: 0
+   + icon: {instanceID: 0}
+   + userData:
+   + assetBundleName:
+   + assetBundleVariant:
+   [X] Show notes [66]View
+   19 AI-for-Game-Design/Project/Project.sln
+   @@ -1,7 +1,7 @@
+   -Microsoft Visual Studio Solution File, Format Version 11.00
+   -# Visual Studio 2008
+   -
+   -Project("{9E727FDD-3AEC-8274-F466-85441900280D}") = "Project",
+   "Assembly-CSharp.csproj", "{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}"
+   +﻿
+   +Microsoft Visual Studio Solution File, Format Version 12.00
+   +# Visual Studio 2015
+   +Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.CSharp",
+   "Project.CSharp.csproj", "{ACC6DC1A-7408-DBF8-98B3-D219F4D7FB09}"
+   EndProject
+   Global
+   GlobalSection(SolutionConfigurationPlatforms) = preSolution
+   @@ -9,15 +9,12 @@ Global
+   Release|Any CPU = Release|Any CPU
+   EndGlobalSection
+   GlobalSection(ProjectConfigurationPlatforms) = postSolution
+   - {5B9FF267-005F-A3BF-219E-FEAE2D8C894F}.Debug|Any CPU.ActiveCfg =
+   Debug|Any CPU
+   - {5B9FF267-005F-A3BF-219E-FEAE2D8C894F}.Debug|Any CPU.Build.0 =
+   Debug|Any CPU
+   - {5B9FF267-005F-A3BF-219E-FEAE2D8C894F}.Release|Any CPU.ActiveCfg =
+   Release|Any CPU
+   - {5B9FF267-005F-A3BF-219E-FEAE2D8C894F}.Release|Any CPU.Build.0 =
+   Release|Any CPU
+   + {ACC6DC1A-7408-DBF8-98B3-D219F4D7FB09}.Debug|Any CPU.ActiveCfg =
+   Debug|Any CPU
+   + {ACC6DC1A-7408-DBF8-98B3-D219F4D7FB09}.Debug|Any CPU.Build.0 =
+   Debug|Any CPU
+   + {ACC6DC1A-7408-DBF8-98B3-D219F4D7FB09}.Release|Any CPU.ActiveCfg =
+   Release|Any CPU
+   + {ACC6DC1A-7408-DBF8-98B3-D219F4D7FB09}.Release|Any CPU.Build.0 =
+   Release|Any CPU
+   EndGlobalSection
+   GlobalSection(SolutionProperties) = preSolution
+   HideSolutionNode = FALSE
+   EndGlobalSection
+   - GlobalSection(MonoDevelopProperties) = preSolution
+   - StartupItem = Assembly-CSharp.csproj
+   - EndGlobalSection
+   EndGlobal
+   [X] Show notes [67]View
+   2 AI-for-Game-Design/Project/ProjectSettings/ProjectVersion.txt
+   @@ -1,2 +1,2 @@
+   -m_EditorVersion: 5.3.1f1
+   +m_EditorVersion: 5.3.2f1
+   m_StandardAssetsVersion: 0
+   [X] Show notes [68]View
+   3 AI-for-Game-Design/Project/ProjectSettings/TagManager.asset
+   @@ -4,6 +4,7 @@
+   TagManager:
+   serializedVersion: 2
+   tags:
+   + - Wall
+   - Sensable Agent
+   layers:
+   - Default
+   @@ -14,7 +15,7 @@ TagManager:
+   - UI
+   -
+   -
+   - -
+   + - Walls
+   -
+   -
+   -
+   (BUTTON) Toggle all file notes
+
+     * [69]Status
+     * [70]API
+     * [71]Training
+     * [72]Shop
+     * [73]Blog
+     * [74]About
+     * [75]Pricing
+
+     * © 2016 GitHub, Inc.
+     * [76]Terms
+     * [77]Privacy
+     * [78]Security
+     * [79]Contact
+     * [80]Help
+
+   (BUTTON) Something went wrong with that request. Please try again.
+
+   You signed in with another tab or window. [81]Reload to refresh your
+   session. You signed out in another tab or window. [82]Reload to refresh
+   your session.
+
+   (BUTTON)
+
+References
+
+   Visible links
+   1. https://github.com/opensearch.xml
+   2. https://github.com/punster94/AI-for-Game-Design/pull/5.diff
+   3. https://github.com/punster94/AI-for-Game-Design/pull/5.patch
+   4. https://github.com/punster94/AI-for-Game-Design/commits/340f04e95e6a78de0d026b6f3740b263725362c8.atom
+   5. https://github.com/punster94/AI-for-Game-Design/pull/5#start-of-content
+   6. https://github.com/join?source=header-repo
+   7. https://github.com/login?return_to=/punster94/AI-for-Game-Design/pull/5
+   8. https://github.com/explore
+   9. https://github.com/features
+  10. https://enterprise.github.com/
+  11. https://github.com/pricing
+  12. https://github.com/login?return_to=/punster94/AI-for-Game-Design
+  13. https://github.com/punster94/AI-for-Game-Design/watchers
+  14. https://github.com/login?return_to=/punster94/AI-for-Game-Design
+  15. https://github.com/punster94/AI-for-Game-Design/stargazers
+  16. https://github.com/login?return_to=/punster94/AI-for-Game-Design
+  17. https://github.com/punster94/AI-for-Game-Design/network
+  18. https://github.com/punster94
+  19. https://github.com/punster94/AI-for-Game-Design
+  20. https://github.com/punster94/AI-for-Game-Design
+  21. https://github.com/punster94/AI-for-Game-Design/issues
+  22. https://github.com/punster94/AI-for-Game-Design/pulls
+  23. https://github.com/punster94/AI-for-Game-Design/pulse
+  24. https://github.com/punster94/AI-for-Game-Design/graphs
+  25. https://github.com/punster94
+  26. https://github.com/punster94/AI-for-Game-Design/pull/5
+  27. https://github.com/punster94/AI-for-Game-Design/pull/5/commits
+  28. https://github.com/punster94/AI-for-Game-Design/pull/5/files
+  29. https://github.com/GranoblasticMan
+  30. https://github.com/punster94
+  31. https://github.com/GranoblasticMan
+  32. https://github.com/GranoblasticMan
+  33. https://github.com/punster94/AI-for-Game-Design/pull/5#issue-132522523
+  34. https://github.com/GranoblasticMan
+  35. https://github.com/GranoblasticMan
+  36. https://github.com/GranoblasticMan/AI-for-Game-Design/commit/340f04e95e6a78de0d026b6f3740b263725362c8
+  37. https://github.com/GranoblasticMan/AI-for-Game-Design/commit/340f04e95e6a78de0d026b6f3740b263725362c8
+  38. https://github.com/punster94
+  39. https://github.com/punster94/AI-for-Game-Design/commit/9ceec9b975b8481794128b847f04d82664064cd7
+  40. https://github.com/punster94/AI-for-Game-Design/pull/5#event-544981641
+  41. https://github.com/join?source=comment-repo
+  42. https://github.com/login?return_to=https://github.com/punster94/AI-for-Game-Design/pull/5
+  43. https://github.com/GranoblasticMan
+  44. https://github.com/GranoblasticMan/AI-for-Game-Design/commit/340f04e95e6a78de0d026b6f3740b263725362c8
+  45. https://github.com/GranoblasticMan
+  46. https://github.com/GranoblasticMan/AI-for-Game-Design/commit/340f04e95e6a78de0d026b6f3740b263725362c8
+  47. https://github.com/punster94/AI-for-Game-Design/pull/5/files?diff=unified
+  48. https://github.com/punster94/AI-for-Game-Design/pull/5/files?diff=split
+  49. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+  50. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-23f9ad1b0afea72caad4b5cb2825e3ab
+  51. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-38c716afd8c8b1ecdca0ca1363baf6ad
+  52. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f36d49fef7ada70d57668ff21ec7ee64
+  53. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-b5177f51733716c660f0f561afae4fd1
+  54. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-273722ed0b3383655414f16d70d0996c
+  55. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-2307ea9a6997f32849cb8713804d73ab
+  56. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-461482aee34043d1e524f8f1ed17b7e3
+  57. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-b2e13ab2fb48d8b11efd4e4c726f3d71
+  58. https://github.com/GranoblasticMan/AI-for-Game-Design/blob/340f04e95e6a78de0d026b6f3740b263725362c8/AI-for-Game-Design/Project/Assets/Assignment 1 Scene.unity
+  59. https://github.com/GranoblasticMan/AI-for-Game-Design/blob/340f04e95e6a78de0d026b6f3740b263725362c8/AI-for-Game-Design/Project/Assets/SensedWall.cs
+  60. https://github.com/GranoblasticMan/AI-for-Game-Design/blob/340f04e95e6a78de0d026b6f3740b263725362c8/AI-for-Game-Design/Project/Assets/SensedWall.cs.meta
+  61. https://github.com/punster94/AI-for-Game-Design/pull/5
+  62. https://github.com/GranoblasticMan/AI-for-Game-Design/blob/340f04e95e6a78de0d026b6f3740b263725362c8/AI-for-Game-Design/Project/Assets/SubjectBehavior.cs
+  63. https://github.com/GranoblasticMan/AI-for-Game-Design/blob/340f04e95e6a78de0d026b6f3740b263725362c8/AI-for-Game-Design/Project/Assets/WallSensor.cs
+  64. https://github.com/GranoblasticMan/AI-for-Game-Design/blob/340f04e95e6a78de0d026b6f3740b263725362c8/AI-for-Game-Design/Project/Assets/WallSensor.cs.meta
+  65. https://github.com/punster94/AI-for-Game-Design/pull/5
+  66. https://github.com/GranoblasticMan/AI-for-Game-Design/blob/340f04e95e6a78de0d026b6f3740b263725362c8/AI-for-Game-Design/Project/Project.sln
+  67. https://github.com/GranoblasticMan/AI-for-Game-Design/blob/340f04e95e6a78de0d026b6f3740b263725362c8/AI-for-Game-Design/Project/ProjectSettings/ProjectVersion.txt
+  68. https://github.com/GranoblasticMan/AI-for-Game-Design/blob/340f04e95e6a78de0d026b6f3740b263725362c8/AI-for-Game-Design/Project/ProjectSettings/TagManager.asset
+  69. https://status.github.com/
+  70. https://developer.github.com/
+  71. https://training.github.com/
+  72. https://shop.github.com/
+  73. https://github.com/blog
+  74. https://github.com/about
+  75. https://github.com/pricing
+  76. https://github.com/site/terms
+  77. https://github.com/site/privacy
+  78. https://github.com/security
+  79. https://github.com/contact
+  80. https://help.github.com/
+  81. https://github.com/punster94/AI-for-Game-Design/pull/5
+  82. https://github.com/punster94/AI-for-Game-Design/pull/5
+
+   Hidden links:
+  84. https://github.com/
+  85. https://github.com/punster94/AI-for-Game-Design/tree/340f04e95e6a78de0d026b6f3740b263725362c8
+  86. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+  87. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-23f9ad1b0afea72caad4b5cb2825e3ab
+  88. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-38c716afd8c8b1ecdca0ca1363baf6ad
+  89. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f36d49fef7ada70d57668ff21ec7ee64
+  90. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-b5177f51733716c660f0f561afae4fd1
+  91. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-273722ed0b3383655414f16d70d0996c
+  92. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-2307ea9a6997f32849cb8713804d73ab
+  93. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-461482aee34043d1e524f8f1ed17b7e3
+  94. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-b2e13ab2fb48d8b11efd4e4c726f3d71
+  95. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+  96. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+  97. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+  98. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+  99. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+ 100. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+ 101. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+ 102. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+ 103. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f1eda6bfe9eddc93a5b6940768e54ccf
+ 104. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f36d49fef7ada70d57668ff21ec7ee64
+ 105. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f36d49fef7ada70d57668ff21ec7ee64
+ 106. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-f36d49fef7ada70d57668ff21ec7ee64
+ 107. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-2307ea9a6997f32849cb8713804d73ab
+ 108. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-b2e13ab2fb48d8b11efd4e4c726f3d71
+ 109. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-b2e13ab2fb48d8b11efd4e4c726f3d71
+ 110. https://github.com/punster94/AI-for-Game-Design/pull/5#diff-b2e13ab2fb48d8b11efd4e4c726f3d71
+ 111. https://github.com/

@@ -1,0 +1,1542 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]> <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+<link rel="stylesheet" type="text/css" href="/css/promolabs/carousel.css"/>
+
+
+<script type="text/javascript" src="/javascript/jquery.min.js"></script>
+<script type="text/javascript" src="/thickBox/categorymenu.js"></script>
+
+<script type="text/javascript" src="/javascript/plmetrics.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/promolabs/categorymenu.css"/>
+<link rel="stylesheet" type="text/css" href="/css/promolabs/base/jquery.ui.autocomplete.css"/>
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/css/promolabs/ie7.css">
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/css/promolabs/ie8.css">
+<![endif]-->
+<script type="text/javascript" src="http://d1k3c4xlx29yaw.cloudfront.net/scripts/oecnt-min-4.js"></script>
+
+<script type="text/javascript">
+	var _sf_startpt = (new Date()).getTime();
+	categorymenu.definemenu("allcategories", "megamenu1", "mouseover");
+	categorymenu.definemenu("purposes", "megamenu2", "mouseover");
+	//categorymenu.definemenu("prices", "megamenu3", "click");
+	categorymenu.definemenu("namebrands", "megamenu4", "mouseover");
+</script>
+
+<title>Game V-Neck Tee with Your Logo | Brio Promotions</title>
+  
+
+    
+
+        
+      <meta prefix="og: http://ogp.me/ns#" property="og:image" content="http://d33s4ld138rd1m.cloudfront.net/img.php/up/600x315/E2FB2FA02F356065DD8466D21649411D.png">
+      <meta prefix="og: http://ogp.me/ns#" property="og:image:secure_url" content="https://d33s4ld138rd1m.cloudfront.net/img.php/up/600x315/E2FB2FA02F356065DD8466D21649411D.png">
+
+    
+    
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Game V-Neck Tee with Your Logo | Brio Promotions"/>
+    <meta property="og:description" content="<div>Features: This sporty women&#39;s tee is made of a 60/40 ring-spun, combed cotton/poly blend and features a crossover V-neck. It&#39;s available in sizes ranging from XS to 4XL.</div><div><br /></div><div>Price may vary based on decoration, shipping and taxes.</div>"/>
+	
+      <meta property="og:url" content="http://briopromotions.mypromohq.com/product/PLP16641"/>
+	
+
+
+<!-- beginn fancy zoom -->
+<script src="/javascript/FancyZoom.js" type="text/javascript"></script>
+<script src="/javascript/FancyZoomHTML.js" type="text/javascript"></script>
+<!-- end fancy zoom -->
+<script type="text/javascript">
+	function getAdjustedRate(price) {
+		return (price);
+	}
+	
+	
+	function getAdjustedRate(price) {
+		return (price / (1 + (66.667/100)));
+	}
+	
+	
+</script>
+<!-- begin jquery ui -->
+<link type="text/css" href="/css/promolabs/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="/css/promolabs/base/jquery.ui.all.css">
+<link type="text/css" href="/css/promolabs/jquery.fileupload-ui.css" rel="stylesheet"/>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
+<script type="text/javascript" src="/javascript/mousedown.js"></script>
+<script src="https://ajax.microsoft.com/ajax/jQuery.Validate/1.6/jQuery.Validate.min.js"></script>
+
+<script src="/javascript/jquery.iframe-transport.js"></script>
+<script src="/javascript/jquery.fileupload.js"></script>
+
+
+<script>
+	jQuery(document).ready(function() {
+		jQuery(".searchinput").autocomplete({
+			source: function(request, response) {
+				jQuery.ajax({
+					url: "/api/search/autocomplete",
+					dataType: "json",
+					data: {
+						term: request.term
+					},
+					success: function(data) {
+						response(jQuery.map(data, function(item) {
+							return {
+								label: item.productName,
+								value: item.productName,
+								description: item.productName,
+								id: item.productNumber
+							}
+						}));
+					}
+				});
+			},
+			minLength: 2,
+			select: function(event, ui) {
+				window.location.href = '/product/PLP' + ui.item.id;
+			}
+		});
+		//Range Slider
+		jQuery("#slider-range").slider({
+			range: true,
+			min: 0,
+			max: 151,
+			values: [1, 3],
+			slide: function(event, ui) {
+				jQuery('#lowestrange').val(ui.values[ 0 ]);
+				if (ui.values[1] === 151) {
+					jQuery('#highestrange').val('150+');
+				}
+				else {
+					jQuery('#highestrange').val(ui.values[ 1 ]);
+				}
+			}
+		});
+
+		jQuery("#submitprice").click(function() {
+			var from = jQuery('#lowestrange').val();
+			var to = jQuery('#highestrange').val();
+
+			from = Number(getAdjustedRate(from));
+			to = Number(getAdjustedRate(to));
+
+
+			if (to === '150+')
+				window.location = '/Search.do?sortField=priceLowToHigh&searchSource=pricingSearch&priceFrom=' + from;
+			else
+				window.location = '/Search.do?searchSource=pricingSearch&sortField=priceLowToHigh&priceFrom=' + from +
+						'&priceTo=' + to;
+		});
+
+        //Flyout for Promo Points dialog... for more details go here http://blog.nemikor.com/2009/04/08/basic-usage-of-the-jquery-ui-dialog/
+		jQuery( "#request_div" ).dialog({
+			autoOpen: false,
+            modal: true,
+            resizable: false,
+            width: 400,
+			show: "clip",
+			hide: "clip"
+		});
+
+		jQuery( "#opener" ).click(function() {
+			jQuery( "#dialog" ).dialog( "open" );
+			return false;
+		});
+
+
+		jQuery('#prices').click(function() {
+			var position = jQuery('#prices').position();
+			jQuery('#megamenu3').css('top', position.top + 30).css('left', position.left);
+			jQuery('#megamenu3').toggle();
+
+		});
+		jQuery('#cancelprices').click(function() {
+			jQuery('#megamenu3').hide();
+
+		});
+
+        jQuery("#request_form").validate({
+			submitHandler: function(form) {
+			var f = jQuery("#request_form");
+			submitValidForm(f);
+			},
+			rules: {
+              first: {
+                required: true
+              },
+              last: {
+                required: true
+              },
+              email: {
+                required: true,
+                email: true
+              }
+			}		
+		} );
+	});
+	
+	function submitValidForm (f) {
+		jQuery.ajax({type:'GET',data:jQuery(f).serialize(),url:'/sp/sendquote.html',success:function(data,textStatus){jQuery('#request_div').html(data);}}); 
+		return false;
+	}
+
+	//setup the dialog
+	//show the dialog on the link click
+	//put the box in the right space
+	jQuery('#prices').click(function() {
+		jQuery('#megamenu3').show();
+
+	});
+
+
+	function updateValues(start, end) {
+		jQuery('#lowestrange').val(start);
+		jQuery('#highestrange').val(end);
+		jQuery('#slider-range').slider("option", "values", [start,end]);
+	}
+	;
+
+</script>
+
+<script type="text/javascript">
+
+    jQuery.validator.setDefaults({
+	  debug: false,
+	   success: "valid"
+    });
+
+</script>
+<!-- end jquery ui-->
+
+
+
+	
+		<!-- custom css -->
+		<STYLE type="text/css">@charset "utf-8";
+
+@import url("/css/promolabs/pl_listing.css");
+@import url("/css/promolabs/pl_structural.css");
+@import url("/css/promolabs/pl_main.css");
+
+body {
+background-color:silver;
+}
+
+
+#distributorImage {
+background-image:url("http://d1k3c4xlx29yaw.cloudfront.net/uploads/original/12087/VV2d57a2XHozGZUMMoJXuk0aipMzXCx6uRfiQ5I1new.jpg"); }
+</STYLE>
+	
+	
+	
+
+
+
+<script src="/__utm.js"></script>
+<script language="javascript"> jQuery.noConflict(); </script>
+	
+<script type='text/javascript' src='/javascript/onload_listener.js;jsessionid=4442E098983C15A141DE0F696EFF5C34'></script>
+<script type='text/javascript' src='/javascript/rotating_banners.js;jsessionid=4442E098983C15A141DE0F696EFF5C34'></script>
+<script language="javascript">
+	//FUNCTION TO SWAP LAYERS
+	function MM_findObj(n, d) { //v3.0
+		var p,i,x;
+		if (!d) d = document;
+		if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+			d = parent.frames[n.substring(p + 1)].document;
+			n = n.substring(0, p);
+		}
+		if (!(x = d[n]) && d.all) x = d.all[n];
+		for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+		for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+		return x;
+	}
+
+	function MM_showHideLayers() { //v3.0
+		var i,p,v,obj,args = MM_showHideLayers.arguments;
+		for (i = 0; i < (args.length - 2); i += 3) if ((obj = MM_findObj(args[i])) != null) {
+			v = args[i + 2];
+			if (obj.style) {
+				obj = obj.style;
+				v = (v == 'show') ? 'visible' : (v = 'hide') ? 'hidden' : v;
+			}
+			obj.visibility = v;
+		}
+	}
+</script>
+<script src="/javascript/SpryMenuBar.js;jsessionid=4442E098983C15A141DE0F696EFF5C34" type="text/javascript"></script>
+
+
+
+<script src="//munchkin.marketo.net/munchkin.js" type="text/javascript"></script>
+<script>mktoMunchkin(catalogMunchkin.getMunchkinId());</script>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '']);
+      
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+</head>
+
+<body bgcolor="#ffffff" onload="setupZoom();">
+
+
+<a name="top"></a>
+<div id="main">
+<div id="header">
+<div id="topNav">
+<div class="topNavLeft">
+
+
+        <div id="logo">
+            <a href="/index.jsp" id="header">
+                
+                <img src="http://d1k3c4xlx29yaw.cloudfront.net/uploads/original/12087/nN6f__HGoSj0BMNH4916cwV_HLEj7SlQeERcjZT1LmI.png" alt="Logo" id="header_logo"/>
+                
+                
+                <img src="/images/header-desc.png"
+                    id="tagline"
+                    alt="Sweet deals on bestselling promotional products."/>
+            </a>
+        </div>
+
+    </div><div class="topNavRight" align="right">
+
+
+		<div style="margin-bottom:5px;" id="sales" class="sales">
+            
+                
+                    <a target="_blank" href="http://briopromotions.com">
+
+                
+                <div id="distributorImage"></div>
+                </a>
+
+
+  <span id="header_fullname" style="font-weight:bold">
+    Melissa Thissell
+  </span>
+  <a id="header_email" href="mailto:hello@briopromotions.com">  hello@briopromotions.com</a><br/>
+  <div id="header_phone">phone: (207) 596-6989<br/></div>
+  
+
+
+                
+                    <a target="_blank" href="https://www.facebook.com/Brio-Promotions-484331694924762/">
+                        <div class="facebookLink"></div>
+                    </a>
+                
+                
+                    <a target="_blank" href="https://twitter.com/BrioPromotions">
+                        <div class="twitterLink"></div>
+                    </a>
+                
+                
+                    <a target="_blank" href="https://www.linkedin.com/in/jeffrey-thibodeau-38835650">
+                        <div class="linkedInLink"></div>
+                    </a>
+                
+                
+                
+            
+            
+		</div>
+
+
+		<div class="shoppingCart" style="font-weight:bold"></div>
+	<ul><li style="padding-right:15px;"><a id="wrapper:_idJsp86" name="wrapper:_idJsp86" href="/shopping_cart/cart.jsf;jsessionid=4442E098983C15A141DE0F696EFF5C34?conversationContext=e"><img src="/images/shoppingcart.png" style="vertical-align:middle" /><span style="" class="">0 items</span></a></li></ul>
+		</div>
+	</div>
+	</div>
+
+	<div id="subNav">
+
+	<div id="actionbar">
+		<ul id="navlist" style="float:left;font-weight:bold;">
+			<li id="active" class="navlistheader"><a href="/" id="current">Home</a></li>
+			<li><a href="#" class="navlistheader" id="allcategories">All Categories</a></li>
+			<li><a href="#" class="navlistheader" id="purposes">Purpose</a></li>
+			<li><a href="#" class="navlistheader" id="namebrands">Name Brands</a></li>
+			<li class=""><a href="#" class="navlistheader bullet_arrow_down" id="prices">Price</a></li>
+			<div id="search">
+				<form id="wrapperForm" name="wrapper" method="POST" action="/Search.do">
+					<input type="text" name="keyWords" value="" id="suggest" class="searchinput"/>
+					<input type="submit" id="submitsearch" value="Search" class="submitsearch"/>
+				</form>
+			</div>
+		</ul>
+
+	</div>
+
+	<div id="megamenu1" class="categorymenu">
+	<div class="column">
+	<ul class='nav'>
+	
+	
+	
+		<li class='level0'><a href="/category/34;jsessionid=4442E098983C15A141DE0F696EFF5C34">Apparel</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/35;jsessionid=4442E098983C15A141DE0F696EFF5C34">Awards</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/36;jsessionid=4442E098983C15A141DE0F696EFF5C34">Bags</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/37;jsessionid=4442E098983C15A141DE0F696EFF5C34">Technology</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/38;jsessionid=4442E098983C15A141DE0F696EFF5C34">Drinkware</a>
+			</li>
+		
+			</ul>
+			</div>
+			
+				
+				
+					<div class="column">
+				
+			
+			<ul>
+		
+	
+		<li class='level0'><a href="/category/39;jsessionid=4442E098983C15A141DE0F696EFF5C34">Eco-Friendly</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/40;jsessionid=4442E098983C15A141DE0F696EFF5C34">Housewares</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/41;jsessionid=4442E098983C15A141DE0F696EFF5C34">Writing Instruments</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/42;jsessionid=4442E098983C15A141DE0F696EFF5C34">Outdoors</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/43;jsessionid=4442E098983C15A141DE0F696EFF5C34">Office</a>
+			</li>
+		
+			</ul>
+			</div>
+			
+				
+				
+					<div class="column">
+				
+			
+			<ul>
+		
+	
+		<li class='level0'><a href="/category/44;jsessionid=4442E098983C15A141DE0F696EFF5C34">Food &amp; Beverage</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/45;jsessionid=4442E098983C15A141DE0F696EFF5C34">Travel</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/46;jsessionid=4442E098983C15A141DE0F696EFF5C34">Tools &amp; Auto</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/47;jsessionid=4442E098983C15A141DE0F696EFF5C34">Health &amp; Wellness</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/48;jsessionid=4442E098983C15A141DE0F696EFF5C34">Golf</a>
+			</li>
+		
+			</ul>
+			</div>
+			
+				
+					<div class="column no-right-border">
+				
+				
+			
+			<ul>
+		
+	
+		<li class='level0'><a href="/category/49;jsessionid=4442E098983C15A141DE0F696EFF5C34">Watches</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/50;jsessionid=4442E098983C15A141DE0F696EFF5C34">New Items</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/180;jsessionid=4442E098983C15A141DE0F696EFF5C34">Tradeshows/Events</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/51;jsessionid=4442E098983C15A141DE0F696EFF5C34">Clearance</a>
+			</li>
+		
+	
+		<li class='level0'><a href="/category/127;jsessionid=4442E098983C15A141DE0F696EFF5C34">Calendars</a>
+			</li>
+		
+			</ul>
+			</div>
+			
+				
+					<div class="column no-right-border">
+				
+				
+			
+			<ul>
+		
+	
+		<li class='level0'><a href="/category/201;jsessionid=4442E098983C15A141DE0F696EFF5C34">Bundles</a>
+			</li>
+		
+	
+	</ul>
+	</div>
+<div class="subNavLeft"></div>
+	</div>
+
+	<div id="megamenu2" class="purposesmenu">
+		<div class="purposesmenu_column">
+			<ul>
+				<li>
+					<a href="/Search.do?searchSource=purposeSearch&categoryIds=84%2090%20116%20137%2049&priceFrom=10&sortField=priceLowToHigh"><img
+							src="/images/gifts.png"/> Premium Gifts</a>
+				</li>
+				<li>
+					<a href="/Search.do?categoryIds=37%2041%20118%2043%2046%2050&searchSource=purposeSearch&priceFrom=0&priceTo=2.50&sortField=priceLowToHigh"><img
+							src="/images/events.png"/> Trade Show Give Aways</a>
+				</li>
+				<li>
+					<a href="/Search.do?searchSource=purposeSearch&categoryIds=35%2090%2049&sortField=priceLowToHigh"><img
+							src="/images/awards.png"/> Recognition</a>
+				</li>
+				<li>
+					<a href="/Search.do?categoryIds=78%2083%2038%2046%2034&searchSource=purposeSearch&priceFrom=0&priceTo=10&sortField=priceLowToHigh"><img
+							src="/images/giftpurchase.png"/> Gift With Purchase</a>
+				</li>
+				<li>
+					<a href="/Search.do?categoryIds=76%2036%2038%2041%2043%2049&searchSource=purposeSearch&sortField=priceLowToHigh"><img
+							src="/images/all.png"/> All Company Gifts</a>
+				</li>
+				<li>
+					<a href="/Search.do?categoryIds=53%2038%2080%20138%20143%20154%20163&searchSource=purposeSearch&sortField=priceLowToHigh"><img
+							src="/images/campus.png" style="width: 31px;"/> Campus Recruiting</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="megamenu3" class="pricesmenu">
+		<div class="pricesmenu_column" style="width: 200px;">
+			<ul>
+				<li><strong>Use sliders to adjust price</strong></li>
+				<li style="margin-bottom: 20px;">
+					<form>
+						<div id="slider-range"></div>
+						<input type="text" class="text" id="lowestrange" name="lowestrange" value="1">&nbsp;&nbsp;to&nbsp;&nbsp;<input
+							type="text" class="text" id="highestrange" name="highestrange" value="3"><br/>
+				</li>
+				<li><strong>Or modify by price point</strong></li>
+				<li>
+					<a href="javascript:updateValues(0,1)">Bargain ($)</a><br/>
+					<a href="javascript:updateValues(1,3)">Moderate ($$)</a><br/>
+					<a href="javascript:updateValues(3,10)">Premium ($$$)</a><br/>
+					<a href="javascript:updateValues(10,10000)">Executive ($$$$)</a>
+					</form>
+				</li>
+				<li>
+					<input type="button" value="Search All Products" class="submitfilterresults" id="submitprice"><br/>
+					<a href="#" class="cancel" id='cancelprices'>Cancel</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="megamenu4" class="namebrandsmenu">
+		<div class="namebrandsmenu_column">
+			<ul>
+				<li>
+					<a href="/Search.do?keyWords=nike" class="brands logo-nike">Nike</a>
+				</li>
+                <li class="dropdown-gradient-div"><img src="/images/dropdown-gradient-div.png" /></li>
+				<li>
+					<a href="/Search.do?keyWords=adidas" class="brands logo-adidas">Adidas</a>
+				</li>
+                <li class="dropdown-gradient-div"><img src="/images/dropdown-gradient-div.png" /></li>
+				<li>
+					<a href="/Search.do?keyWords=swiss army" class="brands logo-swissarmy">Swiss Army</a>
+				</li>
+                <li class="dropdown-gradient-div"><img src="/images/dropdown-gradient-div.png" /></li>
+				<li>
+					<a href="/Search.do?keyWords=hanes" class="brands logo-hanes">Hanes</a>
+				</li>
+                <li class="dropdown-gradient-div"><img src="/images/dropdown-gradient-div.png" /></li>
+				<li>
+					<a href="/Search.do?keyWords=izod" class="brands logo-izod">IZOD</a>
+				</li>
+                <li class="dropdown-gradient-div"><img src="/images/dropdown-gradient-div.png" /></li>
+				<li>
+					<a href="/Search.do?keyWords=bic" class="brands logo-bic">BiC</a>
+				</li>
+			</ul>
+            <img class="dropdown-shadow" src="/images/dropdown-shadow.png" />
+			<ul>
+				<li>
+					<a href="/Search.do?keyWords=brookstone" class="brands logo-brookstone">Brookstone</a>
+				</li>
+                <li class="dropdown-gradient-div"><img src="/images/dropdown-gradient-div.png" /></li>
+				<li>
+					<a href="/Search.do?keyWords=cutter buck" class="brands logo-cutterandbuck">Cutter &amp; Buck</a>
+				</li>
+                <li class="dropdown-gradient-div"><img src="/images/dropdown-gradient-div.png" /></li>
+				<li>
+					<a href="/Search.do?keyWords=callaway" class="brands logo-callaway">Callaway</a>
+				</li>
+                <li class="dropdown-gradient-div"><img src="/images/dropdown-gradient-div.png" /></li>
+				<li>
+					<a href="/Search.do?keyWords=titleist" class="brands logo-titleist">Titleist</a>
+				</li>
+                <li class="dropdown-gradient-div"><img src="/images/dropdown-gradient-div.png" /></li>
+				<li>
+					<a href="/Search.do?keyWords=Ghirardelli" class="brands logo-ghirardelli">Ghirardelli</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="clear"><!-- --></div>
+	</div>
+
+	<div id="bodyContent">
+
+
+	<div class="addtocart-pop-up">
+		<strong>This item has been added to cart.</strong>
+	</div>
+
+	<div id="contentArea" style="width:955px">
+		
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        pl.currentPage = "PRODUCT";
+pl.searchTerm = "";
+pl.metrics.itemsInCart = [];
+pl.metrics.configureItem = [{"id":"DM476","name":"Game V-Neck Tee","categories":""}];
+
+        if (pl.currentPage === '')
+            pl.currentPage = 'PRODUCT';
+    });
+</script>
+
+<link rel="stylesheet" type="text/css" href="/css/promolabs/base/jquery.ui.all.css">
+<link rel="stylesheet" type="text/css" href="/css/promolabs/product_styles.css">
+
+<script type="text/javascript">
+    quantities = {};
+    quantities.maxQty = 0;
+    quantities.minQty = '1';
+    sizeNames = [];
+    boundaries = [];
+    setupFeeAmount = 0;
+    boundaryLine = 0;
+
+    bonus = 0.0;
+    pointsRate = 0.10000000149011612;
+
+    sampleShowing = false;
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    boundaries.push(Number('1'));
+    quantities['1'] = '12.483358299999999';
+    
+
+    
+    
+    
+    
+    
+    
+
+    boundaries.push(Number('6'));
+    quantities['6'] = '10.8166883';
+    
+
+    
+    
+    
+    
+    
+    
+
+    boundaries.push(Number('36'));
+    quantities['36'] = '9.1500183';
+    
+    
+
+
+    boundaries = boundaries.sort(function(a, b) {
+        return a - b
+    });
+    var max = 1000000;
+    if (max < 500)
+        max = 500;
+    boundaries.push('' + max);
+    quantities.maxQty = boundaries[boundaries.length - 1];
+    quantities.maxPrice = quantities['' + boundaries[(boundaries.length - 2)]];
+    quantities.minPrice = quantities['' + boundaries[0]];
+    
+    
+    
+
+
+</script>
+<div class="content">
+
+<form id="configureForm" name="configureForm" method="post" action="/shopping_cart/configure.jsf;jsessionid=4442E098983C15A141DE0F696EFF5C34" enctype="application/x-www-form-urlencoded">
+
+<font color="red"></font>
+
+<div class="contentLeftCol">
+    <div style="">
+
+        
+            
+            
+                <div class="imageStroke" style="width:250px;">
+                    <a href="/CachedImageServlet;jsessionid=4442E098983C15A141DE0F696EFF5C34?id=144405&resize=650x650"><img
+                            src="/CachedImageServlet;jsessionid=4442E098983C15A141DE0F696EFF5C34?id=144405&resize=250x500"/></a>
+                </div>
+                <br/>
+		<span id="hiresLinkSpan">
+			<a href="/CachedImageServlet;jsessionid=4442E098983C15A141DE0F696EFF5C34?id=144405&resize=650x650" class="enlarge-img">Click
+                to Enlarge</a>
+		</span>
+            
+        
+
+    </div>
+</div>
+
+<div class="contentRightCol">
+
+
+<div id="promolabs-stash-id" style="display: none">
+    DM476
+</div>
+<div id="promolabs-stash-vendor" style="display: none">
+    sanmar.com
+</div>
+
+<h1>
+    Game V-Neck Tee
+</h1>
+
+
+
+<p style="color: #666;">
+
+<h2 class="item-number-label">Item Number: PLP16641</h2>
+
+
+
+
+
+<div class="options">
+    
+<strong class="selections">Make your selection</strong>
+
+<div class="sections curved-corners"><p>
+    
+    <span id="your_estimated_price">Your Estimated Price: $
+        
+        8.24   - $
+        13.11</span>
+    
+        </p>
+    
+
+    
+        <span class="qtylabel label">Quantity: </span>
+        <input type="text" name="qtyfield2" id="qtyfield2" value="1"/>
+        <div style="float:right;" id="product_price">
+        
+            <span id="per-item-price"><span id="priceval"></span> each</span>
+        
+        </div>
+        <p/>
+    
+
+
+    <div id="multisize_table">
+        
+<table id="configureForm:apparel_pricing_items" cellpadding="0" style="float:left;border-spacing:0px;background-color:#fff;" class="apparel_pricing_items">
+<thead>
+<tr><th><span style="background-color:#fff;border:0px;text-align:center">QTY</span></th></tr></thead>
+<tbody id="configureForm:apparel_pricing_items:tbody_element">
+<tr class="price pricerow"><td class="price"><input id="configureForm:apparel_pricing_items:0:_idJsp3" name="configureForm:apparel_pricing_items:0:_idJsp3" type="text" value="0" size="2" class="quantity_input_elem  " /></td></tr></tbody></table>
+
+    
+    </div>
+        
+
+        
+		
+        
+
+		<div id="priceMessage">
+		<p>Price may depend on quantity ordered and excludes any
+		applicable shipping charges and set up fees.</p>
+		<p>To receive a verified quote to guarantee pricing and inventory, 
+		select the quantity needed and any color or size options 
+		(if applicable), and click "Add to Quote."</p>
+		
+		</div>
+
+</div>
+    
+
+
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+    
+    
+
+    
+
+    
+    
+    
+</table>
+</div>
+
+<td colspan="2">
+    <div>
+
+        <div class="grp-container">
+
+            <p class="costs">
+                <br/>
+                
+            </p>
+
+
+        </div>
+    </div>
+
+    <div id="specialInstructions" style="display:none">
+        
+        <p><b>Special Instructions:</b> <br>
+                <textarea name="configureForm:ordering_notes" id="configureForm:ordering_notes" cols="50" rows="5"></textarea>
+    </div>
+
+
+</td>
+</tr>
+<tr>
+    <td class="quaternary" colspan="2">
+        <table cellspacing="2">
+            <tr>
+                <td>
+                    <script type="text/javascript"><!--
+
+
+	function oamSetHiddenInput(formname, name, value)
+	{
+		var form = document.forms[formname];
+		if(typeof form.elements[name]=='undefined')
+		{
+			var newInput = document.createElement('input');
+			newInput.setAttribute('type','hidden');
+			newInput.setAttribute('id',name);
+			newInput.setAttribute('name',name);
+			newInput.setAttribute('value',value);
+			form.appendChild(newInput);
+		}
+		else
+		{
+			form.elements[name].value=value;
+		}
+		
+	}
+	
+	
+	function oamClearHiddenInput(formname, name, value)
+	{
+		var form = document.forms[formname];
+		if(typeof form.elements[name]!='undefined')
+		{
+			form.elements[name].value=null;
+		}
+		
+	}
+	
+	function oamSubmitForm(formName, linkId, target, params)
+	{
+		
+		var clearFn = 'clearFormHiddenParams_'+formName.replace(/-/g, '\$:').replace(/:/g,'_');
+		if(typeof eval('window.'+clearFn)!='undefined')
+		{
+			eval('window.'+clearFn+'(formName)');
+		}
+		
+		var oldTarget = '';
+		if((typeof target!='undefined') && target != null)
+		{
+			oldTarget=document.forms[formName].target;
+			document.forms[formName].target=target;
+		}
+		if((typeof params!='undefined') && params != null)
+		{
+			for(var i=0; i<params.length; i++)
+			{
+				oamSetHiddenInput(formName,params[i][0], params[i][1]);
+			}
+			
+		}
+		
+		oamSetHiddenInput(formName,formName +':'+'_idcl',linkId);
+		
+		if(document.forms[formName].onsubmit)
+		{
+			var result=document.forms[formName].onsubmit();
+			if((typeof result=='undefined')||result)
+			{
+				document.forms[formName].submit();
+			}
+			
+		}
+		else 
+		{
+			document.forms[formName].submit();
+		}
+		if(oldTarget==null) oldTarget='';
+		document.forms[formName].target=oldTarget;
+		if((typeof params!='undefined') && params != null)
+		{
+			for(var i=0; i<params.length; i++)
+			{
+				oamClearHiddenInput(formName,params[i][0], params[i][1]);
+			}
+			
+		}
+		
+		oamClearHiddenInput(formName,formName +':'+'_idcl',linkId);return false;
+	}
+	
+
+//--></script><a href="#" onclick="document.forms['configureForm'].action = '/shopping_cart/configure.jsf';;return oamSubmitForm('configureForm','configureForm:_idJsp58');" id="configureForm:_idJsp58" class="gradient-buttons">Add to Quote</a>
+
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+</table>
+<input type="hidden" name="configureForm_SUBMIT" value="1" /><input type="hidden" name="configureForm:_idcl" /><input type="hidden" name="configureForm:_link_hidden_" /><script type="text/javascript"><!--
+
+	function clear_configureForm()
+	{
+		clearFormHiddenParams_configureForm('configureForm');
+	}
+	
+	function clearFormHiddenParams_configureForm(currFormName)
+	{
+		var f = document.forms['configureForm'];
+		f.elements['configureForm:_idcl'].value='';
+		f.elements['configureForm:_link_hidden_'].value='';
+		f.target='';
+	}
+	
+	clearFormHiddenParams_configureForm();
+//--></script><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="rO0ABXVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAN0AAhfaWQyMTI2MnB0ABwvc2hvcHBpbmdfY2FydC9jb25maWd1cmUuanNw" /></form>
+
+</div>
+<div class="sub-content">
+    <h2>Description</h2>
+    <hr>
+    <p><div>Features: This sporty women&#39;s tee is made of a 60/40 ring-spun, combed cotton/poly blend and features a crossover V-neck. It&#39;s available in sizes ranging from XS to 4XL.</div><div><br /></div><div>Price may vary based on decoration, shipping and taxes.</div></p>
+</div>
+
+<p/>
+
+</div>
+
+<div class="sideBar">
+    
+    <div class="shoppingcart-summary-wrapper"><div id="shoppingcart_summarylist" class="item-order sections" style="margin-bottom: 0;"><span class="cart-header">Quote Request Summary</span><hr class="hrspace" /><div class="item-desc" style="color: #2E6E9E; font-size: 12px; letter-spacing: 0; line-height: 1.25; margin-bottom: 10px; text-align: center;"><span style="text-align:left;">You currently do not have any products in the Quote Request.</span></div><hr /></div></div>
+
+
+
+
+
+
+
+
+<script>
+	jQuery(document).ready(function() {
+
+        //Flyout for Promo Points dialog... for more details go here http://blog.nemikor.com/2009/04/08/basic-usage-of-the-jquery-ui-dialog/
+		jQuery( "#request_div" ).dialog({
+			autoOpen: false,
+            modal: true,
+            resizable: false,
+            width: 400,
+			show: "clip",
+			hide: "clip"
+		});
+
+		jQuery( "#quoter" ).click(function() {
+			jQuery( "#request_div" ).dialog( "open" );
+			return false;
+		});
+
+
+		jQuery('#prices').click(function() {
+			var position = jQuery('#prices').position();
+			jQuery('#megamenu3').css('top', position.top + 30).css('left', position.left);
+			jQuery('#megamenu3').toggle();
+
+		});
+		jQuery('#cancelprices').click(function() {
+			jQuery('#megamenu3').hide();
+
+		});
+
+
+	});
+
+	//setup the dialog
+	//show the dialog on the link click
+	//put the box in the right space
+	jQuery('#prices').click(function() {
+		jQuery('#megamenu3').show();
+
+	});
+
+
+	function updateValues(start, end) {
+		jQuery('#lowestrange').val(start);
+		jQuery('#highestrange').val(end);
+		jQuery('#slider-range').slider("option", "values", [start,end]);
+	};
+
+</script>
+<!-- end jquery ui-->
+
+
+		
+			
+			
+
+			
+			
+		
+
+        
+            
+                
+                
+                
+
+                
+                    
+                        
+                    
+                    
+                
+
+            
+
+        
+
+
+        <div class="sections">
+            <h3>Customer Service</h3>
+			<span class="icon-chatbubbles"><strong>You have questions? We have answers!</strong></span>
+
+            
+                <p id="chat-info"><a href="mailto:hello@briopromotions.com"><em>Contact Us</em></a></p>
+            
+            
+
+		</div>
+  
+<div id="request_div" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 107px; height: auto;" scrolltop="0" scrollleft="0">
+
+<p>In order to send you a detailed quote we need a little information about you.</p>
+<form id="request_form" action="/sp/sendquote.html" method="GET">
+
+<table>
+<tr><td>Email Address *</td><td><input id="email" type="text" name="email" value=""/></td><td></td></tr>
+<tr><td>First Name *</td><td><input id="first" type="text" name="first" value=""/></td><td></td></tr>
+<tr><td>Last Name *</td><td><input  id="last" type="text" name="last" value=""/></td><td></td></tr>
+<tr><td>Phone</td><td><input type="text" name="phone" value=""/></td><td></td></tr>
+</table>
+<p>* Required Field
+
+<input type="submit" value="Submit"/>
+</form>
+</div>
+
+
+
+
+
+</div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    if (sampleShowing === null || sampleShowing === undefined)
+        sampleShowing = false;
+    var inputQtyField = jQuery(".quantity_input_elem");
+    var sizes = 1;
+
+    if (sizes < 2) {
+        var totalsLbl = jQuery('#totalVal');
+        var priceLbl = jQuery('#priceval');
+        var updateDiv = function(valNum) {
+            var size = boundaries.length;
+            var val = Number(jQuery('#qtyfield2').val());
+            var totalCost = 0;
+            var current = 0;
+            var next = current + 1;
+            for (; current < size;) {
+                var currItem = Number(boundaries[current]);
+                var nextItem = Number(boundaries[next]);
+
+                if (1 === size) {
+                    priceLbl.html("$" + Number(quantities.maxPrice).toFixed(2));
+                    totalCost = val * quantities.maxPrice;
+                    break;
+                }
+                else if (val >= quantities.maxQty) {
+                    priceLbl.html("$" + CurrencyFormatted(Number(quantities.maxPrice).toFixed(2)));
+                    totalCost = val * quantities.maxPrice;
+                    break;
+                }
+                else if (val <= quantities.minQty) {
+                    priceLbl.html("$" + CurrencyFormatted(Number(quantities.minPrice).toFixed(2)));
+                    totalCost = val * quantities.minPrice;
+                    break;
+                }
+                else if (val >= currItem && val < nextItem) {
+                    var price = Number(quantities['' + currItem]).toFixed(2);
+                    priceLbl.html("$" + CurrencyFormatted(price));
+                    totalCost = val * price;
+                    break;
+                }
+                else if (val == nextItem) {
+                    var price = Number(quantities['' + nextItem]).toFixed(2);
+                    priceLbl.html("$" + CurrencyFormatted(price));
+                    totalCost = val * price
+                    break;
+                }
+                current++;
+                next++;
+            }
+
+            inputQtyField.val(val);
+
+            var total = '$' + CurrencyFormatted(Number(totalCost.toFixed(2)));
+            jQuery('#totalCost').html(total);
+            var totalPoints = Math.floor(bonus + (pointsRate * Number(totalCost.toFixed(2))));
+            jQuery('#product_points').html(totalPoints);
+
+
+        };
+
+
+        jQuery("#multisize_table").hide();
+
+        jQuery("#qtyfield2").spinner({min:Number(quantities.minQty)});
+
+
+        jQuery("#qtyfield2").change(function() {
+            jQuery("#slider").slider('value', this.value);
+            updateDiv(this.value);
+        });
+
+        jQuery("#qtyfield2").keyup(function() {
+            jQuery("#slider").slider('value', this.value);
+            updateDiv(this.value);
+        });
+
+        updateDiv(jQuery('#qtyfield2').val());
+
+        jQuery("#savingsMessage").delegate(".qty_update", "click", function() {
+            var val = this.id;
+            jQuery("#qtyfield2").val(val);
+            updateDiv(val);
+        });
+
+
+    }
+    else {
+        var min = Number(quantities.minQty);
+        var inputs = jQuery(".quantity_input_elem");
+
+        var amount = Number(quantities.minQty);
+        var individual = Math.floor(amount / inputs.length);
+        var rollover = amount - (individual * inputs.length);
+        var rolloverAdded = false;
+
+        jQuery.each(inputs, function() {
+            this.value = individual;
+            if (!rolloverAdded) {
+                this.value = individual + rollover;
+                rolloverAdded = true;
+            }
+
+        });
+
+        jQuery.each(inputs, function() {
+            jQuery(this).spinner({min: 0, max: 10000});
+
+            jQuery(this).spinner().change(function() {
+                jQuery(inputs[0]).keyup();
+            });
+        });
+    }
+
+    
+    jQuery(".quantity_input_elem").change(function() {
+
+        var qtys = jQuery(".apparel_pricing_items .pricerow");
+        var qty = this.value;
+
+        if (isNaN(qty)) {
+            console.log('this is not a number bub.');
+        }
+        else {
+            var items = jQuery("#apparel_prices .basePrice");
+            var total = 0;
+            var totalCount = 0;
+            var qtyInputs = jQuery("#multisize_table .quantity_input_elem");
+
+            for (var a = 0; a < qtyInputs.length; a++) {
+                var qty = qtyInputs[a].value;
+                totalCount += Number(qty);
+            }
+            var val = totalCount;
+            var current = 0;
+            var next = current + 1;
+            var priceBucket = 0;
+
+            for (; current < boundaries.length;) {
+                var currItem = Number(boundaries[current]);
+                var nextItem = Number(boundaries[next]);
+
+                if (val >= boundaries[boundaries.length - 1]) {
+                    priceBucket = boundaries.length - 1;
+                    break;
+                }
+                else if (val <= Number(quantities.minQty)) {
+                    priceBucket = 0;
+                    break;
+                }
+                else if (val >= currItem && val < nextItem) {
+                    priceBucket = current;
+                    break;
+                }
+                else if (val == nextItem) {
+                    priceBucket = next;
+                    break;
+                }
+                current++;
+                next++;
+            }
+
+
+            var priceLabels = jQuery("#apparel_prices td");
+            for (var a = 0; a < sizeNames.length; a++) {
+                var sizeName = sizeNames[a];
+                var sizePriceArray = quantities['' + sizeName];
+                var sizePrice = sizePriceArray[priceBucket];
+                var sizeQty = qtyInputs[a].value;
+                jQuery(priceLabels[a]).html("<span class='basePrice' val='" + Number(sizePrice).toFixed(2) + "'>$" + Number(sizePrice).toFixed(2) + "</span>");
+                total = ((sizeQty * Number(sizePrice).toFixed(2)) + total);
+            }
+
+            var totalVal = Number(total.toFixed(2));
+            var totalStr = '$' + CurrencyFormatted(totalVal);
+            var totalPoints = Math.floor(bonus + (pointsRate * totalVal));
+            jQuery('#product_points').html(totalPoints);
+            jQuery('#totalCost').text(totalStr);
+        }
+    });
+
+    jQuery("#sliderInput").hide();
+    jQuery("#mainCanvas").hide();
+
+    jQuery("#savingsMessage").delegate(".qty_update", "click", function() {
+        var amount = jQuery(this).attr('val');
+        var individual = Math.floor(amount / inputs.length);
+        var rollover = amount - (individual * inputs.length);
+        var rolloverAdded = false;
+        jQuery.each(inputs, function() {
+            this.value = individual;
+            if (!rolloverAdded) {
+                this.value = individual + rollover;
+                rolloverAdded = true;
+            }
+        });
+        jQuery(inputs[0]).keyup();
+    });
+    jQuery(inputs[0]).keyup();
+    if (sizes > 1) {
+        jQuery(".quantity_input_elem").change();
+    }
+});
+
+
+function CurrencyFormatted(amount) {
+    var num = amount;
+    num = num.toString().replace(/$|\,/g, '');
+    if (isNaN(num))
+        num = "0";
+    sign = (num == (num = Math.abs(num)));
+    num = Math.floor(num * 100 + 0.490000000001);
+    cents = num % 100;
+    num = Math.floor(num / 100).toString();
+    if (cents < 10)
+        cents = "0" + cents;
+    for (var i = 0; i < Math.floor((num.length - (1 + i)) / 3); i++)
+        num = num.substring(0, num.length - (4 * i + 3)) + ',' +
+                num.substring(num.length - (4 * i + 3));
+    return (((sign) ? '' : '-') + num + '.' + cents);
+}
+
+function setNewConfigLine() {
+    var configLineId = jQuery('#configurationLineIdSelect').val();
+    var productId = 16641;
+    window.location.href = '/shopping_cart/configure.do?productId=' + productId +
+            '&configurationLineId=' + configLineId;
+}
+</script>
+
+
+
+	</div>
+	<div id="carouselArea">
+		
+	</div>
+	<div class="clear"></div>
+	</div>
+
+
+	<div id="footer" class="navbar_footer" style="width:100%;background-color:#fff">
+
+		<div class="footer_column_left">
+			<h3>Need Help</h3>
+
+            
+                <div id="contactUsLink"><img src="/images/left_green_arrow.png" style="margin-right:5px"/><a href="mailto:hello@briopromotions.com">Contact Us</a>
+                </div>
+            
+            
+
+			<img src="/images/left_green_arrow.png" style="margin-right:5px"/><a href="/terms.jsf">Terms And Conditions
+			<p/></a>
+
+		</div>
+		<div class="footer_column_left" id="contact_info">
+			<h3>Contact Information</h3>
+            
+                
+                    <div id="phone">
+                    <img src="/images/left_green_arrow.png" style="margin-right:5px"/>Phone:
+                    
+                        
+                            (207) 596-6989
+                        
+                        
+                    <p/></div>
+                
+                <div id="address">
+                <img src="/images/left_green_arrow.png" style="margin-right:5px"/>Address:
+                19 Merrill Drive 
+                <br/>
+                <span style="margin-left:17px;">Rockland, ME
+                        04841</span>
+
+                <p/></div>
+                <div id="email">
+                <img src="/images/left_green_arrow.png" style="margin-right:5px"/>Email:
+                <a href="mailto:hello@briopromotions.com">hello@briopromotions.com</a>
+
+                <p/></div>
+            
+            
+
+		</div>
+		<div class="footer_column_right" style="text-align: center;">
+			<a href="http://www.outboundengine.com" target="_blank"><img src="http://d1k3c4xlx29yaw.cloudfront.net/images/catalog-logo.png"/></a>
+		</div>
+	</div>
+	
+	<p>
+			
+	</div>
+
+
+	<!-- storeBlox version: null -->
+	<!--
+	
+		build.time: 21:09:11
+	
+		build.user.name: builder
+	
+		build.tag: 
+	
+		build.os.name: Linux
+	
+		build.date: Friday Nov 15, 2013
+	
+	-->
+<script type="text/javascript">
+plcnt();
+</script>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+	
+	
+		
+			
+			
+			
+		
+		
+			
+				
+				
+			
+		
+
+	
+
+	
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+

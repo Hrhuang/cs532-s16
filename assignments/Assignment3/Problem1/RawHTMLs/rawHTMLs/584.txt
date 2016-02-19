@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+
+
+
+
+<!--[if IE 8 ]><html class="bswr-ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="bswr-ie ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+
+<!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/manifest.json">
+        <link rel="mask-icon" href="https://s3.amazonaws.com/khv2016-live/static/img/favicons/safari-pinned-tab.svg" color="#243e87">
+        <meta name="msapplication-TileColor" content="#243e87">
+        <meta name="msapplication-TileImage" content="https://s3.amazonaws.com/khv2016-live/static/img/favicons/mstile-144x144.png">
+        <meta name="theme-color" content="#243e87">
+
+        
+        <title>Kraft Hockeyville 2016</title>
+
+        
+        <meta name="description" content="#KraftHockeyville is giving one community the chance to host an NHL® Pre-Season Game and receive $100,000 in arena upgrades! Get in the game at KHV2016.ca">
+        <meta name="keywords" content="">
+
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,600italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"/>
+
+        
+        <style type="text/css">
+            @font-face {
+                font-family: 'PopWarner';
+                src: url('https://s3.amazonaws.com/khv2016-live/static/fonts/PopWarner.eot');
+                src: url('https://s3.amazonaws.com/khv2016-live/static/fonts/PopWarner.eot?#iefix') format('embedded-opentype'),
+                     url('https://s3.amazonaws.com/khv2016-live/static/fonts/PopWarner.woff') format('woff'),
+                     url('https://s3.amazonaws.com/khv2016-live/static/fonts/PopWarner.ttf') format('truetype'),
+                     url('https://s3.amazonaws.com/khv2016-live/static/fonts/PopWarner.svg#PopWarner') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+        </style>
+
+        
+        
+            <meta property="fb:app_id" content="970439759689866" />
+            <meta property="og:site_name" content="Kraft Hockeyville 2016" />
+            <meta property="og:title" content="Kraft Hockeyville" />
+            <meta property="og:url" content="www.khv2016.ca" />
+            <meta property="og:type" content="website" />
+            
+                <meta property="og:image" content="https://s3.amazonaws.com/khv2016-live/static/img/facebook-share-en.jpg" />
+            
+            
+                <meta property="og:description" content="#KraftHockeyville is giving one community the chance to host an NHL® Pre-Season Game and receive $100,000 in arena upgrades! Get in the game at KHV2016.ca" />
+            
+        
+
+        
+        
+
+        
+        
+        
+
+        <script type="text/javascript" src="https://s3.amazonaws.com/khv2016-live/static/components/modernizr/modernizr.custom.js" charset="utf-8"></script>
+
+        
+            <link href="https://khv2016-live.s3.amazonaws.com/static/dist/core.min.css" media="screen" rel="stylesheet" />
+        
+
+        
+        <!--[if IE]><link href="https://khv2016-live.s3.amazonaws.com/static/dist/ie.min.css" media="screen" rel="stylesheet" /><![endif]-->
+        <!--[if !IE]><!-->
+        <script>
+            if (/*@cc_on!@*/false) {
+                document.documentElement.className+=' bswr-ie ie10';
+            }
+        </script>
+        <!--<![endif]-->
+
+        
+
+    </head>
+
+    <body class="lang-en nomination-detail-page phase-judging">
+
+        
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '970439759689866',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+        <section id="Wrapper" class="wpr">
+            
+                <header class="hdr clear-fix">
+                    <div class="hdr-logo container">
+                        <a href="/en/" id="Logo">
+                            <img src="https://s3.amazonaws.com/khv2016-live/static/img/logo-en.png" alt="Kraft Hockeyville"/>
+                        </a>
+                    </div>
+                    
+                    <aside class="sub-nav">
+                        <ul class="sub-nav-list container">
+                            
+
+
+
+
+
+    <li class="sub-nav-list-item">
+        <a class="nav-lng-toggle" href="/fr/nominations/profile/harry-lumley-bayshore-community-centre-3/">Français</a>
+    </li>
+
+<li class="sub-nav-list-item nav-sub-nav-icon">
+    <a href="https://www.facebook.com/krafthockeyville" target="_blank" data-event-category="KHV16" data-event-tag="Header" data-event-label="Facebook">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+</li>
+<li class="sub-nav-list-item nav-sub-nav-icon">
+    <a href="https://twitter.com/hockeyville" target="_blank" data-event-category="KHV16" data-event-tag="Header" data-event-label="Twitter">
+        <i class="fa fa-twitter"></i>
+    </a>
+</li>
+<li class="sub-nav-list-item">
+    <a href="http://www.krafthockeyville.com" target="_blank" data-event-category="KHV16" data-event-tag="Header" data-event-label="USA">USA</a>
+</li>
+<li class="sub-nav-list-item">
+    <span class="nav-flag"></span>
+</li>
+
+                        </ul>
+                    </aside>
+
+                    
+                    
+                        
+                            
+
+
+
+
+
+<div class="container">
+    <div id="Clock" class="clk">
+        <div class="clk-hdr">
+            <h5>Top 10 Announcement happens in:</h5>
+        </div>
+        <section class="clk-ticker" id="TickerTable">
+            <ul id="Ticker" class="clk-ticker-countdown">
+            </ul>
+            <ul class="clk-ticker-label">
+                <li>Days</li>
+                <li>Hours</li>
+                <li>Minutes</li>
+                <li>Seconds</li>
+            </ul>
+        </section>
+    </div>
+
+    
+
+
+
+<div id="LearnMore" class="nmr">
+    <div class="nmr-btn" data-open-subscribe data-event-category="KHV16" data-event-tag="Header" data-event-label="Sign Up for Updates">
+        <h5>SIGN UP FOR KRAFT HOCKEYVILLE UPDATES*</h5>
+    </div>
+    <section id="FormWrapper" class="frm-wpr">
+        <form id="ReminderSignup" class="frm" method="POST" action="/en/teaser/signup/" autocomplete="off">
+            <input type='hidden' name='csrfmiddlewaretoken' value='33wz1BvKpx1vd9C6SkNqQpXfc8ZZVL0Y' />
+            
+            <div id="Ajx-email" class="frm-itm">
+                <label for="email" class="frm-email-label">EMAIL ADDRESS</label>
+                <input id="id_email" maxlength="255" name="email" type="email" placeholder="EMAIL ADDRESS">
+                <button class="frm-itm-sub-btn">
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+                <div class="frm-itm-err" id="Err-email"></div>
+            </div>
+            <div class="frm-opt-in">
+                <input id="id_opt_in" name="opt_in" type="checkbox">
+                <label for="id_opt_in" class="frm-label">I would also like to receive Kraft emails with simple meal ideas, tips and special offers and opportunities.</label>
+            </div>
+        </form>
+    </section>
+</div>
+
+    <div class="menu-icon indent" data-nav data-event-category="KHV16" data-event-tag="GMP" data-event-label="GMP">
+    <div class="menu-icon-wpr">
+        <span class="menu-icon__bar"></span>
+        <span class="menu-icon__text">Menu</span>
+    </div>
+</div>
+</div>
+
+
+
+
+<nav id="Nav" class="nav">
+    <ul class="nav-list container">
+        <li class="nav-list-item nav-about">
+            <a href="/en/about/" data-event-category="KHV16" data-event-tag="GMP" data-event-label="About KHV">
+                About Kraft Hockeyville
+            </a>
+        </li>
+        
+        <li class="nav-list-item nav-nominations">
+            <a href="/en/nominations/" data-event-category="KHV16" data-event-tag="GMP" data-event-label="Nominated Communities">
+                Nominated Communities
+            </a>
+        </li>
+        <li class="nav-list-item nav-tips">
+            <a href="/en/tips/" data-event-category="KHV16" data-event-tag="GMP" data-event-label="Tips for Nominations">
+                Tips For Nominations
+            </a>
+        </li>
+        <li class="nav-list-item nav-recipes">
+            <a href="/en/recipes/" data-event-category="KHV16" data-event-tag="GMP" data-event-label="KHV Recipes">
+                Rink-Ready Recipes
+            </a>
+        </li>
+        <li class="nav-list-item nav-stories">
+            <a href="/en/stories/" data-event-category="KHV16" data-event-tag="GMP" data-event-label="KHV Social Grid">
+                Get Involved
+            </a>
+        </li>
+        <li class="nav-list-item nav-anniversary">
+            <a href="/en/anniversary/" data-event-category="KHV16" data-event-tag="GMP" data-event-label="KHV 10th Anniversary">
+                Kraft Hockeyville's 10<sup>th</sup> Anniversary
+            </a>
+        </li>
+        <li class="nav-list-item nav-winners">
+            <a href="/en/past/" data-event-category="KHV16" data-event-tag="GMP" data-event-label="Previous Winners">
+                Previous Winners
+            </a>
+        </li>
+        <li class="nav-list-item nav-rules">
+            <a href="https://s3.amazonaws.com/khv2016-live/static/docs/Kraft_Hockeyville_2016_CDN_Rules-en.pdf" target="_blank" data-event-category="KHV16" data-event-tag="GMP" data-event-label="R&amp;R">
+                Rules & Regulations
+            </a>
+        </li>
+        <li class="nav-list-item nav-faq">
+            <a href="/en/faq/" data-event-category="KHV16" data-event-tag="GMP" data-event-label="FAQ">
+                faq & tools
+            </a>
+        </li>
+    </ul>
+</nav>
+
+                        
+                    
+                    
+                </header>
+            
+
+            
+                
+
+    
+    
+    <div class="nom">
+        <span class="disqus-comment-count" data-disqus-identifier="harry-lumley-bayshore-community-centre-3"></span>
+
+        <section class="cpcrs">
+        
+            
+    
+                <h1>Harry Lumley Bayshore Community Centre</h1>
+            
+
+
+            
+                <section class="cpcrs-plchdr cpcrs-plchdr-"></section>
+            
+        </section>
+
+    
+
+
+    
+    
+
+        <div class="nmd">
+            
+            
+            <section class="nmd-header container">
+                <div class="nmd-header-social">
+                    <div class="nmd-header-social-btn">
+                        
+                        
+    
+                            <a class="fb-share-btn"
+                                data-fb-custom-button
+                                data-fb-custom-button-method="feed"
+                                data-fb-custom-button-link='http://www.khv2016.ca/en/nominations/profile/harry-lumley-bayshore-community-centre-3/'
+                                data-fb-custom-button-picture="www.khv2016.cahttps://s3.amazonaws.com/khv2016-live/static/img/facebook-share-en.jpg"
+                                data-fb-custom-button-name="Harry Lumley Bayshore Community Centre - Kraft Hockeyville 2016"
+                                data-fb-custom-button-caption="http://www.khv2016.ca"
+                                data-fb-custom-button-description="I support Harry Lumley Bayshore Community Centre to be the next #KraftHockeyville 2016! http://www.khv2016.ca/en/nominations/profile/harry-lumley-bayshore-community-centre-3/"
+                                href="#">
+                                <i class="fa fa-facebook-square"></i>
+                                Share
+                            </a>
+                        
+
+                    </div>
+                    <div class="nmd-header-social-btn">
+                        
+    
+                            <a class="twt-share-btn"
+                                href="#"
+                                data-twt-event-category="KHV16"
+                                data-twt-event-tag="Nomination Detail Pages"
+                                data-twt-event-label="Twitter Share Harry Lumley Bayshore Community Centre"
+                                data-twt-custom-button
+                                data-twt-custom-description="I support #KHV_HarryLumleyBayshore to be the next #KraftHockeyville 2016! http://www.khv2016.ca/en/nominations/profile/harry-lumley-bayshore-community-centre-3/">
+                                <i class="fa fa-twitter"></i>
+                                Tweet
+                            </a>
+                        
+
+                    </div>
+                </div>
+
+                
+                    <h2>Harry Lumley Bayshore Community Centre</h2>
+                
+                <ul class="nmd-info-list ">
+                    <li class="nmd-info-list-item">
+                        <p>Location:</p>
+                        <h3>Owen Sound, ON</h3>
+                    </li>
+
+                    
+    
+                        <li class="nmd-info-list-item">
+                            <p>Publishing Date:</p>
+                            <h3>January 26, 2016</h3>
+                        </li>
+                    
+
+
+                    <li class="nmd-info-list-item">
+                        <p>Nominated By:</p>
+                        <h3>Becki Gagnon</h3>
+                    </li>
+                </ul>
+
+                
+    
+                    
+                
+
+
+            </section>
+        </div>
+
+    
+
+
+    
+    
+
+        <section class="cmst">
+            <div class="cmst-wpr container">
+                
+    
+                    
+                
+
+
+                
+                    <h2>1. How would you describe your community’s passion and spirit for hockey?</h2>
+                    <p>Our town has a huge fan base and tons of love for the local OHL team. We are known for being the most loyal and very involved! We moved here recently because of our son who is addicted to the Hockey Team as well as thier moscot. They always make time for the kids weather its a cost bump on the way in and out of the locker rooms, or giving them time to sign memerbelia for the younglings after the game. </p>
+                
+
+                
+                    <h2>2. What arena project would most benefit from the prize money and what impact would this project have on your community?</h2>
+                    <p>Harry Lumley Bayshore Centre Hockey arena could use the money to update the building. They could update amenities.  They have separate parts of the arena that are used for other events such as weddings, birthdays and outtings. A fresh coat of paint would also make the place seem fresh and new! Let&#39;s bring the Bayshore back to life! Xo</p>
+                
+
+                
+                    <h2>3. Why should your community be the next Kraft Hockeyville?</h2>
+                    <p>Because we have the best Hockey Team! The whole community gets involved and they have a huge fan base! We are one of the loudest, cheerful and very caring fan base that I have honestly seen in the OHL for the smallest community in the OHL.  Although we are new to this community we have been traveling an hour to see the games for over a year! Living here now just means that we can go to more games ;)</p>
+                
+            </div>
+
+        </section>
+
+    
+
+
+    
+    
+        <section id="Social"class="nmd-social">
+            <div class="nmd-social-wpr clear-fix">
+
+                
+    
+                    
+    
+                        <h2>Join the conversation about this community!</h2>
+                    
+
+
+                    <h5>Post your photos here</h5>
+
+                    <p>Use the Custom Hashtag <strong class="community_hashtag">#KHV_HarryLumleyBayshore</strong> when posting on Twitter or Instagram</p>
+                
+
+
+                
+    
+                    <section id="PhotoGrid" class="nmd-ptg nmd-photogrid">
+                        <div class="pto-wrapper wdj-in"></div>
+                    </section>
+                
+
+
+            </div>
+        </section>
+
+        <section id="SocialFeedWrapper" class="nmd-social-feed-wrapper container">
+
+            
+    
+                <section class="cmts container nmd-comments">
+                    <h5>
+                        Comments
+                    </h5>
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                         */
+                        var disqus_config = function () {
+                            this.page.url = 'http://www.khv2016.ca/en/nominations/profile/harry-lumley-bayshore-community-centre-3/';  // Replace PAGE_URL with your page's canonical URL variable
+                            this.page.identifier = 'harry-lumley-bayshore-community-centre-3'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            this.language = "en";
+                            this.callbacks.onNewComment = [function() {
+                                Analytics.event.track("judging", "DISQUS", "Click");
+                            }];
+                        };
+                        (function() {  // DON'T EDIT BELOW THIS LINE
+                            var d = document, s = d.createElement('script');
+                            s.src = '//khv2016hockeyville.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+                </section>
+
+            
+
+
+            
+    
+                <section class="twtr container nmd-twitter-feed">
+                    <h5>Twitter</h5>
+                    <div class="nmd-twitter-feed-wpr">
+                        <h4 class="nmd-twitter-feed-title"><span class="community_hashtag">#KHV_HarryLumleyBayshore</span></h4>
+                        <ul class="nmd-twitter-feed-list">
+                            
+                                
+                                    
+                                        
+                                        
+                                            <li class="nmd-twitter-feed-item clear-fix">
+                                                <a target="_blank" class="nmd-twitter-feed-item-img" href="http://twitter.com/brycebeef">
+                                                    <img height="50" width="50" class="nmd-twitter-feed-img" src="http://pbs.twimg.com/profile_images/378800000669166920/dfab0bca3bfc93ed285c072c869c28c3_normal.jpeg" />
+                                                </a>
+                                                <span class="nmd-twitter-date">Tue 09 Feb 2016</span>
+                                                <h2>
+                                                    <a target="_blank" class="nmd-twitter-screen-name" href="http://twitter.com/brycebeef">Jay</a>
+                                                </h2>
+                                                <h3>
+                                                    <a target="_blank" class="nmd-twitter-name" href="http://twitter.com/brycebeef">@brycebeef</a>
+                                                </h3>
+                                                <br>
+                                                <div class="nmd-twitter-tweet">RT <a href="https://twitter.com/OSTourism">@OSTourism</a>: Help us win an upgrade to the Harry Lumley Bayshore arena and host an NHL pre-season game. <a href="https://twitter.com/search?q=%23KHV_HarryLumleyBayshore">#KHV_HarryLumleyBayshore</a> <a href="http://ow.ly/Y8enn">ow.ly/Y8enn</a></div>
+                                            </li>
+                                        
+                                            <li class="nmd-twitter-feed-item clear-fix">
+                                                <a target="_blank" class="nmd-twitter-feed-item-img" href="http://twitter.com/LarryMillerMP">
+                                                    <img height="50" width="50" class="nmd-twitter-feed-img" src="http://pbs.twimg.com/profile_images/680895736708333568/OYVH22ul_normal.jpg" />
+                                                </a>
+                                                <span class="nmd-twitter-date">Tue 09 Feb 2016</span>
+                                                <h2>
+                                                    <a target="_blank" class="nmd-twitter-screen-name" href="http://twitter.com/LarryMillerMP">Larry Miller, MP</a>
+                                                </h2>
+                                                <h3>
+                                                    <a target="_blank" class="nmd-twitter-name" href="http://twitter.com/LarryMillerMP">@LarryMillerMP</a>
+                                                </h3>
+                                                <br>
+                                                <div class="nmd-twitter-tweet">RT <a href="https://twitter.com/OSTourism">@OSTourism</a>: Help us win an upgrade to the Harry Lumley Bayshore arena and host an NHL pre-season game. <a href="https://twitter.com/search?q=%23KHV_HarryLumleyBayshore">#KHV_HarryLumleyBayshore</a> <a href="http://ow.ly/Y8enn">ow.ly/Y8enn</a></div>
+                                            </li>
+                                        
+                                            <li class="nmd-twitter-feed-item clear-fix">
+                                                <a target="_blank" class="nmd-twitter-feed-item-img" href="http://twitter.com/OSTourism">
+                                                    <img height="50" width="50" class="nmd-twitter-feed-img" src="http://pbs.twimg.com/profile_images/2413130702/ed6chvcpf009a4hie1vw_normal.jpeg" />
+                                                </a>
+                                                <span class="nmd-twitter-date">Tue 09 Feb 2016</span>
+                                                <h2>
+                                                    <a target="_blank" class="nmd-twitter-screen-name" href="http://twitter.com/OSTourism">Owen Sound Tourism</a>
+                                                </h2>
+                                                <h3>
+                                                    <a target="_blank" class="nmd-twitter-name" href="http://twitter.com/OSTourism">@OSTourism</a>
+                                                </h3>
+                                                <br>
+                                                <div class="nmd-twitter-tweet">Help us win an upgrade to the Harry Lumley Bayshore arena and host an NHL pre-season game. <a href="https://twitter.com/search?q=%23KHV_HarryLumleyBayshore">#KHV_HarryLumleyBayshore</a> <a href="http://ow.ly/Y8enn">ow.ly/Y8enn</a></div>
+                                            </li>
+                                        
+                                    
+                                
+                                <li class="nmd-twitter-feed-vote">
+                                    
+    
+                                        <a href="#"
+                                            class="nmd-twitter-feed-vote-btn"
+                                            data-twt-custom-button
+                                            data-twt-custom-description="I support #KHV_HarryLumleyBayshore to be the next #KraftHockeyville 2016!"
+                                            >
+                                            Tweet
+                                            
+                                                #KHV_HarryLumleyBayshore
+                                            
+                                        </a>
+                                    
+
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </section>
+            
+
+
+        </section>
+    </div>
+
+    
+
+
+
+            
+
+
+            
+                
+                <footer id="Footer" class="ftr">
+                    <section class="ftr-content container">
+                        <div class="ftr-nav">
+                            <ul>
+                                <li>
+                                    <a href="http://www.kraftcanada.com/message-from-our-lawyers" target="_blank">
+                                        Legal
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="blt">●</span>
+                                    <a href="http://www.kraftcanada.com/privacypromise" target="_blank">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="blt">●</span>
+                                    <a href="http://www.nhl.com/ice/privacypolicy.htm" target="_blank">
+                                        NHL&reg; Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="blt">●</span>
+                                    <a href="http://www.nhlpa.com/privacy" target="_blank">
+                                        NHLPA Privacy Policy
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <span class="blt">●</span>
+                                    <a href='https://s3.amazonaws.com/khv2016-live/static/docs/Kraft_Hockeyville_2016_CDN_Rules-en.pdf' target="_blank">
+                                        Rules
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <span class="blt">●</span>
+                                    <a href="mailto:support@khv2016.ca" target="_blank">
+                                        Contact
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <span class="blt">●</span>
+                                    <a href="/en/faq/" target="_blank">
+                                        FAQ
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <span class="blt">●</span>
+                                    <a href="http://www.kraftcanada.com/" target="_blank">
+                                        KRAFTCANADA.COM
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ftr-spr">
+                            <div class="ftr-spr-logo"><img src="https://s3.amazonaws.com/khv2016-live/static/img/logo-en.png" alt="Kraft Hockeyville Logo"></div>
+                            <p>Brought To You By</p>
+                            <ul>
+                                <li>
+                                    <a href="http://www.nhl.com/" target="_blank">
+                                        <img src="https://s3.amazonaws.com/khv2016-live/static/img/ftr-logo-nhl-en.png" alt="NHL sponsorship logo"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.kraftcanada.com/" target="_blank">
+                                        <img src="https://s3.amazonaws.com/khv2016-live/static/img/ftr-logo-kraft.png" alt="Kraft sponsorship logo"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://www.nhlpa.com/" target="_blank">
+                                        <img src="https://s3.amazonaws.com/khv2016-live/static/img/ftr-logo-nhlpa-en.png" alt="NHLPA sponsorship logo"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ftr-lgl">
+                            <p>
+                                <strong>THESE ARE NOT THE OFFICIAL RULES. NO PURCHASE NECESSARY.</strong> Open to legal residents of Canada 13 years of age or older. Competition begins on January 1, 2016 at 12:00 a.m. EST and ends February 7, 2016 at 11:59 p.m. EST. Voting Period #1: 9:00 a.m. EST March 13 – 11:59 p.m. EST March 14, 2016. Voting Period #2: 9:00 a.m. EST March 20 – 11:59 p.m. EST March 21, 2016. One (1) Grand Prize winning community will win $100,000 in arena upgrades and an NHL® Pre&#8209;Season hockey game in their community. ARV of Grand Prize is $500,000.  One (1) second place community will win $100,000 in arena upgrades, and eight (8) third place communities will each win $25,000 in arena upgrades. Entrants must correctly answer a mathematical skill-testing question and satisfy all other eligibility requirements before being declared a winner. Odds of winning a prize depends on the number of eligible entries received per region, application of judging criteria, and number of votes received. For official rules and complete competition details please visit <a href="http://www.khv2016.ca" target="_blank">www.khv2016.ca</a>.
+                            </p>
+                            <p>
+                                FOR OFFICIAL RULES AND COMPLETE COMPETITION DETAILS PLEASE <a href="https://s3.amazonaws.com/khv2016-live/static/docs/Kraft_Hockeyville_2016_CDN_Rules-en.pdf" target="_blank">CLICK HERE</a>
+                            </p>
+                            <p>
+                                NHL AND THE NHL SHIELD ARE REGISTERED TRADEMARKS OF THE NATIONAL HOCKEY LEAGUE. NHL AND NHL TEAM MARKS ARE THE PROPERTY OF THE NHL AND ITS TEAMS. &copy; NHL 2015. ALL RIGHTS RESERVED.
+                            </p>
+                            <p>
+                                NHLPA, NATIONAL HOCKEY LEAGUE PLAYERS’ ASSOCIATION AND THE NHLPA LOGO ARE TRADEMARKS OF THE NHLPA AND ARE USED UNDER LICENSE. &copy; NHLPA. ALL RIGHTS RESERVED.
+                            </p>
+                            <p>
+                                *You may unsubscribe at any time to stop receiving communications from Kraft Canada.<br />Kraft Canada Inc. 95 Moatfield Drive, Don Mills, ON M3B 3L6 1-888-572-3806 <a href="http://www.kraftcanada.com" target="_blank">www.kraftcanada.com</a>
+                            </p>
+                        </div>
+                    </section>
+
+                    <div class="ftr-kraft container">
+                        <ul class="ftr-kraft-brands">
+                            <li class="ftr-kraft-brands-itm">
+                                <a href="http://www.kraftcanada.com/brands/kraft-peanut-butter" target="_blank">
+                                    <img src="https://s3.amazonaws.com/khv2016-live/static/img/ftr-logo-pb.png" alt="Kraft Peanut Butter Logo">
+                                </a>
+                            </li>
+                            <li class="ftr-kraft-brands-itm">
+                                <a href="http://www.heinz.com/our-food/products/ketchup.aspx" target="_blank">
+                                    <img src="https://s3.amazonaws.com/khv2016-live/static/img/ftr-logo-heinz.png" alt="Heinz Logo">
+                                </a>
+                            </li>
+                            <li class="ftr-kraft-brands-itm">
+                                <a href="http://www.kraftcanada.com/brands/philadelphia" target="_blank">
+                                    <img src="https://s3.amazonaws.com/khv2016-live/static/img/ftr-logo-philly.png" alt="Philadelphia Cream Cheese Logo">
+                                </a>
+                            </li>
+                            <li class="ftr-kraft-brands-itm">
+                                <a href="http://www.heinz.com/our-food/products/classico.aspx" target="_blank">
+                                    <img src="https://s3.amazonaws.com/khv2016-live/static/img/ftr-logo-classico.png" alt="Classico Logo">
+                                </a>
+                            </li>
+                            <li class="ftr-kraft-brands-itm">
+                                <a href="http://www.kraftcanada.com/brands/maxwell-house" target="_blank">
+                                    <img src="https://s3.amazonaws.com/khv2016-live/static/img/ftr-logo-maxwell-en.png" alt="Maxwell House Logo">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    
+    
+    
+
+
+
+<aside id="AdUnit" class="ad-unit">
+    <div class="adu">
+        <ul class="adu-list container">
+            
+            
+            
+        </ul>
+    </div>
+</aside>
+
+
+
+
+                    <div class="ftr-snet container">
+                        <div class="ftr-snet-callout">
+                            <p>
+                                <a href="http://www.rogersmedia.com/" target="_blank">
+                                    Rogers Digital Media - Television
+                                </a>
+                            </p>
+                            <p>
+                                <a href="http://www.sportsnet.ca/" target="_blank">
+                                    Sportsnet Network
+                                </a>
+                            </p>
+                        </div>
+                        <div class="ftr-snet-legal">
+                            <p>&copy; 2000-2015 Rogers Media. All rights reserved​. <a href="http://www.rogersmedia.com/privacy/" target="_blank">Privacy</a> <a href="http://www.rogersmedia.com/terms-of-service/" target="_blank">Terms of Service</a></p>
+                        </div>
+                        <div class="ftr-snet-rogers">
+                            <a href="http://www.rogersmedia.com/" target="_blank">
+                                <img src="https://s3.amazonaws.com/khv2016-live/static/img/logo-rogers.png" alt="Rogers Logo">
+                            </a>
+                        </div>
+                        <div class="ftr-snet-logo">
+                            <a href="http://www.sportsnet.ca/" target="_blank">
+                                <img src="https://s3.amazonaws.com/khv2016-live/static/img/logo-snet.png" alt="Sportsnet Logo">
+                            </a>
+                        </div>
+                    </div>
+                </footer>
+
+                </div>
+            
+
+        </section>
+
+        <script id="ReminderSignupSuccess" type="text/template">
+            <div class="lrn-success">
+                <h5>
+                    Thank you for subscribing
+                </h5>
+                <p>
+                    To stay updated with NHL&reg;, sign up for their newsletter <a href='https://account.nhl.com/registeredfancreateaccount.htm?lang=en&origin=krafthockeyville_2016' title='Subscribe to the NHL newsletter' target='_blank'>here.</a>
+                </p>
+            </div>
+        </script>
+
+        
+            <script src="https://khv2016-live.s3.amazonaws.com/static/dist/core.min.js"></script>
+        
+
+
+        
+    
+    <script src="https://khv2016-live.s3.amazonaws.com/static/dist/nomination.min.js"></script>
+    <script src="https://khv2016-live.s3.amazonaws.com/static/dist/detail.min.js"></script>
+
+    <script>
+        $(function () {
+            Trapeze.Project = new Trapeze.Core({
+                countdown_date: "03/05/2016 19:00:00 EST",
+                lang: 'en',
+                phase: 'judging',
+                community_name: 'Harry Lumley Bayshore Community Centre',
+                hashtag: {
+                    community_hashtag: 'KHV_HarryLumleyBayshore',
+                    fallback_hashtag: 'KraftHockeyville'
+                },
+                youtubeURL: ''
+            });
+        });
+    </script>
+
+    
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'khv2016hockeyville'; // required: replace example with your forum shortname
+        var disqus_identifier = 'harry-lumley-bayshore-community-centre-3';
+        var disqus_title = "Harry Lumley Bayshore Community Centre";
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+
+
+
+        
+            <script type="text/javascript">
+                new Analytics.Google({
+                    account : 'UA-56190534-3'
+                });
+            </script>
+        
+
+        
+    </body>
+</html>

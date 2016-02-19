@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        
+        <meta name="twitter:card" content="app" />
+        <meta name="twitter:site" content="@randomlogicgame" />
+        <meta name="twitter:site:id" content="2271881696" />
+        <meta name="twitter:creator" content="@kiranb47" />
+        <meta name="twitter:creator:id" content="75580661" />
+        <meta name="twitter:app:id:iphone" content="698848120" />
+        <meta name="twitter:app:name:iphone" content="Guess The Emoji" />
+        <meta name="twitter:app:id:ipad" content="698848120" />
+        <meta name="twitter:app:name:ipad" content="Guess The Emoji"/>
+        <meta name="twitter:app:id:googleplay" content="com.randomlogicgames.guesstheemoji" />
+        <meta name="twitter:app:name:googleplay" content="Guess The Emoji" />
+        <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=com.rlg.guesstheemoji" />
+        
+        <meta name="twitter:description" content="Are you ready for a guessing game like none other?! Guess The Emoji will entertain you for hours! Our new kid and family friendly game tests your logic and reasoning skills to solve simple (and sometimes hard!) Emoji Puzzles!" />
+        
+        <meta name="twitter:app:swift:name" content="Guess The Emoji" />
+        
+        
+        
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <title>Guess The Emoji</title>
+                    
+                    
+                    
+                    <!-- Style -->
+                    <link href="css/style.css" rel="stylesheet">
+                        
+                        <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+                            
+                            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+                            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+                            <!--[if lt IE 9]>
+                             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+                             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+                             <![endif]-->
+                            
+                            
+                            <script>
+                                function myFunction() {
+                                    var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false );
+                                    if(iOS==true) {
+                                        window.location.href= "https://itunes.apple.com/us/app/guess-the-emoji-emoji-pops/id698848120?ls=1&mt=8";
+                                        return;
+                                    }
+                                    
+                                    var amazon = ( navigator.userAgent.match(/(amazon|kindle|silk|Amazon)/g) ? true : false );
+                                    if(amazon==true) {
+                                        window.location.href= "https://www.amazon.com/gp/product/B00DUGCLY4";
+                                        return;
+                                    }
+                                    
+                                    if(navigator.userAgent.toLowerCase().indexOf("android") > -1) {
+                                        window.location.href= "https://play.google.com/store/apps/details?id=com.rlg.guesstheemoji";
+                                        return;
+                                    }
+                                    
+                                    window.location.href= "https://www.facebook.com/appcenter/guesstheemoji";
+                                }
+                            </script>
+							<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43006044-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+                            
+                            </head>
+    <body onload="myFunction()">
+        <div class="container">
+            <p>
+            <img src="images/logo.png" alt="logo" class="img-responsive img-center" />
+            </p>
+            <div class="links">
+                <p class="text-center">
+                <a href="https://play.google.com/store/apps/details?id=com.rlg.guesstheemoji" class="btn android">Play on Android</a>
+                </p>
+                <p class="text-center">
+                <a href="https://itunes.apple.com/us/app/guess-the-emoji-emoji-pops/id698848120?ls=1&mt=8" class="btn ios">Play on IOS</a>
+                </p>
+                <p class="text-center">
+                <a href="https://www.amazon.com/gp/product/B00DUGCLY4" class="btn amazon">Play on Amazon</a>
+                </p>
+                <p class="text-center">
+                <a href="https://www.facebook.com/appcenter/guesstheemoji" class="btn facebook">Play on Facebook</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

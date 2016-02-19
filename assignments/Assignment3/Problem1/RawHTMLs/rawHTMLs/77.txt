@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="all" href="https://blogs.msdn.microsoft.com/davrous/wp-content/themes/microsoft-msdn/style.css"/>
+	<link rel="pingback" href="https://blogs.msdn.microsoft.com/davrous/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="https://blogs.msdn.microsoft.com/davrous/wp-content/themes/microsoft/js/html5.js"></script>
+	<![endif]-->
+	<title>Discovering Sponza by Babylon.js and sharing tips on how to build a cross-platforms WebGL game | David Rousset &#8211; HTML5 &amp; Gaming Technical Evangelist</title>
+<link rel="alternate" type="application/rss+xml" title="David Rousset - HTML5 &amp; Gaming Technical Evangelist &raquo; Discovering Sponza by Babylon.js and sharing tips on how to build a cross-platforms WebGL game Comments Feed" href="https://blogs.msdn.microsoft.com/davrous/2016/02/05/discovering-sponza-by-babylon-js-and-sharing-tips-on-how-to-build-a-cross-platforms-webgl-game/feed/" />
+<link rel='stylesheet' id='sfmsb-style-css'  href='https://blogs.msdn.microsoft.com/davrous/wp-content/plugins/simple-follow-me-social-buttons-widget/assets/css/style.css?ver=3.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='sfmsb-icons-css'  href='https://blogs.msdn.microsoft.com/davrous/wp-content/plugins/simple-follow-me-social-buttons-widget/assets/css/icons.css?ver=3.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wds-ratings-css'  href='https://blogs.msdn.microsoft.com/davrous/wp-content/plugins/wds-ratings/wds-ratings.css?ver=4.1.5' type='text/css' media='all' />
+<script type='text/javascript' src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+<script type='text/javascript' src='https://blogs.msdn.microsoft.com/davrous/wp-content/plugins/simple-follow-me-social-buttons-widget/assets/js/front-widget.js?ver=3.3.3'></script>
+<script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='https://blogs.msdn.microsoft.com/davrous/wp-content/themes/microsoft/js/single.js?ver=12082015'></script>
+<script type='text/javascript' src='https://blogs.msdn.microsoft.com/davrous/wp-content/themes/microsoft/js/social-counts.js?ver=12082015'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blogs.msdn.microsoft.com/davrous/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blogs.msdn.microsoft.com/davrous/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.5" />
+<link rel='canonical' href='https://blogs.msdn.microsoft.com/davrous/2016/02/05/discovering-sponza-by-babylon-js-and-sharing-tips-on-how-to-build-a-cross-platforms-webgl-game/' />
+<link rel='shortlink' href='https://blogs.msdn.microsoft.com/davrous/?p=3052' />
+<script type="text/javascript">
+    jQuery( window ).load(
+        function() {
+            if (!document.getElementById("gajs"))
+            {
+                window._gaq = window._gaq || [];
+                                var pluginUrl ='//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+                window._gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+                window._gaq.push(['_setAccount', 'UA-65691138-1']);
+                                window._gaq.push(['_trackPageview']);
+                                (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.id = 'gajs';
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+            }
+        });
+</script>
+			<!-- Begin Custom CSS --><style type="text/css" id="wds-custom-css">
+						</style><!-- End Custom CSS -->
+			</head>
+
+<body class="single single-post postid-3052 single-format-standard">
+<div id="page" class="site container-fluid">
+
+	<header id="site-header" class="site-header row" role="banner">
+		<div id="site-header-global-wrapper" class="site-header-global-wrapper">
+			<div id="site-header-global" class="site-header-global">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-profile-menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div id="site-logo" class="col-sm-5 row navbar-header">
+					<div id="header-microsoft-logo">
+						<a id="home-link" href="https://www.microsoft.com/">
+							<img id="header-microsoft-logo-svg" src="https://blogs.msdn.microsoft.com/davrous/wp-content/themes/microsoft/images/ms-logo-gray.svg">
+							<span id="brand">
+								<span id="brand-separator">|</span>
+								<span id="brand-name"></span>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div id="site-header-global-right" class="col-sm-7">
+					<div id="site-profile-menu" class="navbar-collapse collapse">
+						<div id="search-form-wrapper">
+							<form id="search-form" role="search" action="https://social.msdn.microsoft.com/search/en-US" home-url="https://blogs.msdn.microsoft.com/davrous" autocomplete="off">
+								<div class="input-group">
+									<input type="hidden" name="refinement" value="109" />
+									<input type="text" class="form-control" placeholder="Search" name="query" id="srch-term">
+									<div class="input-group-btn">
+										<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+									</div>
+								</div>
+							</form>
+							<div id="search-option">
+								<div class="search-filter" id="search-filter-site">
+									<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+									<span class="search-text">Search MSDN</span>
+								</div>
+								<div class="search-filter selected" id="search-filter-all-blogs">
+									<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+									<span class="search-text">Search all blogs</span>
+								</div>
+																	<div class="search-filter" id="search-filter-this-blog">
+										<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+										<span class="search-text">Search this blog</span>
+									</div>
+															</div>
+						</div>
+						<div id="me-control">
+															<a href="https://blogs.msdn.microsoft.com/wp-login.php?aadsso_action=login">Sign in</a>
+													</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<div id="site-header-blog-wrapper" class="site-header-blog-wrapper ms-blog-header clear-both">
+			<div id="site-header-blog" class="site-header-blog">
+				<nav class="navbar navbar-inverse">
+					<div id="blog-logo-area" class="navbar-header">
+							<div id="blog-logo" data-toggle="collapse" data-target="#blog-menu">
+							<div id="blog-logo-text">
+				<h3 class="site-title ms-blog-title">
+					<a href="https://blogs.msdn.microsoft.com/davrous" class="for-desktop">
+						David Rousset &#8211; HTML5 &amp; Gaming Technical Evangelist					</a>
+					<a href="#" class="for-mobile">
+						David Rousset &#8211; HTML5 &amp; Gaming Technical Evangelist					</a>
+				</h3>
+				<p class="site-description ms-blog-description">HTML5 &amp; Gaming Technical Evangelist</p>
+			</div>
+				<span class="caret for-mobile"></span>
+	</div>
+						</div>
+									</nav>
+			</div>
+		</div>
+		<div id="site-header-image-wrapper" class="ms-blog-banner">
+			<div id="site-header-image">
+											</div>
+		</div>
+	</header>
+
+	<div id="site-content" class="site-content row">
+
+	<div id="primary" class="content-area col-sm-9">
+		<div id="single-content" class="div-content">
+
+			
+				
+<article id="post-3052" class="post-3052 post type-post status-publish format-standard hentry category-uncategorized">
+
+	<header class="entry-header single">
+		<h1 class="entry-title">Discovering Sponza by Babylon.js and sharing tips on how to build a cross-platforms WebGL game</h1>		<div class="rating-wrap">
+		<div id="star-rating-3052" class="wds-ratings" data-rating="5" data-userrating="0" data-postid="3052">
+			<div class="wds-ratings-inner-wrap">
+				<div>
+					<div class="wds-ratings-stars" data-stars="5"><span class="star-1">&#x2605;</span><span class="star-2">&#x2605;</span><span class="star-3">&#x2605;</span><span class="star-4">&#x2605;</span><span class="star-5">&#x2605;</span></div><div class="wds-ratings-stars" data-stars="4"><span class="star-1">&#x2605;</span><span class="star-2">&#x2605;</span><span class="star-3">&#x2605;</span><span class="star-4">&#x2605;</span></div><div class="wds-ratings-stars" data-stars="3"><span class="star-1">&#x2605;</span><span class="star-2">&#x2605;</span><span class="star-3">&#x2605;</span></div><div class="wds-ratings-stars" data-stars="2"><span class="star-1">&#x2605;</span><span class="star-2">&#x2605;</span></div><div class="wds-ratings-stars" data-stars="1"><span class="star-1">&#x2605;</span></div>
+				</div>
+			</div>
+		</div>
+		</div>		<div class="clear-both"></div>
+		<div class="entry-meta">
+			<span class="posted-on"><span class="screen-reader-text"> </span><a href="https://blogs.msdn.microsoft.com/davrous/2016/02/05/discovering-sponza-by-babylon-js-and-sharing-tips-on-how-to-build-a-cross-platforms-webgl-game/" rel="bookmark"><time class="entry-date published updated" datetime="2016-02-05T18:52:41+00:00">February 5, 2016</time></a></span><span class="byline">By <span class="author vcard"><a class="url fn n profile-usercard-hover" data-profile-userid="1795c23054a945399599ba53831662b5" href="https://social.msdn.microsoft.com/profile/David+Rousset">David Rousset</a></span></span><span class="comments-link"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span><a href="https://blogs.msdn.microsoft.com/davrous/2016/02/05/discovering-sponza-by-babylon-js-and-sharing-tips-on-how-to-build-a-cross-platforms-webgl-game/#respond" title="Comment on Discovering Sponza by Babylon.js and sharing tips on how to build a cross-platforms WebGL game">0</a></span>				<span class="social-icons-wrap">
+		<ul class="social-icons">
+			<li class="social-icon facebook"><a data-social='{"type":"facebook", "url":"https://blogs.msdn.microsoft.com/davrous/2016/02/05/discovering-sponza-by-babylon-js-and-sharing-tips-on-how-to-build-a-cross-platforms-webgl-game/", "text": "Discovering Sponza by Babylon.js and sharing tips on how to build a cross-platforms WebGL game"}' href="#" id="get_post_like_count">0</a></li>
+			<li class="social-icon twitter"><a data-social='{"type":"twitter", "url":"https://blogs.msdn.microsoft.com/davrous/2016/02/05/discovering-sponza-by-babylon-js-and-sharing-tips-on-how-to-build-a-cross-platforms-webgl-game/", "text": "Discovering Sponza by Babylon.js and sharing tips on how to build a cross-platforms WebGL game"}' href="#" id="post_tweet_count">0</a></li>
+			<li class="social-icon linkedin"><a data-social='{"type":"linkedin", "url":"https://blogs.msdn.microsoft.com/davrous/2016/02/05/discovering-sponza-by-babylon-js-and-sharing-tips-on-how-to-build-a-cross-platforms-webgl-game/", "text": "Discovering Sponza by Babylon.js and sharing tips on how to build a cross-platforms WebGL game"}' href="#" id="get_post_linkedin_count">0</a></li>
+		</ul>
+	</span><!-- .social-icons-wrap -->
+	<script type="text/javascript">
+		// Get social counts
+		window.msdnsocial.ajax( 'get_post_like_count,post_tweet_count,get_post_linkedin_count' );
+	</script>
+		</div>
+		<hr>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content single">
+		<p>To celebrate the 2.3 version of Babylon.js, the team decided to build a new cool demo of what can be done with our WebGL engine but also to show how HTML5 web standards can build great games today. The idea was to build a similar, if not identical, experience on all WebGL supported platforms and to try to reach native apps’ features.
+<p>This article will then explain how this experience works and the various challenges we’ve faced to build it.
+<p>For that, this demo is using a fairly impressive number of “<i>HTML5 features</i>” like <b>WebGL</b>, <b>Web Audio</b> of course but also <b>Pointer Events</b> (available everywhere thanks to <b>jQuery PEP</b> polyfill), <b>Gamepad</b> API, <b>IndexedDB</b>, HTML5 <b>appcache</b>, <b>CSS3 transition/animation, </b><b>flexbox</b> and <b>fullscreen</b> API.
+<p>Test it on your desktop, mobile or Xbox One: <a href="http://babylonjs.com/demos/sponza" target="_blank">http://babylonjs.com/demos/sponza</a>
+<p><a href="http://babylonjs.com/demos/sponza" target="_blank"><img title="Sponza" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="Sponza" src="https://msdnshared.blob.core.windows.net/media/2016/02/Sponza.jpg" width="800" height="500"></a><br />
+<h2>Discovering the demo</h2>
+<p>First, you’ll start on an auto-animated sequence giving the credits to who built this scene.
+<p>Most of the team’s members come from the “<b><i>demo scene</i></b>”. If you don’t know what it is, have a look to this <a href="http://www.pouet.net/" target="_blank">site</a> or go on <a href="https://en.wikipedia.org/wiki/Demoscene" target="_blank">Wikipedia</a>. You’ll discover that this is an important part of the 3D developers’ culture. On my side, I was on Atari while David Catuhe was on Amiga which is still a regular source of conflicts between us ;-). I was coding a bit but mainly doing the music in my demo group. I was a huge fan of <a href="https://en.wikipedia.org/wiki/Future_Crew" target="_blank">Future Crew</a> and more specifically of <a href="https://www.youtube.com/watch?v=cJF0vUtVpCM" target="_blank">Purple Motion</a>, my favorite demo scene composer of all time.
+<p>For Sponza, here are the contributors:
+<ul>
+<li><b>Michel Rousseau</b> aka “Mitch” has done the awesome visual, animations &amp; rendering optimizations acting as the 3D artist. It took the great Sponza model provided freely by Crytek on their <a href="http://www.crytek.com/cryengine/cryengine3/downloads/" target="_blank">website</a> and used our <a href="https://github.com/BabylonJS/Babylon.js/tree/master/Exporters/3ds%20Max" target="_blank">3DS Max exporter</a> to generate what you see.</li>
+<li><b>David Catuhe</b> aka “deltakosh” and I have done the core part of the Babylon.js engine and also all the code for this demo (custom loader, special effects for the demo mode using fade to black post-processes, etc.) as well as a new type of camera named “<i>UniversalCamera</i>” handling all type of inputs in a generic way.</li>
+<li>I’ve done the music using Renoise and the awesome EastWest Symphonic Orchestra sound bank. I’ve already shared my way to compose music: <a href="https://blogs.msdn.microsoft.com/davrous/2012/06/20/composing-the-music-for-the-world-monger-windows-8-game-using-the-renoise-tracker-east-west-vst-plug-ins/" target="_blank">Composing the music for the World Monger Windows 8 game using the Renoise tracker &amp; East West VST Plug-ins</a><b></b></li>
+<li><b>Julien Moreau-Mathis</b> helped us by building a new tool to help 3D artists finalizing the job between the modeling tools (3DS Max, Blender) and the final results. For instance, Michel has used it to test &amp; tune the various animated cameras and to inject the particles into the scene. </li>
+</ul>
+<p>If you wait until the end of the automatic sequence up to the <strong>epic finish</strong> (my favorite part, you should check it), you’ll be automatically switched to the free interactive mode. If you’d like to by-pass the demo mode, simply click on the camera icon or press A on your gamepad.
+<p>In the interactive mode, if you’re on a PC/Mac, you’ll be able to move inside the scene using keyboard/mouse like a FPS game, if you’re on smartphone, you’ll be able to move using a single touch (and 2 to rotate camera) and finally, on an Xbox One using the gamepad (or a desktop if you’re plugging a gamepad into it).
+<p>Fun fact: on a Windows touch PC, you can potentially use the 3 types of input in the same time. <img class="wlEmoticon wlEmoticon-smile" style="border-top-style: none;border-left-style: none;border-bottom-style: none;border-right-style: none" alt="Smile" src="https://msdnshared.blob.core.windows.net/media/2016/02/wlEmoticon-smile.png">
+<p>The atmosphere is different in the interactive mode. You’ve got 3 storms sounds randomly positioned in the 3D environment, some wind and some small fire sounds on each corner. On supported browsers (Firefox, Chrome, Opera &amp; Safari), you can even switch between the normal speaker mode and the headphone mode clicking on the dedicated icon. This will then use the <b>binaural audio</b> rendering of Web Audio for a more realistic audio simulation if you’re listening via a headphone.
+<p>To have a complete app-like experience, we’ve generated icons &amp; tiles for all platforms. This means for instance on Windows 8/10 that you can pin this web app into the start menu. We even have multiple sizes available:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/image22.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://msdnshared.blob.core.windows.net/media/2016/02/image_thumb16.png" width="372" height="400"></a>&nbsp;<a href="https://msdnshared.blob.core.windows.net/media/2016/02/image51.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://msdnshared.blob.core.windows.net/media/2016/02/image5_thumb.png" width="375" height="400"></a></p>
+<p>Same on your iPhone, Windows Mobile or Android device:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/IMG_0035.png"><img title="IMG_0035" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="IMG_0035" src="https://msdnshared.blob.core.windows.net/media/2016/02/IMG_0035_thumb.png" width="270" height="480"></a>&nbsp;<a href="https://msdnshared.blob.core.windows.net/media/2016/02/wp_ss_20160204_0001.png"><img title="wp_ss_20160204_0001" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="wp_ss_20160204_0001" src="https://msdnshared.blob.core.windows.net/media/2016/02/wp_ss_20160204_0001_thumb.png" width="270" height="480"></a>&nbsp;<a href="https://msdnshared.blob.core.windows.net/media/2016/02/Screenshot_2016-02-05-13-19-59.png"><img title="Screenshot_2016-02-05-13-19-59" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="Screenshot_2016-02-05-13-19-59" src="https://msdnshared.blob.core.windows.net/media/2016/02/Screenshot_2016-02-05-13-19-59_thumb.png" width="270" height="480"></a></p>
+<h3>Offline first!</h3>
+<p>Once the demo has been completely loaded, you can switch your phone to airplane mode to cut connectivity and click on the Sponza icon. Our web app will still provide the complete experience with WebGL rendering, 3D web audio and touch support. Switch it to full screen and you <b>won’t be able to make the difference with a native app</b>!
+<p>We’re using our IndexedDB layer available natively inside Babylon.js for that. The scene (JSON format) and the resources (JPG/PNG textures as well as MP3 for the music &amp; sounds) are stored in IDB. The IDB layer coupled with HTML5 application cache is then providing this complete offline experience. To learn more about this part and how to configure your game to obtain similar results, read this: <a href="https://blogs.msdn.microsoft.com/davrous/2013/09/24/using-indexeddb-to-handle-your-3d-webgl-assets-sharing-feedbacks-tips-of-babylon-js/" target="_blank">Using IndexedDB to handle your 3D WebGL assets: sharing feedbacks &amp; tips of Babylon.JS</a> and <a href="http://doc.babylonjs.com/tutorials/07._Caching_Resources_in_IndexedDB" target="_blank">Caching Resources in IndexedDB in Babylon.js</a><br />
+<h3>Xbox One enjoys the show also</h3>
+<p>Last but not least, the very same demo works flawlessly in MS Edge on your Xbox One:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/xboxonesponza001.jpg"><img title="xboxonesponza001" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="xboxonesponza001" src="https://msdnshared.blob.core.windows.net/media/2016/02/xboxonesponza001_thumb.jpg" width="640" height="360"></a></p>
+<p>Press <strong>A</strong> to switch to <strong>interactive</strong> <strong>mode</strong>. The Xbox One says that you can now move using your gamepad inside the 3D scene:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/xboxonesponza0025.jpg"><img title="xboxonesponza002[5]" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="xboxonesponza002[5]" src="https://msdnshared.blob.core.windows.net/media/2016/02/xboxonesponza0025_thumb.jpg" width="640" height="360"></a></p>
+<p>So, let’s briefly recap.
+<p>The <b>very same code base</b> works across Windows, Mac, Linux on MS Edge, Chrome, Firefox, Opera &amp; Safari, on iPhone/iPad, on Android devices with Chrome or Firefox, Firefox OS and on Xbox One! Isn’t that cool? Being able to target so many devices with a native like experience directly from your web server?
+<p>I’ve already shared my excitement about this huge potential in a previous article: <a href="https://blogs.msdn.microsoft.com/davrous/2014/06/20/the-web-the-next-game-frontier/" target="_blank">The web: the next game frontier?</a><br />
+<h2>Hack the scene with our debug layer to learn how we’ve made it</h2>
+<p>If you’d like to understand how Michel is mastering the magic of 3D modeling, you can hack the scene using the Babylon.js <b>Debug Layer</b> tool.
+<p>To enable it on a machine with a keyboard, press “<i><strong>CTRL + SHIFT + D</strong></i>” and if you’re using a gamepad on PC or Xbox, press on “<i><strong>Y</strong></i>”.
+<p><b><u>Note:</u></b> <i>displaying the debug layer costs a bit of performance due to the composition job the rendering engine needs to do. So the FPS displayed are a bit less important than the real FPS you’ve got without the debug layer displayed. </i>
+<p>Let’s test it on a PC for instance.
+<p>Move near the lion’s head and cut the bump channel from our shader’s pipeline:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/image17.png"><img title="image" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://msdnshared.blob.core.windows.net/media/2016/02/image_thumb11.png" width="640" height="425"></a>
+<p>You should see that the head is now less realistic. Play with the other channel to check what’s going on.
+<p>You can also cut the dynamic lightning engine or disable the collisions engine to fly or move through the walls. For instance, disable the “<i>collisions</i>” checkbox and fly to the first floor. Put the camera in front of the red flags. You can see them slightly moving. Michel has used the bones/skeletons support of Babylon.js to move them. Disable the “<i>skeletons</i>” option and they should stop moving:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/image18.png"><img title="image" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://msdnshared.blob.core.windows.net/media/2016/02/image_thumb12.png" width="640" height="425"></a>
+<p>At last, you can display the meshes tree on the top right corner. You can enable/disable them to completely break the great job done by Michel:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/image19.png"><img title="image" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="image" src="https://msdnshared.blob.core.windows.net/media/2016/02/image_thumb13.png" width="640" height="425"></a>
+<p>Removing the geometries, our über shader’s channels or some options of our engine can help you troubleshooting performances on a specific device to see what is currently costing too much. You can also check if you’re CPU limited or GPU limited. Even if, most of the time, we’re CPU limited in WebGL due to the mono-threading nature of JavaScript. Finally, this tool is also very useful to learn how a scene has been built by the 3D artist.
+<p>By the way, it works great on Xbox One also:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/xboxonesponza004.jpg"><img title="xboxonesponza004" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="xboxonesponza004" src="https://msdnshared.blob.core.windows.net/media/2016/02/xboxonesponza004_thumb.jpg" width="640" height="360"></a><br />
+<h2>Challenges</h2>
+<p>We faced a number of questions &amp; challenges to build this experience. Let me share some of them.<br />
+<h3>WebGL performance and cross-platforms compatibility</h3>
+<p>On the programming side, this one was probably the easiest one as it’s completely handled by the Babylon.js engine itself.
+<p>We’re using a <strong>unique shader’s architecture that adapts itself to the platform</strong> by trying the find the best shader available for the current browser/GPU using various fallbacks. The idea is to lower the quality/complexity of the rendering engine until we manage to display something on screen.
+<p>Babylon.js is mainly based on WebGL 1.0 to guarantee that the 3D experiences built on top of it will run everywhere. It has been built with a web philosophy in mind, so we’re using a “<b>graceful degradation</b>” like approach on the shader compilation process. This is completely transparent for the 3D artist who doesn’t want to understand those complexities most of the time.
+<p>Still, the 3D artist has a very important role in the performance optimizations. He has to know the platform he’s targeting, its features supported and its limitations. You can’t take assets coming from AAA games made for high end GPUs and DirectX 12 and push them like that on a WebGL engine. Targeting WebGL is today very similar to the job you’ll have to do to optimize for mobile, plus the fact that JavaScript is highly mono-threaded.
+<p>Mitch is extremely good doing that: optimizing the textures, pre-calculating the lightning to bake it into the textures, reducing as much as possible the number of draw calls, etc. He’s got years of experience behind him and saw the various generations of 3D hardware &amp; engines (from PowerVR/3DFX to today’s GPUs) which really helps.
+<p>He already shared a bit of those basics: <a href="http://blogs.msdn.com/b/designmichel/archive/2013/06/27/real-time-3d-making-a-demo-for-webgl-purposes-basics.aspx" target="_blank">Real Time 3D : making a demo for WebGL Purposes –Basics.</a> and already proved several times you can create stunning graphics on the web with high performance on small integrated GPUs with the <a href="http://babylonjs.com/demos/mansion" target="_blank">Mansion</a>, <a href="http://babylonjs.com/demos/hillvalley" target="_blank">Hill Valley</a> or <a href="http://babylonjs.com/demos/espilit" target="_blank">Espilit</a> demo scenes for instance. I’m also highly recommending you watching his great talk: <a href="https://www.youtube.com/watch?v=ObZX541I-Tk" target="_blank">NGF2014 &#8211; Create 3D assets for the mobile world &amp; the web, the point of view of a 3D designer</a> where he shared his experience and how he managed to optimize the Hill Valley scene from less than 1 fps to 60 fps!
+<p>The initial goal for Sponza was to build 2 scenes. 1 for the desktop and 1 for the mobile with less complexity, smaller textures, simpler meshes/geometries. But during our tests, we finally discovered that the desktop version was also running pretty fine on mobiles as it can run up to 60fps on an iPhone 6s or an Android OnePlus 2. We then decided not to continue working on the simpler mobile version. But again, <b>following the general web best practices for web games is a good idea</b>. It would have been probably better to have a pure “<b>mobile first</b>” approach on Sponza to reach 30fps+ on most mobiles and then enhance the scene for high-end mobiles and desktop. Still, most of the feedback we have on twitter seems to indicate that the final result works very well on a lot of mobiles. Sponza has been optimized on a HD4000 GPU (Intel Core i5 integrated) which is more or less equivalent to actual high-end mobiles’ GPUs.
+<p>We’re then pretty happy of the performance. Sponza is using our über shader with <b>ambient</b>, <b>diffuse</b>, <b>bump</b>, <b>specular</b> &amp; <b>reflection</b> enabled, we have some <b>particles</b> to simulate small fires on each corner, we’ve got animated <b>bones</b> for the red flags, 3D positioned <b>sounds</b> and <b>collisions</b> when you’re moving using the interactive mode. Technically speaking, we’ve got 98 meshes used in the scene generating up to <b>377781 vertices</b>, 16 actives bones, 60+ particles that could generate up to 36 draw calls. And trust me, having few draw calls is the key to optimal performance, even more on the web.<br />
+<h3>The loader</h3>
+<p>For Sponza, we wanted to create a new loader, different than the default one we’re using on the <a href="http://www.babylonjs.com" target="_blank">babylonjs.com</a> website, to really have a polished web app. I’ve then asked to Michel to suggest something new.
+<p>He first provided me that:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/Loadingexplained.jpg"><img title="Loadingexplained$" style="border-left-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px" border="0" alt="Loadingexplained$" src="https://msdnshared.blob.core.windows.net/media/2016/02/Loadingexplained_thumb.jpg" width="640" height="427"></a>
+<p>Which looks very nice when you first have a look to it!
+<p>But then, you’re quickly asking to yourself: “<i>how am I going to make this working on all devices in a responsive way?</i>”. Well, you probably perfectly understand me.
+<p>Let’s talk first about the background. The effect created by Michel was nice but wasn’t working well across all window sizes &amp; resolutions generating some moiré. I’ve then changed it with a classical screenshot of the scene.
+<p>I then wanted the background to completely fill the screen without black bars and without stretching the image to break the ratio.
+<p>The solution mainly comes from CSS “<b><i>background-size: cover</i></b>” + centering the image on X &amp; Y.
+<p>We then have the experience I was looking to, whatever the screen ratio being used:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/image111.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://msdnshared.blob.core.windows.net/media/2016/02/image11_thumb.png" width="160" height="250"></a>&nbsp;<a href="https://msdnshared.blob.core.windows.net/media/2016/02/image110.png"><img title="image" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="image" src="https://msdnshared.blob.core.windows.net/media/2016/02/image1_thumb.png" width="583" height="250"></a>
+<p>The other parts are using classical percentage-based CSS positioning. But my main wonder was on how to handle the <strong>size of the fonts based on the size of the viewport</strong>.
+<p>Well, the good news is that you’ve got a specific unit for that! It’s named “<b>vw</b>” or “<b>vh</b>” where 1vw is 1% of the viewport width for instance. This CSS property is doing all the magic for you and is pretty well supported across browsers. Well, at least, all WebGL-compatible browsers are supporting it and that was more than enough for me. <img src="https://blogs.msdn.microsoft.com/davrous/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" />
+<p>To know more about this: <a href="https://css-tricks.com/viewport-sized-typography/">Viewport Sized Typography</a>
+<p>Finally, we’re playing with the opacity property of the background image to move it from 0 to 1 based on the current downloading process moving from 0 to 100%.<br />
+<h3>Handling all inputs in a transparent way for the users</h3>
+<p>Our WebGL engine is doing all the job on the rendering side to display the good stuff on all platforms. But how to guarantee that the user will be able to move inside the scene whatever the input type used?
+<p>We were currently supporting all types of input and user’s interactions in Babylon.js v2.2: keyboard/mouse, touch, virtual touch joysticks, gamepad, device orientation VR (for Card Board) and WebVR, each via a dedicated camera. You can read our documentation to know more about them: <a href="http://doc.babylonjs.com/tutorials/05._Cameras">http://doc.babylonjs.com/tutorials/05._Cameras</a>
+<p>Touch is being universally addressed via the <a href="https://www.w3.org/TR/pointerevents/">Pointer Events</a> specification propagated to all platforms via the <a href="https://github.com/jquery/PEP">jQuery PEP</a> polyfill (generating <a href="https://www.w3.org/TR/touch-events/">Touch Events</a> for you when needed). To know more about Pointer Events: <a href="https://blogs.msdn.microsoft.com/davrous/2015/08/10/unifying-touch-and-mouse-how-pointer-events-will-make-cross-browsers-touch-support-easy/">Unifying touch and mouse: how Pointer Events will make cross-browsers touch support easy</a>
+<p>The idea for Sponza was to have a unique camera handling all users’ scenarios possible: desktop, mobile &amp; console.
+<p>We ended up creating the <b>UniversalCamera</b>. It was so obvious and simple to create that I still don’t know why we didn’t do it before. The UniversalCamera is more or less a gamepad camera extending the <b>TouchCamera</b> which extends the <b>FreeCamera</b>.
+<p>The FreeCamera is providing the keyboard/mouse logic, the TouchCamera is providing the touch logic and the final extend the gamepad logic.
+<p>This <b>UniversalCamera is now used by default by Babylon.js</b>. If you’re navigating on the <a href="http://babylonjs.com">http://babylonjs.com</a> demos, you can move inside the scenes using mouse, touch &amp; gamepad on all of them now. To know more on how we’ve built it, read our code: <a href="https://github.com/BabylonJS/Babylon.js/blob/master/src/Cameras/babylon.universalCamera.ts">babylon.universalCamera.ts</a><br />
+<h3>Synchronizing the transitions with the music</h3>
+<p>This is where we’ve asked ourselves most of the questions. You may have noticed that the <strong>introduction sequence is synchronized with specific moments of the music</strong>. The first texts are displayed with some of the drums I’ve used and the final ending sequence is switching quickly from one camera to another on each note of the horn instrument I’m using.
+<p>Synchronizing audio with the WebGL rendering loop is not easy. Again, this is the mono-threaded nature of JavaScript that generates this complexity. To better understand why, please read the first part of this article: <a href="https://blogs.msdn.microsoft.com/davrous/2011/07/15/introduction-to-the-html5-web-workers-the-javascript-multithreading-approach">Introduction to the HTML5 Web Workers: the JavaScript multithreading approach</a>. It’s really important to understand the problem highlighted by the first diagram to understand the global issue we’re facing.
+<p>Usually, in demo scenes (and video games I guess), if you’d like to synchronize the visuals with the sounds/music, you’re going to be driven by the audio stack. 2 approaches are used:
+<p>1 – Generate some metadata injected into the audio files that could raise some events when you’re reaching a specific part of it<br />2 – Real-time analyzing the audio stream via FFT or similar to detect interesting peaks or BPM changes that would again generate events for the visual engine.
+<p>Those approaches particularly work well in multi-threaded environments like C++. But in JavaScript with Web Audio, we’ve got 2 problems:
+<p>1 – JavaScript, which is mono-threaded and unfortunately, most of the time, web workers won’t help<br />2 – <strong>Web Audio doesn’t have any events</strong> that could be sent back to the UI thread even if Web Audio is being handled on a separate thread by the browser.
+<p>Web Audio has a much precised timer than JS. It would have been cool to be able to use this separate timer on a separate thread to drive the events back to the UI thread. But today, you can’t do that.
+<p>On the other side, we’re rendering the scene using WebGL and the <i>requestAnimationFrame</i> function. This means that, in “best cases”, we have 16ms windows timeframe. If you’re missing one, you’ll have to wait up to 16ms to be able to act on the next frame to reflect the sound synchronization (for instance to launch a fade to black effect).
+<p>I was then thinking about injecting the synchronization logic into the <b>requestAnimationFrame</b> loop. Checking the time spent since the beginning of the sequence and checking if I should impact the visual to react on an audio event. The good news is that web audio will render the sound whatever is going on in the main UI thread. For instance, you can be sure that the 12s timestamp of the music will arrive exactly 12s after the music have started even if the GPU is having a hard time rendering the scene.
+<p>But we finally chose the simplest solution ever: using <b>setTimeout</b>() calls…
+<p>Yes, I know. The above article on the introduction to web workers says that this is unreliable. But in our case, once the scene is ready to be rendered, we know that we’ve downloaded all our resources (textures &amp; sounds) and compiled our shaders. We shouldn’t be too much annoyed by unexpected events saturating the UI thread. <b>GC could be a problem</b> but we’ve also spent a lot of time fighting against it in the engine: <a href="https://blogs.msdn.microsoft.com/eternalcoding/2013/09/04/reducing-the-pressure-on-the-garbage-collector-by-using-the-f12-developer-bar-of-internet-explorer-11/">Reducing the pressure on the garbage collector by using the F12 developer bar of Internet Explorer 11</a>
+<p>Still, I know this is far from being an ideal solution. Switching to another tab or locking your phone and unlocking it some seconds later could generate some issues on the synchronization parts of our demos. We could fix those problems by using <a href="https://www.w3.org/TR/page-visibility/">the Page Visibility</a> API by pausing the rendering loop, the various sounds and re-computing the next timeframes for the setTimeout() calls.
+<p>I’ve got the feeling that I’ve missed something, that there is probably a better approach to handle this problem. So feel free to share your ideas or solutions in the comment section if you think you’ve got something better!
+<p>Oh, by the way, the text animations are simply done using <b>CSS3 transitions</b> or animations combined with a <b>flexbox</b> layout to have a simple but efficient way to display at the center or on each corner using <b>alignItems</b> to “<i>center</i>”, “<i>flex-start</i>” or “<i>flex-end</i>” and <b>justifyContent</b> to “<i>center</i>”, “<i>flex-start</i>” and “<i>flex-end</i>” also.
+<p>To know more about Flexbox: <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a><br />
+<h3>Handling Web Audio on iOS</h3>
+<p>The last challenge I’d like to share with you is the way Web Audio is being handled by iOS on iPhone &amp; iPad. If you’re looking in search engines for “web audio + iOS”, you’ll find lot of people having hard time to play sounds on iOS.
+<p>iOS is perfectly supporting Web Audio, even the binaural audio mode. But Apple has decided that a web page can’t play any sound by default without a specific user’s interaction. It’s probably to avoid having ads or whatever disturbing the user by playing unsolicited sounds.
+<p>You then first need to <strong>unlock the web audio context of iOS</strong> after a user’s touch before trying to play any sound. Otherwise, your web application will remain desperately mute.
+<p>Unfortunately, the only way I’ve found to do this check if by doing a user platform sniffing approach as I didn’t found a feature detection way to do it. I really hate doing that but sometimes, this is the only solution you’ve got…
+<p>You can check my code: <a href="https://github.com/BabylonJS/Babylon.js/blob/master/src/Audio/babylon.audioEngine.ts">babylon.audioEngine.ts</a>
+<p>If you’re not on iPad/iPhone/iPod, the audio context is immediately available for use. Otherwise, we’re unlocking the audio context of iOS by playing a code generated empty sound on the <i>touchend</i> event. You can register to the <i>onAudioUnlocked</i> event if you’d like to wait for that before launching your game.
+<p>So if you’re launching Sponza on an iPhone/iPad, you’ll have this final screen at the end of the loading sequence:
+<p><a href="https://msdnshared.blob.core.windows.net/media/2016/02/IMG_0036.png"><img title="IMG_0036" style="border-top: 0px;border-right: 0px;border-bottom: 0px;padding-top: 0px;padding-left: 0px;border-left: 0px;padding-right: 0px" border="0" alt="IMG_0036" src="https://msdnshared.blob.core.windows.net/media/2016/02/IMG_0036_thumb.png" width="640" height="360"></a>
+<p>Touching anywhere on the screen will unlock the audio stack of iOS and will launch the show.
+<p>I hope that you’ve enjoyed our Sponza by Babylon.js experience. I also hope that you’ve learned interesting details in this article. To learn more, read the complete source code of this demo on our github. Main files to review are: <a href="https://github.com/BabylonJS/Samples/blob/master/Demos/Sponza/index.js">index.js</a> and <a href="https://github.com/BabylonJS/Samples/blob/master/Demos/Sponza/babylon.demo.ts">babylon.demo.ts</a>
+<p>Finally, I really hope you’ll be now even more convinced that the web is definitely a great platform for gaming!
+<p>Stay tuned, we’ve got great new demos coming soon and trust me, they are very very cool. <img src="https://blogs.msdn.microsoft.com/davrous/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+<p>David</p>
+	</div><!-- .entry-content -->
+
+
+	<footer class="entry-footer single">
+				<hr>
+	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+			
+		</div><!-- #single-content -->
+
+		
+<div id="comments" class="comments-area">
+	<div class="comments-title">
+		Comments (0)	</div>
+
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title"> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/davrous/2016/02/05/discovering-sponza-by-babylon-js-and-sharing-tips-on-how-to-build-a-cross-platforms-webgl-game/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="https://blogs.msdn.microsoft.com/davrous/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																										<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" /></p>
+												<p class="comment-form-comment"><textarea id="comment" name="comment" cols="45" rows="4" aria-required="true"></textarea></p>												<p class="form-submit">
+							<input name="submit" type="submit" id="submit" class="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='3052' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="4978ac74d0" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="156"/></p>					</form>
+							</div><!-- #respond -->
+			
+	
+	
+</div><!-- .comments-area -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="sidebar col-sm-3">
+
+					<div id="sidebar-widget-area" class="sidebar-widget-area" role="complementary">
+					<aside id="sfmsb_settings-3" class="widget sfmsb_widget"><div class="sfmsb-follow-social-buttons sfmsb-under sfmsb-circle 40 sfmsb-horizontal"><h2 class="widget-title">Follow David</h2><a target="_blank" href="http://twitter.com/davrous"><span class="sfmsb-icon-twitter sfmsb-circle" style="color:#55acee;font-size:40px;" data-color="#55acee"></span></a><a target="_blank" href="https://blogs.msdn.microsoft.com/davrous/feed/"><span class="sfmsb-icon-feed sfmsb-circle" style="color:#ffa500;font-size:40px;" data-color="#ffa500"></span></a><a target="_blank" href="https://www.linkedin.com/in/davrous"><span class="sfmsb-icon-linkedin sfmsb-circle" style="color:#0077b5;font-size:40px;" data-color="#0077b5"></span></a><a target="_blank" href="http://github.com/davrous"><span class="sfmsb-icon-github sfmsb-circle" style="color:#101010;font-size:40px;" data-color="#101010"></span></a><div class="sfmsb-clearfix"></div></div></aside><aside id="msdn-archive-widget-3" class="widget msdn-archive-widget"><h2 class="widget-title">Archives</h2>	<li><a href='https://blogs.msdn.microsoft.com/davrous/2016/02/'>February 2016</a>&nbsp;(1)</li>
+	<li><a href='https://blogs.msdn.microsoft.com/davrous/2015/11/'>November 2015</a>&nbsp;(2)</li>
+	<li><a href='https://blogs.msdn.microsoft.com/davrous/2016/'>All of 2016</a>&nbsp;(1)</li>
+	<li><a href='https://blogs.msdn.microsoft.com/davrous/2015/'>All of 2015</a>&nbsp;(10)</li>
+	<li><a href='https://blogs.msdn.microsoft.com/davrous/2014/'>All of 2014</a>&nbsp;(13)</li>
+	<li><a href='https://blogs.msdn.microsoft.com/davrous/2013/'>All of 2013</a>&nbsp;(18)</li>
+	<li><a href='https://blogs.msdn.microsoft.com/davrous/2012/'>All of 2012</a>&nbsp;(30)</li>
+	<li><a href='https://blogs.msdn.microsoft.com/davrous/2011/'>All of 2011</a>&nbsp;(16)</li>
+	<li><a href='https://blogs.msdn.microsoft.com/davrous/2010/'>All of 2010</a>&nbsp;(29)</li>
+	<li><a href='https://blogs.msdn.microsoft.com/davrous/2009/'>All of 2009</a>&nbsp;(30)</li>
+	<li><a href='https://blogs.msdn.microsoft.com/davrous/2008/'>All of 2008</a>&nbsp;(25)</li>
+</aside><aside id="text-5" class="widget widget_text">			<div class="textwidget"><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8321933-1', 'auto');
+  ga('send', 'pageview');
+
+</script></div>
+		</aside>				</div>
+			
+</div><!-- #secondary -->
+</div><!-- .site-content -->
+
+<footer id="site-footer" class="site-footer row" role="contentinfo">
+	<div id="site-info" class="site-info">
+		<div id="footer-text" class="col-sm-4 col-sm-offset-6">
+			<span>
+				<a href="http://msdn.microsoft.com/dn529288">Privacy & Cookies</a>
+			</span>
+			<span>
+				<a href="http://msdn.microsoft.com/cc300389">Terms of Use</a>
+			</span>
+			<span>
+				<a href="http://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx">Trademarks</a>
+			</span>
+		</div>
+		<div id="footer-far" class="col-sm-2">
+			<div id="footer-microsoft-logo">
+				<a href="https://www.microsoft.com">
+					<img id="footer-microsoft-logo-svg" src="https://blogs.msdn.microsoft.com/davrous/wp-content/themes/microsoft/images/ms-logo-white-text.svg">
+				</a>
+			</div>
+			<div id="copyright">
+				@2016 Microsoft
+			</div>
+		</div>
+	</div><!-- .site-info -->
+</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+	<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$login_link = $( 'a[href*="wp-login.php?"]' );
+				$login_link.on( 'click', function( evt ) {
+			// evt.preventDefault();
+						// console.log( 'cookie-set', '/davrous/2016/02/05/discovering-sponza-by-babylon-js-and-sharing-tips-on-how-to-build-a-cross-platforms-webgl-game/' );
+			$.cookie( 'aadsso-redirect', '/davrous/2016/02/05/discovering-sponza-by-babylon-js-and-sharing-tips-on-how-to-build-a-cross-platforms-webgl-game/', { expires: 1, path: '/' });
+		});
+	});
+	</script>
+		<!--ADD WEDCS SCRIPT-->
+	<div id="_WEDCSInsertedData" style="display: none;"></div>
+	<script type="text/javascript">
+		jQuery( window ).load(
+			function() {
+				window.varSegmentation = 0;
+				window.varClickTracking = 1;
+				window.varCustomerTracking = 1;
+				window.varAutoFirePV = 1;
+				window.Route = ""; // was 23470 in the windows theme framework
+				window.Ctrl = "";
+				var wedcs_script = document.createElement('script');
+				wedcs_script.type = 'text/javascript';
+				wedcs_script.async = true;
+				wedcs_script.src = window.location.protocol + '//blogs.msdn.com/Themes/Shared/js/ms2_blogs.js';
+				document.getElementsByTagName('body')[0].appendChild(wedcs_script);
+			});
+	</script>
+	<!--
+	<script src="//c.microsoft.com/ms.js" type="text/javascript"></script>
+	<noscript><img alt="" width="1" height="1" src="http://c.microsoft.com/trans_pixel.aspx"/></noscript>
+	-->
+
+		<span id='page-view-tracking-info' blog-id='20' post-id='3052'></span>
+		<script type="text/javascript">
+			jQuery( window ).load( function() {
+				jQuery.ajax({
+					url: document.location.protocol + '//' + document.domain,
+					type: 'get',
+					data: {
+						track_page_view_post_id: jQuery('#page-view-tracking-info').attr('post-id'),
+						track_page_view_blog_id: jQuery('#page-view-tracking-info').attr('blog-id'),
+						track_page_view_post_url: window.location.href.split('?')[0]
+						}
+				});
+			});
+		</script>	<script type="text/javascript">
+		jQuery( window ).load(
+			function(i) {
+				var n = window,
+					t = document,
+					e = n.console,
+					f, u, r, o;
+				typeof e == "undefined" && (f = function() {}, e = {
+					log: f,
+					warn: f,
+					assert: f,
+					clear: f,
+					dir: f,
+					error: f,
+					info: f,
+					profile: f,
+					profileEnd: f
+				}), u = {
+					appendToHead: function(n) {
+						if (t.getElementsByTagName("head").length > 0) t.getElementsByTagName("head")[0].appendChild(n);
+						else throw "bootstrapper: no head element found.";
+					},
+					appendToBody: function(n) {
+						if (t.getElementsByTagName("body").length > 0) t.getElementsByTagName("body")[0].appendChild(n);
+						else throw "bootstrapper: no body element found.";
+					},
+					addStyleElement: function(n) {
+						var i = t.createElement("link");
+						i.setAttribute("href", n), i.setAttribute("rel", "stylesheet"), i.setAttribute("type", "text/css"), u.appendToHead(i)
+					},
+					loadFiles: function(n, t) {
+						if (t !== i && u.recursiveScriptLoad(0, t), n !== i)
+							for (var r = 0, r = 0; r < n.length; r++) u.addStyleElement(n[r])
+					},
+					recursiveScriptLoad: function(n, t) {
+						t[n] && u.addScriptElement(t[n], function() {
+							u.recursiveScriptLoad(n + 1, t)
+						})
+					},
+					isCompatible: function(n, t) {
+						var r, u, i;
+						return (r = n.split("."), u = t.split("."), i = function(n) {
+							return isNaN(n) ? 0 : n
+						}, i(r[0]) > i(u[0]) || i(r[0]) === i(u[0]) && i(r[1]) > i(u[1]) || i(r[0]) === i(u[0]) && i(r[1]) === i(u[1]) && i(r[2]) >= i(u[2])) ? !0 : !1
+					},
+					addScriptElement: function(i, r) {
+						var f, e;
+						f = t.createElement("script"), f.setAttribute("type", "text/javascript"), f.async = true, f.setAttribute("src", i), f.attachEvent ? (e = function() {
+							setTimeout(function() {
+								typeof n.jQuery != "undefined" && r ? r() : e()
+							}, 10)
+						}, e()) : f.onload = r, u.appendToBody(f)
+					},
+					load: function(n, t) {
+						setTimeout(function() {
+							if (typeof n == "undefined") try {
+								u.addScriptElement(t.defaultPath, function() {
+									u.loadFiles(t.cssFiles, t.jsFiles)
+								});
+								return
+							} catch (i) {
+								e.warn("bootstrapper: failed to load default jQuery")
+							} else if (!u.isCompatible(n.fn.jquery, t.minimumVersion)) {
+								e.warn("bootstrapper: jQuery version is too old to load UserCard. Use v1.4.2 or later.");
+								return
+							}
+							u.loadFiles(t.cssFiles, t.jsFiles)
+						}, 0)
+					}
+				}, r = {
+					host: n.location.host,
+					search: "",
+					protocol: "https"
+				}, r.host = "widgets.services.microsoft.com", r.search = "?brand=msdn&lang=en&ver=4.9.0.0", r.protocol = "https:", o = {
+					minimumVersion: "1.1.2",
+					defaultPath: "https://code.jquery.com/jquery-1.4.2.min.js",
+					cssFiles: [r.protocol + "//" + r.host + "/v1/UnifiedBaseballCard.css" + r.search, r.protocol + "//" + r.host + "/v1/usercard.css" + r.search],
+					jsFiles: ["https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js", r.protocol + "//" + r.host + "/v1/jquery.timeago.js" + r.search, r.protocol + "//" + r.host + "/v1/jquery.textfill.js" + r.search, r.protocol + "//" + r.host + "/v1/widgets.js" + r.search]
+				}, typeof n.jQuery == "undefined" ? u.load(i, o) : u.load(n.jQuery, o)
+			}
+		);
+	</script>
+<script type='text/javascript' src='https://blogs.msdn.microsoft.com/davrous/wp-content/plugins/akismet/_inc/form.js?ver=3.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wds_ratings_config = {"ajaxurl":"https:\/\/blogs.msdn.microsoft.com\/davrous\/wp-admin\/admin-ajax.php","user_id":"0","nonce":"f718cb455f","debug":"","no_auth_alert":"You must be logged in to rate an article."};
+var wds_ratings_config = {"ajaxurl":"https:\/\/blogs.msdn.microsoft.com\/davrous\/wp-admin\/admin-ajax.php","user_id":"0","nonce":"f718cb455f","debug":"","no_auth_alert":"You must be logged in to rate an article."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blogs.msdn.microsoft.com/davrous/wp-content/plugins/wds-ratings/wds-ratings.js?ver=05272015'></script>
+<script type='text/javascript' src='https://code.jquery.com/jquery-migrate-1.3.0.min.js'></script>
+<script type='text/javascript' src='https://blogs.msdn.microsoft.com/davrous/wp-content/themes/microsoft/js/theme-merged.js?ver=12082015'></script>
+<script type='text/javascript' src='https://blogs.msdn.microsoft.com/davrous/wp-content/themes/microsoft/js/vendor/jquery.cookie.js?ver=11092015'></script>
+
+</body>
+</html>
