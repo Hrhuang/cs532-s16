@@ -1,0 +1,3066 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://flatbasset.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://flatbasset.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Flatbasset - Atom" href="http://flatbasset.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Flatbasset - RSS" href="http://flatbasset.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Flatbasset - Atom" href="https://www.blogger.com/feeds/4928159526517986824/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/08534360388607517596" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://flatbasset.blogspot.com/" />
+<meta content='http://flatbasset.blogspot.com/' property='og:url'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Flatbasset</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/3645911276-widget_css_bundle.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4928159526517986824&zx=f66d717a-fc68-49d8-91a9-7c7ebef3fa9d' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------------
+Blogger Template Style Sheet
+Name:     Scribe
+Date:     27 Feb 2004
+Updated by: Blogger Team
+------------------------------------------------------ */
+/*
+Variable definitions
+====================
+<Variable name="textColor" description="Text Color" type="color"
+default="#29303b">
+<Variable name="postTitleColor" description="Post Title Color" type="color"
+default="#1b0431">
+<Variable name="linkColor" description="Link Color" type="color"
+default="#473624">
+<Variable name="visitedLinkColor" description="Visited Link Color" type="color"
+default="#956839">
+<Variable name="pageHeaderColor" description="Blog Title Color" type="color"
+default="#612e00">
+<Variable name="blogDescriptionColor" description="Blog Description Color"
+type="color" default="#29303B">
+<Variable name="sidebarHeaderColor" description="Sidebar Title Color"
+type="color"
+default="#211104">
+<Variable name="bodyFont" description="Text Font"
+type="font"
+default="normal normal 100% Georgia, Times New Roman,Sans-Serif;">
+<Variable name="headerFont" description="Sidebar Title Font"
+type="font"
+default="normal normal 150% Georgia, Times New Roman,sans-serif">
+<Variable name="pageTitleFont" description="Blog Title Font"
+type="font"
+default="normal normal 225% Georgia, Times New Roman,sans-serif">
+<Variable name="blogDescriptionFont" description="Blog Description Font"
+type="font"
+default="italic normal 100% Georgia, Times New Roman, sans-serif">
+<Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="End side in blog language"
+type="automatic" default="right">
+*/
+/* Defaults
+----------------------------------------------- */
+body {
+margin:0;
+padding:0;
+font-size: small;
+text-align:center;
+color:#29303b;
+line-height:1.3em;
+background:#483521 url("http://www2.blogblog.com/scribe/bg.gif") repeat;
+}
+blockquote {
+font-style:italic;
+padding:0 32px;
+line-height:1.6;
+margin-top:0;
+margin-right:0;
+margin-bottom:.6em;
+margin-left:0;
+}
+p {
+margin:0;
+padding:0;
+}
+abbr, acronym {
+cursor:help;
+font-style:normal;
+}
+code {
+font-size: 90%;
+white-space:normal;
+color:#666;
+}
+hr {display:none;}
+img {border:0;}
+/* Link styles */
+a:link {
+color:#473624;
+text-decoration:underline;
+}
+a:visited {
+color: #956839;
+text-decoration:underline;
+}
+a:hover {
+color: #956839;
+text-decoration:underline;
+}
+a:active {
+color: #956839;
+}
+/* Layout
+----------------------------------------------- */
+#outer-wrapper {
+background-color:#473624;
+border-left:1px solid #332A24;
+border-right:1px solid #332A24;
+width:700px;
+margin:0px auto;
+padding:8px;
+text-align:center;
+font: normal normal 100% Georgia, Times New Roman,Sans-Serif;;
+}
+#main-top {
+width:700px;
+height:49px;
+background:#FFF3DB url("http://www2.blogblog.com/scribe/bg_paper_top.jpg") no-repeat top left;
+margin:0px;
+padding:0px;
+display:block;
+}
+#main-bot {
+width:700px;
+height:81px;
+background:#FFF3DB url("http://www.blogblog.com/scribe/bg_paper_bot.jpg") no-repeat top left;
+margin:0;
+padding:0;
+display:block;
+}
+#wrap2 {
+width:700px;
+background:#FFF3DB url("http://www1.blogblog.com/scribe/bg_paper_mid.jpg") repeat-y;
+margin-top: -14px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+text-align:left;
+display:block;
+}
+#wrap3 {
+padding:0 50px;
+}
+.Header {
+}
+h1 {
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:6px;
+padding-left:0;
+font: normal normal 225% Georgia, Times New Roman,sans-serif;
+color: #612e00;
+}
+h1 a:link {
+text-decoration:none;
+color: #612e00;
+}
+h1 a:visited {
+text-decoration:none;
+}
+h1 a:hover {
+border:0;
+text-decoration:none;
+}
+.Header .description {
+margin:0;
+padding:0;
+line-height:1.5em;
+color: #29303B;
+font: italic normal 100% Georgia, Times New Roman, sans-serif;
+}
+#sidebar-wrapper {
+clear:left;
+}
+#main {
+width:430px;
+float:right;
+padding:8px 0;
+margin:0;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#sidebar {
+width:150px;
+float:left;
+padding:8px 0;
+margin:0;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#footer {
+clear:both;
+background:url("http://www.blogblog.com/scribe/divider.gif") no-repeat top left;
+padding-top:10px;
+_padding-top:6px; /* IE Windows target */
+}
+#footer p {
+line-height:1.5em;
+font-size:75%;
+}
+/* Typography :: Main entry
+----------------------------------------------- */
+h2.date-header {
+font-weight:normal;
+text-transform:uppercase;
+letter-spacing:.1em;
+font-size:90%;
+margin:0;
+padding:0;
+}
+.post {
+margin-top:8px;
+margin-right:0;
+margin-bottom:24px;
+margin-left:0;
+}
+.post h3 {
+font-weight:normal;
+font-size:140%;
+color:#1b0431;
+margin:0;
+padding:0;
+}
+.post h3 a {
+color: #1b0431;
+}
+.post-body p {
+line-height:1.5em;
+margin-top:0;
+margin-right:0;
+margin-bottom:.6em;
+margin-left:0;
+}
+.post-footer {
+font-family: Verdana, sans-serif;
+font-size:74%;
+border-top:1px solid #BFB186;
+padding-top:6px;
+}
+.post-footer a {
+margin-right: 6px;
+}
+.post ul {
+margin:0;
+padding:0;
+}
+.post li {
+line-height:1.5em;
+list-style:none;
+background:url("http://www.blogblog.com/scribe/list_icon.gif") no-repeat left .3em;
+vertical-align:top;
+padding-top: 0;
+padding-right: 0;
+padding-bottom: .6em;
+padding-left: 17px;
+margin:0;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+/* Typography :: Sidebar
+----------------------------------------------- */
+.sidebar h2 {
+margin:0;
+padding:0;
+color:#211104;
+font: normal normal 150% Georgia, Times New Roman,sans-serif;
+}
+.sidebar h2 img {
+margin-bottom:-4px;
+}
+.sidebar .widget {
+font-size:86%;
+margin-top:6px;
+margin-right:0;
+margin-bottom:12px;
+margin-left:0;
+padding:0;
+line-height: 1.4em;
+}
+.sidebar ul li {
+list-style: none;
+margin:0;
+}
+.sidebar ul {
+margin-left: 0;
+padding-left: 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments {}
+#comments h4 {
+font-weight:normal;
+font-size:120%;
+color:#29303B;
+margin:0;
+padding:0;
+}
+#comments-block {
+line-height:1.5em;
+}
+.comment-author {
+background:url("http://www.blogblog.com/scribe/list_icon.gif") no-repeat 2px .35em;
+margin:.5em 0 0;
+padding-top:0;
+padding-right:0;
+padding-bottom:0;
+padding-left:20px;
+font-weight:bold;
+}
+.comment-body {
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:0;
+padding-left:20px;
+}
+.comment-body p {
+font-size:100%;
+margin-top:0;
+margin-right:0;
+margin-bottom:.2em;
+margin-left:0;
+}
+.comment-footer {
+color:#29303B;
+font-size:74%;
+margin:0 0 10px;
+padding-top:0;
+padding-right:0;
+padding-bottom:.75em;
+padding-left:20px;
+}
+.comment-footer a:link {
+color:#473624;
+text-decoration:underline;
+}
+.comment-footer a:visited {
+color:#716E6C;
+text-decoration:underline;
+}
+.comment-footer a:hover {
+color:#956839;
+text-decoration:underline;
+}
+.comment-footer a:active {
+color:#956839;
+text-decoration:none;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+/* Profile
+----------------------------------------------- */
+#main .profile-data {
+display:inline;
+}
+.profile-datablock, .profile-textblock {
+margin-top:0;
+margin-right:0;
+margin-bottom:4px;
+margin-left:0;
+}
+.profile-data {
+margin:0;
+padding-top:0;
+padding-right:8px;
+padding-bottom:0;
+padding-left:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font-size:90%;
+color:#211104;
+}
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+border:1px solid #A2907D;
+padding:2px;
+}
+#header .widget, #main .widget {
+margin-bottom:12px;
+padding-bottom:12px;
+}
+#header {
+background:url("http://www.blogblog.com/scribe/divider.gif") no-repeat bottom left;
+}
+/** Page structure tweaks for layout editor wireframe */
+body#layout #outer-wrapper {
+margin-top: 0;
+padding-top: 0;
+}
+body#layout #wrap2,
+body#layout #wrap3 {
+margin-top: 0;
+}
+body#layout #main-top {
+display:none;
+}
+
+--></style>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\0754928159526517986824\46blogName\75Flatbasset\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://flatbasset.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://flatbasset.blogspot.com/\46vt\075540804711069346849',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div id='outer-wrapper'>
+<div id='main-top'></div>
+<!-- placeholder for image -->
+<div id='wrap2'><div id='wrap3'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+Flatbasset
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>I don't wanna think about it I just wanna pet hounds...</span></p>
+</div>
+</div>
+</div></div>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol section' id='crosscol'></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget LinkList' id='LinkList1'>
+<h2>Other Blogs Though...</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.nettlefetter.wordpress.com/'>Nettlefetter</a></li>
+<li><a href='http://www.newestindustry.blogspot.com/'>Newest Industry</a></li>
+<li><a href='http://www.westphall.blogspot.com/'>The Westphall Family</a></li>
+<li><a href='http://www.timdroogsma.blogspot.com/'>Tim Droogsma's Blog</a></li>
+<li><a href='http://www.wildgamenotes.blogspot.com/'>Wild Game Notes</a></li>
+<li><a href='http://www.wildlybiased.blogspot.com/'>Wildly Biased</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4928159526517986824&widgetType=LinkList&widgetId=LinkList1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target='configLinkList1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Profile' id='Profile2'>
+<h2>About Me</h2>
+<div class='widget-content'>
+<a href='https://www.blogger.com/profile/08534360388607517596'><img alt='My Photo' class='profile-img' height='80' src='//2.bp.blogspot.com/-EQWl7ZGnf44/UGyuKwmwX_I/AAAAAAAAAV8/r7KJ4NUYwq0/s80/MargoPLS.jpg' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://www.blogger.com/profile/08534360388607517596' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+TCDroogsma
+</a>
+</dt>
+<dd class='profile-textblock'>All I do is do this, every single day...</dd>
+</dl>
+<a class='profile-link' href='https://www.blogger.com/profile/08534360388607517596' rel='author'>View my complete profile</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4928159526517986824&widgetType=Profile&widgetId=Profile2&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile2"));' target='configProfile2' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' id='BlogArchive2'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive2_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/search?updated-min=2016-01-01T00:00:00-05:00&amp;updated-max=2017-01-01T00:00:00-05:00&amp;max-results=14'>
+2016
+</a>
+<span class='post-count' dir='ltr'>(14)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2016_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://flatbasset.blogspot.com/2016/04/flatbasset-radios-25-most-played-albums.html'>Flatbasset Radio&#39;s 25 Most Played Albums: March &#39;1...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2016_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2016_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2016_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/search?updated-min=2015-01-01T00:00:00-05:00&amp;updated-max=2016-01-01T00:00:00-05:00&amp;max-results=42'>
+2015
+</a>
+<span class='post-count' dir='ltr'>(42)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2015_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/search?updated-min=2014-01-01T00:00:00-05:00&amp;updated-max=2015-01-01T00:00:00-05:00&amp;max-results=50'>
+2014
+</a>
+<span class='post-count' dir='ltr'>(99)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(15)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2014_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(14)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/search?updated-min=2013-01-01T00:00:00-05:00&amp;updated-max=2014-01-01T00:00:00-05:00&amp;max-results=50'>
+2013
+</a>
+<span class='post-count' dir='ltr'>(126)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(15)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2013_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/search?updated-min=2012-01-01T00:00:00-05:00&amp;updated-max=2013-01-01T00:00:00-05:00&amp;max-results=50'>
+2012
+</a>
+<span class='post-count' dir='ltr'>(50)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2012_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2012_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(14)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2012_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(22)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2012_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/search?updated-min=2011-01-01T00:00:00-05:00&amp;updated-max=2012-01-01T00:00:00-05:00&amp;max-results=13'>
+2011
+</a>
+<span class='post-count' dir='ltr'>(13)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2011_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2011_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2011_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2011_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/search?updated-min=2010-01-01T00:00:00-05:00&amp;updated-max=2011-01-01T00:00:00-05:00&amp;max-results=16'>
+2010
+</a>
+<span class='post-count' dir='ltr'>(16)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2010_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2010_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2010_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2010_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2010_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2010_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2010_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2010_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2010_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/search?updated-min=2009-01-01T00:00:00-05:00&amp;updated-max=2010-01-01T00:00:00-05:00&amp;max-results=27'>
+2009
+</a>
+<span class='post-count' dir='ltr'>(27)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://flatbasset.blogspot.com/2009_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4928159526517986824&widgetType=BlogArchive&widgetId=BlogArchive2&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive2"));' target='configBlogArchive2' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Followers' id='Followers2'>
+<h2 class='title'>Followers</h2>
+<div class='widget-content'>
+<div id='Followers2-wrapper'>
+<div style='margin-right:2px;'>
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="//www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+          
+          
+            holder.postFeed = "https://www.blogger.com/feeds/4928159526517986824/posts/default";
+          
+          
+          
+            holder.commentFeed = "https://www.blogger.com/feeds/4928159526517986824/comments/default";
+          
+          holder.currentBlogUrl = "http://flatbasset.blogspot.com/";
+          holder.currentBlogId = "4928159526517986824";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<div id="div-14toybrbp5563" style="width: 100%; border: 1px solid #fff;"></div>
+<script type="text/javascript">
+    var skin = {};
+    skin['FACE_SIZE'] = '32';
+    skin['HEIGHT'] = "260";
+    skin['BORDER_COLOR'] = "#FFFFFF";
+    skin['ENDCAP_BG_COLOR'] = "transparent";
+    skin['ENDCAP_TEXT_COLOR'] = "#29303b";
+    skin['ENDCAP_LINK_COLOR'] = "#000000";
+    
+    skin['CONTENT_BG_COLOR'] = "transparent";
+    skin['CONTENT_LINK_COLOR'] = "#000000";
+    skin['CONTENT_TEXT_COLOR'] = "#29303b";
+    skin['CONTENT_SECONDARY_LINK_COLOR'] = "#FFFFFF";
+    skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000";
+    skin['CONTENT_HEADLINE_COLOR'] = "#000000";
+    google.friendconnect.container.setParentUrl("/");
+    google.friendconnect.container["renderMembersGadget"](
+    {id: "div-14toybrbp5563",
+     height: 260,
+     
+     
+     
+     site: "02361516220995285793",
+     locale: 'en' },
+     skin);
+  </script>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4928159526517986824&widgetType=Followers&widgetId=Followers2&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers2"));' target='configFollowers2' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Friday, April 1, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://3.bp.blogspot.com/-d2AjmXRiIAE/Vv7kHLEeeoI/AAAAAAAACFU/l339xZ-SuMI3-Ioo-PYpRtdfJYbOI0xNw/s400/Most%2BPlayed%2B-%2BMarch%2B%252716.jpg' itemprop='image_url'/>
+<meta content='4928159526517986824' itemprop='blogId'/>
+<meta content='8246650285866914666' itemprop='postId'/>
+<a name='8246650285866914666'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://flatbasset.blogspot.com/2016/04/flatbasset-radios-25-most-played-albums.html'>Flatbasset Radio's 25 Most Played Albums: March '16</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8246650285866914666' itemprop='description articleBody'>
+<br />
+Well hello again, everybody, and welcome to yet another installment of the most important running column on the internet: Flatbasset Radio's 25 Most Played Albums.<br />
+<br />
+Thank God it's April. No joke. I won't bore you with the details, but March of every year is far &amp; away my busiest month each year. I have a lot of work between my jobs and honestly, once I finish those my priorities are sleep, basset hound, food... and that's pretty much it. It's not just the blog/podcast that gets neglected, it's friends, family, personal appearance, nutrition, cleanliness... Pretty much everything.<br />
+<br />
+That's a roundabout way of apologizing for the lack of posts over the last month. However, with March behind me, it's time to get back to work. What better way to ease my toes back into the cold, harsh waters of the internet than recapping which albums were getting the most play while I slogged through another brutal March? Let's get to some instant nostalgia!<br />
+<br />
+As always, please remember that one song = one play. If I listen to, Blur's <i>The Great Escape</i> once all the way through, it counts as 15 plays. These stats are all pulled from my <a href="http://www.last.fm/user/TCDroogsma">Last.fm page</a>, which you should definitely follow if you're certain you've checked out absolutely everything else on the internet.<br />
+<br />
+Here we go!<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-d2AjmXRiIAE/Vv7kHLEeeoI/AAAAAAAACFU/l339xZ-SuMI3-Ioo-PYpRtdfJYbOI0xNw/s1600/Most%2BPlayed%2B-%2BMarch%2B%252716.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://3.bp.blogspot.com/-d2AjmXRiIAE/Vv7kHLEeeoI/AAAAAAAACFU/l339xZ-SuMI3-Ioo-PYpRtdfJYbOI0xNw/s400/Most%2BPlayed%2B-%2BMarch%2B%252716.jpg" width="400" /></a></div>
+<br />
+01. Poliça - United Crushers (84 plays)<br />
+<br />
+02. Yeah Wings - It Feels Like Laughing With You (63 plays)<br />
+<br />
+03. Tony Peachka - Hello Tony (44 plays)<br />
+<br />
+04. The Kelley Deal 6000 - Go To The Sugar Altar (32 plays)<br />
+<br />
+05. Big Cats - What If It Doesn't Get Better? (32 plays)<br />
+<br />
+06. Blur - The Great Escape (31 plays)<br />
+<br />
+07. DJ Shadow - Excessive Ephemera (30 plays)<br />
+<br />
+08. Bad Religion - The Gray Race (30 plays)<br />
+<br />
+09. Motion City Soundtrack - I Am The Movie (29 plays)<br />
+<br />
+10. Son Volt - Wide Swing Tremolo (28 plays)<br />
+<br />
+11. Ryan Adams - Easy Tiger (26 plays) <br />
+<br />
+12. Superdrag - Head Trip In Every Key (26 plays)<br />
+<br />
+13. Poolboy - Poolboy (25 plays)<br />
+<br />
+14. Prince - 3121 (24 plays)<br />
+<br />
+15. Bill Withers - Just As I Am (24 plays)<br />
+<br />
+16. The Beatles - Magical Mystery Tour (24 plays)<br />
+<br />
+17. The Stone Roses - Second Coming (24 plays)<br />
+<br />
+18. Still Life Still - Girls Come Too (22 plays)<br />
+<br />
+19. Rancid - Life Won't Wait (22 plays)<br />
+<br />
+20. The Hold Steady - Almost Killed Me (20 plays)<br />
+<br />
+21. Down By Law - All Scratched Up! (18 plays)<br />
+<br />
+22. Pale Spectre - Live On Radio K (2016) (18 plays)<br />
+<br />
+23. CFCF - Do U Like Night Bus? (17 plays)<br />
+<br />
+24. Tiny Deaths - Night Flowers (17 plays)<br />
+<br />
+25. Sloan - Peppermint (16 plays)<br />
+<br />
+<br />
+Image via <a href="http://www.tapmusic.net/">Tap Music</a><br />
+Stats via my <a href="http://www.last.fm/user/TCDroogsma">Last.fm</a> page<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s1600/TCDProfile.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s200/TCDProfile.jpg" width="150" /></a></div>
+<br />
+<br />
+<i>For more TCDroogsma be sure to give him a follow on Twitter (<a href="http://www.twitter.com/tcdroogsma" target="_blank">@TCDroogsma</a>).&nbsp; Previous episodes of Flatbasset Radio are
+ archived on his <a href="http://www.mixcloud.com/tcdroogsma" target="_blank">Mixcloud page</a>.&nbsp; Stop by <a href="http://www.facebook.com/flatbassetpodcast" target="_blank">Flatbasset Radio's Facebook Page</a> &amp; give it a "Like" if you have the time.</i>&nbsp;
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/08534360388607517596' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/08534360388607517596' rel='author' title='author profile'>
+<span itemprop='name'>TCDroogsma</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://flatbasset.blogspot.com/2016/04/flatbasset-radios-25-most-played-albums.html' itemprop='url'/>
+<a class='timestamp-link' href='http://flatbasset.blogspot.com/2016/04/flatbasset-radios-25-most-played-albums.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-04-01T17:15:00-04:00'>5:15 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://flatbasset.blogspot.com/2016/04/flatbasset-radios-25-most-played-albums.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1242354266'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4928159526517986824&postID=8246650285866914666&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://flatbasset.blogspot.com/search/label/big%20cats' rel='tag'>big cats</a>,
+<a href='http://flatbasset.blogspot.com/search/label/kelley%20deal' rel='tag'>kelley deal</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Minneapolis' rel='tag'>Minneapolis</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Minnesota' rel='tag'>Minnesota</a>,
+<a href='http://flatbasset.blogspot.com/search/label/most%20played' rel='tag'>most played</a>,
+<a href='http://flatbasset.blogspot.com/search/label/motion%20city%20soundtrack' rel='tag'>motion city soundtrack</a>,
+<a href='http://flatbasset.blogspot.com/search/label/pale%20spectre' rel='tag'>pale spectre</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Poli%C3%A7a' rel='tag'>Poliça</a>,
+<a href='http://flatbasset.blogspot.com/search/label/poolboy' rel='tag'>poolboy</a>,
+<a href='http://flatbasset.blogspot.com/search/label/prince' rel='tag'>prince</a>,
+<a href='http://flatbasset.blogspot.com/search/label/St.%20Paul' rel='tag'>St. Paul</a>,
+<a href='http://flatbasset.blogspot.com/search/label/tiny%20deaths' rel='tag'>tiny deaths</a>,
+<a href='http://flatbasset.blogspot.com/search/label/tony%20peachka' rel='tag'>tony peachka</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Twin%20Cities' rel='tag'>Twin Cities</a>,
+<a href='http://flatbasset.blogspot.com/search/label/yeah%20wings' rel='tag'>yeah wings</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Wednesday, March 16, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://3.bp.blogspot.com/-GeWhRGrZR-c/VunGTXbzweI/AAAAAAAACFA/KDW-UYjatJsNexiGaSYWR5zaGkcmItIHA/s1600/Glasset%2BHound.jpg' itemprop='image_url'/>
+<meta content='4928159526517986824' itemprop='blogId'/>
+<meta content='6972883637855406449' itemprop='postId'/>
+<a name='6972883637855406449'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://flatbasset.blogspot.com/2016/03/flatbasset-radio-episode-75.html'>Flatbasset Radio: Episode #75</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6972883637855406449' itemprop='description articleBody'>
+<br />
+<i>The only salvation for us tonight is to turn on the radio...</i><br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-GeWhRGrZR-c/VunGTXbzweI/AAAAAAAACFA/KDW-UYjatJsNexiGaSYWR5zaGkcmItIHA/s1600/Glasset%2BHound.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-GeWhRGrZR-c/VunGTXbzweI/AAAAAAAACFA/KDW-UYjatJsNexiGaSYWR5zaGkcmItIHA/s1600/Glasset%2BHound.jpg" /></a></div>
+<br />
+Well hello again, podcast fans! Welcome to Flatbasset Radio: Episode #75!<br />
+<br />
+Folks, no joke, I was not in a great spot when I recorded this week's show. I'm a little under the weather, my body aches, the light's burned out here at Planet New Basset, and I was late for work today. It's been rough.<br />
+<br />
+However, part of the reason I do the show is, selfishly, to lift my own spirits and this one doesn't disappoint in that regard. What it may lack in quality banter it more than makes up for in absolute cold-blooded jams. I've got plenty of new local music on this one, a celebration of Beatles producer George Martin, some dusty-sample throwbacks, a couple of anniversaries, hell, I even manage to avoid launching into my entire Gin Blossoms defense (condensed version: the Gin Blossoms were great) Killer stuff all around. All that plus the Cover Of The Week &amp; the Flatbasset Flatclassic!<br />
+<br />
+As always, Flatbasset Radio is completely free. I've finally set up a 
+decent downloading site, so if you'd like to download Flatbasset Radio: 
+Episode #75 (with all the appropriate iTunes tagging), <a href="https://archive.org/compress/Episode75_201603">just click here</a>.<br />
+<br />
+If you don't have the time or desire to download the show, just click the Mixcloud player below and you're good to go.<br />
+<br />
+<iframe frameborder="0" height="120" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FTCDroogsma%2Fflatbasset-radio-episode-75%2F&amp;hide_cover=1" width="100%"></iframe>
+
+<br />
+<br />
+Here's how this week's show plays out:<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-6v2K3vf2WTc/Vudb80ZlTDI/AAAAAAAACD0/Bp9HqJ8MrLEbmnpqWniJlZ-26-HVEwLLw/s1600/Night%2BMoves%2B-%2BPennied%2BDays.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-6v2K3vf2WTc/Vudb80ZlTDI/AAAAAAAACD0/Bp9HqJ8MrLEbmnpqWniJlZ-26-HVEwLLw/s200/Night%2BMoves%2B-%2BPennied%2BDays.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+01. Night Moves - Carl Sagan<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-_DZmUbR2Hp4/VudcCL_hkOI/AAAAAAAACD4/R5FBBBj2Kto8EV06pQPOQMUT8Pg3f8VjA/s1600/DJ%2BShadow%2B-%2BExcessive%2BEphemera.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://3.bp.blogspot.com/-_DZmUbR2Hp4/VudcCL_hkOI/AAAAAAAACD4/R5FBBBj2Kto8EV06pQPOQMUT8Pg3f8VjA/s200/DJ%2BShadow%2B-%2BExcessive%2BEphemera.jpg" width="196" /></a></div>
+<br />
+<br />
+<br />
+<br />
+02. DJ Shadow - Stem (Cops 'N Robbers Mix)<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/--7zpHnacoHM/VudcIVABkDI/AAAAAAAACD8/HObzjc8Zt28ejTfxRoGWIuUV1MvBWraNw/s1600/Majical%2BCloudz%2B-%2BImpersonator.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/--7zpHnacoHM/VudcIVABkDI/AAAAAAAACD8/HObzjc8Zt28ejTfxRoGWIuUV1MvBWraNw/s200/Majical%2BCloudz%2B-%2BImpersonator.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+03. Majical Cloudz - Bugs Don't Buzz<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-5RBidKf4pR8/VudcOBNlIlI/AAAAAAAACEA/PLIpgVXPFHcSgL_g0WZdMZyHZNRQd_DIg/s1600/Pale%2BSpectre%2B-%2BLive%2BOn%2BRadio%2BK%2B%25282016%2529.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="156" src="https://1.bp.blogspot.com/-5RBidKf4pR8/VudcOBNlIlI/AAAAAAAACEA/PLIpgVXPFHcSgL_g0WZdMZyHZNRQd_DIg/s200/Pale%2BSpectre%2B-%2BLive%2BOn%2BRadio%2BK%2B%25282016%2529.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+04. Pale Spectre - Nothing Yet<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-ZdJNHSatk1M/Vudc7rbVMNI/AAAAAAAACEI/wNIkoNu_MmsxiikiRaJ41-8xMR_pRKnCw/s1600/The%2BBeatles%2B-%2BRevolver.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-ZdJNHSatk1M/Vudc7rbVMNI/AAAAAAAACEI/wNIkoNu_MmsxiikiRaJ41-8xMR_pRKnCw/s200/The%2BBeatles%2B-%2BRevolver.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+05. The Beatles - I'm Only Sleeping<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-uEdnG4EpxCA/VuddB7H96qI/AAAAAAAACEQ/JxdPO0Qx4uker33bBOWWLD-k7uax9yZrw/s1600/The%2BBeatles%2B-%2BThe%2BMagical%2BMystery%2BTour.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-uEdnG4EpxCA/VuddB7H96qI/AAAAAAAACEQ/JxdPO0Qx4uker33bBOWWLD-k7uax9yZrw/s200/The%2BBeatles%2B-%2BThe%2BMagical%2BMystery%2BTour.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+06. The Beatles - Strawberry Fields Forever<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-b7efsBu6S_w/VuddGK5uQWI/AAAAAAAACEU/BTqu5uU8RnYW2nayF2hJLT9FQbuW01m_Q/s1600/The%2BBeatles%2B-%2BHelp.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-b7efsBu6S_w/VuddGK5uQWI/AAAAAAAACEU/BTqu5uU8RnYW2nayF2hJLT9FQbuW01m_Q/s200/The%2BBeatles%2B-%2BHelp.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+07. The Beatles - Yesterday<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-Usp1jQFbIy8/VuddK-D6naI/AAAAAAAACEY/aWK3I9SXhJIR1Elaq_mG1dvRyi4LX4CRw/s1600/Tony%2BPeachka%2B-%2BHello%2BTony.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-Usp1jQFbIy8/VuddK-D6naI/AAAAAAAACEY/aWK3I9SXhJIR1Elaq_mG1dvRyi4LX4CRw/s200/Tony%2BPeachka%2B-%2BHello%2BTony.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+08. Tony Peachka - Party Song<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-q0NeUjDMor4/VuddRVfrHcI/AAAAAAAACEc/L1CYjapr9dU8RFtni9l5isrllGi2DRnlw/s1600/Medium%2BZach%2B-%2BThe%2BArt%2BOf%2BThe%2BFlip%2BPt.%2B1.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-q0NeUjDMor4/VuddRVfrHcI/AAAAAAAACEc/L1CYjapr9dU8RFtni9l5isrllGi2DRnlw/s200/Medium%2BZach%2B-%2BThe%2BArt%2BOf%2BThe%2BFlip%2BPt.%2B1.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+09. Medium Zach - The Art Of The Flip Pt. 1<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-MprreIDrH3U/VuddWTnTrII/AAAAAAAACEg/cSL1Df46xYol0vbkl3amnkrPQd_8mVSdQ/s1600/Down%2BBy%2BLaw%2B-%2BAll%2BScratched%2BUp.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://3.bp.blogspot.com/-MprreIDrH3U/VuddWTnTrII/AAAAAAAACEg/cSL1Df46xYol0vbkl3amnkrPQd_8mVSdQ/s200/Down%2BBy%2BLaw%2B-%2BAll%2BScratched%2BUp.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+10. Down By Law - Radio Ragga<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-nnzZxnkVYaY/VuddcHZPwII/AAAAAAAACEk/mkOOdUH5XJUkuARQlSbrbkd0yCXu-NeAA/s1600/Cat%2BPower%2B-%2BThe%2BGreatest.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="196" src="https://3.bp.blogspot.com/-nnzZxnkVYaY/VuddcHZPwII/AAAAAAAACEk/mkOOdUH5XJUkuARQlSbrbkd0yCXu-NeAA/s200/Cat%2BPower%2B-%2BThe%2BGreatest.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+11. Cat Power - Lived In Bars<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-L_epi7YP3Zw/VuddlReNIuI/AAAAAAAACEs/7giRgOrVRuYGad_-mbwOQqNpjtA5tuEcg/s1600/Gin%2BBlossoms%2B-%2BCongratulations%2BI%2527m%2BSorry.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://3.bp.blogspot.com/-L_epi7YP3Zw/VuddlReNIuI/AAAAAAAACEs/7giRgOrVRuYGad_-mbwOQqNpjtA5tuEcg/s200/Gin%2BBlossoms%2B-%2BCongratulations%2BI%2527m%2BSorry.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+12. Gin Blossoms - Follow You Down<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+There you have it, folks. Thanks for listening!
+<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s1600/TCDProfile.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s200/TCDProfile.jpg" width="150" /></a></div>
+<br />
+<br />
+<i>For more TCDroogsma be sure to give him a follow on Twitter (<a href="http://www.twitter.com/tcdroogsma" target="_blank">@TCDroogsma</a>).&nbsp; Previous episodes of Flatbasset Radio are
+ archived on his <a href="http://www.mixcloud.com/tcdroogsma" target="_blank">Mixcloud page</a>.&nbsp; Stop by <a href="http://www.facebook.com/flatbassetpodcast" target="_blank">Flatbasset Radio's Facebook Page</a> &amp; give it a "Like" if you have the time.</i>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/08534360388607517596' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/08534360388607517596' rel='author' title='author profile'>
+<span itemprop='name'>TCDroogsma</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://flatbasset.blogspot.com/2016/03/flatbasset-radio-episode-75.html' itemprop='url'/>
+<a class='timestamp-link' href='http://flatbasset.blogspot.com/2016/03/flatbasset-radio-episode-75.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-03-16T16:47:00-04:00'>4:47 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://flatbasset.blogspot.com/2016/03/flatbasset-radio-episode-75.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1242354266'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4928159526517986824&postID=6972883637855406449&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://flatbasset.blogspot.com/search/label/Cat%20Power' rel='tag'>Cat Power</a>,
+<a href='http://flatbasset.blogspot.com/search/label/dj%20shadow' rel='tag'>dj shadow</a>,
+<a href='http://flatbasset.blogspot.com/search/label/down%20by%20law' rel='tag'>down by law</a>,
+<a href='http://flatbasset.blogspot.com/search/label/gin%20blossoms' rel='tag'>gin blossoms</a>,
+<a href='http://flatbasset.blogspot.com/search/label/majical%20cloudz' rel='tag'>majical cloudz</a>,
+<a href='http://flatbasset.blogspot.com/search/label/medium%20zach' rel='tag'>medium zach</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Minneapolis' rel='tag'>Minneapolis</a>,
+<a href='http://flatbasset.blogspot.com/search/label/night%20moves' rel='tag'>night moves</a>,
+<a href='http://flatbasset.blogspot.com/search/label/pale%20spectre' rel='tag'>pale spectre</a>,
+<a href='http://flatbasset.blogspot.com/search/label/podcast' rel='tag'>podcast</a>,
+<a href='http://flatbasset.blogspot.com/search/label/St.%20Paul' rel='tag'>St. Paul</a>,
+<a href='http://flatbasset.blogspot.com/search/label/the%20beatles' rel='tag'>the beatles</a>,
+<a href='http://flatbasset.blogspot.com/search/label/tony%20peachka' rel='tag'>tony peachka</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Twin%20Cities' rel='tag'>Twin Cities</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Saturday, March 12, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://3.bp.blogspot.com/-fIORe6jmXTo/VuR1ukjFgSI/AAAAAAAACDU/FWgfeUTb22Q6hW-zITDfAyXqt9cAXD18Q/s320/The%2BSocial%2BDisaster%2B-%2BDark%2BSide%2BOf%2BThe%2BRoller%2BRink.jpg' itemprop='image_url'/>
+<meta content='4928159526517986824' itemprop='blogId'/>
+<meta content='819089888589578411' itemprop='postId'/>
+<a name='819089888589578411'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://flatbasset.blogspot.com/2016/03/album-of-week-dark-side-of-roller-rink.html'>Album Of The Week: "Dark Side Of The Roller Rink" by The Social Disaster</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-819089888589578411' itemprop='description articleBody'>
+<br />
+Flatbasset Radio's Album Of The Week for the week of March 6th-12th, 2016:<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-fIORe6jmXTo/VuR1ukjFgSI/AAAAAAAACDU/FWgfeUTb22Q6hW-zITDfAyXqt9cAXD18Q/s1600/The%2BSocial%2BDisaster%2B-%2BDark%2BSide%2BOf%2BThe%2BRoller%2BRink.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://3.bp.blogspot.com/-fIORe6jmXTo/VuR1ukjFgSI/AAAAAAAACDU/FWgfeUTb22Q6hW-zITDfAyXqt9cAXD18Q/s320/The%2BSocial%2BDisaster%2B-%2BDark%2BSide%2BOf%2BThe%2BRoller%2BRink.jpg" width="320" /></a></div>
+<br />
+<b>The Social Disaster - Dark Side Of The Roller Rink</b><br />
+<br />
+01. Queen Of Agency<br />
+02. Machinery<br />
+03. Gold<br />
+04. Little Girl<br />
+05. Bad Boys With Big Hearts<br />
+06. God<br />
+07. Want It All<br />
+08. Battleground<br />
+09. Quiet Savior<br />
+10. Voyeur<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="https://2.bp.blogspot.com/-UqG5Ls6xnks/VuS1PvKQgBI/AAAAAAAACDk/GR44XJsbDOMveVlvJu6fzc0Q4wlxBfkiw/s1600/The%2BSocial%2BDisaster%2B-%2BProfile.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="266" src="https://2.bp.blogspot.com/-UqG5Ls6xnks/VuS1PvKQgBI/AAAAAAAACDk/GR44XJsbDOMveVlvJu6fzc0Q4wlxBfkiw/s400/The%2BSocial%2BDisaster%2B-%2BProfile.jpg" width="400" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">(The Social Disaster by Laramie Carlson)</td></tr>
+</tbody></table>
+<br />
+Straight out of sunny Duluth we have <i>Dark Side Of The Roller Rink,</i> the debut LP from self-described "proto-pop, gloom pop, dance &amp; doo-wop" quintet The Social Disaster. While that may seem like a curious description for a band, it's appropriate. For better or worse, on <i>DSOTRR</i>, the band manages to cover those bases and and more.<br />
+<br />
+<iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=2391996892/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1774722725/transparent=true/" style="border: 0; height: 120px; width: 100%;"><a href="http://thesocialdisaster.bandcamp.com/album/dark-side-of-the-roller-rink">Dark Side of the Roller Rink by The Social Disaster</a></iframe>
+
+<br />
+<br />
+The Social Disaster wisely aims to make their case on the opening track "Queen Of Agency." The band locks into a a decidedly indie-pop swing (complete with a bed of synthesizers) as singer Rachel Phoenix steps front and center to deliver no-less-than three different hooks. It's one of the real highlights on the album, a moment when everything the band is trying to accomplish comes together in the same song.<br />
+<br />
+The Social Disaster spends the next three tracks leaning toward the "dark side" aspect of the album title rather than the "roller rink" side. Flashing a harder-edged sound on songs "Machinery," "God," &amp; "Little Girl" Phoenix questions religion, sexism, technology, &amp; a woman's role in the world. Perhaps the band's crunch is meant to mirror the gravity of the subject matter, but unfortunately it causes these three songs to lump together, doing an injustice to all three.<br />
+<br />
+<iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=2391996892/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1295914592/transparent=true/" style="border: 0; height: 120px; width: 100%;"><a href="http://thesocialdisaster.bandcamp.com/album/dark-side-of-the-roller-rink">Dark Side of the Roller Rink by The Social Disaster</a></iframe>
+
+<br />
+<br />
+High-water mark "Bad Boys With Big Hearts" functions as a mood-lightening reprieve at the end of the album's first half. The band steps back from the <i>rawk</i> to indulge in some straight-up doo-wop-pop, with Phoenix playing the role of pin-up charmer, lamenting her inability to avoid the same bad-boy mistakes that are just too much fun to repeat.<br />
+<br />
+<iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=2391996892/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=952530954/transparent=true/" style="border: 0; height: 120px; width: 100%;"><a href="http://thesocialdisaster.bandcamp.com/album/dark-side-of-the-roller-rink">Dark Side of the Roller Rink by The Social Disaster</a></iframe>
+
+<br />
+<br />
+The album's second half finds The Social Disaster moving away from the charm of the first half and doubling down on a sort-of post-grunge crunch. "God" is Phoenix's anthem to the modern woman, declaring "I am my own God!" as the band rumbles behind her. They continue in this direction for duration of <i>DSOTRR</i>'s second half. Unfortunately, as Phoenix forces the issue lyrically and the band works up the anger to match, the album loses the playful energy that makes the first half of the album a real joy.<br />
+<br />
+I hope that doesn't sound too harsh. I did enjoy <i>Dark Side Of The Roller Rink</i>. Like a lot of debut albums, though, it's a bit scattered stylistically and bit on-the-nose lyrically. The band seems to be trying to be everything all the time, which isn't tremendously surprising. It's completely understandable for a band to try to say <i>everything</i> on their first album. However, given how the band sounds when they loosen up, it's clear that they have the ability to be the kind of band that has a little something for everyone. I have very high hopes for The Social Disaster going forward. They're very close to striking the balance between their playful &amp; serious side on this album. Going forward I certainly hope they find that balance, as the two sides of this band compliment each other tremendously.<br />
+<br />
+If you'd like to check out <i>Dark Side Of The Roller Rink</i> for yourself, head over to <a href="https://thesocialdisaster.bandcamp.com/album/dark-side-of-the-roller-rink">The Social Disaster's Bandcamp page</a> and give it a listen.<br />
+<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s1600/TCDProfile.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s200/TCDProfile.jpg" width="150" /></a></div>
+<br />
+<br />
+<i>For more TCDroogsma be sure to give him a follow on Twitter (<a href="http://www.twitter.com/tcdroogsma" target="_blank">@TCDroogsma</a>).&nbsp; Previous episodes of Flatbasset Radio are
+ archived on his <a href="http://www.mixcloud.com/tcdroogsma" target="_blank">Mixcloud page</a>.&nbsp; Stop by <a href="http://www.facebook.com/flatbassetpodcast" target="_blank">Flatbasset Radio's Facebook Page</a> &amp; give it a "Like" if you have the time.</i>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/08534360388607517596' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/08534360388607517596' rel='author' title='author profile'>
+<span itemprop='name'>TCDroogsma</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://flatbasset.blogspot.com/2016/03/album-of-week-dark-side-of-roller-rink.html' itemprop='url'/>
+<a class='timestamp-link' href='http://flatbasset.blogspot.com/2016/03/album-of-week-dark-side-of-roller-rink.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-03-12T19:42:00-05:00'>7:42 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://flatbasset.blogspot.com/2016/03/album-of-week-dark-side-of-roller-rink.html#comment-form' onclick=''>
+1 comment:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1242354266'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4928159526517986824&postID=819089888589578411&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://flatbasset.blogspot.com/search/label/dark%20side%20of%20the%20roller%20rink' rel='tag'>dark side of the roller rink</a>,
+<a href='http://flatbasset.blogspot.com/search/label/duluth' rel='tag'>duluth</a>,
+<a href='http://flatbasset.blogspot.com/search/label/indie%20rock' rel='tag'>indie rock</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Minneapolis' rel='tag'>Minneapolis</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Minnesota' rel='tag'>Minnesota</a>,
+<a href='http://flatbasset.blogspot.com/search/label/pop' rel='tag'>pop</a>,
+<a href='http://flatbasset.blogspot.com/search/label/St.%20Paul' rel='tag'>St. Paul</a>,
+<a href='http://flatbasset.blogspot.com/search/label/the%20social%20disaster' rel='tag'>the social disaster</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Twin%20Cities' rel='tag'>Twin Cities</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, March 1, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://2.bp.blogspot.com/-s-_A76owqXc/VtYJmRGfCLI/AAAAAAAACDE/HoReOOIymrY/s400/Most%2BPlayed%2B-%2BFebruary%2B%252716.jpg' itemprop='image_url'/>
+<meta content='4928159526517986824' itemprop='blogId'/>
+<meta content='6271229747313014944' itemprop='postId'/>
+<a name='6271229747313014944'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://flatbasset.blogspot.com/2016/03/flatbasset-radios-25-most-played-albums.html'>Flatbasset Radio's 25 Most Played Albums: February '16</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6271229747313014944' itemprop='description articleBody'>
+<br />
+Well hello again, everybody. Welcome to another month's worth of instant nostalgia!<br />
+<br />
+Even with a bonus day February flew by. I'm sorry that the posts haven't been too routine. I was very busy and very tired, but I'm trying my best here. Of course, big thank you to everybody who did make the time to check out the couple of Flatbasset Radio episodes I put together this month as well as that P.O.S. MinneClassics show.<br />
+<br />
+The flipside of being so busy means that I likely spent a lot of time on public transit, which means I was able to listen to a ton of music. As you can see below, I covered a lot of ground.<br />
+<br />
+As always, please remember that one song = one play. If I listen to, say, Springsteen's <i>The River</i> once all the way through, it counts as 20 plays. These stats are all pulled from my <a href="http://www.last.fm/user/TCDroogsma">Last.fm page</a>, which you should definitely follow if you're certain you've checked out absolutely everything else on the internet.<br />
+<br />
+So, without further ado, here's Flatbasset Radio's 25 Most Played Albums Of February, 2016:<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://2.bp.blogspot.com/-s-_A76owqXc/VtYJmRGfCLI/AAAAAAAACDE/HoReOOIymrY/s1600/Most%2BPlayed%2B-%2BFebruary%2B%252716.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://2.bp.blogspot.com/-s-_A76owqXc/VtYJmRGfCLI/AAAAAAAACDE/HoReOOIymrY/s400/Most%2BPlayed%2B-%2BFebruary%2B%252716.jpg" width="400" /></a></div>
+<br />
+01. Edison - The Hand (79 plays)<br />
+<br />
+02. Mixed Blood Majority - Insane World (77 plays)<br />
+<br />
+03. Doks Robotiks - Doks (70 plays)<br />
+<br />
+04. Bruce Springsteen - The River (61 plays)<br />
+<br />
+05. Paul Westerberg - 14 Songs (42 plays)<br />
+<br />
+06. Vandaam - VNDM EP 2 (42 plays)<br />
+<br />
+07. J Dilla - Donuts (32 plays)<br />
+<br />
+08. The Hang Ups - Pretend Hits (32 plays)<br />
+<br />
+09. Local H - Pack Up The Cats (30 plays)<br />
+<br />
+10. Belle &amp; Sebastian - The Life Pursuit (29 plays)<br />
+<br />
+11. Operation Ivy - Operation Ivy (27 plays)<br />
+<br />
+12. Fountains Of Wayne - Sky Full Of Holes (26 plays)<br />
+<br />
+13. The Lemonheads - Car Button Cloth (24 plays)<br />
+<br />
+14. The Specials - More Specials (24 plays)<br />
+<br />
+15. Sparta - Threes (24 plays)<br />
+<br />
+16. Morrissey - World Peace Is None Of Your Business (24 plays)<br />
+<br />
+17. Collage - Lollygag (21 plays)*<br />
+<br />
+18. Neil Young - Harvest (20 plays)<br />
+<br />
+19. The Hold Steady - Heaven Is Whenever (20 plays)<br />
+<br />
+20. Desmond Dekker - Rockin' Steady: The Best Of Desmond Dekker (20 plays)<br />
+<br />
+21. Shad - When This Is Over (20 plays)<br />
+<br />
+22. Eric Mayson - Detail (19 plays)<br />
+<br />
+23. Sayth &amp; North House - Body Pillow (18 plays)<br />
+<br />
+24. The Cure - Greatest Hits (18 plays)<br />
+<br />
+25. Radiohead - In Rainbows (Bonus Disc) (16 plays)<br />
+<br />
+*That blank spot you see is for an album called <i>Lollygag</i> by a local artist called Collage. Does anybody know anything about this band or album? I bought it on a whim over at Cheapo. There does not appear to be any information about it whatsoever on the internet. All I can gather from the album is that it<i> </i>was released in 1994 on Gypsy Gyrl records. It seems to be the project/brainchild of a woman named Terry Blessing. That's actually quite a bit of info, but if anybody knows anymore about it or maybe saw this band back in the 90's, please hit me up in the comment section or over on the <a href="http://www.facebook.com/flatbassetpodcast">Flatbasset Facebook page</a>. Thanks.<br />
+<br />
+Image via <a href="http://www.tapmusic.net/">Tap Music</a><br />
+Stats via my <a href="http://www.last.fm/user/TCDroogsma">Last.fm</a> page<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s1600/TCDProfile.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s200/TCDProfile.jpg" width="150" /></a></div>
+<br />
+<br />
+<i>For more TCDroogsma be sure to give him a follow on Twitter (<a href="http://www.twitter.com/tcdroogsma" target="_blank">@TCDroogsma</a>).&nbsp; Previous episodes of Flatbasset Radio are
+ archived on his <a href="http://www.mixcloud.com/tcdroogsma" target="_blank">Mixcloud page</a>.&nbsp; Stop by <a href="http://www.facebook.com/flatbassetpodcast" target="_blank">Flatbasset Radio's Facebook Page</a> &amp; give it a "Like" if you have the time.</i>&nbsp;
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/08534360388607517596' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/08534360388607517596' rel='author' title='author profile'>
+<span itemprop='name'>TCDroogsma</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://flatbasset.blogspot.com/2016/03/flatbasset-radios-25-most-played-albums.html' itemprop='url'/>
+<a class='timestamp-link' href='http://flatbasset.blogspot.com/2016/03/flatbasset-radios-25-most-played-albums.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-03-01T16:42:00-05:00'>4:42 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://flatbasset.blogspot.com/2016/03/flatbasset-radios-25-most-played-albums.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1242354266'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4928159526517986824&postID=6271229747313014944&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://flatbasset.blogspot.com/search/label/bruce%20springsteen' rel='tag'>bruce springsteen</a>,
+<a href='http://flatbasset.blogspot.com/search/label/doks%20robotiks' rel='tag'>doks robotiks</a>,
+<a href='http://flatbasset.blogspot.com/search/label/edison' rel='tag'>edison</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Minneapolis' rel='tag'>Minneapolis</a>,
+<a href='http://flatbasset.blogspot.com/search/label/mixed%20blood%20majority' rel='tag'>mixed blood majority</a>,
+<a href='http://flatbasset.blogspot.com/search/label/most%20played' rel='tag'>most played</a>,
+<a href='http://flatbasset.blogspot.com/search/label/paul%20westerberg' rel='tag'>paul westerberg</a>,
+<a href='http://flatbasset.blogspot.com/search/label/podcast' rel='tag'>podcast</a>,
+<a href='http://flatbasset.blogspot.com/search/label/St.%20Paul' rel='tag'>St. Paul</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Twin%20Cities' rel='tag'>Twin Cities</a>,
+<a href='http://flatbasset.blogspot.com/search/label/vandaam' rel='tag'>vandaam</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Monday, February 29, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://1.bp.blogspot.com/-jx9pdPoPHwY/VtS4UOLJiJI/AAAAAAAACCw/w19rjtHuR3Q/s1600/Glasset%2BHound.jpg' itemprop='image_url'/>
+<meta content='4928159526517986824' itemprop='blogId'/>
+<meta content='2134012066168315879' itemprop='postId'/>
+<a name='2134012066168315879'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://flatbasset.blogspot.com/2016/02/flatbasset-radio-episode-74.html'>Flatbasset Radio: Episode #74</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-2134012066168315879' itemprop='description articleBody'>
+<br />
+<i>See, I know my destination, but I'm just not there...</i><br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-jx9pdPoPHwY/VtS4UOLJiJI/AAAAAAAACCw/w19rjtHuR3Q/s1600/Glasset%2BHound.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-jx9pdPoPHwY/VtS4UOLJiJI/AAAAAAAACCw/w19rjtHuR3Q/s1600/Glasset%2BHound.jpg" /></a></div>
+<br />
+Well hello again, podcast fans! Welcome to Flatbasset Radio: Episode #74!<br />
+<br />
+Happy Leap Day, everybody! In honor of this rare, yet scheduled phenomena I figured I should get my shit together and make the most of this bonus day by sitting on my ass recording a new show. Mission: Accomplished.<br />
+<br />
+In this week's episode I celebrate some anniversaries, play some new local music, check in on some old Bay Area friends, lament the lack of respect for Owatonna's greatest songwriter, the sadness running through a classic beat album, revisit a single that was supposed to break one of America's great punk bands, struggle with my accents, fawn over my favorite rapper, and get unreasonably excited about my first trip to see The Boss live! All that plus the Cover Of The Week &amp; Flatbasset Flatclassic!<br />
+<br />
+As always, Flatbasset Radio is completely free. I've finally set up a decent downloading site, so if you'd like to download Flatbasset Radio: Episode #74 (with all the appropriate iTunes tagging), <a href="https://archive.org/compress/Episode74_201602">just click here</a>.<br />
+<br />
+If you don't have the time or desire to download the show, just click the Mixcloud player below and you're good to go.<br />
+<br />
+<br />
+<iframe frameborder="0" height="120" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FTCDroogsma%2Fflatbasset-radio-episode-74%2F&amp;hide_cover=1" width="100%"></iframe>
+
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-dKO89W_ySzc/VtS04UGB5OI/AAAAAAAACBw/d8Y1kxO1d80/s1600/Tiny%2BDeaths%2B-%2BNight%2BFlowers.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-dKO89W_ySzc/VtS04UGB5OI/AAAAAAAACBw/d8Y1kxO1d80/s200/Tiny%2BDeaths%2B-%2BNight%2BFlowers.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+01. Tiny Deaths - Away<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-gaoL4lUl27M/VtS09hR_4jI/AAAAAAAACB0/ZSkq0kyyRQQ/s1600/Edison%2B-%2BThe%2BHand.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-gaoL4lUl27M/VtS09hR_4jI/AAAAAAAACB0/ZSkq0kyyRQQ/s200/Edison%2B-%2BThe%2BHand.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+<br />
+02. Edison - The Modem's Offset Overture<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+&nbsp;<a href="https://4.bp.blogspot.com/-iNVPjmVEJOk/VtS1DXZlCNI/AAAAAAAACB4/La-q7SqmhEw/s1600/Har%2BMar%2BSuperstar%2B-%2BYouth%2BWithout%2BLove.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-iNVPjmVEJOk/VtS1DXZlCNI/AAAAAAAACB4/La-q7SqmhEw/s200/Har%2BMar%2BSuperstar%2B-%2BYouth%2BWithout%2BLove.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+03. Har Mar Superstar - Youth Without Love<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-au_I-bCaD_k/VtS1cbRLnFI/AAAAAAAACB8/yEAclbEroHU/s1600/J%2BDilla%2B-%2BDonuts.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-au_I-bCaD_k/VtS1cbRLnFI/AAAAAAAACB8/yEAclbEroHU/s200/J%2BDilla%2B-%2BDonuts.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+04. J Dilla - Don't Cry<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-xW09TujllOU/VtS2uTLNHLI/AAAAAAAACCM/qabORHnhS30/s1600/Stars%2B-%2BCovers.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-xW09TujllOU/VtS2uTLNHLI/AAAAAAAACCM/qabORHnhS30/s200/Stars%2B-%2BCovers.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+05. Stars - Street Lights<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-_XCHKwulokA/VtS29zfn-GI/AAAAAAAACCQ/LCThLrayJwQ/s1600/Cibo%2BMatto%2B-%2BViva%2BLa%2BWoman.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://3.bp.blogspot.com/-_XCHKwulokA/VtS29zfn-GI/AAAAAAAACCQ/LCThLrayJwQ/s200/Cibo%2BMatto%2B-%2BViva%2BLa%2BWoman.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+06. Cibo Matto - White Pepper Ice Cream<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-XgpHNqh3LQU/VtS3McEnMtI/AAAAAAAACCU/PsWyKp3sbkg/s1600/Belle%2BAnd%2BSebastian%2B-%2BThe%2BLife%2BPursuit.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-XgpHNqh3LQU/VtS3McEnMtI/AAAAAAAACCU/PsWyKp3sbkg/s200/Belle%2BAnd%2BSebastian%2B-%2BThe%2BLife%2BPursuit.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+07. Belle &amp; Sebastian - Song For Sunshine<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-ZMuVjswSkAI/VtS3o7nUXyI/AAAAAAAACCc/Vu-2n1oa3Ws/s1600/Bad%2BReligion%2B-%2BThe%2BGray%2BRace.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-ZMuVjswSkAI/VtS3o7nUXyI/AAAAAAAACCc/Vu-2n1oa3Ws/s200/Bad%2BReligion%2B-%2BThe%2BGray%2BRace.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+08. Bad Religion - A Walk<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-reohren8XOA/VtS3tzIaXxI/AAAAAAAACCg/MePm00oWS44/s1600/Aesop%2BRock%2B-%2BThe%2BImpossible%2BKid.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-reohren8XOA/VtS3tzIaXxI/AAAAAAAACCg/MePm00oWS44/s200/Aesop%2BRock%2B-%2BThe%2BImpossible%2BKid.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+09. Aesop Rock - Rings<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-AWXwe7j3xd0/VtS3yS7zUdI/AAAAAAAACCk/rb2_ULojPqA/s1600/Big%2BCats%2B-%2BWhat%2BIf%2BIt%2BDoesn%2527t%2BGet%2BBetter.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-AWXwe7j3xd0/VtS3yS7zUdI/AAAAAAAACCk/rb2_ULojPqA/s200/Big%2BCats%2B-%2BWhat%2BIf%2BIt%2BDoesn%2527t%2BGet%2BBetter.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+10. Big Cats - What If It Doesn't Get Better? (w/Lydia Liza)<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-DTxVM_XaU4E/VtS3-TBl6AI/AAAAAAAACCs/t14rlAFpp9I/s1600/Bruce%2BSpringsteen%2B-%2BThe%2BRier.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-DTxVM_XaU4E/VtS3-TBl6AI/AAAAAAAACCs/t14rlAFpp9I/s200/Bruce%2BSpringsteen%2B-%2BThe%2BRier.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+11. Bruce Springsteen - The River<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+There you have it, folks! Enjoy!<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s1600/TCDProfile.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s200/TCDProfile.jpg" width="150" /></a></div>
+<br />
+<br />
+<i>For more TCDroogsma be sure to give him a follow on Twitter (<a href="http://www.twitter.com/tcdroogsma" target="_blank">@TCDroogsma</a>).&nbsp; Previous episodes of Flatbasset Radio are
+ archived on his <a href="http://www.mixcloud.com/tcdroogsma" target="_blank">Mixcloud page</a>.&nbsp; Stop by <a href="http://www.facebook.com/flatbassetpodcast" target="_blank">Flatbasset Radio's Facebook Page</a> &amp; give it a "Like" if you have the time.</i>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/08534360388607517596' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/08534360388607517596' rel='author' title='author profile'>
+<span itemprop='name'>TCDroogsma</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://flatbasset.blogspot.com/2016/02/flatbasset-radio-episode-74.html' itemprop='url'/>
+<a class='timestamp-link' href='http://flatbasset.blogspot.com/2016/02/flatbasset-radio-episode-74.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-29T17:01:00-05:00'>5:01 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://flatbasset.blogspot.com/2016/02/flatbasset-radio-episode-74.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1242354266'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4928159526517986824&postID=2134012066168315879&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://flatbasset.blogspot.com/search/label/Aesop%20Rock' rel='tag'>Aesop Rock</a>,
+<a href='http://flatbasset.blogspot.com/search/label/bad%20religion' rel='tag'>bad religion</a>,
+<a href='http://flatbasset.blogspot.com/search/label/belle%20and%20sebastian' rel='tag'>belle and sebastian</a>,
+<a href='http://flatbasset.blogspot.com/search/label/big%20cats' rel='tag'>big cats</a>,
+<a href='http://flatbasset.blogspot.com/search/label/bruce%20springsteen' rel='tag'>bruce springsteen</a>,
+<a href='http://flatbasset.blogspot.com/search/label/cibo%20matto' rel='tag'>cibo matto</a>,
+<a href='http://flatbasset.blogspot.com/search/label/download' rel='tag'>download</a>,
+<a href='http://flatbasset.blogspot.com/search/label/edison' rel='tag'>edison</a>,
+<a href='http://flatbasset.blogspot.com/search/label/har%20mar%20superstar' rel='tag'>har mar superstar</a>,
+<a href='http://flatbasset.blogspot.com/search/label/j%20dilla' rel='tag'>j dilla</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Stars' rel='tag'>Stars</a>,
+<a href='http://flatbasset.blogspot.com/search/label/tiny%20deaths' rel='tag'>tiny deaths</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Twin%20Cities' rel='tag'>Twin Cities</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Friday, February 5, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://3.bp.blogspot.com/-TUg8orjmfLg/VrUBkkf-7RI/AAAAAAAACAQ/ky0SSp2CInw/s320/P.O.S.%2B-%2B2006.jpg' itemprop='image_url'/>
+<meta content='4928159526517986824' itemprop='blogId'/>
+<meta content='6654647983676204202' itemprop='postId'/>
+<a name='6654647983676204202'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://flatbasset.blogspot.com/2016/02/minneclassics-4-de-la-souls-by-pos.html'>MinneClassics #4: "De La Souls" by P.O.S.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6654647983676204202' itemprop='description articleBody'>
+<br />
+<i>Found some things I could relate with, I wore out the tape...</i><br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-TUg8orjmfLg/VrUBkkf-7RI/AAAAAAAACAQ/ky0SSp2CInw/s1600/P.O.S.%2B-%2B2006.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="320" src="https://3.bp.blogspot.com/-TUg8orjmfLg/VrUBkkf-7RI/AAAAAAAACAQ/ky0SSp2CInw/s320/P.O.S.%2B-%2B2006.jpg" width="313" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">(P.O.S. by Dan Monick)</td></tr>
+</tbody></table>
+Well hello again, podcast fans! Welcome to the fourth installment of my short-running MinneClassics series!<br />
+<i> </i><br />
+Folks, last week marked the 10 year anniversary of the release of P.O.S.'s second full-length album <i>Audition</i>. To mark the occasion I thought I'd devote a few minutes to discussing one of my favorite tracks from this classic album.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-HdXcrb88SbQ/VrUBvlxEbaI/AAAAAAAACAU/nFRAxPLl5WI/s1600/P.O.S.%2B-%2BAudition.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://3.bp.blogspot.com/-HdXcrb88SbQ/VrUBvlxEbaI/AAAAAAAACAU/nFRAxPLl5WI/s200/P.O.S.%2B-%2BAudition.jpg" width="200" /></a></div>
+&nbsp;Like a lot of people, <i>Audition</i> was just that, a first look at the rapper P.O.S. and the Doomtree collective. It was an introduction to a world that had equal love for both hardcore punk and underground hip-hop and decided that there was no point separating the two. The album is full of highlights, from the aggression of opener "Half-Cocked Concepts," the anger of "The Kill In Me," the straight-banging "Stand Up (Let's Get Murdered)," to spot-on guest spots from Slug, Craig Finn, Greg Attonito &amp; Mike Mictlan, the album more than meets the goal of opening the door to world of Doomtree (a door that, 10 years on, was quickly flooded with like-minded individuals).<br />
+<br />
+However, looking back, "De La Souls" is still the moment when it all comes together. Over a simple beat and autobiographical rhymes, P.O.S. invites us all in by opening up and telling his story. In doing so, he's asking that we respond by telling our own stories. He's inviting everybody to join in not by becoming an anonymous face in a larger movement, but by reaffirming that a group of like-minded individuals is still a group of individuals, with their own hopes, dreams, goals, &amp; disappointments.&nbsp; He's knocking down whatever was left of the wall between performer and audience and extending a hand.<br />
+<br />
+Anyway, give the show a listen to hear what I'm talking about. As always, Flatbasset Radio &amp; these MinneClassics are free. Just click the Mixcloud player below to give it a listen.<br />
+<br />
+<iframe frameborder="0" height="180" src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=254662b6-264f-4c89-92ce-b5005ab5c3e9&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2FTCDroogsma%2Fminneclassics-4-de-la-souls-by-pos%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0" width="100%"></iframe><br />
+<div style="clear: both; height: 3px; width: auto;">
+</div>
+<div style="color: rgb(153 , 153 , 153); display: block; font-family: &quot;open sans&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif; font-size: 11px; margin: 0px; padding: 3px 4px; width: auto;">
+<a href="https://www.mixcloud.com/TCDroogsma/minneclassics-4-de-la-souls-by-pos/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link" style="color: grey; font-weight: bold;" target="_blank">MinneClassics #4: "De La Souls" by P.O.S.</a> by <a href="https://www.mixcloud.com/TCDroogsma/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link" style="color: grey; font-weight: bold;" target="_blank">Tcdroogsma</a> on <a href="https://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" style="color: grey; font-weight: bold;" target="_blank"> Mixcloud</a></div>
+<div style="clear: both; height: 3px; width: auto;">
+</div>
+<br />
+Hard to believe it's been 10 years. Still a a classic.<br />
+<br />
+Thanks for stopping by, everybody! <br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s1600/TCDProfile.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s200/TCDProfile.jpg" width="150" /></a></div>
+<br />
+<br />
+<i>For more TCDroogsma be sure to give him a follow on Twitter (<a href="http://www.twitter.com/tcdroogsma" target="_blank">@TCDroogsma</a>).&nbsp; Previous episodes of Flatbasset Radio are
+ archived on his <a href="http://www.mixcloud.com/tcdroogsma" target="_blank">Mixcloud page</a>.&nbsp; Stop by <a href="http://www.facebook.com/flatbassetpodcast" target="_blank">Flatbasset Radio's Facebook Page</a> &amp; give it a "Like" if you have the time.</i><br />
+<br />
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/08534360388607517596' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/08534360388607517596' rel='author' title='author profile'>
+<span itemprop='name'>TCDroogsma</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://flatbasset.blogspot.com/2016/02/minneclassics-4-de-la-souls-by-pos.html' itemprop='url'/>
+<a class='timestamp-link' href='http://flatbasset.blogspot.com/2016/02/minneclassics-4-de-la-souls-by-pos.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-05T15:12:00-05:00'>3:12 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://flatbasset.blogspot.com/2016/02/minneclassics-4-de-la-souls-by-pos.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1242354266'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4928159526517986824&postID=6654647983676204202&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://flatbasset.blogspot.com/search/label/bouncing%20souls' rel='tag'>bouncing souls</a>,
+<a href='http://flatbasset.blogspot.com/search/label/doomtree' rel='tag'>doomtree</a>,
+<a href='http://flatbasset.blogspot.com/search/label/hip-hop' rel='tag'>hip-hop</a>,
+<a href='http://flatbasset.blogspot.com/search/label/indie%20rap' rel='tag'>indie rap</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Minneapolis' rel='tag'>Minneapolis</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Minnesota' rel='tag'>Minnesota</a>,
+<a href='http://flatbasset.blogspot.com/search/label/p.o.s.' rel='tag'>p.o.s.</a>,
+<a href='http://flatbasset.blogspot.com/search/label/rhymesayers' rel='tag'>rhymesayers</a>,
+<a href='http://flatbasset.blogspot.com/search/label/St.%20Paul' rel='tag'>St. Paul</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Twin%20Cities' rel='tag'>Twin Cities</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, February 2, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://2.bp.blogspot.com/-I6dKJAlvQFE/VsD8dKcctWI/AAAAAAAACBc/g284VFK36us/s320/Amended%2BGlasset%2BHound.jpg' itemprop='image_url'/>
+<meta content='4928159526517986824' itemprop='blogId'/>
+<meta content='8011454627384625216' itemprop='postId'/>
+<a name='8011454627384625216'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://flatbasset.blogspot.com/2016/02/flatbasset-radio-episode-73-young.html'>Flatbasset Radio: Episode #73 (Young Sandwich's Lost Winter Mix)</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8011454627384625216' itemprop='description articleBody'>
+<br />
+<i>Playin' solitaire 'til dawn with a pack of 51...</i><br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://2.bp.blogspot.com/-I6dKJAlvQFE/VsD8dKcctWI/AAAAAAAACBc/g284VFK36us/s1600/Amended%2BGlasset%2BHound.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://2.bp.blogspot.com/-I6dKJAlvQFE/VsD8dKcctWI/AAAAAAAACBc/g284VFK36us/s320/Amended%2BGlasset%2BHound.jpg" width="240" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<br />
+Well hello again, podcast fans! Welcome to Flatbasset Radio: Episode #73!<br />
+<i> </i><br />
+As you can see from the title up above, Episode #73 is the latest installment of my frequent collaborator Nick's Young Sandwich mixes. This one, however, is somehow even more special than his usual mixes. You see, Nick actually gave me this mix last January and, through a combination of being both somehow busy &amp; lazy, I didn't get around to assembling and posting it last winter. Well, here we are a year later and I've been saving this one up. Honestly, it's probably his best yet.<br />
+<br />
+If you haven't checked out Nick's Young Sandwich Mixes before, I highly suggest you do so. He's dropped off 7 other mixes over the years and they're all gold (all of which are available on my <a href="https://www.mixcloud.com/TCDroogsma/">Mixcloud page</a>). Not only are they devoid of my nasally banter, but they're an intoxicating mix of hip-hop, jazz, folk, and enough left turns to satisfy our internet-damaged attention spans. This Lost Winter Mix is no exception. Give it a listen.<br />
+<br />
+As always, Flatbasset Radio is completely free. Just click the Mixcloud player below and you're good to go.<br />
+<br />
+<iframe frameborder="0" height="180" src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=b13809c0-218a-40bd-855a-a3a4908a1cdc&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2FTCDroogsma%2Fflatbasset-radio-episode-73-young-sandwichs-lost-winter-mix%2F&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0" width="100%"></iframe><br />
+<div style="clear: both; height: 3px; width: auto;">
+</div>
+<div style="color: rgb(153 , 153 , 153); display: block; font-family: &quot;open sans&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif; font-size: 11px; margin: 0px; padding: 3px 4px; width: auto;">
+<a href="https://www.mixcloud.com/TCDroogsma/flatbasset-radio-episode-73-young-sandwichs-lost-winter-mix/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link" style="color: grey; font-weight: bold;" target="_blank">Flatbasset Radio: Episode #73 (Young Sandwich's Lost Winter Mix)</a> by <a href="https://www.mixcloud.com/TCDroogsma/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link" style="color: grey; font-weight: bold;" target="_blank">Tcdroogsma</a> on <a href="https://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" style="color: grey; font-weight: bold;" target="_blank"> Mixcloud</a></div>
+<div style="clear: both; height: 3px; width: auto;">
+</div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-1Pfna4n2Asc/VrFAtz84x7I/AAAAAAAAB-o/0flm4cTZ-og/s1600/Beastie%2BBoys%2B-%2BHello%2BNasty.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-1Pfna4n2Asc/VrFAtz84x7I/AAAAAAAAB-o/0flm4cTZ-og/s200/Beastie%2BBoys%2B-%2BHello%2BNasty.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+01. Beastie Boys - Super Disco Breakin'<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-ROYBDCyO9gc/VrFBIC7I5gI/AAAAAAAAB-s/HhxjouKEiDw/s1600/Pulp%2BFiction.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-ROYBDCyO9gc/VrFBIC7I5gI/AAAAAAAAB-s/HhxjouKEiDw/s200/Pulp%2BFiction.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+02. The Centurions - Bullwinkle Pt. II<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-reN0EVYkyfc/VrFBdUs4OII/AAAAAAAAB-w/CLDd8EZXsIY/s1600/rza%2B-%2Bbobby%2Bdigital.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://2.bp.blogspot.com/-reN0EVYkyfc/VrFBdUs4OII/AAAAAAAAB-w/CLDd8EZXsIY/s200/rza%2B-%2Bbobby%2Bdigital.png" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+03. RZA - My Lovin' Is Digi<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-k_G3P2j4bIk/VrFCC3Sk1hI/AAAAAAAAB-8/XY_OetojK6k/s1600/Jimi%2BHendrix.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-k_G3P2j4bIk/VrFCC3Sk1hI/AAAAAAAAB-8/XY_OetojK6k/s200/Jimi%2BHendrix.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+04. Jimi Hendrix - Hear My Train A Comin' (Acoustic)<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-LFpRyLLMgzM/VrFCYT4XRZI/AAAAAAAAB_A/y4ufxpQPf9E/s1600/Gorillaz%2B-%2BThe%2BFall.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://3.bp.blogspot.com/-LFpRyLLMgzM/VrFCYT4XRZI/AAAAAAAAB_A/y4ufxpQPf9E/s200/Gorillaz%2B-%2BThe%2BFall.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+05. Gorillaz - The Parish Of Space Dust<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-5xxBcMgqNuU/VrFCc2Y8mEI/AAAAAAAAB_E/XEmQAp-SOlw/s1600/The%2BStatler%2BBrothers%2B-%2BFlowers%2BOn%2BThe%2BWall.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-5xxBcMgqNuU/VrFCc2Y8mEI/AAAAAAAAB_E/XEmQAp-SOlw/s200/The%2BStatler%2BBrothers%2B-%2BFlowers%2BOn%2BThe%2BWall.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+06. The Statler Brothers - Flowers On The Wall<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-R07MYQ8WoIw/VrFCxQTxzzI/AAAAAAAAB_I/p8quYEoje9M/s1600/Pharaoh%2BSanders.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://2.bp.blogspot.com/-R07MYQ8WoIw/VrFCxQTxzzI/AAAAAAAAB_I/p8quYEoje9M/s200/Pharaoh%2BSanders.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+07. Pharaoh Sanders - Country Mile<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-HR0AttOKgtk/VrFC8CufjzI/AAAAAAAAB_Q/Kqr56pzDVp8/s1600/Tom%2BWaits%2B-%2BThe%2BHeart%2BOf%2BSaturday%2BNight.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://2.bp.blogspot.com/-HR0AttOKgtk/VrFC8CufjzI/AAAAAAAAB_Q/Kqr56pzDVp8/s200/Tom%2BWaits%2B-%2BThe%2BHeart%2BOf%2BSaturday%2BNight.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+<br />
+08. Tom Waits - Diamonds On My Windshield<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-927Z81PVq7E/VrFDOZe52_I/AAAAAAAAB_U/EaLKEg6_KIU/s1600/Nine%2BInch%2BNails%2B-%2BThe%2BDownward%2BSpiral.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-927Z81PVq7E/VrFDOZe52_I/AAAAAAAAB_U/EaLKEg6_KIU/s200/Nine%2BInch%2BNails%2B-%2BThe%2BDownward%2BSpiral.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+09. Nine Inch Nails - Dead Souls<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-WoPelbmBLHg/VrFDkxoSKoI/AAAAAAAAB_Y/Fn_dtTxqY6Y/s1600/Ghostface%2B-%2BIronman.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-WoPelbmBLHg/VrFDkxoSKoI/AAAAAAAAB_Y/Fn_dtTxqY6Y/s200/Ghostface%2B-%2BIronman.png" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+10. Ghostface Killah - Black Jesus<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-ExoaX3f_9-4/VrFDyEerjgI/AAAAAAAAB_c/y4SB4AhNC9k/s1600/Ween%2B-%2BPure%2BGuava.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="198" src="https://2.bp.blogspot.com/-ExoaX3f_9-4/VrFDyEerjgI/AAAAAAAAB_c/y4SB4AhNC9k/s200/Ween%2B-%2BPure%2BGuava.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+11. Ween - Push Th' Little Daisies<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-feW2653Pp9w/VrFEkexUQLI/AAAAAAAAB_k/yUgoOgRut6M/s1600/Rahsaan%2B-%2BFleur.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="198" src="https://2.bp.blogspot.com/-feW2653Pp9w/VrFEkexUQLI/AAAAAAAAB_k/yUgoOgRut6M/s200/Rahsaan%2B-%2BFleur.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+12. Rahsaan Roland Kirk - Petite Fleur (Little Flower)<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-qPicGPKxy4Y/VrFEynWL8qI/AAAAAAAAB_o/gSGscZLym2M/s1600/A%2BTribe%2BCalled%2BQuest%2B-%2BMidnight%2BMarauders.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-qPicGPKxy4Y/VrFEynWL8qI/AAAAAAAAB_o/gSGscZLym2M/s200/A%2BTribe%2BCalled%2BQuest%2B-%2BMidnight%2BMarauders.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+13. A Tribe Called Quest - Oh My God<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-MgPmxOGwPa4/VrFFeIK-nqI/AAAAAAAAB_w/Y5b27ck-C80/s1600/Sonic%2BYouth%2B-%2BDirty.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-MgPmxOGwPa4/VrFFeIK-nqI/AAAAAAAAB_w/Y5b27ck-C80/s200/Sonic%2BYouth%2B-%2BDirty.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+14. Sonic Youth - Swimsuit Issue<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-DdOYI7AtFUM/VrFGEvtDWdI/AAAAAAAAB_4/crcumq1_HsU/s1600/Beck%2B-%2BMellow%2BGOld.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://3.bp.blogspot.com/-DdOYI7AtFUM/VrFGEvtDWdI/AAAAAAAAB_4/crcumq1_HsU/s200/Beck%2B-%2BMellow%2BGOld.jpg" width="200" /></a></div>
+<br />
+<br />
+<br />
+<br />
+15. Beck - Truckdrivin' Neighbors Downstairs (Yellow Sweat)<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-ESQ91g8GdKw/VrFGWLEJ2mI/AAAAAAAACAA/q0RAjV49uYs/s1600/Outkast%2B-%2BThe%2BLove%2BBelow.gif" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="171" src="https://1.bp.blogspot.com/-ESQ91g8GdKw/VrFGWLEJ2mI/AAAAAAAACAA/q0RAjV49uYs/s200/Outkast%2B-%2BThe%2BLove%2BBelow.gif" width="200" /></a></div>
+<br />
+<br />
+<br />
+16. Outkast (w/Norah Jones) - Take Off Your Cool<br />
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+There you have it! Stay warm, everybody.
+</div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s1600/TCDProfile.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-61ABPamRXyw/UkSC-V2nR-I/AAAAAAAAGNY/1pYE5_ve8m8/s200/TCDProfile.jpg" width="150" /></a></div>
+<br />
+<br />
+<i>For more TCDroogsma be sure to give him a follow on Twitter (<a href="http://www.twitter.com/tcdroogsma" target="_blank">@TCDroogsma</a>).&nbsp; Previous episodes of Flatbasset Radio are
+ archived on his <a href="http://www.mixcloud.com/tcdroogsma" target="_blank">Mixcloud page</a>.&nbsp; Stop by <a href="http://www.facebook.com/flatbassetpodcast" target="_blank">Flatbasset Radio's Facebook Page</a> &amp; give it a "Like" if you have the time.</i>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/08534360388607517596' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/08534360388607517596' rel='author' title='author profile'>
+<span itemprop='name'>TCDroogsma</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://flatbasset.blogspot.com/2016/02/flatbasset-radio-episode-73-young.html' itemprop='url'/>
+<a class='timestamp-link' href='http://flatbasset.blogspot.com/2016/02/flatbasset-radio-episode-73-young.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-02-02T19:17:00-05:00'>7:17 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://flatbasset.blogspot.com/2016/02/flatbasset-radio-episode-73-young.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1242354266'>
+<a href='https://www.blogger.com/post-edit.g?blogID=4928159526517986824&postID=8011454627384625216&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://flatbasset.blogspot.com/search/label/a%20tribe%20called%20quest' rel='tag'>a tribe called quest</a>,
+<a href='http://flatbasset.blogspot.com/search/label/beastie%20boys' rel='tag'>beastie boys</a>,
+<a href='http://flatbasset.blogspot.com/search/label/beck' rel='tag'>beck</a>,
+<a href='http://flatbasset.blogspot.com/search/label/gorillaz' rel='tag'>gorillaz</a>,
+<a href='http://flatbasset.blogspot.com/search/label/jimi%20hendrix' rel='tag'>jimi hendrix</a>,
+<a href='http://flatbasset.blogspot.com/search/label/nine%20inch%20nails' rel='tag'>nine inch nails</a>,
+<a href='http://flatbasset.blogspot.com/search/label/outkast' rel='tag'>outkast</a>,
+<a href='http://flatbasset.blogspot.com/search/label/pharaoh%20sanders' rel='tag'>pharaoh sanders</a>,
+<a href='http://flatbasset.blogspot.com/search/label/rahsaan%20roland%20kirk' rel='tag'>rahsaan roland kirk</a>,
+<a href='http://flatbasset.blogspot.com/search/label/rza' rel='tag'>rza</a>,
+<a href='http://flatbasset.blogspot.com/search/label/sonic%20youth' rel='tag'>sonic youth</a>,
+<a href='http://flatbasset.blogspot.com/search/label/statler%20brothers' rel='tag'>statler brothers</a>,
+<a href='http://flatbasset.blogspot.com/search/label/the%20centurions' rel='tag'>the centurions</a>,
+<a href='http://flatbasset.blogspot.com/search/label/tom%20waits' rel='tag'>tom waits</a>,
+<a href='http://flatbasset.blogspot.com/search/label/Twin%20Cities' rel='tag'>Twin Cities</a>,
+<a href='http://flatbasset.blogspot.com/search/label/ween' rel='tag'>ween</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://flatbasset.blogspot.com/search?updated-max=2016-02-02T19:17:00-05:00&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://flatbasset.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://flatbasset.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div></div>
+<div id='footer-wrapper'>
+<div class='footer section' id='footer'></div>
+</div>
+</div></div>
+<div id='main-bot'></div>
+<!-- placeholder for image -->
+</div>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/1976504288-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '4928159526517986824';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4928159526517986824','//flatbasset.blogspot.com/','4928159526517986824');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '4928159526517986824', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Flatbasset', 'pageType': 'index', 'url': 'http://flatbasset.blogspot.com/', 'canonicalUrl': 'http://flatbasset.blogspot.com/', 'homepageUrl': 'http://flatbasset.blogspot.com/', 'canonicalHomepageUrl': 'http://flatbasset.blogspot.com/', 'blogspotFaviconUrl': 'http://flatbasset.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'Flatbasset', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Flatbasset - Atom\42 href\75\42http://flatbasset.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Flatbasset - RSS\42 href\75\42http://flatbasset.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Flatbasset - Atom\42 href\75\42https://www.blogger.com/feeds/4928159526517986824/posts/default\42 /\76\n', 'meTag': '\74link rel\75\42me\42 href\75\42https://www.blogger.com/profile/08534360388607517596\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://flatbasset.blogspot.com/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/71225c15c406a841', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'features', 'data': {}}, {'name': 'messages', 'data': {'adsGoHere': 'Ads go here', 'archive': 'Archive', 'authorSaid': '%1 said...', 'authorSaidWithLink': '\74a href\75\42%2\42 rel\75\42nofollow\42\76%1\74/a\76 said...', 'blogArchive': 'Blog Archive', 'by': 'By', 'byAuthor': 'By %1', 'byAuthorLink': 'By \74a href\75\42%2\42\76%1\74/a\076', 'deleteBacklink': 'Delete Backlink', 'deleteComment': 'Delete Comment', 'edit': 'Edit', 'emailAddress': 'Email Address', 'getEmailNotifications': 'Get email notifications', 'keepReading': 'Keep reading', 'labels': 'Labels', 'loadMorePosts': 'Load more posts', 'loading': 'Loading...', 'myBlogList': 'My Blog List', 'myFavoriteSites': 'My favorite sites', 'newer': 'Newer', 'newerPosts': 'Newer Posts', 'newest': 'Newest', 'noResultsFound': 'No results found', 'noTitle': 'No title', 'numberOfComments': '{numComments, plural, \0750 {No comments} \0751 {1 comment} other {# comments}}', 'older': 'Older', 'olderPosts': 'Older Posts', 'oldest': 'Oldest', 'onlyTeamMembersCanComment': 'Note: Only a member of this blog may post a comment.', 'popularPosts': 'Popular Posts', 'popularPostsFromThisBlog': 'Popular posts from this blog', 'postAComment': 'Post a Comment', 'postedBy': 'Posted by', 'postedByAuthor': 'Posted by %1', 'postedByAuthorLink': 'Posted by \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Read more', 'reportAbuse': 'Report Abuse', 'search': 'Search', 'searchBlog': 'Search blog', 'share': 'Share', 'showAll': 'Show all', 'showLess': 'Show less', 'showMore': 'Show more', 'someOfMyFavoriteSites': 'Some of my favorite sites', 'subscribe': 'Subscribe', 'subscribeTo': 'Subscribe to:', 'subscribeToThisBlog': 'Subscribe to this blog', 'theresNothingHere': 'There\47s nothing here!', 'viewAll': 'View all', 'visitProfile': 'Visit profile', 'widgetNotAvailableInPreview': 'This content is not available in blog preview.', 'widgetNotAvailableOnHttps': 'This content is not yet available over encrypted connections.'}}, {'name': 'skin', 'data': {'vars': {'pageHeaderColor': '#612e00', 'sidebarHeaderColor': '#211104', 'endSide': 'right', 'blogDescriptionFont': 'italic normal 100% Georgia, Times New Roman, sans-serif', 'headerFont': 'normal normal 150% Georgia, Times New Roman,sans-serif', 'pageTitleFont': 'normal normal 225% Georgia, Times New Roman,sans-serif', 'visitedLinkColor': '#956839', 'bodyFont': 'normal normal 100% Georgia, Times New Roman,Sans-Serif;', 'blogDescriptionColor': '#29303B', 'linkColor': '#473624', 'startSide': 'left', 'textColor': '#29303b', 'postTitleColor': '#1b0431'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile2', 'sidebar', null, document.getElementById('Profile2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive2', 'sidebar', null, document.getElementById('BlogArchive2'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers2', 'sidebar', null, document.getElementById('Followers2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/503936933-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/306752634-lightbox_bundle.css'}, 'displayModeFull'));
+</script>
+</body>
+</html>

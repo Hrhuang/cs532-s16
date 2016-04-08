@@ -1,0 +1,2933 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr'>
+<head>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://theindiefriend.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://theindiefriend.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title=" theindiefriend - Atom" href="http://theindiefriend.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title=" theindiefriend - RSS" href="http://theindiefriend.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title=" theindiefriend - Atom" href="https://www.blogger.com/feeds/6645541087295996062/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/09501735738550150725" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://theindiefriend.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3512845138-ieretrofit.js"></script>
+<![endif]-->
+<meta content='http://theindiefriend.blogspot.com/' property='og:url'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title> theindiefriend</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/3375562265-css_bundle_v2.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=6645541087295996062&zx=34740f70-98d4-49e6-925b-0eb41691146b' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Josh Peterson
+URL:      www.noaesthetic.com
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#66bbdd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#66bbdd"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="#ffffff"/>
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#2288bb"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#888888"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#3399bb" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#777777" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#999999"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#000000"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="#f5f5f5"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title, .comments h4">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+</Group>
+<Group description="Date Header" selector=".date-header">
+<Variable name="date.header.color" description="Text Color" type="color"
+default="#666666"/>
+<Variable name="date.header.background.color" description="Background Color" type="color"
+default="transparent"/>
+</Group>
+<Group description="Post Footer" selector=".post-footer">
+<Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666"/>
+<Variable name="post.footer.background.color" description="Background Color" type="color"
+default="#f9f9f9"/>
+<Variable name="post.footer.border.color" description="Shadow Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Gadgets" selector="h2">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#999999"/>
+</Group>
+<Group description="Images" selector=".main-inner">
+<Variable name="image.background.color" description="Background Color" type="color" default="#ffffff"/>
+<Variable name="image.border.color" description="Border Color" type="color" default="#eeeeee"/>
+<Variable name="image.text.color" description="Caption Text Color" type="color" default="#666666"/>
+</Group>
+<Group description="Accents" selector=".content-inner">
+<Variable name="body.rule.color" description="Separator Line Color" type="color" default="#eeeeee"/>
+<Variable name="tabs.border.color" description="Tabs Border Color" type="color" default="transparent"/>
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#ffffff" default="$(color) none repeat scroll top left"/>
+<Variable name="body.background.override" description="Body Background Override" type="string" default=""/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="body.background.gradient.tile" description="Body Gradient Tile" type="url"
+default="url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png)"/>
+<Variable name="content.background.color.selector" description="Content Background Color Selector" type="string" default=".content-inner"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="10px"/>
+<Variable name="content.padding.horizontal" description="Content Horizontal Padding" type="length" default="10px"/>
+<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="40px"/>
+<Variable name="content.shadow.spread.webkit" description="Content Shadow Spread (WebKit)" type="length" default="5px"/>
+<Variable name="content.shadow.spread.ie" description="Content Shadow Spread (IE)" type="length" default="10px"/>
+<Variable name="main.border.width" description="Main Border Width" type="length" default="0"/>
+<Variable name="header.background.gradient" description="Header Gradient" type="url" default="none"/>
+<Variable name="header.shadow.offset.left" description="Header Shadow Offset Left" type="length" default="-1px"/>
+<Variable name="header.shadow.offset.top" description="Header Shadow Offset Top" type="length" default="-1px"/>
+<Variable name="header.shadow.spread" description="Header Shadow Spread" type="length" default="1px"/>
+<Variable name="header.padding" description="Header Padding" type="length" default="30px"/>
+<Variable name="header.border.size" description="Header Border Size" type="length" default="1px"/>
+<Variable name="header.bottom.border.size" description="Header Bottom Border Size" type="length" default="1px"/>
+<Variable name="header.border.horizontalsize" description="Header Horizontal Border Size" type="length" default="0"/>
+<Variable name="description.text.size" description="Description Text Size" type="string" default="140%"/>
+<Variable name="tabs.margin.top" description="Tabs Margin Top" type="length" default="0" />
+<Variable name="tabs.margin.side" description="Tabs Side Margin" type="length" default="30px" />
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="tabs.border.width" description="Tabs Border Width" type="length" default="1px"/>
+<Variable name="tabs.bevel.border.width" description="Tabs Bevel Border Width" type="length" default="1px"/>
+<Variable name="date.header.padding" description="Date Header Padding" type="string" default="inherit"/>
+<Variable name="date.header.letterspacing" description="Date Header Letter Spacing" type="string" default="inherit"/>
+<Variable name="date.header.margin" description="Date Header Margin" type="string" default="inherit"/>
+<Variable name="post.margin.bottom" description="Post Bottom Margin" type="length" default="25px"/>
+<Variable name="image.border.small.size" description="Image Border Small Size" type="length" default="2px"/>
+<Variable name="image.border.large.size" description="Image Border Large Size" type="length" default="5px"/>
+<Variable name="page.width.selector" description="Page Width Selector" type="string" default=".region-inner"/>
+<Variable name="page.width" description="Page Width" type="string" default="auto"/>
+<Variable name="main.section.margin" description="Main Section Margin" type="length" default="15px"/>
+<Variable name="main.padding" description="Main Padding" type="length" default="15px"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length" default="30px"/>
+<Variable name="main.padding.bottom" description="Main Padding Bottom" type="length" default="30px"/>
+<Variable name="paging.background"
+color="#ffffff"
+description="Background of blog paging area" type="background"
+default="transparent none no-repeat scroll top center"/>
+<Variable name="footer.bevel" description="Bevel border length of footer" type="length" default="0"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.background.size" description="Mobile Background Size" type="string" default="auto"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body, .body-fauxcolumn-outer {
+font: normal normal 12px 'Times New Roman', Times, FreeSerif, serif;
+color: #666666;
+background: #ffffff none repeat scroll top left;
+padding: 0 0 0 0;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+a:link {
+text-decoration:none;
+color: #666666;
+}
+a:visited {
+text-decoration:none;
+color: #888888;
+}
+a:hover {
+text-decoration:underline;
+color: #ead1dc;
+}
+.body-fauxcolumn-outer .fauxcolumn-inner {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 400px;
+width: 100%;
+background: #ffffff none repeat scroll top left;
+}
+.body-fauxcolumn-outer .cap-top .cap-left {
+width: 100%;
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+}
+.content-outer {
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 0 #333333;
+box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+margin-bottom: 1px;
+}
+.content-inner {
+padding: 10px 40px;
+}
+.content-inner {
+background-color: #ffffff;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+background: transparent none repeat-x scroll 0 -400px;
+_background-image: none;
+}
+.Header h1 {
+font: normal normal 36px 'Courier New', Courier, FreeMono, monospace;
+color: #ffffff;
+text-shadow: 0 0 0 rgba(0, 0, 0, .2);
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 18px;
+color: #000000;
+}
+.header-inner .Header .titlewrapper {
+padding: 22px 0;
+}
+.header-inner .Header .descriptionwrapper {
+padding: 0 0;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section:first-child {
+border-top: 0 solid #dddddd;
+}
+.tabs-inner .section:first-child ul {
+margin-top: -1px;
+border-top: 1px solid #dddddd;
+border-left: 1px solid #dddddd;
+border-right: 1px solid #dddddd;
+}
+.tabs-inner .widget ul {
+background: transparent none repeat-x scroll 0 -800px;
+_background-image: none;
+border-bottom: 1px solid #dddddd;
+margin-top: 0;
+margin-left: -30px;
+margin-right: -30px;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .6em 1em;
+font: normal normal 12px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+color: #000000;
+border-left: 1px solid #ffffff;
+border-right: 1px solid #dddddd;
+}
+.tabs-inner .widget li:first-child a {
+border-left: none;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #000000;
+background-color: #eeeeee;
+text-decoration: none;
+}
+/* Columns
+----------------------------------------------- */
+.main-outer {
+border-top: 0 solid transparent;
+}
+.fauxcolumn-left-outer .fauxcolumn-inner {
+border-right: 1px solid transparent;
+}
+.fauxcolumn-right-outer .fauxcolumn-inner {
+border-left: 1px solid transparent;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+margin: 0 0 1em 0;
+font: normal normal 12px 'Times New Roman', Times, FreeSerif, serif;
+color: #666666;
+text-transform: uppercase;
+}
+/* Widgets
+----------------------------------------------- */
+.widget .zippy {
+color: #999999;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+.widget .popular-posts ul {
+list-style: none;
+}
+/* Posts
+----------------------------------------------- */
+.date-header span {
+background-color: #ffffff;
+color: #999999;
+padding: 0.4em;
+letter-spacing: 3px;
+margin: inherit;
+}
+.main-inner {
+padding-top: 35px;
+padding-bottom: 65px;
+}
+.main-inner .column-center-inner {
+padding: 0 0;
+}
+.main-inner .column-center-inner .section {
+margin: 0 1em;
+}
+.post {
+margin: 0 0 45px 0;
+}
+h3.post-title, .comments h4 {
+font: italic normal 26px 'Times New Roman', Times, FreeSerif, serif;
+margin: .75em 0 0;
+}
+.post-body {
+font-size: 110%;
+line-height: 1.4;
+position: relative;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+padding: 2px;
+background: #ffffff;
+border: 1px solid #eeeeee;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
+.post-body img, .post-body .tr-caption-container {
+padding: 5px;
+}
+.post-body .tr-caption-container {
+color: #666666;
+}
+.post-body .tr-caption-container img {
+padding: 0;
+background: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+.post-header {
+margin: 0 0 1.5em;
+line-height: 1.6;
+font-size: 90%;
+}
+.post-footer {
+margin: 20px -2px 0;
+padding: 5px 10px;
+color: #666666;
+background-color: #f3f3f3;
+border-bottom: 1px solid #eeeeee;
+line-height: 1.6;
+font-size: 90%;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: 1px solid transparent;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+#comments .avatar-image-container img {
+border: 1px solid #eeeeee;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+}
+.comments .comment-thread.inline-thread {
+background-color: #f3f3f3;
+}
+.comments .continue {
+border-top: 2px solid #999999;
+}
+/* Accents
+---------------------------------------------- */
+.section-columns td.columns-cell {
+border-left: 1px solid transparent;
+}
+.blog-pager {
+background: transparent url(//www.blogblog.com/1kt/simple/paging_dot.png) repeat-x scroll top center;
+}
+.blog-pager-older-link, .home-link,
+.blog-pager-newer-link {
+background-color: #ffffff;
+padding: 5px;
+}
+.footer-outer {
+border-top: 1px dashed #bbbbbb;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .body-fauxcolumn-outer .cap-top {
+background-size: 100% auto;
+}
+.mobile .content-outer {
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+padding: 0 0;
+}
+body.mobile .AdSense {
+margin: 0 -0;
+}
+.mobile .tabs-inner .widget ul {
+margin-left: 0;
+margin-right: 0;
+}
+.mobile .post {
+margin: 0;
+}
+.mobile .main-inner .column-center-inner .section {
+margin: 0;
+}
+.mobile .date-header span {
+padding: 0.1em 10px;
+margin: 0 -10px;
+}
+.mobile h3.post-title {
+margin: 0;
+}
+.mobile .blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.mobile .footer-outer {
+border-top: none;
+}
+.mobile .main-inner, .mobile .footer-inner {
+background-color: #ffffff;
+}
+.mobile-index-contents {
+color: #666666;
+}
+.mobile-link-button {
+background-color: #666666;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile .tabs-inner .section:first-child {
+border-top: none;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background-color: #eeeeee;
+color: #000000;
+border-top: 1px solid #dddddd;
+border-bottom: 1px solid #dddddd;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #dddddd;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1140px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1140px;
+max-width: 1140px;
+_width: 1140px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 220px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 220px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("220px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 220px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 220px;
+margin-right: -220px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+body#layout div.add_widget {
+padding: 8px;
+}
+body#layout div.add_widget a {
+margin-left: 32px;
+}
+--></style>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading'>
+<div class='navbar section' id='navbar' name='Navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\0756645541087295996062\46blogName\75+theindiefriend\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://theindiefriend.blogspot.com/search\46blogLocale\75it\46v\0752\46homepageUrl\75http://theindiefriend.blogspot.com/\46vt\075604802337492970158',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content=' theindiefriend' itemprop='name'/>
+</div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header' name='Header'><div class='widget Header' data-version='1' id='Header1'>
+<div id='header-inner'>
+<a href='http://theindiefriend.blogspot.com/' style='display: block'>
+<img alt=' theindiefriend' height='150px; ' id='Header1_headerimg' src='http://2.bp.blogspot.com/-J7ZxP6CLEEM/UmLFBFchIkI/AAAAAAAABQ0/qcGSDNwy-f8/s1600/Header-03.png' style='display: block' width='1140px; '/>
+</a>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol' name='Cross-Column'><div class='widget PageList' data-version='1' id='PageList1'>
+<h2>Pagine</h2>
+<div class='widget-content'>
+<ul>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6645541087295996062&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=crosscol' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList1"));' target='configPageList1' title='Modifica'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<div class='tabs section' id='crosscol-overflow' name='Cross-Column 2'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main' name='Main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>31 marzo 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://3.bp.blogspot.com/-48A_W_Ed4MY/Vv0_8PMAK1I/AAAAAAAACtg/2vq7k0hRaU82s8Tv5edkil7cQUyVwpJcw/s640/P1190169.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='7340802189919886772' itemprop='postId'/>
+<a name='7340802189919886772'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2016/03/swimming-london.html'>London through the glass</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-7340802189919886772' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-48A_W_Ed4MY/Vv0_8PMAK1I/AAAAAAAACtg/2vq7k0hRaU82s8Tv5edkil7cQUyVwpJcw/s1600/P1190169.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://3.bp.blogspot.com/-48A_W_Ed4MY/Vv0_8PMAK1I/AAAAAAAACtg/2vq7k0hRaU82s8Tv5edkil7cQUyVwpJcw/s640/P1190169.jpg" width="456" /></a><a href="https://2.bp.blogspot.com/-eF9V_yNWys8/Vv0_9U6WbpI/AAAAAAAACtk/sBhvPXzkg-M8Jge9npZNisu5QnXogSi6g/s1600/P1190156.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="https://2.bp.blogspot.com/-eF9V_yNWys8/Vv0_9U6WbpI/AAAAAAAACtk/sBhvPXzkg-M8Jge9npZNisu5QnXogSi6g/s640/P1190156.jpg" width="640" /></a><a href="https://1.bp.blogspot.com/-CApTnQFQKIw/Vv0_74L57lI/AAAAAAAACtc/bP-xMLuBIJ4ZSWoxquyrc_c3GF6PqyR8Q/s1600/P1190153.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="https://1.bp.blogspot.com/-CApTnQFQKIw/Vv0_74L57lI/AAAAAAAACtc/bP-xMLuBIJ4ZSWoxquyrc_c3GF6PqyR8Q/s640/P1190153.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+Wandering around London on a sunny Easter morning...</div>
+<div class="separator" style="clear: both; text-align: center;">
+Inspired by&nbsp;<a href="https://youtu.be/3qK82JvRY5s" target="_blank">Velvet Underground - Sunday Morning</a></div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2016/03/swimming-london.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=7340802189919886772&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=7340802189919886772&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=7340802189919886772&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=7340802189919886772&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=7340802189919886772&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2016/03/swimming-london.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Reflections' rel='tag'>Reflections</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Urban' rel='tag'>Urban</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Wicked' rel='tag'>Wicked</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>8 marzo 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-JbHQ_ji7onY/Vt6ssWSOBfI/AAAAAAAACsM/gjAvFXzJoxc/s640/IMG_7913.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='4093810652460738840' itemprop='postId'/>
+<a name='4093810652460738840'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2016/03/blue-rondo-la-turk.html'>Blue rondo à la Turk</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4093810652460738840' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-JbHQ_ji7onY/Vt6ssWSOBfI/AAAAAAAACsM/gjAvFXzJoxc/s1600/IMG_7913.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://4.bp.blogspot.com/-JbHQ_ji7onY/Vt6ssWSOBfI/AAAAAAAACsM/gjAvFXzJoxc/s640/IMG_7913.jpg" width="426" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+"This rhythm is to us what the blues is to you"</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://youtu.be/KAlVasHbipo" target="_blank">Dave Brubeck - Blue rondo à la Turk, 1959</a></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2016/03/blue-rondo-la-turk.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=4093810652460738840&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=4093810652460738840&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=4093810652460738840&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=4093810652460738840&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=4093810652460738840&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2016/03/blue-rondo-la-turk.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Green' rel='tag'>Green</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Music' rel='tag'>Music</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>23 febbraio 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://3.bp.blogspot.com/-108O7aKoa3w/VszBu15by5I/AAAAAAAACrU/CEDsyxk0a2I/s640/IMG_8591.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='617746949896906393' itemprop='postId'/>
+<a name='617746949896906393'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2016/02/florence-in-paris.html'>Florence in Paris</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-617746949896906393' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-108O7aKoa3w/VszBu15by5I/AAAAAAAACrU/CEDsyxk0a2I/s1600/IMG_8591.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="640" src="https://3.bp.blogspot.com/-108O7aKoa3w/VszBu15by5I/AAAAAAAACrU/CEDsyxk0a2I/s640/IMG_8591.jpg" width="429" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="640" src="https://2.bp.blogspot.com/-u3tzVYbBLwA/VszBx0A5lHI/AAAAAAAACrc/GruFa396v6U/s640/IMG_8598.jpg" width="426" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+Florence and the Machine performing in Paris, last december&nbsp;</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://youtu.be/zZr5Tid3Qw4" target="_blank">Click here for Delilah</a></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2016/02/florence-in-paris.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=617746949896906393&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=617746949896906393&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=617746949896906393&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=617746949896906393&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=617746949896906393&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2016/02/florence-in-paris.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Music' rel='tag'>Music</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Wicked' rel='tag'>Wicked</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>9 febbraio 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-EEOhwF04yN0/VrooFzB47UI/AAAAAAAACqY/27sBpej3wyA/s640/IMG_1178.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='8357647885323224029' itemprop='postId'/>
+<a name='8357647885323224029'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2016/02/amazing-nature.html'>Amazing nature</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8357647885323224029' itemprop='description articleBody'>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-EEOhwF04yN0/VrooFzB47UI/AAAAAAAACqY/27sBpej3wyA/s1600/IMG_1178.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://4.bp.blogspot.com/-EEOhwF04yN0/VrooFzB47UI/AAAAAAAACqY/27sBpej3wyA/s640/IMG_1178.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-E3bmlRdHthI/VrooCzH-F0I/AAAAAAAACqU/0hgrCStgX6Y/s1600/IMG_1198.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://1.bp.blogspot.com/-E3bmlRdHthI/VrooCzH-F0I/AAAAAAAACqU/0hgrCStgX6Y/s640/IMG_1198.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Amazing nature with fantastic colors</div>
+<div style="text-align: center;">
+<a href="http://www.muse.it/it/Pagine/default.aspx" target="_blank">MuSe</a>&nbsp;Trento, Italy</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2016/02/amazing-nature.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8357647885323224029&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8357647885323224029&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8357647885323224029&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8357647885323224029&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8357647885323224029&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2016/02/amazing-nature.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Nature' rel='tag'>Nature</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>5 febbraio 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-QmUQS0M_LxM/VrTKMQbh0BI/AAAAAAAACpw/Vwi_5-i4P3I/s640/IMG_8766.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='378067558268419684' itemprop='postId'/>
+<a name='378067558268419684'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2016/02/couples.html'>Couples</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-378067558268419684' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-QmUQS0M_LxM/VrTKMQbh0BI/AAAAAAAACpw/Vwi_5-i4P3I/s1600/IMG_8766.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://4.bp.blogspot.com/-QmUQS0M_LxM/VrTKMQbh0BI/AAAAAAAACpw/Vwi_5-i4P3I/s640/IMG_8766.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://2.bp.blogspot.com/-0q3nw7Aqn_s/VrTKMK2Aq-I/AAAAAAAACps/BjGZmK4ldtc/s1600/IMG_8765.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="https://2.bp.blogspot.com/-0q3nw7Aqn_s/VrTKMK2Aq-I/AAAAAAAACps/BjGZmK4ldtc/s640/IMG_8765.jpg" width="640" /></a></div>
+<br />
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2016/02/couples.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=378067558268419684&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=378067558268419684&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=378067558268419684&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=378067558268419684&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=378067558268419684&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2016/02/couples.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Art' rel='tag'>Art</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>28 gennaio 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://4.bp.blogspot.com/-5uu5iUk5P8E/Vqozqg7Po1I/AAAAAAAACpE/FtcvR1VNOBE/s640/Un%2Bmacaron%2Bs%2527il%2Bvous%2Bplait.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='2940532723910713096' itemprop='postId'/>
+<a name='2940532723910713096'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2016/01/un-macaron-sil-vous-plait.html'>Un macaron s'il vous plait</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-2940532723910713096' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-5uu5iUk5P8E/Vqozqg7Po1I/AAAAAAAACpE/FtcvR1VNOBE/s1600/Un%2Bmacaron%2Bs%2527il%2Bvous%2Bplait.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="420" src="http://4.bp.blogspot.com/-5uu5iUk5P8E/Vqozqg7Po1I/AAAAAAAACpE/FtcvR1VNOBE/s640/Un%2Bmacaron%2Bs%2527il%2Bvous%2Bplait.jpg" width="640" /></a></div>
+<div style="text-align: center;">
+A Macarons boutique in the Marais, Paris</div>
+<div style="text-align: center;">
+<br /></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2016/01/un-macaron-sil-vous-plait.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2940532723910713096&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2940532723910713096&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2940532723910713096&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2940532723910713096&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2940532723910713096&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2016/01/un-macaron-sil-vous-plait.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Urban' rel='tag'>Urban</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>21 gennaio 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://4.bp.blogspot.com/-5VUMAt7ZJGU/VqEY-JQTbHI/AAAAAAAACow/6qkiAH24zQI/s640/IMG_8223%2BRESIZE%2B2.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='6001891841159795084' itemprop='postId'/>
+<a name='6001891841159795084'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2016/01/le-drapeau.html'>Le Drapeau</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6001891841159795084' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-5VUMAt7ZJGU/VqEY-JQTbHI/AAAAAAAACow/6qkiAH24zQI/s1600/IMG_8223%2BRESIZE%2B2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://4.bp.blogspot.com/-5VUMAt7ZJGU/VqEY-JQTbHI/AAAAAAAACow/6qkiAH24zQI/s640/IMG_8223%2BRESIZE%2B2.jpg" width="640" /></a></div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2016/01/le-drapeau.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6001891841159795084&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6001891841159795084&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6001891841159795084&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6001891841159795084&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6001891841159795084&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2016/01/le-drapeau.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Reflections' rel='tag'>Reflections</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Urban' rel='tag'>Urban</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>14 gennaio 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://1.bp.blogspot.com/-1tOdLkypnj0/VpeM2Ac6UmI/AAAAAAAACoE/oEO2o_gie-Y/s640/IMG_8638%2BRESIZE.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='2609147833673940220' itemprop='postId'/>
+<a name='2609147833673940220'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2016/01/people-reflections-and-marini.html'>People, reflections and Martini</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-2609147833673940220' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-1tOdLkypnj0/VpeM2Ac6UmI/AAAAAAAACoE/oEO2o_gie-Y/s1600/IMG_8638%2BRESIZE.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://1.bp.blogspot.com/-1tOdLkypnj0/VpeM2Ac6UmI/AAAAAAAACoE/oEO2o_gie-Y/s640/IMG_8638%2BRESIZE.jpg" width="640" /></a></div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2016/01/people-reflections-and-marini.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2609147833673940220&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2609147833673940220&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2609147833673940220&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2609147833673940220&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2609147833673940220&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2016/01/people-reflections-and-marini.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Reflections' rel='tag'>Reflections</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Urban' rel='tag'>Urban</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>30 dicembre 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://2.bp.blogspot.com/-wDgsns-XfXY/VoO5XU5BJuI/AAAAAAAACnc/z4cCI5TJbBk/s640/IMG_8632.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='6307832599080606849' itemprop='postId'/>
+<a name='6307832599080606849'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/12/happy-new-year.html'>Happy New Year!</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6307832599080606849' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-wDgsns-XfXY/VoO5XU5BJuI/AAAAAAAACnc/z4cCI5TJbBk/s1600/IMG_8632.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="640" src="http://2.bp.blogspot.com/-wDgsns-XfXY/VoO5XU5BJuI/AAAAAAAACnc/z4cCI5TJbBk/s640/IMG_8632.jpg" width="422" /></a></div>
+<br />
+<div style="text-align: center;">
+Happy New Year! (Sparkling, ça va sans dire)</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/12/happy-new-year.html#comment-form' onclick=''>
+1 commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6307832599080606849&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6307832599080606849&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6307832599080606849&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6307832599080606849&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6307832599080606849&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/12/happy-new-year.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Reflections' rel='tag'>Reflections</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Urban' rel='tag'>Urban</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>11 dicembre 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://3.bp.blogspot.com/-c32KvV1vFVc/Vmr18r5E06I/AAAAAAAAClE/GTiCerQ47ME/s400/Biennale%2B01.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='4876727213386646880' itemprop='postId'/>
+<a name='4876727213386646880'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/12/dried-flowers-and-ornamental-plants.html'>Dried flowers and ornamental plants</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4876727213386646880' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-c32KvV1vFVc/Vmr18r5E06I/AAAAAAAAClE/GTiCerQ47ME/s1600/Biennale%2B01.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://3.bp.blogspot.com/-c32KvV1vFVc/Vmr18r5E06I/AAAAAAAAClE/GTiCerQ47ME/s400/Biennale%2B01.jpg" width="266" /></a><a href="http://3.bp.blogspot.com/-NiUoKVGcotY/Vmr18neTVRI/AAAAAAAACk8/Sea-v7WrZxM/s1600/Biennale%2B02.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://3.bp.blogspot.com/-NiUoKVGcotY/Vmr18neTVRI/AAAAAAAACk8/Sea-v7WrZxM/s400/Biennale%2B02.jpg" width="266" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-3rOLQ2HkOfc/Vmr18mIaeWI/AAAAAAAAClA/0oDSpr6KiRY/s1600/Biennale%2B03.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://4.bp.blogspot.com/-3rOLQ2HkOfc/Vmr18mIaeWI/AAAAAAAAClA/0oDSpr6KiRY/s400/Biennale%2B03.jpg" width="266" /></a><a href="http://1.bp.blogspot.com/-ql4I9sHpuN4/Vmr2As_8yPI/AAAAAAAAClU/xpEj4mJmvC8/s1600/Biennale%2B04.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://1.bp.blogspot.com/-ql4I9sHpuN4/Vmr2As_8yPI/AAAAAAAAClU/xpEj4mJmvC8/s400/Biennale%2B04.jpg" width="266" /></a></div>
+<span id="goog_1566825024"></span><span id="goog_1566825025"></span><br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/12/dried-flowers-and-ornamental-plants.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=4876727213386646880&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=4876727213386646880&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=4876727213386646880&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=4876727213386646880&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=4876727213386646880&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/12/dried-flowers-and-ornamental-plants.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Art' rel='tag'>Art</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Green' rel='tag'>Green</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Wicked' rel='tag'>Wicked</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>26 novembre 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://3.bp.blogspot.com/-tSYrVUXCXDA/VldEQAc7ybI/AAAAAAAACjc/2WRhfGb42iU/s640/Biennale%2B05.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='6890021570922166073' itemprop='postId'/>
+<a name='6890021570922166073'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/11/ending-of-wonderland-in-search-of-new.html'>Ending of wonderland in search of new beginnings</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6890021570922166073' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-tSYrVUXCXDA/VldEQAc7ybI/AAAAAAAACjc/2WRhfGb42iU/s1600/Biennale%2B05.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://3.bp.blogspot.com/-tSYrVUXCXDA/VldEQAc7ybI/AAAAAAAACjc/2WRhfGb42iU/s640/Biennale%2B05.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-zK2s76NiwpA/VldES7v6YeI/AAAAAAAACjw/l2FeXNMS4gg/s1600/Biennale%2B08.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://3.bp.blogspot.com/-zK2s76NiwpA/VldES7v6YeI/AAAAAAAACjw/l2FeXNMS4gg/s400/Biennale%2B08.jpg" width="266" /></a><a href="http://1.bp.blogspot.com/-zWplkuqo5Lc/VldEP4oNk7I/AAAAAAAACjk/QZQhVBqPnCc/s1600/Biennale%2B06.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://1.bp.blogspot.com/-zWplkuqo5Lc/VldEP4oNk7I/AAAAAAAACjk/QZQhVBqPnCc/s400/Biennale%2B06.jpg" width="266" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-diGmOi16hmk/VldETOX6VnI/AAAAAAAACjs/hWrePWdkVM8/s1600/Biennale%2B07.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://3.bp.blogspot.com/-diGmOi16hmk/VldETOX6VnI/AAAAAAAACjs/hWrePWdkVM8/s640/Biennale%2B07.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+&nbsp;<a href="https://www.youtube.com/watch?v=8c_3Afx9ZGE" target="_blank">New Order - Restless</a></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/11/ending-of-wonderland-in-search-of-new.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6890021570922166073&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6890021570922166073&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6890021570922166073&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6890021570922166073&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6890021570922166073&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/11/ending-of-wonderland-in-search-of-new.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Art' rel='tag'>Art</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Wicked' rel='tag'>Wicked</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>5 novembre 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://3.bp.blogspot.com/-u_YyG9VdsWE/Vjuab4elmeI/AAAAAAAACis/E6wfcTV4JbE/s640/Biennale%2B10.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='121680520237361945' itemprop='postId'/>
+<a name='121680520237361945'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/11/the-pink-pool-and-broken-body.html'>The pink pool, two legs and the green tunnel</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-121680520237361945' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-u_YyG9VdsWE/Vjuab4elmeI/AAAAAAAACis/E6wfcTV4JbE/s1600/Biennale%2B10.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://3.bp.blogspot.com/-u_YyG9VdsWE/Vjuab4elmeI/AAAAAAAACis/E6wfcTV4JbE/s640/Biennale%2B10.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-MCYPA4d0XJ4/VjuaXQzTK4I/AAAAAAAACiY/H3KHh-akMSA/s1600/Biennale%2B09.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://1.bp.blogspot.com/-MCYPA4d0XJ4/VjuaXQzTK4I/AAAAAAAACiY/H3KHh-akMSA/s640/Biennale%2B09.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-btGGdV0gppw/Vjuacm8PaTI/AAAAAAAACio/fmkTEa5sQHM/s1600/Biennale%2B11.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://3.bp.blogspot.com/-btGGdV0gppw/Vjuacm8PaTI/AAAAAAAACio/fmkTEa5sQHM/s640/Biennale%2B11.jpg" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+Inspired by colors at <a href="http://www.labiennale.org/it/Home.html" target="_blank">Venice Biennale</a></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/11/the-pink-pool-and-broken-body.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=121680520237361945&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=121680520237361945&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=121680520237361945&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=121680520237361945&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=121680520237361945&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/11/the-pink-pool-and-broken-body.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Art' rel='tag'>Art</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Wicked' rel='tag'>Wicked</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>29 ottobre 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://2.bp.blogspot.com/-ZBiKN_AjjaU/VjIz5368klI/AAAAAAAACiE/vXCFQuK1i7I/s640/IMG_2452.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='1838876330037098553' itemprop='postId'/>
+<a name='1838876330037098553'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/10/expo-night-shift.html'>Expo night shift</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-1838876330037098553' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-ZBiKN_AjjaU/VjIz5368klI/AAAAAAAACiE/vXCFQuK1i7I/s1600/IMG_2452.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://2.bp.blogspot.com/-ZBiKN_AjjaU/VjIz5368klI/AAAAAAAACiE/vXCFQuK1i7I/s640/IMG_2452.jpg" width="426" /></a></div>
+<br />
+<div style="text-align: center;">
+Taken at Expo Milan</div>
+<div style="text-align: center;">
+<i>Late september 2015</i></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/10/expo-night-shift.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=1838876330037098553&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=1838876330037098553&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=1838876330037098553&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=1838876330037098553&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=1838876330037098553&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/10/expo-night-shift.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Architecture' rel='tag'>Architecture</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Urban' rel='tag'>Urban</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Wicked' rel='tag'>Wicked</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>15 ottobre 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://3.bp.blogspot.com/-SP1LkC4PmCQ/ViADvXffbOI/AAAAAAAACgg/EejBVm6kozg/s640/IMG_5047.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='8368136496605373899' itemprop='postId'/>
+<a name='8368136496605373899'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/10/red-floor-and-broken-dish.html'>Red floor and the broken dish</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8368136496605373899' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-SP1LkC4PmCQ/ViADvXffbOI/AAAAAAAACgg/EejBVm6kozg/s1600/IMG_5047.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://3.bp.blogspot.com/-SP1LkC4PmCQ/ViADvXffbOI/AAAAAAAACgg/EejBVm6kozg/s640/IMG_5047.jpg" width="426" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-RzW66n6k06w/ViAD5zDfHsI/AAAAAAAACgw/GLHWxbL_qHc/s1600/IMG_5051.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://2.bp.blogspot.com/-RzW66n6k06w/ViAD5zDfHsI/AAAAAAAACgw/GLHWxbL_qHc/s640/IMG_5051.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-WpUa6yzyphY/ViADwC0f81I/AAAAAAAACgk/8dQpjrqYUnA/s1600/IMG_5050.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="426" src="http://3.bp.blogspot.com/-WpUa6yzyphY/ViADwC0f81I/AAAAAAAACgk/8dQpjrqYUnA/s640/IMG_5050.jpg" width="640" /></a></div>
+<br />
+<div style="text-align: center;">
+Arsenale / Venice Biennale</div>
+<div style="text-align: center;">
+<i>October 2015</i></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/10/red-floor-and-broken-dish.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8368136496605373899&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8368136496605373899&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8368136496605373899&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8368136496605373899&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8368136496605373899&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/10/red-floor-and-broken-dish.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Art' rel='tag'>Art</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Wicked' rel='tag'>Wicked</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>29 settembre 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://3.bp.blogspot.com/-I-ZqKf04x2E/VgrHU7xjLYI/AAAAAAAACe4/2Grsq6rGA1A/s640/The-simple-things1200.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='6416440161605320007' itemprop='postId'/>
+<a name='6416440161605320007'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/09/the-simple-things.html'>The simple things</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6416440161605320007' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-I-ZqKf04x2E/VgrHU7xjLYI/AAAAAAAACe4/2Grsq6rGA1A/s1600/The-simple-things1200.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://3.bp.blogspot.com/-I-ZqKf04x2E/VgrHU7xjLYI/AAAAAAAACe4/2Grsq6rGA1A/s640/The-simple-things1200.jpg" width="426" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div style="text-align: center;">
+<a href="https://www.facebook.com/fabbricadelgiardino?ref=profile" target="_blank">La fabbrica del giardino | Schio</a></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/09/the-simple-things.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6416440161605320007&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6416440161605320007&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6416440161605320007&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6416440161605320007&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=6416440161605320007&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/09/the-simple-things.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Green' rel='tag'>Green</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Reflections' rel='tag'>Reflections</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>5 settembre 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://2.bp.blogspot.com/-CQd_yhPd560/VesUo1TFLLI/AAAAAAAACco/mcE-Q5R2ICo/s640/IMG_9867.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='8538145097424677401' itemprop='postId'/>
+<a name='8538145097424677401'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/09/electronic-colors-and-good-vibes.html'>Electronic colors and good vibes</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8538145097424677401' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-CQd_yhPd560/VesUo1TFLLI/AAAAAAAACco/mcE-Q5R2ICo/s1600/IMG_9867.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://2.bp.blogspot.com/-CQd_yhPd560/VesUo1TFLLI/AAAAAAAACco/mcE-Q5R2ICo/s640/IMG_9867.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-ROsWRpA8dKw/VesUzt86bNI/AAAAAAAACdQ/XvD_eFQjgqE/s1600/IMG_9820-NEW.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://1.bp.blogspot.com/-ROsWRpA8dKw/VesUzt86bNI/AAAAAAAACdQ/XvD_eFQjgqE/s640/IMG_9820-NEW.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-ArBxaftRj14/VesUrtRs2SI/AAAAAAAACcw/8t9sMEF9wy4/s1600/IMG_9826.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://3.bp.blogspot.com/-ArBxaftRj14/VesUrtRs2SI/AAAAAAAACcw/8t9sMEF9wy4/s640/IMG_9826.jpg" width="425" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-Lh-p2ITfeRI/VesUxtEntSI/AAAAAAAACdE/qRZEaLzy9sw/s1600/IMG_9878.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://4.bp.blogspot.com/-Lh-p2ITfeRI/VesUxtEntSI/AAAAAAAACdE/qRZEaLzy9sw/s640/IMG_9878.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-A-k9xJhojwk/VesU0cVQJrI/AAAAAAAACdU/cl4i7tVcYu8/s1600/IMG_9879.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://3.bp.blogspot.com/-A-k9xJhojwk/VesU0cVQJrI/AAAAAAAACdU/cl4i7tVcYu8/s640/IMG_9879.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-JlUsy9PhuBw/VesU19-1G5I/AAAAAAAACdg/PT-N1ThH0u4/s1600/IMG_9883.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://4.bp.blogspot.com/-JlUsy9PhuBw/VesU19-1G5I/AAAAAAAACdg/PT-N1ThH0u4/s640/IMG_9883.jpg" width="640" /></a><a href="http://2.bp.blogspot.com/-hT5t4o9mXSs/VesUx3XNVEI/AAAAAAAACdA/2MNmsksrqgA/s1600/IMG_9822.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="http://2.bp.blogspot.com/-hT5t4o9mXSs/VesUx3XNVEI/AAAAAAAACdA/2MNmsksrqgA/s640/IMG_9822.jpg" width="640" /></a><a href="http://2.bp.blogspot.com/-Vyhb1i0f2P0/VesUsdTWouI/AAAAAAAACc0/mzviH1iloVA/s1600/IMG_9861.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://2.bp.blogspot.com/-Vyhb1i0f2P0/VesUsdTWouI/AAAAAAAACc0/mzviH1iloVA/s640/IMG_9861.jpg" width="425" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+Dancing good electronic after the concert</div>
+<div class="separator" style="clear: both; text-align: center;">
+<i><a href="http://www.homefestival.eu/website/" target="_blank">Home Festival</a> | Treviso</i></div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/09/electronic-colors-and-good-vibes.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8538145097424677401&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8538145097424677401&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8538145097424677401&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8538145097424677401&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=8538145097424677401&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/09/electronic-colors-and-good-vibes.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Music' rel='tag'>Music</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>3 settembre 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://2.bp.blogspot.com/-ZId2LlNbXHs/VehKHH_EGnI/AAAAAAAACcE/HJ1c7vddKDA/s640/IMG_0672.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='63875206429438109' itemprop='postId'/>
+<a name='63875206429438109'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/09/go-angola.html'>Go Angola!</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-63875206429438109' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-ZId2LlNbXHs/VehKHH_EGnI/AAAAAAAACcE/HJ1c7vddKDA/s1600/IMG_0672.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://2.bp.blogspot.com/-ZId2LlNbXHs/VehKHH_EGnI/AAAAAAAACcE/HJ1c7vddKDA/s640/IMG_0672.jpg" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-b_N_z9MjqC4/VehJ8mQ2hZI/AAAAAAAACbs/AOU9MxCxheA/s1600/IMG_0669.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://2.bp.blogspot.com/-b_N_z9MjqC4/VehJ8mQ2hZI/AAAAAAAACbs/AOU9MxCxheA/s640/IMG_0669.jpg" width="426" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-1xJIy0kIN6o/VehJ6RlsmeI/AAAAAAAACbk/gQgTuf7vjEI/s1600/IMG_0676.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://4.bp.blogspot.com/-1xJIy0kIN6o/VehJ6RlsmeI/AAAAAAAACbk/gQgTuf7vjEI/s640/IMG_0676.jpg" width="426" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-k8k8jwib8CA/VehJ_ZGVJzI/AAAAAAAACb0/s96q09htzAs/s1600/IMG_0678.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://3.bp.blogspot.com/-k8k8jwib8CA/VehJ_ZGVJzI/AAAAAAAACb0/s96q09htzAs/s640/IMG_0678.jpg" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/--LRNQ3Igb3Q/VehJ_3u3asI/AAAAAAAACb4/ddZwa1knQYY/s1600/IMG_0683.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://1.bp.blogspot.com/--LRNQ3Igb3Q/VehJ_3u3asI/AAAAAAAACb4/ddZwa1knQYY/s640/IMG_0683.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+Angola Pavillion</div>
+<div class="separator" style="clear: both; text-align: center;">
+Conservatorio - Campo S. Stefano&nbsp;</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+Venice Biennale 2015</div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/09/go-angola.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=63875206429438109&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=63875206429438109&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=63875206429438109&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=63875206429438109&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=63875206429438109&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/09/go-angola.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Art' rel='tag'>Art</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Urban' rel='tag'>Urban</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Wicked' rel='tag'>Wicked</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>12 agosto 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://4.bp.blogspot.com/-ctHvcfqdRQE/Vct_T5DydVI/AAAAAAAACaU/xACT2SI3ME4/s640/Venetian-portrait%2BRESIZE.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='2161016101641281873' itemprop='postId'/>
+<a name='2161016101641281873'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/08/venetian-portrait.html'>Venetian portrait</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-2161016101641281873' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-ctHvcfqdRQE/Vct_T5DydVI/AAAAAAAACaU/xACT2SI3ME4/s1600/Venetian-portrait%2BRESIZE.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://4.bp.blogspot.com/-ctHvcfqdRQE/Vct_T5DydVI/AAAAAAAACaU/xACT2SI3ME4/s640/Venetian-portrait%2BRESIZE.jpg" width="426" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+A summer sunday in Venice</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/08/venetian-portrait.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2161016101641281873&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2161016101641281873&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2161016101641281873&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2161016101641281873&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=2161016101641281873&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/08/venetian-portrait.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Reflections' rel='tag'>Reflections</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>26 luglio 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://1.bp.blogspot.com/-9p4zR-eVMt4/VbTUUHJI47I/AAAAAAAACZA/YCccv4T42nQ/s640/Happy%2Bcaravan%2BRESIZE.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='3377145236139804646' itemprop='postId'/>
+<a name='3377145236139804646'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/07/happy-caravan.html'>Happy caravan</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-3377145236139804646' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-9p4zR-eVMt4/VbTUUHJI47I/AAAAAAAACZA/YCccv4T42nQ/s1600/Happy%2Bcaravan%2BRESIZE.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://1.bp.blogspot.com/-9p4zR-eVMt4/VbTUUHJI47I/AAAAAAAACZA/YCccv4T42nQ/s640/Happy%2Bcaravan%2BRESIZE.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+Summer time.</div>
+<div class="separator" style="clear: both; text-align: center;">
+Good music, good drinks, good vibes.</div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/07/happy-caravan.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=3377145236139804646&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=3377145236139804646&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=3377145236139804646&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=3377145236139804646&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=3377145236139804646&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/07/happy-caravan.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Wicked' rel='tag'>Wicked</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>16 luglio 2015</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://2.bp.blogspot.com/-gYWsUyLVUwQ/VafqzaVUsnI/AAAAAAAACXM/TUw9Ix_a51E/s640/IMG_0625.jpg' itemprop='image_url'/>
+<meta content='6645541087295996062' itemprop='blogId'/>
+<meta content='7622049857691615426' itemprop='postId'/>
+<a name='7622049857691615426'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://theindiefriend.blogspot.com/2015/07/biennale-dansaekhwa-korea.html'>Biennale: Dansaekhwa / Korea</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-7622049857691615426' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-gYWsUyLVUwQ/VafqzaVUsnI/AAAAAAAACXM/TUw9Ix_a51E/s1600/IMG_0625.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://2.bp.blogspot.com/-gYWsUyLVUwQ/VafqzaVUsnI/AAAAAAAACXM/TUw9Ix_a51E/s640/IMG_0625.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-usYDozAQuCs/Vafq0g2pWxI/AAAAAAAACXU/5gwRLZZPXV8/s1600/IMG_0619.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://2.bp.blogspot.com/-usYDozAQuCs/Vafq0g2pWxI/AAAAAAAACXU/5gwRLZZPXV8/s640/IMG_0619.jpg" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-u_qG5qI3G8E/Vafq6A1xHvI/AAAAAAAACXk/CJD_r5KULvc/s1600/IMG_0611.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://4.bp.blogspot.com/-u_qG5qI3G8E/Vafq6A1xHvI/AAAAAAAACXk/CJD_r5KULvc/s640/IMG_0611.jpg" width="425" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-ExvPKmZKl-0/Vafq4dWH3zI/AAAAAAAACXc/UH4vodbRVFI/s1600/IMG_0614.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://1.bp.blogspot.com/-ExvPKmZKl-0/Vafq4dWH3zI/AAAAAAAACXc/UH4vodbRVFI/s640/IMG_0614.jpg" width="425" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-6e-Uu5lyi84/VafrANhZ9NI/AAAAAAAACX0/299gowR2O3c/s1600/IMG_0607.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="426" src="http://4.bp.blogspot.com/-6e-Uu5lyi84/VafrANhZ9NI/AAAAAAAACX0/299gowR2O3c/s640/IMG_0607.jpg" width="640" /></a><a href="http://1.bp.blogspot.com/-gokDpZ62O_c/Vafq-aLgtRI/AAAAAAAACXs/86wX-oD1qw0/s1600/IMG_0608.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://1.bp.blogspot.com/-gokDpZ62O_c/Vafq-aLgtRI/AAAAAAAACXs/86wX-oD1qw0/s640/IMG_0608.jpg" width="640" /></a><a href="http://3.bp.blogspot.com/-TR4ZYD2qkP0/VafrFBktH1I/AAAAAAAACYE/vHtSo1h0eFs/s1600/IMG_0612.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://3.bp.blogspot.com/-TR4ZYD2qkP0/VafrFBktH1I/AAAAAAAACYE/vHtSo1h0eFs/s640/IMG_0612.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-t-vwt5CL_lI/VafrE9kwq2I/AAAAAAAACYA/HWn_QHRwMvw/s1600/IMG_0609.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="426" src="http://4.bp.blogspot.com/-t-vwt5CL_lI/VafrE9kwq2I/AAAAAAAACYA/HWn_QHRwMvw/s640/IMG_0609.jpg" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-mzruflIx4rM/VafrEtVjaxI/AAAAAAAACX8/tIeGWDkX328/s1600/IMG_0629.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://3.bp.blogspot.com/-mzruflIx4rM/VafrEtVjaxI/AAAAAAAACX8/tIeGWDkX328/s640/IMG_0629.jpg" width="426" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-UB5CmBDEYtI/VafrF6LtEdI/AAAAAAAACYQ/chxjM1c1ViU/s1600/IMG_0633.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="http://1.bp.blogspot.com/-UB5CmBDEYtI/VafrF6LtEdI/AAAAAAAACYQ/chxjM1c1ViU/s640/IMG_0633.jpg" width="426" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="color: #333333; font-family: Arial, sans-serif; font-size: 12px; line-height: 21px; text-align: -webkit-left;"><b>Dansaekhwa</b></span><span style="color: #333333; font-family: Arial, sans-serif; font-size: 12px; line-height: 21px; text-align: -webkit-left;">&nbsp;</span><br style="color: #333333; font-family: Arial, sans-serif; font-size: 12px; line-height: 21px; text-align: -webkit-left;" /><span style="color: #333333; font-family: Arial, sans-serif; font-size: 12px; line-height: 21px; text-align: -webkit-left;">Evento Collaterale della 56. Esposizione Internazionale d&#8217;Arte &#8211; la Biennale di Venezia</span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="color: #333333; font-family: Arial, sans-serif; font-size: 12px; line-height: 21px; text-align: -webkit-left;"><a href="http://venice-dansaekhwa.com/press-italian.php" target="_blank">www.venice-dansaekhwa.com</a></span></div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://theindiefriend.blogspot.com/2015/07/biennale-dansaekhwa-korea.html#comment-form' onclick=''>
+Nessun commento:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=7622049857691615426&target=email' target='_blank' title='Invia tramite email'><span class='share-button-link-text'>Invia tramite email</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=7622049857691615426&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Postalo sul blog'><span class='share-button-link-text'>Postalo sul blog</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=7622049857691615426&target=twitter' target='_blank' title='Condividi su Twitter'><span class='share-button-link-text'>Condividi su Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=7622049857691615426&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Condividi su Facebook'><span class='share-button-link-text'>Condividi su Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=6645541087295996062&postID=7622049857691615426&target=pinterest' target='_blank' title='Condividi su Pinterest'><span class='share-button-link-text'>Condividi su Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://theindiefriend.blogspot.com/2015/07/biennale-dansaekhwa-korea.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Etichette:
+<a href='http://theindiefriend.blogspot.com/search/label/Art' rel='tag'>Art</a>,
+<a href='http://theindiefriend.blogspot.com/search/label/Wicked' rel='tag'>Wicked</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://theindiefriend.blogspot.com/search?updated-max=2015-07-16T19:44:00%2B02:00&amp;max-results=50' id='Blog1_blog-pager-older-link' title='Post più vecchi'>Post più vecchi</a>
+</span>
+<a class='home-link' href='http://theindiefriend.blogspot.com/'>Home page</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Iscriviti a:
+<a class='feed-link' href='http://theindiefriend.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Post (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'it'};</script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget Profile' data-version='1' id='Profile1'>
+<h2>About me</h2>
+<div class='widget-content'>
+<a href='https://www.blogger.com/profile/09501735738550150725'><img alt='Le mie foto' class='profile-img' height='80' src='//1.bp.blogspot.com/-OxueuPmddUo/U6hEjBrqx1I/AAAAAAAABw4/LTMy4b5QpRg/s80/*' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://www.blogger.com/profile/09501735738550150725' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+FranZ
+</a>
+</dt>
+</dl>
+<a class='profile-link' href='https://www.blogger.com/profile/09501735738550150725' rel='author'>Visualizza il mio profilo completo</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6645541087295996062&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Modifica'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' data-version='1' id='HTML1'>
+<div class='widget-content'>
+<a title="Follow theindiefriend on Bloglovin" href="http://www.bloglovin.com/en/blog/11600617"><img alt="Follow on Bloglovin" src="http://www.bloglovin.com/widget/bilder/en/lank.gif?id=11600617" border="0" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6645541087295996062&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Modifica'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' data-version='1' id='BlogArchive1'>
+<h2>Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='flat'>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2016_03_01_archive.html'>marzo 2016</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2016_02_01_archive.html'>febbraio 2016</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2016_01_01_archive.html'>gennaio 2016</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_12_01_archive.html'>dicembre 2015</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_11_01_archive.html'>novembre 2015</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_10_01_archive.html'>ottobre 2015</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_09_01_archive.html'>settembre 2015</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_08_01_archive.html'>agosto 2015</a> (1)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_07_01_archive.html'>luglio 2015</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_06_01_archive.html'>giugno 2015</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_05_01_archive.html'>maggio 2015</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_04_01_archive.html'>aprile 2015</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_03_01_archive.html'>marzo 2015</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_02_01_archive.html'>febbraio 2015</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2015_01_01_archive.html'>gennaio 2015</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_12_01_archive.html'>dicembre 2014</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_11_01_archive.html'>novembre 2014</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_10_01_archive.html'>ottobre 2014</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_09_01_archive.html'>settembre 2014</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_08_01_archive.html'>agosto 2014</a> (1)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_07_01_archive.html'>luglio 2014</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_06_01_archive.html'>giugno 2014</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_05_01_archive.html'>maggio 2014</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_04_01_archive.html'>aprile 2014</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_03_01_archive.html'>marzo 2014</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_02_01_archive.html'>febbraio 2014</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2014_01_01_archive.html'>gennaio 2014</a> (5)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_12_01_archive.html'>dicembre 2013</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_11_01_archive.html'>novembre 2013</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_10_01_archive.html'>ottobre 2013</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_09_01_archive.html'>settembre 2013</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_08_01_archive.html'>agosto 2013</a> (1)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_07_01_archive.html'>luglio 2013</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_06_01_archive.html'>giugno 2013</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_05_01_archive.html'>maggio 2013</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_04_01_archive.html'>aprile 2013</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_03_01_archive.html'>marzo 2013</a> (1)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_02_01_archive.html'>febbraio 2013</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2013_01_01_archive.html'>gennaio 2013</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_12_01_archive.html'>dicembre 2012</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_11_01_archive.html'>novembre 2012</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_10_01_archive.html'>ottobre 2012</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_09_01_archive.html'>settembre 2012</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_08_01_archive.html'>agosto 2012</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_07_01_archive.html'>luglio 2012</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_06_01_archive.html'>giugno 2012</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_05_01_archive.html'>maggio 2012</a> (4)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_04_01_archive.html'>aprile 2012</a> (4)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_03_01_archive.html'>marzo 2012</a> (4)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_02_01_archive.html'>febbraio 2012</a> (4)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2012_01_01_archive.html'>gennaio 2012</a> (6)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_12_01_archive.html'>dicembre 2011</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_11_01_archive.html'>novembre 2011</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_10_01_archive.html'>ottobre 2011</a> (3)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_09_01_archive.html'>settembre 2011</a> (4)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_08_01_archive.html'>agosto 2011</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_07_01_archive.html'>luglio 2011</a> (2)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_06_01_archive.html'>giugno 2011</a> (4)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_05_01_archive.html'>maggio 2011</a> (5)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_04_01_archive.html'>aprile 2011</a> (7)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_03_01_archive.html'>marzo 2011</a> (4)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_02_01_archive.html'>febbraio 2011</a> (6)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2011_01_01_archive.html'>gennaio 2011</a> (5)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2010_12_01_archive.html'>dicembre 2010</a> (4)
+      </li>
+<li class='archivedate'>
+<a href='http://theindiefriend.blogspot.com/2010_11_01_archive.html'>novembre 2010</a> (4)
+      </li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6645541087295996062&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Modifica'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogList' data-version='1' id='BlogList1'>
+<h2 class='title'>Blogging around</h2>
+<div class='widget-content'>
+<div class='blog-list-container' id='BlogList1_container'>
+<ul id='BlogList1_blogs'>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://fewthingsfrommylife.blogspot.com/' target='_blank'>
+A few things from my life</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://btnb.tumblr.com/' target='_blank'>
+Black is the new black</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://bloesem.blogs.com/bloesem/' target='_blank'>
+Bloesem</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://blog.bodieandfou.com/' target='_blank'>
+Bodie and Fou&#9733;</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://fratellicalgaro.blogspot.com/' target='_blank'>
+fratelli calgaro                                                           blog</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://annaleenashem.blogspot.com/' target='_blank'>
+Hem</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://www.humansofnewyork.com/' target='_blank'>
+Humans of New York</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://inagblog.com' target='_blank'>
+I need a guide</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://aestheticallypleasant.tumblr.com/' target='_blank'>
+In love with you</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://lost.net.au/vic' target='_blank'>
+Lost</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://haw-lin.com' target='_blank'>
+M o o d</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://maisoncreativa.blogspot.com/' target='_blank'>
+Maison Creativa</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://officinadecor.blogspot.com/' target='_blank'>
+officinadecoR | design&interiors</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://melaniewatkins.blogspot.com/' target='_blank'>
+something from my day</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://thedesignfiles.net' target='_blank'>
+The Design Files</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://theflamingodesign.blogspot.com/' target='_blank'>
+the flamingo | design / furniture / lighting</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://thekalicorner.blogspot.com/' target='_blank'>
+The Kali Corner</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://thesartorialist.blogspot.com/' target='_blank'>
+The Sartorialist</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://theselby.com' target='_blank'>
+the selby - photos in your space</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://ilblogditurismo.tumblr.com/' target='_blank'>
+Turismo - Ogni foto è un ricordo</a>
+</div>
+<div class='item-content'>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6645541087295996062&widgetType=BlogList&widgetId=BlogList1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogList1"));' target='configBlogList1' title='Modifica'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div>
+</div><div class='widget Followers' data-version='1' id='Followers1'>
+<h2 class='title'>Friends</h2>
+<div class='widget-content'>
+<div id='Followers1-wrapper'>
+<div style='margin-right:2px;'>
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="//www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+          
+          
+            holder.postFeed = "https://www.blogger.com/feeds/6645541087295996062/posts/default";
+          
+          
+          
+            holder.commentFeed = "https://www.blogger.com/feeds/6645541087295996062/comments/default";
+          
+          holder.currentBlogUrl = "http://theindiefriend.blogspot.com/";
+          holder.currentBlogId = "6645541087295996062";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<div id="div-1o0i2d4xrpwho" style="width: 100%; "></div>
+<script type="text/javascript">
+    var skin = {};
+    skin['FACE_SIZE'] = '32';
+    skin['HEIGHT'] = "260";
+    skin['BORDER_COLOR'] = "transparent";
+    skin['ENDCAP_BG_COLOR'] = "transparent";
+    skin['ENDCAP_TEXT_COLOR'] = "#666666";
+    skin['ENDCAP_LINK_COLOR'] = "#666666";
+    
+    skin['CONTENT_BG_COLOR'] = "transparent";
+    skin['CONTENT_LINK_COLOR'] = "#666666";
+    skin['CONTENT_TEXT_COLOR'] = "#666666";
+    skin['CONTENT_SECONDARY_LINK_COLOR'] = "#666666";
+    skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#999999";
+    skin['CONTENT_HEADLINE_COLOR'] = "#666666";
+    google.friendconnect.container.setParentUrl("/");
+    google.friendconnect.container["renderMembersGadget"](
+    {id: "div-1o0i2d4xrpwho",
+     height: 260,
+     
+     
+     
+     site: "05022393710574604158",
+     locale: 'it' },
+     skin);
+  </script>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6645541087295996062&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers1"));' target='configFollowers1' title='Modifica'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3' name='Footer'><div class='widget Attribution' data-version='1' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=6645541087295996062&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Modifica'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/1976504288-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '6645541087295996062';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6645541087295996062','//theindiefriend.blogspot.com/','6645541087295996062');
+_WidgetManager._SetDataContext([{'name': 'options', 'data': {}}, {'name': 'blog', 'data': {'blogId': '6645541087295996062', 'bloggerUrl': 'https://www.blogger.com', 'title': ' theindiefriend', 'pageType': 'index', 'url': 'http://theindiefriend.blogspot.com/', 'canonicalUrl': 'http://theindiefriend.blogspot.com/', 'homepageUrl': 'http://theindiefriend.blogspot.com/', 'canonicalHomepageUrl': 'http://theindiefriend.blogspot.com/', 'blogspotFaviconUrl': 'http://theindiefriend.blogspot.com/favicon.ico', 'enabledCommentProfileImages': false, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': ' theindiefriend', 'encoding': 'UTF-8', 'locale': 'it', 'localeUnderscoreDelimited': 'it', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42 theindiefriend - Atom\42 href\75\42http://theindiefriend.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42 theindiefriend - RSS\42 href\75\42http://theindiefriend.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42 theindiefriend - Atom\42 href\75\42https://www.blogger.com/feeds/6645541087295996062/posts/default\42 /\76\n', 'meTag': '\74link rel\75\42me\42 href\75\42https://www.blogger.com/profile/09501735738550150725\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://theindiefriend.blogspot.com/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/3512845138-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/71225c15c406a841', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'features', 'data': {'widgetVisibility': true}}, {'name': 'messages', 'data': {'adsGoHere': 'Gli annunci vengono posizionati qui', 'archive': 'Archivia', 'authorSaid': '%1 ha scritto...', 'authorSaidWithLink': '\74a href\75\42%2\42 rel\75\42nofollow\42\76%1\74/a\76 ha scritto...', 'blogArchive': 'Archivio blog', 'by': 'Di', 'byAuthor': 'Di %1', 'byAuthorLink': 'Di \74a href\75\42%2\42\76%1\74/a\076', 'configurationRequired': 'Configurazione obbligatoria', 'deleteBacklink': 'Elimina link a ritroso', 'deleteComment': 'Elimina commento', 'edit': 'Modifica', 'emailAddress': 'Indirizzo email', 'getEmailNotifications': 'Ricevi notifiche email', 'hidden': 'Nascosto', 'keepReading': 'Continua a leggere', 'labels': 'Etichette', 'loadMorePosts': 'Carica altri post', 'loading': 'Caricamento in corso...', 'myBlogList': 'Elenco blog personale', 'myFavoriteSites': 'I miei siti preferiti', 'newer': 'Nuova', 'newerPosts': 'Post più recenti', 'newest': 'Più recenti', 'noResultsFound': 'Nessun risultato trovato', 'noTitle': 'Nessun titolo', 'numberOfComments': '{numComments,plural, \0750{Non ci sono commenti}\0751{1 commento}other{# commenti}}', 'older': 'Vecchia', 'olderPosts': 'Post più vecchi', 'oldest': 'Meno recenti', 'onlyTeamMembersCanComment': 'Nota. Solo i membri di questo blog possono postare un commento.', 'popularPosts': 'Post più popolari', 'popularPostsFromThisBlog': 'Post popolari in questo blog', 'postAComment': 'Posta un commento', 'postedBy': 'Pubblicato da', 'postedByAuthor': 'Postato da %1', 'postedByAuthorLink': 'Postato da \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Continua a leggere', 'reportAbuse': 'Segnala una violazione', 'search': 'Cerca', 'searchBlog': 'Cerca nel blog', 'share': 'Condividi', 'showAll': 'Mostra tutto', 'showLess': 'Mostra di meno', 'showMore': 'Mostra di più', 'someOfMyFavoriteSites': 'Alcuni dei miei siti preferiti', 'subscribe': 'Iscriviti', 'subscribeTo': 'Iscriviti a:', 'subscribeToThisBlog': 'Iscriviti a questo blog', 'theresNothingHere': 'Nessun post da visualizzare', 'viewAll': 'Visualizza tutti', 'visible': 'Visibile', 'visitProfile': 'Visita profilo', 'widgetNotAvailableInPreview': 'Questi contenuti non sono disponibili nell\47anteprima del blog.', 'widgetNotAvailableOnHttps': 'Questi contenuti non sono ancora disponibili su connessioni crittografate.'}}, {'name': 'skin', 'data': {'vars': {'post_footer_background_color': '#f3f3f3', 'tabs_text_color': '#000000', 'content_shadow_spread': '0', 'date_header_letterspacing': '3px', 'body_background_override': '', 'body_background': '#ffffff none repeat scroll top left', 'description_text_size': '18px', 'mobile_background_size': 'auto', 'header_shadow_spread': '0', 'image_border_color': '#eeeeee', 'date_header_color': '#999999', 'header_shadow_offset_top': '0', 'header_border_horizontalsize': '1px', 'widget_title_font': 'normal normal 14px \47Times New Roman\47, Times, FreeSerif, serif', 'tabs_border_color': '#dddddd', 'tabs_bevel_border_width': '1px', 'body_background_gradient_tile': 'none', 'description_text_color': '#000000', 'main_section_margin': '1em', 'post_title_font': 'italic normal 24px \47Times New Roman\47, Times, FreeSerif, serif', 'page_width': 'auto', 'paging_background': 'transparent url(//www.blogblog.com/1kt/simple/paging_dot.png) repeat-x scroll top center', 'body_text_color': '#666666', 'content_padding': '10px', 'header_background_gradient': 'none', 'post_margin_bottom': '45px', 'header_shadow_offset_left': '0', 'tabs_background_color': 'transparent', 'content_background_color': '#ffffff', 'body_background_gradient_cap': 'none', 'main_padding_top': '35px', 'widget_alternate_text_color': '#999999', 'image_text_color': '#666666', 'link_visited_color': '#888888', 'tabs_margin_side': '30px', 'image_border_large_size': '5px', 'content_shadow_spread_webkit': '0', 'mobile_button_color': '#ffffff', 'tabs_selected_text_color': '#000000', 'main_border_width': '0', 'content_background_color_selector': '.content-inner', 'link_color': '#666666', 'post_footer_border_color': '#eeeeee', 'tabs_background_gradient': 'none', 'content_padding_horizontal': '40px', 'header_font': 'normal normal 36px \47Courier New\47, Courier, FreeMono, monospace', 'startSide': 'left', 'tabs_font': 'normal normal 12px Georgia, Utopia, \47Palatino Linotype\47, Palatino, serif', 'widget_title_text_color': '#666666', 'header_border_size': '1px', 'tabs_selected_background_color': '#ffffff', 'date_header_margin': 'inherit', 'footer_bevel': '1px', 'image_border_small_size': '2px', 'content_shadow_spread_ie': '0', 'mobile_background_overlay': 'transparent none repeat scroll top left', 'endSide': 'right', 'image_background_color': '#ffffff', 'body_rule_color': 'transparent', 'header_bottom_border_size': '0', 'date_header_padding': '0.4em', 'page_width_selector': '.region-inner', 'body_background_color': '#ffffff', 'header_text_color': '#c27ba0', 'main_padding': '0', 'date_header_background_color': '#ffffff', 'tabs_border_width': '1px', 'body_font': 'normal normal 12px \47Times New Roman\47, Times, FreeSerif, serif', 'link_hover_color': '#c27ba0', 'header_background_color': '#ffffff', 'keycolor': '#ffffff', 'main_padding_bottom': '65px', 'post_footer_text_color': '#666666', 'tabs_margin_top': '0', 'header_padding': '0'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'crosscol', null, document.getElementById('PageList1'), {'title': 'Pagine', 'links': [], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/658069551-lbx__it.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/306752634-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-right-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Caricamento in corso...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList1', 'sidebar-right-1', null, document.getElementById('BlogList1'), {'numItemsToShow': 0, 'totalItems': 20}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar-right-1', null, document.getElementById('Followers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'Powered by \74a href\75\47https://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+</script>
+</body>
+</html>

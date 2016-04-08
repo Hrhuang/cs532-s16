@@ -1,0 +1,3446 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<script src='http://code.jquery.com/jquery-latest.js'></script>
+<script type='text/javascript'>
+//<![CDATA[
+
+function jqFixLink() {
+ var strLink = $(this).attr("href");
+
+ if(strLink != undefined) {
+   if(strLink.search(document.domain) == -1 && strLink.indexOf("http:") != -1) {
+     $(this).attr("target", "_blank");
+   }
+ }
+}
+function jqFixExtLinks() {
+  $("#Blog1 a").each(jqFixLink);
+}
+$("#Blog1").ready(jqFixExtLinks);
+
+ //]]>
+</script>
+<meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { (function(){function c(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(e){}};this.tick("start",null,a)}var a;window.performance&&(a=window.performance.timing);var h=a?new c(a.responseStart):new c;window.jstiming={Timer:c,load:h};if(a){var b=a.navigationStart,e=a.responseStart;0<b&&e>=b&&(window.jstiming.srt=e-b)}if(a){var d=window.jstiming.load;0<b&&e>=b&&(d.tick("_wtsrt",void 0,b),d.tick("wtsrt_",
+"_wtsrt",e),d.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),d&&0<b&&(d.tick("_tbnd",void 0,window.chrome.csi().startE),d.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,d&&0<b&&(d.tick("_tbnd",void 0,window.external.startE),d.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(k){}})();window.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&window.jstiming.load.tick("aft")};var f=!1;function g(){f||(f=!0,window.jstiming.load.tick("firstScrollTime"))}window.addEventListener?window.addEventListener("scroll",g,!1):window.attachEvent("onscroll",g);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://partyfullofstrangers.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://partyfullofstrangers.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Party Full of Strangers - Atom" href="http://partyfullofstrangers.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Party Full of Strangers - RSS" href="http://partyfullofstrangers.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Party Full of Strangers - Atom" href="https://www.blogger.com/feeds/8363199615221712675/posts/default" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://partyfullofstrangers.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3512845138-ieretrofit.js"></script>
+<![endif]-->
+<meta content='http://partyfullofstrangers.blogspot.com/' property='og:url'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Party Full of Strangers</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/3375562265-css_bundle_v2.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=8363199615221712675&zx=b5bf84ff-da06-48ce-b78f-171bb24fbeb0' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Travel
+Designer: Sookhee Lee
+URL:      www.plyfly.net
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#539bcd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#bbbbbb"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#539bcd"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#ff9900"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#b87209"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#ff9900"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="header.text.color" description="Text Color" type="color" default="#ffffff" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#bbbbbb" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal bold 16px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="transparent"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent"/>
+</Group>
+<Group description="Date Header" selector=".main-inner h2.date-header">
+<Variable name="date.font" description="Font" type="font"
+default="normal normal 14px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="date.text.color" description="Text Color" type="color" default="#bbbbbb"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title a">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal bold 20px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="post.title.text.color" description="Text Color" type="color"
+default="#ffffff"/>
+</Group>
+<Group description="Post Background" selector=".column-center-inner">
+<Variable name="post.background.color" description="Background Color" type="color"
+default="transparent"/>
+<Variable name="post.background.url" description="Post Background URL" type="url" default="none"/>
+</Group>
+<Group description="Gadget Title Color" selector="h2">
+<Variable name="widget.title.font" description="Font" type="font"
+default="normal bold 14px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Gadget Text" selector=".footer-inner .widget, .sidebar .widget">
+<Variable name="widget.font" description="Font" type="font"
+default="normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="widget.text.color" description="Text Color" type="color" default="#bbbbbb"/>
+</Group>
+<Group description="Gadget Links" selector=".sidebar .widget">
+<Variable name="widget.link.color" description="Link Color" type="color" default="#bbbbbb"/>
+<Variable name="widget.link.visited.color" description="Visited Color" type="color" default="#b87209"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Sidebar Background" selector=".column-left-inner .column-right-inner">
+<Variable name="widget.outer.background.color" description="Background Color" type="color" default="transparent" />
+<Variable name="widget.border.bevel.color" description="Bevel Color" type="color" default="transparent" />
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#539bcd" default="$(color) none repeat-x scroll top center"/>
+<Variable name="content.background" description="Content Background" type="background"
+color="transparent" default="$(color) none repeat scroll top center"/>
+<Variable name="comments.background" description="Comments Background" type="background"
+default="#cccccc none repeat scroll top center"/>
+<Variable name="content.imageBorder.top.space" description="Content Image Border Top Space" type="length" default="0" min="0" max="100px"/>
+<Variable name="content.imageBorder.top" description="Content Image Border Top" type="url" default="none"/>
+<Variable name="content.margin" description="Content Margin Top" type="length" default="20px" min="0" max="100px"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="20px" min="0" max="100px"/>
+<Variable name="content.posts.padding" description="Posts Content Padding" type="length" default="10px" min="0" max="100px"/>
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="tabs.selected.background.gradient" description="Tabs Selected Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="widget.outer.background.gradient" description="Sidebar Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/>
+<Variable name="footer.background.gradient" description="Footer Background Gradient" type="url" default="none"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #bbbbbb;
+background: #539bcd url(http://1.bp.blogspot.com/-nvk7EhoFbQ8/TlQJd4oL44I/AAAAAAAAAAo/aChKeUlLHvo/s0/171251_10100225157958527_8616451_61359795_4155605_o.jpg) repeat fixed bottom center;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+a:link {
+text-decoration:none;
+color: #ff9900;
+}
+a:visited {
+text-decoration:none;
+color: #b87209;
+}
+a:hover {
+text-decoration:underline;
+color: #ff9900;
+}
+.content-outer .content-cap-top {
+height: 0;
+background: transparent none repeat-x scroll top center;
+}
+.content-outer {
+margin: 0 auto;
+padding-top: 20px;
+}
+.content-inner {
+background: transparent url(http://blogblog.com/1kt/travel/bg_black_70.png) repeat scroll top left;
+background-position: left -0;
+background-color: transparent;
+padding: 20px;
+}
+.main-inner .date-outer {
+margin-bottom: 2em;
+}
+/* Header
+----------------------------------------------- */
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+padding-left: 10px;
+padding-right: 10px;
+}
+.Header h1 {
+font: normal normal 60px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 130%;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner {
+margin: 1em 0 0;
+padding: 0;
+}
+.tabs-inner .section {
+margin: 0;
+}
+.tabs-inner .widget ul {
+padding: 0;
+background: transparent url(http://www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+}
+.tabs-inner .widget li {
+border: none;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: 1em 1.5em;
+color: #ffffff;
+font: normal bold 16px 'Trebuchet MS',Trebuchet,sans-serif;
+}
+.tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover {
+position: relative;
+z-index: 1;
+background: transparent url(http://www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+color: #ffffff;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: normal bold 14px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+.main-inner h2.date-header {
+font: normal normal 14px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #bbbbbb;
+}
+.footer-inner .widget h2,
+.sidebar .widget h2 {
+padding-bottom: .5em;
+}
+/* Main
+----------------------------------------------- */
+.main-inner {
+padding: 20px 0;
+}
+.main-inner .column-center-inner {
+padding: 10px 0;
+}
+.main-inner .column-center-inner .section {
+margin: 0 10px;
+}
+.main-inner .column-right-inner {
+margin-left: 20px;
+}
+.main-inner .fauxcolumn-right-outer .fauxcolumn-inner {
+margin-left: 20px;
+background: transparent url(http://www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top left;
+}
+.main-inner .column-left-inner {
+margin-right: 20px;
+}
+.main-inner .fauxcolumn-left-outer .fauxcolumn-inner {
+margin-right: 20px;
+background: transparent url(http://www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top left;
+}
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+padding: 15px 0;
+}
+/* Posts
+----------------------------------------------- */
+h3.post-title {
+margin-top: 20px;
+}
+h3.post-title a {
+font: normal bold 20px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #ffffff;
+}
+h3.post-title a:hover {
+text-decoration: underline;
+}
+.main-inner .column-center-outer {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.post-body {
+line-height: 1.4;
+position: relative;
+}
+.post-header {
+margin: 0 0 1em;
+line-height: 1.6;
+}
+.post-footer {
+margin: .5em 0;
+line-height: 1.6;
+}
+#blog-pager {
+font-size: 140%;
+}
+#comments {
+background: transparent url(http://blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+padding: 15px;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+}
+#comments h4,
+#comments .comment-author a,
+#comments .comment-timestamp a {
+color: #ffffff;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments a {
+color: #ffffff;
+}
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #ffffff;
+border-bottom: 1px solid #ffffff;
+}
+.comments .comment-thread.inline-thread {
+background: transparent;
+}
+.comments .continue {
+border-top: 2px solid #ffffff;
+}
+/* Widgets
+----------------------------------------------- */
+.sidebar .widget {
+border-bottom: 2px solid transparent;
+padding-bottom: 10px;
+margin: 10px 0;
+}
+.sidebar .widget:first-child {
+margin-top: 0;
+}
+.sidebar .widget:last-child {
+border-bottom: none;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.footer-inner .widget,
+.sidebar .widget {
+font: normal normal 13px 'Trebuchet MS',Trebuchet,sans-serif;
+color: #bbbbbb;
+}
+.sidebar .widget a:link {
+color: #bbbbbb;
+text-decoration: none;
+}
+.sidebar .widget a:visited {
+color: #b87209;
+}
+.sidebar .widget a:hover {
+color: #bbbbbb;
+text-decoration: underline;
+}
+.footer-inner .widget a:link {
+color: #ff9900;
+text-decoration: none;
+}
+.footer-inner .widget a:visited {
+color: #b87209;
+}
+.footer-inner .widget a:hover {
+color: #ff9900;
+text-decoration: underline;
+}
+.widget .zippy {
+color: #ffffff;
+}
+.footer-inner {
+background: transparent none repeat scroll top center;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: 100% auto;
+}
+body.mobile .AdSense {
+margin: 0 -10px;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .footer-inner .widget a:link {
+color: #bbbbbb;
+text-decoration: none;
+}
+.mobile .footer-inner .widget a:visited {
+color: #b87209;
+}
+.mobile-post-outer a {
+color: #ffffff;
+}
+.mobile-link-button {
+background-color: #ff9900;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile-index-contents {
+color: #bbbbbb;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background: transparent url(http://www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+color: #ffffff;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #ffffff;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 930px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 930px;
+max-width: 930px;
+_width: 930px;
+}
+.main-inner .columns {
+padding-left: 180px;
+padding-right: 180px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 180px;
+right: 180px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("180px") -
+parseInt("180px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 180px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 180px;
+}
+.main-inner .column-left-outer {
+width: 180px;
+right: 100%;
+margin-left: -180px;
+}
+.main-inner .column-right-outer {
+width: 180px;
+margin-right: -180px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type="text/javascript">var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading variant-studio'>
+<div class='navbar section' id='navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\758363199615221712675\46blogName\75Party+Full+of+Strangers\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://partyfullofstrangers.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://partyfullofstrangers.blogspot.com/\46vt\75-9186843948553275244',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header'><div class='widget Header' data-version='1' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+Party Full of Strangers
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>Taking the tension out of pretension.</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol'></div>
+<div class='tabs section' id='crosscol-overflow'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Saturday, March 5, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='3073082244261492835'></a>
+<h3 class='post-title entry-title'>
+<a href='http://partyfullofstrangers.blogspot.com/2016/03/white-denim-ha-ha-ha-ha-yeah-ding-me.html'>February 2016</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-3073082244261492835'>
+<strong>White Denim - Ha Ha Ha Ha (Yeah)</strong><br />
+<br />
+Ding:&nbsp; Me: Hey doll, how about some hot white D?<br />
+<br />
+Her: Gross. Also, I'm imaginary.<br />
+<br />
+Me: Right.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/F6iXz7WQADE" width="560"></iframe>
+<br />
+<strong></strong><br />
+<strong>Seinabo Sey - Pretend</strong><br />
+<br />
+Meat MD: Sometimes she sounds like the sad song in a mediocre musical, but most of the time she's pretty great.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/6xbX5hCk9FE" width="560"></iframe>
+<br />
+<br />
+<strong>Mass Gothic - Every Night You've Got To Save Me</strong><br />
+<br />
+Muppeteer:&nbsp; Please don't let the name scare you, this Mass Gothic shit is the opposite of what the name sounds like. The singer in video does look like he's had a rough go of things though.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/3_8qX3hJjM8" width="560"></iframe>
+<br />
+<br />
+<strong>JATA - Ebony</strong><br />
+<br />
+Hollering:&nbsp;&nbsp; Proven to help fight seasonal affective disorder.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/XvqN-nXZZFs" width="560"></iframe>
+<br />
+<br />
+<strong>Brian Eno &amp; David Byrne - Strange Overtones</strong><br />
+<br />
+Muppeteer:&nbsp; Fell down a Bowie hole this week and wound up in Talking Heads territory.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/6DQyusKTAh4" width="420"></iframe>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>PFOS</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://partyfullofstrangers.blogspot.com/2016/03/white-denim-ha-ha-ha-ha-yeah-ding-me.html' rel='bookmark' title='permanent link'><abbr class='published' title='2016-03-05T19:29:00-08:00'>7:29 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://partyfullofstrangers.blogspot.com/2016/03/white-denim-ha-ha-ha-ha-yeah-ding-me.html#comment-form' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-539894341'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8363199615221712675&postID=3073082244261492835&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=3073082244261492835&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=3073082244261492835&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=3073082244261492835&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=3073082244261492835&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=3073082244261492835&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://partyfullofstrangers.blogspot.com/2016/03/white-denim-ha-ha-ha-ha-yeah-ding-me.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Brian%20Eno' rel='tag'>Brian Eno</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/David%20Byrne' rel='tag'>David Byrne</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/JATA' rel='tag'>JATA</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Mass%20Gothic' rel='tag'>Mass Gothic</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Seinabo%20Sey' rel='tag'>Seinabo Sey</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/White%20Denim' rel='tag'>White Denim</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, February 2, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='7489180179278867301'></a>
+<h3 class='post-title entry-title'>
+<a href='http://partyfullofstrangers.blogspot.com/2016/02/january-2016.html'>January 2016</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-7489180179278867301'>
+<strong>Boo Boo Davis - If You Ain't Never Had the Blues</strong><br />
+<br />
+Tatarsky: The right soundtrack for every whiskey nightcap ever.<br />
+<br />
+Mike Tyson: Boo boo ftw. Hot poop fire sauce poop daddy Kane. <br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/V7b1WfcHpbU" width="560"></iframe>
+<br />
+<br />
+<strong>Flume feat. Vince Staples &amp; Kucka - Smoke &amp; Retribution</strong><br />
+<br />
+Adrian Brody:&nbsp; I like listening to it at work when coworkers aren't walking by.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/4fAzM5cI5FM" width="560"></iframe>
+<br />
+<br />
+<strong>Yeasayer - I Am Chemistry</strong><br />
+<br />
+Ding: I was thinking today about how much I hate FLO Rida. And just as much as I hate FLO Rida, I love these guys.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/7XzqCUbiPc4" width="560"></iframe>
+<br />
+<br />
+<strong>Mayer Hawthorne - Cosmic Love</strong><br />
+<br />
+Ding:&nbsp; Sunday PM baby-maker.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/sh8EvnDmwkQ" width="560"></iframe>
+<br />
+<br />
+<strong>Glen Hansard - Ashes to Ashes</strong><br />
+<br />
+Michelangelo: Really feeling this guy's version of Ashes to Ashes.<br />
+<br />
+Devo: "This guy" - come on man, show him a little more respect he's got an Oscar.<br />
+<br />
+Michelangelo: *Really feeling this guy who got an Oscar's version of Ashes to Ashes.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/owigHhURF1w" width="420"></iframe>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>PFOS</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://partyfullofstrangers.blogspot.com/2016/02/january-2016.html' rel='bookmark' title='permanent link'><abbr class='published' title='2016-02-02T22:41:00-08:00'>10:41 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://partyfullofstrangers.blogspot.com/2016/02/january-2016.html#comment-form' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-539894341'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8363199615221712675&postID=7489180179278867301&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=7489180179278867301&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=7489180179278867301&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=7489180179278867301&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=7489180179278867301&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=7489180179278867301&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://partyfullofstrangers.blogspot.com/2016/02/january-2016.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Boo%20Boo%20Davis' rel='tag'>Boo Boo Davis</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Flume' rel='tag'>Flume</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Glen%20Hansard' rel='tag'>Glen Hansard</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Mayer%20Hawthorne' rel='tag'>Mayer Hawthorne</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Vince%20Staples' rel='tag'>Vince Staples</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Yeasayer' rel='tag'>Yeasayer</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Monday, January 4, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='4115463625292906968'></a>
+<h3 class='post-title entry-title'>
+<a href='http://partyfullofstrangers.blogspot.com/2016/01/november-december-2015.html'>November / December 2015</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4115463625292906968'>
+<b>Kaleo - Way Down We Go</b><br />
+<br />
+Mike Tyson: &nbsp;Never heard of them until recently when my old man shot me some links (in bold... size 32 font...pfff typical dad email!). &nbsp;Anyway, they have a very cool sound.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/VlCZ-DakfyE" width="560"></iframe>
+
+<br />
+<b>Freddie Gibbs - Careless</b><br />
+<br />
+Ding: &nbsp;Just in case your favorite George Michael sample is still Faith.<br />
+<br />
+<iframe frameborder="no" height="450" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/233535198&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="100%"></iframe>
+
+<br />
+<b>Miike Snow - Genghis Khan</b><br />
+<br />
+FreyDon: &nbsp;Speaking of Miiiiiiiiike. New track dropped just in time for the freaking weekend. <br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/8uHoww0gpyc" width="560"></iframe>
+
+<br />
+<b>Jon Bellion - All Time Low</b><br />
+<br />
+Kreepler: &nbsp; He working them mullet hands. &nbsp;Rated R with the R, straight Leisure with the L.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/R0BEJEIqAE8" width="560"></iframe>
+
+<br />
+#tbt <b>Graham Nash - Better Days</b><br />
+<br />
+Tatarsky: &nbsp;Happy new year fellas - here's to 2015.<br />
+<br />
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/OdXDETMcNmE" width="560"></iframe>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>PFOS</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://partyfullofstrangers.blogspot.com/2016/01/november-december-2015.html' rel='bookmark' title='permanent link'><abbr class='published' title='2016-01-04T01:25:00-08:00'>1:25 AM</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://partyfullofstrangers.blogspot.com/2016/01/november-december-2015.html#comment-form' onclick=''>0
+comments</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-539894341'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8363199615221712675&postID=4115463625292906968&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='//img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=4115463625292906968&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=4115463625292906968&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=4115463625292906968&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=4115463625292906968&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=8363199615221712675&postID=4115463625292906968&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://partyfullofstrangers.blogspot.com/2016/01/november-december-2015.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Freddie%20Gibbs' rel='tag'>Freddie Gibbs</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Graham%20Nash' rel='tag'>Graham Nash</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Jon%20Bellion' rel='tag'>Jon Bellion</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Kaleo' rel='tag'>Kaleo</a>,
+<a href='http://partyfullofstrangers.blogspot.com/search/label/Miike%20Snow' rel='tag'>Miike Snow</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://partyfullofstrangers.blogspot.com/search?updated-max=2016-01-04T01:25:00-08:00&amp;max-results=3' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://partyfullofstrangers.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://partyfullofstrangers.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-left-1'><div class='widget Profile' data-version='1' id='Profile1'>
+<h2>Contributors</h2>
+<div class='widget-content'>
+<ul>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/14208620411524163250' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Hollering</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/16729872832350149370' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Meat, M.D.</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/14469362547596026699' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Dinger</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/13188026446837967654' style='background-image: url(//www.blogger.com/img/logo-16.png);'>macarella</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/09020069547068277845' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Tom</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/04085030075851801230' style='background-image: url(//www.blogger.com/img/logo-16.png);'>betatayne</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/17710010913200739479' style='background-image: url(//www.blogger.com/img/logo-16.png);'>The Dude</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/06933038692538579735' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Hawv Dog Law Blog</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/13719573097970715020' style='background-image: url(//www.blogger.com/img/logo-16.png);'>FreyDon</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/15437914520333944058' style='background-image: url(//www.blogger.com/img/logo-16.png);'>hebegb</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/00788498439802935987' style='background-image: url(//www.blogger.com/img/logo-16.png);'>B.Pete</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/05580834359320944236' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Kelvin</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/06588360049150251926' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Nigelsounds</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/01131583679372147114' style='background-image: url(//www.blogger.com/img/logo-16.png);'>TheMonkeysEyebrows</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/14219270528681290970' style='background-image: url(//www.blogger.com/img/logo-16.png);'>huntness</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/04018149521679414415' style='background-image: url(//www.blogger.com/img/logo-16.png);'>The White Kendrick Perkins</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/09419746335485621201' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Shorty</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/03467990733877138617' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Dbaugh</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/14953638396229061759' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Kieran Christopher</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/04514171134736794214' style='background-image: url(//www.blogger.com/img/logo-16.png);'>The Prig</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/01843766558621786910' style='background-image: url(//www.blogger.com/img/logo-16.png);'>PFOS</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/13689679417387051328' style='background-image: url(//www.blogger.com/img/logo-16.png);'>whipptsONwkdayz</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/18113185310069431923' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Alex</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/16036034054640308879' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Tatarsky</a></li>
+<li><a class='profile-name-link g-profile' href='https://www.blogger.com/profile/07584460254171594835' style='background-image: url(//www.blogger.com/img/logo-16.png);'>Adrien Brody</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8363199615221712675&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-left-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Followers' data-version='1' id='Followers1'>
+<h2 class='title'>Followers</h2>
+<div class='widget-content'>
+<div id='Followers1-wrapper'>
+<div style='margin-right:2px;'>
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="//www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+          
+          
+            holder.postFeed = "https://www.blogger.com/feeds/8363199615221712675/posts/default";
+          
+          
+          
+            holder.commentFeed = "https://www.blogger.com/feeds/8363199615221712675/comments/default";
+          
+          holder.currentBlogUrl = "http://partyfullofstrangers.blogspot.com/";
+          holder.currentBlogId = "8363199615221712675";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<div id="div-18wchlihwhf8w" style="width: 100%; "></div>
+<script type="text/javascript">
+    var skin = {};
+    skin['FACE_SIZE'] = '32';
+    skin['HEIGHT'] = "260";
+    skin['BORDER_COLOR'] = "transparent";
+    skin['ENDCAP_BG_COLOR'] = "transparent";
+    skin['ENDCAP_TEXT_COLOR'] = "#bbbbbb";
+    skin['ENDCAP_LINK_COLOR'] = "#ff9900";
+    
+    skin['CONTENT_BG_COLOR'] = "transparent";
+    skin['CONTENT_LINK_COLOR'] = "#ff9900";
+    skin['CONTENT_TEXT_COLOR'] = "#bbbbbb";
+    skin['CONTENT_SECONDARY_LINK_COLOR'] = "#ff9900";
+    skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#ffffff";
+    skin['CONTENT_HEADLINE_COLOR'] = "#ffffff";
+    google.friendconnect.container.setParentUrl("/");
+    google.friendconnect.container["renderMembersGadget"](
+    {id: "div-18wchlihwhf8w",
+     height: 260,
+     
+     
+     
+     site: "16549085517958542517",
+     locale: 'en' },
+     skin);
+  </script>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8363199615221712675&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar-left-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers1"));' target='configFollowers1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Gadget' data-version='1' id='Gadget1'>
+There was an error in this gadget
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8363199615221712675&widgetType=Gadget&widgetId=Gadget1&action=editWidget&sectionId=sidebar-left-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Gadget1"));' target='configGadget1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget PageList' data-version='1' id='PageList1'>
+<h2>Pages</h2>
+<div class='widget-content'>
+<ul>
+<li class='selected'><a href='http://partyfullofstrangers.blogspot.com/'>Home</a></li>
+<li><a href='http://partyfullofstrangers.blogspot.com/p/about.html'>About</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8363199615221712675&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList1"));' target='configPageList1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' data-version='1' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/search?updated-min=2016-01-01T00:00:00-08:00&amp;updated-max=2017-01-01T00:00:00-08:00&amp;max-results=3'>
+2016
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2016_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://partyfullofstrangers.blogspot.com/2016/03/white-denim-ha-ha-ha-ha-yeah-ding-me.html'>February 2016</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2016_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2016_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/search?updated-min=2015-01-01T00:00:00-08:00&amp;updated-max=2016-01-01T00:00:00-08:00&amp;max-results=8'>
+2015
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2015_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2015_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2015_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2015_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2015_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2015_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2015_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2015_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/search?updated-min=2014-01-01T00:00:00-08:00&amp;updated-max=2015-01-01T00:00:00-08:00&amp;max-results=10'>
+2014
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2014_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2014_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2014_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2014_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2014_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2014_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2014_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2014_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2014_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/search?updated-min=2013-01-01T00:00:00-08:00&amp;updated-max=2014-01-01T00:00:00-08:00&amp;max-results=13'>
+2013
+</a>
+<span class='post-count' dir='ltr'>(13)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2013_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2013_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2013_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2013_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2013_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2013_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2013_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2013_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2013_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2013_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/search?updated-min=2012-01-01T00:00:00-08:00&amp;updated-max=2013-01-01T00:00:00-08:00&amp;max-results=21'>
+2012
+</a>
+<span class='post-count' dir='ltr'>(21)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2012_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/search?updated-min=2011-01-01T00:00:00-08:00&amp;updated-max=2012-01-01T00:00:00-08:00&amp;max-results=50'>
+2011
+</a>
+<span class='post-count' dir='ltr'>(57)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2011_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2011_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2011_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2011_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(20)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://partyfullofstrangers.blogspot.com/2011_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(17)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8363199615221712675&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Label' data-version='1' id='Label1'>
+<h2>Labels</h2>
+<div class='widget-content list-label-widget-content'>
+<ul>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/%23whitepeopleproblems'>#whitepeopleproblems</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/2%20Chainz'>2 Chainz</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/2011'>2011</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/80s%20rock'>80s rock</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Action%20Bronson'>Action Bronson</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Adele'>Adele</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Adrien%20Brody'>Adrien Brody</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Aloe%20Blacc'>Aloe Blacc</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Alt-J'>Alt-J</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Amadou%20and%20Miriam'>Amadou and Miriam</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Amason'>Amason</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Andrew%20W.K.'>Andrew W.K.</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/ASAP%20Rocky'>ASAP Rocky</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Atoms%20for%20Peace'>Atoms for Peace</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Augustines'>Augustines</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Austin%20City%20Limits'>Austin City Limits</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Autre%20Ne%20Veut'>Autre Ne Veut</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/autumn'>autumn</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Avener'>Avener</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Azealia%20Banks'>Azealia Banks</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Bagpipe%20straw%20drummer%20guy'>Bagpipe straw drummer guy</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Bahamas'>Bahamas</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Bars%20of%20Gold'>Bars of Gold</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Bas'>Bas</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/beatles'>beatles</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Beck'>Beck</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Beirut'>Beirut</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Belle%20and%20Sebastian'>Belle and Sebastian</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Best%20of%202011'>Best of 2011</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Big%20Data'>Big Data</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/BIG%20K.R.I.T.'>BIG K.R.I.T.</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Black%20Sabbath'>Black Sabbath</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Blackbird%20Blackbird'>Blackbird Blackbird</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Blake%20Mills'>Blake Mills</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Blood%20Orange'>Blood Orange</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/bob%20dylan'>bob dylan</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Bob%20Moses'>Bob Moses</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Bon%20Iver'>Bon Iver</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Bonobo'>Bonobo</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Boo%20Boo%20Davis'>Boo Boo Davis</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Borns'>Borns</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Bosley'>Bosley</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Brian%20Eno'>Brian Eno</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Broken%20Bells'>Broken Bells</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Bruce%20Springsteen'>Bruce Springsteen</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Butch%20Walker'>Butch Walker</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/camp'>camp</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Capital%20Childrens%20Choir'>Capital Childrens Choir</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Capital%20Cities'>Capital Cities</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Cat%20Power'>Cat Power</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Caveman'>Caveman</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/cee%20lo%20green'>cee lo green</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Chairlift'>Chairlift</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Chet%20Faker'>Chet Faker</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Chicago'>Chicago</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Childish%20Gambino'>Childish Gambino</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Chromatics'>Chromatics</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Coachella'>Coachella</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Communions'>Communions</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Connor%20Youngblood'>Connor Youngblood</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Cut%20Copy'>Cut Copy</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Darkside'>Darkside</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/David%20Byrne'>David Byrne</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Days%20of%20the%20New'>Days of the New</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Delta%20Spirit'>Delta Spirit</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Deyardmond%20Edison'>Deyardmond Edison</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/DFA%20Records'>DFA Records</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Digital%20Tape%20Machine'>Digital Tape Machine</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Dillon%20Francis'>Dillon Francis</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Dinosaur%20Feathers'>Dinosaur Feathers</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Dinosaur%20Jr'>Dinosaur Jr</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Diplo'>Diplo</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/disaster%20playlist'>disaster playlist</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Disclosure'>Disclosure</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/DJ%20Snake'>DJ Snake</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/donald%20glover'>donald glover</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Dotan'>Dotan</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Dream%20Love'>Dream Love</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Dubstep'>Dubstep</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Ducktails'>Ducktails</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Duke%20Dumont'>Duke Dumont</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Earl%20Sweatshirt'>Earl Sweatshirt</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Elbow'>Elbow</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Electric%20Guest'>Electric Guest</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/electronic'>electronic</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/electronica'>electronica</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Ella%20Eyre'>Ella Eyre</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Empire%20of%20the%20Sun'>Empire of the Sun</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Eric%20Clapton'>Eric Clapton</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Escort'>Escort</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/experimental'>experimental</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Fantastic%20Negrito'>Fantastic Negrito</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Fitz%20and%20the%20Tantrums'>Fitz and the Tantrums</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Fletcher'>Fletcher</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Flume'>Flume</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Foo%20Fighters'>Foo Fighters</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Frank%20Ocean'>Frank Ocean</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Freddie%20Gibbs'>Freddie Gibbs</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Funk'>Funk</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Future'>Future</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Gaoler%27s%20Daughter'>Gaoler&#39;s Daughter</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Gary%20Clarke%20Jr.'>Gary Clarke Jr.</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Generationals'>Generationals</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/george%20harrison'>george harrison</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/getting%20the%20led%20out'>getting the led out</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Glen%20Hansard'>Glen Hansard</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/gold%20panda'>gold panda</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Goodnight%20Irene'>Goodnight Irene</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/gotye'>gotye</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Graham%20Nash'>Graham Nash</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Great%20Good%20Fine%20OK'>Great Good Fine OK</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Greg%20Kihn%20Band'>Greg Kihn Band</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Grimes'>Grimes</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Haerts'>Haerts</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Haim'>Haim</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/HBO'>HBO</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Hip-Hop'>Hip-Hop</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Hippie%20Sabotage'>Hippie Sabotage</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Holy%20Ghost'>Holy Ghost</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/homonyms'>homonyms</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Hot%20Chip'>Hot Chip</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Hozier'>Hozier</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/hurricane%20irene'>hurricane irene</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Indie%20bro'>Indie bro</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Is%20Tropical'>Is Tropical</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/J%20Roddy%20Walston'>J Roddy Walston</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Jacques%20Greene'>Jacques Greene</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Jagwar%20Ma'>Jagwar Ma</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/jam'>jam</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Jamestown%20Revival'>Jamestown Revival</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Jamie%20xx'>Jamie xx</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Janet%20Jackson'>Janet Jackson</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Jarryd%20James'>Jarryd James</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/JATA'>JATA</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Jerry%20Garcia'>Jerry Garcia</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Jerry%20Lee%20Lewis'>Jerry Lee Lewis</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Joey%20Bada%24%24'>Joey Bada$$</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/John%20Grant'>John Grant</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Johnny%20Cash'>Johnny Cash</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Jon%20Bellion'>Jon Bellion</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Joywave'>Joywave</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Junip'>Junip</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Junius%20Meyvant'>Junius Meyvant</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Jurassic%205'>Jurassic 5</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Justice'>Justice</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Justin%20Vernon'>Justin Vernon</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Kaleo'>Kaleo</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Kanye%20West'>Kanye West</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Kavinsky'>Kavinsky</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Kendrick%20Lamar'>Kendrick Lamar</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/kimbra'>kimbra</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/King%20Tuff'>King Tuff</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Kingfish'>Kingfish</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Kishi%20Bashi'>Kishi Bashi</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Kitten'>Kitten</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Klingande'>Klingande</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Kurt%20Vile'>Kurt Vile</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Lady'>Lady</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Lambchop'>Lambchop</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Lana%20Del%20Rey'>Lana Del Rey</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Lead%20Belly'>Lead Belly</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Lee%20Fields'>Lee Fields</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Liars'>Liars</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Life%20fantastic'>Life fantastic</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Lil%20B'>Lil B</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Lil%20Jon'>Lil Jon</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Lil%20Wayne'>Lil Wayne</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Little%20Dragon'>Little Dragon</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Logic'>Logic</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/London%20Grammar'>London Grammar</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Lotus%20Plaza'>Lotus Plaza</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/M%2BA'>M+A</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/MacDeMarco'>MacDeMarco</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Madchester'>Madchester</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Made%20in%20Heights'>Made in Heights</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Majical%20Cloudz'>Majical Cloudz</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Major%20Lazer'>Major Lazer</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/making%20mirrors'>making mirrors</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Man%20man'>Man man</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Map%20of%20Africa'>Map of Africa</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Mapei'>Mapei</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Marian%20Hill'>Marian Hill</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Maroon%205'>Maroon 5</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Mass%20Gothic'>Mass Gothic</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Matthew%20E.%20White'>Matthew E. White</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Mayer%20Hawthorne'>Mayer Hawthorne</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Mean%20Lady'>Mean Lady</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/MeatMD'>MeatMD</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Megafaun'>Megafaun</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Miami%20Horror'>Miami Horror</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Michael%20Jackson'>Michael Jackson</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Michael%20McDonald'>Michael McDonald</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Mick%20Jones'>Mick Jones</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Mick%20Smiley'>Mick Smiley</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Miike%20Snow'>Miike Snow</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Miles%20Fisher'>Miles Fisher</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/MJ%20gone'>MJ gone</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/moonwalk'>moonwalk</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Motopony'>Motopony</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Movement'>Movement</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Mr.%20Little%20Jeans'>Mr. Little Jeans</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/MS%20MR'>MS MR</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/MUTEMATH'>MUTEMATH</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Nas'>Nas</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Neon%20Snake%20Pits'>Neon Snake Pits</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Neutral%20Milk%20Hotel'>Neutral Milk Hotel</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/next%20level%20daychanger'>next level daychanger</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Nicolas%20Jaar'>Nicolas Jaar</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/no%20homo'>no homo</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/ON%20AN%20ON'>ON AN ON</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Orbital'>Orbital</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Other%20Lives'>Other Lives</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Palma%20Violets'>Palma Violets</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Panama'>Panama</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Passion%20Pit'>Passion Pit</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Paul%20Simonon'>Paul Simonon</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/peter%20gabriel'>peter gabriel</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Phantogram'>Phantogram</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Pharrell'>Pharrell</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Phoebe%20Killdeer'>Phoebe Killdeer</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Pickwick'>Pickwick</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Pokey%20LaFarge'>Pokey LaFarge</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Polica'>Polica</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Pond'>Pond</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/pop'>pop</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Portugal.%20The%20Man'>Portugal. The Man</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Pretty%20Lights'>Pretty Lights</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Prig'>Prig</a>
+<span dir='ltr'>(12)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/PSA'>PSA</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Public%20Service%20Broadcasting'>Public Service Broadcasting</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/R%20and%20B'>R and B</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/RAC'>RAC</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Rainbow%20Arabia'>Rainbow Arabia</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Rainbow%20Kitten%20Surprise'>Rainbow Kitten Surprise</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Raleigh%20Ritchie'>Raleigh Ritchie</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Raury'>Raury</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Rebecca%20and%20Fiona'>Rebecca and Fiona</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/reggae'>reggae</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/reptar'>reptar</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Ringo%20Starr'>Ringo Starr</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Roadkill%20Ghost%20Choir'>Roadkill Ghost Choir</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Robert%20Downey%20Jr.'>Robert Downey Jr.</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Rock%20Star'>Rock Star</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Royal%20Concept'>Royal Concept</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Run%20the%20Jewels'>Run the Jewels</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/RxGibbs'>RxGibbs</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Ryan%20Hemsworth'>Ryan Hemsworth</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Ryan%20Macklemore'>Ryan Macklemore</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Sam%20and%20the%20Womp'>Sam and the Womp</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Sam%20Lachow'>Sam Lachow</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Sam%20Smith'>Sam Smith</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Santa%20Fe'>Santa Fe</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/SBTRKT'>SBTRKT</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/scorpions'>scorpions</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Seinabo%20Sey'>Seinabo Sey</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Sheepdogs'>Sheepdogs</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Shirt'>Shirt</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/shoegaze'>shoegaze</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Skrillex'>Skrillex</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Sky%20Ferriera'>Sky Ferriera</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Skylar%20Spence'>Skylar Spence</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/SOHN'>SOHN</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Son%20Little'>Son Little</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Soul'>Soul</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Southern%20Shores'>Southern Shores</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/St.%20Lucia'>St. Lucia</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Sting'>Sting</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Stromae'>Stromae</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Sturgill%20Simpson'>Sturgill Simpson</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Summer%20Heart'>Summer Heart</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Sweatshop%20Union'>Sweatshop Union</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Talking%20Heads'>Talking Heads</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tame%20Impala'>Tame Impala</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tanlines'>Tanlines</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tech%20N9ne'>Tech N9ne</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Techa%20Nina'>Techa Nina</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Teen%20Daze'>Teen Daze</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tei%20Shi'>Tei Shi</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tennis'>Tennis</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tha%20Carter%204'>Tha Carter 4</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Thao%20%26%20The%20Get%20Down%20Stay%20Down'>Thao &amp; The Get Down Stay Down</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/the%20drums'>the drums</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20Growlers'>The Growlers</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20Happy%20Mondays'>The Happy Mondays</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20James%20Hunter%20Six'>The James Hunter Six</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20Kite%20String%20Tangle'>The Kite String Tangle</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/the%20Police'>the Police</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20rapture'>The rapture</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20Rip%20Tide'>The Rip Tide</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20Shoes'>The Shoes</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20Stone%20Roses'>The Stone Roses</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20Underachievers'>The Underachievers</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20Vliets'>The Vliets</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20War%20on%20Drugs'>The War on Drugs</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/The%20Weeknd'>The Weeknd</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Thee%20Oh%20Sees'>Thee Oh Sees</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Theophilus%20London'>Theophilus London</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/throwback%20thursday'>throwback thursday</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Thundercat'>Thundercat</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tiga'>Tiga</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tiger%20Love'>Tiger Love</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/TOBACCO'>TOBACCO</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Todd%20Terje'>Todd Terje</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tom%20Waits'>Tom Waits</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Torche'>Torche</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tourist'>Tourist</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Trampled%20by%20Turtles'>Trampled by Turtles</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Twin%20Shadow'>Twin Shadow</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Tyler%20the%20Creator'>Tyler the Creator</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Umphreys'>Umphreys</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Vampire%20Weekend'>Vampire Weekend</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Van%20Stee'>Van Stee</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Vennu%20Mallesh'>Vennu Mallesh</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Vetiver'>Vetiver</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Vic%20Mensa'>Vic Mensa</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Viceroy'>Viceroy</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Vince%20Staples'>Vince Staples</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Wampire'>Wampire</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Warpaint'>Warpaint</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/whipptsONwkdayz'>whipptsONwkdayz</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/White%20Denim'>White Denim</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/White%20Panda'>White Panda</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Wild%20Beasts'>Wild Beasts</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Wildcat%21%20Wildcat%21'>Wildcat! Wildcat!</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Will%20Butler'>Will Butler</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Willis%20Earl%20Beal'>Willis Earl Beal</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Willow%20Smith'>Willow Smith</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Wiz%20Khalifa'>Wiz Khalifa</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Wu%20Lyf'>Wu Lyf</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/xx'>xx</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/yacht%20rock'>yacht rock</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Yeasayer'>Yeasayer</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Yelle'>Yelle</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Yo%20La%20Tengo'>Yo La Tengo</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Young%20%26%20Sick'>Young &amp; Sick</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Young%20Fathers'>Young Fathers</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Zac%20Brown%20Band'>Zac Brown Band</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Zeds%20Dead'>Zeds Dead</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Zeus'>Zeus</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://partyfullofstrangers.blogspot.com/search/label/Zoellerilla'>Zoellerilla</a>
+<span dir='ltr'>(1)</span>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8363199615221712675&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3'><div class='widget Attribution' data-version='1' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Travel template. Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8363199615221712675&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='//img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/1976504288-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '8363199615221712675';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8363199615221712675','//partyfullofstrangers.blogspot.com/','8363199615221712675');
+_WidgetManager._SetDataContext([{'name': 'options', 'data': {}}, {'name': 'blog', 'data': {'blogId': '8363199615221712675', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Party Full of Strangers', 'pageType': 'index', 'url': 'http://partyfullofstrangers.blogspot.com/', 'canonicalUrl': 'http://partyfullofstrangers.blogspot.com/', 'homepageUrl': 'http://partyfullofstrangers.blogspot.com/', 'canonicalHomepageUrl': 'http://partyfullofstrangers.blogspot.com/', 'blogspotFaviconUrl': 'http://partyfullofstrangers.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'Party Full of Strangers', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Party Full of Strangers - Atom\42 href\75\42http://partyfullofstrangers.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Party Full of Strangers - RSS\42 href\75\42http://partyfullofstrangers.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Party Full of Strangers - Atom\42 href\75\42https://www.blogger.com/feeds/8363199615221712675/posts/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42https://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://partyfullofstrangers.blogspot.com/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { (function(){function c(a){this.t\75{};this.tick\75function(a,c,b){var d\75void 0!\75b?b:(new Date).getTime();this.t[a]\75[d,c];if(void 0\75\75b)try{window.console.timeStamp(\42CSI/\42+a)}catch(e){}};this.tick(\42start\42,null,a)}var a;window.performance\46\46(a\75window.performance.timing);var h\75a?new c(a.responseStart):new c;window.jstiming\75{Timer:c,load:h};if(a){var b\75a.navigationStart,e\75a.responseStart;0\74b\46\46e\76\75b\46\46(window.jstiming.srt\75e-b)}if(a){var d\75window.jstiming.load;0\74b\46\46e\76\75b\46\46(d.tick(\42_wtsrt\42,void 0,b),d.tick(\42wtsrt_\42,\n\42_wtsrt\42,e),d.tick(\42tbsd_\42,\42wtsrt_\42))}try{a\75null,window.chrome\46\46window.chrome.csi\46\46(a\75Math.floor(window.chrome.csi().pageT),d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.chrome.csi().startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),null\75\75a\46\46window.gtbExternal\46\46(a\75window.gtbExternal.pageT()),null\75\75a\46\46window.external\46\46(a\75window.external.pageT,d\46\0460\74b\46\46(d.tick(\42_tbnd\42,void 0,window.external.startE),d.tick(\42tbnd_\42,\42_tbnd\42,b))),a\46\46(window.jstiming.pt\75a)}catch(k){}})();window.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46window.jstiming.load.tick(\42aft\42)};var f\75!1;function g(){f||(f\75!0,window.jstiming.load.tick(\42firstScrollTime\42))}window.addEventListener?window.addEventListener(\42scroll\42,g,!1):window.attachEvent(\42onscroll\42,g);\n })();\74/script\076', 'mobileHeadScript': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/3512845138-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/71225c15c406a841', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'features', 'data': {'widgetVisibility': true}}, {'name': 'messages', 'data': {'adsGoHere': 'Ads go here', 'archive': 'Archive', 'authorSaid': '%1 said...', 'authorSaidWithLink': '\74a href\75\42%2\42 rel\75\42nofollow\42\76%1\74/a\76 said...', 'blogArchive': 'Blog Archive', 'by': 'By', 'byAuthor': 'By %1', 'byAuthorLink': 'By \74a href\75\42%2\42\76%1\74/a\076', 'configurationRequired': 'Configuration required', 'deleteBacklink': 'Delete Backlink', 'deleteComment': 'Delete Comment', 'edit': 'Edit', 'emailAddress': 'Email Address', 'getEmailNotifications': 'Get email notifications', 'hidden': 'Hidden', 'keepReading': 'Keep reading', 'labels': 'Labels', 'loadMorePosts': 'Load more posts', 'loading': 'Loading...', 'myBlogList': 'My Blog List', 'myFavoriteSites': 'My favorite sites', 'newer': 'Newer', 'newerPosts': 'Newer Posts', 'newest': 'Newest', 'noResultsFound': 'No results found', 'noTitle': 'No title', 'numberOfComments': '{numComments, plural, \0750 {No comments} \0751 {1 comment} other {# comments}}', 'older': 'Older', 'olderPosts': 'Older Posts', 'oldest': 'Oldest', 'onlyTeamMembersCanComment': 'Note: Only a member of this blog may post a comment.', 'popularPosts': 'Popular Posts', 'popularPostsFromThisBlog': 'Popular posts from this blog', 'postAComment': 'Post a Comment', 'postedBy': 'Posted by', 'postedByAuthor': 'Posted by %1', 'postedByAuthorLink': 'Posted by \74a href\75\42%2\42\76%1\74/a\076', 'readMore': 'Read more', 'reportAbuse': 'Report Abuse', 'search': 'Search', 'searchBlog': 'Search blog', 'share': 'Share', 'showAll': 'Show all', 'showLess': 'Show less', 'showMore': 'Show more', 'someOfMyFavoriteSites': 'Some of my favorite sites', 'subscribe': 'Subscribe', 'subscribeTo': 'Subscribe to:', 'subscribeToThisBlog': 'Subscribe to this blog', 'theresNothingHere': 'There\47s nothing here!', 'viewAll': 'View all', 'visible': 'Visible', 'visitProfile': 'Visit profile', 'widgetNotAvailableInPreview': 'This content is not available in blog preview.', 'widgetNotAvailableOnHttps': 'This content is not yet available over encrypted connections.'}}, {'name': 'skin', 'data': {'vars': {'link_color': '#ff9900', 'tabs_text_color': '#ffffff', 'content_imageBorder_top_space': '0', 'widget_link_visited_color': '#b87209', 'body_background': '#539bcd url(http://1.bp.blogspot.com/-nvk7EhoFbQ8/TlQJd4oL44I/AAAAAAAAAAo/aChKeUlLHvo/s0/171251_10100225157958527_8616451_61359795_4155605_o.jpg) repeat fixed bottom center', 'content_imageBorder_top': 'none', 'tabs_background_gradient': 'url(http://www.blogblog.com/1kt/travel/bg_black_50.png)', 'header_font': 'normal normal 60px \47Trebuchet MS\47,Trebuchet,sans-serif', 'startSide': 'left', 'tabs_font': 'normal bold 16px \47Trebuchet MS\47,Trebuchet,sans-serif', 'widget_title_text_color': '#ffffff', 'widget_title_font': 'normal bold 14px \47Trebuchet MS\47,Trebuchet,sans-serif', 'tabs_selected_background_color': 'transparent', 'post_background_url': 'none', 'description_text_color': '#bbbbbb', 'post_title_font': 'normal bold 20px \47Trebuchet MS\47,Trebuchet,sans-serif', 'post_title_text_color': '#ffffff', 'content_margin': '20px', 'body_text_color': '#bbbbbb', 'widget_text_color': '#bbbbbb', 'content_padding': '20px', 'content_posts_padding': '10px', 'mobile_background_overlay': 'transparent none repeat scroll top left', 'endSide': 'right', 'tabs_background_color': 'transparent', 'content_background_color': 'transparent', 'body_background_color': '#539bcd', 'header_text_color': '#ffffff', 'content_background': 'transparent url(http://blogblog.com/1kt/travel/bg_black_70.png) repeat scroll top left', 'tabs_selected_background_gradient': 'url(http://www.blogblog.com/1kt/travel/bg_black_50.png)', 'comments_background': 'transparent url(http://blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center', 'widget_alternate_text_color': '#ffffff', 'widget_link_color': '#bbbbbb', 'link_visited_color': '#b87209', 'body_font': 'normal normal 13px \47Trebuchet MS\47,Trebuchet,sans-serif', 'footer_background_gradient': 'none', 'link_hover_color': '#ff9900', 'keycolor': '#539bcd', 'widget_outer_background_gradient': 'url(http://www.blogblog.com/1kt/travel/bg_black_50.png)', 'widget_border_bevel_color': 'transparent', 'mobile_button_color': '#ffffff', 'tabs_selected_text_color': '#ffffff', 'date_text_color': '#bbbbbb', 'post_background_color': 'transparent', 'widget_font': 'normal normal 13px \47Trebuchet MS\47,Trebuchet,sans-serif', 'date_font': 'normal normal 14px \47Trebuchet MS\47,Trebuchet,sans-serif', 'widget_outer_background_color': 'transparent'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/503936933-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/306752634-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-left-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar-left-1', null, document.getElementById('Followers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_GadgetView', new _WidgetInfo('Gadget1', 'sidebar-left-1', null, document.getElementById('Gadget1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'sidebar-right-1', null, document.getElementById('PageList1'), {'title': 'Pages', 'links': [{'href': 'http://partyfullofstrangers.blogspot.com/', 'title': 'Home', 'isCurrentPage': true}, {'href': 'http://partyfullofstrangers.blogspot.com/p/about.html', 'title': 'About', 'isCurrentPage': false, 'id': '7237599684298260736'}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading...'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar-right-1', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'Travel template. Powered by \74a href\75\47https://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+</script>
+</body>
+</html>
