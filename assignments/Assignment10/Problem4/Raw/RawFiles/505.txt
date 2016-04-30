@@ -1,0 +1,2794 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie8" ng-app="robloxApp"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+<head>
+    <!-- MachineID: WEB105 -->
+    <title>The ROBLOX Live Hangout - ROBLOX</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,requiresActiveX=true" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="ROBLOX Corporation" />
+    <meta name="description" content="ROBLOX is powered by a growing community of over 300,000 creators who produce an infinite variety of highly immersive experiences. These experiences range from 3D multiplayer games and competitions, to interactive adventures where friends can take on new personas imagining what it would be like to be a dinosaur, a miner in a quarry or an astronaut on a space exploration." />
+    <meta name="keywords" content="free games, online games, building games, virtual worlds, free mmo, gaming cloud, physics engine" />
+    <meta name="apple-itunes-app" content="app-id=431946152" />
+    <meta name="google-site-verification" content="KjufnQUaDv5nXJogvDMey4G-Kb7ceUVxTdzcMaP9pCY" />
+
+    <link href="http://images.rbxcdn.com/7aee41db80c1071f60377c3575a0ed87.ico" rel="icon"/>
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600,700" rel="stylesheet" type="text/css">
+
+        <link rel="canonical" href="https://www.roblox.com/games/288000202/The-ROBLOX-Live-Hangout" />
+    
+    
+<link rel='stylesheet' href='http://static.rbxcdn.com/css/leanbase___22743a79bbf0ab9368189f0daf7a1f6b_m.css/fetch' />
+
+
+    
+<link rel='stylesheet' href='http://static.rbxcdn.com/css/page___bb5981e059382561b98b131bc63eb2a4_m.css/fetch' />
+
+    
+    
+    
+    <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/4.0/1/MicrosoftAjax.js'></script>
+<script type='text/javascript'>window.Sys || document.write("<script type='text/javascript' src='/js/Microsoft/MicrosoftAjax.js'><\/script>")</script>
+<script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js'></script>
+<script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-1.11.1.js'><\/script>")</script>
+<script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js'></script>
+<script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-migrate-1.2.1.js'><\/script>")</script>
+
+
+    
+    <script type='text/javascript' src='http://js.rbxcdn.com/3546f3053a4d1804430cfda9ebfe98f5.js'></script>
+
+
+    
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <link href="http://images.rbxcdn.com/7aee41db80c1071f60377c3575a0ed87.ico" rel="icon" />
+
+<script type="text/javascript">
+    var Roblox = Roblox || {};
+    Roblox.AdsHelper = Roblox.AdsHelper || {};
+    Roblox.AdsLibrary = Roblox.AdsLibrary || {};
+
+    Roblox.AdsHelper.toggleAdsSlot = function (slotId, GPTRandomSlotIdentifier) {
+        var gutterAdsEnabled = false;
+        if (gutterAdsEnabled) {
+            googletag.display(GPTRandomSlotIdentifier);
+            return;
+        }
+        
+        if (typeof slotId !== 'undefined' && slotId && slotId.length > 0) {
+            var slotElm = $("#"+slotId);
+            if (slotElm.is(":visible")) {
+                googletag.display(GPTRandomSlotIdentifier);
+            }else {
+                var adParam = Roblox.AdsLibrary.adsParameters[slotId];
+                if (adParam) {
+                    adParam.template = slotElm.html();
+                    slotElm.empty();
+                }
+            }
+        }
+    }
+</script><script type="text/javascript">
+    $(function () {
+        Roblox.JSErrorTracker.initialize({ 'suppressConsoleError': true});
+    });
+</script>    <script type="text/javascript">
+        $(function () {
+            RobloxEventManager.triggerEvent('rbx_evt_newuser', {});
+        });
+
+    </script>
+
+
+
+        <meta property="al:ios:url" content="robloxmobile://placeID=288000202" />
+        <meta property="al:ios:app_store_id" content="431946152" />
+        <meta property="al:ios:app_name" content="Roblox Mobile" />
+        <meta property="al:web:should_fallback" content="false" />
+        
+    <meta property="og:site_name" content="ROBLOX" />
+    <meta property="og:title" content="The ROBLOX Live Hangout" />
+    <meta property="og:type" content="game" />
+    <meta property="og:url" content="https://www.roblox.com/games/288000202/The-ROBLOX-Live-Hangout" />
+    <meta property="og:description" content="Welcome to the ROBLOX Live Hangout. 
+
+This is where ROBLOX used to end there live streams.
+
+Built by TigersInTheBlox"/>
+    <meta property="og:image" content="http://t2.rbxcdn.com/b815e81d0889a6d9af1d103b6047ed17" />
+    <meta property="fb:app_id" content="190191627665278">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ROBLOX">
+    <meta name="twitter:title" content="The ROBLOX Live Hangout">
+    <meta name="twitter:description" content="Welcome to the ROBLOX Live Hangout. 
+
+This is where ROBLOX used to end there live streams.
+
+Built by TigersInTheBlox">
+    <meta name="twitter:creator">
+    <meta name=twitter:image1 content="http://t2.rbxcdn.com/b815e81d0889a6d9af1d103b6047ed17" />
+    <meta name="twitter:app:country" content="US">
+    <meta name="twitter:app:name:iphone" content="ROBLOX Mobile">
+    <meta name="twitter:app:id:iphone" content="431946152">
+    <meta name="twitter:app:url:iphone" content="robloxmobile://placeID=288000202">
+    <meta name="twitter:app:name:ipad" content="ROBLOX Mobile">
+    <meta name="twitter:app:id:ipad" content="431946152">
+    <meta name="twitter:app:url:ipad" content="robloxmobile://placeID=288000202">
+    <meta name="twitter:app:name:googleplay" content="ROBLOX">
+    <meta name="twitter:app:id:googleplay" content="com.roblox.client">
+    <meta name="twitter:app:url:googleplay" content="robloxmobile://placeID=288000202"/>
+
+    
+
+
+    
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+
+            window.GoogleAnalyticsDisableRoblox2 = true;
+        _gaq.push(['b._setAccount', 'UA-486632-1']);
+        _gaq.push(['b._setCampSourceKey', 'rbx_source']);
+        _gaq.push(['b._setCampMediumKey', 'rbx_medium']);
+        _gaq.push(['b._setCampContentKey', 'rbx_campaign']);
+
+            _gaq.push(['b._setDomainName', 'roblox.com']);
+
+            _gaq.push(['b._setCustomVar', 1, 'Visitor', 'Anonymous', 2]);
+                _gaq.push(['b._setPageGroup', 1, 'GameDetail']);
+                
+                    var eventsArr = ['b._setCustomVar', 2, 'FirstTimeVisitor', 'true', 3];
+                    _gaq.push(eventsArr);
+                    $(function() {
+                        if(GoogleAnalyticsEvents) {
+                            GoogleAnalyticsEvents.Log(eventsArr);
+                        }
+                    });
+                
+    _gaq.push(['b._trackPageview']);
+
+
+        _gaq.push(['c._setAccount', 'UA-26810151-2']);
+            _gaq.push(['c._setDomainName', 'roblox.com']);
+                    _gaq.push(['c._setPageGroup', 1, 'GameDetail']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    
+            <script type="text/javascript">
+            if (Roblox && Roblox.EventStream) {
+                Roblox.EventStream.Init("//ecsv2.roblox.com/www/e.png",
+                    "//ecsv2.roblox.com/www/e.png",
+                    "//ecsv2.roblox.com/pe?t=studio",
+                    "//ecsv2.roblox.com/pe?t=diagnostic");
+            }
+        </script>
+
+
+
+<script type="text/javascript">
+    if (Roblox && Roblox.PageHeartbeatEvent) {
+        Roblox.PageHeartbeatEvent.Init([2,8,20,60]);
+    }
+</script>        <script type="text/javascript">
+if (typeof(Roblox) === "undefined") { Roblox = {}; }
+Roblox.Endpoints = Roblox.Endpoints || {};
+Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
+Roblox.Endpoints.Urls['/api/item.ashx'] = 'http://www.roblox.com/api/item.ashx';
+Roblox.Endpoints.Urls['/asset/'] = 'http://assetgame.roblox.com/asset/';
+Roblox.Endpoints.Urls['/client-status/set'] = 'http://www.roblox.com/client-status/set';
+Roblox.Endpoints.Urls['/client-status'] = 'http://www.roblox.com/client-status';
+Roblox.Endpoints.Urls['/game/'] = 'http://assetgame.roblox.com/game/';
+Roblox.Endpoints.Urls['/game/edit.ashx'] = 'http://assetgame.roblox.com/game/edit.ashx';
+Roblox.Endpoints.Urls['/game/getauthticket'] = 'http://assetgame.roblox.com/game/getauthticket';
+Roblox.Endpoints.Urls['/game/placelauncher.ashx'] = 'http://assetgame.roblox.com/game/placelauncher.ashx';
+Roblox.Endpoints.Urls['/game/preloader'] = 'http://assetgame.roblox.com/game/preloader';
+Roblox.Endpoints.Urls['/game/report-stats'] = 'http://assetgame.roblox.com/game/report-stats';
+Roblox.Endpoints.Urls['/game/report-event'] = 'http://assetgame.roblox.com/game/report-event';
+Roblox.Endpoints.Urls['/game/updateprerollcount'] = 'http://assetgame.roblox.com/game/updateprerollcount';
+Roblox.Endpoints.Urls['/login/default.aspx'] = 'https://www.roblox.com/login/default.aspx';
+Roblox.Endpoints.Urls['/my/character.aspx'] = 'https://www.roblox.com/my/character.aspx';
+Roblox.Endpoints.Urls['/my/money.aspx'] = 'https://www.roblox.com/my/money.aspx';
+Roblox.Endpoints.Urls['/chat/chat'] = 'https://misc.roblox.com/chat/chat';
+Roblox.Endpoints.Urls['/presence/users'] = 'http://www.roblox.com/presence/users';
+Roblox.Endpoints.Urls['/presence/user'] = 'http://www.roblox.com/presence/user';
+Roblox.Endpoints.Urls['/friends/list'] = 'http://www.roblox.com/friends/list';
+Roblox.Endpoints.Urls['/navigation/getCount'] = 'http://www.roblox.com/navigation/getCount';
+Roblox.Endpoints.Urls['/catalog/browse.aspx'] = 'https://www.roblox.com/catalog/browse.aspx';
+Roblox.Endpoints.Urls['/catalog/html'] = 'https://search.roblox.com/catalog/html';
+Roblox.Endpoints.Urls['/catalog/json'] = 'https://search.roblox.com/catalog/json';
+Roblox.Endpoints.Urls['/catalog/contents'] = 'https://search.roblox.com/catalog/contents';
+Roblox.Endpoints.Urls['/catalog/lists.aspx'] = 'https://search.roblox.com/catalog/lists.aspx';
+Roblox.Endpoints.Urls['/asset-hash-thumbnail/image'] = 'https://assetgame.roblox.com/asset-hash-thumbnail/image';
+Roblox.Endpoints.Urls['/asset-hash-thumbnail/json'] = 'https://assetgame.roblox.com/asset-hash-thumbnail/json';
+Roblox.Endpoints.Urls['/asset-thumbnail-3d/json'] = 'http://assetgame.roblox.com/asset-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/asset-thumbnail/image'] = 'http://assetgame.roblox.com/asset-thumbnail/image';
+Roblox.Endpoints.Urls['/asset-thumbnail/json'] = 'http://assetgame.roblox.com/asset-thumbnail/json';
+Roblox.Endpoints.Urls['/asset-thumbnail/url'] = 'http://assetgame.roblox.com/asset-thumbnail/url';
+Roblox.Endpoints.Urls['/asset/request-thumbnail-fix'] = 'http://assetgame.roblox.com/asset/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json'] = 'http://www.roblox.com/avatar-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/avatar-thumbnail/image'] = 'http://www.roblox.com/avatar-thumbnail/image';
+Roblox.Endpoints.Urls['/avatar-thumbnail/json'] = 'http://www.roblox.com/avatar-thumbnail/json';
+Roblox.Endpoints.Urls['/avatar-thumbnails'] = 'http://www.roblox.com/avatar-thumbnails';
+Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix'] = 'https://www.roblox.com/avatar/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/bust-thumbnail/json'] = 'https://www.roblox.com/bust-thumbnail/json';
+Roblox.Endpoints.Urls['/group-thumbnails'] = 'https://www.roblox.com/group-thumbnails';
+Roblox.Endpoints.Urls['/groups/getprimarygroupinfo.ashx'] = 'https://www.roblox.com/groups/getprimarygroupinfo.ashx';
+Roblox.Endpoints.Urls['/headshot-thumbnail/json'] = 'https://www.roblox.com/headshot-thumbnail/json';
+Roblox.Endpoints.Urls['/item-thumbnails'] = 'https://www.roblox.com/item-thumbnails';
+Roblox.Endpoints.Urls['/outfit-thumbnail/json'] = 'https://www.roblox.com/outfit-thumbnail/json';
+Roblox.Endpoints.Urls['/place-thumbnails'] = 'https://www.roblox.com/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/asset/'] = 'https://www.roblox.com/thumbnail/asset/';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshot'] = 'http://www.roblox.com/thumbnail/avatar-headshot';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshots'] = 'http://www.roblox.com/thumbnail/avatar-headshots';
+Roblox.Endpoints.Urls['/thumbnail/user-avatar'] = 'https://www.roblox.com/thumbnail/user-avatar';
+Roblox.Endpoints.Urls['/thumbnail/resolve-hash'] = 'https://www.roblox.com/thumbnail/resolve-hash';
+Roblox.Endpoints.Urls['/thumbnail/place'] = 'http://www.roblox.com/thumbnail/place';
+Roblox.Endpoints.Urls['/thumbnail/get-asset-media'] = 'https://www.roblox.com/thumbnail/get-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/remove-asset-media'] = 'https://www.roblox.com/thumbnail/remove-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order'] = 'https://www.roblox.com/thumbnail/set-asset-media-sort-order';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails'] = 'http://www.roblox.com/thumbnail/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial'] = 'http://www.roblox.com/thumbnail/place-thumbnails-partial';
+Roblox.Endpoints.Urls['/thumbnail_holder/g'] = 'https://www.roblox.com/thumbnail_holder/g';
+Roblox.Endpoints.Urls['/users/{id}/profile'] = 'https://www.roblox.com/users/{id}/profile';
+Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'https://www.roblox.com/service-workers/push-notifications';
+Roblox.Endpoints.addCrossDomainOptionsToAllRequests = true;
+</script>
+
+    <script type="text/javascript">
+if (typeof(Roblox) === "undefined") { Roblox = {}; }
+Roblox.Endpoints = Roblox.Endpoints || {};
+Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
+</script>
+
+</head>
+<body id="rbx-body"
+      class=""
+      data-performance-relative-value="0.5"
+      data-internal-page-name="GameDetail"
+      data-send-event-percentage="0.01">
+    <div id="roblox-linkify" data-enabled="true" data-regex="(https?\:\/\/)?(?:www\.)?([a-z0-9\-]{2,}\.)*(((m|de|www|web|api|blog|wiki|help|corp|polls|bloxcon|developer|devforum|forum)\.roblox\.com|robloxlabs\.com)|(www\.shoproblox\.com))((\/[A-Za-z0-9-+&amp;@#\/%?=~_|!:,.;]*)|(\b|\s))" data-regex-flags="gm"></div>
+
+<div id="image-retry-data"
+     data-image-retry-max-times="10"
+     data-image-retry-timer="1500">
+</div>
+<div id="http-retry-data"
+     data-http-retry-max-timeout="8000"
+     data-http-retry-base-timeout="1000">
+</div>
+    
+    
+
+
+<div id="fb-root"></div>
+
+<div id="wrap" class="wrap no-gutter-ads logged-out"
+     data-gutter-ads-enabled="false">
+
+
+<div class="modalPopup unifiedModal smallModal shop-modal shop-modal-item" data-modal-handle="shop-confirmation" style="display: none;">
+    <div class="shop-modal-item-right">
+
+    </div>
+    <div class="shop-modal-item-left">
+        <h2>
+            You are about to visit<br />our shopping site
+        </h2>
+        <div class="body-text">
+            You will be redirected to the shopping<br />site. Please note that you must be 18<br /> or over to buy online.
+        </div>
+        <div class="controls">
+            <a id="rbx-shopping-close-btn" class="text-link btn-shopping-close">Close</a>
+            <div id="rbx-continue-shopping-btn" class="btn btn-medium btn-neutral btn-secondary-xs btn-more btn-continue-shopping">Continue to Shop</div>
+        </div>
+        <div class="text-date-hint fine-print">
+            The shop is not part of ROBLOX.com and is governed by a separate <a class="text-link" href="http://www.myplay.com/direct/cookie-policy?origin=desktop&permalink=shoproblox" target="_blank">privacy policy</a>.
+        </div>
+    </div>
+</div>
+
+<div id="header"
+     class="navbar-fixed-top rbx-header"
+     role="navigation">
+    <div class="container-fluid">
+        <div class="rbx-navbar-header">
+            <div data-behavior="nav-notification" class="rbx-nav-collapse" onselectstart="return false;">
+
+                <div class="notification-red hide"
+                     title="0">
+                    
+                </div>
+
+            </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://www.roblox.com/"><span class="logo logo-transitional"></span></a>
+            </div>
+        </div>
+        <ul class="nav rbx-navbar hidden-xs hidden-sm col-md-4 col-lg-3">
+            <li>
+                <a href="https://www.roblox.com/games">Games</a>
+            </li>
+            <li>
+                <a href="https://www.roblox.com/catalog">Catalog</a>
+            </li>
+            <li>
+                <a href="https://www.roblox.com/develop">Develop</a>
+            </li>
+            <li>
+                <a class="buy-robux" href="https://www.roblox.com/upgrades/robux?ctx=nav">ROBUX</a>
+            </li>
+        </ul><!--rbx-navbar-->
+        <div id="navbar-universal-search" class="navbar-left rbx-navbar-search col-xs-5 col-sm-6 col-md-3" data-behavior="univeral-search" role="search">
+            <div class="input-group">
+
+                <input id="navbar-search-input" class="form-control input-field" type="text" placeholder="Search" maxlength="120" />
+                <div class="input-group-btn">
+                    <button id="navbar-search-btn" class="input-addon-btn" type="submit">
+                        <span class="icon-nav-search"></span>
+                    </button>
+                </div>
+            </div>
+            <ul data-toggle="dropdown-menu" class="dropdown-menu" role="menu">
+                <li class="rbx-navbar-search-option selected" data-searchurl="http://www.roblox.com/games/?Keyword=">
+                    <span class="rbx-navbar-search-text">Search <span class="rbx-navbar-search-string"></span> in Games</span>
+                </li>
+                        <li class="rbx-navbar-search-option" data-searchurl="https://www.roblox.com/search/users?keyword=">
+                            <span class="rbx-navbar-search-text">Search <span class="rbx-navbar-search-string"></span> in People</span>
+                        </li>
+                        <li class="rbx-navbar-search-option" data-searchurl="https://www.roblox.com/catalog/browse.aspx?CatalogContext=1&amp;Keyword=">
+                            <span class="rbx-navbar-search-text">Search <span class="rbx-navbar-search-string"></span> in Catalog</span>
+                        </li>
+                        <li class="rbx-navbar-search-option" data-searchurl="https://www.roblox.com/groups/search.aspx?val=">
+                            <span class="rbx-navbar-search-text">Search <span class="rbx-navbar-search-string"></span> in Groups</span>
+                        </li>
+                        <li class="rbx-navbar-search-option" data-searchurl="https://www.roblox.com/develop/library?CatalogContext=2&amp;Category=6&amp;Keyword=">
+                            <span class="rbx-navbar-search-text">Search <span class="rbx-navbar-search-string"></span> in Library</span>
+                        </li>
+            </ul>
+        </div><!--rbx-navbar-search-->
+        <div class="navbar-right rbx-navbar-right col-xs-4 col-sm-3">
+                <ul class="nav navbar-right rbx-navbar-right-nav" data-display-opened="False">
+                        <li>
+                        <a id="header-login" class="rbx-navbar-login" data-behavior="login" data-toggle="popover" data-bind="popover-login" data-viewport="#header">Log In</a>
+                    </li>
+                    <div id="iFrameLogin" class="rbx-popover-content" data-toggle="popover-login" role="menu">
+                        <iframe id="iframe-login" name="iframe-nav-login" class="rbx-navbar-login-iframe" src="https://www.roblox.com/Login/iFrameLogin.aspx?loginRedirect=True&amp;parentUrl=http%3a%2f%2fwww.roblox.com%2fgames%2f288000202%2fThe-ROBLOX-Live-Hangout" scrolling="no" frameborder="0" width="320"></iframe>
+                    </div>
+                    <li>
+                        <a class="rbx-navbar-signup" href="https://www.roblox.com/newlogin?returnUrl=%2Fgames%2F288000202%2FThe-ROBLOX-Live-Hangout">Sign Up</a>
+                    </li>
+                    <li class="rbx-navbar-right-search" data-toggle="toggle-search">
+                        <a class="rbx-menu-icon">
+                            <span class="icon-nav-search-white"></span>
+                        </a>
+                    </li>
+                </ul>
+        </div><!-- navbar right-->
+        <ul class="nav rbx-navbar hidden-md hidden-lg col-xs-12">
+            <li>
+                <a href="https://www.roblox.com/games">Games</a>
+            </li>
+            <li>
+                <a href="https://www.roblox.com/catalog/">Catalog</a>
+            </li>
+            <li>
+                <a href="https://www.roblox.com/develop">Develop</a>
+            </li>
+            <li>
+                <a class="buy-robux" href="https://www.roblox.com/upgrades/robux?ctx=nav">ROBUX</a>
+            </li>
+        </ul><!--rbx-navbar-->
+    </div>
+</div>
+
+
+<!-- LEFT NAV MENU -->
+
+<script type="text/javascript">
+    (function() {
+        if (Roblox && Roblox.Performance) {
+            Roblox.Performance.setPerformanceMark("navigation_end");
+        }
+    })();
+</script>
+
+    <div class="container-main    ">
+            <script type="text/javascript">
+                if (top.location != self.location) {
+                    top.location = self.location.href;
+                }
+            </script>
+        <noscript><div class="SystemAlert"><div class="alert-info" role="alert">Please enable Javascript to use all the features on this site.</div></div></noscript>
+        <div class="content  ">
+
+                                        <div id="Leaderboard-Abp" class="abp leaderboard-abp">
+                    
+
+<iframe name="Roblox_GameDetail_Top_728x90" 
+        allowtransparency="true"
+        frameborder="0"
+        height="110"
+        scrolling="no"
+        src="http://www.roblox.com/userads/1"
+        width="728"
+        data-js-adtype="iframead"></iframe>
+
+                </div>
+            
+<div id="game-detail-page" 
+     class="row page-content  ">
+    <div class="col-xs-12 section game-main-content">
+        <div class="game-thumb-container">
+            <script>
+    var Roblox = Roblox || {};
+    Roblox.Carousel = function () {
+        var carouselId = "#carousel-game-details";
+        var checkedForVideo = false;
+        var isMobile = false;
+
+        var initialize = function () {
+            // acquire isMobile setting from DOM
+            isMobile = $(carouselId).data('is-mobile');
+
+            // set up carousel
+            if(!isMobile) {
+                $(carouselId).carousel({
+                    interval: 6000,
+                    pause: "hover"
+                });
+            } else {
+                // do not cycle automatically on mobile because user might be playing video
+                $(carouselId).carousel({
+                    interval: false,
+                    pause: "hover"
+                });
+            }
+
+
+            // bindings
+            $(carouselId)
+                .on("slide.bs.carousel", function () {
+                    // pause ALL the videos
+                    Roblox.Carousel.pauseAllVideos();
+                    // restart the carousel sliding
+                    $(carouselId).carousel('cycle');
+                })
+                .hover(
+                    function () {
+                        $(this).addClass("hover");
+                    },
+                    function () {
+                        $(this).removeClass("hover");
+                    }
+                );
+
+            // hide controls when there's only one slide
+            if ($(carouselId + " .item").length < 2) {
+                $(carouselId).find(".carousel-control").css("display", "none");
+            }
+
+            $(document).on("playButton:gamePlayIntent", function () {
+                // we pressed the play button - stop playing the video
+                Roblox.Carousel.pauseAllVideos();
+            });
+
+            Roblox.Carousel.setUpYouTubeAPI();
+
+            // retry thumbnails in carousel
+            $(function () {
+                $(carouselId + " .item span").loadRobloxThumbnails();
+            });
+        }
+
+        var setUpYouTubeAPI = function () {
+            var tag = document.createElement('script');
+
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+
+        }
+
+        var toggleVideo = function (state) {
+            var div = $('.flex-video');
+            if(div.length > 0){
+                var iframe = div.find('iframe')[0].contentWindow;
+                var func = state == 'hide' ? 'pauseVideo' : 'playVideo';
+                iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+            }
+        }
+
+        var pauseVideoAtIndex = function (idx) {
+            if (rbxplayer && rbxplayer.length > 0 && !isMobile) {
+                try {
+                    rbxplayer[idx].pauseVideo();
+                } catch (e) {
+                    // tried to pause before player was ready
+                }
+
+            } else {
+                return false;
+            }
+        }
+
+        var playVideoAtIndex = function (idx) {
+            if(rbxplayer && rbxplayer.length > 0 && rbxplayer[idx] && !isMobile) {
+                rbxplayer[idx].playVideo();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        var pauseAllVideos = function () {
+            // pause ALL the videos
+            if (rbxplayer && rbxplayer.length > 0) {
+                var rbxplayerlen = rbxplayer.length;
+                for (var i = 0; i < rbxplayerlen; i++) {
+                    Roblox.Carousel.pauseVideoAtIndex(i);
+                }
+            }
+        }
+
+        var checkForVideo = function () {
+            if(checkedForVideo) {
+                return false;
+            }
+            var carousel = $(carouselId);
+            carousel.find('.item').each(function (idx, val) {
+                if ($(val).find('.flex-video').length > 0) {
+                    carousel.carousel(idx);
+                    carousel.carousel("pause");
+                    var successfulPlay = Roblox.Carousel.playVideoAtIndex(0);
+                    checkedForVideo = successfulPlay;
+                    return false; // stop
+                } else {
+                    return true; // keep going
+                }
+            });
+        }
+        var onPlayerReady = function () {
+            // This first moment get the video and auto-play it
+            var autoplay = $(carouselId).data('is-video-autoplayed-on-ready');
+            if (autoplay && !isMobile) {
+                Roblox.Carousel.checkForVideo();
+            }
+        }
+        var onPlayerPlaying = function () {
+            // We are playing the video. Stop the carousel.
+            var carousel = $(carouselId);
+            carousel.carousel("pause");
+        }
+
+
+        return {
+            initialize: initialize,
+            toggleVideo: toggleVideo,
+            checkForVideo: checkForVideo,
+            setUpYouTubeAPI: setUpYouTubeAPI,
+            onPlayerReady: onPlayerReady,
+            onPlayerPlaying: onPlayerPlaying,
+            pauseVideoAtIndex: pauseVideoAtIndex,
+            playVideoAtIndex: playVideoAtIndex,
+            pauseAllVideos: pauseAllVideos
+        }
+
+    }();
+
+    // For YouTube API. Must be global.
+
+    var rbxplayer = [];
+    function onYouTubeIframeAPIReady() {
+        var carouselId = "#carousel-game-details";
+        $(carouselId).find(".flex-video").each(function (idx, el) {
+            youTubeId = $(el).find("iframe").attr("id");
+            rbxplayer[rbxplayer.length] = new YT.Player(youTubeId, {});
+        });
+
+        // listen for postMessage from YouTube
+        $(window).on("message", function (e) {
+            var originalData = e.originalEvent.data;
+
+            // data is not JSON
+            if (originalData.charAt(0) != "{") {
+                return ;
+            }
+            var data = $.parseJSON(originalData);
+
+            if (data.event == "onReady") {
+                Roblox.Carousel.onPlayerReady();
+            }
+            if(data.event == "infoDelivery" && data.info.playerState && data.info.playerState == 1) {
+                Roblox.Carousel.onPlayerPlaying();
+            }
+        });
+    }
+
+
+    $(document).ready(function () {
+        Roblox.Carousel.initialize();
+    });
+</script>
+
+
+
+<div id="carousel-game-details" class="carousel slide" data-ride="carousel"
+     data-is-video-autoplayed-on-ready="true"
+     data-is-mobile="false">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+
+            <div class="item active">
+<span ><img  class='carousel-thumb' src='http://t3.rbxcdn.com/bfe0eae79b462b9674dc5fc67bf8fc23' /></span>            </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-game-details" role="button" data-slide="prev">
+        <span class="icon-carousel-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-game-details" role="button" data-slide="next">
+        <span class="icon-carousel-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+        </div>
+        <div class="game-calls-to-action">
+
+            <div class="game-title-container">
+                <h2 class="game-name" title="The ROBLOX Live Hangout">The ROBLOX Live Hangout</h2>
+                <div class="game-creator"><span class="text-label">By</span> <a class="text-name" href="https://www.roblox.com/groups/group.aspx?gid=2650221">ROBLOX Live!</a></div>
+            </div>
+            <div class="game-play-buttons" data-autoplay="false">
+
+
+
+    <div class="rbx-visit-button-closed">
+        Sorry, this place is currently closed to visitors.
+    </div>
+
+
+
+<script type="text/javascript">
+    Roblox = Roblox || {};
+
+    Roblox.BCUpsellModal = function () {
+        var resources = {
+            //<sl:translate>
+            title: "Builders Club Only",
+            body: "This is a premium feature only available to our Builders Club members.",
+            accept: "Upgrade Now"
+            //</sl:translate>
+        };
+
+        var open = function () {
+            var options = {
+                titleText: Roblox.BCUpsellModal.Resources.title,
+                bodyContent: Roblox.BCUpsellModal.Resources.body,
+                footerText: "",
+                acceptText: Roblox.BCUpsellModal.Resources.accept,
+                declineText: Roblox.Resources.GenericConfirmation.No,
+                acceptColor: Roblox.GenericConfirmation.green,
+                onAccept: function () { window.location.href = '/premium/membership?ctx=bc-only-game'; },
+                imageUrl: 'http://images.rbxcdn.com/43ac54175f3f3cd403536fedd9170c10.png'
+            };
+
+            Roblox.GenericConfirmation.open(
+                options
+            );
+        };
+
+        return {
+            open: open,
+            Resources:resources
+        };
+    } ();
+</script>
+<script type="text/javascript">
+    var play_placeId = 288000202;
+    function fireEventAction(action) {
+        RobloxEventManager.triggerEvent('rbx_evt_popup_action', { action: action });
+    }
+	
+    $(function () { $('.VisitButtonPlay').click(function () {play_placeId=$(this).attr('placeid');Roblox.CharacterSelect.placeid = play_placeId;Roblox.CharacterSelect.show();});$('#game-context-menu').on('click touchstart','.VisitButtonBuild', function () {RobloxLaunch._GoogleAnalyticsCallback = function() { var isInsideRobloxIDE = 'website'; if (Roblox && Roblox.Client && Roblox.Client.isIDE && Roblox.Client.isIDE()) { isInsideRobloxIDE = 'Studio'; };GoogleAnalyticsEvents.FireEvent(['Plugin Location', 'Launch Attempt', isInsideRobloxIDE]);GoogleAnalyticsEvents.FireEvent(['Plugin', 'Launch Attempt', 'Build']);EventTracker.fireEvent('GameLaunchAttempt_OSX', 'GameLaunchAttempt_OSX_Plugin'); if (typeof Roblox.GamePlayEvents != 'undefined') { Roblox.GamePlayEvents.SendClientStartAttempt(null, play_placeId); }  }; play_placeId = (typeof $(this).attr('placeid') === 'undefined') ? play_placeId : $(this).attr('placeid'); Roblox.Client.WaitForRoblox(function() { window.location = '/Login/Default.aspx?ReturnUrl=http%3a%2f%2fwww.roblox.com%2fgames%2f288000202%2fThe-ROBLOX-Live-Hangout' }); return false;});$('#game-context-menu').on('click touchstart','.VisitButtonEdit', function () {RobloxLaunch._GoogleAnalyticsCallback = function() { var isInsideRobloxIDE = 'website'; if (Roblox && Roblox.Client && Roblox.Client.isIDE && Roblox.Client.isIDE()) { isInsideRobloxIDE = 'Studio'; };GoogleAnalyticsEvents.FireEvent(['Plugin Location', 'Launch Attempt', isInsideRobloxIDE]);GoogleAnalyticsEvents.FireEvent(['Plugin', 'Launch Attempt', 'Edit']);EventTracker.fireEvent('GameLaunchAttempt_OSX', 'GameLaunchAttempt_OSX_Plugin'); if (typeof Roblox.GamePlayEvents != 'undefined') { Roblox.GamePlayEvents.SendClientStartAttempt(null, play_placeId); }  }; play_placeId = (typeof $(this).attr('placeid') === 'undefined') ? play_placeId : $(this).attr('placeid'); Roblox.Client.WaitForRoblox(function() { RobloxLaunch.StartGame('http://assetgame.roblox.com/Game/edit.ashx?PlaceID='+play_placeId+'&upload=', 'edit.ashx', 'https://www.roblox.com/Login/Negotiate.ashx', 'FETCH', true) }); return false;});$('.VisitButtonPersonalServer').click(function () {play_placeId=$(this).attr('placeid');Roblox.CharacterSelect.placeid = play_placeId;Roblox.CharacterSelect.show();});$(document).on('CharacterSelectLaunch', function (event, genderTypeID) { if (genderTypeID == 3) { var isInsideRobloxIDE = 'website'; if (Roblox && Roblox.Client && Roblox.Client.isIDE && Roblox.Client.isIDE()) { isInsideRobloxIDE = 'Studio'; };GoogleAnalyticsEvents.FireEvent(['Plugin Location', 'Launch Attempt', isInsideRobloxIDE]);GoogleAnalyticsEvents.FireEvent(['Plugin', 'Launch Attempt', 'Play']);EventTracker.fireEvent("GameLaunchAttempt_OSX", "GameLaunchAttempt_OSX_Plugin"); if (typeof Roblox.GamePlayEvents != 'undefined') { Roblox.GamePlayEvents.SendClientStartAttempt(null, play_placeId); } } else { var isInsideRobloxIDE = 'website'; if (Roblox && Roblox.Client && Roblox.Client.isIDE && Roblox.Client.isIDE()) { isInsideRobloxIDE = 'Studio'; };GoogleAnalyticsEvents.FireEvent(['Plugin Location', 'Launch Attempt', isInsideRobloxIDE]);GoogleAnalyticsEvents.FireEvent(['Plugin', 'Launch Attempt', 'Play']);EventTracker.fireEvent("GameLaunchAttempt_OSX", "GameLaunchAttempt_OSX_Plugin"); if (typeof Roblox.GamePlayEvents != 'undefined') { Roblox.GamePlayEvents.SendClientStartAttempt(null, play_placeId); } }play_placeId = (typeof $(this).attr('placeid') === 'undefined') ? play_placeId : $(this).attr('placeid'); Roblox.Client.WaitForRoblox(function() { RobloxLaunch.RequestGame('PlaceLauncherStatusPanel', play_placeId, genderTypeID); }); return false;});}());;
+
+</script>
+<script type="text/javascript">
+    $(function() {
+        Roblox.PlaceItemPurchase = new Roblox.ItemPurchase(function (obj) {
+            $(".PurchaseButton[data-item-id="+ obj.AssetID +"]").each(function (index, htmlElem) {
+                $("#rbx-place-purchase-required").hide();
+                $("#MultiplayerVisitButton").show();
+            });
+        });
+
+        if("False".toLowerCase() == "true") {
+            $(function () {
+                $("#rbx-place-purchase-required").on("click", function(e) {
+                    Roblox.PlaceItemPurchase.openPurchaseVerificationView(this);
+                    return false;
+                });
+            });
+        }
+    });
+</script>
+            </div>
+
+
+            <ul class="share-rate-favorite">
+                
+
+        <li class="favorite-button-container tooltip-container" data-toggle="tooltip" title="" data-original-title="Add to favorites">
+            <a>
+                
+                <span class="icon-favorite " data-toggle-url="/favorite/toggle" data-assetid="288000202" data-isguest="True"
+                      data-signin-url="https://www.roblox.com/newlogin?returnUrl=%2Fgames%2F288000202%2FThe-ROBLOX-Live-Hangout">
+                    
+                </span>
+                <span title="1,266" class="text-favorite favoriteCount 1,266" id="result">1,266</span>
+            </a>
+        </li>
+ 
+                
+        <li class="voting-panel body"
+             data-asset-id="288000202"
+             data-total-up-votes="414"
+             data-total-down-votes="86"
+             data-vote-modal=""
+             data-user-authenticated="False">
+            <div class="loading"></div>
+                <div class="vote-summary">
+                    <div class="voting-details">
+                        <div class="users-vote ">
+                            <div class="upvote">
+                                <span class="icon-like "></span>
+                                <span id="vote-up-text" title="414" class="vote-text">414</span>
+                            </div>
+                            <div class="downvote">
+                                <span id="vote-down-text" title="86" class="vote-text">86</span>
+                                <span class="icon-dislike "></span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visual-container">
+                        <div class="background"></div>
+                        <div class="percent"></div>
+                    </div>
+                </div>
+        </li>
+
+
+
+
+<script>
+    $(function () {
+        Roblox.Voting.Initialize();
+
+        Roblox.Voting.Resources = {
+            //<sl:translate>
+            emailVerifiedTitle: "Verify Your Email",
+            emailVerifiedMessage: "You must verify your email before you can vote. You can verify your email on the <a href='/my/account?confirmemail=1'>Account</a> page.",
+
+            playGameTitle: "Play Game",
+            playGameMessage: "You must play the game before you can vote on it.",
+
+            useModelTitle: "Use Model",
+            useModelMessage: "You must use this model before you can vote on it.",
+
+            installPluginTitle: "Install Plugin",
+            installPluginMessage: "You must install this plugin before you can vote on it.",
+
+            buyGamePassTitle: "Buy Game Pass",
+            buyGamePassMessage: "You must own this game pass before you can vote on it.",
+
+            floodCheckThresholdMetTitle: "Slow Down",
+            floodCheckThresholdMetMessage: "You're voting too quickly. Come back later and try again.",
+
+            unknownProblemTitle: "Something Broke",
+            unknownProblemMessage: "There was an unknown problem voting. Please try again.",
+
+            guestUserTitle: "Login to Vote",
+            guestUserMessage: "<div>You must login to vote.</div> <div>Please <a href='/newlogin?returnUrl=%2Fgames%2F288000202%2FThe-ROBLOX-Live-Hangout'>login or register</a> to continue.</div>",
+            returnUrl: '/newlogin?returnUrl=%2Fgames%2F288000202%2FThe-ROBLOX-Live-Hangout',
+
+            accountUnderOneDayTitle: "Voter Feedback",
+            accountUnderOneDayMessage: "You will be able to vote on Games and Studio Models later, after you've had a chance to experience ROBLOX a bit more. Come back to this page in a couple days.",
+
+            accept: "Verify",
+            decline: "Cancel",
+            login: "Login"
+            //<sl:translate>
+        };
+    });
+</script>
+
+                
+                <li class="social-media-share">
+
+                </li><!-- .social-media-share -->
+            </ul><!-- .share-rate-favorite-->
+        </div>
+    </div>
+
+    <div class="col-xs-12 rbx-tabs-horizontal"
+         data-place-id="288000202">
+        <ul id="horizontal-tabs" class="nav nav-tabs" role="tablist">
+            <li id="tab-about" class="rbx-tab tab-about active">
+                <a class="rbx-tab-heading" href="#about">
+                    <span class="text-lead">About</span>
+                </a>
+            </li>
+            <li id="tab-store" class="rbx-tab tab-store">
+                <a class="rbx-tab-heading" href="#store">
+                    <span class="text-lead">Store</span>
+                </a>
+            </li>
+                <li id="tab-leaderboards" class="rbx-tab tab-leaderboards">
+                    <a class="rbx-tab-heading" href="#leaderboards">
+                        <span class="text-lead">Leaderboards</span>
+                    </a>
+                </li>
+
+            <li id="tab-game-instances" class="rbx-tab tab-game-instances">
+                <a class="rbx-tab-heading" href="#game-instances">
+                    <span class="text-lead">Servers</span>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content rbx-tab-content">
+            <div class="tab-pane active" id="about">
+                <div class="section game-about-container">
+                    <h3>Description</h3>
+                    <div class="section-content">
+                        <p class="game-description linkify">Welcome to the ROBLOX Live Hangout. 
+
+This is where ROBLOX used to end there live streams.
+
+Built by TigersInTheBlox</p>
+
+                        <ul class="game-stats-container">
+                            <li class="game-stat">
+                                <p class="text-label">Visits</p>
+                                <p class="text-lead" title="45,446">45K+</p>
+                            </li>
+                            <li class="game-stat">
+                                <p class="text-label">Created</p>
+                                <p class="text-lead">8/22/2015</p>
+                            </li>
+                            <li class="game-stat">
+                                <p class="text-label">Updated</p>
+                                <p class="text-lead">4/26/2016</p>
+                            </li>
+                            <li class="game-stat">
+                                <p class="text-label">Max Players</p>
+                                <p class="text-lead">50</p>
+                            </li>
+                            <li class="game-stat">
+                                <p class="text-label">Genre</p>
+                                    <p class="text-lead">
+                                        <a class="text-name" href="https://www.roblox.com/games?GenreFilter=7">Town and City</a>
+                                    </p>
+                            </li>
+                            <li class="game-stat">
+                                <p class="text-label">Allowed Gear types</p>
+                                <p class="text-lead stat-gears">
+        <span class="icon-nogear" data-toggle="tooltip" data-original-title="No Gear Allowed"></span>
+
+
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="game-stat-footer">
+                                    <span class="text-pastname game-copylocked-footnote">This game is copylocked</span>
+
+                            <span class="game-report-abuse"><a class="text-error" href="https://www.roblox.com/abusereport/asset?id=288000202&amp;RedirectUrl=%2fgames%2f288000202%2fThe-ROBLOX-Live-Hangout">Report Abuse</a></span>
+                        </div>
+                    </div>
+                </div>
+
+    <div id="rbx-vip-servers" class="container-list">
+        <div class="container-header">
+            <h3>VIP Servers</h3>
+        </div>
+        <div class="rbx-vip-server-item-container">
+            <p class="section-content-off">This game does not support <a class="text-link" href="http://wiki.roblox.com/index.php?title=VIP_server">VIP Servers</a>.</p>
+        </div>
+    </div>
+
+<script>
+    var Roblox = Roblox || {};
+
+    Roblox.PrivateServers = Roblox.PrivateServers || {};
+    //<sl:translate>
+    Roblox.PrivateServers.RenewRecurringTitle = "Renew Private Server";
+    Roblox.PrivateServers.RenewRecurringBody = "Are you sure you want to enable future payments for your private VIP version of "
+    + "The ROBLOX Live Hangout by ROBLOX Live!?<br><br>This VIP Server will start renewing every month at "
+    + "<span class=\"currency CurrencyColor1\">0</span> until you cancel.";
+    Roblox.PrivateServers.RenewRecurringAcceptText = "Renew Private Server";
+    Roblox.PrivateServers.RenewRecurringDeclineText = "Back";
+    Roblox.PrivateServers.UserProfileAbsoluteUrlPattern = "https://www.roblox.com/users/0/profile";
+    //<sl:translate>
+</script>
+
+
+
+    <div class="container-list badge-container">
+        <div class="container-header">
+            <h3>Game Badges</h3>
+        </div>
+        <ul class="badge-list">
+                <li class="section-row badge-row ">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/Welcome-to-ROBLOX-lives-Hangout-item?id=288326931"><img src="http://t0.rbxcdn.com/c6a55973d27d8971a0c8d64015b0fd9e" alt="Welcome to ROBLOX live&#39;s Hangout"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>Welcome to ROBLOX live&#39;s Hangout</strong>
+                        <p class="text-overflow">
+                            The ROBLOX Live Hangout. Thanks for visiting and hanging out with the admins!
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 17046
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row ">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/The-Hallow-Hour-ROBLOX-Live-hangout-item?id=289723952"><img src="http://t3.rbxcdn.com/6af7eddd8c15ea612a234c46d4e4421f" alt="The Hallow Hour - ROBLOX Live hangout"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>The Hallow Hour - ROBLOX Live hangout</strong>
+                        <p class="text-overflow">
+                            Spookkyyy Thanks for Coming and Playing the Hallow Hour.
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 3620
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row ">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/1-Vampire-Brighteyes-item?id=301631275"><img src="http://t4.rbxcdn.com/1e8f716881d1a140db0541e032e16dd1" alt="#1 Vampire Brighteyes"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#1 Vampire Brighteyes</strong>
+                        <p class="text-overflow">
+                            It appears she needs a little help, you&#39;ll have to find her first though.
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 852
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/2-Raven-item?id=301631594"><img src="http://t3.rbxcdn.com/f02a3a2e7f50d1f559070e47d7d8293d" alt="#2 Raven"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#2 Raven</strong>
+                        <p class="text-overflow">
+                            He has wings, so you better be lookin&#39; up high!
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 918
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/3-Ghosdeeri-item?id=301631832"><img src="http://t6.rbxcdn.com/953bc1a8de917bc0d9a1e25c20b297cc" alt="#3 Ghosdeeri"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#3 Ghosdeeri</strong>
+                        <p class="text-overflow">
+                            Why there&#39;s no &quot;t&quot; in my name I&#39;ll never know. Come find me though, I&#39;ll be watching the show!
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 1014
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/4-Jack-o-lantern-item?id=301631860"><img src="http://t0.rbxcdn.com/5d087c141d259c34fe79819921b281ce" alt="#4 Jack o&#39; lantern"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#4 Jack o&#39; lantern</strong>
+                        <p class="text-overflow">
+                            Watching the world go by from sandy places can be quite boring.
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 1247
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/5-Egg-of-Merely-item?id=301631923"><img src="http://t6.rbxcdn.com/7b18a4855cb671310d847a0c66b28079" alt="#5 Egg of Merely"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#5 Egg of Merely</strong>
+                        <p class="text-overflow">
+                            Clearly the events team messed up somewhere and somehow this little egg has found his way into the Halloween event! One thing for sure though, he&#39;s sure not food!
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 1482
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/6-Cthulhu-item?id=301631930"><img src="http://t7.rbxcdn.com/fea4095de302b8879f601aa4b86b04b3" alt="#6 Cthulhu"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#6 Cthulhu</strong>
+                        <p class="text-overflow">
+                            I am Hziulquoigmnzhah, son of Cxaxukluth and your planet is now mine!
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 976
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/7-Robot-item?id=301631940"><img src="http://t6.rbxcdn.com/7d6757fda44af0e6b60170d0fd098065" alt="#7 Robot"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#7 Robot</strong>
+                        <p class="text-overflow">
+                            Can you hear the music?
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 1160
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/8-Skeleton-Builderman-item?id=301631963"><img src="http://t0.rbxcdn.com/0e4684c348da5f95caf8eef488399f2c" alt="#8 Skeleton Builderman"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#8 Skeleton Builderman</strong>
+                        <p class="text-overflow">
+                            May the ones we have lost rest in peace.
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 1112
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/9-The-Troll-item?id=301631981"><img src="http://t0.rbxcdn.com/204e1c3db14aea9661deb9b13882984f" alt="#9 The Troll"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#9 The Troll</strong>
+                        <p class="text-overflow">
+                            1+1 = Window.
+
+Totally doesn&#39;t equal the number of people you&#39;ll need to catch me.
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 552
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/10-Little-ol-Wizzard-item?id=301631996"><img src="http://t3.rbxcdn.com/9b8540e8c9686bd6d87932dc2fffc60d" alt="#10 Little ol&#39; Wizzard"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#10 Little ol&#39; Wizzard</strong>
+                        <p class="text-overflow">
+                            Creating sparkles is just one of my many powers!
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 1331
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/11-AlvinBrains-item?id=302124831"><img src="http://t4.rbxcdn.com/32e94f0c039898b51d4144801f9321e0" alt="#11 AlvinBrains"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#11 AlvinBrains</strong>
+                        <p class="text-overflow">
+                            We worked our developers so hard, they became zombies!
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 1250
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/12-NobleDragon-item?id=313407709"><img src="http://t5.rbxcdn.com/b00ed26eb7e2c19431f2c57d4f239217" alt="#12 NobleDragon"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#12 NobleDragon</strong>
+                        <p class="text-overflow">
+                            Hey there, I&#39;m your host NobleDragon and this is ROBLOX&#39;s Weekly Gaming show, The Next Level!
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 667
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/13-CellbloxTango-item?id=313407735"><img src="http://t5.rbxcdn.com/f2fefbe1d1811bc55087e3681d43ba2e" alt="#13 CellbloxTango"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#13 CellbloxTango</strong>
+                        <p class="text-overflow">
+                            Isn&#39;t it almost Pi day? Well then, I better get cooking!
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 610
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/14-JackInTheBlox-item?id=313407753"><img src="http://t2.rbxcdn.com/959478dcd6c50370ceb311ef6622cc19" alt="#14 JackInTheBlox"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#14 JackInTheBlox</strong>
+                        <p class="text-overflow">
+                            I arise as the undead JackInTheZombie, brainssssssss
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 979
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/15-Jparty-item?id=313409613"><img src="http://t7.rbxcdn.com/e7658526de3655df00b2825f6822e63a" alt="#15 Jparty"></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#15 Jparty</strong>
+                        <p class="text-overflow">
+                            So many to choose from with so little to spend!
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 874
+                        </li>
+                    </ul>
+                </li>
+                <li class="section-row badge-row badge-see-more-row">
+                    <div class="badge-image">
+                        <a href="https://www.roblox.com/16-RobloxsaurusRex-item?id=313409644"><img src="http://t2.rbxcdn.com/0eef7614a628ceb005e6c72eb6fe5809" alt="#16 RobloxsaurusRex "></a>
+                    </div>
+                    <div class="badge-data-container">
+                        <strong>#16 RobloxsaurusRex </strong>
+                        <p class="text-overflow">
+                            High, high in the sky I soar above as a ghost of your forgotten past.
+                        </p>
+                    </div>
+                    <ul class="badge-stats-container">
+                        <li>
+                             Rarity: 0.0% (Impossible)
+                        </li>
+                        <li>
+                            Won Yesterday: 0
+                        </li>
+                        <li>
+                            Won Ever: 607
+                        </li>
+                    </ul>
+                </li>
+
+            <li>
+                <button type="button" class="btn-full-width btn-control-sm" id="badges-see-more">See More</button>
+
+            </li>
+        </ul>
+
+    </div>
+
+                
+<div class="section">
+    <div id="AjaxCommentsContainer" class="comments-container"
+         data-asset-id="288000202"
+         data-total-collection-size=""
+         data-is-user-authenticated="False"
+         data-signin-url="https://www.roblox.com/newlogin?returnUrl=%2Fgames%2F288000202%2FThe-ROBLOX-Live-Hangout">
+        <h3>Comments</h3>
+        <div class="section-content AddAComment">
+            <div class="comment-form">
+                <form class="form-horizontal ng-pristine ng-valid" role="form">
+                    <div class="form-group">
+                        <textarea class="form-control input-field rbx-comment-input blur" placeholder="Write a comment!" rows="1"></textarea>
+                        <div class="rbx-comment-msgs">
+                            <span class="rbx-comment-error text-error"></span>
+                            <span class="rbx-comment-count small"></span>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-secondary-md rbx-post-comment">Post Comment</button>
+                </form>
+            </div>
+            <div class="comments vlist">
+
+            </div>
+            <div class="comments-item-template">
+                <div class="comment-item list-item">
+                    <div class="comment-user list-header">
+                            <div class="Avatar avatar avatar-headshot-md" data-user-id="comment-author-id" data-image-size="small"></div>
+                       
+                    </div>
+                    <div class="comment-body list-body">
+                        <strong>username</strong>
+                        <p class="comment-content list-content"> text </p>
+                        <span class="xsmall text-date-hint">4 hours ago</span>
+                    </div>
+                    <div class="comment-controls">
+                        <a class="rbx-comment-report-link" href="https://www.roblox.com/abusereport/comment?id=%CommentID&amp;amp;redirectUrl=%PageURL" title="Report Abuse"><span class="icon-flag"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="AjaxCommentsMoreButtonContainer">
+        <button type="button" class="btn-control-sm rbx-comments-see-more hidden">See More</button>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        Roblox.Comments.Resources = {
+            //<sl:translate>
+            defaultMessage: 'Write a comment!',
+            noCommentsFound: 'No comments found.',
+            moreComments: 'More comments',
+            sorrySomethingWentWrong: 'Sorry, something went wrong.',
+            charactersRemaining: ' characters remaining',
+            emailVerifiedABTitle: 'Verify Your Email',
+            emailVerifiedABMessage: "You must verify your email before you can comment. You can verify your email on the <a class='text-link' href='https://www.roblox.com/my/account?confirmemail=1'>Account</a> page.",
+            linksNotAllowedTitle: 'Links Not Allowed',
+            linksNotAllowedMessage: 'Comments should be about the item or place on which you are commenting. Links are not permitted.',
+            accept: 'Verify',
+            decline: 'Cancel',
+            tooManyCharacters: 'Too many characters!',
+            tooManyNewlines: 'Too many newlines!'
+            //</sl:translate>
+        };
+    
+        Roblox.Comments.Limits =
+        [
+            {
+                limit: '10',
+                character: "\n",
+                message: Roblox.Comments.Resources.tooManyNewlines
+            },
+            {
+                limit: '200',
+                character: undefined,
+                message: Roblox.Comments.Resources.tooManyCharacters
+            }
+        ];
+
+        Roblox.Comments.FilterIsEnabled = true;
+        Roblox.Comments.FilterRegex = "(([a-zA-Z0-9-]+\\.[a-zA-Z]{2,4}[:\\#/\?]+)|([a-zA-Z0-9]\\.[a-zA-Z0-9-]+\\.[a-zA-Z]{2,4}))";
+        Roblox.Comments.FilterCleanExistingComments = false ;
+
+
+    
+    Roblox.Comments.initialize();
+    });
+</script>
+
+                
+                    <div id="my-recommended-games" class="col-xs-12 container-list games-detail">
+                        <div class="container-header">
+                            <h3>Recommended Games</h3>
+                        </div>
+                        
+                        
+
+<ul class="hlist game-cards game-cards-sm">
+
+
+<li class="list-item game-card">
+    <div class="game-card-container">
+    <a href="http://www.roblox.com/games/refer?RecommendationAlgorithm=2&amp;RecommendationSourceId=288000202&amp;PlaceId=270759951&amp;Position=1&amp;PageType=GameDetail" class="game-card-link">
+        <div class="game-card-thumb-container">
+            <img class="game-card-thumb" 
+                    src="http://t6.rbxcdn.com/48e0dde9cafce0ed1da0d909bbd0a147"
+                     
+                    alt="ROBLOX Live Hangout Old (First Build)"
+                    thumbnail='{"Final":true,"Url":"http://t6.rbxcdn.com/48e0dde9cafce0ed1da0d909bbd0a147","RetryUrl":null}' image-retry />
+        </div>
+        <div class="text-overflow game-card-name" title="ROBLOX Live Hangout Old (First Build)" ng-non-bindable>
+            ROBLOX Live Hangout Old (First Build)
+        </div>
+        <div class="game-card-name-secondary">
+            0 Playing
+        </div>
+        <div class="game-card-vote">
+            <div class="vote-bar">
+                <div class="vote-thumbs-up">
+                    <span class="icon-thumbs-up"></span>
+                </div>
+                <div class="vote-container"
+                     data-upvotes="246"
+                     data-downvotes="30"
+                     data-voting-processed="false">
+                    <div class="vote-background "></div>
+                    <div class="vote-percentage"></div>
+                    <div class="vote-mask">
+                        <div class="segment seg-1"></div>
+                        <div class="segment seg-2"></div>
+                        <div class="segment seg-3"></div>
+                        <div class="segment seg-4"></div>
+                    </div>
+                </div>
+                <div class="vote-thumbs-down">
+                    <span class="icon-thumbs-down"></span>
+                </div>
+            </div>
+            <div class="vote-counts">
+                <div class="vote-down-count">30</div>
+                <div class="vote-up-count">246</div>
+
+            </div>
+        </div>
+    </a>
+    <span class="game-card-footer">
+        <span class="text-label xsmall">By </span>
+        <a class="text-link xsmall text-overflow" href="https://www.roblox.com/users/22378133/profile">TigersInTheBlox</a>
+    </span>
+    </div>
+</li>
+
+
+
+<li class="list-item game-card">
+    <div class="game-card-container">
+    <a href="http://www.roblox.com/games/refer?RecommendationAlgorithm=2&amp;RecommendationSourceId=288000202&amp;PlaceId=293833892&amp;Position=2&amp;PageType=GameDetail" class="game-card-link">
+        <div class="game-card-thumb-container">
+            <img class="game-card-thumb" 
+                    src="http://t7.rbxcdn.com/0a2f9d9844f874a68c08308755d5dfb5"
+                     
+                    alt="BLOXtober Giftsplosion Hangout 2015"
+                    thumbnail='{"Final":true,"Url":"http://t7.rbxcdn.com/0a2f9d9844f874a68c08308755d5dfb5","RetryUrl":null}' image-retry />
+        </div>
+        <div class="text-overflow game-card-name" title="BLOXtober Giftsplosion Hangout 2015" ng-non-bindable>
+            BLOXtober Giftsplosion Hangout 2015
+        </div>
+        <div class="game-card-name-secondary">
+            0 Playing
+        </div>
+        <div class="game-card-vote">
+            <div class="vote-bar">
+                <div class="vote-thumbs-up">
+                    <span class="icon-thumbs-up"></span>
+                </div>
+                <div class="vote-container"
+                     data-upvotes="276"
+                     data-downvotes="94"
+                     data-voting-processed="false">
+                    <div class="vote-background "></div>
+                    <div class="vote-percentage"></div>
+                    <div class="vote-mask">
+                        <div class="segment seg-1"></div>
+                        <div class="segment seg-2"></div>
+                        <div class="segment seg-3"></div>
+                        <div class="segment seg-4"></div>
+                    </div>
+                </div>
+                <div class="vote-thumbs-down">
+                    <span class="icon-thumbs-down"></span>
+                </div>
+            </div>
+            <div class="vote-counts">
+                <div class="vote-down-count">94</div>
+                <div class="vote-up-count">276</div>
+
+            </div>
+        </div>
+    </a>
+    <span class="game-card-footer">
+        <span class="text-label xsmall">By </span>
+        <a class="text-link xsmall text-overflow" href="https://www.roblox.com/users/16267104/profile">mrPartyhouse</a>
+    </span>
+    </div>
+</li>
+
+
+
+<li class="list-item game-card">
+    <div class="game-card-container">
+    <a href="http://www.roblox.com/games/refer?RecommendationAlgorithm=2&amp;RecommendationSourceId=288000202&amp;PlaceId=180337886&amp;Position=3&amp;PageType=GameDetail" class="game-card-link">
+        <div class="game-card-thumb-container">
+            <img class="game-card-thumb" 
+                    src="http://t7.rbxcdn.com/7bbf2df26d2f3f55654a14fbbfd45db0"
+                     
+                    alt="Hallow&#39;s Eve 2015"
+                    thumbnail='{"Final":true,"Url":"http://t7.rbxcdn.com/7bbf2df26d2f3f55654a14fbbfd45db0","RetryUrl":null}' image-retry />
+        </div>
+        <div class="text-overflow game-card-name" title="Hallow&#39;s Eve 2015" ng-non-bindable>
+            Hallow&#39;s Eve 2015
+        </div>
+        <div class="game-card-name-secondary">
+            0 Playing
+        </div>
+        <div class="game-card-vote">
+            <div class="vote-bar">
+                <div class="vote-thumbs-up">
+                    <span class="icon-thumbs-up"></span>
+                </div>
+                <div class="vote-container"
+                     data-upvotes="0"
+                     data-downvotes="0"
+                     data-voting-processed="false">
+                    <div class="vote-background no-votes"></div>
+                    <div class="vote-percentage"></div>
+                    <div class="vote-mask">
+                        <div class="segment seg-1"></div>
+                        <div class="segment seg-2"></div>
+                        <div class="segment seg-3"></div>
+                        <div class="segment seg-4"></div>
+                    </div>
+                </div>
+                <div class="vote-thumbs-down">
+                    <span class="icon-thumbs-down"></span>
+                </div>
+            </div>
+            <div class="vote-counts">
+                <div class="vote-down-count">0</div>
+                <div class="vote-up-count">0</div>
+
+            </div>
+        </div>
+    </a>
+    <span class="game-card-footer">
+        <span class="text-label xsmall">By </span>
+        <a class="text-link xsmall text-overflow" href="https://www.roblox.com/users/69932032/profile">HallowsEve2015</a>
+    </span>
+    </div>
+</li>
+
+
+
+<li class="list-item game-card">
+    <div class="game-card-container">
+    <a href="http://www.roblox.com/games/refer?RecommendationAlgorithm=2&amp;RecommendationSourceId=288000202&amp;PlaceId=305545180&amp;Position=4&amp;PageType=GameDetail" class="game-card-link">
+        <div class="game-card-thumb-container">
+            <img class="game-card-thumb" 
+                    src="http://t2.rbxcdn.com/178ca8de1c280a5e0738a554f540de86"
+                     
+                    alt="Christmas Giftsplosion Hangout 2015"
+                    thumbnail='{"Final":true,"Url":"http://t2.rbxcdn.com/178ca8de1c280a5e0738a554f540de86","RetryUrl":null}' image-retry />
+        </div>
+        <div class="text-overflow game-card-name" title="Christmas Giftsplosion Hangout 2015" ng-non-bindable>
+            Christmas Giftsplosion Hangout 2015
+        </div>
+        <div class="game-card-name-secondary">
+            0 Playing
+        </div>
+        <div class="game-card-vote">
+            <div class="vote-bar">
+                <div class="vote-thumbs-up">
+                    <span class="icon-thumbs-up"></span>
+                </div>
+                <div class="vote-container"
+                     data-upvotes="387"
+                     data-downvotes="68"
+                     data-voting-processed="false">
+                    <div class="vote-background "></div>
+                    <div class="vote-percentage"></div>
+                    <div class="vote-mask">
+                        <div class="segment seg-1"></div>
+                        <div class="segment seg-2"></div>
+                        <div class="segment seg-3"></div>
+                        <div class="segment seg-4"></div>
+                    </div>
+                </div>
+                <div class="vote-thumbs-down">
+                    <span class="icon-thumbs-down"></span>
+                </div>
+            </div>
+            <div class="vote-counts">
+                <div class="vote-down-count">68</div>
+                <div class="vote-up-count">387</div>
+
+            </div>
+        </div>
+    </a>
+    <span class="game-card-footer">
+        <span class="text-label xsmall">By </span>
+        <a class="text-link xsmall text-overflow" href="https://www.roblox.com/users/16267104/profile">mrPartyhouse</a>
+    </span>
+    </div>
+</li>
+
+
+
+<li class="list-item game-card">
+    <div class="game-card-container">
+    <a href="http://www.roblox.com/games/refer?RecommendationAlgorithm=2&amp;RecommendationSourceId=288000202&amp;PlaceId=340796449&amp;Position=5&amp;PageType=GameDetail" class="game-card-link">
+        <div class="game-card-thumb-container">
+            <img class="game-card-thumb" 
+                    src="http://t0.rbxcdn.com/c5a412093682f43991210ab75a3b0298"
+                     
+                    alt="Bloxy Awards Stage  [Sold out]"
+                    thumbnail='{"Final":true,"Url":"http://t0.rbxcdn.com/c5a412093682f43991210ab75a3b0298","RetryUrl":null}' image-retry />
+        </div>
+        <div class="text-overflow game-card-name" title="Bloxy Awards Stage  [Sold out]" ng-non-bindable>
+            Bloxy Awards Stage  [Sold out]
+        </div>
+        <div class="game-card-name-secondary">
+            0 Playing
+        </div>
+        <div class="game-card-vote">
+            <div class="vote-bar">
+                <div class="vote-thumbs-up">
+                    <span class="icon-thumbs-up"></span>
+                </div>
+                <div class="vote-container"
+                     data-upvotes="487"
+                     data-downvotes="135"
+                     data-voting-processed="false">
+                    <div class="vote-background "></div>
+                    <div class="vote-percentage"></div>
+                    <div class="vote-mask">
+                        <div class="segment seg-1"></div>
+                        <div class="segment seg-2"></div>
+                        <div class="segment seg-3"></div>
+                        <div class="segment seg-4"></div>
+                    </div>
+                </div>
+                <div class="vote-thumbs-down">
+                    <span class="icon-thumbs-down"></span>
+                </div>
+            </div>
+            <div class="vote-counts">
+                <div class="vote-down-count">135</div>
+                <div class="vote-up-count">487</div>
+
+            </div>
+        </div>
+    </a>
+    <span class="game-card-footer">
+        <span class="text-label xsmall">By </span>
+        <a class="text-link xsmall text-overflow" href="https://www.roblox.com/users/4397833/profile">Quenty</a>
+    </span>
+    </div>
+</li>
+
+
+
+<li class="list-item game-card">
+    <div class="game-card-container">
+    <a href="http://www.roblox.com/games/refer?RecommendationAlgorithm=2&amp;RecommendationSourceId=288000202&amp;PlaceId=241815072&amp;Position=6&amp;PageType=GameDetail" class="game-card-link">
+        <div class="game-card-thumb-container">
+            <img class="game-card-thumb" 
+                    src="http://t1.rbxcdn.com/f346546091bdc0ace18071bfb3bac431"
+                     
+                    alt="Maker Faire UK Booth 2015"
+                    thumbnail='{"Final":true,"Url":"http://t1.rbxcdn.com/f346546091bdc0ace18071bfb3bac431","RetryUrl":null}' image-retry />
+        </div>
+        <div class="text-overflow game-card-name" title="Maker Faire UK Booth 2015" ng-non-bindable>
+            Maker Faire UK Booth 2015
+        </div>
+        <div class="game-card-name-secondary">
+            0 Playing
+        </div>
+        <div class="game-card-vote">
+            <div class="vote-bar">
+                <div class="vote-thumbs-up">
+                    <span class="icon-thumbs-up"></span>
+                </div>
+                <div class="vote-container"
+                     data-upvotes="42"
+                     data-downvotes="6"
+                     data-voting-processed="false">
+                    <div class="vote-background "></div>
+                    <div class="vote-percentage"></div>
+                    <div class="vote-mask">
+                        <div class="segment seg-1"></div>
+                        <div class="segment seg-2"></div>
+                        <div class="segment seg-3"></div>
+                        <div class="segment seg-4"></div>
+                    </div>
+                </div>
+                <div class="vote-thumbs-down">
+                    <span class="icon-thumbs-down"></span>
+                </div>
+            </div>
+            <div class="vote-counts">
+                <div class="vote-down-count">6</div>
+                <div class="vote-up-count">42</div>
+
+            </div>
+        </div>
+    </a>
+    <span class="game-card-footer">
+        <span class="text-label xsmall">By </span>
+        <a class="text-link xsmall text-overflow" href="https://www.roblox.com/users/42837397/profile">KnowDaGame</a>
+    </span>
+    </div>
+</li>
+
+
+
+<li class="list-item game-card">
+    <div class="game-card-container">
+    <a href="http://www.roblox.com/games/refer?RecommendationAlgorithm=2&amp;RecommendationSourceId=288000202&amp;PlaceId=199992660&amp;Position=7&amp;PageType=GameDetail" class="game-card-link">
+        <div class="game-card-thumb-container">
+            <img class="game-card-thumb" 
+                    src="http://t0.rbxcdn.com/267833e99e8d1a2ab7e856fde88979dd"
+                     
+                    alt="The Old Haunted Mansion  Unofficial Halloween 2016"
+                    thumbnail='{"Final":true,"Url":"http://t0.rbxcdn.com/267833e99e8d1a2ab7e856fde88979dd","RetryUrl":null}' image-retry />
+        </div>
+        <div class="text-overflow game-card-name" title="The Old Haunted Mansion  Unofficial Halloween 2016" ng-non-bindable>
+            The Old Haunted Mansion  Unofficial Hall
+        </div>
+        <div class="game-card-name-secondary">
+            0 Playing
+        </div>
+        <div class="game-card-vote">
+            <div class="vote-bar">
+                <div class="vote-thumbs-up">
+                    <span class="icon-thumbs-up"></span>
+                </div>
+                <div class="vote-container"
+                     data-upvotes="212"
+                     data-downvotes="86"
+                     data-voting-processed="false">
+                    <div class="vote-background "></div>
+                    <div class="vote-percentage"></div>
+                    <div class="vote-mask">
+                        <div class="segment seg-1"></div>
+                        <div class="segment seg-2"></div>
+                        <div class="segment seg-3"></div>
+                        <div class="segment seg-4"></div>
+                    </div>
+                </div>
+                <div class="vote-thumbs-down">
+                    <span class="icon-thumbs-down"></span>
+                </div>
+            </div>
+            <div class="vote-counts">
+                <div class="vote-down-count">86</div>
+                <div class="vote-up-count">212</div>
+
+            </div>
+        </div>
+    </a>
+    <span class="game-card-footer">
+        <span class="text-label xsmall">By </span>
+        <a class="text-link xsmall text-overflow" href="https://www.roblox.com/users/21756204/profile">SharkTrickShots</a>
+    </span>
+    </div>
+</li>
+
+</ul>
+                    </div>
+            </div>
+            <div class="tab-pane store" id="store">
+
+
+                
+
+<div id="rbx-game-passes" class="container-list game-dev-store game-passes">
+    <div class="container-header">
+        <h3>Passes for this game</h3>
+    </div>
+    <ul id="rbx-passes-container" class="hlist store-cards gear-passes-container">
+            <li class="list-item">
+                <div class="store-card">
+                    <a href="https://www.roblox.com/Rexs-game-pass-item?id=288312600" class="gear-passes-asset" ><img  class='' src='http://t6.rbxcdn.com/11fccb16481ac1bd6e0ed99bbdb3a18e' /></a>
+                    <div class="store-card-caption">
+                        <div class="text-overflow store-card-name" title="Rex&#39;s game pass">
+                            Rex&#39;s game pass
+                        </div>
+
+                        <div class="store-card-price">
+                            <span class="icon-robux-16x16"></span>
+                            <span class="text-robux">500</span>
+                        </div>
+
+                        <div class="store-card-footer">
+                                <button class="PurchaseButton btn-buy-md btn-full-width rbx-gear-passes-purchase"
+                                        data-item-id="288312600"
+                                        data-item-name="Rex&#39;s game pass"
+                                        data-product-id="25807112"
+                                        data-expected-price="500"
+                                        data-asset-type="Game Pass"
+                                        data-bc-requirement=""
+                                        data-expected-seller-id="2650221"
+                                        data-seller-name="ROBLOX Live!"
+                                        data-expected-currency="1">
+                                    <span>Buy</span>
+                                </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="store-card">
+                    <a href="https://www.roblox.com/Get-a-Customisable-Cape-item?id=295429108" class="gear-passes-asset" ><img  class='' src='http://t2.rbxcdn.com/3944a8b60f11a4cdd5cad7ea000024d0' /></a>
+                    <div class="store-card-caption">
+                        <div class="text-overflow store-card-name" title="Get a Customisable Cape!">
+                            Get a Customisable Cape!
+                        </div>
+
+                        <div class="store-card-price">
+                            <span class="icon-robux-16x16"></span>
+                            <span class="text-robux">40</span>
+                        </div>
+
+                        <div class="store-card-footer">
+                                <button class="PurchaseButton btn-buy-md btn-full-width rbx-gear-passes-purchase"
+                                        data-item-id="295429108"
+                                        data-item-name="Get a Customisable Cape!"
+                                        data-product-id="26117810"
+                                        data-expected-price="40"
+                                        data-asset-type="Game Pass"
+                                        data-bc-requirement=""
+                                        data-expected-seller-id="2650221"
+                                        data-seller-name="ROBLOX Live!"
+                                        data-expected-currency="1">
+                                    <span>Buy</span>
+                                </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li class="list-item">
+                <div class="store-card">
+                    <a href="https://www.roblox.com/Bobs-Pet-Dragons-item?id=313708516" class="gear-passes-asset" ><img  class='' src='http://t5.rbxcdn.com/40de006b28a145411e9b32d9b850dbc4' /></a>
+                    <div class="store-card-caption">
+                        <div class="text-overflow store-card-name" title="Bob&#39;s Pet Dragons ">
+                            Bob&#39;s Pet Dragons 
+                        </div>
+
+                        <div class="store-card-price">
+                            <span class="icon-robux-16x16"></span>
+                            <span class="text-robux">150</span>
+                        </div>
+
+                        <div class="store-card-footer">
+                                <button class="PurchaseButton btn-buy-md btn-full-width rbx-gear-passes-purchase"
+                                        data-item-id="313708516"
+                                        data-item-name="Bob&#39;s Pet Dragons "
+                                        data-product-id="30102737"
+                                        data-expected-price="150"
+                                        data-asset-type="Game Pass"
+                                        data-bc-requirement=""
+                                        data-expected-seller-id="2650221"
+                                        data-seller-name="ROBLOX Live!"
+                                        data-expected-currency="1">
+                                    <span>Buy</span>
+                                </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+            </ul>
+
+
+
+</div>
+
+<script>
+    $(function () {
+        Roblox.GamePassJSData = { };
+        Roblox.GamePassJSData.PlaceID = 288000202;
+
+        var purchaseConfirmationCallback = function (obj) {
+            var originalContainer = $('.PurchaseButton[data-item-id=' + obj.AssetID + ']').parent('.store-card-caption');
+            originalContainer.find('.rbx-purchased').hide();
+            originalContainer.find('.rbx-item-buy').show();
+
+        };
+        Roblox.GamePassItemPurchase = new Roblox.ItemPurchase(purchaseConfirmationCallback);
+
+        $("#store #rbx-game-passes").on("click", ".PurchaseButton", function (e) {
+            Roblox.PlaceProductPromotionItemPurchase.openPurchaseVerificationView($(this), 'game-pass');
+        });
+
+        $("#store #rbx-game-passes .btn-more").on("click", function (e) {
+            $("#rbx-game-passes #rbx-passes-container").toggleClass("collapsed");
+        });
+    });
+</script>
+
+
+                
+
+
+<input name="__RequestVerificationToken" type="hidden" value="PGf4dBChuPyriI8le4ozSQBtfiErbFDnmeYmuAceFCPV5xqXh8ToQr6VqqlIqMIIYJkVbE-CfzhO2xggbC5ErfwnG4E1" />
+
+<script>
+    // From DisplayProductPromotions
+    $(function() {
+        Roblox.PlaceProductPromotion.Resources = {
+            //<sl:translate>
+            anErrorOccurred: 'An error occurred, please try again.'
+            , youhaveAdded: "You have added "
+            , toYourGame: " to your game, "
+            , youhaveRemoved: "You have removed "
+            , fromYourGame: " from your game."
+            , ok: "OK"
+            , success: "Success!"
+            , error: "Error"
+            , sorryWeCouldnt: "Sorry, we couldn't remove the item from your game. Please try again."
+            , notForSale: "This item is not for sale."
+            , rent: "Rent"
+            //<sl:translate>
+        };
+
+        var purchaseConfirmationCallback = function (obj) {
+            var originalContainer = $('.PurchaseButton[data-item-id=' + obj.AssetID + ']').parent('.store-card-caption');
+            originalContainer.find('.rbx-purchased').hide();
+            originalContainer.find('.rbx-item-buy').show();
+            
+        };
+        Roblox.PlaceProductPromotionItemPurchase = new Roblox.ItemPurchase(purchaseConfirmationCallback);
+        Roblox.PlaceProductPromotion.PlaceID = 288000202;
+
+        $("#store").on("click", ".icon-delete", function(e) {
+            var promoId = $(this).data('delete-promotion-id');
+            Roblox.PlaceProductPromotion.DeleteGear(promoId);
+        });
+
+        $("#store #rbx-game-gear").on("click", ".PurchaseButton", function (e) {
+            Roblox.PlaceProductPromotionItemPurchase.openPurchaseVerificationView($(this), 'game-gear');
+        });
+
+        $("#store #rbx-game-gear .btn-more").on("click", function (e) {
+            $("#rbx-game-gear .rbx-gear-container").toggleClass("collapsed");
+        });
+
+    });
+
+</script>
+
+<div id="DeleteProductPromotionModal" class="PurchaseModal">
+    <div id="simplemodal-close" class="simplemodal-close">
+        <a></a>
+    </div>
+    <div class="titleBar" style="text-align: center">
+    </div>
+    <div class="PurchaseModalBody">
+        <div class="PurchaseModalMessage">
+            <div class="PurchaseModalMessageImage">
+                <div class="thumbs-up-green">
+                </div>
+            </div>
+            <div class="PurchaseModalMessageText">
+            </div>
+        </div>
+        <div class="PurchaseModalButtonContainer">
+            <div class="ImageButton btn-blue-ok-sharp simplemodal-close"></div>
+        </div>
+        <div class="PurchaseModalFooter"></div>
+    </div>
+</div>
+
+
+
+
+            </div>
+
+            <div class="tab-pane" id="leaderboards">
+                
+                    <div class="col-md-6">
+                        
+
+<div id="rbx-leaderboard-container-player" class="section rbx-leaderboard-container rbx-leaderboard-player" data-associated-leaderboard-more="rbx-leaderboard-btn-player">
+    <div class="rbx-leaderboard-data"
+         data-distributor-target-id="112398808"
+         data-max="20"
+         data-rank-max="4"
+         data-target-type="0"
+         data-time-filter="1"
+         data-player-id="-1"
+         data-clan-id="-1"></div>
+    <div class="rbx-leaderboard-item-template hidden">
+        <div class="rbx-leaderboard-item">
+            <div class="rank"></div>
+            <div class="avatar avatar-headshot-sm"></div>
+            <div class="name-and-group"></div>
+            <div class="font-fold points"></div>
+        </div>
+    </div>
+    <div class="rbx-popover-content" data-toggle="popover-leaderboard-player">
+        <ul class="dropdown-menu" role="menu">
+            <li>
+                <a data-time-filter="0">Today</a>
+            </li>
+            <li>
+                <a data-time-filter="1">Past Week</a>
+            </li>
+            <li>
+                <a data-time-filter="2">Past Month</a>
+            </li>
+            <li>
+                <a data-time-filter="3">All Time</a>
+            </li>
+        </ul>
+    </div>
+    <div class="rbx-leaderboard-header">
+        <h3>Players</h3>
+        <div class="rbx-leaderboard-controls">
+            <div class="rbx-leaderboard-filter">
+                <span class="rbx-leaderboard-filtername">Past Week</span>
+                <a class="rbx-menu-item" data-toggle="popover" data-bind="popover-leaderboard-player"
+                   data-original-title="" title=""
+                   data-viewport=".rbx-leaderboard-player"
+                   data-placement="left"><span class="icon-sorting" id="rbx-leaderboard-popover-player"></span></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="rbx-leaderboard-my"></div>
+    <div class="section-content rbx-leaderboard-items">
+        <div class="rbx-leaderboard-more-container rbx-leaderboard-btn-player" data-associated-leaderboard="rbx-leaderboard-player">
+            <button type="button" class="btn-control-sm rbx-leaderboard-see-more hidden">
+                See More
+            </button>
+        </div>
+        <img class="spinner" src="http://images.rbxcdn.com/4bed93c91f909002b1f17f05c0ce13d1.gif" alt="loading..." />
+    </div>
+
+</div>
+
+    <script>
+        var Roblox = Roblox || {};
+        Roblox.Leaderboard = Roblox.Leaderboard || {};
+        Roblox.Leaderboard.Resources = {};
+        //<sl:translate>
+        Roblox.Leaderboard.Resources.ErrorLoading = "Error loading rows.";
+        Roblox.Leaderboard.Resources.Loading = "Loading...";
+        Roblox.Leaderboard.Resources.GoGetPoints = "You are not yet ranked for this time period. Go earn some Points!";
+        //</sl:translate>
+    </script>
+
+                    </div>
+                    <div class="col-md-6">
+                        
+
+<div id="rbx-leaderboard-container-clan" class="section rbx-leaderboard-container rbx-leaderboard-clan" data-associated-leaderboard-more="rbx-leaderboard-btn-clan">
+    <div class="rbx-leaderboard-data"
+         data-distributor-target-id="112398808"
+         data-max="20"
+         data-rank-max="4"
+         data-target-type="1"
+         data-time-filter="1"
+         data-player-id="-1"
+         data-clan-id="-1"></div>
+    <div class="rbx-leaderboard-item-template hidden">
+        <div class="rbx-leaderboard-item">
+            <div class="rank"></div>
+            <div class="avatar "></div>
+            <div class="name-and-group"></div>
+            <div class="font-fold points"></div>
+        </div>
+    </div>
+    <div class="rbx-popover-content" data-toggle="popover-leaderboard-clan">
+        <ul class="dropdown-menu" role="menu">
+            <li>
+                <a data-time-filter="0">Today</a>
+            </li>
+            <li>
+                <a data-time-filter="1">Past Week</a>
+            </li>
+            <li>
+                <a data-time-filter="2">Past Month</a>
+            </li>
+            <li>
+                <a data-time-filter="3">All Time</a>
+            </li>
+        </ul>
+    </div>
+    <div class="rbx-leaderboard-header">
+        <h3>Clans</h3>
+        <div class="rbx-leaderboard-controls">
+            <div class="rbx-leaderboard-filter">
+                <span class="rbx-leaderboard-filtername">Past Week</span>
+                <a class="rbx-menu-item" data-toggle="popover" data-bind="popover-leaderboard-clan"
+                   data-original-title="" title=""
+                   data-viewport=".rbx-leaderboard-clan"
+                   data-placement="left"><span class="icon-sorting" id="rbx-leaderboard-popover-clan"></span></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="rbx-leaderboard-my"></div>
+    <div class="section-content rbx-leaderboard-items">
+        <div class="rbx-leaderboard-more-container rbx-leaderboard-btn-clan" data-associated-leaderboard="rbx-leaderboard-clan">
+            <button type="button" class="btn-control-sm rbx-leaderboard-see-more hidden">
+                See More
+            </button>
+        </div>
+        <img class="spinner" src="http://images.rbxcdn.com/4bed93c91f909002b1f17f05c0ce13d1.gif" alt="loading..." />
+    </div>
+
+</div>
+
+    <script>
+        var Roblox = Roblox || {};
+        Roblox.Leaderboard = Roblox.Leaderboard || {};
+        Roblox.Leaderboard.Resources = {};
+        //<sl:translate>
+        Roblox.Leaderboard.Resources.ErrorLoading = "Error loading rows.";
+        Roblox.Leaderboard.Resources.Loading = "Loading...";
+        Roblox.Leaderboard.Resources.GoGetPoints = "You are not yet ranked for this time period. Go earn some Points!";
+        //</sl:translate>
+    </script>
+
+                    </div>
+
+                <script>
+
+                    // lazy load
+                    $(".rbx-tab a[href='#leaderboards']").on('shown.bs.tab', function(e) {
+                        // e.target newly activated tab
+                        // e.relatedTarget previous active tab
+                        Roblox.Leaderboard.init();
+                    });
+                </script>
+            </div>
+
+            <div class="tab-pane game-instances" id="game-instances">
+                
+                        <div class="col-xs-12 section-content-off">There are currently no running games.</div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="GenericModal modalPopup unifiedModal smallModal" style="display:none;">
+    <div class="Title"></div>
+    <div class="GenericModalBody">
+        <div>
+            <div class="ImageContainer">
+                <img class="GenericModalImage" alt="generic image"/>
+            </div>
+            <div class="Message"></div>
+        </div>
+        <div class="clear"></div>
+        <div id="GenericModalButtonContainer" class="GenericModalButtonContainer">
+            <a class="ImageButton btn-neutral btn-large roblox-ok">OK</a>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="ItemPurchaseAjaxData"
+     data-has-currency-service-error="False"
+     data-currency-service-error-message=""
+     data-authenticateduser-isnull="True"
+     data-user-balance-robux="0"
+     data-user-balance-tickets="0"
+     data-user-bc="0"
+     data-continueshopping-url="http://www.roblox.com/games/288000202/The-ROBLOX-Live-Hangout"
+     data-imageurl ="http://t1.rbxcdn.com/d3ff13060d72772b2145ce24600d3539"
+     data-alerturl ="http://images.rbxcdn.com/cbb24e0c0f1fb97381a065bd1e056fcb.png"
+     data-builderscluburl ="http://images.rbxcdn.com/ae345c0d59b00329758518edc104d573.png"
+     >
+    
+</div>
+
+
+<div id="ProcessingView" style="display:none">
+    <div class="ProcessingModalBody">
+        <p style="margin:0px"><img src='http://images.rbxcdn.com/116db03ed7027c242f773e70a4ed2e68.png' alt="Processing..." /></p>
+        <p style="margin:7px 0px">Processing Transaction</p>
+    </div>
+</div>
+
+
+
+
+<div id="BCOnlyModal" class="modalPopup unifiedModal smallModal" style="display:none;">
+    <div style="margin:4px 0px;">
+        <span>Builders Club Only</span>
+    </div>
+    <div class="simplemodal-close">
+        <a class="ImageButton closeBtnCircle_20h" style="margin-left:400px;"></a>
+    </div>
+    <div class="unifiedModalContent" style="padding-top:5px; margin-bottom: 3px; margin-left: 3px; margin-right: 3px">
+        <div class="ImageContainer">
+            <img class="GenericModalImage BCModalImage" alt="Builder's Club" src="http://images.rbxcdn.com/ae345c0d59b00329758518edc104d573.png" />
+            <div id="BCMessageDiv" class="BCMessage Message">
+                Builders Club membership is required to play in this place.
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="clear:both;"></div>
+        <div class="GenericModalButtonContainer" style="padding-bottom: 13px">
+            <div style="text-align:center">
+                <a id="BClink" href="https://www.roblox.com/premium/membership?ctx=bc-only-item" class="btn-primary btn-large">Upgrade Now</a>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function showBCOnlyModal(modalId) {
+        var modalProperties = { overlayClose: true, escClose: true, opacity: 80, overlayCss: { backgroundColor: "#000" } };
+        if (typeof modalId === "undefined")
+            $("#BCOnlyModal").modal(modalProperties);
+        else
+            $("#" + modalId).modal(modalProperties);
+    }
+    $(document).ready(function () {
+        $('#VOID').click(function () {
+            showBCOnlyModal("BCOnlyModal");
+            return false;
+        });
+    });
+</script>
+
+
+                <div id="Skyscraper-Adp-Right" class="abp abp-container right-abp">
+                    
+
+<iframe name="Roblox_GameDetail_Right_160x600" 
+        allowtransparency="true"
+        frameborder="0"
+        height="612"
+        scrolling="no"
+        src="http://www.roblox.com/userads/2"
+        width="160"
+        data-js-adtype="iframead"></iframe>
+
+                </div>
+            
+        </div>
+            </div> 
+
+<footer class="container-footer">
+    <div class="footer">
+        <ul class="row footer-links">
+                <li class="col-4 col-xs-2 footer-link">
+                    <a href="http://corp.roblox.com" class="text-footer-nav roblox-interstitial" target="_blank">
+                        About Us
+                    </a>
+                </li>
+                <li class="col-4 col-xs-2 footer-link">
+                    <a href="http://corp.roblox.com/jobs" class="text-footer-nav roblox-interstitial" target="_blank">
+                        Jobs
+                    </a>
+                </li>
+            <li class="col-4 col-xs-2 footer-link">
+                <a href="http://blog.roblox.com" class="text-footer-nav" target="_blank">
+                    Blog
+                </a>
+            </li>
+            <li class="col-4 col-xs-2 footer-link">
+                <a href="https://www.roblox.com/Info/Privacy.aspx" class="text-footer-nav" target="_blank">
+                    Privacy
+                </a>
+            </li>
+            <li class="col-4 col-xs-2 footer-link">
+                <a href="http://corp.roblox.com/parents" class="text-footer-nav roblox-interstitial" target="_blank">
+                    Parents
+                </a>
+            </li>
+            <li class="col-4 col-xs-2 footer-link">
+                <a href="http://en.help.roblox.com/" class="text-footer-nav roblox-interstitial" target="_blank">
+                    Help
+                </a>
+            </li>
+        </ul>
+        <p class="text-footer footer-note">
+            ROBLOX, "Online Building Toy", characters, logos, names, and all related indicia are trademarks of <a target="_blank" href="http://corp.roblox.com" class="text-link roblox-interstitial">ROBLOX Corporation</a>, ©2016.
+            Patents pending. ROBLOX is not sponsored, authorized or endorsed by any producer of plastic building bricks, including The LEGO Group, MEGA Brands, and K'Nex, and no resemblance to the products of these companies is intended.
+            Use of this site signifies your acceptance of the <a href="https://www.roblox.com/info/terms-of-service" target="_blank" class="text-link">Terms and Conditions</a>.
+        </p>
+    </div>
+</footer>
+
+
+</div> 
+
+
+
+    <script type="text/javascript">function urchinTracker() {}</script>
+
+
+<div id="PlaceLauncherStatusPanel" style="display:none;width:300px"
+     data-new-plugin-events-enabled="True"
+     data-event-stream-for-plugin-enabled="True"
+     data-event-stream-for-protocol-enabled="True"
+     data-is-game-launch-interface-enabled="False"
+     data-is-protocol-handler-launch-enabled="False"
+     data-is-user-logged-in="False"
+     data-os-name="OSX"
+     data-protocol-name-for-client="roblox-player"
+     data-protocol-name-for-studio="roblox-studio"
+     data-protocol-url-includes-launchtime="true"
+     data-protocol-detection-enabled="true">
+    <div class="modalPopup blueAndWhite PlaceLauncherModal" style="min-height: 160px">
+        <div id="Spinner" class="Spinner" style="padding:20px 0;">
+            <img src="http://images.rbxcdn.com/e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
+        </div>
+        <div id="status" style="min-height:40px;text-align:center;margin:5px 20px">
+            <div id="Starting" class="PlaceLauncherStatus MadStatusStarting" style="display:block">
+                Starting Roblox...
+            </div>
+            <div id="Waiting" class="PlaceLauncherStatus MadStatusField">Connecting to Players...</div>
+            <div id="StatusBackBuffer" class="PlaceLauncherStatus PlaceLauncherStatusBackBuffer MadStatusBackBuffer"></div>
+        </div>
+        <div style="text-align:center;margin-top:1em">
+            <input type="button" class="Button CancelPlaceLauncherButton translate" value="Cancel" />
+        </div>
+    </div>
+</div>
+<div id="ProtocolHandlerStartingDialog" style="display:none;">
+    <div class="modalPopup ph-modal-popup">
+        <div class="ph-modal-header">
+
+        </div>
+        <div class="ph-logo-row">
+            <img src="http://images.rbxcdn.com/e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
+        </div>
+        <div class="ph-areyouinstalleddialog-content">
+            <p class="larger-font-size">
+                ROBLOX is now loading. Get ready to play!
+            </p>
+            <div class="ph-startingdialog-spinner-row">
+                <img src="http://images.rbxcdn.com/4bed93c91f909002b1f17f05c0ce13d1.gif" width="82" height="24" />
+            </div>
+        </div>
+    </div>
+</div>
+<div id="ProtocolHandlerAreYouInstalled" style="display:none;">
+    <div class="modalPopup ph-modal-popup">
+        <div class="ph-modal-header">
+            <span class="icon-close simplemodal-close"></span>
+        </div>
+        <div class="ph-logo-row">
+            <img src="http://images.rbxcdn.com/e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
+        </div>
+        <div class="ph-areyouinstalleddialog-content">
+            <p class="larger-font-size">
+                You're moments away from getting into the game!
+            </p>
+            <div>
+                <button type="button" class="btn btn-primary-md" id="ProtocolHandlerInstallButton">
+                    Download and Install ROBLOX
+                </button>
+            </div>
+            <div class="small">
+                <a href="https://en.help.roblox.com/hc/en-us/articles/204473560" class="text-name" target="_blank">Click here for help</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="ProtocolHandlerClickAlwaysAllowed" class="ph-clickalwaysallowed" style="display:none;">
+    <p class="larger-font-size">
+        <span class="icon-moreinfo"></span>
+        Check <b>Remember my choice</b> and click <img src="http://images.rbxcdn.com/5efc356364c1fc286a6e7bbb67e6bd74.png" alt="Launch Application" />  in the dialog box above to join games faster in the future!
+    </p>
+</div>
+
+
+    <div id="videoPrerollPanel" style="display:none">
+        <div id="videoPrerollTitleDiv">
+            Gameplay sponsored by:
+        </div>
+        <div id="videoPrerollMainDiv"></div>
+        <div id="videoPrerollCompanionAd"></div>
+        <div id="videoPrerollLoadingDiv">
+            Loading <span id="videoPrerollLoadingPercent">0%</span> - <span id="videoPrerollMadStatus" class="MadStatusField">Starting game...</span><span id="videoPrerollMadStatusBackBuffer" class="MadStatusBackBuffer"></span>
+            <div id="videoPrerollLoadingBar">
+                <div id="videoPrerollLoadingBarCompleted">
+                </div>
+            </div>
+        </div>
+        <div id="videoPrerollJoinBC">
+            <span>Get more with Builders Club!</span>
+            <a href="https://www.roblox.com/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            if (Roblox.VideoPreRoll) {
+                Roblox.VideoPreRoll.showVideoPreRoll = false;
+                Roblox.VideoPreRoll.isPrerollShownEveryXMinutesEnabled = true;
+                Roblox.VideoPreRoll.loadingBarMaxTime = 33000;
+                Roblox.VideoPreRoll.videoOptions.key = "robloxcorporation"; 
+                    Roblox.VideoPreRoll.videoOptions.categories = "AgeUnknown,GenderUnknown,Town and City";
+                                     Roblox.VideoPreRoll.videoOptions.id = "games";
+                Roblox.VideoPreRoll.videoLoadingTimeout = 11000;
+                Roblox.VideoPreRoll.videoPlayingTimeout = 41000;
+                Roblox.VideoPreRoll.videoLogNote = "NotWindows";
+                Roblox.VideoPreRoll.logsEnabled = true;
+                Roblox.VideoPreRoll.excludedPlaceIds = "32373412";
+                Roblox.VideoPreRoll.adTime = 15;
+                    
+                Roblox.VideoPreRoll.specificAdOnPlacePageEnabled = true;
+                Roblox.VideoPreRoll.specificAdOnPlacePageId = 192800;
+                Roblox.VideoPreRoll.specificAdOnPlacePageCategory = "stooges";
+                
+                                    
+                Roblox.VideoPreRoll.specificAdOnPlacePage2Enabled = true;
+                Roblox.VideoPreRoll.specificAdOnPlacePage2Id = 2370766;
+                Roblox.VideoPreRoll.specificAdOnPlacePage2Category = "lego";
+                
+                $(Roblox.VideoPreRoll.checkEligibility);
+            }
+        });
+    </script>
+
+
+<div id="GuestModePrompt_BoyGirl" class="Revised GuestModePromptModal" style="display:none;">
+    <div class="simplemodal-close">
+        <a class="ImageButton closeBtnCircle_20h" style="cursor: pointer; margin-left:455px;top:7px; position:absolute;"></a>
+    </div>
+    <div class="Title">
+        Choose Your Avatar
+    </div>
+    <div style="min-height: 275px; background-color: white;">
+        <div style="clear:both; height:25px;"></div>
+
+        <div style="text-align: center;">
+            <div class="VisitButtonsGuestCharacter VisitButtonBoyGuest" style="float:left; margin-left:45px;"></div>
+            <div class="VisitButtonsGuestCharacter VisitButtonGirlGuest" style="float:right; margin-right:45px;"></div>
+        </div>
+        <div style="clear:both; height:25px;"></div>
+        <div class="RevisedFooter">
+            <div style="width:200px;margin:10px auto 0 auto;">
+                <a href="https://www.roblox.com/?returnUrl=http%3A%2F%2Fwww.roblox.com%2Fgames%2F288000202%2FThe-ROBLOX-Live-Hangout"><div class="RevisedCharacterSelectSignup"></div></a>
+                <a class="HaveAccount" href="https://www.roblox.com/newlogin?returnUrl=http%3A%2F%2Fwww.roblox.com%2Fgames%2F288000202%2FThe-ROBLOX-Live-Hangout">I have an account</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function checkRobloxInstall() {
+             return RobloxLaunch.CheckRobloxInstall('/install/download.aspx');
+    }
+
+</script>
+
+    <style>
+        #win_firefox_install_img .activation {
+        }
+
+        #win_firefox_install_img .installation {
+            width: 869px;
+            height: 331px;
+        }
+
+        #mac_firefox_install_img .activation {
+        }
+
+        #mac_firefox_install_img .installation {
+            width: 250px;
+        }
+
+        #win_chrome_install_img .activation {
+        }
+
+        #win_chrome_install_img .installation {
+        }
+
+        #mac_chrome_install_img .activation {
+            width: 250px;
+        }
+
+        #mac_chrome_install_img .installation {
+        }
+    </style>
+    <div id="InstallationInstructions" class="modalPopup blueAndWhite" style="display:none;overflow:hidden">
+        <a id="CancelButton2" onclick="return Roblox.Client._onCancel();" class="ImageButton closeBtnCircle_35h ABCloseCircle"></a>
+        <div style="padding-bottom:10px;text-align:center">
+                            <img id="mac_firefox_install_img" class="InstallInstructionsImage" data-modalwidth="970" data-delaysrc="http://images.rbxcdn.com/82357b42023dbc217c1ab4fe450f4e9e.png" data-activationsrc="http://images.rbxcdn.com/d0be427e01859ba14e111b20e17c8c9e.jpg" data-oldmacdelaysrc="http://images.rbxcdn.com/3b7c1af143e81751ce2db1982b40e136.jpg" alt="Installation Instructions" />
+            <br /><br />
+        </div>
+    </div>
+
+
+
+<div id="pluginObjDiv" style="height:1px;width:1px;visibility:hidden;position: absolute;top: 0;"></div>
+<iframe id="downloadInstallerIFrame" style="visibility:hidden;height:0;width:1px;position:absolute"></iframe>
+
+<script type='text/javascript' src='http://js.rbxcdn.com/1ba208cf31fb5a6a592b902955c8770b.js'></script>
+
+<script type="text/javascript">
+    Roblox.Client._skip = null;
+    Roblox.Client._CLSID = '76D50904-6780-4c8b-8986-1A7EE0B1716D';
+    Roblox.Client._installHost = 'setup.roblox.com';
+    Roblox.Client.ImplementsProxy = true;
+    Roblox.Client._silentModeEnabled = true;
+    Roblox.Client._bringAppToFrontEnabled = false;
+    Roblox.Client._currentPluginVersion = '';
+    Roblox.Client._eventStreamLoggingEnabled = true;
+
+        
+        Roblox.Client._installSuccess = function() {
+            if(GoogleAnalyticsEvents){
+                GoogleAnalyticsEvents.ViewVirtual('InstallSuccess');
+                GoogleAnalyticsEvents.FireEvent(['Plugin','Install Success']);
+                if (Roblox.Client._eventStreamLoggingEnabled && typeof Roblox.GamePlayEvents != "undefined") {
+                    Roblox.GamePlayEvents.SendInstallSuccess(Roblox.Client._launchMode, play_placeId);
+                }
+            }
+        }
+        
+    </script>
+
+
+<div class="ConfirmationModal modalPopup unifiedModal smallModal" data-modal-handle="confirmation" style="display:none;">
+    <a class="genericmodal-close ImageButton closeBtnCircle_20h"></a>
+    <div class="Title"></div>
+    <div class="GenericModalBody">
+        <div class="TopBody">
+            <div class="ImageContainer roblox-item-image" data-image-size="small" data-no-overlays data-no-click>
+                <img class="GenericModalImage" alt="generic image" />
+            </div>
+            <div class="Message"></div>
+        </div>
+        <div class="ConfirmationModalButtonContainer GenericModalButtonContainer">
+            <a href id="roblox-confirm-btn"><span></span></a>
+            <a href id="roblox-decline-btn"><span></span></a>
+        </div>
+        <div class="ConfirmationModalFooter">
+        
+        </div>  
+    </div>  
+    <script type="text/javascript">
+        Roblox = Roblox || {};
+        Roblox.Resources = Roblox.Resources || {};
+        
+        //<sl:translate>
+        Roblox.Resources.GenericConfirmation = {
+            yes: "Yes",
+            No: "No",
+            Confirm: "Confirm",
+            Cancel: "Cancel"
+        };
+        //</sl:translate>
+    </script>
+</div>
+
+
+
+<script type="text/javascript">
+    var Roblox = Roblox || {};
+    Roblox.jsConsoleEnabled = false;
+</script>
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            Roblox.CookieUpgrader.domain = 'roblox.com';
+            Roblox.CookieUpgrader.upgrade("GuestData", { expires: Roblox.CookieUpgrader.thirtyYearsFromNow });
+            Roblox.CookieUpgrader.upgrade("RBXSource", { expires: function (cookie) { return Roblox.CookieUpgrader.getExpirationFromCookieValue("rbx_acquisition_time", cookie); } });
+            Roblox.CookieUpgrader.upgrade("RBXViralAcquisition", { expires: function (cookie) { return Roblox.CookieUpgrader.getExpirationFromCookieValue("time", cookie); } });
+                
+                Roblox.CookieUpgrader.upgrade("RBXMarketing", { expires: Roblox.CookieUpgrader.thirtyYearsFromNow });
+                
+                            
+                Roblox.CookieUpgrader.upgrade("RBXSessionTracker", { expires: Roblox.CookieUpgrader.fourHoursFromNow });
+                
+                            
+                Roblox.CookieUpgrader.upgrade("RBXEventTrackerV2", {expires: Roblox.CookieUpgrader.thirtyYearsFromNow});
+                
+        });
+    </script>
+
+
+    
+    <script type='text/javascript' src='http://js.rbxcdn.com/9d838164cff202c7999dc432f3651aa7.js'></script>
+
+
+    
+                <script type='text/javascript' src='http://js.rbxcdn.com/822491cace41a2d39fd76db6cfd17800.js'></script>
+
+
+    
+    <script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'http://js.rbxcdn.com/c14a216bd7773e7b637b4e6c3c2e619d.js';Roblox.config.paths['Pages.CatalogShared'] = 'http://js.rbxcdn.com/962d5b2c17eda7dc135bb442c25afff9.js';Roblox.config.paths['Widgets.AvatarImage'] = 'http://js.rbxcdn.com/6bac93e9bb6716f32f09db749cec330b.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'http://js.rbxcdn.com/7b436bae917789c0b84f40fdebd25d97.js';Roblox.config.paths['Widgets.GroupImage'] = 'http://js.rbxcdn.com/33d82b98045d49ec5a1f635d14cc7010.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'http://js.rbxcdn.com/3368571372da9b2e1713bb54ca42a65a.js';Roblox.config.paths['Widgets.ItemImage'] = 'http://js.rbxcdn.com/8babd891cf420dfe3999b3824a0154cb.js';Roblox.config.paths['Widgets.PlaceImage'] = 'http://js.rbxcdn.com/f2697119678d0851cfaa6c2270a727ed.js';Roblox.config.paths['Widgets.SurveyModal'] = 'http://js.rbxcdn.com/d6e979598c460090eafb6d38231159f6.js';</script>
+
+    
+    <script>
+        Roblox.XsrfToken.setToken('iBtjkUUu+/u+');
+    </script>
+
+        <script>
+            $(function () {
+                Roblox.DeveloperConsoleWarning.showWarning();
+            });
+        </script>
+    <script type="text/javascript">
+    $(function () {
+        Roblox.JSErrorTracker.initialize({ 'suppressConsoleError': true});
+    });
+</script>
+    
+
+<script type="text/javascript">
+    $(function(){
+        function trackReturns() {
+            function dayDiff(d1, d2) {
+                return Math.floor((d1-d2)/86400000);
+            }
+            if (!localStorage) {
+                return false;
+            }
+
+            var cookieName = 'RBXReturn';
+            var cookieOptions = {expires:9001};
+            var cookieStr = localStorage.getItem(cookieName) || "";
+            var cookie = {};
+
+            try {
+                cookie = JSON.parse(cookieStr);
+            } catch (ex) {
+                // busted cookie string from old previous version of the code
+            }
+
+            try {
+                if (typeof cookie.ts === "undefined" || isNaN(new Date(cookie.ts))) {
+                    localStorage.setItem(cookieName, JSON.stringify({ ts: new Date().toDateString() }));
+                    return false;
+                }
+            } catch (ex) {
+                return false;
+            }
+
+            var daysSinceFirstVisit = dayDiff(new Date(), new Date(cookie.ts));
+            if (daysSinceFirstVisit == 1 && typeof cookie.odr === "undefined") {
+                RobloxEventManager.triggerEvent('rbx_evt_odr', {});
+                cookie.odr = 1;
+            }
+            if (daysSinceFirstVisit >= 1 && daysSinceFirstVisit <= 7 && typeof cookie.sdr === "undefined") {
+                RobloxEventManager.triggerEvent('rbx_evt_sdr', {});
+                cookie.sdr = 1;
+            }
+            try {
+                localStorage.setItem(cookieName, JSON.stringify(cookie));
+            } catch (ex) {
+                return false;
+            }
+        }
+
+        GoogleListener.init();
+
+
+    
+        RobloxEventManager.initialize(true);
+        RobloxEventManager.triggerEvent('rbx_evt_pageview');
+        trackReturns();
+        
+
+    
+        RobloxEventManager._idleInterval = 450000;
+        RobloxEventManager.registerCookieStoreEvent('rbx_evt_initial_install_start');
+        RobloxEventManager.registerCookieStoreEvent('rbx_evt_ftp');
+        RobloxEventManager.registerCookieStoreEvent('rbx_evt_initial_install_success');
+        RobloxEventManager.registerCookieStoreEvent('rbx_evt_fmp');
+        RobloxEventManager.startMonitor();
+        
+
+    });
+
+</script>
+
+
+    
+    
+
+<script type="text/javascript">
+    var Roblox = Roblox || {};
+    Roblox.UpsellAdModal = Roblox.UpsellAdModal || {};
+
+    Roblox.UpsellAdModal.Resources = {
+        //<sl:translate>
+        title: "Remove Ads Like This",
+        body: "Builders Club members do not see external ads like these.",
+        accept: "Upgrade Now",
+        decline: "No, thanks"
+        //</sl:translate>
+    };
+</script>
+
+    
+    <script type='text/javascript' src='http://js.rbxcdn.com/b9ac8c10db27d734a8bc52733311d537.js'></script>
+
+    
+
+
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "6035605", c3: "", c4: "", c15: "" });
+
+        (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+            s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1"/>
+    </noscript>
+</body>
+</html>

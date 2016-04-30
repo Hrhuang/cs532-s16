@@ -1,0 +1,6936 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+
+
+
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <title>Unravel - Official Site</title>
+
+    
+
+
+
+
+
+
+    <meta name="keywords" content="/"/>
+
+    <link rel="canonical" href="http://www.unravelgame.com/"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+
+
+
+    <meta http-equiv="content-language" content="en-us"/>
+
+
+
+    <link rel="alternate" href="http://www.unravelgame.com/" hreflang="x-default">
+
+    <link rel="alternate" href="http://www.unravelgame.com/" hreflang="en-us">
+
+    <link rel="alternate" href="http://www.unravelgame.com/ja_JP.html" hreflang="ja-jp">
+
+    <link rel="alternate" href="http://www.unravelgame.com/de_DE.html" hreflang="de-de">
+
+    <link rel="alternate" href="http://www.unravelgame.com/es_ES.html" hreflang="es-es">
+
+    <link rel="alternate" href="http://www.unravelgame.com/fr_FR.html" hreflang="fr-fr">
+
+    <link rel="alternate" href="http://www.unravelgame.com/en_AU.html" hreflang="en-au">
+
+    <link rel="alternate" href="http://www.unravelgame.com/it_IT.html" hreflang="it-it">
+
+    <link rel="alternate" href="http://www.unravelgame.com/en_GB.html" hreflang="en-gb">
+
+
+    
+
+
+
+
+
+    <meta name="keywords" content="unravel, video game, puzzle, platformer, ea, electronic arts"/>
+
+    <meta property="twitter:card" content="summary"/>
+
+    <meta property="twitter:description" content="Unravel is a unique and beautiful puzzle platformer following the adventure of Yarny, a tiny character made from a single length of yarn that slowly unravels as he moves throughout the world."/>
+
+    <meta property="og:image" content="http://www.unravelgame.com/_jcr_content/par/pagesection_3.img.jpg/1433455964683.jpg"/>
+
+    <meta property="twitter:site" content="@unravel_game"/>
+
+    <meta property="twitter:title" content="Unravel - Official Site"/>
+
+    <meta property="og:site_name" content="Unravel - Official Site"/>
+
+    <meta property="og:description" content="Unravel is a unique and beautiful puzzle platformer following the adventure of Yarny, a tiny character made from a single length of yarn that slowly unravels as he moves throughout the world."/>
+
+    <meta property="og:title" content="Unravel - Official Site"/>
+
+    <meta name="description" content="Unravel is a unique game featuring Yarny, a tiny character made from a thread of yarn that slowly unravels as he explores a lush landscape."/>
+
+
+    
+<link rel="stylesheet" href="/etc/designs/ea/clientlibs/thirdParty/normalize.min.css" type="text/css">
+<link rel="stylesheet" href="/etc/designs/ea/clientlibs/column.min.css" type="text/css">
+<link rel="stylesheet" href="/etc/designs/leap-mobile-design-parent-v2/clientlibs/leap-mobile-parent.min.css" type="text/css">
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/utils.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/jquery.min.js"></script>
+<script type="text/javascript" src="/etc/designs/leap-mobile-design-parent-v2/clientlibs/leap-mobile-parent.min.js"></script>
+<script type="text/javascript" src="/etc/designs/www-unravelgame/clientlibs/leapMultiPage.min.js"></script>
+
+
+    
+
+    
+
+    
+
+
+
+        <link rel="shortcut icon" href="/etc/designs/www-unravelgame/favicon.ico"/>
+
+
+
+    
+
+    
+    
+
+
+
+
+</head>
+
+
+<body class="leapMultiPage page leap ">
+    
+
+
+
+    <script type="text/javascript" src="/etc/designs/ea/clientlibs/thirdParty/jquery/cookie.min.js"></script>
+
+    
+    <script type="text/javascript" src="/etc/designs/ea/clientlibs/analytics/xDomain.min.js"></script>
+<script type="text/javascript" src="/etc/designs/ea/clientlibs/analytics/socialTracking.min.js"></script>
+
+
+    <script type="text/javascript">
+    
+        document.addEventListener('oc2LoginSuccess', user_init, false);
+        document.addEventListener('oc2Logout', user_init, false);
+        
+        var accessToken;  //set in user_init and also used in TeliumUser setEvent!
+
+        jQuery.getScript('//tags.tiqcdn.com/utag/ea/unravelgamecom/prod/utag.js');
+
+        function user_init(event) {
+	        window.ea_origin_user = null; //initialize
+	        
+			if (event) {
+			    accessToken = event.rat;
+            }
+	        
+	        var originUserUrl = '/services/loginUser?accessToken=' + accessToken + '&siteId=';
+	        var originUserSetEntitlementUrl = '/services/loginUserEntitlement?accessToken=' + accessToken + '&profile=&siteId=';
+	
+	        //check for accessToken cookie before calling ajax
+	        if ((typeof accessToken != 'undefined') && (originUserUrl != "")) {
+		        $.ajax({
+		            url: originUserUrl,
+		            type:'GET',
+		            contentType: "application/json",
+		            cache: false,
+		            dataType: 'json',
+		            success: function(data) {
+		                getOCBundleData(data);
+		            },
+		            error: function(e) {
+	                    window.ea_origin_user = null;
+	                }
+	            });
+		        
+	            if ('' != "") {
+	                $.ajax({
+	                    url: originUserSetEntitlementUrl,
+	                    type:"POST", 
+	                    contentType: "application/json",
+	                    cache: false,
+	                    dataType: 'json'
+	                });
+	            }
+			        
+	        } else { 
+	        	window.ea_origin_user = null;  // window.ea_origin_user must be declared for the set interval checker below
+	        }
+	
+	        //jsonp callback function
+	        function getOCBundleData(data, status) {
+	            window.ea_origin_user = data.data;  //get what's in the data object
+	        }
+	
+	        var utag_data = null;
+
+
+	        //wait for ajax calls to finish before logging
+	        var logUserStatus = window.setInterval(function(){
+	            window.clearInterval(logUserStatus);
+	            tealiumData = new TealiumData();
+	            utag_data = tealiumData.getData();
+
+	            window.udoEvent = window.eaCreateEvent('udoEvent');
+	            window.udoEvent.name = 'udoEvent';
+	            window.udoEvent.utag_data= utag_data;
+	            window.eaTriggerEvent('edoEvent', window.udoEvent);
+	        }
+	        ,5000);
+
+	    }
+        
+        /**
+         * TealiumUserClass
+         * @returns {TealiumUserEvent}
+         */
+        function TealiumData() {
+            
+            this.utagData = {};
+            
+            /**
+             * configure the utag_data variable to be passed on to Tealium
+             */
+            this.configure = function() {
+                try {
+                    var tealiumUser = new TealiumUser();
+                    var ea_origin_user_data = {};
+                    ea_origin_user_data = window.ea_origin_user;
+                   
+                    tealiumUser.configure(ea_origin_user_data);
+            
+                    this.utagData = {
+                             userid : tealiumUser.getUserId(),
+                             intcmp : "",
+                             referrerid : "",
+                             referring_site: "",
+                             userstatus: tealiumUser.getLoginStatus(),
+                            
+                            ga_event_category : tealiumUser.event.category,
+                            ga_event_action : tealiumUser.event.action,
+                            ga_event_label : tealiumUser.event.label,
+                            ga_event_value : tealiumUser.event.value
+                    };
+                } catch(e) {}
+            }; 
+            
+            /**
+             * getter method
+             */
+            this.getData = function() {
+                this.configure();
+                return this.utagData;
+            };
+        }
+
+         /**
+          * TealiumUserClass
+          * @returns {TealiumUserEvent}
+          */
+         function TealiumUser() {
+             
+             this.user = null;
+             
+             /**
+              * configure the class for the current user data
+              */
+             this.configure = function(userData) {
+                 try {
+                     this.setUser(userData);
+                     this.setUserId();
+                     this.setEvent();
+                 } catch(e) { alert ('configure error ' + e);}
+             };
+
+             /**
+              * parse the user data
+              * expected format example: {"userId":"123456789","dateCreated":"2012-04-01T18:39Z","email":"me@ea.com"}
+              * @param object userData
+              */
+             this.setUser = function(userData) {
+               this.user = userData;  //since we changed the json to wrap the expecteformat inside a "data" object               
+             };
+
+             /**
+              * writes the nucleus id to session storage
+              * there is a case for a logged out event where we need the user id
+              * but will no longer have it in the user object
+              * so we need to store the value and reuse the stored values
+              */
+             this.setUserId = function() {
+                 try {
+                     if(this.user.pidId) {
+                         sessionStorage['tlm_user_id'] = this.user.pidId;
+                     }
+                 } catch(e) {}
+             };
+             
+             /**
+              * gets the nucleus id from session storage
+              * @returns
+              */
+             this.getUserId = function() {
+                 try {
+                     return sessionStorage['tlm_user_id'];
+                 } catch(e) {
+                     return '';
+                 }
+             };
+             
+             /**
+              * clears the nucleus id from session storage
+              */
+             this.clearUserId = function() {
+                 try {
+                     sessionStorage['tlm_user_id'] = '';
+                 } catch(e) {}
+             };
+             
+             /**
+              * get the current google event
+              * @returns {TealiumUserEvent}
+              */
+             this.setEvent = function() {
+                 // set a default (blank) event
+                 var event = new TealiumUserEvent();
+                 // evaluate if we have an event override
+//                 if(this.getUserId()) {
+                         // if we accessToken then we are logging in
+                         if(typeof accessToken != 'undefined') {
+                             // is this a new registration
+                             if(this.isNewUser()) {
+                                 event.register(this.getUserId());
+                             } else {
+                                 event.login(this.getUserId());
+                             }
+                         } else {
+                             // if we are redirected by origin and do not have an accessToken but we have a user id then we are logging out
+//                             if(this.getUserId()) {
+                                 event.logout(this.getUserId());
+//                                 this.clearUserId();
+//                             }
+                         }
+//               }
+                 this.event = event;
+             };
+
+             /**
+              * get the current user login status
+              * @returns
+              */
+             this.getLoginStatus = function() {
+                 return this.getUserId() ? 'LoggedIn' : 'LoggedOut';
+             };
+             
+             
+             /**
+              * a new acquisition (registration) will be a login that happens within a 60 seconds of the account being created
+              * this is really hokey, but it's the only information we get back from origin
+              * WARNING: getTime() calculates in milliseconds
+              * @returns {Boolean}
+              */
+             this.isNewUser = function() {
+                 try {
+                     if(this.user.dateCreated) {
+                         // the created datetime is in GMT
+                         var created = new Date(this.user.dateCreated);
+                         var gmtString = new Date().toISOString();
+                         var current = new Date(gmtString);
+                         var test = current.getTime() <= (created.getTime() + (120 * 1000));  //changed to 2 mins as origin is so slow 
+                         return test;
+                     }
+                 } catch(e) {}
+                 return false;
+             };  
+
+         };
+
+         /**
+          * TealiumUserEventClass
+          * @returns {TealiumUserEvent}
+          */
+         function TealiumUserEvent() {
+             
+             this.category = '';
+             this.action = '';
+             this.label = '';
+             this.value = '';
+             
+
+             /**
+              * new registration event
+              * @param userId
+              */ 
+             this.register = function(userId) {
+                 this.setEvent('Acquisition', 'Registration', userId, '');
+             };
+                 
+             /**
+              * logged in event
+              * @param userId
+              */
+             this.login = function(userId) {
+                 this.setEvent('Userstatus', 'LoggedIn', userId, '');
+             };
+             
+             /**
+              * logged out event
+              * @param userId
+              */
+             this.logout = function(userId) {
+                 this.setEvent('Userstatus', 'LoggedOut', userId, '');
+             };      
+             
+             /**
+              * set a Google Analytics event
+              * @param category
+              * @param action
+              * @param label
+              * @param value
+              */
+             this.setEvent = function(category, action, label, value) {
+                 this.category = category;
+                 this.action = action;
+                 this.label = label;
+                 this.value = value;
+             };  
+
+         }
+         
+        </script>
+
+    <div id="body">
+        <!-- refer to http://www.ie6countdown.com/join-us.aspx -->
+<!--[if lt IE 9]> 
+    <div id="browserCompatibility" style="margin: 0 auto;max-height:42px;max-width:820px;">
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+            <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+    </div>
+<![endif]-->
+        
+        
+
+<div id="content">
+    <div class="parsys iparsys header"><div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<a class="link home" data-href="#/home" title="Unravel" data-id="unravel-header-logo" style="vertical-align: top;"></a>
+<a class="link make" data-href="#/about" title="About">About</a>
+<a class="link community" data-href="#/community" title="Community">Community</a>
+<a class="link news" data-href="#/news" title="News">News</a>
+<a class="page-link" href="http://www.unravelgame.com/unravel-make-yarny-guide">Build you own Yarny</a>
+<a class="link play" data-href="#/play" title="Play">BUY NOW</a>
+
+    
+
+</div>
+<div class="iparys_inherited"><div class="parsys iparsys header">
+</div>
+</div>
+</div>
+
+    <div class="par parsys"><div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+<link rel="stylesheet" href="/etc/designs/ea/clientlibs/pageSection.min.css" type="text/css">
+<script type="text/javascript" src="/etc/designs/ea/clientlibs/thirdParty/jquery/debouncedresize.min.js"></script>
+<script type="text/javascript" src="/etc/designs/ea/clientlibs/pageSection.min.js"></script>
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection home-panel v-panel" style="background-size:cover; width:100%; " id="home" data-rendition="0,768,1024,1360">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_3"></a> 
+	    <div class="par parsys"><div class="parbase imageRenditions section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<link rel="stylesheet" href="/etc/designs/ea/clientlibs/adaptiveImage.min.css" type="text/css">
+<script type="text/javascript" src="/etc/designs/ea/clientlibs/adaptiveImage.min.js"></script>
+
+	
+
+        
+        <div data-picture="picturefill" data-alt=""  data-title="" data-description="">
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_3/par/imagerenditions/small.img.jpg/1458584405885.jpg" data-media="(min-width: 0px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_3/par/imagerenditions/medium.img.jpg/1458584405885.jpg" data-media="(min-width: 768px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_3/par/imagerenditions/large.img.jpg/1458584405885.jpg" data-media="(min-width: 1200px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_3/par/imagerenditions/xlarge.img.jpg/1458584405885.jpg" data-media="(min-width: 1900px)"></div>
+
+
+    
+
+
+			
+			<noscript>
+                
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_3/par/imagerenditions/small.img.jpg/1458584405885.jpg" />
+
+    
+
+
+            </noscript>			
+		</div>
+		<!--[if (lt IE 9) & (!IEMobile)]>
+            
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_3/par/imagerenditions/small.img.jpg/1458584405885.jpg" />
+
+    
+
+
+        <![endif]-->
+            		   	
+
+    
+
+</div>
+<div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<div id="watch-trailer">
+    <i></i>&nbsp;<span>Watch the trailer</span>
+</div>
+<div id="bgv-home" data-video-id="VVLzQMqWER8"></div>
+<div id="home-trailer-overlay"><div class="home-trailer-wrapper"><div id="home-trailer"></div><div id="close-trailer" class="close-button"></div></div></div>
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection " style="background-size:cover; width:100%; " data-id="scroll-hint">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_3/par/pagesection"></a> 
+	    <div class="par parsys"><div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection " style="background-size:cover; width:100%; " data-id="scroll-icon">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_3/par/pagesection/par/pagesection"></a> 
+	    <div class="par parsys"><div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_3/par/pagesection/par/pagesection/par/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<img title="" alt="scroll-animation-sprite" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_3/par/pagesection/par/pagesection/par/image.img.png/1454554826922.png" >
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection " style="background-size:cover; width:100%; " data-id="swipe-icon">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_3/par/pagesection/par/pagesection_0"></a> 
+	    <div class="par parsys"><div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_3/par/pagesection/par/pagesection_0/par/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<img title="" alt="swipe-sprite" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_3/par/pagesection/par/pagesection_0/par/image.img.png/1454554824707.png" >
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection quote-section" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_3/par/pagesection_0"></a> 
+	    <div class="par parsys"><div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <p class="quote-text b1">It's a nice chance to see our creation through your eyes.</p>
+<p class="quote-source h6"><b>–Martin Sahlin</b></p>
+
+</div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'quote-section'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'home-panel v-panel'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+    <style>
+    
+	    
+		
+			.-content-www-unravelgame-en_US-_jcr_content-par-pagesection_0 {
+			    background-image: url(/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0.img.jpg/1454554823256.jpg);
+			}
+		
+		
+	</style>
+
+<div class="page-section-background scrollme -content-www-unravelgame-en_US-_jcr_content-par-pagesection_0 about-panel v-panel" style="background-size:cover; width:100%; background-attachment:scroll; background-position:center center; background-repeat:no-repeat; " id="about">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_0"></a> 
+	    <div class="par parsys"><div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<div id="bgv-about" class="v-player" data-video-id="DCew8R2v_8M" data-position="center"></div>
+
+    
+
+</div>
+<div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <h1 class="d4 panel-title">About</h1>
+
+</div>
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection about-content-section panel-content-section" style="background-size:cover; width:100%; " id="about-container" data-rendition="0,1024">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_0/par/pagesection"></a> 
+	    <div class="par parsys"><div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection about-section-item" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_0/par/pagesection/par/pagesection"></a> 
+	    <div class="par parsys"><div class="parbase imageRenditions section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+	
+
+        
+        <div data-picture="picturefill" data-alt=""  data-title="" data-description="">
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection/par/imagerenditions/small.img.jpg/1454554823446.jpg" data-media="(min-width: 0px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection/par/imagerenditions/medium.img.jpg/1454554821733.jpg" data-media="(min-width: 768px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+    
+
+
+			
+			<noscript>
+                
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection/par/imagerenditions/small.img.jpg/1454554823446.jpg" />
+
+    
+
+
+            </noscript>			
+		</div>
+		<!--[if (lt IE 9) & (!IEMobile)]>
+            
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection/par/imagerenditions/small.img.jpg/1454554823446.jpg" />
+
+    
+
+
+        <![endif]-->
+            		   	
+
+    
+
+</div>
+<div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <h4 class="h4"><b>Yarny</b></h4>
+<p class="b2">Yarny is a tiny new character made from a single thread of yarn that slowly unravels as he embarks on a seemingly larger than life journey.</p>
+
+</div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'about-section-item'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection about-section-item" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_0/par/pagesection/par/pagesection_0"></a> 
+	    <div class="par parsys"><div class="parbase imageRenditions section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+	
+
+        
+        <div data-picture="picturefill" data-alt=""  data-title="" data-description="">
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_0/par/imagerenditions/small.img.jpg/1454554824451.jpg" data-media="(min-width: 0px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_0/par/imagerenditions/medium.img.jpg/1454554800606.jpg" data-media="(min-width: 768px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+    
+
+
+			
+			<noscript>
+                
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_0/par/imagerenditions/small.img.jpg/1454554824451.jpg" />
+
+    
+
+
+            </noscript>			
+		</div>
+		<!--[if (lt IE 9) & (!IEMobile)]>
+            
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_0/par/imagerenditions/small.img.jpg/1454554824451.jpg" />
+
+    
+
+
+        <![endif]-->
+            		   	
+
+    
+
+</div>
+<div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <h4 class="h4"><b>ENVIRONMENT</b></h4>
+<p class="b2">Inspired by the breath-taking, lush environments of Northern Scandinavia, traverse nature’s beauty as well as the dangers that it has in store.</p>
+
+</div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'about-section-item'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection about-section-item" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_0/par/pagesection/par/pagesection_1"></a> 
+	    <div class="par parsys"><div class="parbase imageRenditions section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+	
+
+        
+        <div data-picture="picturefill" data-alt=""  data-title="" data-description="">
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_1/par/imagerenditions/small.img.jpg/1454554797556.jpg" data-media="(min-width: 0px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_1/par/imagerenditions/medium.img.jpg/1454554824535.jpg" data-media="(min-width: 768px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+    
+
+
+			
+			<noscript>
+                
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_1/par/imagerenditions/small.img.jpg/1454554797556.jpg" />
+
+    
+
+
+            </noscript>			
+		</div>
+		<!--[if (lt IE 9) & (!IEMobile)]>
+            
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_1/par/imagerenditions/small.img.jpg/1454554797556.jpg" />
+
+    
+
+
+        <![endif]-->
+            		   	
+
+    
+
+</div>
+<div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <h4 class="h4"><b>PUZZLES</b></h4>
+<p class="b2">Using Yarny’s thread, interact with the environment to swing across a tree gap or hitch a ride on a flying kite, no feat is too big. The tools may be simple but they have ability to accomplish complex puzzles.</p>
+
+</div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'about-section-item'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection about-section-item" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_0/par/pagesection/par/pagesection_2"></a> 
+	    <div class="par parsys"><div class="parbase imageRenditions section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+	
+
+        
+        <div data-picture="picturefill" data-alt=""  data-title="" data-description="">
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_2/par/imagerenditions/small.img.jpg/1454554821514.jpg" data-media="(min-width: 0px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_2/par/imagerenditions/medium.img.jpg/1454554826591.jpg" data-media="(min-width: 768px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+    
+
+
+			
+			<noscript>
+                
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_2/par/imagerenditions/small.img.jpg/1454554821514.jpg" />
+
+    
+
+
+            </noscript>			
+		</div>
+		<!--[if (lt IE 9) & (!IEMobile)]>
+            
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_0/par/pagesection/par/pagesection_2/par/imagerenditions/small.img.jpg/1454554821514.jpg" />
+
+    
+
+
+        <![endif]-->
+            		   	
+
+    
+
+</div>
+<div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <h4 class="h4"><b>UNDERLYING STORY</b></h4>
+<p class="b2">Unlock a heartfelt story re-connecting the memories of a long lost family. The tale is told completely without words, and Yarny is the bond that ties everything together.</p>
+
+</div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'about-section-item'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'about-content-section panel-content-section'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'about-panel v-panel'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+    <style>
+    
+	    
+		
+			.-content-www-unravelgame-en_US-_jcr_content-par-pagesection_5 {
+			    background-image: url(/content/www-unravelgame/en_US/_jcr_content/par/pagesection_5.img.jpg/1454554800448.jpg);
+			}
+		
+		
+	</style>
+
+<div class="page-section-background scrollme -content-www-unravelgame-en_US-_jcr_content-par-pagesection_5 community-panel v-panel" style="background-size:cover; width:100%; background-attachment:scroll; background-position:center center; background-repeat:no-repeat; " id="community">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_5"></a> 
+	    <div class="par parsys"><div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<div id="bgv-community" class="v-player" data-video-id="t-nOkDpO6YQ" data-position="center"></div>
+
+    
+
+</div>
+<div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <h1 class="d4 panel-title">Community</h1>
+
+</div>
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection community-content-section panel-content-section" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_5/par/pagesection"></a> 
+	    <div class="par parsys"><div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <h2 class="h2">Follow <b>Yarny around the world</b></h2>
+<p class="b2">Making your own Yarny figure is easy and lots of fun! And once you make your own, be sure to share it with us <a target="_blank" href="https://twitter.com/unravel_game" style="color: red;">@Unravel_Game</a> (with your Twitter location turned on) – we’ll be sharing our favorites on the map!</p>
+
+</div>
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+    <style>
+    
+	    
+		
+			.-content-www-unravelgame-en_US-_jcr_content-par-pagesection_5-par-pagesection-par-pagesection {
+			    background-image: url(/content/www-unravelgame/en_US/_jcr_content/par/pagesection_5/par/pagesection/par/pagesection.img.jpg/1454554821941.jpg);
+			}
+		
+		
+	</style>
+
+<div class="page-section-background scrollme -content-www-unravelgame-en_US-_jcr_content-par-pagesection_5-par-pagesection-par-pagesection community-visualization-wrapper" style="background-size:cover; width:100%; background-attachment:scroll; background-position:center center; background-repeat:no-repeat; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_5/par/pagesection/par/pagesection"></a> 
+	    <div class="par parsys"><div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+    <style>
+    
+	    
+		
+			.-content-www-unravelgame-en_US-_jcr_content-par-pagesection_5-par-pagesection-par-pagesection-par-pagesection {
+			    background-image: url(/content/www-unravelgame/en_US/_jcr_content/par/pagesection_5/par/pagesection/par/pagesection/par/pagesection.img.png/1454554817154.png);
+			}
+		
+		
+	</style>
+
+<div class="page-section-background scrollme -content-www-unravelgame-en_US-_jcr_content-par-pagesection_5-par-pagesection-par-pagesection-par-pagesection community-visualization-section" style="background-size:cover; width:100%; background-attachment:scroll; background-position:center center; background-repeat:no-repeat; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_5/par/pagesection/par/pagesection/par/pagesection"></a> 
+	    <div class="par parsys"><div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<div class="mr-space" id="mr-space_unravel-visualization-mobile" data-space-id="ea-electronic-arts/unravel-visualization-mobile" style="min-height: 500px;"></div>
+<div class="mr-space" id="mr-space_unravel-visualization" data-space-id="ea-electronic-arts/unravel-visualization" style="min-height: 500px;"></div>
+<script>
+var VISUALIZATION_SPACE_ID = 'mr-space_unravel-visualization-mobile';
+var VISUALIZATION_MOBILE_BREAKPOINT = 768;
+
+if ($(window).width() >= VISUALIZATION_MOBILE_BREAKPOINT) {
+	VISUALIZATION_SPACE_ID = 'mr-space_unravel-visualization';
+}
+!function(a,b,c,d,e,f,g,h,i,j,k){h=a[d]=a[d]||{},h.ui=h.ui||[],i=a[e]=a[e]||{},i[f]||(j=b.getElementsByTagName(c)[0],k=b.createElement(c),k.src="//platform.massrelevance.com/js/massrel.js",j.parentNode.insertBefore(k,j),i[f]=function(){h.ui.push([].slice.call(arguments))}),i[f]("load",{el:b.getElementById(g)})}(window,document,"script","massrel","spredfast","exp", VISUALIZATION_SPACE_ID);
+</script>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'community-visualization-section'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'community-visualization-wrapper'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'community-content-section panel-content-section'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'community-panel v-panel'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+    <style>
+    
+	    
+		
+			.-content-www-unravelgame-en_US-_jcr_content-par-pagesection_1 {
+			    background-image: url(/content/www-unravelgame/en_US/_jcr_content/par/pagesection_1.img.jpg/1454554822330.jpg);
+			}
+		
+		
+	</style>
+
+<div class="page-section-background scrollme -content-www-unravelgame-en_US-_jcr_content-par-pagesection_1 news-panel v-panel" style="background-size:cover; width:100%; background-attachment:scroll; background-position:center center; background-repeat:no-repeat; " id="news">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_1"></a> 
+	    <div class="par parsys"><div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<div id="bgv-news" class="v-player" data-video-id="KqVKmL8rQpk"></div>
+
+    
+
+</div>
+<div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <h1 class="d4 panel-title">Latest News</h1>
+
+</div>
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection news-content-section panel-content-section" style="background-size:cover; width:100%; " id="news-list">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_1/par/pagesection"></a> 
+	    <div class="par parsys"><div class="parbase list section">
+
+ 
+ 
+ 
+ 
+
+<ul class="news">
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+<link rel="stylesheet" href="/etc/designs/ea/clientlibs/list.min.css" type="text/css">
+<script type="text/javascript" src="/etc/designs/ea/clientlibs/list.min.js"></script>
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/yarny-gifs/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="UnraveL_winter_sun_March_14-web"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/yarny-gifs/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/yarny-gifs/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/yarny-gifs/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/yarny-gifs/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/yarny-gifs/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/yarny-gifs/_jcr_content/image.adaptive.full.medium..jpg" alt="UnraveL_winter_sun_March_14-web">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/yarny-gifs/_jcr_content/image.adaptive.full.medium..jpg" alt="UnraveL_winter_sun_March_14-web">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/yarny-gifs.html">
+            <h5 class="h5"><strong>Yarny&#x20;Reaction&#x20;GIFs&#x20;to&#x20;Help&#x20;You&#x20;React&#x20;to&#x20;Things</strong></h5>
+            <div class="news-description">
+                <p class="b2">We&rsquo;re&#x20;really&#x20;happy&#x20;you&rsquo;re&#x20;all&#x20;enjoying&#x20;your&#x20;time&#x20;with&#x20;Unravel&#x20;&ndash;&#x20;and&#x20;Yarny</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/yarny-gifs.html" title="Yarny&#x20;Reaction&#x20;GIFs&#x20;to&#x20;Help&#x20;You&#x20;React&#x20;to&#x20;Things" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-reviews/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="winter_sun_24.02-web"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-reviews/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-reviews/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-reviews/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-reviews/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-reviews/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-reviews/_jcr_content/image.adaptive.full.medium..jpg" alt="winter_sun_24.02-web">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-reviews/_jcr_content/image.adaptive.full.medium..jpg" alt="winter_sun_24.02-web">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-reviews.html">
+            <h5 class="h5"><strong>Thank&#x20;You&#x20;for&#x20;Playing&#x20;Unravel</strong></h5>
+            <div class="news-description">
+                <p class="b2">So&#x20;the&#x20;day&#x20;came,&#x20;and&#x20;Unravel&#x20;was&#x20;released,&#x20;finally.&#x20;What&#x20;a&#x20;weird&#x20;and&#x20;wonderful&#x20;thing&#x20;it&#x20;is&#x20;to&#x20;make&#x20;something&#x20;like&#x20;this.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-reviews.html" title="Thank&#x20;You&#x20;for&#x20;Playing&#x20;Unravel" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-valentines-day-cards/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Yarny&#x20;Upside&#x20;Down"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-valentines-day-cards/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-valentines-day-cards/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-valentines-day-cards/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-valentines-day-cards/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-valentines-day-cards/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-valentines-day-cards/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny&#x20;Upside&#x20;Down">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-valentines-day-cards/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny&#x20;Upside&#x20;Down">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-valentines-day-cards.html">
+            <h5 class="h5"><strong>Celebrate&#x20;Love&#x20;with&#x20;Unravel&#x20;Valentine&rsquo;s&#x20;Day&#x20;Cards</strong></h5>
+            <div class="news-description">
+                <p class="b2">In&#x20;Unravel,&#x20;Yarny&#x20;represents&#x20;love,&#x20;and&#x20;the&#x20;yarn&#x20;that&#x20;flows&#x20;through&#x20;the&#x20;game&#x20;signifies&#x20;the&#x20;bonds&#x20;that&#x20;tie&#x20;all&#x20;of&#x20;our&#x20;hearts&#x20;together.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-valentines-day-cards.html" title="Celebrate&#x20;Love&#x20;with&#x20;Unravel&#x20;Valentine&rsquo;s&#x20;Day&#x20;Cards" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-available/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Unravel_Now_Avail_09.02-web"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-available/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-available/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-available/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-available/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-available/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-available/_jcr_content/image.adaptive.full.medium..jpg" alt="Unravel_Now_Avail_09.02-web">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-available/_jcr_content/image.adaptive.full.medium..jpg" alt="Unravel_Now_Avail_09.02-web">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-available.html">
+            <h5 class="h5"><strong>Unravel&#x20;is&#x20;Now&#x20;Available</strong></h5>
+            <div class="news-description">
+                <p class="b2">It&rsquo;s&#x20;hard&#x20;to&#x20;put&#x20;into&#x20;words&#x20;how&#x20;exciting&#x20;this&#x20;day&#x20;is.&#x20;After&#x20;over&#x20;two&#x20;and&#x20;a&#x20;half&#x20;years&#x20;of&#x20;work,&#x20;Unravel&trade;&#x20;is&#x20;now&#x20;finally&#x20;available&#x20;on&#x20;Xbox&#x20;One,&#x20;PlayStation&reg;4,&#x20;and&#x20;PC.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-available.html" title="Unravel&#x20;is&#x20;Now&#x20;Available" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-origin-ea-access/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="unravel-home"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-origin-ea-access/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-origin-ea-access/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-origin-ea-access/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-origin-ea-access/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-origin-ea-access/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-origin-ea-access/_jcr_content/image.adaptive.full.medium..jpg" alt="unravel-home">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-origin-ea-access/_jcr_content/image.adaptive.full.medium..jpg" alt="unravel-home">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-origin-ea-access.html">
+            <h5 class="h5"><strong>Unravel&rsquo;s&#x20;Trial&#x20;for&#x20;EA&#x20;Access&#x20;and&#x20;Origin&#x20;Access&#x20;is&#x20;Now&#x20;Available</strong></h5>
+            <div class="news-description">
+                <p class="b2">Unravel&#x20;launches&#x20;worldwide&#x20;on&#x20;February&#x20;9,&#x20;2016&#x20;for&#x20;PC,&#x20;Xbox&#x20;One,&#x20;and&#x20;PlayStation&#x20;4&#x20;&ndash;&#x20;but&#x20;Origin&#x20;Access&#x20;and&#x20;EA&#x20;Access&#x20;members&#x20;can&#x20;try&#x20;it&#x20;starting&#x20;today&#x20;for&#x20;a&#x20;limited&#x20;time.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-origin-ea-access.html" title="Unravel&rsquo;s&#x20;Trial&#x20;for&#x20;EA&#x20;Access&#x20;and&#x20;Origin&#x20;Access&#x20;is&#x20;Now&#x20;Available" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-game-music/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="unravel_game-music"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-music/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-music/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-music/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-music/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-music/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-game-music/_jcr_content/image.adaptive.full.medium..jpg" alt="unravel_game-music">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-game-music/_jcr_content/image.adaptive.full.medium..jpg" alt="unravel_game-music">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-game-music.html">
+            <h5 class="h5"><strong>Unravel&rsquo;s&#x20;Music&#x3a;&#x20;Soundtrack&#x20;as&#x20;a&#x20;Story</strong></h5>
+            <div class="news-description">
+                <p class="b2">With&#x20;Unravel&#x20;releasing&#x20;on&#x20;February&#x20;9,&#x20;we&#x20;wanted&#x20;to&#x20;share&#x20;one&#x20;more&#x20;short&#x20;video&#x20;giving&#x20;a&#x20;deeper&#x20;look&#x20;into&#x20;the&#x20;development&#x20;of&#x20;Unravel.&#x20;In&#x20;the&#x20;past&#x20;we&#x20;talked&#x20;about&#x20;Unravel&rsquo;s&#x20;environment,&#x20;creation&#x20;of&#x20;Yarny,&#x20;and&#x20;the&#x20;game&rsquo;s&#x20;puzzles.&#x20;Today,&#x20;I&#x20;wanted&#x20;to&#x20;share&#x20;some&#x20;details&#x20;on&#x20;Unravel&rsquo;s&#x20;unique&#x20;approach&#x20;to&#x20;music.&#x20;</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-game-music.html" title="Unravel&rsquo;s&#x20;Music&#x3a;&#x20;Soundtrack&#x20;as&#x20;a&#x20;Story" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-most-anticipated/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Big_out_of_yarn_001&#x20;20"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-most-anticipated/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-most-anticipated/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-most-anticipated/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-most-anticipated/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-most-anticipated/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-most-anticipated/_jcr_content/image.adaptive.full.medium..jpg" alt="Big_out_of_yarn_001&#x20;20">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-most-anticipated/_jcr_content/image.adaptive.full.medium..jpg" alt="Big_out_of_yarn_001&#x20;20">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-most-anticipated.html">
+            <h5 class="h5"><strong>We&rsquo;re&#x20;Honored&#x20;to&#x20;See&#x20;So&#x20;Much&#x20;Excitement&#x20;for&#x20;Unravel</strong></h5>
+            <div class="news-description">
+                <p class="b2">Hi&#x20;everyone,&#x20;Martin&#x20;Sahlin&#x20;here.&#x20;2016&#x20;is&#x20;here,&#x20;and&#x20;we&rsquo;re&#x20;just&#x20;a&#x20;few&#x20;short&#x20;weeks&#x20;away&#x20;from&#x20;launching&#x20;Unravel.&#x20;It&rsquo;s&#x20;hard&#x20;to&#x20;describe&#x20;what&#x20;it&#x20;feels&#x20;like&#x20;to&#x20;be&#x20;DONE,&#x20;finally.&#x20;Slightly&#x20;nerve-racking&#x20;I&#x20;guess,&#x20;but&#x20;pretty&#x20;great&#x21;</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-most-anticipated.html" title="We&rsquo;re&#x20;Honored&#x20;to&#x20;See&#x20;So&#x20;Much&#x20;Excitement&#x20;for&#x20;Unravel" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-game-puzzles/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Unravel_puzzles_blog-jan16"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-puzzles/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-puzzles/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-puzzles/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-puzzles/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-puzzles/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-game-puzzles/_jcr_content/image.adaptive.full.medium..jpg" alt="Unravel_puzzles_blog-jan16">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-game-puzzles/_jcr_content/image.adaptive.full.medium..jpg" alt="Unravel_puzzles_blog-jan16">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-game-puzzles.html">
+            <h5 class="h5"><strong>Unravel&rsquo;s&#x20;Puzzles&#x3a;&#x20;A&#x20;World&#x20;of&#x20;Challenges&#x20;and&#x20;Obstacles</strong></h5>
+            <div class="news-description">
+                <p class="b2">Hi&#x20;everyone,&#x20;this&#x20;is&#x20;Martin&#x20;Sahlin&#x20;&ndash;&#x20;Creative&#x20;Director&#x20;at&#x20;Coldwood.&#x20;For&#x20;the&#x20;past&#x20;few&#x20;months,&#x20;we&rsquo;ve&#x20;been&#x20;sharing&#x20;videos&#x20;giving&#x20;a&#x20;deeper&#x20;look&#x20;into&#x20;Unravel.&#x20;In&#x20;December,&#x20;we&#x20;talked&#x20;about&#x20;Unravel&rsquo;s&#x20;environment,&#x20;and&#x20;a&#x20;few&#x20;weeks&#x20;ago&#x20;we&#x20;talked&#x20;about&#x20;the&#x20;inspiration&#x20;and&#x20;creation&#x20;of&#x20;Yarny.&#x20;This&#x20;time,&#x20;I&#x20;wanted&#x20;to&#x20;dive&#x20;into&#x20;the&#x20;game&rsquo;s&#x20;puzzles.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-game-puzzles.html" title="Unravel&rsquo;s&#x20;Puzzles&#x3a;&#x20;A&#x20;World&#x20;of&#x20;Challenges&#x20;and&#x20;Obstacles" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-make-yarny-guide/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="file"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-make-yarny-guide/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-make-yarny-guide/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-make-yarny-guide/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-make-yarny-guide/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-make-yarny-guide/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-make-yarny-guide/_jcr_content/image.adaptive.full.medium..jpg" alt="file">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-make-yarny-guide/_jcr_content/image.adaptive.full.medium..jpg" alt="file">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-make-yarny-guide.html">
+            <h5 class="h5"><strong>How&#x20;to&#x20;Make&#x20;Your&#x20;Own&#x20;Yarny&#x20;Guide&#x20;</strong></h5>
+            <div class="news-description">
+                <p class="b2">One&#x20;of&#x20;the&#x20;most&#x20;fun&#x20;things&#x20;about&#x20;revealing&#x20;Unravel&#x20;to&#x20;the&#x20;world&#x20;was&#x20;the&#x20;love&#x20;you&rsquo;ve&#x20;shown&#x20;for&#x20;Yarny.&#x20;From&#x20;the&#x20;kind&#x20;words&#x20;to&#x20;the&#x20;awesome&#x20;fan&#x20;art,&#x20;you&rsquo;ve&#x20;all&#x20;made&#x20;us&#x20;feel&#x20;wonderful.&#x20;We&#x20;never&#x20;saw&#x20;it&#x20;coming,&#x20;but&#x20;it&#x20;totally&#x20;blew&#x20;us&#x20;away.&#x20;</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-make-yarny-guide.html" title="How&#x20;to&#x20;Make&#x20;Your&#x20;Own&#x20;Yarny&#x20;Guide&#x20;" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-game-yarny/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="file"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-yarny/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-yarny/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-yarny/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-yarny/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-yarny/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-game-yarny/_jcr_content/image.adaptive.full.medium..jpg" alt="file">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-game-yarny/_jcr_content/image.adaptive.full.medium..jpg" alt="file">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-game-yarny.html">
+            <h5 class="h5"><strong>Yarny&#x20;and&#x20;Unravel&#x3a;&#x20;Born&#x20;Out&#x20;of&#x20;a&#x20;Single&#x20;Spark&#x20;of&#x20;Inspiration</strong></h5>
+            <div class="news-description">
+                <p class="b2">Hi&#x20;everyone,&#x20;this&#x20;is&#x20;Martin&#x20;Sahlin,&#x20;Creative&#x20;Director&#x20;at&#x20;Coldwood.&#x20;A&#x20;few&#x20;weeks&#x20;back,&#x20;I&#x20;mentioned&#x20;that&#x20;we&#x20;were&#x20;going&#x20;to&#x20;be&#x20;sharing&#x20;some&#x20;videos&#x20;giving&#x20;a&#x20;deeper&#x20;look&#x20;into&#x20;Unravel.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-game-yarny.html" title="Yarny&#x20;and&#x20;Unravel&#x3a;&#x20;Born&#x20;Out&#x20;of&#x20;a&#x20;Single&#x20;Spark&#x20;of&#x20;Inspiration" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-game-environments/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Yarny-Child-Memories"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-environments/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-environments/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-environments/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-environments/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-environments/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-game-environments/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny-Child-Memories">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-game-environments/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny-Child-Memories">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-game-environments.html">
+            <h5 class="h5"><strong>Unravel&rsquo;s&#x20;Environment&#x3a;&#x20;A&#x20;Story&#x20;to&#x20;Discover</strong></h5>
+            <div class="news-description">
+                <p class="b2">Hi&#x20;everyone,&#x20;this&#x20;is&#x20;Martin&#x20;Sahlin&#x20;&ndash;&#x20;Creative&#x20;Director&#x20;at&#x20;Coldwood.&#x20;Throughout&#x20;the&#x20;next&#x20;few&#x20;months&#x20;we&rsquo;re&#x20;going&#x20;to&#x20;be&#x20;sharing&#x20;some&#x20;videos&#x20;giving&#x20;a&#x20;deeper&#x20;look&#x20;into&#x20;Unravel,&#x20;and&#x20;we&#x20;thought&#x20;it&#x20;would&#x20;be&#x20;fun&#x20;to&#x20;start&#x20;off&#x20;this&#x20;little&#x20;series&#x20;with&#x20;a&#x20;look&#x20;at&#x20;the&#x20;game&rsquo;s&#x20;environments.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-game-environments.html" title="Unravel&rsquo;s&#x20;Environment&#x3a;&#x20;A&#x20;Story&#x20;to&#x20;Discover" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-game-release-date/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="unravel-release-date"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-release-date/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-release-date/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-release-date/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-release-date/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-release-date/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-game-release-date/_jcr_content/image.adaptive.full.medium..jpg" alt="unravel-release-date">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-game-release-date/_jcr_content/image.adaptive.full.medium..jpg" alt="unravel-release-date">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-game-release-date.html">
+            <h5 class="h5"><strong>Unravel&#x20;is&#x20;Coming&#x20;in&#x20;February&#x20;2016</strong></h5>
+            <div class="news-description">
+                <p class="b2">Since&#x20;I&#x20;first&#x20;unveiled&#x20;Unravel&#x20;on&#x20;stage&#x20;at&#x20;E3,&#x20;I&#x20;don&rsquo;t&#x20;think&#x20;there&rsquo;s&#x20;any&#x20;question&#x20;I&rsquo;ve&#x20;gotten&#x20;more&#x20;than&#x20;&ldquo;when&#x20;is&#x20;it&#x20;coming&#x20;out&#x3f;&rdquo;</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-game-release-date.html" title="Unravel&#x20;is&#x20;Coming&#x20;in&#x20;February&#x20;2016" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/new-yarny-giveaway/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="UnravelGiveawayBlog"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/new-yarny-giveaway/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/new-yarny-giveaway/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/new-yarny-giveaway/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/new-yarny-giveaway/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/new-yarny-giveaway/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/new-yarny-giveaway/_jcr_content/image.adaptive.full.medium..jpg" alt="UnravelGiveawayBlog">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/new-yarny-giveaway/_jcr_content/image.adaptive.full.medium..jpg" alt="UnravelGiveawayBlog">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/new-yarny-giveaway.html">
+            <h5 class="h5"><strong>I&#x20;Made&#x20;a&#x20;New&#x20;Yarny,&#x20;and&#x20;I&rsquo;m&#x20;Giving&#x20;it&#x20;Away</strong></h5>
+            <div class="news-description">
+                <p class="b2">Hi&#x20;everyone.&#x20;A&#x20;few&#x20;weeks&#x20;ago&#x20;I&#x20;had&#x20;an&#x20;idea&#x3a;&#x20;I&#x20;have&#x20;so&#x20;much&#x20;fun&#x20;taking&#x20;Yarny&#x20;out&#x20;on&#x20;adventures&#x20;and&#x20;taking&#x20;pictures&#x20;exploring&#x20;the&#x20;world,&#x20;but&#x20;wouldn&rsquo;t&#x20;it&#x20;be&#x20;fun&#x20;to&#x20;make&#x20;a&#x20;Yarny&#x20;to&#x20;give&#x20;away&#x3f;</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/new-yarny-giveaway.html" title="I&#x20;Made&#x20;a&#x20;New&#x20;Yarny,&#x20;and&#x20;I&rsquo;m&#x20;Giving&#x20;it&#x20;Away" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-winter-update/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="SnowYarny"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-winter-update/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-winter-update/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-winter-update/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-winter-update/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-winter-update/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-winter-update/_jcr_content/image.adaptive.full.medium..jpg" alt="SnowYarny">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-winter-update/_jcr_content/image.adaptive.full.medium..jpg" alt="SnowYarny">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-winter-update.html">
+            <h5 class="h5"><strong>Quick&#x20;Update&#x20;on&#x20;Unravel</strong></h5>
+            <div class="news-description">
+                <p class="b2">Hi&#x20;everyone,&#x20;it&rsquo;s&#x20;me&#x20;again.&#x20;It&rsquo;s&#x20;been&#x20;awhile&#x20;since&#x20;you&rsquo;ve&#x20;heard&#x20;anything&#x20;from&#x20;us&#x20;at&#x20;Coldwood,&#x20;so&#x20;I&#x20;thought&#x20;I&#x20;would&#x20;provide&#x20;an&#x20;update.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-winter-update.html" title="Quick&#x20;Update&#x20;on&#x20;Unravel" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/meet-coldwood-the-developer-behind-unravel/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="yarny-kite_web"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/meet-coldwood-the-developer-behind-unravel/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/meet-coldwood-the-developer-behind-unravel/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/meet-coldwood-the-developer-behind-unravel/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/meet-coldwood-the-developer-behind-unravel/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/meet-coldwood-the-developer-behind-unravel/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/meet-coldwood-the-developer-behind-unravel/_jcr_content/image.adaptive.full.medium..jpg" alt="yarny-kite_web">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/meet-coldwood-the-developer-behind-unravel/_jcr_content/image.adaptive.full.medium..jpg" alt="yarny-kite_web">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/meet-coldwood-the-developer-behind-unravel.html">
+            <h5 class="h5"><strong>Coldwood,&#x20;the&#x20;Developer&#x20;Behind&#x20;Unravel</strong></h5>
+            <div class="news-description">
+                <p class="b2">Hi&#x20;folks,&#x20;Martin&#x20;Sahlin&#x20;here.&#x20;Over&#x20;the&#x20;past&#x20;few&#x20;months,&#x20;a&#x20;lot&#x20;of&#x20;people&#x20;have&#x20;asked&#x20;me&#x20;if&#x20;Unravel&#x20;is&#x20;Coldwood&rsquo;s&#x20;first&#x20;game,&#x20;and&#x20;I&#x20;wanted&#x20;to&#x20;take&#x20;the&#x20;time&#x20;to&#x20;share&#x20;who&#x20;we&#x20;are,&#x20;what&#x20;we&rsquo;ve&#x20;done,&#x20;and&#x20;how&#x20;we&#x20;came&#x20;to&#x20;work&#x20;on&#x20;a&#x20;game&#x20;like&#x20;Unravel.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/meet-coldwood-the-developer-behind-unravel.html" title="Coldwood,&#x20;the&#x20;Developer&#x20;Behind&#x20;Unravel" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/thank-you-from-coldwood/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="thankyou"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/thank-you-from-coldwood/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/thank-you-from-coldwood/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/thank-you-from-coldwood/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/thank-you-from-coldwood/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/thank-you-from-coldwood/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/thank-you-from-coldwood/_jcr_content/image.adaptive.full.medium..jpg" alt="thankyou">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/thank-you-from-coldwood/_jcr_content/image.adaptive.full.medium..jpg" alt="thankyou">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/thank-you-from-coldwood.html">
+            <h5 class="h5"><strong>Thank&#x20;You&#x20;from&#x20;Coldwood</strong></h5>
+            <div class="news-description">
+                <p class="b2">Hi&#x20;everyone,&#x20;this&#x20;is&#x20;Martin&#x20;Sahlin,&#x20;Creative&#x20;Director&#x20;at&#x20;Coldwood.&#x20;I&rsquo;d&#x20;like&#x20;to&#x20;take&#x20;this&#x20;opportunity&#x20;to&#x20;say&#x20;a&#x20;big&#x20;thank&#x20;you,&#x20;to&#x20;all&#x20;of&#x20;you.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/thank-you-from-coldwood.html" title="Thank&#x20;You&#x20;from&#x20;Coldwood" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-puzzles/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Yarny_Precious_01_web"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-puzzles/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-puzzles/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-puzzles/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-puzzles/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-puzzles/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-puzzles/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny_Precious_01_web">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-puzzles/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny_Precious_01_web">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-puzzles.html">
+            <h5 class="h5"><strong>New&#x20;Trailer&#x20;Shows&#x20;Off&#x20;Unravel&rsquo;s&#x20;Puzzles</strong></h5>
+            <div class="news-description">
+                <p class="b2">We&#x20;know&#x20;a&#x20;lot&#x20;of&#x20;you&#x20;want&#x20;to&#x20;find&#x20;out&#x20;more&#x20;about&#x20;the&#x20;game&#x20;&ndash;&#x20;what&#x20;you&#x20;actually&#x20;do,&#x20;and&#x20;what&#x20;it&rsquo;s&#x20;like&#x20;to&#x20;explore&#x20;this&#x20;world.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-puzzles.html" title="New&#x20;Trailer&#x20;Shows&#x20;Off&#x20;Unravel&rsquo;s&#x20;Puzzles" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/unravel-game-wallpapers/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Unravel_Wallpaper_1920x1080"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-wallpapers/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-wallpapers/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-wallpapers/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-wallpapers/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/unravel-game-wallpapers/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/unravel-game-wallpapers/_jcr_content/image.adaptive.full.medium..jpg" alt="Unravel_Wallpaper_1920x1080">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/unravel-game-wallpapers/_jcr_content/image.adaptive.full.medium..jpg" alt="Unravel_Wallpaper_1920x1080">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/unravel-game-wallpapers.html">
+            <h5 class="h5"><strong>Unravel&#x20;Game&#x20;Wallpapers</strong></h5>
+            <div class="news-description">
+                <p class="b2">Did&#x20;you&#x20;love&#x20;to&#x20;travel&#x3f;&#x20;Yarny&#x20;does&#x20;too&#x21;&#x20;Share&#x20;your&#x20;shared&#x20;love&#x20;of&#x20;adventure&#x20;wherever&#x20;you&#x20;go&#x20;with&#x20;this&#x20;new&#x20;Unravel&#x20;wallpaper&#x20;we&rsquo;ve&#x20;created&#x20;for&#x20;PC&#x20;and&#x20;mobile&#x20;devices.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/unravel-game-wallpapers.html" title="Unravel&#x20;Game&#x20;Wallpapers" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/have-you-made-your-own-yarny/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Yarny_bundle"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/have-you-made-your-own-yarny/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/have-you-made-your-own-yarny/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/have-you-made-your-own-yarny/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/have-you-made-your-own-yarny/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/have-you-made-your-own-yarny/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/have-you-made-your-own-yarny/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny_bundle">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/have-you-made-your-own-yarny/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny_bundle">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/have-you-made-your-own-yarny.html">
+            <h5 class="h5"><strong>Have&#x20;You&#x20;Made&#x20;Your&#x20;Own&#x20;Yarny&#x3f;</strong></h5>
+            <div class="news-description">
+                <p class="b2">Mere&#x20;minutes&#x20;after&#x20;Unravel&#x20;was&#x20;revealed&#x20;at&#x20;E3,&#x20;fans&#x20;started&#x20;grabbing&#x20;yarn,&#x20;wire,&#x20;and&#x20;creating&#x20;their&#x20;own&#x20;little&#x20;friends&#x20;to&#x20;explore&#x20;with.&#x20;</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/have-you-made-your-own-yarny.html" title="Have&#x20;You&#x20;Made&#x20;Your&#x20;Own&#x20;Yarny&#x3f;" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/e3-thank-you/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Yarny_carrying"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/e3-thank-you/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/e3-thank-you/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/e3-thank-you/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/e3-thank-you/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/e3-thank-you/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/e3-thank-you/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny_carrying">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/e3-thank-you/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny_carrying">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/e3-thank-you.html">
+            <h5 class="h5"><strong>You&#x27;ve&#x20;Made&#x20;Us&#x20;Speechless</strong></h5>
+            <div class="news-description">
+                <p class="b2">It&#x27;s&#x20;tough&#x20;to&#x20;put&#x20;into&#x20;words&#x20;how&#x20;grateful&#x20;we&#x20;and&#x20;the&#x20;team&#x20;at&#x20;Coldwood&#x20;are&#x20;with&#x20;the&#x20;loving&#x20;reception&#x20;Unravel&#x20;received&#x20;when&#x20;we&#x20;introduced&#x20;the&#x20;game&#x20;to&#x20;the&#x20;world.&#x20;From&#x20;the&#x20;moment&#x20;Martin&#x20;Sahlin&#x20;took&#x20;the&#x20;stage&#x20;at&#x20;the&#x20;EA&#x20;press&#x20;conference,&#x20;the&#x20;comments&#x20;that&#x20;poured&#x20;in&#x20;had&#x20;us&#x20;overwhelmed&#x20;with&#x20;joy.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/e3-thank-you.html" title="You&#x27;ve&#x20;Made&#x20;Us&#x20;Speechless" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/welcome-to-unravel/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Yarny_mushroom"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/welcome-to-unravel/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/welcome-to-unravel/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/welcome-to-unravel/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/welcome-to-unravel/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/welcome-to-unravel/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/welcome-to-unravel/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny_mushroom">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/welcome-to-unravel/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny_mushroom">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/welcome-to-unravel.html">
+            <h5 class="h5"><strong>Welcome&#x20;to&#x20;Unravel</strong></h5>
+            <div class="news-description">
+                <p class="b2">My&#x20;name&#x20;is&#x20;Martin&#x20;Sahlin,&#x20;I&rsquo;m&#x20;the&#x20;Creative&#x20;Director&#x20;at&#x20;Coldwood.&#x20;We&rsquo;re&#x20;a&#x20;small&#x20;team&#x20;made&#x20;up&#x20;of&#x20;14&#x20;people,&#x20;located&#x20;in&#x20;a&#x20;town&#x20;called&#x20;Ume&aring;,&#x20;in&#x20;the&#x20;northern&#x20;part&#x20;of&#x20;Sweden.&#x20;I&#x20;wanted&#x20;to&#x20;share&#x20;with&#x20;you&#x20;my&#x20;story&#x20;on&#x20;how&#x20;Unravel&#x20;came&#x20;to&#x20;be,&#x20;and&#x20;some&#x20;thoughts&#x20;about&#x20;games&#x20;and&#x20;game&#x20;making.</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/welcome-to-unravel.html" title="Welcome&#x20;to&#x20;Unravel" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/game-and-offer-disclaimers/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="Yarny_mushroom"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/game-and-offer-disclaimers/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/game-and-offer-disclaimers/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/game-and-offer-disclaimers/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/game-and-offer-disclaimers/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/game-and-offer-disclaimers/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/game-and-offer-disclaimers/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny_mushroom">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/game-and-offer-disclaimers/_jcr_content/image.adaptive.full.medium..jpg" alt="Yarny_mushroom">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/game-and-offer-disclaimers.html">
+            <h5 class="h5"><strong>Game&#x20;and&#x20;Offer&#x20;Disclaimers</strong></h5>
+            <div class="news-description">
+                <p class="b2">Game&#x20;and&#x20;Offer&#x20;Disclaimers</p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/game-and-offer-disclaimers.html" title="Game&#x20;and&#x20;Offer&#x20;Disclaimers" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+
+
+
+
+
+
+
+<li>
+    
+
+
+
+
+
+
+    <div class="category-item">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/playfirst/jcr:content/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="unravel-home"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/playfirst/_jcr_content/image.adaptive.320.medium..jpg" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/playfirst/_jcr_content/image.adaptive.480.medium..jpg" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/playfirst/_jcr_content/image.adaptive.620.medium..jpg" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/playfirst/_jcr_content/image.adaptive.620.medium..jpg" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/playfirst/_jcr_content/image.adaptive.full.medium..jpg" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/playfirst/_jcr_content/image.adaptive.full.medium..jpg" alt="unravel-home">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/playfirst/_jcr_content/image.adaptive.full.medium..jpg" alt="unravel-home">
+        <![endif]-->
+
+
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+                 
+        
+        <a class="news-description-box" href="http://www.unravelgame.com/playfirst.html">
+            <h5 class="h5"><strong>Play&#x20;First&#x20;-&#x20;Unravel&#x20;-&#x20;EA</strong></h5>
+            <div class="news-description">
+                <p class="b2"></p>
+            </div>
+        </a>
+        <a class="read-more" href="http://www.unravelgame.com/playfirst.html" title="Play&#x20;First&#x20;-&#x20;Unravel&#x20;-&#x20;EA" data-hover-color="#">
+            Read More
+        </a>
+    </div>
+</li>
+</ul>
+</div>
+<div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<section class="pagination">
+    <a href="#" class="l2 pagination__label">Prev</a>
+    <div class="pagination__pages pagination__pages--small">
+        <div class="pagination__selector">
+            <select class="l2"></select>
+        </div>
+    </div>
+    <div class="l2 pagination__pages pagination__pages--large">
+        <span class="pagination__link pagination__link--ellipsis"></span>
+        <span class="pagination__link pagination__link--ellipsis"></span>
+    </div>
+    <a href="#" class="l2 pagination__label">Next</a>
+</section>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'news-content-section panel-content-section'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'news-panel v-panel'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+    <style>
+    
+	    
+		
+			.-content-www-unravelgame-en_US-_jcr_content-par-pagesection_2 {
+			    background-image: url(/content/www-unravelgame/en_US/_jcr_content/par/pagesection_2.img.jpg/1454554826900.jpg);
+			}
+		
+		
+	</style>
+
+<div class="page-section-background scrollme -content-www-unravelgame-en_US-_jcr_content-par-pagesection_2 play-panel v-panel" style="background-size:cover; width:100%; background-attachment:scroll; background-position:center center; background-repeat:no-repeat; " id="play">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2"></a> 
+	    <div class="par parsys"><div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<div id="bgv-play" class="v-player" data-video-id="f-XSvZB0ajI" data-position="bottom-left"></div>
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection yarny" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection"></a> 
+	    <div class="par parsys">
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'yarny'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection play-content-section panel-content-section" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2"></a> 
+	    <div class="par parsys"><div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection " style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection"></a> 
+	    <div class="par parsys"><div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <h1>Winner of over 20 Awards</h1>
+
+</div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection accolades" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_1"></a> 
+	    <div class="par parsys"><div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_7"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<img title="" alt="unravel-gamescom" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_7.img.png/1454554795805.png" >
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<a href="http://www.gamerevolution.com/features/best-of-e3-2015-awards#/slide/11"><img title="" alt="01game-revolution" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image.img.png/1454554826382.png" ></a>
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_0"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<a href="http://www.gamesradar.com/best-e3-2015/"><img title="" alt="02gr" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_0.img.png/1454554799699.png" ></a>
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_1"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<a href="http://mashable.com/2015/06/18/best-of-e3/"><img title="" alt="03mashable" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_1.img.png/1454554824015.png" ></a>
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_2"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<a href="http://www.polygon.com/a/e3-2015/polygon-live-unravel"><img title="" alt="04polygon" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_2.img.png/1454554825128.png" ></a>
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_3"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<a href="http://www.playstationlifestyle.net/2015/06/23/psls-best-of-e3-2015-awards/#/slide/15"><img title="" alt="05psls" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_3.img.png/1454554825869.png" ></a>
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_4"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<a href="http://www.hardcoregamer.com/2015/06/24/best-of-e3-2015-day-four-fighter-sports-platformer-indie-adventure/155874/"><img title="" alt="06hardcoregamer" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_4.img.png/1454554805704.png" ></a>
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_5"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<a href="http://www.pcgamer.com/best-of-e3-2015-awards/"><img title="" alt="07pcgamer" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_5.img.png/1454554805632.png" ></a>
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_6"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<a href="http://metaleater.com/video-games/article/metaleaters-best-of-e3-2015-awards-announced"><img title="" alt="08metaleater" src="/content/www-unravelgame/en_US/_jcr_content/par/pagesection_2/par/pagesection_2/par/pagesection_1/par/image_6.img.png/1454554798302.png" ></a>
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'accolades'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection accolades-copy-section" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/par/pagesection_2/par/pagesection_2/par/pagesection_2"></a> 
+	    <div class="par parsys"><div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <p class="quote-mark">“</p>
+<p>I wanted to make something more personal, something with more impact. The game didn’t have to change the world, or even try, but it had to be genuine, it had to have a deeper meaning. It had to have heart.</p>
+<p><b>- Martin Sahlin</b><br>
+Creative Director<br>
+Coldwood Interactive</p>
+
+</div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'accolades-copy-section'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'play-content-section panel-content-section'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'play-panel v-panel'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+    <div class="footer parsys iparsys"><div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection origin-buy-section" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_1"></a> 
+	    <div class="par parsys"><div class="parbase section heading">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<link rel="stylesheet" href="/etc/designs/ea/clientlibs/heading.min.css" type="text/css">
+
+
+
+<span style="color:#; text-align:;">
+    <h4>Unravel</h4>
+</span>
+
+    
+
+</div>
+<div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_1/par/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<img title="" alt="unravel-packart" src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_1/par/image.img.jpg/1454554824096.jpg" >
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <h4>Unravel</h4>
+<p>Unravel introduces Yarny, a new lovable character made from a single thread of yarn, who embarks on a seemingly larger than life journey through the breath-taking environments of Northern Scandinavia.</p>
+<p>Using Yarny’s thread and big heart, traverse nature’s obstacles through different physics-based puzzles in this unique puzzle platformer. Swing over a tree gap or hitch a ride on a flying kite, no feat is too big. Along the way, witness Yarny unlock a heartfelt story re-uniting a family’s lost loved ones.</p>
+<p>Told completely without words, Yarny is the bond that ties everything together.</p>
+
+</div>
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection origin-buy-widget" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_1/par/pagesection"></a> 
+	    <div class="par parsys"><div class="parbase originStoreWidget section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+<link rel="stylesheet" href="/etc/designs/ea/clientlibs/originStoreWidget.min.css" type="text/css">
+<script type="text/javascript" src="/etc/clientlibs/foundation/shared.min.js"></script>
+<script type="text/javascript" src="/etc/designs/ea/clientlibs/originStoreWidget.min.js"></script>
+
+
+
+<div class="storeWidget-content">
+    <div id="origin-originStoreWidget-_content_www-unravelgame_en_US_jcr_content_footer_pagesection_1_par_pagesection_par_originstorewidget" class=" compressed-product-widget" 
+         data-modal-checkout="0">
+        
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div class="widget-replacement-data" style="display: none;">
+
+
+    </div>
+
+
+    
+
+
+    </div>
+</div>
+
+<script src="https://www.origin.com/store/odc/widget/2.0/194331?selector=origin-originStoreWidget-_content_www-unravelgame_en_US_jcr_content_footer_pagesection_1_par_pagesection_par_originstorewidget&mode=compressed&theme=light&show_platforms=0&show_platform_options=0"></script>
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection origin-buy-ggg" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_1/par/pagesection/par/pagesection"></a> 
+	    <div class="par parsys"><div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_1/par/pagesection/par/pagesection/par/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<img title="" alt="origin-ggg" src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_1/par/pagesection/par/pagesection/par/image.img.png/1454554795283.png" >
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <p><span>WE STAND BY OUR GAMES.</span> If you don't love it, return it.</p>
+
+</div>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'origin-buy-ggg'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="parbase section heading">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+<span style="color:#; text-align:;">
+    <h5>Also available on:</h5>
+</span>
+
+    
+
+</div>
+<div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<a class="ps4 pattern-btn" target="_blank" href="http://smarturl.it/d13rve" title="PS4">Buy Now</a>
+<a class="xbox-one pattern-btn" target="_blank" href="https://store.xbox.com/Xbox-One/Games/Unravel/223a2738-eed8-437e-b961-9e6e4e7e67c6" title="XBOX One">Buy Now</a>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'origin-buy-widget'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'origin-buy-section'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection subscription-services-tout" style="background-size:cover; width:100%; " data-rendition="0,321,769,1025">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_2"></a> 
+	    <div class="par parsys"><div class="parbase imageRenditions section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+	
+
+        
+        <div data-picture="picturefill" data-alt=""  data-title="" data-description="">
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_2/par/imagerenditions/small.img.png/1454554803270.png" data-media="(min-width: 0px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_2/par/imagerenditions/medium.img.png/1454554819671.png" data-media="(min-width: 768px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_2/par/imagerenditions/large.img.png/1454554825378.png" data-media="(min-width: 1200px)"></div>
+
+
+    
+
+
+			
+			    
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <div data-src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_2/par/imagerenditions/xlarge.img.png/1454554824576.png" data-media="(min-width: 1900px)"></div>
+
+
+    
+
+
+			
+			<noscript>
+                
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_2/par/imagerenditions/small.img.png/1454554803270.png" />
+
+    
+
+
+            </noscript>			
+		</div>
+		<!--[if (lt IE 9) & (!IEMobile)]>
+            
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+    <img src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_2/par/imagerenditions/small.img.png/1454554803270.png" />
+
+    
+
+
+        <![endif]-->
+            		   	
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection logo-section" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_2/par/pagesection"></a> 
+	    <div class="par parsys"><div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<span class="ea-access-logo" title="EA Access"></span>
+<span id="small-black-line"></span>
+<span class="origin-access-logo" title="Origin Access"></span>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'logo-section'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="text parbase section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+<div style="color:#">
+  <p><span class="subscription-text-heading"><b>Save 10% on your purchase</b></span> <span class="subscription-text-copy">Join Origin Access on PC or EA Access on Xbox One, and get a 10% discount on Unravel.</span></p>
+
+</div>
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection service-buttons-section" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_2/par/pagesection_0"></a> 
+	    <div class="par parsys"><div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<a class="xbox-one-ea-access-btn pattern-btn" target="_blank" href="http://www.ea.com/eaaccess/" title="XBOX One, EA Access"></a>
+<a class="origin-access-btn pattern-btn" target="_blank" href="https://www.origin.com/store/origin-access" title="Origin Access"></a>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'service-buttons-section'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'subscription-services-tout'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection page-footer" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_0"></a> 
+	    <div class="par parsys"><div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_0/par/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<a href="http://www.coldwood.com/"><img title="" alt="Unravel-coldwood-logo" src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_0/par/image.img.jpg/1433455954471.jpg" ></a>
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="parbase ageRating section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+<link rel="stylesheet" href="/etc/designs/ea/clientlibs/ageRating.min.css" type="text/css">
+
+
+<div class="esrb everyone">
+    <div class="rating-icon">
+        
+            
+                <div class="parbase image">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/footer/pagesection_0/par/agerating/image"  class="">
+
+            <a href="http://www.esrb.org/ratings/ratings_guide.jsp#rating_symbols" target="_blank">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+		<div data-picture="picturefill" data-alt="esrb.everyone.v1"  data-title="">
+		    <div data-src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_0/par/agerating/image.adaptive.320.medium..png" data-media="(min-width: 0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_0/par/agerating/image.adaptive.480.medium..png" data-media="(min-width: 321px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_0/par/agerating/image.adaptive.620.medium..png" data-media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2.0)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_0/par/agerating/image.adaptive.620.medium..png" data-media="(min-width: 481px)"></div>
+		    <div data-src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_0/par/agerating/image.adaptive.full.medium..png" data-media="(min-width: 621px)"></div>
+
+		    <noscript>
+		        <img src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_0/par/agerating/image.adaptive.full.medium..png" alt="esrb.everyone.v1">
+		    </noscript>
+		</div>
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <img src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection_0/par/agerating/image.adaptive.full.medium..png" alt="esrb.everyone.v1">
+        <![endif]-->
+
+
+
+    
+
+
+
+            </a>
+      
+        </div>
+
+    
+
+</div>
+
+            
+        
+        
+    </div>
+    <div class="rating-content">
+        <p>Mild Fantasy Violence</p>
+
+    </div>
+</div>
+
+    
+
+</div>
+<div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<ul>
+<li><a class="icon-twitter" href="https://twitter.com/unravel_game" target="_blank" title="Twitter"><span>Twitter</span></a></li>
+<li><a class="icon-youtube" href="https://www.youtube.com/user/EA/" target="_blank" title="YouTube"><span>YouTube</span></a></li>
+<li><a class="icon-instagram" href="https://instagram.com/unravel_game" target="_blank" title="Instagram"><span>Instagram</span></a></li>
+</ul>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'page-footer'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="pageSection parbase section">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+<div class="page-section-background scrollme -apps-ea-components-content-pageSection site-footer" style="background-size:cover; width:100%; ">
+    <div
+    	
+	        
+	>
+	    <a id="pageAnchorId-/content/www-unravelgame/en_US/jcr:content/footer/pagesection"></a> 
+	    <div class="par parsys"><div class="parbase image section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+        <div id="cq-image-jsp-/content/www-unravelgame/en_US/jcr:content/footer/pagesection/par/image"  class="">
+        
+               
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+<a href="/"><img title="" alt="EA-global-footer-logo" src="/content/www-unravelgame/en_US/_jcr_content/footer/pagesection/par/image.img.png/1433913499688.png" ></a>
+
+    
+
+
+      
+        </div>
+
+    
+
+</div>
+<div class="parbase footerNavigation section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<link rel="stylesheet" href="/etc/designs/ea/clientlibs/footerNavigation.min.css" type="text/css">
+
+
+    <ul>
+
+        <li>
+            <h3 ></h3>
+           
+           <ul>
+
+
+               <li>
+                   <a href="http://www.ea.com/games" target="_blank">Browse Games</a>
+               </li>
+
+
+               <li>
+                   <a href="http://www.ea.com/news" target="_blank">Latest News</a>
+               </li>
+
+
+               <li>
+                   <a href="http://help.ea.com/en" target="_blank">Help Center</a>
+               </li>
+
+
+               <li>
+                   <a href="http://www.ea.com/about" target="_blank">About Us</a>
+               </li>
+
+          </ul>
+
+      </li>
+
+</ul>
+
+    
+
+</div>
+<div class="localeSelector parbase section">
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+<link rel="stylesheet" href="/etc/designs/ea/clientlibs/localeSelector.min.css" type="text/css">
+<script type="text/javascript" src="/etc/designs/ea/clientlibs/localeSelector.min.js"></script>
+
+
+
+<script>
+    window.currentLocale = "en_US";
+</script>
+
+<div class="ea-country-selector">
+    <div class="ea-current-country">
+        <span class="flag" style="background: url(/etc/designs/ea/images/localeSelector/us.png) no-repeat;"></span>
+        <a class="label">United States (English)</a>
+    </div>
+    <div class="ea-countries">
+        <ul>
+            
+                <li>
+                    <a href="http://www.unravelgame.com/" data-country-language="en" data-country-code="us">
+                        <span class="flag" style="background: url(/etc/designs/ea/images/localeSelector/us.png) no-repeat;"></span><span class="label">United States (English)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.unravelgame.com/en_GB.html" data-country-language="en" data-country-code="gb">
+                        <span class="flag" style="background: url(/etc/designs/ea/images/localeSelector/gb.png) no-repeat;"></span><span class="label">United Kingdom (English)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.unravelgame.com/en_AU.html" data-country-language="en" data-country-code="au">
+                        <span class="flag" style="background: url(/etc/designs/ea/images/localeSelector/au.png) no-repeat;"></span><span class="label">Australia (English)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.unravelgame.com/es_ES.html" data-country-language="es" data-country-code="es">
+                        <span class="flag" style="background: url(/etc/designs/ea/images/localeSelector/es.png) no-repeat;"></span><span class="label">España (Spanish)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.unravelgame.com/fr_FR.html" data-country-language="fr" data-country-code="fr">
+                        <span class="flag" style="background: url(/etc/designs/ea/images/localeSelector/fr.png) no-repeat;"></span><span class="label">France (French)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.unravelgame.com/de_DE.html" data-country-language="de" data-country-code="de">
+                        <span class="flag" style="background: url(/etc/designs/ea/images/localeSelector/de.png) no-repeat;"></span><span class="label">Deutschland (German)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.unravelgame.com/it_IT.html" data-country-language="it" data-country-code="it">
+                        <span class="flag" style="background: url(/etc/designs/ea/images/localeSelector/it.png) no-repeat;"></span><span class="label">Italy (Italian)</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.unravelgame.com/ja_JP.html" data-country-language="ja" data-country-code="jp">
+                        <span class="flag" style="background: url(/etc/designs/ea/images/localeSelector/jp.png) no-repeat;"></span><span class="label">Japan (Japanese)</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</div>
+
+    
+
+</div>
+<div class="parbase section customContent">
+
+
+
+
+
+
+    
+    
+        
+
+
+
+<p></p>
+
+    
+
+</div>
+<div class="parbase footerNavLegal section">
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+    <ul>
+
+        <li>
+            <h3 ></h3>
+           
+           <ul>
+
+
+               <li>
+                   <a href="http://www.ea.com/1/legal-notices" target="_blank">Legal Notices</a>
+               </li>
+
+
+               <li>
+                   <a href="http://www.ea.com/1/product-eulas" target="_blank">Product EULAs and Other Disclaimers</a>
+               </li>
+
+
+               <li>
+                   <a href="http://tos.ea.com/legalapp/WEBTERMS/US/en/PC/" target="_blank">Terms Of Service</a>
+               </li>
+
+
+               <li>
+                   <a href="http://tos.ea.com/legalapp/WEBPRIVACY/US/en/PC/" target="_blank">Privacy & Cookie Policy - Your Privacy Rights</a>
+               </li>
+
+          </ul>
+
+      </li>
+
+</ul>
+
+<p  class="copyright">©2015 EA International (Studio and Publishing) Ltd. </p>
+
+    
+
+</div>
+
+</div>
+
+	</div>
+</div>
+
+
+<script>
+	var classes = 'site-footer'.split(' ');
+	classes.map(function(className) {
+		$('.'+className).removeClass(className)
+		.closest('.pageSection').addClass(className);
+	});
+</script>
+
+
+    
+
+</div>
+<div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="footer parsys iparsys">
+</div>
+</div>
+</div>
+
+</div>
+
+        
+    </div>
+    
+
+
+    
+</body>
+
+</html>

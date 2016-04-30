@@ -1,0 +1,710 @@
+	
+
+
+
+
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+<head>
+
+<meta name="viewport" content="width=1000" />
+<title>Wesley Freshman Anthony Simpson and Christopher Newport Freshman Jonathan Graham Earn CAC Men's Track &amp; Field Weekly Honors -  Capital Ath. Conf.</title>
+
+<link rel="stylesheet" href="http://cdn87.psbin.com/info/boilerplate.css" type="text/css" />
+<link rel="stylesheet" href="/styles.css" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+<script src="http://cdn87.psbin.com/info/jquery.js"></script>
+<script src="http://cdn87.psbin.com/info/modernizr.js"></script>
+
+<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js"></script><script type="text/javascript">GS_googleAddAdSenseService("ca-pub-9185100638661080");GS_googleEnableAllServices();</script><script type="text/javascript">GA_googleAddSlot("ca-pub-9185100638661080", "CACSPORTS_728X90");</script><script type="text/javascript">GA_googleFetchAds();</script>
+
+<!-- rum header -->
+
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQ4CWFNbGwIAVFVVBgk="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(11),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,-1!==o.indexOf("dev")&&(s.dev=!0),-1!==o.indexOf("nr_dev")&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(12),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),c.xhrWrappable&&t(6),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(13)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(13)(r);e.exports=r,o.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(13)(i);e.exports=i,a.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),a.inPlace(window,["setInterval"],"setInterval-"),a.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),i.on("setInterval-start",r),i.on("setTimer-start",o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",s)}function i(t){y.push(t),h&&(g=-g,x.data=g)}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(13)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var w=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,w),w.prototype=p.prototype,d.inPlace(w.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,x=document.createTextNode(g);new h(a).observe(x,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;l>r;r++)t.removeEventListener(d[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return i(r)}function i(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}function a(t,e){var n=f(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(8),u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(10),m=window.XMLHttpRequest;s.features.xhr=!0,t(6),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||10>h)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},a(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var a=i(r);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;l>s;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(11),a=t(12);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var s=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],10:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],11:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],12:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],13:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(12),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);var u=f[v[n]];return u&&u.push([y,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",v[n]=e,e in f||(f[e]=[])})}var m={},v={},y={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return y}function i(){return new r}var a="nr@context",s=t("gos"),c=t(11),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!m++){var t=h.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(l,function(e,n){t[e]||(t[e]=n)});var n="https"===d.split(":")[0]||t.sslForHttp;h.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=h.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(11),f=window,u=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(9);var d=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},p=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),h=e.exports={offset:a(),origin:d,features:{},xhrWrappable:p};u.addEventListener?(u.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(u.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),s("mark",["firstbyte",a()],null,"api");var m=0},{}]},{},["loader",2,7]);</script>
+
+</head>
+
+<body>
+
+
+
+
+<div id="page" class="internal-page">
+
+<div id="wrapper" class="clearfix">
+
+
+
+<header class="clearfix">
+
+<div id="header-logos" class="clearfix">
+	<ul>
+					<li class="header-logo header-logo1"><span>Christopher Newport</span><a href="http://cnusports.com/"><img src="/images/setup/website/school_logo_1.png" alt="" /></a></li>
+					<li class="header-logo header-logo2"><span>Frostburg State</span><a href="http://www.frostburgsports.com/index.aspx"><img src="/images/setup/website/school_logo_2.png" alt="" /></a></li>
+					<li class="header-logo header-logo3"><span>Mary Washington</span><a href="http://www.umweagles.com/"><img src="/images/setup/website/school_logo_3.png" alt="" /></a></li>
+					<li class="header-logo header-logo4"><span>Marymount (Va.)</span><a href="http://marymountsaints.com"><img src="/images/setup/website/school_logo_4.png" alt="" /></a></li>
+					<li class="header-logo header-logo5"><span>Penn State Harrisburg</span><a href="http://athletics.hbg.psu.edu/landing/index"><img src="/images/setup/website/school_logo_5.png" alt="" /></a></li>
+					<li class="header-logo header-logo6"><span>St. Mary's (Md.)</span><a href="http://www.smcmathletics.com/"><img src="/images/setup/website/smc---school-logo-6---updated.png" alt="" /></a></li>
+					<li class="header-logo header-logo7"><span>Salisbury</span><a href="http://www.suseagulls.com/"><img src="/images/setup/website/school_logo_7.png" alt="" /></a></li>
+					<li class="header-logo header-logo8"><span>Southern Virginia</span><a href="http://athletics.svu.edu/landing/index"><img src="/images/setup/website/school_logo_8.png" alt="" /></a></li>
+					<li class="header-logo header-logo9"><span>Wesley</span><a href="http://athletics.wesley.edu/"><img src="/images/setup/website/school_logo_9.png" alt="" /></a></li>
+					<li class="header-logo header-logo10"><span>York (Pa.)</span><a href="http://www.ycpspartans.com/landing/index"><img src="/images/setup/website/school_logo_10.png" alt="" /></a></li>
+			</ul>
+
+</div>
+
+<a href="/" class="home-link">Home Link</a>
+
+<a href="#" id="text-site">Text-Only Website</a>
+
+
+</header>
+
+
+<div id="body-container" class="clearfix">
+
+<div id="secondary-nav">
+<h2>Men's Track &amp; Field</h2>
+<div id="links-container">
+
+
+     <a href="/sports/mtrack/index">Home</a>
+ 
+
+
+ <span class="sep">&nbsp; | &nbsp;</span>     <a href="/sports/mtrack/2015-16/news">News</a>
+ 
+
+
+ <span class="sep">&nbsp; | &nbsp;</span>     <a href="/sports/mtrack/2015-16/schedule">Schedule</a>
+ 
+
+
+ <span class="sep">&nbsp; | &nbsp;</span>     <a href="https://www.tfrrs.org/lists/1741.html">2015-16 Top Times</a>
+ 
+
+
+ <span class="sep">&nbsp; | &nbsp;</span>     <a href="/sports/mtrack/champinfo_outdoor">2016 Outdoor Championship</a>
+ 
+
+
+ <span class="sep">&nbsp; | &nbsp;</span>     <a href="/information/recordbook/CAC_MTF_records.pdf">Records</a>
+ 
+
+<div class="more-links">
+        <span>&nbsp;|&nbsp;</span>
+        <span class="more">Additional Links+</span>
+	<div class="dropdown">
+		<ul>
+			                                                                                                                                                                                                                                                                                                                                            				<li><a href="/sports/mtrack/archive">Archives</a></li>
+			                                                     				<li><a href="">2016 Outdoor Results</a></li>
+			                           			<li></li>
+		</ul>
+	</div>
+</div>
+
+
+
+</div>
+
+</div>
+
+<div id="leftcol" class="clearfix">
+
+<div class="top-pic">
+	
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="slideshow" id="sponsor-ss">
+<div class="container" style="width: 240px; height: 135px; overflow: hidden;">
+
+
+  <img src="/images/CAC-Logo-1-Vector-Art.jpg?max_width=240&max_height=135&crop=true" alt="" />
+ 
+
+
+  <img src="/images/random_images/mtrack/SALTF.jpg?max_width=240&max_height=135&crop=true" alt="" />
+ 
+  </div>
+</div>
+
+  
+
+<script type="text/javascript">
+$(function() {
+
+
+
+
+  
+    $('#sponsor-ss .container').cycle({fx: 'scrollHorz', timeout: 4000});
+});
+</script>
+
+ 
+
+</div>
+
+<div id="social-buttons" class="clearfix">
+	<ul>
+																<li class="social-button social-button1"><a class="nav-link1 nav-link" href="http://www.facebook.com/social_graph.php?node_id=61707517993&filter=fanned&start=10#/pages/Capital-Athletic-Conference/143457722221" target="_blank">Facebook</a></li>
+						 							 							 							 							 							 							 															<li class="social-button social-button2"><a class="nav-link2 nav-link" href="http://twitter.com/cacsports" target="_blank">Twitter</a></li>
+						 							 							 							 				</ul>
+	
+</div>
+
+<div class="lcol-buttons">
+  <a href="http://portal.stretchinternet.com/cac/" class="lcol-button lcol-button-1">CAC TV</a>
+  <a href="/cacstore" class="lcol-button lcol-button-2">Store</a>
+</div>
+
+
+
+
+<head>
+<script type="text/javascript" src="/info/accordion.js"></script>
+</head>
+
+    
+    
+<div id="accordion-wrapper">
+<a href="/navbar-about" rel="accordion-pane1" class="accordion-key"> About The CAC</a>
+
+<div class="accordion-pane" id="accordion-pane1">
+
+        
+        <a href="/information/members/index" class="first "  rel="accordion-pane1">Member Schools</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/information/SID/index"  rel="accordion-pane1">Member SID Pages</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/information/history/index"  rel="accordion-pane1">History</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/information/socialsitesnetwork"  rel="accordion-pane1">CAC Social Sites Network</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/information/SAAC/index"  rel="accordion-pane1">CAC SAAC</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/information/award/index"  rel="accordion-pane1">Richard C. Cook All-Sports &amp; Commissioner's Awards</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/information/directory/index"  rel="accordion-pane1">Staff Directory</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/information/sponsors/index"  rel="accordion-pane1">Corporate Sponsors</a>
+    
+    
+
+</div>
+ <a href="http://www.cacsports.com/composite" class="nav-link">Schedule Calendar</a>
+ <a href="http://www.cacsports.com/information/handbook/Section_IV_-_Directory_web.pdf" class="nav-link">Directions/Hotels/Rest.</a>
+ <a href="/navbar-sports_fall" rel="accordion-pane4" class="accordion-key"> Fall Sports</a>
+
+<div class="accordion-pane" id="accordion-pane4">
+
+        
+        <a href="/sports/mxc/index" class="first "  rel="accordion-pane4">Cross Country (M)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/wxc/index"  rel="accordion-pane4">Cross Country (W)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/fh/index"  rel="accordion-pane4">Field Hockey</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="http://cacsports.com/sports/football/homepage"  rel="accordion-pane4">Football (NJAC)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/msoc/index"  rel="accordion-pane4">Soccer (M)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/wsoc/index"  rel="accordion-pane4">Soccer (W)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/wvball/index"  rel="accordion-pane4">Volleyball</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/mgolf/index"  rel="accordion-pane4">Golf (Non Trad. Season)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/mten/index"  rel="accordion-pane4">M. Tennis (Non Trad. Season)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/wten/index"  rel="accordion-pane4">W. Tennis (Non Trad. Season)</a>
+    
+    
+
+</div>
+ <a href="/navbar-sports_winter" rel="accordion-pane5" class="accordion-key"> Winter Sports</a>
+
+<div class="accordion-pane" id="accordion-pane5">
+
+        
+        <a href="/sports/mbkb/index" class="first "  rel="accordion-pane5">Basketball (M)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/wbkb/index"  rel="accordion-pane5">Basketball (W)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/mswimming/index"  rel="accordion-pane5">Swimming (M)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/wswimming/index"  rel="accordion-pane5">Swimming (W)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/mtrack/index" class="matched" rel="accordion-pane5">Track &amp; Field (M)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/wtrack/index"  rel="accordion-pane5">Track &amp; Field (W)</a>
+    
+    
+
+</div>
+ <a href="/navbar-sports_spring" rel="accordion-pane6" class="accordion-key"> Spring Sports</a>
+
+<div class="accordion-pane" id="accordion-pane6">
+
+        
+        <a href="/sports/bsb/index" class="first "  rel="accordion-pane6">Baseball</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/mgolf/index"  rel="accordion-pane6">Golf (M)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/mlax/index"  rel="accordion-pane6">Lacrosse (M)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/wlax/index"  rel="accordion-pane6">Lacrosse (W)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/sball/index"  rel="accordion-pane6">Softball</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/mten/index"  rel="accordion-pane6">Tennis (M)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/wten/index"  rel="accordion-pane6">Tennis (W)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/mtrack/index" class="matched" rel="accordion-pane6">Track &amp; Field (M)</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="/sports/wtrack/index"  rel="accordion-pane6">Track &amp; Field (W)</a>
+    
+    
+
+</div>
+ <a href="/information/socialmedia/index" class="nav-link">Multimedia</a>
+ <a href="/information/recordbook/index" class="nav-link">Record Book</a>
+ <a href="/information/handbook/index" class="nav-link">Handbook</a>
+ <a href="/navbar-championships" rel="accordion-pane10" class="accordion-key"> Championships</a>
+
+<div class="accordion-pane" id="accordion-pane10">
+
+        
+        <a href="http://www.cacsports.com/information/championships/index" class="first "  rel="accordion-pane10">CAC Championship Dates</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="http://www.cacsports.com/information/recordbook/CHART_-_All-Time_CAC_Championships.pdf"  rel="accordion-pane10">All-Time CAC Champions</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="http://www.ncaa.com/championships"  rel="accordion-pane10">NCAA Championship Dates</a>
+    
+    
+
+</div>
+ <a href="http://www.cacsports.com/general_releases/2015-16" class="nav-link">General News Releases</a>
+ <a href="/navbar-quickLinks" rel="accordion-pane12" class="accordion-key"> Quick Links</a>
+
+<div class="accordion-pane" id="accordion-pane12">
+
+        
+        <a href="/composite" class="first "  rel="accordion-pane12">Composite Schedule Calendar</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="http://cacsports.com/information/recordbook/index"  rel="accordion-pane12">Record Book</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="http://www.cacsports.com/information/Coaches_Assoc_Sites"  rel="accordion-pane12">Coaches Assoc Sites</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="http://www.cacsports.com/information/media"  rel="accordion-pane12">Newspapers &amp; Websites</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="http://www.cacsports.com/information/Admin_Forms"  rel="accordion-pane12">Administrative Forms</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="http://www.ncaa.com/"  rel="accordion-pane12">ncaa.com</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="http://ncaa.org/"  rel="accordion-pane12">ncaa.org</a>
+    
+    
+
+    <div class="separator"></div>    
+        <a href="http://www.ecacsports.com/landing/index"  rel="accordion-pane12">ecac.com</a>
+    
+    
+
+</div>
+ </div>
+
+
+<div id="sponsors" class="clearfix">
+	<ul>
+			</ul>
+
+</div>
+
+
+</div>
+
+<div id="body-wrapper" class="clearfix">
+
+<div id="mainbody" class="clearfix">
+
+  
+<div class="rich-v2 standard no-sidebar clearfix" data-module="article-rich" data-title="Wesley Freshman Anthony Simpson and Christopher Newport Freshman Jonathan Graham Earn CAC Men's Track &amp; Field Weekly Honors" data-url="/sports/mtrack/2015-16/releases/feb_9_mtf_report">
+  
+
+	
+      <div class="article-title">Wesley Freshman Anthony Simpson and Christopher Newport Freshman Jonathan Graham Earn CAC Men's Track &amp; Field Weekly Honors</div>
+  
+
+	
+
+<div class="article-body clearfix">
+	
+	  	
+				
+	<div class="article-image">
+      <div class="image">
+        <img src="/images/mtrack/2015-2016/feb_9_mtf_aotw.jpg?max_width=450" alt="Wesley Freshman Anthony Simpson and Christopher Newport Freshman Jonathan Graham Earn CAC Men's Track &amp; Field Weekly Honors" />
+  
+          
+          
+              </div>
+	</div>
+  
+	
+			
+	
+<div class="article-text">
+	
+<div class="article-date">
+      <div class="date">Feb 09, 2016</div>
+    
+  	<div class="like-buttons" data-module="share-buttons">
+        	  <div class="tweet-btn"><a class="addthis_button_tweet"></a></div>
+    	</div>
+  </div>
+
+	
+<p>YORK, Pa. -- Wesley freshman <strong>Anthony Simpson</strong> and Christopher Newport freshman <strong>Jonathan Graham</strong> were named the CAC Men's Track &amp; Field Athletes of the Week for Feb. 9, 2016 following record-breaking performances last weekend. &nbsp;&nbsp;</p>
+<h3>Track Athlete of the Week</h3>
+<p><img style="float: left; border: 2px solid black; margin: 5px;" src="/images/mtrack/2015-2016/wes_-_simpson_-_web_hs.jpg?max_height=150&amp;max_width=100" alt="" width="100" height="150">
+ <strong>Anthony Simpson&nbsp;| Wesley | Fr.</strong></p>
+<p><strong>Baltimore, Md.&nbsp;| Mervo&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>&nbsp; &nbsp;</p>
+<p>Wesley freshman Anthony Simpson was chosen as the CAC Track Athlete of the Week after setting a CAC record in the 60-meter dash at the Frank Colden Invitational. Simpson raced to a time of 6.77 seconds in the 60 meters, breaking Tyler Austin's (Salisbury) mark of 6.84 from 2014. His time earned him first place in the meet and ranks him first in the nation this year. The sprinter also placed second in the 200 meters at 22.62, the fourth fastest time by a CAC student-athlete this season.</p>
+<h3>Field Athlete of the Week</h3>
+<p><img style="float: left; border: 2px solid black; margin: 5px;" src="/images/mtrack/2015-2016/cnu_-_graham_-_web_hs.jpg?max_height=150&amp;max_width=100" alt="" width="100" height="150">
+ <strong><strong>Jonathan Graham</strong>&nbsp;| Christopher Newport | Fr.</strong></p>
+<p><strong><strong><strong>King George, Va.</strong>&nbsp;</strong>| <strong>King George</strong>&nbsp; &nbsp;&nbsp;</strong></p>
+<p>Christopher Newport freshman Jonathan Graham was named the CAC Field Athlete of the Week after setting a new CAC record in the pole vault for the third time this year. Graham set the CAC indoor pole vault record after eclipsing 15'-3" during the Vince Brown Invitational on Saturday at the Freeman Center. That effort topped his own conference record of 4.61 meters, which he set during the CNU Triangular on Jan. 15. His performance on Saturday also established a new school record, placed him first overall in the meet and 23rd nationally.&nbsp;</p>
+<p>&nbsp;</p>
+<table border="2" cellspacing="5" cellpadding="5" align="right">
+<tbody>
+<tr>
+<td style="padding: 5px;">
+<p><img src="/images/CAC-Logo-1-Vector-Art.jpg?max_height=113&amp;max_width=200" alt="" width="200" height="113">
+</p>
+<h3 style="text-align: center;">Keep up with the CAC</h3>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px; text-align: center;"><strong><a href="/sports/mtrack/2015-16/news" target="_self">News</a></strong></td>
+</tr>
+<tr>
+<td style="padding: 5px; text-align: center;"><a href="/sports/mtrack/2015-16/schedulee" target="_self"><strong>Schedule</strong></a></td>
+</tr>
+<tr>
+<td style="padding: 5px; text-align: center;"><strong><a href="https://www.tfrrs.org/lists/1632.html" target="_self">2015-16 Top Times</a></strong></td>
+</tr>
+<tr>
+<td style="padding: 5px; text-align: center;"><strong><a href="/information/recordbook/CAC_MTF_records.pdf" target="_self">CAC Record Book</a></strong></td>
+</tr>
+<tr>
+<td style="padding: 5px; text-align: center;"><strong><a href="http://www.ustfccca.org/assets/rankings/div3/2016-itf/DIII_2016_indWk3_TF_NationalRankingsTop25.pdf" target="_self">USTFCCCA National Rankings</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h3><span style="text-decoration: underline;">WEEKLY HONOR ROLL (2/9)</span></h3>
+<p><strong><span style="text-decoration: underline;">FROSTBURG STATE</span>:</strong>&nbsp;J.R. Lowery, Sr., Rohrersville, Md./Boonsboro</p>
+<p><strong><span style="text-decoration: underline;">MARY WASHINGTON</span>:</strong>&nbsp;Chris Anderson, Sr.,Wichita Falls, Texas/Rider</p>
+<p><strong><span style="text-decoration: underline;">SALISBURY</span>:</strong> Luke Campbell, Sr., Brunswick, Md./Brunswick</p>
+<p><span><span><strong><span style="text-decoration: underline;">YORK</span>:</strong>&nbsp;Grant Dell, So., Westminster, Md./North Carroll</span></span></p>
+<p><span><span><br>
+
+</span></span></p>
+<h3><span style="text-decoration: underline;">NOTES AROUND THE CONFERENCE</span></h3>
+<p><span>Salisbury is ranked No. 16 in the Week 3 USTFCCCA National Rankings ... All six CAC teams competed last week ... The CAC Championship is less than two weeks away, set for Sunday, Feb. 21 at Christopher Newport ... Frostburg State senior&nbsp;</span><strong>J.R. Lowery</strong> earned top-five finishes in the shot put (2nd; 51'-4.25") and the weight throw (4th; 53'-7") at the Crusader Challenge at Susquehanna. His weight throw broke the FSU school record ... Mary Washington senior <strong>Chris Anderson</strong> was the leadoff runner in the distance medley relay at the Vince Brown Invitational at CNU. That relay, which included <strong>Kevin McCarthy</strong>,&nbsp;<strong>Tate Houff</strong>, and&nbsp;<strong>Kevin Speray</strong>,&nbsp;was second with a time of 11:00.76.&nbsp;Anderson was also ninth in the 800 meters at 1:59.57 ... Salisbury senior <strong>Luke Campbell</strong> took third in the 60-meter hurdles and the 200-meter dash at the Vince Brown Invitational. Campbell's mark of 8.00 seconds in the 60 hurdles is tops in the country, while his time of 22.41 in the 200 ranks ninth in the nation. <strong>Duncan Ferrin</strong> placed sixth in the weight throw for the Sea Gulls, setting a personal best with a 47'-5.75" toss ... Wesley took second place at the Frank Colden Invitational hosted by Ursinus. The Wolverines combined an impressive showing in the field events with a dominating performance in sprints, with Wesley student-athletes winning the 60m hurdles, the 400m, and going 1-2-3 in the 60m dash. The Navy and White will continue building momentum toward the CAC Indoor Championships this weekend at the Oceanbreeze Track in Staten Island, N.Y. ... York's <strong>Grant Dell</strong> placed third in the mile (4:28.03) and eighth in the 800 (2:03.51) at the Susquehanna Crusader Indoor Challenge. <strong>Darris Rodrigues</strong> took fourth in the pole vault, and second among Division III vaulters, at 13'-5.25".&nbsp;</p>
+<p>&nbsp;</p>
+<h3><span style="text-decoration: underline;">2015-16 ATHLETES OF THE WEEK</span></h3>
+<table border="0" cellspacing="5" cellpadding="5">
+<tbody>
+<tr>
+<td style="padding: 5px;"><span style="text-decoration: underline;"><strong>Week</strong></span></td>
+<td style="padding: 5px;"><span style="text-decoration: underline;"><strong>Track</strong></span></td>
+<td style="padding: 5px;"><span style="text-decoration: underline;"><strong>Field</strong></span></td>
+</tr>
+<tr>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/dec_8_mtf_report" target="_self">Dec. 8</a>&nbsp;</td>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/dec_8_mtf_report" target="_self">Jeff Dover, CNU</a>&nbsp;</td>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/dec_8_mtf_report" target="_self">Jonathan Graham, CNU</a></td>
+</tr>
+<tr>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/jan_19_mtf_report" target="_self">Jan. 19</a></td>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/jan_19_mtf_report" target="_self">Ryan Scott, CNU</a><a href="/sports/mtrack/2015-16/releases/dec_8_mtf_report" target="_self"></a></td>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/jan_19_mtf_report" target="_self">Jonathan Graham, CNU</a><a href="/sports/mtrack/2015-16/releases/dec_8_mtf_report" target="_self"></a></td>
+</tr>
+<tr>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/jan_26_mtf_report" target="_self">Jan. 26</a></td>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/jan_26_mtf_report" target="_self">Dominic McAnulty, WES</a>&nbsp;<a href="/sports/mtrack/2015-16/releases/jan_19_mtf_report" target="_self"></a></td>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/jan_26_mtf_report" target="_self">Alex Palescandolo, YCP</a><a href="/sports/mtrack/2015-16/releases/jan_19_mtf_report" target="_self"></a></td>
+</tr>
+<tr>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/feb_2_mtf_report" target="_self">Feb. 2</a></td>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/feb_2_mtf_report" target="_self">Luke Campbell, SAL</a><a href="/sports/mtrack/2015-16/releases/jan_26_mtf_report" target="_self"></a></td>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/feb_2_mtf_report" target="_self">Matthew Adedeji, SAL</a><a href="/sports/mtrack/2015-16/releases/jan_26_mtf_report" target="_self"></a></td>
+</tr>
+<tr>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/feb_9_mtf_report" target="_self">Feb. 9</a>&nbsp;</td>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/feb_9_mtf_report" target="_self">Anthony Simpson, WES</a><a href="/sports/mtrack/2015-16/releases/feb_2_mtf_report" target="_self"></a></td>
+<td style="padding: 5px;"><a href="/sports/mtrack/2015-16/releases/feb_9_mtf_report" target="_self">Jonathan Graham, CNU</a><a href="/sports/mtrack/2015-16/releases/feb_2_mtf_report" target="_self"></a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+</div>
+
+  
+</div> 
+
+
+
+
+</div>
+
+  
+
+<div class="share-buttons clearfix" data-module="share-buttons">
+
+  <div class="share-btn facebook"><a class="addthis_button_facebook"><span><i class="gicon-facebook"></i></span></a></div>
+
+  <div class="share-btn twitter"><a class="addthis_button_twitter"><span><i class="gicon-twitter"></i></span></a></div>
+
+  <div class="share-btn gplus"><a class="addthis_button_google_plusone_share"><span><i class="gicon-gplus"></i></span></a></div>
+
+  <div class="share-btn email"><a class="addthis_button_email"><span><i class="gicon-mail"></i></span></a></div>
+
+  <div class="share-btn print"><a href="http://cacsports.com/sports/mtrack/2015-16/releases/feb_9_mtf_report?dec=printer-decorator" target="_blank" title="Print" class="printer-friendly"><span><i class="gicon-print"></i></span></a></div>
+
+  <div class="share-btn addthis"><a class="addthis_button_compact"><span><i class="gicon-addthis"></i></span></a></div>
+
+</div>
+
+</div> 
+
+
+
+<footer class="clearfix">
+
+<div id="footer-logos" class="clearfix">
+	<ul>
+					<li class="footer-logo footer-logo1"><a href="http://ncaa.org/"><img src="/images/setup/website/footer_logo_01.png" alt="" /></a></li>
+					<li class="footer-logo footer-logo2"><a href="http://www.ncaa.com/"><img src="/images/setup/website/footer_logo_02.png" alt="" /></a></li>
+					<li class="footer-logo footer-logo3"><a href="http://www.diiicomm.org/"><img src="/images/setup/website/footer_logo_03.png" alt="" /></a></li>
+					<li class="footer-logo footer-logo4"><a href="http://www.ncaa.org/d3"><img src="/images/setup/website/footer_logo_04.png" alt="" /></a></li>
+					<li class="footer-logo footer-logo5"><a href="http://prestosports.com/"><img src="/images/setup/website/footer_logo_05.png" alt="" /></a></li>
+			</ul>
+
+</div>
+
+<p>View: <a href="/action/browser-mode?u=%2Fsports%2Fmtrack%2F2015-16%2Freleases%2Ffeb_9_mtf_report&m=1">Mobile</a> | Desktop</p>
+
+<div id="footer-ad">
+<script type="text/javascript">GA_googleFillSlot("CACSPORTS_728X90");</script>
+</div>
+
+
+</div>
+
+
+</div> 
+</div> 
+</div> 
+</div> 
+
+
+<!--[if lt IE 7 ]>
+  <script src="/info/dd_belatedpng.js"></script>
+  <script>DD_belatedPNG.fix(''); </script>
+<![endif]-->
+
+<script>
+
+$( function() {
+  $('#text-site').click( function() {
+      createCookie('version', 'text', 1);
+      window.location.reload();
+      return false;
+  });
+});
+
+</script>
+
+  <script type="text/javascript">var _qevents = _qevents || [];(function() {var elem = document.createElement('script');elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")+ ".quantserve.com/quant.js";elem.async = true;elem.type = "text/javascript";var scpt = document.getElementsByTagName('script')[0];scpt.parentNode.insertBefore(elem, scpt);})();</script><script type="text/javascript">_qevents.push( { qacct:"p-c1MZx5LfVe-Xw"} );</script><noscript><div style="display: none;"><img src="http://pixel.quantserve.com/pixel/p-c1MZx5LfVe-Xw" height="1" width="1" alt="Quantcast"/></div></noscript>
+  <!-- dropoff-scripts -->
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/info/animation.js"></script>
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://cdn87.psbin.com/info/cookie-handler.js"></script>
+
+<script type="text/javascript">
+$(function() {
+	if (readCookie('adminuser')) {
+		$('body').append('<span id="edit-page-btn" style="display: block; padding: 10px; z-index: 9999; background: #000; color: #fff; font-size: 12px; position: fixed; right: 0; top: 0; cursor: default">Edit Page</span>');
+		$('#edit-page-btn').click(function() {
+			url = document.location.protocol + '//' + document.location.hostname
+			if (document.location.port) url += ':' + document.location.port;
+			url += '/admin/content/wiki/g2g';
+			url += document.location.pathname;
+			window.location = url;
+		});
+	}
+});
+</script>
+
+<script data-main="/info/main.js" src="/info/vendor/require.js"></script>
+
+<!-- rum footer -->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"1004718","applicationTime":146,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"a8324e80d1","transactionName":"MgcAZENYXhJYVkFdXQtNJFldTVUTFnFaWVMMDEJeUFRVQV9cWUBXFw==","agent":"","errorBeacon":"bam.nr-data.net"}</script>
+
+
+
+</body>
+</html>
+ 

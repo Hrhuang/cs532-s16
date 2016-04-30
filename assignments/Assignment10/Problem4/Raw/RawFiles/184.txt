@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <meta https-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>На Android и iOS появилась игра Final Fantasy IX </title>
+    <meta name="apple-itunes-app" content="app-id=467633606, affiliate-data=myAffiliateData, app-argument=https://itunes.apple.com/ru/app/iguides/id467633606?l=ru&ls=1&mt=8">
+    <meta name='yandex-verification' content='45cfe330d381eb9f'/>
+    <link rel="alternate" type="application/rss+xml" title="iGuides.ru - Новости и гаджеты" href="https://www.iguides.ru/rss/main.rss"/>
+    <meta name="cmsmagazine" content="9f729baf893c0e1cea9ce49005885600"/>
+    <meta https-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=1024,ya-title=#333,ya-dock=fade">
+    <link rel="author" href="https://plus.google.com/u/0/+iguidesru/posts"/>
+    <link rel="publisher" href="https://plus.google.com/u/0/+iguidesru/"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAMAAAC7xnO3AAAABGdBTUEAALGPC/xhBQAAAGBQTFRF////MzMz9vj5o8/m/f39NjY2/v//MTExY67VMjIyPj4+YmNj7u7ufX19mJiYcHFxjo6O2NjXSUlJVVVVv7+/z8/Pra2t5vL5pqam5eXlp9Lob7TYzOTyisLgtbW1l8vnD6nVswAAAhVJREFUSMftlsmO3DAMREm1pFJZ3re2e/3/v8zBnkwPMkDTAwTIIXUToCeRRdKWyH+JSIxyPl3TU+JRUNwzpZQuR8ko52tKKaXbQfI3eI+H07ynH15528AfZLldeZLjvl5TStejofoo4p7P080dA72IuG6aunJf2MFyyQVBhqFeD6Be5gIENRBEqL3dmhZUJQEqVZGd9cYFgQA45AIEAxrjnWUBgtBRxDUgELBYcvUyQwFFJd7LGkAQgzcFW23kKF68ZChAdIaqxtfNX44xkjhO7pu5R9tsi8lE7g7V4ry4HgRRlLaqbLv7UrwsW1UqsZk7gwDR13OlABTFahsYLzWUJAGQqgijtekfAwhAQwgEMXQ2MEoLAmEIAIAiP5wN9DIiqKKWchof41SKRG8csQYKRV5fjzOxrgcBIPRDU7XLY+pKLyZrXYHNVOxiGKrJhA5b25KqqqoEQFTO2nyvIlVR2fqAUOVnvADV0vNl85EkP6LdBuAd6QYQyE1f7EFzI9s3pJcFQVGJ+HLtxrltBljJBgp08ullu43r/IaMkqFE/XLUAwq+HzQvLQKIvHSlc65cpzaADO8NirIWCCSAou/7QvdyNpaP5lSADGFzVkMgEOpoGpay7b+0UN8af4Q+ipuWtsk559y0c+dEvD/+rjmi2+ly+qrL5XK6GR8kf+r67qUR5Zy+1/mvkSLx/i14/7vm/sP6BZn5H8RJzEcGAAAAAElFTkSuQmCC">
+    <link rel="apple-touch-icon" sizes="114x114" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAByCAMAAAC4A3VPAAAABGdBTUEAALGPC/xhBQAAAEJQTFRF////Tk5OysrKdXV1/f7++fr65PH4MTExYq3UNDQ0o6Oj7u7uPj4+39/ftra2iIiIX19flZWVd7jb0OfzmcrktNjqbrD9BgAAA6dJREFUaN7tmtuO6yoMhg2Ycgqndvr+r7ouMmkwk3S6VIO096ovRppU6lcbbP+GAHzsYx/7X5q+fV2ttTfAScDL19Vaa629TQPazS5ziPcH0F71DCDuLlr7NZ04ZykJcUpc7y3R3icQb3a2k3i1s1dyflipk184eyWnEEmCzCG2cZ2xjgBw2V2cVM035HUSEBFR3+/3+/2Cc3BUEOBwIADoIJOvtfokAwAMVR+IANEr4cxmS6lSD4QigFQrzq1mjDFGeA2Ig4ixGGPc7uP2n0hjHEXwruPt1BJGMDEfAleqWSQ7E0GZLqLtDxjARKjmzMWNGVmZCLJDlFxzcYQpAm9gC3FSSACAdQfvzMzoZu/kEgFRI0IQJLiMoaV7xxkPq5rTkIa5qRfi5L5oWpx8wBpXZ8rDmT512BIFIZG45gbpu4izIc+++PzHsNYBZ1KDpCFX/wQyj9o+9XQtKx/yzJdz/98vBYLm5VlL46t4CLn95qaWBlKWyqje5Uxd1SvqLmErayshAXRrYUOQbkyJXcUdiaCrUYOOfiHOe2ZZkDrpI4SgD0xh1lsIlQL2v7sOYdZb3a79obZEZFd4sZYnQKPYtTPuO6XXz84Ys3j2CUErsnDbFLTNQTXwz0FNVi6qkNQQKvFPezRBJGCIyWelVK5eRr0NurxhbYq60P2kPmC07ApsBATUm40ZZbuEFClgdziC/GA6j5hFFJV9kjEGfX5SwijV2261iKJU9UnGwLuqHXJLS/JgKTkFPuhPZF8TtoyVbMzyfIBu6iBTpf11Zm+pPP2kVwTPTwx4pnc6Bf3GVEybNpvXjWfG1OBfD21mWk31upeChejdWQ04sOX9REHwB4d3T+Bv5wmR5EqmrIiAPQAzIHcVktcnIUSZfFVFLG6Alwjx8bUFgfZGDFH6LLqQh7eR6SHNHzMH7ctY6Y7Vb6fkXmEPknxFNwKQ4YhiRzrjj3uTbpUKw/DeFljnNZDV/I4vOa98O66dvhPpZ6NASQ4SOE4oGhXrjFmUlzFoRAQdopQpF/ZG0h/grTJLiHKQlc4UntkdiRDpb2ZcR+QRP6EY515oW0ZpJiJCUOYX6Pc1FJuSRYRUjqbZNtTCa+YDEZRq6cbZpn0JxX+liAAQUi3ih5+LUF5qGHG1ty6TjjL5mr/NJxnXOWzU/aU+vnfGQVPmbNOXl43ppZ8bfbHnqV1ZXvvRf0HkebkJL/avjMPN+ciPl0d2+U/uWMDL9Lz82Mc+Ntv+ACGKXaTocemBAAAAAElFTkSuQmCC">
+    <link rel="apple-touch-icon" sizes="72x72" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAABGdBTUEAALGPC/xhBQAAAFRQTFRF////9Pb3hsDeS0tL/v///P39ZK7VMTExYq3UNDQ0X19f6enpPz8/d3Z2h4eHurq74ODgsbGxycnJmZmZmcrkj4+Pp6en0tPT0ujzcLXYudvtrNTpfT439AAAAmxJREFUWMPtWGuvqyAQBAEREKVatbb//39eUNZiepp0ocm5H84kTR8J487sAyghf/jvwDmh92ptroSX8RD6WJumbh5lRJzcAk1dN7ciIs8TovFYRWE89cZTrIyukWelZQE9dl2FDvEQUKApFcbJ3cfiaZp7aeqvm7KqLPNCCE/UrNVNFPBwEd/ERpkfjU/8cpmstd280O17ZjiuYxLAOkcEz8v6pDyB2hE+TTTDJk6Mltt6CTxKapPBRD2PPENJZvA+d8DTdvOogUmjhTkIh7kgJ9IqecHlTpAxWekriEL6NDYicKg1O7EFpQ7nt4AImNiJZoiwR2njtD25K8gFiGacSV8jIl+S9jS30GxB+u+k31NB/qEgZZ5FnAzQYecWEfhm66V8bVqHbX9OxMD22RHHSHjpDB6nk0hiAseMwWbY7rXWbXRKzyYckrABbWWjpCXCLEPfD46SjOEP0+iUJEEFekM6OstX0TT7cAzlx36JI5rO87plWttuvITNDeNTSqRUStnagfAsaUkJREqLOmtRJn9G2NxoWX88+2RC1EEQ9xaMIgqpZy/mPLF8GtKhjDGVagIMH2uje6d1hLqln8fO6jYN6lMimLOpF55xUlhp+369dWwET3fxz82GJe0Sqhio4FflFQvsFmKH4+HCgbQWMSaj2ds8s103ebdj/hTqYCPIoKKMU0kHGoU6IHmmdn+8ShFG74I9aNHxtW/9EOHYeRvO6sNoWSxE5Ufb1JvjLoC4U8cV1LgAQ/dDSagoXnbNzrw90Gv1FtfPt0m4of2IGvEfwkb0Fk31rYiq35B2W5u3qG/kNwrgDwn+AVi3LHvwwxX7AAAAAElFTkSuQmCC">
+    <link rel="apple-touch-icon" sizes="144x144" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAMAAADQmBKKAAAABGdBTUEAALGPC/xhBQAAAEhQTFRF////qdPo7e/wRkZG/v7+Za/WWlpaMTExYq3UMjIy+fr60NDQcXFx4uLiwcHBOzs7lJSUtLS0hISEoqKiwd/v1ur0gL3dmcrkLSRZtwAABSFJREFUeNrtnIuSoyoQQA0SCIgCmpj//9MLmEReeay7DVZdu2oykzg1nm2afuI2zSGHHHLIIf8/weaL307z+XK53PZBdLtbmMtOgPh1tigO6Yzq89zmJ42Rub567iuN+eFemwfNK44FujoLr7hcZ5+nvglFPNVXDEX6qb3p8RzzVN5jp5insoJuEU11C0oWrPIWu+5swZo5XrBrsycLOl9OlWPGPQwZ1Xn4HKjnXDuG2aDhqWdGlXnwa4/Z1/O1snZ8IKOdK99DVu+Azuf5dMM7wDHC0c0I3wVL8J5jXBXHvaK+G6x0PVo/rUSDBiVIy+girCXjgB6VYoXqFGkhF5CHuDdSaF4eyagHqZYy6pE8wMz3dkKFFw43fJLUQ/HEfdpqXFBJ5h/fE5qleTFR0pcjws1g1UM/iLkqh0JERj+afcZ5IE1liIx+Uh6W2lMpImM/Zr2Se3vfvE91CSJOaHJj2hLSGp8UXaCyAyfCzZTohxLrnnmvE1RK4MMtapO7Ts0zWozJNQWsolRBjI7PIGteRXjVLBq0O8IkvmW75s+pwUOrCDcd/XRHnKqI4KIrZnbYEADpGIiCbjQcm61bsUCDLP6FCRYoMSHyeRM6my/oFRkV0f0yxLigF4oVkLPqwkDqG1DLm30BEdjIurclazJG/fUXQLe92Ne2Tz31d8eoYYGiWGZCR/c5dDDoHI38aXAtnDBWTj/eeSKXoVVK0NKceklh3cUxl06C10EiTeWHnvNskt/CjzuMnbRJkkZltgwKszfArS8zlVm2UFRFSldb26e1a66UHosU97bxo+gvzQZViIdrIn/AkboQz9B+U49bPdEX4lF07Z0xFtvO8z0ZmmI8HkDI9YKTYsBlmp7OTXsKYaOeROsbFJNk1MU61ZFPfGwj3g9aqVGIUU1DV7SXH9WtNhXKjDZwweZrGOltMsjxMoBZpWi3PEwHTVBFD52URnlfBKoOheMpO58qxpZrdzLZksWce8SDCq3A5Axl+sHepnNo46QdWwEDN5v+zaglddeWTZmsDRQpD5SSrWyMqA7QZePMkn1mc0wD4JwqMeofwADDPk4ajL9Bwc2pbB39x0CumoZL9cU2IqgZTFoB/UoE1T1fZptbiDScGW3RUdpn+4c7bWAbthqVMCecjBEJtmHJKFBNHZZAjLGf4WAmHstysaCez8XWLJBqOOymN8mZdywmOo+SLasBgITPI0z6ivpOm3rDtmJYGMAKaMh2fH0eP6/g9kiTnsanzjKNEAigteXxah3G2b0hGyZFUiIQoyYeUNz5CQoPrNNROsC29+YuH/7+wjUkAR8gKfLyRQvEP/pzEldwsDWHi00fcmWMYyAIE+KBFzKJaZOvCJclYwW6wyLofEiFPGsOa3st4RWEoxa+Pfgmhj69z9I/Z/BnZOLBirunNPWgqVSN9M41KuO1JY15gDLY9FSDf35RyriNvl4Dy/ERyfbLX338XHw1LgisPbyEe/auVH0T5lvAieJ7ovf9aoFgR65opPS3RNEpDbxdbf54J9ibpCcu6hnRHLwFih2SzLfxg7ZHO3a4KTSdapAe1/lL2hhiLVEdb4odqnarwE0mNi5jxFVkaztnuit/Ev55M5u7evLqLdY4l/+KpGHLvHzzPJe5funk7+DRk2JyO91PGwTs2cDrZaMAPf1mH/TdJFDPc6bPaf4oUA9Qbl4xqKfcD6AD6K/d4vZdBuMa8bxVRTNQ25zfN6nofN/B/0ZyyCGHHHLIP5P/APGhk5bPOmIvAAAAAElFTkSuQmCC">
+    <link rel="apple-touch-icon" sizes="60x60" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAABGdBTUEAALGPC/xhBQAAAGBQTFRF////+fr7fLrbNzc3/v7+NDQ0ZK/VMTExMjIyYq3UUFBQQ0NDlpaVX19fiIiIy8vL8/Pze3t64uLibGxsz+by6urqvb29ra2t2NjYpKSk5vX9jsThoM7lmMrktbS0u9ztYPbv1gAAAkBJREFUSMftltmuozAMQOMmkEA2IIXuvf//l2M7tNOrqXRd5m00fqio5BPvTpT6L+9kf911l23o+dJ1bXdVZovZtmvbtttvgfdktut2sMXnlti2+9oS8K2ym9J1JrTd5LRRXxzw5XPWGFBXytV+A8pun89GfVwk1J+XkMYx3KfHSXI2F22tdShNXD4zDqN11jVa6wZxW+YPaCgWIeTJNh5i+0lKG5Us+2xjGj0dgfQgZY/kKkIBv6e+0kFm2qiAyoj0oADUwfJBfhBaLtXYiJ9o2lU6C01/83RYoz7IYFjhE6uDf/33s8Sqnlh99tXtuwimSnHCigKcjczltu4ohHO1pSdq6lT/RHFjjxXo8zwFbrPGLuIGHThq7BTd8Mcjftk4BiQbFEu/eEiSj+Oxr0mqgu4vcruTJ4/9KcXe+76EbMTxUro0FwoJAMIMiKeZ+xFzFfI0wGsiRBE/A3baxzKm0z3Psj32hF3zkjQdDyAyXsfIruuPK0ZhiDYR7YIXm49jhJuotrPjVfQiWjKUWOdiK+lqf7m1V8qPsOEBxhCjfya9JlAwWNwjqAhqmPJyCGPsGyuFeQnRunv2h6mt7nghCirleHyBxayrWLQCDVvWYXpowkKFF5WK7GhqiqYvKeElG31dJY1ocUOsK+BZYV4HXrj0IenHBct3LI1Ykl6y2Cbhd5Wt8+U0ix8HrDcc8/2AsuQJ1EcPC/Nd18hRuO3eyk3yGtvzw+0PoYevCH4rolfz31g2sOveyqYn978nvwBaPCGuzRqLbQAAAABJRU5ErkJggg==">
+    <link rel="apple-touch-icon" sizes="120x120" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAABGdBTUEAALGPC/xhBQAAAEVQTFRF////SkpK5OfpOzs7/P39MzMzos/nMTExYq3UMjIy8vT1m5ubX19f19fXvb29fX19cHBwy8vLi4uLebnbrKysvt3tj8Xh5VwY1wAABDBJREFUaN7tWuHSoyAMFAilKCKo7fs/6oFWJVqv7UygNzfNr6/1G5cNELJbquoXv/jFL74dwC/34XodCsPWtwAa414W9nJd4lISd2Eb41YQd6Mboi63qO4pbsG1hXALZhrl+ToUy/Tt+h3C9YAJw3cSfeXFCF//iZVVrmjB8B3cin8nz2gvDbwgLqxTPNygKhlztRzuZWEBKn4LweuimPgjlEOtWzs2IUbbToyLQHPbGaHVIzRzI88OHd7uO6EiqpZTTAOQzkJW5LCeXMQJeBtjPX0yPivjMbCVK+YaAVuprs5GGjoVEZ5GeMDaTMjgFGKrtU4/SiV8HuReSZTeB9EUOQNnqEaMq5VgTCilU2SWoYxxlmJoxSwH4NZgZEdPuFEoq27JaYe/t9TJrlPCOuYU5gFB+kAqQ03Y4pSOC7Hd3GtFu7IBLWmtZNJwcIEo98S5NijT5uwRea5rPJNuowVoeWnqHXWeT7zetdI8J3BzBhyi/S+B+3Ng4lTvykSXAuOdJojLtUvevtszDgGbjKUa75nzZJBEi88mv5VMj4sp+SlhUK7dBpy1fkynBDoLIjGIGsKizou8VB/WkGxmBTEKfFxmkKuoBQmdD3N93zGlnx+XlMn2MkWW6wiSr/o8MsIKtLRXBbPidrnUGurs9mJC5+LrzZmKmGGFzdXOL/M551inoi2sq47nwT3KpodMnIL1PItCnkq1Xo8BO3aGLYwFc42vcwnzdl3PYS6nGlFzb8fR+pZntCLSehwKB8DBfcnm0iYbOJbph9czR04DwuIeo/c17PymLAM4dFVKC2Zc18xTDMibyTXFS7VY/w4i2bg+joEDNTagE3Hdw1MVSY+msK9aoITeM94NQW9+l5JmJDS8Di37+QjiMU2nU3f93F8j1tWGMNvmDcobNBlyoIwtrRc5V55ylt8GJhXnUKFu8hVnOiMEqtq9D0w4yxth/cZsE/ps/dr2bB75+QioJGPSf4SjyTCJW9zjAEIVIeo/lk5eR0+6bv3YdM4wIZ8dG3TAW6le2p7H9zVv7diH9ksgQUHHePW4ltW6O/dD+9ULehMXVk2OCS+9x/yHp/cV4xEhX6hu2DswlhR4fiG8NFmJbIEt1ZMch307O893m6SarHAlBmogMz7R/PXI0v6XyAdB7XxUhaaxsbkMROOO8rZBvoAmNH5aid47NZehu2RhBz+KiEyfE/YBTfpLVyyTalc1t52kSTufg0jVU8j9URX+SRDbL41++mvmzhXQyhHL87CnzMTo5CicXYGgnDPImMo7kRgRS2zdPOuy/IQcifDRsedtrjB9dAXy6PNZk/H5JFwjKrblgkI+qby9+iDLc1/JOLgA2W2BLwW/fBJ01vHuLuLLILvbdf8QmOrKMb4i90aQXZP8AZcC/t4cXz4EJruiCZ8h3/+/CvqLX/ziWfwBjY5jtKAlhFkAAAAASUVORK5CYII=">
+    <link rel="apple-touch-icon" sizes="76x76" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAMAAADwSaEZAAAABGdBTUEAALGPC/xhBQAAAFFQTFRF////7vX4Z7DWTU1N/f39NDU1/v//MTExYq3UMjIy+Pn5aGho6Orro6Ojw8PDPj4+lZWV09PTW1tb39/fhISEtbW1frzcdXV1rNTqw+DvlsjjdnR6gQAAAtBJREFUWMPtmNuOozAMhgM5kRBCoFAo7/+g6xzbrjo764C0Fzu+qBBVPtl/fEgg5Mf+SxOENPu97Q7/dJrVHG0Htp+HCfIIqK57nIYJskdU1zZnYZ6VHDvOs0x3mWNE3BPqvPwgfmYdF+RYcqw72AUZ1kb59/PpyqL87WHO6sWYAM/2fX805CQrSMQa0+gIPiOWIGxyPR05H2nvJubfVLvFViqVLDavydca1m2WSnGVDB5kb+pojEyj5N4vj0kPcpxqaILcgOWDU+r5G2g1uvWJJfli7ZDE45LqiiBtkd56X/ScaQ4dKCNLdmyD/GI6w1WVazQvXqMnzZhfWLRrpqzN+1fiHJAw2EsV1oL8sbwZ2WpFAxi/DPYepgj4vjbMp0RlAzSt3gBGXEwNLheihS+umHRKjqaimrJo4y3EWSRb8FEW1yBLV2OmLQeZ2FhcUhxKnHOVnnmWED1GaKHFpuEb0VDXgtaZe0jpjr45UlvXHJfXhp3Ec01djIMMOvHBun6mlM6bm3TlCIgFoOQcQtZx1NX2/zXkBXi2ipfJB42NVcBSawQe7Rc3rHYyDSNV7pWqTnMkpMUIui0DTGJk0rIC8zjOuXruLB2QZ8dSS6+ZEXItJBtu2pUy/2AKPTt9nn0B842jx+1AoqmPxNx9/74yfZUrlfV/o+I6d/ZLjuPLBnBVYIiZkvSHYjLNtA5ugepMjRIPi5nx1lS1AWo++aHCjDkLRzsYJYw9C1LPFQNKJBht/KEYzCO11qlicWeXVOd+lLytWmMmYzczdSDAbYOdwOw6LHOWf0YeqvpwnM3ZpZ4tBKqJYm8qZg7nYhlKW8lU4+HVhr9xaucbd0p/Husg3AUs/mYBC4ybf2tDnC6TqJqbfo2xg9v6YNBk7Y2lixn+i0j1vx80a742jfTr0f7JkN9J8qX8s91RLPENjP0z2Hdh1n2S+myPCz6h/dj19gt6fzE0ragb/wAAAABJRU5ErkJggg==">
+    <link rel="apple-touch-icon" sizes="152x152" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACYCAMAAAAvHNATAAAABGdBTUEAALGPC/xhBQAAAEVQTFRF////XFxc7vDwzs7OMzMz2uz1+Pr7MTExYq3U/v7+bW1tPj4+S0tLurq64uLigoKCkZGRrKysudvtnMvknp6egr7ebrTY5dmZ8QAABR5JREFUeNrtnOuSoyoQgAEJhoui0eT9H/WASWaRxuhmioatY/+ZmThVfNUNfcUQcsopp5xyyin/A2G36X69Xh+sMioP5eUhKsK6TNcfudcDxgIsB1YN1+0Rcl1vRFaBJVbqcnKpAkuKe8RVyd5nMdd1qsOOgKsSS06Aq4ozKW/XOhV2gVx17DC4weqIkwlDVuFcxaNKQ8qEwu6yzh1WSVoBjuRUBRe05FSHHWOn/7hUgkXkvT4zxs7iMVWjrgDsMd1qKj6cKS83L5d6qOQi4d91UL0t6UVWgrYAyL4ZB0WpcUKpnbteFmbza7POUt2uRdOhEQXR3Lr9YBYU7qQNf+N0ZoXI3Kq9XRhaKP4zPRRBk0TOOk31w2ZGgp4lOnXRT1gvNMWQySRpzA7WE800qGSOSx/g8mQak2yLi/PSZCxhR776EZL1WGSS2JS+NHXOP6UzyrC4utQuH3vn7EU/a/jMIqlMUmgwxd7hkcGnbYdBllJYS8XLyft4YKAxcSypoMKCkyfICMERTqYkTAONqNW6wpTYZQlL8nYM100dWpM/NEkyQEv2a7AObv8GAQxuMSOiuAC97IxwLmN34LdYVMfpEpsssbUVZP98PHLFyXjVIV71HwJDcLHsgJcqojFJ69xjKXdBKziVMunXZVSnlPBjKb+ugedvS3j+HqSCq3xLpoKWZhhRXAHXH+2gIody15YuVML0AyWFJYKmDt27MwYfx1EeU2Xu1L1zfqF28rWcAl1Zq5pFK6IDtQj3FQFS/QbC0mIvZa1KPeANXsXb6I1CPNW+QDOk30tdCoEnmxcDZldFJMmSLTJULkKaQR/i4nh29IZs6EF1YfbtnAe1bbvbtlvaw7PA5PJdE/6xYff8Ww89atdawPItOJY/0VONDLVlDfJE2rBmXA1HtFFD99OVwuu+JjNAyfqmG510Tc/E++iiShQmfQYogWok/tghbku4OCheHbu3kAICsmbeKkZCLlJGJIENVjM3LLIjOuJGvsO1ocrOy8aXMSMSWL/h41eIw5MR8SR4Z7ERiuKUh2vPOIxPM8tyYGtEvh5Dy9xoicpsj/EZHcbM9W6yCj+S/bRmlJmVRg+NKdFnvZLMX4G9ZnCyMltiTAd/obLszTv1JVn2JhnsTRw2ZtZmlAt/w7cayzodd/6o09+qLGObbLkJ8rUt81Xl7lTydFlUdpMt3oLvhO0CYCDlp3Z104J/RsyosXWxy0f3kavbxtn6i4B6z8TZwOLmaxemzoL1rrT0iEZvdPIyggVe30cY8af2CP7N63CwBk9jUSnCY2+5ro7EqLHcRZS/0k/BwQMmRvZdNjB+3CwCjukyhaSoFNm74wEypIx7f10jKfapoJVgFJwtVIL01YyCJHo97zMwJK5M5StFoqXGfnUig0OZ6B93+SIl6PW0Ws1BN+DlaZtuoJj37hKlyMLJDVXKWjvMdnH8POH53c7POOlK3oTiH0pwrOptSfj5Vr+CbycX2bnSVyMP1OFWZG+rMNX+HZof3HQYnaid2/JwBy73+nHaisvkjR+iag3e4Ma/kTE/M+qtRPr9uVZ+RCIRB7zOsw/BmCZ1KDW16IOb12J+iKSM1pEr9d1X/w5QkRFJsOR7ivSSoKde7s2k7ayn4JAkzCpEKEVHNzWKvHwree/RXOA7/UflnvElVZl4df645PyikNv1N3LLp7HfgU21amw6NXZq7J/VWLXuIvVtQX/h+nOWvGL62vdPdX1t2ymnnHLKKbXJf6QIoY7JT8w3AAAAAElFTkSuQmCC">
+    <link rel="icon" type="image/png" href="data:image/png;base64,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" sizes="196x196">
+    <link rel="icon" type="image/png" href="data:image/png;base64,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" sizes="160x160">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAABGdBTUEAALGPC/xhBQAAAEhQTFRFAAAAYq3UMTExMTExMTExYq3UMTExMTExN0FGYqzTMTExMTExMTExMTExMTExMTExMTExYq3UYq3UYq3UYq3UYq3UMTExYq3Uad5KmwAAABZ0Uk5TAPu67dTlEfwDDp50hjdKJGKvhMgvVHfZS84AAAOrSURBVGje1VqJcuMgDCVAQAHjIwf5/z9d4SS15NhbG/DMrjr1ZJL0PXRLdoXIE8Dfy2M4n57nizhAEB/Rn0kOIQBxvyXwE/7cDlHgOqKPl+torrpyuT1PI3ySR3UCSPgf+CNcQPEPsdBAzl9fARAPgn+EApfzk+DfqjtYXJmB7vU9fCbnP1UPUeqBI/BJCGGioX3gKAslkuFyAL64fwx0e4gj8F8Ep9v1Xh8ekgi4o1xA1MYHII2Mv1MNvmu9kzqJdD5ATQoE6ry0kYp2oRoFiM4pxLREEodsqzgCT+lVQmcKxJFEduUMIIz7Qv9wRNWWMxgZF+FHihj7UgZg+KMqRB98WcYAomH4MSqlIlPJllgJRGBYGDgGTHCMU5sSBRw5rY3+/W7PWJtsFTAB2FnlK7OA80aVHayYAUyBj7W55ZJi2QQkhDDoibE1/UDm+2CGA4u+Ycw7k0xRSzhC4FmohjwbzX3sCUHPnHM4QVuHoKmtwXYf5Fft1ShqqkQRi0YsOrCSIDq/FLWL0YjOUXWK0SzT3LvLz1xgQ0G16xnSKxyxFKlZDazW0LxBLNMr1jdDUcdBa9OIV1pqFW0lD7z8zHvadP1xTOlU1H7PQ6Tnu7KhAqfpXq5NLYmqzD4pXvTi0d+zi25L8Xs+M7LRNOoeSvHbCV45p2n50Q1O8KXTtfnJ43GAg67tfeNc4/tgRPmOwwqC/arIFXYDUoje7QwmqbF2BBY1Lhj42gmhMIR4Bqi0naED2tAZylNnsGavFZYk5OrbkSmTYk5A0oBSSd+J3JnCr682kVBZmVev5/1ylQivzmRRGBU3CXJIU91Gs2VQ5rlBbmfI2wWN3shAh6Z9S/h2hoxQwjj6VGhrfyXYv0eRZdLyyF8kcHsJSLtBC+t5XysnoPZvxmbTpPtRyi4VpwyCKQvYaAWmC61vJCHK1uCdBGMEwrz8I1Gjyvb9T6GY/+mHiU9kGXsaI4DFmY8m+v4tZyp1Kiw0LmBZmOMC2vIbMxnnxxXA7sSE/WnQkPMp13cMwATPlp8mI4+DZf3Yjh3fe0wH94pSW1atZzej7NJsTW56QWY7WJp87XxHkCZzijTytzqaPlW+YErt1XqtfumhXFe0Axqvv+0zTSw6eyqa7rtDaOTSeIFRVeUmP7yiHivo++HB+PwgTY1Qa4hfHW/Lp3g45KtULpslD/963ixXyLAPe+z6d8l7rDzsIRgyLLSD4Jn1zxW7NLj99xoM/2IUwXU7wbCean8AEVTLykBHjb0AAAAASUVORK5CYII=" sizes="96x96">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAHhQTFRFAAAAMTExMTExMTExMTExMTExLywrQV1sOEVLMDAwMTEwMTExMTIyYarQNDc5aLznLSYjMTExMTExMTExY7HZLCUiMTIzKSEeYazTZbXfMjQ1Yq3UYq3UasLuKyIdMTExZbTeYq3UMTExKyIdLCQgXqPHMTExYq3U6HEe1wAAACZ0Uk5TAPvZQrWWbAEEy6gh54M2duQQ4IkbX6MpwFZU4LdjCr3Pw3ytxovEz++3AAAAk0lEQVQY002ORxLDMAwDIdkSKffeUpxK/f+HOUQuvGFnuAAAACB01wuDEI4Yk89PmdA9bqeM1Ghn7xsh1FqSWOINMBZpOFVSBMKIJONUyRgAgZw4LcPx0kvSmmhvIcSiE9PaendYUSJqqyHAuci+Vmn+2wmcZUtRDGLAwTG+q6r69Id0LvNvXpbzvmPy3nvvnyDgBx3VCTKxgNAXAAAAAElFTkSuQmCC" sizes="16x16">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAHJQTFRFAAAAMC8uMTAwYq3UMTExMC8vLywsMzY4MTExc8DeMTExMTAwMDAvMTEwYazTMDAwMTExYq7VMTAwYanLMTExMTExMTExYq3UMTExVpCvYq3UMTExYq3UYq3UYKrQacDtYq3UYq3UZ7rlab7qMTExYq3UPALLUwAAACR0Uk5TAHWq+veNLAP8AxTVQMju3mTpuw8LUyFt7BqX7VWmQjm9yrGIk1u1JgAAATlJREFUOMt9U217gyAMDAryooj1rdp2a7fF//8Xl7RbtwnsvsSHOy/hAIAdLKyn9jBADhYu7bbdqOb4120rt0tWAPBG/EuW1WRAvM3SFq7vH9ecvwY3KaVExZ9JCIkEg/2cUmhQaAyeJSnOVazQ0DCvxtmjRK/TBrg4gImFTWShoaA/a6oVj9HlBPofQUfrcgauBhNTwljzDpspkFORjGnCBwx6l+IFdQiG+FqMKb6izh7GeWZWJ3ISZG16JbqpqRwkNsGCbyx9FBS1oEMwUhoCD5pQqC8LVkjsdwLOCZfCh7N57LSOpgyIE+jRVU0XOIq9wC2I4tepqKjF/awKJVTBkddxls7jDwqXupKN6usQgi/S11YPFuywruu9DvGTO5Zt2x4YXMvj7nFYONGTeqLcTpHg+FfwdPgEwGMfo/FhvWgAAAAASUVORK5CYII=" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="robots" content="NOODP">
+
+                                        
+    <!-- Обучение старых версий IE тегам html5 -->
+    <!--[if lt IE 9]>
+	<script src="/bitrix/templates/iguides-2015/js/html5.js"></script>
+    <![endif]-->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="robots" content="index, follow"/>
+<meta name="keywords" content="Apple, iOS, iPhone, iPad, App Store, OSX, Windows Phone, Google, Android, Microsoft, Samsung, Sony, HTC"/>
+<meta name="description" content="Блоги читателей на iGuides.ru"/>
+<style type="text/css">.bx-composite-btn {background: url(/bitrix/images/main/composite/sprite-1x.png) no-repeat right 0 #e94524;border-radius: 15px;color: #ffffff !important;display: inline-block;line-height: 30px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;font-size: 12px !important;font-weight: bold !important;height: 31px !important;padding: 0 42px 0 17px !important;vertical-align: middle !important;text-decoration: none !important;}@mediaonly screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2),only screen and (-o-min-device-pixel-ratio: 2/1),only screen and (min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi),only screen and (min-resolution: 2dppx) {.bx-composite-btn {background-image: url(/bitrix/images/main/composite/sprite-2x.png);background-size: 42px 124px;}}.bx-composite-btn-fixed {position: absolute;top: -45px;right: 15px;z-index: 10;}.bx-btn-white {background-position: right 0;color: #fff !important;}.bx-btn-black {background-position: right -31px;color: #000 !important;}.bx-btn-red {background-position: right -62px;color: #555 !important;}.bx-btn-grey {background-position: right -93px;color: #657b89 !important;}.bx-btn-border {border: 1px solid #d4d4d4;height: 29px !important;line-height: 29px !important;}</style>
+<script type="text/javascript" data-skip-moving="true">(function(w) {var v = w.frameCacheVars = {'CACHE_MODE':'HTMLCACHE','banner':{'url':'http://www.1c-bitrix.ru/composite/','text':'Быстро с 1С-Битрикс','bgcolor':'#2a2a2a','style':'white'},'storageBlocks':[]};var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);try { r.setRequestHeader("BX-REF", document.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}else{w.frameRequestFail = f;}return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();})(window);</script>
+
+
+<link href="/bitrix/cache/css/s1/iguides-2015/kernel_main/kernel_main.css?145704248048075" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/iguides-2015/page_c8d68d4fb63c470fbc5c4f8fa3e658bf/page_c8d68d4fb63c470fbc5c4f8fa3e658bf.css?146012894659418" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/iguides-2015/default_76b159436dbae266c2ae3129829a3ec7/default_76b159436dbae266c2ae3129829a3ec7.css?14570420661337" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/iguides-2015/template_c33e32e6abcdb59c0564e11dbe60fea4/template_c33e32e6abcdb59c0564e11dbe60fea4.css?1459682093109013" type="text/css" data-template-style="true" rel="stylesheet"/>
+<script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'IGUIDES_RU','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/'});</script>
+
+
+<script type="text/javascript" src="/bitrix/cache/js/s1/iguides-2015/kernel_main/kernel_main.js?1460191772287296"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_db.min.js?14593187384952"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?14409228539676"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js?146012893970993','/bitrix/js/main/core/core_ajax.js?145931874020978','/bitrix/js/main/json/json2.min.js?13928905583467','/bitrix/js/main/core/core_ls.js?14325676507365','/bitrix/js/main/core/core_fx.js?14296420609592','/bitrix/js/main/core/core_window.js?145140991374917','/bitrix/js/main/session.js?14296420592511','/bitrix/js/main/core/core_popup.js?145140991331170','/bitrix/js/main/core/core_date.js?145931874234276','/bitrix/js/main/utils.js?142964206019858','/bitrix/js/main/core/core_autosave.js?14364427586561','/bitrix/js/main/core/core_dd.js?14593187382188','/bitrix/templates/iguides-2015/components/iguides/blog/main/script.js?14546169183951','/bitrix/components/iguides/rating.vote/rating.js?144403053716775','/bitrix/templates/iguides-2015/components/realcommenter/tape.show.tree/true-comments/script.js?1431698942156999','/bitrix/templates/iguides-2015/js/jquery.js?142533283893063','/bitrix/templates/iguides-2015/js/jquery-migrate.js?13737289687200','/bitrix/templates/iguides-2015/js/scrollTo-min.js?13881421682441','/bitrix/templates/iguides-2015/js/bxslider.js?139663887819359','/bitrix/templates/iguides-2015/js/fancybox.js?137115434823135','/bitrix/templates/iguides-2015/js/scripts.js?14543507605279','/bitrix/templates/iguides-2015/js/jquery.history.js?142350154321571','/bitrix/templates/iguides-2015/js/imagesloaded.pkgd.min.js?14265244916949','/bitrix/templates/iguides-2015/js/jquery.event.move.js?140054518814709','/bitrix/templates/iguides-2015/js/jquery.twentytwenty.js?14005451883721','/bitrix/templates/iguides-2015/js/jquery.magnific-popup.min.js?142702611421904','/bitrix/templates/iguides-2015/js/adminPanelFix.js?14392032091036','/bitrix/templates/iguides-2015/js/logoAnimation.js?14392030851155','/bitrix/templates/iguides-2015/js/jquery.cookie.js?14327409683140','/bitrix/templates/iguides-2015/js/ya.share.js?142610785974590','/bitrix/templates/iguides-2015/js/relap.js?14485682161561','/bitrix/components/iguides/notifications.subscribe/templates/.default/script.js?14435480444091','/bitrix/components/iguides/content.feed/ajax-load.js?14565769424202','/bitrix/templates/iguides-2015/components/asd/subscribe.quick.form/subscribe/script.js?14260260881265','/bitrix/components/iguides/notices.subscribe/templates/.default/script.js?14405851911073']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css?14296420602854','/bitrix/js/main/core/css/core_popup.css?145140991533075','/bitrix/js/main/core/css/core_date.css?14364427589689','/bitrix/templates/iguides-2015/components/iguides/blog/main/style.css?144014710120972','/bitrix/templates/iguides-2015/components/iguides/blog.post/post-tape/style.css?1439833138244','/bitrix/components/bitrix/rating.vote/templates/like/popup.css?14601289383066','/bitrix/components/iguides/rating.vote/templates/standart_text/style.css?14545032752595','/bitrix/templates/iguides-2015/components/realcommenter/tape.show.tree/true-comments/style.css?144812668629615','/bitrix/templates/iguides-2015/css/styles.css?145751984761529','/bitrix/templates/iguides-2015/css/latofonts/300.css?1454667511672','/bitrix/templates/iguides-2015/css/latofonts/600.css?1454667522687','/bitrix/templates/iguides-2015/css/latofonts/700.css?1454667517667','/bitrix/templates/iguides-2015/css/icons.css?14368054493996','/bitrix/templates/iguides-2015/css/fancybox.css?14182042204710','/bitrix/templates/iguides-2015/css/bxslider.css?14430913471455','/bitrix/templates/iguides-2015/css/twentytwenty.css?14005451886491','/bitrix/templates/iguides-2015/css/magnific-popup.css?14270259555911','/bitrix/templates/iguides-2015/css/blogs.min.css?145471330610455','/bitrix/templates/iguides-2015/components/bitrix/menu/tapes/style.css?1454853828871','/bitrix/templates/iguides-2015/styles.css?14596820934318','/bitrix/templates/iguides-2015/template_styles.css?14596820932767','/bitrix/components/iguides/notices.subscribe/templates/.default/style.css?14416545081129']); </script>
+<link rel="manifest" href="/bitrix/components/iguides/notifications.subscribe/manifest.json">
+<meta property="og:title" content="На Android и iOS появилась игра Final Fantasy IX"/>
+<meta property="og:url" content="https://www.iguides.ru/blogs/googleblog/on-android-and-ios-appeared-game-final-fantasy-ix/"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://www.iguides.ru/upload/main/fcb/fcbf3b07090a6e63ceefea1c204c4da6.png"/>
+<meta property="twitter:image" content="https://www.iguides.ru/upload/main/fcb/fcbf3b07090a6e63ceefea1c204c4da6.png"/>
+<meta property="og:description" content="Блоги читателей"/>
+<meta property="og:site_name" content="https://iguides.ru/"/>
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.iguides.ru/blogs/googleblog/on-android-and-ios-appeared-game-final-fantasy-ix/"/>
+
+
+
+<script type="text/javascript" src="/bitrix/cache/js/s1/iguides-2015/template_712698dcd5b89f5ef097d91fe8867889/template_712698dcd5b89f5ef097d91fe8867889.js?1457042011316215"></script>
+<script type="text/javascript" src="/bitrix/cache/js/s1/iguides-2015/page_10221bdb92421d3671ed467162bb467a/page_10221bdb92421d3671ed467162bb467a.js?1457042066178806"></script>
+<script type="text/javascript" src="/bitrix/cache/js/s1/iguides-2015/default_bbf76ee88e3bbc1784e7d8ce8ac4c33c/default_bbf76ee88e3bbc1784e7d8ce8ac4c33c.js?14570420661439"></script>
+
+	    
+                                                                        
+    <script type="text/javascript" src="https://www.iguides.ru/scripts/adriver.core.2.js"></script>
+    <script type="text/javascript" async src="https://relap.io/api/v6/head.js?token=memQ7WntFOkUyczJ"></script>
+
+<!-- GA -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-13173640-13', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['m.iguides.ru'] );
+  ga('send', 'pageview');
+	
+  ga('create', 'UA-13173640-3', 'auto', 'igWeb');
+  ga('igWeb.send', 'pageview');
+
+  setTimeout(function(){
+      ga('send', 'event', 'visitor', 'stop-rejection');
+  }, 15000);
+
+</script>
+<!-- End GA -->
+
+</head>
+
+<body class="g-wider ">
+<!-- Шапка -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter5122708 = new Ya.Metrika({id:5122708,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/5122708" style="position:absolute; left:-9999px;" alt=""/></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+<script type="text/javascript" src="/bitrix/templates/iguides-2015/js/advert.js"></script>
+<script>
+    if(!('adblock' in window)){
+        window.adblock = true;
+        ga('send', 'event', 'adblock', 'detected');
+    }
+</script>
+
+<script language="JavaScript"><!--
+var N = 3;
+var ar_duo1 = Math.floor(Math.random()*N+1);
+//-->
+</script>
+
+<div id="panel"></div>
+
+
+<div id="iguidesBrandingWrapper">
+
+    
+        
+        <header>
+            <div id="topLine" class="top_line">
+                <div class="cont">
+                    <a class="topLineLogo" id="topLineLogoWrapper" href="/">
+                        <span id="topLineLogo">iGuides</span>
+                    </a>
+                    <ul class="links left">
+                        <li><a class="searchIcon icon-search" title="Поиск по сайту" href="/search/"></a></li>
+                        <li><a href="/technologies/">Технологии</a></li>
+                        <li><a href="/games/">Игры</a></li>
+                        <li>
+                            <a id="socialIcons" href="/movies/">Мы в соц. сетях</a>
+                            <div class="socialBox">
+                                <div class="socials">
+                                    <a href="https://twitter.com/iGuides_ru" target="_blank" class="twitter"><i class="icon-twitter"></i></a>
+                                    <a href="http://vk.com/iguides_ru" target="_blank" class="vk"><i class="icon-vkontakte"></i></a>
+                                    <a href="https://www.facebook.com/iguides.ru" target="_blank" class="fb"><i class="icon-facebook"></i></a>
+                                    <a href="http://instagram.com/iguides_ru" target="_blank" class="instagram"><i class="icon-instagramm"></i></a>
+                                    <a href="http://www.youtube.com/user/iGuidesru?sub_confirmation=1" target="_blank" class="youtube"><i class="icon-youtube"></i></a>
+                                    <a href="https://plus.google.com/u/0/+iguidesru/" target="_blank" class="google"><i class="icon-gplus"></i></a>
+                                    <a href="https://www.iguides.ru/rss/main.rss" target="_blank" class="rss"><i class="icon-rss"></i></a>
+                                    <a href="#subscription_form" class="email fancy"><i class="icon-email"></i></a>
+                                    <a href="https://telegram.me/iguidesbot" target="_blank" class="instagram"><i class="icon-telegram"></i></a>
+                                    <div class="modal" id="subscription_form">
+                                        <div class="subscribe20">
+    <div class="inner">
+        <div class="stamp"></div>
+        <h4><b>Подписка на рассылку новостей iGuides.ru</b></h4>
+        <p>Подпишись и узнай, что интересного читают люди!</p>
+        <p>Подборка самых важных и интересных постов сайта.</p>
+                <div id="asd_subscribe_res" style="display: none;"></div>
+        <form action="/blogs/googleblog/on-android-and-ios-appeared-game-final-fantasy-ix/" method="post" id="asd_subscribe_form">
+            <input type="hidden" name="sessid" id="sessid" value=""/>            <input type="hidden" name="asd_subscribe" value="Y"/>
+            <input type="hidden" name="charset" value="UTF-8"/>
+            <input type="hidden" name="site_id" value="s1"/>
+            <input type="hidden" name="asd_rubrics" value="4"/>
+            <input type="hidden" name="asd_show_rubrics" value="N"/>
+            <input type="hidden" name="asd_not_confirm" value="Y"/>
+            <input type="hidden" name="asd_key" value="24974700f317329657bac5d0d5991d3e"/>
+            <div class="submit_group">
+                <input type="text" placeholder="Введите e-mail" name="asd_email" value=""/>
+                <input type="button" name="asd_submit" class="asd_subscribe_submit" id="asd_subscribe_submit" style="background-color: #53c6ee !important;background-image: none;position: static;padding: 11px;" value="Подписаться"/>
+            </div>
+                    </form>
+    </div>
+</div>                                    </div>
+                                </div>
+                            </div>
+                            <!-- Тут контейнер с сетями -->
+                        </li>
+                        <li><a href="/forum/">Форум</a></li>
+                        <li>
+                            <div id="bxdynamic_create-blog-link"></div>                        </li>
+                    </ul>
+                    <div id="bxdynamic_page-auth-form"></div>                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <div class="cont">
+                
+<div id="bxdynamic_LkGdQn">
+    <ul class="newsTapes">
+
+        
+        
+            
+            <li>
+                <a href="/">Популярное</a>
+            </li>
+
+        
+            
+            <li>
+                <a href="/all/">Редакционные материалы</a>
+            </li>
+
+        
+            
+            <li class="-active">
+                <a href="/blogs/">Блоги</a>
+            </li>
+
+        
+            
+            <li>
+                <a onclick="$('.login_link.fancy').trigger('click'); return false;" href="/personal/feed/">Мои подписки</a>
+            </li>
+
+        
+    </ul>
+
+</div>            </div>
+        </header>
+    
+    <div class="cont">
+        <div class="banner full">
+            <div class="ajax_intape_banner"></div>        </div>
+    </div>
+
+    <!-- End Шапка -->
+        <div class="cont">
+                            <!-- Основная часть -->
+
+
+
+    <div style="text-align:center;">
+        
+<div id="bxdynamic_e8hQg1"></div>    </div>
+
+    <div itemscope itemtype="http://schema.org/Article">
+        <div class="banner full">
+            <div class="ajax_intape_banner"><!--  AdRiver code START. Type:AjaxJS Site: Новости PZ: 1 BN: 2 -->
+<div id="adriver_banner_1657352189_SALT"></div>
+
+<script type="text/javascript">
+var adriverTopline = new adriver("adriver_banner_1657352189_SALT", {sid:193429, bt:52, bn:2, pz:1});
+</script>
+
+<!--  AdRiver code END 146568762  --></div>        </div>
+
+
+
+    <div class="cont">
+        <div id="data-user-id" data-id="28" style="display: none"></div>
+        <div class="post_head">
+            <div class="label">
+                                    <a href="/blogs/?TAG=android" <span itemprop="articleSection">Android</span></a>
+                                    <a href="/blogs/?TAG=ios" <span itemprop="articleSection">iOS</span></a>
+                                    <a href="/blogs/?TAG=final-fantasy" <span itemprop="articleSection">Final Fantasy</span></a>
+                                <span class="is-adv">
+                    Блог читателя                </span>
+            </div>
+            <div class="coment_count">
+                                    <a id="comments_num_detail" class="hide-block" href="#comments"></a>
+                            </div>
+            <h1 itemprop="name">На Android и iOS появилась игра Final Fantasy IX</h1>
+            <div class="slogan">
+                <a style="color:#333;" href="/blogs/googleblog/">Блог о Google и Android</a>
+                <span class="blogRatingLabel" id="blog188RatingValue"></span>
+            </div>
+            <div class="author">
+                                                            <img src="/upload/resize_cache/main/ae9/35_35_2/ae95808eabaa17995fc9e4cdac5faef4.jpg" alt="">
+                                        <span itemscope itemtype="http://schema.org/Person">
+                        <span itemprop="name">Александр Кузнецов</span>
+                    </span> |
+                                <span itemprop="datePublished">9 Февраля 2016 20:45</span>
+            </div>
+
+            <div id="postShareTop_967"></div>
+        </div>
+    </div>
+
+    <section class="left">
+        <div class="post_full" itemprop="articleBody">
+            
+            Компания Square Enix выпустила на Android и iOS порт игры Final Fantasy IX. В скором времени он также должен появиться в Steam.<br/><br/><iframe width="720" height="405" src="https://www.youtube.com/embed/iUQMWeFsY8w" frameborder="0" allowfullscreen></iframe><br/><br/>Оригинальная версия Final Fantasy IX была выпущена на PlayStation в 2000 году. В новом переиздании сценарий игры не поменялся, однако была усовершенствована графика, появилась функция автосохранения, облачная синхронизация прогресса между устройствами и были добавлены бустеры, которые позволяют быстрее проходить некоторые задания. Игра поддерживает управление физическими контроллерами, однако не совместима с приставками на базе Android TV.<br/><br/>Как и большинство игр Square Enix, Final Fantasy IX получилась дорогой: и в Google Play, и в Apple App Store она стоит одинаково — 17 долларов или 1290 рублей. И это с учетом 20-процентной скидки, которая будет действовать до 21 февраля. Версию Final Fantasy IX для Android можно скачать по <noindex><a href="https://play.google.com/store/apps/details?id=com.square_enix.FFIXww.android_googleplay" target="_blank" rel="nofollow">этой</a></noindex> ссылке, а для iOS по <noindex><a href="https://itunes.apple.com/ru/app/final-fantasy-ix/id1041260001?mt=8" target="_blank" rel="nofollow">этой</a></noindex>. Для установки потребуется 4 гигабайта свободного места.
+            <!--  AdRiver code START. Type:AjaxJS Site: Новости PZ: 0 BN: 1 -->
+            <div id="adriver_banner_485107251"></div>
+            <script type="text/javascript">
+                (new adriver("adriver_banner_485107251", {sid:193429, bt:52, bn:2, pz:3})).onLoadComplete(function(){
+                    if(this.reply.adid)
+                        $("#adriver_banner_485107251")
+                            .wrap('<div style="margin:15px 0; padding-bottom:15px; border-bottom:1px solid #D8D8D8;"></div>')
+                            .before('<div style="font:11px/18px Lato; color:#716D6D; margin-bottom:5px;">На правах рекламы</div>');
+                });
+            </script>
+            <!--  AdRiver code END  -->
+            
+                </div>
+        <script>
+            $(document).ready(function(){
+                createYaShareBlock('postShareTop_967');
+                createYaShareBlock('postShareBottom_967');
+                function createYaShareBlock(shareBlockID){
+                    new Ya.share({
+                        element: shareBlockID,
+                        elementStyle: {
+                            'type': 'button',
+                            'border': true,
+                            'quickServices': ['twitter', 'facebook', 'vkontakte', 'odnoklassniki', 'gplus', 'evernote']
+                        },
+                        link: 'https://www.iguides.ru/blogs/googleblog/on-android-and-ios-appeared-game-final-fantasy-ix/',
+                        theme: 'counter',
+                        onaddcounter: function(n){
+                            var counter = $('#'+shareBlockID).find('.share_count b');
+                            if(counter.length) counter.text( parseInt(counter.text(),10) + parseInt(n,10) );
+                        },
+                        onready: function(instance) {
+                            // Создаем новый элемент
+                            var shareHTML = $('<div class="post_share"></div>'),
+                                shareCounter = $('<span class="share_count"><b>'+0+'</b><br> поделились</span>');
+
+                            /// Формируем кнопки
+                            $('#'+shareBlockID).find('.b-share-btn__wrap').each(function(){
+                                var bShare = $(this),
+                                    bShareA = bShare.find('a'),
+                                    bShareAClass = bShareA.attr('class');
+
+                                bShareA.attr('class',bShareAClass.replace(/(b-share__handle b-share__link b-share-btn__)(.*)/,'$1$2 $2')).appendTo(shareHTML);
+                            });
+
+                            $('#'+shareBlockID).append(shareHTML.prepend(shareCounter));
+                        }
+                    });
+                }
+            });
+        </script>
+    </section>
+
+    <aside class="right">
+                    <div class="banner" style="height:400px;">
+                <div class="ajax_intape_banner"><!--  AdRiver code START. Type:AjaxJS Site: Новости PZ: 2 BN: 1 -->
+<div id="adriver_banner_1232098293_967"></div>
+
+<script type="text/javascript">
+new adriver("adriver_banner_1232098293_967", {sid:193429, bt:52, bn:1, pz:2});
+</script>
+
+<!--  AdRiver code END  --></div>                <div class="ajax_intape_banner"></div>            </div>
+        
+        <div class="liveColumn -parent">
+            <div class="liveColumn_title">Новое в блогах</div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/MIDCORESHOW/rogue-stormers-the-game-is-not-for-wimps/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4049&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/MIDCORESHOW/rogue-stormers-the-game-is-not-for-wimps/">Rogue Stormers - игра не для слабаков</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/anatolysam/dbrand/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4039&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/anatolysam/dbrand/">Наклейки. Домашний модинг</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/OkoloApple/about-apple-which-i-twostep-verification-apple-id-/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4029&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/OkoloApple/about-apple-which-i-twostep-verification-apple-id-/">Около Apple ( Для чего мне двухэтапная проверка Apple ID ?!)</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/MIDCORESHOW/jalopy-first-20-minutes-gameplay/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4028&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/MIDCORESHOW/jalopy-first-20-minutes-gameplay/">Jalopy - первые 20 мин. геймплея</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/iphonegraphy/iphoneography-34/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4020&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/iphonegraphy/iphoneography-34/">Айфонография #34</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/nApples/why-apple-keeps-in-the-line-of-vehicles-on-16gb/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4015&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/nApples/why-apple-keeps-in-the-line-of-vehicles-on-16gb/">Почему Apple, все же сохраняет в линейке аппараты на 16Гб?</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/palach-govorit/as-i-changed-iphone-6-16-gb-on-the-iphone-6s-64-gb-and-felt-himself-a-/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4011&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/palach-govorit/as-i-changed-iphone-6-16-gb-on-the-iphone-6s-64-gb-and-felt-himself-a-/">Как я сменил iPhone 6 16 гигабайт на iPhone 6S Plus 64 гигабайта и почувствовал себя человеком</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/MIDCORESHOW/review-of-mirrors-edge-pta-catalyst-and-the-drawing-of-the-key/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4010&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/MIDCORESHOW/review-of-mirrors-edge-pta-catalyst-and-the-drawing-of-the-key/">Розыгрыш ключа ЗБТ Mirror’s Edge: Catalyst</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/grifos/heroes-of-the-storm-review-of-reviews-for-those-who-like-the-reviews-/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4009&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/grifos/heroes-of-the-storm-review-of-reviews-for-those-who-like-the-reviews-/">[Heroes of the Storm] Обзор обзоров (Для тех, кто любит обзоры)</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/iphonegraphy/iphoneography-in-the-telegram-instructions-for-use/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4005&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/iphonegraphy/iphoneography-in-the-telegram-instructions-for-use/">Айфонография в Telegram: инструкция по применению</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/palach-govorit/why-after-iphone-7-iphone-8-not-iphone-7s/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4002&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/palach-govorit/why-after-iphone-7-iphone-8-not-iphone-7s/">Почему после iPhone 7 будет iPhone 8, а не iPhone 7S</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/GamesTattler/the-matrix-and-the-longawaited-playstation-mafia-iii/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=4001&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/GamesTattler/the-matrix-and-the-longawaited-playstation-mafia-iii/">"Матричный" PlayStation и долгожданная Mafia III</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/Raznoe_interesnoe/celebrate-earth-day-with-apple/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3999&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/Raznoe_interesnoe/celebrate-earth-day-with-apple/">Отмечаем день Земли вместе с Apple</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/Alfalifecoach/7-steps-on-the-path-to-leadership-success-and-high-performance-trainin/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3997&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/Alfalifecoach/7-steps-on-the-path-to-leadership-success-and-high-performance-trainin/">7 шагов на пути к лидерству, успеху и высокой эффективности Тренинг от эксперта №1 в мире по успеху и развитию бизнеса - Брайана Трейси.</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/olyapka/i-also-have-iphone-16-gb/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3990&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/olyapka/i-also-have-iphone-16-gb/">В моем iPhone тоже 16 гигабайт памяти</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/zik/useful-tweaks-and-programs-for-windows/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3989&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/zik/useful-tweaks-and-programs-for-windows/">Полезные твики и программы для Windows</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/voronov_pasha/the-lack-of-quick-replies-to-messages/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3988&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/voronov_pasha/the-lack-of-quick-replies-to-messages/">Недостаток быстрых ответов на сообщения в iOS</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/palach-govorit/10-itheaders-which-dont-need-to-click-never/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3983&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/palach-govorit/10-itheaders-which-dont-need-to-click-never/">10 IT-заголовков, на которые не нужно кликать. Никогда</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/olyapka/petcube-part2/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3940&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/olyapka/petcube-part2/">Обзор Petcube: приложение для управления камерой и соцсеть для собачек и котиков</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/palach-govorit/why-didnt-a-smart-watch/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3979&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/palach-govorit/why-didnt-a-smart-watch/">Почему не взлетели умные часы</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/MIDCORESHOW/the-black-death-an-overview-of-early-access/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3978&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/MIDCORESHOW/the-black-death-an-overview-of-early-access/">The Black Death - обзор раннего доступа</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/aka_opex/microsd-as-internal-storage-large-manufacturers-have-closed-this-featu/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3967&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/aka_opex/microsd-as-internal-storage-large-manufacturers-have-closed-this-featu/">microSD как внутренний накопитель: Крупные производители закрыли эту фишку Android 6.0 Marshmallow</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/OkoloApple/about-apple-always-with-the-actual-music-alerter/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3915&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/OkoloApple/about-apple-always-with-the-actual-music-alerter/">Около Apple (Всегда с актуальной музыкой «Alerter»)</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/olyapka/petcube-part1/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3879&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/olyapka/petcube-part1/">Обзор интернет-камеры для животных Petcube. Часть 1. И много фото котиков!</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/MIDCORESHOW/doom-weapon-overview/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3909&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/MIDCORESHOW/doom-weapon-overview/">DOOM - Обзор оружия</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/aka_opex/think-smart-19-htc-10-robohon-sharp-hitachi-emiew3-naked-3d-fitness-tr/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3906&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/aka_opex/think-smart-19-htc-10-robohon-sharp-hitachi-emiew3-naked-3d-fitness-tr/">Think Smart #19 - HTC 10, Sharp Robohon, Hitachi EMIEW3, Naked 3D Fitness Tracker, собаки-блогеры</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/at/electrician-21/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3878&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/at/electrician-21/">Электрика 2.1</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/MIDCORESHOW/overwatch-opening-of-containers/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3877&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/MIDCORESHOW/overwatch-opening-of-containers/">Overwatch - открытие контейнеров</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/GamesTattler/rig-for-dota-2-hard-and-dark-souls-iii/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3874&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/GamesTattler/rig-for-dota-2-hard-and-dark-souls-iii/">"Вышка" за Dota 2 и жесткий Dark Souls III</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/4516/review-fly-tornado-slim-iq4516-octa/" class="liveColumn_item_image -default"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/4516/review-fly-tornado-slim-iq4516-octa/">Обзор Fly Tornado Slim IQ4516 Octa</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/MIDCORESHOW/taichi-panda-heroes-review-/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3873&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/MIDCORESHOW/taichi-panda-heroes-review-/">Taichi Panda Heroes - обзор</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/iphonegraphy/iphoneography-33/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3865&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/iphonegraphy/iphoneography-33/">Айфонография #33</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/thexframe/first-look-at-doom-beta/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3858&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/thexframe/first-look-at-doom-beta/">Первый взгляд на Doom (бета).</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/Bigfireapple/instructions-on-how-to-run-games-from-pc-to-ios-and-android/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3857&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/Bigfireapple/instructions-on-how-to-run-games-from-pc-to-ios-and-android/">Инструкция по запуску игр с Пк на IOS и Android</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/iphonegraphy/3-alternatives-to-instagram/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3841&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/iphonegraphy/3-alternatives-to-instagram/">Три альтернативы Instagram</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/MIDCORESHOW/phantasmal-the-horror-review-survivl/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3855&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/MIDCORESHOW/phantasmal-the-horror-review-survivl/">Phantasmal - обзор сурвайвл хоррора</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/MIDCORESHOW/deadbreed-review-in-russian/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3854&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/MIDCORESHOW/deadbreed-review-in-russian/">Deadbreed - обзор на русском</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/palach-govorit/as-telegram-hijacks-internet/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3839&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/palach-govorit/as-telegram-hijacks-internet/">Как Telegram захватывает интернет</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/iphonegraphy/update-vsco1/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3833&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/iphonegraphy/update-vsco1/">[UPDATE] VSCO</a>
+                    </div>
+                </div>
+                            <div class="liveColumn_item">
+                                            <a href="/blogs/youroptibay/installing-the-m-2-pcie-ssd-drive-in-the-macbook-retina-13-2015-/" class="liveColumn_item_image" style="background-image:url(/bitrix/components/bitrix/blog/show_file.php?fid=3832&width=300&height=300);"></a>
+                                        <div class="liveColumn_item_name">
+                        <a href="/blogs/youroptibay/installing-the-m-2-pcie-ssd-drive-in-the-macbook-retina-13-2015-/">Установка M.2 SSD PCIe диска в MacBook Retina 13" 2015</a>
+                    </div>
+                </div>
+                    </div>
+    </aside>
+
+    <div class="clear"></div>
+
+    </div>
+
+    
+    
+        <section class="left">
+            <div id="bxdynamic_whaOpb"></div>
+            <div class="post_foot">
+                <div id="postShareBottom_967"></div>
+            </div>
+            
+                        <link href="/bitrix/js/main/core/css/core_popup.css?145140991538446" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="/bitrix/js/main/core/core_popup.js?145140991342190"></script>
+
+<div class="bxRatingWrapper">
+    <div id="bxdynamic_oPzmHO"></div></div>        </section>
+        <div class="clear"></div>
+
+        
+        <div class="cont">
+
+            <div class="ajax_intape_banner"><script id="xjnGI-MjGsc9XkpK">if (window.relap) window.relap.ar('xjnGI-MjGsc9XkpK');</script></div>
+        </div>
+
+        <div class="cont">
+            <section class="left">
+
+                                    <div style="margin: 0px 0 25px 0;">
+                        <div class="subscribe20">
+    <div class="inner">
+        <div class="stamp"></div>
+        <h4><b>Подписка на рассылку новостей iGuides.ru</b></h4>
+        <p>Подпишись и узнай, что интересного читают люди!</p>
+        <p>Подборка самых важных и интересных постов сайта.</p>
+                <div id="asd_subscribe_res" style="display: none;"></div>
+        <form action="/blogs/googleblog/on-android-and-ios-appeared-game-final-fantasy-ix/" method="post" id="asd_subscribe_form">
+            <input type="hidden" name="sessid" id="sessid_2" value=""/>            <input type="hidden" name="asd_subscribe" value="Y"/>
+            <input type="hidden" name="charset" value="UTF-8"/>
+            <input type="hidden" name="site_id" value="s1"/>
+            <input type="hidden" name="asd_rubrics" value="4"/>
+            <input type="hidden" name="asd_show_rubrics" value="N"/>
+            <input type="hidden" name="asd_not_confirm" value="Y"/>
+            <input type="hidden" name="asd_key" value="24974700f317329657bac5d0d5991d3e"/>
+            <div class="submit_group">
+                <input type="text" placeholder="Введите e-mail" name="asd_email" value=""/>
+                <input type="button" name="asd_submit" class="asd_subscribe_submit" id="asd_subscribe_submit" style="background-color: #53c6ee !important;background-image: none;position: static;padding: 11px;" value="Подписаться"/>
+            </div>
+                    </form>
+    </div>
+</div>                    </div>
+                
+                <a name="comments" id="comments"></a>
+                <div class="comments">
+                    <div class="head">
+
+                        <span class="title left">
+                            <div id="bxdynamic_FDktIe">Комментарии</div>                        </span>
+                        <div id="bxdynamic_ghyRQw"></div>                        <div class="clear"></div>
+                    </div>
+
+                    <div id="bxdynamic_hHcGcd">Загрузка</div>                </div>
+                <div style="margin:35px 0 20px 0;">
+                                    </div>
+            </section>
+
+            <aside class="right">
+                                    <div class="banner" style="height:400px;">
+                        <div class="ajax_intape_banner"><!--  AdRiver code START. Type:AjaxJS Site: Новости PZ: 2 BN: 2 -->
+<div id="adriver_banner_725079403_r1"></div>
+
+<script type="text/javascript">
+new adriver("adriver_banner_725079403_r1", {sid:193429, bt:52, bn:2, pz:2});
+</script>
+
+<!--  AdRiver code END  --></div>                    </div>
+                                <div class="liveColumn">
+                    <div class="liveColumn_title">Новое в блогах</div>
+                </div>
+            </aside>
+            <div class="clear"></div>
+
+                            <div class="banner full">
+                    <div class="ajax_intape_banner">                <!--  AdRiver code START. Type:AjaxJS Site: Новости PZ: 1 BN: 1 -->
+                <div id="adriver_banner_281781330_1"></div>
+
+                <script type="text/javascript">
+                   new adriver("adriver_banner_281781330_1", {sid:193429, bt:52, bn:1, pz:1});
+                </script>
+
+                <!--  AdRiver code END 44414208  --></div>                </div>
+                    </div>
+
+    
+
+        <!-- End Основная часть -->
+                   </div>
+    
+
+                    <!--  AdRiver code START. Type:AjaxJS Site: Новости PZ: 3 BN: 1 -->
+            <div id="adriver_banner_1034375201"></div>
+            <script type="text/javascript">
+                var adriverBranding = new adriver("adriver_banner_1034375201", {sid:193429, bt:52, bn:1, pz:3});
+            </script>
+            <!--  AdRiver code END  -->
+        
+        <!-- Подвал -->
+    <footer>
+        <div class="cont">
+            <div class="platforms right">
+                <span class="left">Приложения iGuides для смартфонов</span>
+                <a class="icon-apple" href="https://itunes.apple.com/ru/app/iguides/id467633606?l=ru&ls=1&mt=8&uo=8&at=11l6cR" target="_blank"></a>
+                <a class="icon-android" href="https://play.google.com/store/apps/details?id=ru.iguides" target="_blank"></a>
+                <a class="icon-windows" href="https://www.windowsphone.com/ru-ru/store/app/iguides-ru/261d64d0-89d0-4a45-bc2a-cd2696de1a38" target="_blank"></a>
+            </div>
+
+            <div class="copyright left">2009 - 2016 iG. Все права защищены.</div>
+            <div class="left">
+                <ul class="links">
+		<li><a href="/about/">Об издании</a></li>
+		<li><a href="/advertising/">Реклама</a></li>
+		<li><a href="/specialpr.php">Спецпроекты</a></li>
+		<li><a href="/rules.php">Правила</a></li>
+		<li><a href="/contacts.php">Контакты</a></li>
+	</ul>            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div id="bxdynamic_tape-comments-add"></div>
+        <script>
+            function loadJSParams(arId, arValues, arClasses){
+                var i = arId, s = arValues, c = arClasses, e;
+                for(var k=0; k < i.length; k++){
+                    if(e = document.getElementById(i[k])){
+                        if(c[k].length > 0)
+                            e.className += ' ' + c[k];
+                        e.innerHTML = s[k];
+                    }
+                }
+            }
+        </script>
+
+        <div id="bxdynamic_pageJSParams"></div>
+
+
+<script type='text/javascript'>var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '11l6cR']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();</script>
+    </footer>
+    <!-- End Подвал -->
+
+
+        </div><!-- branding-wrapper -->
+<!-- videonow -->
+ <script>
+    videonow = {contentroll: {
+        profileId: 1255243,
+        playerAfter: 'div.post_full > p, div.post_full > br',
+        playerSelectorPercent: '50%'
+    }};
+</script>
+<script defer src="//static.videonow.ru/contentroll/vn_browser_container.js"></script> 
+<!-- /videonow -->
+</body>
+</html><!--9d4f1fb167aa66a613afc9240eff6e54-->

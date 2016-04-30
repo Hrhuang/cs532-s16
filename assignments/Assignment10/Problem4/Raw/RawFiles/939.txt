@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title></title>
+    <meta http-equiv="Content-Language" content="ja">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-store">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+        <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="http://game.bleach-bravesouls.com/static/upload/invite/img_fb_en.png?4362984378">
+    <script src="/static/ja/js/zepto.min.js"></script>
+    <script src="/static/ja/js/purl.js"></script>
+    <link rel="stylesheet" href="/static/contents/en/invite/css/invite.css">
+</head>
+<body>
+
+<!--wrapper-->
+<div id="wrapper">
+    <div id="wrapperBg">
+
+        <!-- ios && !sns start -->
+        <div class="jsIosNotSnsStyle hidden">
+            <div id="mainArea">
+                <section id="mainTextArea">
+                    <h1 class="textBlueLine">Friend Invitation</h1>
+                    <p>
+                        <span class="font13">You have been invited to play Bleach:<br> Brave Souls by ID: <span class="jsInviterPlayerId"></span>.</span><br />
+                        To claim your invite reward<br />
+                        <span class="font13 textYellow">open this invite in Safari,</span><br />
+                        tap the button below to install the game<br>and then start playing.
+                    </p>
+                </section>
+            </div>
+            <div class="orangeButton"><a href="#" onclick="return launchApp();">INSTALL</a></div>
+
+            <section class="whiteBox">
+                <p class="font13 textCenter">PLEASE NOTE</p>
+                <ul class="textList">
+                    <li>&#10063;A Friend Invite will only be sucessful if the other player is using the same server as you.</li>
+                    <li>&#10063;This invite is only valid for three days.</li>
+                    <li>&#10063;Please enable JavaScript in your browser.</li>
+                    <li>&#10063;We recommend installing the game in an area with a good Internet connection.</li>
+                    <li>&#10063;Make sure to view this invite page on the default Safari browser.</li>
+                </ul>
+            </section>
+        </div>
+        <!-- ios && !sns end -->
+
+        <!-- ios && sns start -->
+        <div class="jsIosSnsStyle hidden">
+            <div id="mainArea" class="snsArea">
+                <section id="mainTextArea">
+                    <p>
+                        <span class="font13">You have been invited to play Bleach:<br> Brave Souls by ID:<span class="jsInviterPlayerId"></span>.</span><br />
+                        To claim your invite reward<br />
+                        <span class="font13 textYellow">open this invite in Safari,</span><br />
+                        tap the button below to install the game and then start playing.
+                    </p>
+                </section>
+            </div>
+            <div id="browserOpen">open this invite in Safari.</div>
+        </div>
+        <!-- ios && sns end -->
+
+        <!-- Android && !sns start -->
+        <div class="jsAndroidNotSnsStyle hidden">
+            <div id="mainArea">
+                <section id="mainTextArea">
+                    <h1 class="textBlueLine">Friend Invitation</h1>
+                    <p>
+                        <span class="font13">You have been invited to play Bleach:<br> Brave Souls by ID: <span class="jsInviterPlayerId"></span>.</span><br />
+                        To claim your invite reward<br />
+                        <span class="font13 textYellow">open this invite in default browser,</span><br />
+                        tap the button below to install the game and then start playing.
+                    </p>
+                </section>
+            </div>
+            <div class="orangeButton"><a href="#" onclick="return launchApp();">INSTALL</a></div>
+
+            <section class="whiteBox">
+                <p class="font13 textCenter">PLEASE NOTE</p>
+                <ul class="textList">
+                    <li>&#10063;A Friend Invite will only be sucessful if the other player is using the same server as you.</li>
+                    <li>&#10063;This invite is only valid for three days.</li>
+                    <li>&#10063;Please enable JavaScript in your browser.</li>
+                    <li>&#10063;We recommend installing the game in an area with a good Internet connection.</li>
+                    <li>&#10063;Make sure to view this invite page on the default browser.</li>
+                </ul>
+            </section>
+        </div>
+        <!-- Android && !sns end -->
+
+        <!-- Android && sns start -->
+        <div class="jsAndroidSnsStyle hidden">
+            <div id="mainArea" class="snsArea">
+                <section id="mainTextArea">
+                    <p>
+                        <span class="font13">You have been invited to play Bleach:<br> Brave Souls by ID: <span class="jsInviterPlayerId"></span>.</span><br />
+                        To claim your invite reward<br />
+                        <span class="font13 textYellow">open this invite in default browser,</span><br />
+                        tap the button below to install the game and then start playing.
+                    </p>
+                </section>
+            </div>
+            <div id="browserOpen">open this invite in default browser.</div>
+        </div>
+        <!-- Android && sns end -->
+
+        <div class="transparencyButton"><a href="https://www.bleach-bravesouls.com/en/">Official Site<span><img src="/static/contents/ja/invite/img/arrow.png" width="20" height="24"></span></a></div>
+
+    </div>
+</div>
+<!--/wrapper-->
+
+<!--footer-->
+<footer>
+    <p class="common-footer-copyright">&copy; Tite Kubo/Shueisha, TV TOKYO, dentsu, Pierrot<br>©KLabGames</p>
+</footer>
+<!--/footer-->
+
+
+<script type="text/javascript">
+    var title = 'You have been invited to play Bleach: Brave Souls by ID: $$inviter_player_id$$.';
+    var local = '($$invite_player_local$$ server.)';
+    var url = purl();
+    var userAgent = navigator.userAgent.toLowerCase();
+    var isTwitter = (document.referrer.indexOf("t.co") >= 0);
+    var isFacebook = (document.referrer.indexOf("m.facebook.com") >= 0);
+    var isLine = (userAgent.indexOf("safari line") >= 0);
+    var isAndroid = (navigator.userAgent.indexOf('Android') >= 0);
+    var isChrome = (navigator.userAgent.indexOf('Chrome') >= 0);
+
+    var appScheme = 'jp.klab.bbs';
+    var package = 'com.klab.bleach';
+    var itunesUrl = 'http://appstore.com/BLEACHBraveSouls';
+    var playStoreUrl = 'https://play.google.com/store/apps/details?id=com.klab.bleach';
+
+    var param = {};
+    if (url.param('code')) {
+        param.code = encodeURIComponent(url.param('code'));
+    }
+    if (url.param('share_type')) {
+        param.share_type = encodeURIComponent(url.param('share_type'));
+    }
+    if (url.param('campaign')) {
+        param.campaign = encodeURIComponent(url.param('campaign'));
+    }
+    if (url.param('user')) {
+        param.user = encodeURIComponent(url.param('user'));
+    }
+    if (url.param('locale')) {
+        param.locale = encodeURIComponent(url.param('locale'));
+    }
+
+    // 表示出し分け
+    $('title').text(title.replace('$$inviter_player_id$$', param.user));
+    $('.jsInviterPlayerId').text(param.user);
+
+    if (isAndroid) {
+        if (isFacebook) {
+            $('.jsAndroidSnsStyle').show();
+        } else {
+            $('.jsAndroidNotSnsStyle').show();
+        }
+    } else {
+        if (isTwitter || isFacebook || isLine) {
+            $('.jsIosSnsStyle').show();
+        } else {
+            $('.jsIosNotSnsStyle').show();
+        }
+    }
+
+    // localstorageに保存
+    localStorage.setItem('invite_param', JSON.stringify(param));
+
+    // アプリ起動処理 （起動出来ない場合はストアへ
+    function launchApp() {
+        var appInviteParam = 'friends-invitation/code/' + param.code + '/'  + param.campaign + '/' + param.share_type  + '/' + param.locale;
+        var appUrl = appScheme + '://' + appInviteParam;
+        if (isAndroid) {
+            var intentUrl = 'intent://' + appInviteParam + '#Intent;scheme=' + appScheme + ';package=' + package + ';end';
+            launchAndroid(appUrl, intentUrl);
+        } else {
+            launchIOS(appUrl);
+        }
+    }
+    function launchIOS(appUrl) {
+        location.href = appUrl;
+        setTimeout(function(){
+            location.href = itunesUrl;
+        }, 300);
+    }
+    function launchAndroid(appUrl, intentUrl) {
+        if (isChrome) {
+            location.href = intentUrl;
+        }
+        var iframe = document.createElement('iframe');
+        iframe.style.visibility = "hidden";
+        iframe.src = appUrl;
+        document.body.appendChild(iframe);
+
+        setTimeout(function(){
+            document.body.removeChild(iframe);
+            location.href = playStoreUrl;
+        }, 300);
+    }
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="http://www.google.com/jsapi">
+</script>
+<script type="text/javascript">
+google.load("feeds", "1") //Load Google Ajax Feed API (version 1)
+</script>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>BuyCheap2Day - Search for any product. Find useful info and BuyCheap2Day!!</title>
+
+
+
+<meta name="Description" content="BuyCheap2Day - Search for any product. Find useful info and BuyCheap2Day!!">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+<meta name="robots" content="noindex" />
+<base target="_blank"/>
+<link rel="shortcut icon" href="/img/favicon.gif" type="image/x-icon">
+<link href="/style/estilo.css" rel="stylesheet" type="text/css" media="screen">
+
+</head> 
+<body>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53187508-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+<div id="inicio"></div>
+<div id="header">
+
+<a href="/" target="_self"><img src="/img/misitio.jpg" width="700" height="120" alt="www.BuyCheap2Day.com - Search for any product. Find useful info and BuyCheap2Day!!" title="www.BuyCheap2Day.com - Search for any product. Find useful info and BuyCheap2Day!!"></a> 
+
+<div id="page">
+<div id="migaspan">
+</div>
+<h5><b>Search for any product. Find useful info and BuyCheap2Day!!</b></h5>
+<form action="http://www.buycheap2day.com/gk/?query=" method="get" target="_self"><input name="query" type="text" value="" size="20"><input type="submit" value="Search"/></form>
+
+
+
+
+
+
+
+<div class="intro">
+
+
+
+<div id="feeddiv"></div>
+
+<script type="text/javascript">
+
+var feedcontainer=document.getElementById("feeddiv")
+var feedurl="http://rest.ebay.com/epn/v1/find/item.rss?keyword=141899693188&sortOrder=StartTimeNewest&programid=1&campaignid=5337829716&toolid=10039&listingType1=All&lgeo=1&descriptionSearch=true&feedType=rss"
+var feedlimit=1
+var rssoutput=""
+
+function rssfeedsetup(){
+var feedpointer=new google.feeds.Feed(feedurl) //Google Feed API method
+feedpointer.setResultFormat(google.feeds.Feed.MIXED_FORMAT)
+feedpointer.setNumEntries(feedlimit) //Google Feed API method
+feedpointer.load(displayfeed) //Google Feed API method
+}
+
+function displayfeed(result){
+if (!result.error){
+var thefeeds=result.feed.entries
+for (var i=0; i<thefeeds.length; i++)
+rssoutput+="<h1>  eBay US <img src='/img/usa13x13.gif'> >>    <a href='" + thefeeds[i].link + "' style='text-decoration:none'>" + thefeeds[i].title + "</a></h1><h5>(eBay Sponsored links)</h5>"+
+           "</b>"    + thefeeds[i].content + "<br>"+
+	   "<b> <a target='_blank' href='http://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5575054094&toolid=10001&campid=5337829717&customid=&icep_item=141899693188&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg'>Details and Price for this Product (eBay Sponsored Link)</a><img style='text-decoration:none;border:0;padding:0;margin:0;' src='http://rover.ebay.com/roverimp/1/711-53200-19255-0/1?ff3=2&pub=5575054094&toolid=10001&campid=5337829717&customid=&item=141899693188&mpt=[CACHEBUSTER]'>  </b>"+
+"<b>"+
+"<br><br>"+
+	"<a href='http://www.buycheap2day.com/bych/pdy/-w/?query=141899693188' title='US >>' target='_self'>US </a><a href='http://www.buycheap2day.com/bych/pdy/-w/?query=141899693188'><img src='/img/usa13x13.gif' alt='US >>' title='US >>' target='_self'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+	"<a href='http://www.buycheap2day.com/UK/bych/pdy/-w/?query=141899693188' title='UK >>' target='_self'>UK </a><a href='http://www.buycheap2day.com/UK/bych/pdy/-w/?query=141899693188'><img src='/img/uk13x13.png' alt='UK >>' title='UK >>' target='_self'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+	"<a href='http://www.buycheap2day.com/CA/bych/pdy/-w/?query=141899693188' title='CA >>' target='_self'>CA </a><a href='http://www.buycheap2day.com/CA/bych/pdy/-w/?query=141899693188'><img src='/img/canada13x13.png' alt='CA >>' title='CA >>' target='_self'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+	"<a href='http://www.buycheap2day.com/DE/bych/pdy/-w/?query=141899693188' title='DE >>' target='_self'>DE </a><a href='http://www.buycheap2day.com/DE/bych/pdy/-w/?query=141899693188'><img src='/img/deutschland13x13.gif' alt='DE >>' title='DE >>' target='_self'></a><p>"+
+	"<a href='http://www.buycheap2day.com/FR/bych/pdy/-w/?query=141899693188' title='FR >>' target='_self'>FR </a><a href='http://www.buycheap2day.com/FR/bych/pdy/-w/?query=141899693188'><img src='/img/france13x13.gif' alt='FR >>' title='FR >>' target='_self'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+	"<a href='http://www.buycheap2day.com/ES/bych/pdy/-w/?query=141899693188' title='ES >>' target='_self'>ES </a><a href='http://www.buycheap2day.com/ES/bych/pdy/-w/?query=141899693188'><img src='/img/spain13x13.png' alt='ES >>' title='ES >>' target='_self'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+	"<a href='http://www.buycheap2day.com/NL/bych/pdy/-w/?query=141899693188' title='NL >>' target='_self'>NL </a><a href='http://www.buycheap2day.com/NL/bych/pdy/-w/?query=141899693188'><img src='/img/netherlands13x13.jpg' alt='NL >>' title='NL >>' target='_self'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+	"<a href='http://www.buycheap2day.com/IT/bych/pdy/-w/?query=141899693188' title='IT >>' target='_self'>IT </a><a href='http://www.buycheap2day.com/IT/bych/pdy/-w/?query=141899693188'><img src='/img/italia13x13.gif' alt='IT >>' title='IT >>' target='_self'></a><p>"+
+	"<a href='http://www.buycheap2day.com/AU/bych/pdy/-w/?query=141899693188' title='AU >>' target='_self'>AU </a><a href='http://www.buycheap2day.com/AU/bych/pdy/-w/?query=141899693188'><img src='/img/australia13x13.jpg' alt='AU >>' title='AU >>' target='_self'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+	"<a href='http://www.buycheap2day.com/IE/bych/pdy/-w/?query=141899693188' title='IE >>' target='_self'>IE </a><a href='http://www.buycheap2day.com/IE/bych/pdy/-w/?query=141899693188'><img src='/img/ireland13x13.gif' alt='IE >>' title='IE >>' target='_self'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+	"<a href='http://www.buycheap2day.com/BE/bych/pdy/-w/?query=141899693188' title='BE >>' target='_self'>BE </a><a href='http://www.buycheap2day.com/BE/bych/pdy/-w/?query=141899693188'><img src='/img/belgium13x13.png' alt='BE >>' title='BE >>' target='_self'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+
+	"<a href='http://www.buycheap2day.com/CH/bych/pdy/-w/?query=141899693188' title='CH >>' target='_self'>CH </a><a href='http://www.buycheap2day.com/CH/bych/pdy/-w/?query=141899693188'><img src='/img/switzerland13x13.png' alt='CH >>' title='CH >>' target='_self'></a><p>"+
+	"<a href='http://www.buycheap2day.com/AT/bych/pdy/-w/?query=141899693188' title='AT >>' target='_self'>AT </a><a href='http://www.buycheap2day.com/AT/bych/pdy/-w/?query=141899693188'><img src='/img/austria13x13.png' alt='AT >>' title='AT >>' target='_self'></a>"+
+"</b>"+
+		"<br><br><b> Most Popular Stores US <img src='/img/usa13x13.gif'> >> </b><h5>(Sponsored links below)</h5>"+
+
+		"amazon.com  &nbsp;&nbsp;&nbsp;  "+
+		"<a target='_blank' href='http://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5575054094&toolid=10001&campid=5337849196&customid=&icep_item=141899693188&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg'>ebay.com</a><img style='text-decoration:none;border:0;padding:0;margin:0;' src='http://rover.ebay.com/roverimp/1/711-53200-19255-0/1?ff3=2&pub=5575054094&toolid=10001&campid=5337849196&customid=&item=141899693188&mpt=[CACHEBUSTER]'>    &nbsp;&nbsp;&nbsp;  "+
+		"walmart.com                                  <p>"+
+
+		"target.com  &nbsp;&nbsp;&nbsp;  "+
+		"etsy.com    &nbsp;&nbsp;&nbsp;  "+
+		"homedepot.com                                  <p>"+
+
+		"groupon.com  &nbsp;&nbsp;&nbsp;  "+
+		"bestbuy.com    &nbsp;&nbsp;&nbsp;  "+
+		"lowes.com                                  <p>"+
+
+		"macys.com  &nbsp;&nbsp;&nbsp;  "+
+		"kohls.com    <p>"+
+
+		"<b> Related Info >> </b><h5>" + thefeeds[i].title + "</h5>"+
+		"<a href='https://twitter.com/search?q=" + thefeeds[i].title + "'>Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           <a href='https://www.google.com/#q=" + thefeeds[i].title + "'>Google</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                        <a href='https://search.yahoo.com/search;_ylc=?p=" + thefeeds[i].title + "&fr=yfp-t-459&fp=1&toggle=1&cop=mss&ei=UTF-8'>Yahoo</a><p>"+
+		"<a href='http://www.bing.com/search?q=" + thefeeds[i].title + "'>Bing</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              <a href='http://search.aol.com/aol/search?enabled_terms=&s_it=comsearch&q=" + thefeeds[i].title + "&s_chn=prt_maing13'>Aol</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                  <a href='https://www.youtube.com/results?search_query=" + thefeeds[i].title + "'>Youtube</a>"+
+
+		"<br><br><h1> <a target='_blank' href='http://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5575054094&toolid=10001&campid=5337849197&customid=&icep_item=141899693188&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg'>Details and Price for this Product</a><img style='text-decoration:none;border:0;padding:0;margin:0;' src='http://rover.ebay.com/roverimp/1/711-53200-19255-0/1?ff3=2&pub=5575054094&toolid=10001&campid=5337849197&customid=&item=141899693188&mpt=[CACHEBUSTER]'>  </h1>        <h5>(eBay Sponsored Link)</h5>"
+
+rssoutput+=""
+feedcontainer.innerHTML=rssoutput
+}
+else
+alert("Error fetching feeds!")
+}
+
+window.onload=function(){
+rssfeedsetup()
+}
+
+</script>
+
+
+<br/>
+<h5><b>Search for any product. Find useful info and BuyCheap2Day!!</b></h5>
+<form action="http://www.buycheap2day.com/gk/?query=" method="get" target="_self"><input name="query" type="text" value="" size="20"><input type="submit" value="Search"/></form>
+
+</div>
+
+<script type="text/javascript" src='http://adn.ebay.com/files/js/min/jquery-1.6.2-min.js'></script>
+<script type="text/javascript" src='http://adn.ebay.com/files/js/min/ebay_activeContent-min.js'></script>
+<script charset="utf-8" type="text/javascript">
+document.write('\x3Cscript type="text/javascript" charset="utf-8" src="http://adn.ebay.com/cb?programId=1&campId=5337827948&toolId=10026&keyword=141899693188&width=240&height=400&font=1&textColor=000000&linkColor=424242&arrowColor=FF6600&color1=ffffff&color2=[COLORTWO]&format=ImageLink&contentType=TEXT_AND_IMAGE&enableSearch=y&usePopularSearches=n&freeShipping=n&topRatedSeller=n&itemsWithPayPal=n&descriptionSearch=y&showKwCatLink=n&excludeCatId=&excludeKeyword=&catId=&disWithin=200&ctx=n&autoscroll=n&flashEnabled=' + isFlashEnabled + '&pageTitle=' + _epn__pageTitle + '&cachebuster=' + (Math.floor(Math.random() * 10000000 )) + '">\x3C/script>' );
+</script>
+
+<br/>
+
+
+
+
+<script language='JavaScript1.1'>
+	document.write("<sc"+"ript language='JavaScript1.1' src='http://rover.ebay.com/ar/1/56015/1?campid=5337827980&toolid=56015&customid=&mpt=" + Math.floor(Math.random()*999999999999) + "&adtype=3&size=234x60&def=a3h&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='></sc"+"ript>");
+</script>
+<noscript>
+	<a href='http://rover.ebay.com/rover/1/711-53200-19255-44/1?campid=5337827980&toolid=56015&customid=&def=a3h&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='>
+		<img border='0px' src='http://rover.ebay.com/ar/1/711-53200-19255-44/1?campid=5337827980&toolid=56015&customid=&mpt=[CACHEBUSTER]&adtype=1&size=234x60&def=a3h&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc=' alt='Click Here'>
+	</a>
+</noscript>
+
+<br/>
+
+
+<script language='JavaScript1.1'>
+	document.write("<sc"+"ript language='JavaScript1.1' src='http://rover.ebay.com/ar/1/56011/1?campid=5337827990&toolid=56011&customid=&mpt=" + Math.floor(Math.random()*999999999999) + "&adtype=3&size=120x240&def=a3h&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='></sc"+"ript>");
+</script>
+<noscript>
+	<a href='http://rover.ebay.com/rover/1/711-53200-19255-42/1?campid=5337827990&toolid=56011&customid=&def=a3h&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='>
+		<img border='0px' src='http://rover.ebay.com/ar/1/711-53200-19255-42/1?campid=5337827990&toolid=56011&customid=&mpt=[CACHEBUSTER]&adtype=1&size=120x240&def=a3h&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc=' alt='Click Here'>
+	</a>
+</noscript>
+
+<br/>
+
+
+
+
+
+
+<a href="https://www.facebook.com/BuyCheap2Day-1013918605344845/"><img src="/img/logo-facebook.jpg" width="96" height="96" alt="Facebook" title="Facebook"></a>
+<a href="https://twitter.com/BuyCheap2Day"><img src="/img/logo-twitter.jpg" width="96" height="96" alt="Twitter" title="Twitter"></a>
+<a href="https://plus.google.com/"><img src="/img/logo-google-plus.jpg" width="96" height="96" alt="Google+" title="Google+"></a> 
+ 
+
+
+
+
+
+<div style="text-align:center;padding:6px;"><a href="#inicio">UP</a></div>
+<div class="footer">
+www.BuyCheap2Day.com<br>
+</div><br> 
+ 
+
+
+</div></div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow24.js"></script>
+<noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+</body> 
+</html>
+
+
+
+
+

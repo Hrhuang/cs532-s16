@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta id="viewport" name='viewport'>
+  <script>
+      (function(doc) {
+          var viewport = document.getElementById('viewport');
+          if ( navigator.userAgent.match(/iPad/i) ) {
+              doc.getElementById("viewport").setAttribute("content", "width=768, initial-scale=0.72");
+          } else {
+              doc.getElementById("viewport").setAttribute("content", "width=device-width, initial-scale=1.0");
+          }
+      }(document));
+  </script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"23c4d027ed","applicationID":"4494666","transactionName":"IQ1ZQkdaCVVRQR5ECREWRBlGXQpO","queueTime":0,"applicationTime":1656,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+	<title>Nike News - DeMar DeRozan&#39;s Toronto</title>
+	<link rel="alternate" title="NIKE, Inc. RSS" href="http://nikeinc.com/feed" TYPE="application/rss+xml" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link href="//vjs.zencdn.net/4.9/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" media="screen, projection" href="/resources/application-public-6982d7dfa9544de6beaf3092fa13198a13a45557fc96d317a9db4a7b363ab28b.css" />
+  <link rel="stylesheet" media="print" href="/resources/application-public-print-ad632dbbe3caecf391a1c76d5d6b354bccebb5cb42543e532476d88baf783c47.css" />
+  <!--[if IE 9]>
+  <link rel="stylesheet" media="screen, projection" href="/resources/ie9-e60a48e08624d8ce40fb5235acb2a907af0fdb8ddaf3e4d3af36467528d4c133.css" />
+  <![endif]-->
+  <!--[if IE 8]>
+  <link rel="stylesheet" media="screen, projection" href="/resources/ie8-e60a48e08624d8ce40fb5235acb2a907af0fdb8ddaf3e4d3af36467528d4c133.css" />
+  <![endif]-->
+  <script src="/resources/modernizr-2ae1115d6f0278205cf98a611995650e1e483b6a9560d158d7855269e5209d17.js"></script>
+
+  <script async src="//fast.fonts.com/jsapi/38f115a8-fd90-46fb-9145-aec120db959b.js"></script>
+	<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="AZJ2VjN+IA5GvAIXKCm0+4ywCyj0TrEKob42fP494ruNotx4Pla38jCLSJHXLWkunmtQVW83H6JKN8Fy5VNb5w==" />
+
+  <meta property="og:title" content="DeMar DeRozan&#39;s Toronto" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://news.nike.com/news/demar-derozan-s-toronto" />
+<meta property="og:image" content="https://s3.amazonaws.com/nikeinc/assets/52521/SP16_Nike_Air_DeMar_DeRozan_7_native_600.jpg?1453942844" />
+<meta property="og:site_name" content="Nike News" />
+<meta property="og:description" content="The star guard is set to host the world’s best players in his adopted city." /><meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@nike" />
+<meta name="twitter:title" content="DeMar DeRozan&#39;s Toronto" />
+<meta name="twitter:description" content="The star guard is set to host the world’s best players in his adopted city." />
+<meta name="twitter:image:src" content="https://s3.amazonaws.com/nikeinc/assets/52521/SP16_Nike_Air_DeMar_DeRozan_7_native_600.jpg?1453942844" />
+
+	<meta name="Description" content="The star guard is set to host the world’s best players in his adopted city.">
+     <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', "UA-25821760-1", "auto");
+    ga('send', 'pageview');
+
+  </script>
+
+  <script src="//vjs.zencdn.net/4.9/video.js"></script>
+</head>
+<body class="">
+  <nav id="nav-off-canvas">
+    <ul>
+      <li>
+        <span>Product News</span>
+        <ul>
+          <li><a href="/nike-athletic-training">Athletic Training</a></li>
+          <li><a href="/nike-basketball">Basketball</a></li>
+          <li><a href="/nike-football">Football</a></li>
+          <li><a href="/nike-football-soccer">Football (Soccer)</a></li>
+          <li><a href="/nike-golf">Golf</a></li>
+          <li><a href="/hurley">Hurley</a></li>
+          <li><a href="/jordan-brand">Jordan Brand</a></li>
+          <li><a href="/nike--3">Nike+</a></li>
+          <li><a href="/nikelab">NikeLab</a></li>
+          <li><a href="/nike-sb">Nike SB</a></li>
+          <li><a href="/nike-running">Running</a></li>
+          <li><a href="/nike-sportswear">Nike Sportswear</a></li>
+          <li><a href="/nike-tennis">Tennis</a></li>
+          <li><a href="/nike-womens">Women</a></li>
+          <li><a href="/young-athletes">Young Athletes</a></li>
+        </ul>
+      </li>
+      <li>
+        <span>Company News</span>
+        <ul>
+          <li><a href="/nike-community-impact">Community Impact</a></li>
+          <li><a href="/earnings">Earnings</a></li>
+          <li><a href="/leadership">Leadership</a></li>
+          <li><a href="/retail">Retail</a></li>
+          <li><a href="/nike-sport-research">Sport Research</a></li>
+          <li><a href="/strategic-partnerships">Strategic Partnerships</a></li>
+          <li><a href="/sustainability">Sustainability</a></li>
+        </ul>
+      </li>
+      <li>
+        <span>Explore</span>
+        <ul>
+          <li><a href="/athletes">Athletes</a></li>
+          <li><a href="/club-kits">Club Kits</a></li>
+          <li><a href="/college-football">College Football</a></li>
+          <li><a href="/inner-strength">Inner Strength</a></li>
+          <li><a href="/innovation-2016">Innovation 2016</a></li>
+          <li><a href="/inside-access">Inside Access</a></li>
+          <li><a href="/news">News Archive</a></li>
+          <li><a href="/nfl">NFL</a></li>
+          <li><a href="/nike-flyknit">Nike Flyknit</a></li>
+          <li><a href="/nike-free">Nike Free</a></li>
+          <li><a href="/nike-women-presents">Nike Women Presents</a></li>
+          <li><a href="/nike-zoom">Nike Zoom</a></li>
+          <li><a href="/footwear">Shoe Stream</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="http://www.nike.com/">Shop</a>
+      </li>
+      <li>
+        <a href="http://nikeplus.nike.com/plus/">Nike+</a>
+      </li>
+      <li>
+        <a href="http://about.nike.com/">About</a>
+      </li>
+       <li>
+        <a href="http://jobs.nike.com/">Careers</a>
+      </li>
+    </ul>
+</nav>
+
+  <div class="page js-page">
+    <header class="header js-header font-size__15">
+  <nav class="nav js-nav">
+    <div class="nav-container">
+      <div class="nav__top">
+        <ul class="nav__ul">
+          <li class="nav__li nav__li--top">
+            <a href="http://www.nike.com/" class="nav__top__a">Nike</a>
+          </li>
+          <li class="nav__li nav__li--top">
+            <a href="http://nikeplus.nike.com/plus/" class="nav__top__a">Nike+</a>
+          </li>
+          <li class="nav__li nav__li--top">
+            <a href="http://www.nike.com/us/en_us/c/jordan" class="nav__top__a nav__top__a--jumpman" title="Shop Jordan"><span class="icon news-icon icon-jumpman"></span></a>
+          </li>
+          <li class="nav__li nav__li--top">
+            <a href="http://www.nike.com/us/en_us/c/hurley" class="nav__top__a" title="Shop Hurley"><span class="symbol-hurley"></span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav__bottom">
+      <div class="nav-container">
+        <div class="nav__logo f--left">
+            <a href="http://news.nike.com/" class="nav__logo__link text--uppercase">
+              <span class="icon icon--swoosh nav__bottom__icon icon--swoosh--nav"></span> Nike News
+            </a>
+        </div>
+          <div class="main__nav">
+            <ul class="nav__list -clear">
+              <li class="nav__item nav__li--dropdown nav__drop-trigger">
+                <a href="#" class="nav__link">Product News</a>
+                <div class="nav__drop" style="display:none;">
+                  <ul class="nav__drop__child">
+                    <li class="nav__drop__item">
+                      <a href="/nike-athletic-training" class="nav__drop__link">Athletic Training</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-basketball" class="nav__drop__link">Basketball</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-football" class="nav__drop__link">Football</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-football-soccer" class="nav__drop__link">Football (Soccer)</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-golf" class="nav__drop__link">Golf</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/hurley" class="nav__drop__link">Hurley</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/jordan-brand" class="nav__drop__link">Jordan Brand</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike--3" class="nav__drop__link">Nike+</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nikelab" class="nav__drop__link">NikeLab</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-sb" class="nav__drop__link">Nike SB</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-running" class="nav__drop__link">Running</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-sportswear" class="nav__drop__link">Nike Sportswear</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-tennis" class="nav__drop__link">Tennis</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-womens" class="nav__drop__link">Women</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/young-athletes" class="nav__drop__link">Young Athletes</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav__item nav__li--dropdown nav__drop-trigger">
+                <a href="#" class="nav__link">Company News</a>
+                <div class="nav__drop" style="display:none;">
+                  <ul class="nav__drop__child">
+                    <li class="nav__drop__item">
+                      <a href="/nike-community-impact" class="nav__drop__link">Community Impact</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/earnings" class="nav__drop__link">Earnings</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/leadership" class="nav__drop__link">Leadership</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/retail" class="nav__drop__link">Retail</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-sport-research" class="nav__drop__link">Sport Research</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/strategic-partnerships" class="nav__drop__link">Strategic Partnerships</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/sustainability" class="nav__drop__link">Sustainability</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav__item nav__li--dropdown nav__drop-trigger">
+                <a href="#" class="nav__link">Explore</a>
+                <div class="nav__drop" style="display:none;">
+                  <ul class="nav__drop__child">
+                    <li class="nav__drop__item">
+                      <a href="/athletes" class="nav__drop__link">Athletes</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/club-kits" class="nav__drop__link">Club Kits</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/college-football" class="nav__drop__link">College Football</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/inner-strength" class="nav__drop__link">Inner Strength</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/innovation-2016" class="nav__drop__link">Innovation 2016</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/inside-access" class="nav__drop__link">Inside Access</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/news" class="nav__drop__link">News Archive</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nfl" class="nav__drop__link">NFL</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-flyknit" class="nav__drop__link">Nike Flyknit</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-free" class="nav__drop__link">Nike Free</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-women-presents" class="nav__drop__link">Nike Women Presents</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/nike-zoom" class="nav__drop__link">Nike Zoom</a>
+                    </li>
+                    <li class="nav__drop__item">
+                      <a href="/footwear" class="nav__drop__link">Shoe Stream</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav__item nav__li--mobile-search">
+                <a href="#" class="nav__bottom__a nav__bottom__a--icon js-mobile-search-trigger">
+                  <span class="symbol-search nav__bottom__icon icon--list--nav"></span>
+                </a>
+              </li>
+              <li class="nav__li nav__li--list nav__li--mobile-trigger">
+                <a href="#nav-off-canvas" class="nav__bottom__a nav__bottom__a--icon nav__bottom__a--list">
+                  <span class="symbol-veggieburger nav__bottom__icon icon--list--nav"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        <div class="nav__search f--right">
+          <div class="nav__input__container">
+              <form action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+                <span class="symbol-search nav__input__icon"></span>
+                <input type="text" name="search_auto" class="search-auto-nav js-search-auto-nav nav__input nav__search" />
+                <input type="text" name="search_terms" id="search_terms" placeholder="Search" class="search-term-nav js-search-term-nav nav__input nav__search js-search" />
+</form>          </div>
+        </div>
+      </div>
+    </nav>
+
+      <div class="nav__secondary nav__secondary-mobile -clear">
+  <div class="nav-container--offset -clear">
+    <div class="nav__secondary__container f--left">
+        <ul class="nav__secondary__ul">
+          <li class="nav__secondary__li js-nav-gallery -trans-color">
+            <span class="icon icon--grid nav__secondary__icon inline-icon--icon"></span>
+            <span class="inline-icon--text nav__secondary__icon-text">Gallery / Downloads</span>
+          </li>
+        </ul>
+    </div>
+      <div class="nav__secondary__container f--right nav__shop">
+        <ul class="nav__secondary__ul">
+          <li class="nav__secondary__li -trans-color">
+            <span class="inline-icon--text nav__secondary__icon-text">
+              <a href="http://www.nike.com/us/en_us/c/sportswear/nike-air" class="btn btn--primary" target="_blank" onclick="_gaq.push(['_trackEvent', 'Shop Now', 'Click', '#{@post_presenter.title}']);">Shop Now</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+      <div class="nav__secondary js-nav-secondary nav__secondary--fixed -clear">
+  <div class="nav-container--offset -clear">
+    <div class="nav__secondary__container f--left">
+        <ul class="nav__secondary__ul">
+          <li class="nav__secondary__li js-nav-downloads nav__secondary__li--first -trans-color">
+            <span class="icon icon--download nav__secondary__icon inline-icon--icon"></span>
+            <span class="inline-icon--text nav__secondary__icon-text">Downloads</span>
+          </li>
+            <li class="nav__secondary__li js-nav-gallery -trans-color">
+              <span class="icon icon--grid nav__secondary__icon inline-icon--icon"></span>
+              <span class="inline-icon--text nav__secondary__icon-text">Gallery</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="nav__secondary__title__container text--center js-nav-secondary-title shop-btn-active">
+      <span class="nav__secondary__title">
+        DeMar DeRozan&#39;s Toronto      </span>
+    </div>
+
+    <div class="nav__secondary__container f--right">
+        <div class="nav__secondary__container f--right nav__shop">
+          <ul class="nav__secondary__ul">
+            <li class="nav__secondary__li -trans-color">
+              <span class="inline-icon--text nav__secondary__icon-text">
+                <a href="http://www.nike.com/us/en_us/c/sportswear/nike-air" class="btn btn--primary" target="_black" onclick="_gaq.push(['_trackEvent', 'Shop Now', 'Click', '#{@post_presenter.post.title}']);">Shop Now</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      <div class="nav__secondary__container f--right nav__share">
+        <ul class="nav__secondary__ul">
+          <li class="nav__secondary__li text--center actions-menu hoverable -trans-color">
+            <span class="icon icon--share nav__secondary__icon inline-icon--icon"></span>
+            <span class="inline-icon--text nav__secondary__icon-text">Share</span>
+            <ul class="actions-menu__list js-page-share">
+              <li class="actions-menu__item">
+                <a href="mailto:?subject=[Nike News] DeMar DeRozan&#39;s Toronto&body=The star guard is set to host the world’s best players in his adopted city.  http://news.nike.com/news/demar-derozan-s-toronto" data-href="http://news.nike.com/news/demar-derozan-s-toronto" class="actions-menu__link actions-menu__link--first">
+                  <span class="icon icon--mail inline-icon--icon nav__secondary__icon"></span>
+                  <span class="inline-icon--text">Email</span>
+                </a>
+              </li>
+              <li class="actions-menu__item">
+                <a href="#", class="actions-menu__link js-facebook-share", data-link='http://swoo.sh/1Q97UE1'>
+                  <span class="icon icon--facebook inline-icon--icon nav__secondary__icon"></span>
+                  <span class="inline-icon--text">Facebook</span>
+                </a>
+              </li>
+              <li class="actions-menu__item">
+                <a href="#" class="actions-menu__link js-twitter-share", data-link='http://swoo.sh/1Q97UE1', data-title='DeMar DeRozan&#39;s Toronto'>
+                  <span class="icon icon--twitter inline-icon--icon nav__secondary__icon"></span>
+                  <span class="inline-icon--text">Twitter</span>
+                </a>
+              </li>
+              <li class="actions-menu__item actions-menu--permalink js-permalink">
+                <a href="#" class="actions-menu__permalink-link actions-menu__link js-permalink-link">
+                  <span class="icon icon--permalink inline-icon--icon nav__secondary__icon"></span>
+                  <span class="actions__list--link-text">Permalink</span>
+                </a>
+                <div class="permalink__field js-permalink-field is-hidden">
+                  <input class="permalink__input js-permalink-input" type="text" value="#" />
+                  <span class="icon icon--ex actions-menu__permalink-icon js-permalink-close"></span>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__secondary__li text--center backtotop js-backtotop">
+            <span class="icon news-icon icon--backtotop nav__secondary__icon inline-icon--icon"></span>
+            <span class="inline-icon--text nav__secondary__icon-text">Top</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="downloads-overlay col--12of12 js-downloads-overlay">
+  <div class="downloads-overlay__header js-downloads-overlay-header font-size__13">
+    <div class="-clear">
+      <div class="col col--6of12">
+        <ul class="nav__secondary__ul">
+          <li class="nav__secondary__li nav__secondary__li--first nav__secondary__li--dark -trans-color js-downloads-close">
+            <span class="downloads-close">
+              <span class="icon icon--ex inline-icon--icon nav__secondary__icon--close"></span>
+              <span class="inline-icon--text">close</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="col col--6of12 text--right">
+        <ul class="nav__secondary__ul">
+          <li class="nav__secondary__li nav__secondary__li--downloads nav__secondary__li--dark nav__secondary__li--last">
+            <span>Download all:</span>
+          </li>
+          <li class="nav__secondary__li nav__secondary__li--downloads nav__secondary__li--last">
+            <a href="/news/demar-derozan-s-toronto/show_package?content_type=low_res_image" onClick="ga('send', 'event', 'Download All Images Lo-Res', 'DeMar DeRozans Toronto');" class="nav__secondary__link -trans-color">LO</a>  &nbsp; | &nbsp;
+            <a href="/news/demar-derozan-s-toronto/show_package?content_type=high_res_image" class="nav__secondary__link -trans-color" onClick="ga('send', 'event', 'Download All Images Hi-Res', 'DeMar DeRozans Toronto');">Hi</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="downloads-overlay__container js-downloads-grid -clear">
+    <div id="image-results">
+      <section class="articles js-articles">
+        <div class="articles__listing -clear js-grid image-results" data-min-width="1840" data-total-col="4" data-total-row="3574" data-wall-width="1720" data-wall-height="3534" style="position: relative; height: 3534px;">
+            <article class="articles__article articles__article--col js-grid-tile grid-tile">
+  <div class="row">
+    <div class="span8">
+      <div class="downloads-overlay__img-container -cover">
+        <div class="downloads-overlay__hover-content text--center">
+          <div class="valigner">
+            <div class="valigner__cell">
+              Download Image:
+               <ul class="downloads-overlay__ul">
+                  <li class="downloads-overlay__li">
+                    <a href="//s3.amazonaws.com/nikeinc/assets/52521/SP16_Nike_Air_DeMar_DeRozan_7_native_600.jpg?1453942844" download="//s3.amazonaws.com/nikeinc/assets/52521/SP16_Nike_Air_DeMar_DeRozan_7_native_600.jpg?1453942844" target="_blank" class="downloads-overlay__link -trans-color">Lo</a>
+                  </li>
+                <li class="downloads-overlay__li">
+                  <span class="icon icon--arrow-down downloads-overlay__icon"></span>
+                </li>
+                <li class="downloads-overlay__li downloads-overlay__link--last">
+                  <a href="//s3.amazonaws.com/nikeinc/assets/52521/SP16_Nike_Air_DeMar_DeRozan_7_original.jpg?1453942844" download="//s3.amazonaws.com/nikeinc/assets/52521/SP16_Nike_Air_DeMar_DeRozan_7_original.jpg?1453942844" target="_blank" class="downloads-overlay__link -trans-color">HI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <img class="articles__img js-lazy-grid-img js-img-resize" data-src="//s3.amazonaws.com/nikeinc/assets/52521/SP16_Nike_Air_DeMar_DeRozan_7_native_600.jpg?1453942844" data-square="//s3.amazonaws.com/nikeinc/assets/52521/SP16_Nike_Air_DeMar_DeRozan_7_native_1600.jpg?1453942844" alt="SP16 Nike Air_DeMar DeRozan_7" data-image-width="600" data-image-height="400" style="opacity:0;"/>
+        <div class="downloads-overlay__overlay"></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+            <article class="articles__article articles__article--col js-grid-tile grid-tile">
+  <div class="row">
+    <div class="span8">
+      <div class="downloads-overlay__img-container -cover">
+        <div class="downloads-overlay__hover-content text--center">
+          <div class="valigner">
+            <div class="valigner__cell">
+              Download Image:
+               <ul class="downloads-overlay__ul">
+                  <li class="downloads-overlay__li">
+                    <a href="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_600.jpg?1454985077" download="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_600.jpg?1454985077" target="_blank" class="downloads-overlay__link -trans-color">Lo</a>
+                  </li>
+                <li class="downloads-overlay__li">
+                  <span class="icon icon--arrow-down downloads-overlay__icon"></span>
+                </li>
+                <li class="downloads-overlay__li downloads-overlay__link--last">
+                  <a href="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_original.jpg?1454985077" download="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_original.jpg?1454985077" target="_blank" class="downloads-overlay__link -trans-color">HI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <img class="articles__img js-lazy-grid-img js-img-resize" data-src="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_600.jpg?1454985077" data-square="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_1600.jpg?1454985077" alt="SP16 Nike Air_DeMar DeRozan_8" data-image-width="600" data-image-height="400" style="opacity:0;"/>
+        <div class="downloads-overlay__overlay"></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+            <article class="articles__article articles__article--col js-grid-tile grid-tile">
+  <div class="row">
+    <div class="span8">
+      <div class="downloads-overlay__img-container -cover">
+        <div class="downloads-overlay__hover-content text--center">
+          <div class="valigner">
+            <div class="valigner__cell">
+              Download Image:
+               <ul class="downloads-overlay__ul">
+                  <li class="downloads-overlay__li">
+                    <a href="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_600.jpg?1453942874" download="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_600.jpg?1453942874" target="_blank" class="downloads-overlay__link -trans-color">Lo</a>
+                  </li>
+                <li class="downloads-overlay__li">
+                  <span class="icon icon--arrow-down downloads-overlay__icon"></span>
+                </li>
+                <li class="downloads-overlay__li downloads-overlay__link--last">
+                  <a href="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_original.jpg?1453942874" download="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_original.jpg?1453942874" target="_blank" class="downloads-overlay__link -trans-color">HI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <img class="articles__img js-lazy-grid-img js-img-resize" data-src="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_600.jpg?1453942874" data-square="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_1600.jpg?1453942874" alt="SP16 Nike Air_DeMar DeRozan_9" data-image-width="600" data-image-height="400" style="opacity:0;"/>
+        <div class="downloads-overlay__overlay"></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+            <article class="articles__article articles__article--col js-grid-tile grid-tile">
+  <div class="row">
+    <div class="span8">
+      <div class="downloads-overlay__img-container -cover">
+        <div class="downloads-overlay__hover-content text--center">
+          <div class="valigner">
+            <div class="valigner__cell">
+              Download Image:
+               <ul class="downloads-overlay__ul">
+                  <li class="downloads-overlay__li">
+                    <a href="//s3.amazonaws.com/nikeinc/assets/52520/SP16_Nike_Air_DeMar_DeRozan_3_native_600.jpg?1453942831" download="//s3.amazonaws.com/nikeinc/assets/52520/SP16_Nike_Air_DeMar_DeRozan_3_native_600.jpg?1453942831" target="_blank" class="downloads-overlay__link -trans-color">Lo</a>
+                  </li>
+                <li class="downloads-overlay__li">
+                  <span class="icon icon--arrow-down downloads-overlay__icon"></span>
+                </li>
+                <li class="downloads-overlay__li downloads-overlay__link--last">
+                  <a href="//s3.amazonaws.com/nikeinc/assets/52520/SP16_Nike_Air_DeMar_DeRozan_3_original.jpg?1453942831" download="//s3.amazonaws.com/nikeinc/assets/52520/SP16_Nike_Air_DeMar_DeRozan_3_original.jpg?1453942831" target="_blank" class="downloads-overlay__link -trans-color">HI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <img class="articles__img js-lazy-grid-img js-img-resize" data-src="//s3.amazonaws.com/nikeinc/assets/52520/SP16_Nike_Air_DeMar_DeRozan_3_native_600.jpg?1453942831" data-square="//s3.amazonaws.com/nikeinc/assets/52520/SP16_Nike_Air_DeMar_DeRozan_3_native_1600.jpg?1453942831" alt="SP16 Nike Air_DeMar DeRozan_3" data-image-width="600" data-image-height="400" style="opacity:0;"/>
+        <div class="downloads-overlay__overlay"></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+            <article class="articles__article articles__article--col js-grid-tile grid-tile">
+  <div class="row">
+    <div class="span8">
+      <div class="downloads-overlay__img-container -cover">
+        <div class="downloads-overlay__hover-content text--center">
+          <div class="valigner">
+            <div class="valigner__cell">
+              Download Image:
+               <ul class="downloads-overlay__ul">
+                  <li class="downloads-overlay__li">
+                    <a href="//s3.amazonaws.com/nikeinc/assets/52530/SP16_Nike_Air_DeMar_DeRozan_4_native_600.jpg?1453944614" download="//s3.amazonaws.com/nikeinc/assets/52530/SP16_Nike_Air_DeMar_DeRozan_4_native_600.jpg?1453944614" target="_blank" class="downloads-overlay__link -trans-color">Lo</a>
+                  </li>
+                <li class="downloads-overlay__li">
+                  <span class="icon icon--arrow-down downloads-overlay__icon"></span>
+                </li>
+                <li class="downloads-overlay__li downloads-overlay__link--last">
+                  <a href="//s3.amazonaws.com/nikeinc/assets/52530/SP16_Nike_Air_DeMar_DeRozan_4_original.jpg?1453944614" download="//s3.amazonaws.com/nikeinc/assets/52530/SP16_Nike_Air_DeMar_DeRozan_4_original.jpg?1453944614" target="_blank" class="downloads-overlay__link -trans-color">HI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <img class="articles__img js-lazy-grid-img js-img-resize" data-src="//s3.amazonaws.com/nikeinc/assets/52530/SP16_Nike_Air_DeMar_DeRozan_4_native_600.jpg?1453944614" data-square="//s3.amazonaws.com/nikeinc/assets/52530/SP16_Nike_Air_DeMar_DeRozan_4_native_1600.jpg?1453944614" alt="SP16 Nike Air_DeMar DeRozan_4" data-image-width="600" data-image-height="400" style="opacity:0;"/>
+        <div class="downloads-overlay__overlay"></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+            <article class="articles__article articles__article--col js-grid-tile grid-tile">
+  <div class="row">
+    <div class="span8">
+      <div class="downloads-overlay__img-container -cover">
+        <div class="downloads-overlay__hover-content text--center">
+          <div class="valigner">
+            <div class="valigner__cell">
+              Download Image:
+               <ul class="downloads-overlay__ul">
+                  <li class="downloads-overlay__li">
+                    <a href="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_600.jpg?1453942909" download="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_600.jpg?1453942909" target="_blank" class="downloads-overlay__link -trans-color">Lo</a>
+                  </li>
+                <li class="downloads-overlay__li">
+                  <span class="icon icon--arrow-down downloads-overlay__icon"></span>
+                </li>
+                <li class="downloads-overlay__li downloads-overlay__link--last">
+                  <a href="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_original.jpg?1453942909" download="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_original.jpg?1453942909" target="_blank" class="downloads-overlay__link -trans-color">HI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <img class="articles__img js-lazy-grid-img js-img-resize" data-src="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_600.jpg?1453942909" data-square="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_1600.jpg?1453942909" alt="SP16 Nike Air_DeMar DeRozan_11" data-image-width="600" data-image-height="400" style="opacity:0;"/>
+        <div class="downloads-overlay__overlay"></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+            <article class="articles__article articles__article--col js-grid-tile grid-tile">
+  <div class="row">
+    <div class="span8">
+      <div class="downloads-overlay__img-container -cover">
+        <div class="downloads-overlay__hover-content text--center">
+          <div class="valigner">
+            <div class="valigner__cell">
+              Download Image:
+               <ul class="downloads-overlay__ul">
+                  <li class="downloads-overlay__li">
+                    <a href="//s3.amazonaws.com/nikeinc/assets/52525/SP16_Nike_Air_DeMar_DeRozan_12_native_600.jpg?1453942936" download="//s3.amazonaws.com/nikeinc/assets/52525/SP16_Nike_Air_DeMar_DeRozan_12_native_600.jpg?1453942936" target="_blank" class="downloads-overlay__link -trans-color">Lo</a>
+                  </li>
+                <li class="downloads-overlay__li">
+                  <span class="icon icon--arrow-down downloads-overlay__icon"></span>
+                </li>
+                <li class="downloads-overlay__li downloads-overlay__link--last">
+                  <a href="//s3.amazonaws.com/nikeinc/assets/52525/SP16_Nike_Air_DeMar_DeRozan_12_original.jpg?1453942936" download="//s3.amazonaws.com/nikeinc/assets/52525/SP16_Nike_Air_DeMar_DeRozan_12_original.jpg?1453942936" target="_blank" class="downloads-overlay__link -trans-color">HI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <img class="articles__img js-lazy-grid-img js-img-resize" data-src="//s3.amazonaws.com/nikeinc/assets/52525/SP16_Nike_Air_DeMar_DeRozan_12_native_600.jpg?1453942936" data-square="//s3.amazonaws.com/nikeinc/assets/52525/SP16_Nike_Air_DeMar_DeRozan_12_native_1600.jpg?1453942936" alt="SP16 Nike Air_DeMar DeRozan_12" data-image-width="600" data-image-height="400" style="opacity:0;"/>
+        <div class="downloads-overlay__overlay"></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+            <article class="articles__article articles__article--col js-grid-tile grid-tile">
+  <div class="row">
+    <div class="span8">
+      <div class="downloads-overlay__img-container -cover">
+        <div class="downloads-overlay__hover-content text--center">
+          <div class="valigner">
+            <div class="valigner__cell">
+              Download Image:
+               <ul class="downloads-overlay__ul">
+                  <li class="downloads-overlay__li">
+                    <a href="//s3.amazonaws.com/nikeinc/assets/52526/SP16_Nike_Air_DeMar_DeRozan_13_native_600.jpg?1453942932" download="//s3.amazonaws.com/nikeinc/assets/52526/SP16_Nike_Air_DeMar_DeRozan_13_native_600.jpg?1453942932" target="_blank" class="downloads-overlay__link -trans-color">Lo</a>
+                  </li>
+                <li class="downloads-overlay__li">
+                  <span class="icon icon--arrow-down downloads-overlay__icon"></span>
+                </li>
+                <li class="downloads-overlay__li downloads-overlay__link--last">
+                  <a href="//s3.amazonaws.com/nikeinc/assets/52526/SP16_Nike_Air_DeMar_DeRozan_13_original.jpg?1453942932" download="//s3.amazonaws.com/nikeinc/assets/52526/SP16_Nike_Air_DeMar_DeRozan_13_original.jpg?1453942932" target="_blank" class="downloads-overlay__link -trans-color">HI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <img class="articles__img js-lazy-grid-img js-img-resize" data-src="//s3.amazonaws.com/nikeinc/assets/52526/SP16_Nike_Air_DeMar_DeRozan_13_native_600.jpg?1453942932" data-square="//s3.amazonaws.com/nikeinc/assets/52526/SP16_Nike_Air_DeMar_DeRozan_13_native_1600.jpg?1453942932" alt="SP16 Nike Air_DeMar DeRozan_13" data-image-width="600" data-image-height="400" style="opacity:0;"/>
+        <div class="downloads-overlay__overlay"></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+            <article class="articles__article articles__article--col js-grid-tile grid-tile">
+  <div class="row">
+    <div class="span8">
+      <div class="downloads-overlay__img-container -cover">
+        <div class="downloads-overlay__hover-content text--center">
+          <div class="valigner">
+            <div class="valigner__cell">
+              Download Image:
+               <ul class="downloads-overlay__ul">
+                  <li class="downloads-overlay__li">
+                    <a href="//s3.amazonaws.com/nikeinc/assets/52517/SP16_Nike_Air_DeMar_DeRozan_1_native_600.jpg?1453942656" download="//s3.amazonaws.com/nikeinc/assets/52517/SP16_Nike_Air_DeMar_DeRozan_1_native_600.jpg?1453942656" target="_blank" class="downloads-overlay__link -trans-color">Lo</a>
+                  </li>
+                <li class="downloads-overlay__li">
+                  <span class="icon icon--arrow-down downloads-overlay__icon"></span>
+                </li>
+                <li class="downloads-overlay__li downloads-overlay__link--last">
+                  <a href="//s3.amazonaws.com/nikeinc/assets/52517/SP16_Nike_Air_DeMar_DeRozan_1_original.jpg?1453942656" download="//s3.amazonaws.com/nikeinc/assets/52517/SP16_Nike_Air_DeMar_DeRozan_1_original.jpg?1453942656" target="_blank" class="downloads-overlay__link -trans-color">HI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <img class="articles__img js-lazy-grid-img js-img-resize" data-src="//s3.amazonaws.com/nikeinc/assets/52517/SP16_Nike_Air_DeMar_DeRozan_1_native_600.jpg?1453942656" data-square="//s3.amazonaws.com/nikeinc/assets/52517/SP16_Nike_Air_DeMar_DeRozan_1_native_1600.jpg?1453942656" alt="SP16 Nike Air_DeMar DeRozan_1" data-image-width="600" data-image-height="400" style="opacity:0;"/>
+        <div class="downloads-overlay__overlay"></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+            <article class="articles__article articles__article--col js-grid-tile grid-tile">
+  <div class="row">
+    <div class="span8">
+      <div class="downloads-overlay__img-container -cover">
+        <div class="downloads-overlay__hover-content text--center">
+          <div class="valigner">
+            <div class="valigner__cell">
+              Download Image:
+               <ul class="downloads-overlay__ul">
+                  <li class="downloads-overlay__li">
+                    <a href="//s3.amazonaws.com/nikeinc/assets/52529/SP16_Nike_Air_DeMar_DeRozan_2_native_600.jpg?1453944611" download="//s3.amazonaws.com/nikeinc/assets/52529/SP16_Nike_Air_DeMar_DeRozan_2_native_600.jpg?1453944611" target="_blank" class="downloads-overlay__link -trans-color">Lo</a>
+                  </li>
+                <li class="downloads-overlay__li">
+                  <span class="icon icon--arrow-down downloads-overlay__icon"></span>
+                </li>
+                <li class="downloads-overlay__li downloads-overlay__link--last">
+                  <a href="//s3.amazonaws.com/nikeinc/assets/52529/SP16_Nike_Air_DeMar_DeRozan_2_original.jpg?1453944611" download="//s3.amazonaws.com/nikeinc/assets/52529/SP16_Nike_Air_DeMar_DeRozan_2_original.jpg?1453944611" target="_blank" class="downloads-overlay__link -trans-color">HI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <img class="articles__img js-lazy-grid-img js-img-resize" data-src="//s3.amazonaws.com/nikeinc/assets/52529/SP16_Nike_Air_DeMar_DeRozan_2_native_600.jpg?1453944611" data-square="//s3.amazonaws.com/nikeinc/assets/52529/SP16_Nike_Air_DeMar_DeRozan_2_native_1600.jpg?1453944611" alt="SP16 Nike Air_DeMar DeRozan_2" data-image-width="600" data-image-height="400" style="opacity:0;"/>
+        <div class="downloads-overlay__overlay"></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+    <nav id="nav-off-canvas">
+    <ul>
+      <li>
+        <span>Product News</span>
+        <ul>
+          <li><a href="/nike-athletic-training">Athletic Training</a></li>
+          <li><a href="/nike-basketball">Basketball</a></li>
+          <li><a href="/nike-football">Football</a></li>
+          <li><a href="/nike-football-soccer">Football (Soccer)</a></li>
+          <li><a href="/nike-golf">Golf</a></li>
+          <li><a href="/hurley">Hurley</a></li>
+          <li><a href="/jordan-brand">Jordan Brand</a></li>
+          <li><a href="/nike--3">Nike+</a></li>
+          <li><a href="/nikelab">NikeLab</a></li>
+          <li><a href="/nike-sb">Nike SB</a></li>
+          <li><a href="/nike-running">Running</a></li>
+          <li><a href="/nike-sportswear">Nike Sportswear</a></li>
+          <li><a href="/nike-tennis">Tennis</a></li>
+          <li><a href="/nike-womens">Women</a></li>
+          <li><a href="/young-athletes">Young Athletes</a></li>
+        </ul>
+      </li>
+      <li>
+        <span>Company News</span>
+        <ul>
+          <li><a href="/nike-community-impact">Community Impact</a></li>
+          <li><a href="/earnings">Earnings</a></li>
+          <li><a href="/leadership">Leadership</a></li>
+          <li><a href="/retail">Retail</a></li>
+          <li><a href="/nike-sport-research">Sport Research</a></li>
+          <li><a href="/strategic-partnerships">Strategic Partnerships</a></li>
+          <li><a href="/sustainability">Sustainability</a></li>
+        </ul>
+      </li>
+      <li>
+        <span>Explore</span>
+        <ul>
+          <li><a href="/athletes">Athletes</a></li>
+          <li><a href="/club-kits">Club Kits</a></li>
+          <li><a href="/college-football">College Football</a></li>
+          <li><a href="/inner-strength">Inner Strength</a></li>
+          <li><a href="/innovation-2016">Innovation 2016</a></li>
+          <li><a href="/inside-access">Inside Access</a></li>
+          <li><a href="/news">News Archive</a></li>
+          <li><a href="/nfl">NFL</a></li>
+          <li><a href="/nike-flyknit">Nike Flyknit</a></li>
+          <li><a href="/nike-free">Nike Free</a></li>
+          <li><a href="/nike-women-presents">Nike Women Presents</a></li>
+          <li><a href="/nike-zoom">Nike Zoom</a></li>
+          <li><a href="/footwear">Shoe Stream</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="http://www.nike.com/">Shop</a>
+      </li>
+      <li>
+        <a href="http://nikeplus.nike.com/plus/">Nike+</a>
+      </li>
+      <li>
+        <a href="http://about.nike.com/">About</a>
+      </li>
+       <li>
+        <a href="http://jobs.nike.com/">Careers</a>
+      </li>
+    </ul>
+</nav>
+
+    <div class="mobile-search js-mobile-search">
+  <div class="nav-mobile__subnav js-search-subnav">
+    <div class="nav-mobile__subnav__containter nav-mobile__subnav__containter--search js-search-container">
+        <form class="mobile-search-area" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+          <input type="text" name="search_terms" id="search_terms" placeholder="Search Nike News" class="search-term search-term-mobile search-heading-input--mobile search-heading-input js-search-heading js-search-term-mobile" />
+          <a href="#" class="search-term-mobile__close js-mobile-search-trigger"><span class="symbol-close"></span></a>
+          <ul class="search-term-mobile__results" style="display:none;">
+            <li><a href="#"><span>Run</span>ning</a></li>
+            <li><a href="#">Roshie <span>Run</span></a></li>
+            <li><a href="#">Nike Free <span>Run</span></a></li>
+            <li><a href="#"><span>Run</span>ning Shoes</a></li>
+          </ul>
+</form>    </div>
+  </div>
+</div>
+</header>
+
+    
+
+<section class="content js-content">
+    <div class="wrap--padded wrap--padded--post"></div>
+
+
+  <div class="gallery mobile_gallery js-carousel js-carousel--gallery js-gallery">
+  <div class="gallery__header js-gallery-header">
+    <div class="valigner">
+      <div class="valigner__cell">
+        <a class="gallery__close js-gallery-close font-size__13" href="#">
+          <span class="icon icon--ex inline-icon--icon nav__secondary__icon--close"></span>
+          <span class="inline-icon--text">Close</span>
+        </a>
+      </div>
+      <a class="gallery__close js-gallery-close font-size__13" href="#"></a>
+    </div>
+    <a class="gallery__close js-gallery-close font-size__13" href="#"></a>
+  </div>
+  <ul class="mobile_gallery_images">
+        <img src="//s3.amazonaws.com/nikeinc/assets/52521/SP16_Nike_Air_DeMar_DeRozan_7_native_1600.jpg?1453942844" alt="Mobile Gallery Image" />
+        <img src="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_1600.jpg?1454985077" alt="Mobile Gallery Image" />
+        <img src="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_1600.jpg?1453942874" alt="Mobile Gallery Image" />
+        <img src="//s3.amazonaws.com/nikeinc/assets/52520/SP16_Nike_Air_DeMar_DeRozan_3_native_1600.jpg?1453942831" alt="Mobile Gallery Image" />
+        <img src="//s3.amazonaws.com/nikeinc/assets/52530/SP16_Nike_Air_DeMar_DeRozan_4_native_1600.jpg?1453944614" alt="Mobile Gallery Image" />
+        <img src="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_1600.jpg?1453942909" alt="Mobile Gallery Image" />
+        <img src="//s3.amazonaws.com/nikeinc/assets/52525/SP16_Nike_Air_DeMar_DeRozan_12_native_1600.jpg?1453942936" alt="Mobile Gallery Image" />
+        <img src="//s3.amazonaws.com/nikeinc/assets/52526/SP16_Nike_Air_DeMar_DeRozan_13_native_1600.jpg?1453942932" alt="Mobile Gallery Image" />
+        <img src="//s3.amazonaws.com/nikeinc/assets/52517/SP16_Nike_Air_DeMar_DeRozan_1_native_1600.jpg?1453942656" alt="Mobile Gallery Image" />
+        <img src="//s3.amazonaws.com/nikeinc/assets/52529/SP16_Nike_Air_DeMar_DeRozan_2_native_1600.jpg?1453944611" alt="Mobile Gallery Image" />
+  </ul>
+</div>
+
+  <div class="carousel carousel--secondaryNav gallery js-carousel js-carousel--gallery js-gallery js-desktop-gallery gallery_navigation">
+  <div class="gallery__header js-gallery-header">
+    <div class="valigner">
+      <div class="valigner__cell">
+        <a class="gallery__close js-gallery-close font-size__13" href="#">
+          <span class="icon icon--ex inline-icon--icon nav__secondary__icon--close"></span>
+          <span class="inline-icon--text">Close</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <a class="gallery__close js-gallery-close font-size__13" href="#">
+    <ul class="carousel__slides gallery__carousel js-carousel-slides js-gallery-slides">
+          <li class="carousel__slide gallery__carousel__slide js-carousel-slide">
+            <div class="valigner">
+              <div class="valigner__cell">
+                <img class="gallery__carousel__img js-lazy-slide js-gallery-slide js-gallery-img" data-src="//s3.amazonaws.com/nikeinc/assets/52521/SP16_Nike_Air_DeMar_DeRozan_7_native_1600.jpg?1453942844" />
+                <div class="col--6of12 col--center col--large-device-3of4">
+                  <p class="text--p text--light--grey text--p--14 text--italic margin-top--25"></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="carousel__slide gallery__carousel__slide js-carousel-slide">
+            <div class="valigner">
+              <div class="valigner__cell">
+                <img class="gallery__carousel__img js-lazy-slide js-gallery-slide js-gallery-img" data-src="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_1600.jpg?1454985077" />
+                <div class="col--6of12 col--center col--large-device-3of4">
+                  <p class="text--p text--light--grey text--p--14 text--italic margin-top--25"></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="carousel__slide gallery__carousel__slide js-carousel-slide">
+            <div class="valigner">
+              <div class="valigner__cell">
+                <img class="gallery__carousel__img js-lazy-slide js-gallery-slide js-gallery-img" data-src="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_1600.jpg?1453942874" />
+                <div class="col--6of12 col--center col--large-device-3of4">
+                  <p class="text--p text--light--grey text--p--14 text--italic margin-top--25"></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="carousel__slide gallery__carousel__slide js-carousel-slide">
+            <div class="valigner">
+              <div class="valigner__cell">
+                <img class="gallery__carousel__img js-lazy-slide js-gallery-slide js-gallery-img" data-src="//s3.amazonaws.com/nikeinc/assets/52520/SP16_Nike_Air_DeMar_DeRozan_3_native_1600.jpg?1453942831" />
+                <div class="col--6of12 col--center col--large-device-3of4">
+                  <p class="text--p text--light--grey text--p--14 text--italic margin-top--25"></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="carousel__slide gallery__carousel__slide js-carousel-slide">
+            <div class="valigner">
+              <div class="valigner__cell">
+                <img class="gallery__carousel__img js-lazy-slide js-gallery-slide js-gallery-img" data-src="//s3.amazonaws.com/nikeinc/assets/52530/SP16_Nike_Air_DeMar_DeRozan_4_native_1600.jpg?1453944614" />
+                <div class="col--6of12 col--center col--large-device-3of4">
+                  <p class="text--p text--light--grey text--p--14 text--italic margin-top--25"></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="carousel__slide gallery__carousel__slide js-carousel-slide">
+            <div class="valigner">
+              <div class="valigner__cell">
+                <img class="gallery__carousel__img js-lazy-slide js-gallery-slide js-gallery-img" data-src="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_1600.jpg?1453942909" />
+                <div class="col--6of12 col--center col--large-device-3of4">
+                  <p class="text--p text--light--grey text--p--14 text--italic margin-top--25"></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="carousel__slide gallery__carousel__slide js-carousel-slide">
+            <div class="valigner">
+              <div class="valigner__cell">
+                <img class="gallery__carousel__img js-lazy-slide js-gallery-slide js-gallery-img" data-src="//s3.amazonaws.com/nikeinc/assets/52525/SP16_Nike_Air_DeMar_DeRozan_12_native_1600.jpg?1453942936" />
+                <div class="col--6of12 col--center col--large-device-3of4">
+                  <p class="text--p text--light--grey text--p--14 text--italic margin-top--25"></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="carousel__slide gallery__carousel__slide js-carousel-slide">
+            <div class="valigner">
+              <div class="valigner__cell">
+                <img class="gallery__carousel__img js-lazy-slide js-gallery-slide js-gallery-img" data-src="//s3.amazonaws.com/nikeinc/assets/52526/SP16_Nike_Air_DeMar_DeRozan_13_native_1600.jpg?1453942932" />
+                <div class="col--6of12 col--center col--large-device-3of4">
+                  <p class="text--p text--light--grey text--p--14 text--italic margin-top--25"></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="carousel__slide gallery__carousel__slide js-carousel-slide">
+            <div class="valigner">
+              <div class="valigner__cell">
+                <img class="gallery__carousel__img js-lazy-slide js-gallery-slide js-gallery-img" data-src="//s3.amazonaws.com/nikeinc/assets/52517/SP16_Nike_Air_DeMar_DeRozan_1_native_1600.jpg?1453942656" />
+                <div class="col--6of12 col--center col--large-device-3of4">
+                  <p class="text--p text--light--grey text--p--14 text--italic margin-top--25"></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="carousel__slide gallery__carousel__slide js-carousel-slide">
+            <div class="valigner">
+              <div class="valigner__cell">
+                <img class="gallery__carousel__img js-lazy-slide js-gallery-slide js-gallery-img" data-src="//s3.amazonaws.com/nikeinc/assets/52529/SP16_Nike_Air_DeMar_DeRozan_2_native_1600.jpg?1453944611" />
+                <div class="col--6of12 col--center col--large-device-3of4">
+                  <p class="text--p text--light--grey text--p--14 text--italic margin-top--25"></p>
+                </div>
+              </div>
+            </div>
+          </li>
+    </ul>
+  </a>
+    <ul class="carousel__pager">
+      <li class="carousel__prev">
+        <a class="carousel__link js-carousel-prev" href="#"><span class="icon icon--arrow"></span></a>
+      </li>
+      <li class="col--last carousel__next"><a class="carousel__link js-carousel-next" href="#"><span class="icon icon--arrow-right"></span></a></li>
+    </ul>
+</div>
+
+
+
+  <article class="post js-post">
+      <div class="wrap--text">
+        <div class="col--2of4 col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+          <div class="text--meta text--meta--post">February 09, 2016</div>
+          <h1 class="text--h1 margin-top--15 margin-bot--25">DeMar DeRozan&#39;s Toronto</h1>
+        </div>
+      </div>
+    
+      <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>It&rsquo;s about 2,200 miles from where DeMar DeRozan grew up, in Compton, California, to Toronto, Canada &mdash; although sometimes it must have seemed much farther. Like when he was drafted by Toronto in 2009, as a 19-year-old college freshman. Now? Now he&rsquo;s 26, a league fixture&nbsp;and a two-time All-Star who has made the city his home. And with the 2016 game in Toronto, he gets to play host.</p>
+
+  	</div>
+  </div>
+</div>
+  <div class="wrap--text wrap--text--nopad">
+  <div class="image-caption col--2of4 col--center col--largest-device-3of4 col--small-device-full margin-bot--70">
+    <div class="image-share__container">
+      <div class="image-share__gradient"></div>
+        <div class="image-share">
+  <div class="image-share__item image-share__facebook">
+    <a href="#" class="image-share__link js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_1600.jpg?1454985077' data-story-url='http://swoo.sh/1Q97UE1' data-story-caption='DeMar DeRozan&#39;s Toronto' data-story-description='The star guard is set to host the world’s best players in his adopted city.' title="Share on Facebook">
+      <i class="fa fa-facebook color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__twitter">
+    <a href="#" class="image-share__link js-twitter-image-share" data-story-url="http://swoo.sh/1Q97UE1" title="Share on Twitter">
+      <i class="fa fa-twitter color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__pinterest">
+    <a href="#" class="image-share__link js-pinterest-image-share" data-image-url="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_1600.jpg?1454985077" title="Share on Pinterest">
+      <i class="fa fa-pinterest-p color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__tumblr">
+    <a href="#" class="image-share__link js-tumblr-image-share" data-image-url="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_1600.jpg?1454985077" title="Share on Tumblr">
+      <i class="fa fa-tumblr color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__download">
+    <a href="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_1600.jpg?1454985077" class="image-share__link"  title="Download">
+      <i class="icon icon--download color--white"></i>
+    </a>
+  </div>
+</div>
+
+        <img data-src="//s3.amazonaws.com/nikeinc/assets/52522/SP16_Nike_Air_DeMar_DeRozan_8_native_1600.jpg?1454985077" class="text--img js-lazy-img" />
+    </div>
+    <div class="col--6of12 col--center col--large-device-3of4 lazy-content captions--inline captions--inline__caption">
+      <p class="image-caption__inline-caption caption--pad lazy-content text--italic text--light--grey margin-bot--50 position--abs position--outside-top-right smallest-device--text-left">
+        DeMar DeRozan stands in front of a Toronto mural co-created by 16 Esplanadian youth, under artistic leadership of Shalak Attack and Julian Periquet. This project was curated by Isorine Marc and co-produced by Jamii and CORPUS, with the support of the Ontario Trillium Foundation.
+      </p>
+    </div>
+    <div class="text--p--12 smallest-device--inline-block display--none captions--inline captions--inline__share smallest-device--text-right">
+      <p class="js-mobile-share-image lazy-content"><a href="#" class="link--underline text--p--12 text--grey text--italic">Share Image</a href="#"></p>
+    </div>
+  </div>
+</div>
+
+  <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>&ldquo;It will mean a lot to be able to go out there and represent the home team,&rdquo; DeRozan says. &ldquo;That&rsquo;s what it&rsquo;s all about: Being on the highest level, being able to have people recognize Toronto for its sport&mdash;it&rsquo;s something the city deserves.&rdquo;</p>
+
+  	</div>
+  </div>
+</div>
+  <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>It&rsquo;s also about the homegrown talent that has been rising up in Toronto since Damon Stoudamire and Vince Carter began plying their trade in dinosaur jerseys. Now it&rsquo;s DeRozan&rsquo;s turn to be that role model, that player who the kids look up to. Somehow it has already been long enough since DeRozan joined the team that some of those kids have joined him in the league.</p>
+
+  	</div>
+  </div>
+</div>
+  <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>&ldquo;It is definitely growing,&rdquo; DeRozan explains. &ldquo;You can see the amount of Canadians that are in the league now and the young guys who are coming up who are going to be superstars. I remember seeing Anthony Bennett play in high school and now he is a teammate of mine. Seeing these guys, you can definitely see how basketball is growing here.&rdquo;</p>
+
+  	</div>
+  </div>
+</div>
+  <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>DeRozan had to do some learning of his own, especially in regard to winter, which he didn&rsquo;t experience much back home in California.</p>
+
+  	</div>
+  </div>
+</div>
+  <div class="wrap--text wrap--text--nopad">
+  <div class="image-caption col--2of4 col--center col--largest-device-3of4 col--small-device-full margin-bot--70">
+    <div class="image-share__container">
+      <div class="image-share__gradient"></div>
+        <div class="image-share">
+  <div class="image-share__item image-share__facebook">
+    <a href="#" class="image-share__link js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_1600.jpg?1453942909' data-story-url='http://swoo.sh/1Q97UE1' data-story-caption='DeMar DeRozan&#39;s Toronto' data-story-description='The star guard is set to host the world’s best players in his adopted city.' title="Share on Facebook">
+      <i class="fa fa-facebook color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__twitter">
+    <a href="#" class="image-share__link js-twitter-image-share" data-story-url="http://swoo.sh/1Q97UE1" title="Share on Twitter">
+      <i class="fa fa-twitter color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__pinterest">
+    <a href="#" class="image-share__link js-pinterest-image-share" data-image-url="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_1600.jpg?1453942909" title="Share on Pinterest">
+      <i class="fa fa-pinterest-p color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__tumblr">
+    <a href="#" class="image-share__link js-tumblr-image-share" data-image-url="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_1600.jpg?1453942909" title="Share on Tumblr">
+      <i class="fa fa-tumblr color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__download">
+    <a href="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_1600.jpg?1453942909" class="image-share__link"  title="Download">
+      <i class="icon icon--download color--white"></i>
+    </a>
+  </div>
+</div>
+
+        <img data-src="//s3.amazonaws.com/nikeinc/assets/52524/SP16_Nike_Air_DeMar_DeRozan_11_native_1600.jpg?1453942909" class="text--img js-lazy-img" />
+    </div>
+    <div class="col--6of12 col--center col--large-device-3of4 lazy-content captions--inline captions--inline__caption">
+      <p class="image-caption__inline-caption caption--pad lazy-content text--italic text--light--grey margin-bot--50 position--abs position--outside-top-right smallest-device--text-left">
+        
+      </p>
+    </div>
+    <div class="text--p--12 smallest-device--inline-block display--none captions--inline captions--inline__share smallest-device--text-right">
+      <p class="js-mobile-share-image lazy-content"><a href="#" class="link--underline text--p--12 text--grey text--italic">Share Image</a href="#"></p>
+    </div>
+  </div>
+</div>
+
+  <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>&ldquo;Still to this day it&rsquo;s an adjustment,&rdquo; he admits. &ldquo;My first year here, I was wearing Chucks in the snow. I didn&rsquo;t know any different. I was wearing a regular hoodie instead of a down jacket. So I&rsquo;ve had to evolve my wardrobe because of the winter.&rdquo;&nbsp;</p>
+
+  	</div>
+  </div>
+</div>
+  <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>He&rsquo;s gotten a little help in that regard via the <a class="text--link -trans-color" href="http://news.nike.com/news/retro-basketball-style-with-new-swagger">Spring 2016 Nike Air collection</a>: hoops-inspired, layer-ready gear that gets him to Toronto spots &mdash; or works equally as well when he&rsquo;s just hanging at the crib on a day off.</p>
+
+  	</div>
+  </div>
+</div>
+  <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>&ldquo;During the season, I spend a lot of time at home,&rdquo; he says of his off-days. &ldquo;I just relax. But during the offseason, in the summer,&nbsp;I really got out and experienced Toronto. I went to the mall, went to Wonderland, went go kart racing. There are a lot of things to do in the city.&rdquo;</p>
+
+  	</div>
+  </div>
+</div>
+  <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>Over All-Star, he&rsquo;ll get a chance to share them with, among others, Kobe Bryant, who will be playing in his final All-Star Game. DeRozan was just seven years old when Bryant made his league debut, and he intends to be a proper host to the player he calls &ldquo;the greatest of my time.&rdquo;</p>
+
+  	</div>
+  </div>
+</div>
+  <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>&ldquo;To celebrate him at the All-Star game, just like they celebrated Jordan, would be something you would never forget,&rdquo; DeRozan declares. &ldquo;As a kid growing up in Southern California, watching him play, it&rsquo;d be extra special to be a part of something like that. It would definitely go down in history.&rdquo;</p>
+
+  	</div>
+  </div>
+</div>
+  <div class="wrap--text wrap--text--nopad">
+  <div class="image-caption col--2of4 col--center col--largest-device-3of4 col--small-device-full margin-bot--70">
+    <div class="image-share__container">
+      <div class="image-share__gradient"></div>
+        <div class="image-share">
+  <div class="image-share__item image-share__facebook">
+    <a href="#" class="image-share__link js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_1600.jpg?1453942874' data-story-url='http://swoo.sh/1Q97UE1' data-story-caption='DeMar DeRozan&#39;s Toronto' data-story-description='The star guard is set to host the world’s best players in his adopted city.' title="Share on Facebook">
+      <i class="fa fa-facebook color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__twitter">
+    <a href="#" class="image-share__link js-twitter-image-share" data-story-url="http://swoo.sh/1Q97UE1" title="Share on Twitter">
+      <i class="fa fa-twitter color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__pinterest">
+    <a href="#" class="image-share__link js-pinterest-image-share" data-image-url="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_1600.jpg?1453942874" title="Share on Pinterest">
+      <i class="fa fa-pinterest-p color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__tumblr">
+    <a href="#" class="image-share__link js-tumblr-image-share" data-image-url="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_1600.jpg?1453942874" title="Share on Tumblr">
+      <i class="fa fa-tumblr color--white"></i>
+    </a>
+  </div>
+  <div class="image-share__item image-share__download">
+    <a href="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_1600.jpg?1453942874" class="image-share__link"  title="Download">
+      <i class="icon icon--download color--white"></i>
+    </a>
+  </div>
+</div>
+
+        <img data-src="//s3.amazonaws.com/nikeinc/assets/52523/SP16_Nike_Air_DeMar_DeRozan_9_native_1600.jpg?1453942874" class="text--img js-lazy-img" />
+    </div>
+    <div class="col--6of12 col--center col--large-device-3of4 lazy-content captions--inline captions--inline__caption">
+      <p class="image-caption__inline-caption caption--pad lazy-content text--italic text--light--grey margin-bot--50 position--abs position--outside-top-right smallest-device--text-left">
+        
+      </p>
+    </div>
+    <div class="text--p--12 smallest-device--inline-block display--none captions--inline captions--inline__share smallest-device--text-right">
+      <p class="js-mobile-share-image lazy-content"><a href="#" class="link--underline text--p--12 text--grey text--italic">Share Image</a href="#"></p>
+    </div>
+  </div>
+</div>
+
+  <div class="col--2of4 col--center col--center col--largest-device-3of4 col--large-device-3of4 col--small-device-full">
+  <div class="wrap--text">
+  	<div class="text--p text--p--20 xtra--p">
+  		<p>The Spring 2016 Nike Air collection is available now at&nbsp;<a class="text--link -trans-color" href="http://www.nike.com/us/en_us/c/sportswear/nike-air">nike.com/nikeair</a> and in select Nike retailers.</p>
+
+  	</div>
+  </div>
+</div>
+
+
+
+    <div class="tags col--2of4 col--center col--small-device-full col--largest-device-3of4 margin-top--70 margin-bot--70 small-device--hide">
+        <ul class="tags__list">
+          <li class="tags__item tags__item--heading">
+            Tags
+          </li>
+              <li class="tags__item">
+                <a class="tags__link" href="/nike-sportswear">nike sportswear</a>
+              </li>
+        </ul>
+    </div>
+      <div class="story-footer -shaded-top -bg-content-grey">
+        <div class="story-footer__head">
+          <h2 class="text--h1 text--center">More From Nike News</h2>
+        </div>
+          <section class="content -bg-content-grey">
+  <section class="articles js-articles pad-mobile--none is-active">
+
+  <div class="articles__listing -clear grid js-grid">
+          <div class="topic-module topic-module--col topic-module--vertical js-grid-tile grid-tile grid-tile">
+  <h3 class="topic-module__header text--h2">
+    <a href="http://news.nike.com/footwear" class="link--head -trans-color">Shoe Stream</a>
+  </h3>
+  <div class="topic-module__articles">
+    <article class="articles__article">
+      <div class="articles__img__wrapper">
+        <a href="/footwear/kyrie-2-pe-blue-yellow">
+          <img class="articles__img js-lazy-grid-img" data-square="//s3.amazonaws.com/nikeinc/assets/55886/Kyrie-PE-Navy-Yellow-Profile_rectangle_600.jpg?1461778268" data-src="//s3.amazonaws.com/nikeinc/assets/55886/Kyrie-PE-Navy-Yellow-Profile_preview.jpg?1461778268" alt="KYRIE 2 ">
+</a>      </div>
+      <div class="articles__content">
+        <h2 class="text--h2 margin-bot--5">
+          <a class="link--head -trans-color" href="/footwear/kyrie-2-pe-blue-yellow">KYRIE 2 </a>
+        </h2>
+        <p class="text--p text--size--14 text--grey">Kyrie Irving played in these KYRIE 2s during the playoffs, scoring 31...</p>
+      </div>
+    </article>
+    <article class="articles__article">
+      <div class="articles__img__wrapper">
+        <a href="/footwear/kd8-elite-pe-white-blue">
+          <img class="articles__img js-lazy-grid-img" data-square="//s3.amazonaws.com/nikeinc/assets/54887/KD-8-Elite-PE-white_rectangle_600.jpg?1459280996" data-src="//s3.amazonaws.com/nikeinc/assets/54887/KD-8-Elite-PE-white_preview.jpg?1459280996" alt="KD8 Elite PE">
+</a>      </div>
+      <div class="articles__content">
+        <h2 class="text--h2 margin-bot--5">
+          <a class="link--head -trans-color" href="/footwear/kd8-elite-pe-white-blue">KD8 Elite PE</a>
+        </h2>
+        <p class="text--p text--size--14 text--grey">Kevin Durant may play in these special KD8 Elite PEs during the playoffs.</p>
+      </div>
+    </article>
+    <article class="articles__article">
+      <div class="articles__img__wrapper">
+        <a href="/footwear/jordan-ultra-fly-pe-yellow">
+          <img class="articles__img js-lazy-grid-img" data-square="//s3.amazonaws.com/nikeinc/assets/55715/Jordan_UltraFly_PE_yellow_rectangle_600.jpg?1461195452" data-src="//s3.amazonaws.com/nikeinc/assets/55715/Jordan_UltraFly_PE_yellow_preview.jpg?1461195452" alt="Jordan Ultra.Fly PE">
+</a>      </div>
+      <div class="articles__content">
+        <h2 class="text--h2 margin-bot--5">
+          <a class="link--head -trans-color" href="/footwear/jordan-ultra-fly-pe-yellow">Jordan Ultra.Fly PE</a>
+        </h2>
+        <p class="text--p text--size--14 text--grey">Jordan athlete Monta Ellis is playing in these player exclusive Jordan...</p>
+      </div>
+    </article>
+  </div>
+</div>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/flyknit-meets-its-match">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/55873/Nike_Tennis_Classic_Ultra_Flyknit_mens_4_native_600.jpeg?1461776371 data-square= //s3.amazonaws.com/nikeinc/assets/55873/Nike_Tennis_Classic_Ultra_Flyknit_mens_4_rectangle_600.jpeg?1461776371 alt="Flyknit Meets its Match" />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/flyknit-meets-its-match">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        Flyknit Meets its Match
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">The NikeCourt Tennis Classic Ultra Flyknit brings an innovative performance update to the classic &#39;70s silhouette.</p>
+      <p class="text--p text--size--14 text--grey visible--small-only">The NikeCourt Tennis Classic Ultra Flyknit brings an inno...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/55873/Nike_Tennis_Classic_Ultra_Flyknit_mens_4_hd_1000.jpeg?1461776371' data-story-url='http://swoo.sh/24mCQnz' data-story-caption='Flyknit Meets its Match' data-story-description='The NikeCourt Tennis Classic Ultra Flyknit brings an innovative performance update to the classic &#39;70s silhouette.' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/24mCQnz" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col js-grid-tile grid-tile">
+
+  <a href="http://news.nike.com/innovation-2016">
+    <img class="articles__img js-lazy-grid-img" data-square="https://s3.amazonaws.com/nikeinc/assets/55951/Innovation-2016-Banner-Wide_original.jpg" data-src="https://s3.amazonaws.com/nikeinc/assets/55952/Innovation-2016-Banner-Tall-3_original.jpg" src="https://s3.amazonaws.com/nikeinc/assets/55952/Innovation-2016-Banner-Tall-3_original.jpg">
+  </a>
+
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/jalen-ramsey-and-corey-coleman-join-the-jordan-brand">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/55957/S23_TRNS1546_native_600.jpg?1461896261 data-square= //s3.amazonaws.com/nikeinc/assets/55957/S23_TRNS1546_rectangle_600.jpg?1461896261 alt="Jordan Brand Rookies begin their professional careers" />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/jalen-ramsey-and-corey-coleman-join-the-jordan-brand">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        Jordan Brand Rookies begin their professional careers
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">UPDATE: Jalen Ramsey and Corey Coleman were selected 5th and 15th, respectively in tonight’s draft. 
+</p>
+      <p class="text--p text--size--14 text--grey visible--small-only">UPDATE: Jalen Ramsey and Corey Coleman were selected 5th ...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/55957/S23_TRNS1546_hd_1000.jpg?1461896261' data-story-url='http://swoo.sh/1SqJ9CZ' data-story-caption='Jordan Brand Rookies begin their professional careers' data-story-description='UPDATE: Jalen Ramsey and Corey Coleman were selected 5th and 15th, respectively in tonight’s draft. 
+' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/1SqJ9CZ" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/kobe-11-muse-pack-tinker-hatfield">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/55775/16-130_Nike_Kobe_822675-060_Detail_A-02_native_600.jpg?1461367148 data-square= //s3.amazonaws.com/nikeinc/assets/55775/16-130_Nike_Kobe_822675-060_Detail_A-02_rectangle_600.jpg?1461367148 alt="KOBE 11 Muse Pack: Tinker Hatfield Honors Greatness" />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/kobe-11-muse-pack-tinker-hatfield">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        KOBE 11 Muse Pack: Tinker Hatfield Honors Greatness
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">The second installment of the KOBE 11 Muse Pack is designed by Tinker Hatfield, honoring Kobe’s ascension to greatness with inspiration from Michael Jordan and the Air Jordan III. </p>
+      <p class="text--p text--size--14 text--grey visible--small-only">The second installment of the KOBE 11 Muse Pack is design...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/55775/16-130_Nike_Kobe_822675-060_Detail_A-02_hd_1000.jpg?1461367148' data-story-url='http://swoo.sh/1QyCSzb' data-story-caption='KOBE 11 Muse Pack: Tinker Hatfield Honors Greatness' data-story-description='The second installment of the KOBE 11 Muse Pack is designed by Tinker Hatfield, honoring Kobe’s ascension to greatness with inspiration from Michael Jordan and the Air Jordan III. ' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/1QyCSzb" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/designed-to-transform">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/55679/NikeLab_Transform_Jacket_mens_1_native_600.png?1461108955 data-square= //s3.amazonaws.com/nikeinc/assets/55679/NikeLab_Transform_Jacket_mens_1_rectangle_600.png?1461108955 alt="Designed to Transform" />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/designed-to-transform">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        Designed to Transform
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">Featuring two layers and one innovative storage system, the NikeLab Transform Jacket is designed to adapt to the changing conditions of all-day wear.</p>
+      <p class="text--p text--size--14 text--grey visible--small-only">Featuring two layers and one innovative storage system, t...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/55679/NikeLab_Transform_Jacket_mens_1_hd_1000.png?1461108955' data-story-url='http://swoo.sh/1TbD35l' data-story-caption='Designed to Transform' data-story-description='Featuring two layers and one innovative storage system, the NikeLab Transform Jacket is designed to adapt to the changing conditions of all-day wear.' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/1TbD35l" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/nike-football-welcomes-2016-rookie-class">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/55927/Derrick_Henry_native_600.jpeg?1461853639 data-square= //s3.amazonaws.com/nikeinc/assets/55927/Derrick_Henry_rectangle_600.jpeg?1461853639 alt="Nike Football Welcomes 2016 Rookie Class" />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/nike-football-welcomes-2016-rookie-class">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        Nike Football Welcomes 2016 Rookie Class
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">Today Nike Football announces the addition of running back Derrick Henry to its elite roster. </p>
+      <p class="text--p text--size--14 text--grey visible--small-only">Today Nike Football announces the addition of running bac...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/55927/Derrick_Henry_hd_1000.jpeg?1461853639' data-story-url='http://swoo.sh/1S8sy6n' data-story-caption='Nike Football Welcomes 2016 Rookie Class' data-story-description='Today Nike Football announces the addition of running back Derrick Henry to its elite roster. ' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/1S8sy6n" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/tech-hypermesh">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/55601/Nike_Tech_Hypermesh_Bouchard_1_native_600.jpg?1460662467 data-square= //s3.amazonaws.com/nikeinc/assets/55601/Nike_Tech_Hypermesh_Bouchard_1_rectangle_600.jpg?1460662467 alt="Summering in Style: Nike Tech Hypermesh" />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/tech-hypermesh">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        Summering in Style: Nike Tech Hypermesh
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">Nike’s Tech Pack proposition returns to deliver lightweight breathability for the warm months of summer.</p>
+      <p class="text--p text--size--14 text--grey visible--small-only">Nike’s Tech Pack proposition returns to deliver lightweig...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/55601/Nike_Tech_Hypermesh_Bouchard_1_hd_1000.jpg?1460662467' data-story-url='http://swoo.sh/1XW6cW5' data-story-caption='Summering in Style: Nike Tech Hypermesh' data-story-description='Nike’s Tech Pack proposition returns to deliver lightweight breathability for the warm months of summer.' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/1XW6cW5" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/inner-strength-amna-al-haddad">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/54992/A025C008_160206_R55F.mov.13_27_38_18.Still001_V1_native_600.jpg?1459440757 data-square= //s3.amazonaws.com/nikeinc/assets/54992/A025C008_160206_R55F.mov.13_27_38_18.Still001_V1_rectangle_600.jpg?1459440757 alt="Inner Strength: Amna Al Haddad Raises the Bar" />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/inner-strength-amna-al-haddad">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        Inner Strength: Amna Al Haddad Raises the Bar
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">Amna Al Haddad details her journey to becoming a weightlifter and her training routine ahead of the 2016 team trials.</p>
+      <p class="text--p text--size--14 text--grey visible--small-only">Amna Al Haddad details her journey to becoming a weightli...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/54992/A025C008_160206_R55F.mov.13_27_38_18.Still001_V1_hd_1000.jpg?1459440757' data-story-url='http://swoo.sh/1XKp4Y3' data-story-caption='Inner Strength: Amna Al Haddad Raises the Bar' data-story-description='Amna Al Haddad details her journey to becoming a weightlifter and her training routine ahead of the 2016 team trials.' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/1XKp4Y3" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/nike-signs-breanna-stewart">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/55645/BREANNA-STEWART_native_600.jpg?1461009714 data-square= //s3.amazonaws.com/nikeinc/assets/55645/BREANNA-STEWART_rectangle_600.jpg?1461009714 alt="Nike Signs Basketball Phenom Breanna Stewart " />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/nike-signs-breanna-stewart">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        Nike Signs Basketball Phenom Breanna Stewart 
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">One of the most decorated players in the history of college basketball joins Nike with multi-year endorsement deal after becoming the WNBA&#39;s number one draft pick. </p>
+      <p class="text--p text--size--14 text--grey visible--small-only">One of the most decorated players in the history of colle...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/55645/BREANNA-STEWART_hd_1000.jpg?1461009714' data-story-url='http://swoo.sh/22I56yu' data-story-caption='Nike Signs Basketball Phenom Breanna Stewart ' data-story-description='One of the most decorated players in the history of college basketball joins Nike with multi-year endorsement deal after becoming the WNBA&#39;s number one draft pick. ' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/22I56yu" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/a-guide-to-margot-vs-lily-a-better-for-it-production">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/53542/Ep5_original_native_600.jpg?1456755311 data-square= //s3.amazonaws.com/nikeinc/assets/53542/Ep5_original_rectangle_600.jpg?1456755311 alt="The Finale of Margot Vs Lily" />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/a-guide-to-margot-vs-lily-a-better-for-it-production">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        The Finale of Margot Vs Lily
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">Exclusive behind-the-scenes content, episodes, cast and crew member information, key products and more. </p>
+      <p class="text--p text--size--14 text--grey visible--small-only">Exclusive behind-the-scenes content, episodes, cast and c...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/53542/Ep5_original_hd_1000.jpg?1456755311' data-story-url='http://swoo.sh/1Q98kue' data-story-caption='The Finale of Margot Vs Lily' data-story-description='Exclusive behind-the-scenes content, episodes, cast and crew member information, key products and more. ' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/1Q98kue" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/why-i-run-rory-mcilroy">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/54937/FA15_GLF_RMcIlroy_DSOS_BEACHRUN_2257_native_600.jpg?1459365577 data-square= //s3.amazonaws.com/nikeinc/assets/54937/FA15_GLF_RMcIlroy_DSOS_BEACHRUN_2257_rectangle_600.jpg?1459365577 alt="Why I Run: Rory McIlroy" />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/why-i-run-rory-mcilroy">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        Why I Run: Rory McIlroy
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">For golfer Rory McIlory, running is a way of clearing his mind and preparing for long rounds.</p>
+      <p class="text--p text--size--14 text--grey visible--small-only">For golfer Rory McIlory, running is a way of clearing his...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/54937/FA15_GLF_RMcIlroy_DSOS_BEACHRUN_2257_hd_1000.jpg?1459365577' data-story-url='http://swoo.sh/1N8CwyU' data-story-caption='Why I Run: Rory McIlroy' data-story-description='For golfer Rory McIlory, running is a way of clearing his mind and preparing for long rounds.' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/1N8CwyU" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/11-for-the-record-books-nike-celebrates-uconn-women">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/55117/Womens_Championship_WIDE_native_600.jpg?1459865907 data-square= //s3.amazonaws.com/nikeinc/assets/55117/Womens_Championship_WIDE_rectangle_600.jpg?1459865907 alt="11 for the Record Books: Nike Celebrates UConn Women" />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/11-for-the-record-books-nike-celebrates-uconn-women">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        11 for the Record Books: Nike Celebrates UConn Women
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">UConn caps an incredible undefeated 38-0 season with its 11th National Championship</p>
+      <p class="text--p text--size--14 text--grey visible--small-only">UConn caps an incredible undefeated 38-0 season with its ...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/55117/Womens_Championship_WIDE_hd_1000.jpg?1459865907' data-story-url='http://swoo.sh/23fp0TE' data-story-caption='11 for the Record Books: Nike Celebrates UConn Women' data-story-description='UConn caps an incredible undefeated 38-0 season with its 11th National Championship' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/23fp0TE" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+          <article class="articles__article articles__article--col  -article--news js-offset-hover offset-hover offset-hover__element js-grid-tile grid-tile  is-offset-hover">
+  <div class="col col--small-device-1of2">
+    <a href="/news/nike-free-2016-running-training">
+          <img class="articles__img js-lazy-grid-img offset-hover__sub-content" data-src=//s3.amazonaws.com/nikeinc/assets/55159/Nike_Free_Auxetic_Midsole_Technology_for_Running_and_Training_native_600.jpg?1459889638 data-square= //s3.amazonaws.com/nikeinc/assets/55159/Nike_Free_Auxetic_Midsole_Technology_for_Running_and_Training_rectangle_600.jpg?1459889638 alt="The New Dimensions of Nike Free " />
+</a>  </div>
+  <div class="col col--small-device-1of2 articles__content offset-hover__transition">
+    <a href="/news/nike-free-2016-running-training">
+      <h2 class="text--h2 margin-bot--5 link--head -trans-color">
+        The New Dimensions of Nike Free 
+      </h2>
+      <p class="text--p text--size--14 text--grey visible--small-up">Building upon over a decade of Nike Free innovation, Nike unveils new running and training additions to its Free footwear family. </p>
+      <p class="text--p text--size--14 text--grey visible--small-only">Building upon over a decade of Nike Free innovation, Nike...</p>
+</a>      <div class="offset-hover__content">
+        <div class="margin-top--15 touch-device--hide small-device--hide">
+          <div class="article__share">
+		<a href="#" class="share__link share__link--facebook js-facebook-image-share" data-image-url='//s3.amazonaws.com/nikeinc/assets/55159/Nike_Free_Auxetic_Midsole_Technology_for_Running_and_Training_hd_1000.jpg?1459889638' data-story-url='http://swoo.sh/239gLfl' data-story-caption='The New Dimensions of Nike Free ' data-story-description='Building upon over a decade of Nike Free innovation, Nike unveils new running and training additions to its Free footwear family. ' title="Share on Facebook">
+			<span class="hh-icon symbol-facebook-o"></span>
+		</a>
+	<a href="#" class="share__link share__link--twitter js-twitter-image-share" data-story-url="http://swoo.sh/239gLfl" title="Share on Twitter">
+		<span class="hh-icon symbol-twitter-o"></span>
+	</a>
+</div>
+        </div>
+      </div>
+  </div>
+</article>
+
+  </div>
+
+</section>
+    <a class="link--more link--light link--load margin-top--50 -trans-color" href="/news">View Archive</a>
+</section>
+
+      </div>
+
+  </article>
+</div>
+</section>
+
+
+<script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25821760-1']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_setDomainName', 'none']);
+    _gaq.push(['_trackEvent', 'DeMar DeRozans Toronto', 'pageviews', 'views']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+    <footer class="footer js-footer pad-top--40 -clear">
+    <div class="wrap wrap--940">
+        <div class="-clear footer__link--devicehide">
+            <div class="footer__col col col--3of12">
+                <h3 class="text--h3 margin-bot--15">
+                    <a href="http://store.nike.com/us/en_us/?l=shop%2Cgift_cards" class="text--light">Gift Cards</a>
+                </h3>
+                <h3 class="text--h3 margin-bot--15">
+                    <a href="http://www.nike.com/us/en_us/sl/store-locator" class="text--light">Find a store</a>
+                </h3>
+                <h3 class="text--h3 margin-bot--15">
+                    <a href="http://store.nike.com/us/en_us/?l=shop%2Cemail_signup" class="text--light">Sign up for email </a>
+                </h3>
+                <h3 class="text--h3">
+                    <a href="http://www.nike.com/us/en_us/s/register" class="text--light">Join Nike+</a>
+                </h3>
+            </div>
+            <div class="footer__col col col--3of12">
+                <div class="margin-bot--15">
+                    <a href="http://help-en-us.nike.com/" class="text--h3 text--light">Get Help</a>
+                </div>
+                <ul>
+                    <li class="footer__item footer__link--devicehide">
+                        <a href="http://store.nike.com/us/en_us/orders" class="footer__link">Order Status</a>
+                    </li>
+                    <li class="footer__item footer__link--devicehide">
+                        <a href="http://help-en-us.nike.com/app/answers/detail/article/shipping-delivery" class="footer__link">Shipping and Delivery</a>
+                    </li>
+                    <li class="footer__item footer__link--devicehide">
+                        <a href="http://help-en-us.nike.com/app/landing/returns" class="footer__link">Returns</a>
+                    </li>
+                    <li class="footer__item footer__link--devicehide">
+                        <a href="http://help-en-us.nike.com/app/answers/detail/article/payment-options" class="footer__link">Payment Options</a>
+                    </li>
+                    <li class="footer__item footer__link--devicehide footer__item--last">
+                        <a href="http://help-en-us.nike.com/app/landing/contact" class="footer__link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col col col--3of12">
+                <div class="margin-bot--15">
+                    <a href="http://news.nike.com/" class="text--h3 text--light">News</a>
+                </div>
+                <div class="margin-bot--15">
+                    <a href="http://about.nike.com/" class="text--h3 text--light">About Nike</a>
+                </div>
+                <ul>
+                    <li class="footer__item footer__link--devicehide">
+                        <a href="http://jobs.nike.com" class="footer__link">Careers</a>
+                    </li>
+                    <li class="footer__item footer__link--devicehide">
+                        <a href="http://investors.nike.com" class="footer__link">Investors</a>
+                    </li>
+                    <li class="footer__item footer__link--devicehide">
+                        <a href="http://about.nike.com/sustainability" class="footer__link">Sustainability</a>
+                    </li>
+                    <li class="footer__item footer__link--devicehide footer__item--last">
+                        <a href="http://www.nike.com/us/en_us/c/better-world" class="footer__link footer__link--last">Nike Better World</a>
+                    </li>
+                    <li class="footer__item footer__link--devicehide">
+                        <a href="http://help-en-us.nike.com/app/answers/detail/article/supply-chain" class="footer__link">CA Supply Chains Act</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col col--3of12 f--right text--right">
+                <h3 class="text--h3 text--light margin-bot--15">Social</h3>
+                <a href="https://twitter.com/Nike" target="_blank" class="social-link social-link-twitter">Nike on Twitter</a>
+                <a href="https://www.facebook.com/nike" target="_blank" class="social-link social-link-facebook">Nike on Facebook</a>
+                <a href="https://www.youtube.com/user/nike" target="_blank" class="social-link social-link-youtube">Nike on Youtube</a>
+                <a href="http://instagram.com/nike" target="_blank" class="social-link social-link-instagram">Nike on Instagram</a>
+            </div>
+        </div>
+        <div class="-clear footer__sub margin-top--40">
+            <div class="footer__group footer__group--left f--right text--right">
+                <ul class="footer__ul">
+                    <li class="footer__subitem">
+                        <a href="http://www.nike.com/us/en_us/c/help/terms-conditions" class="footer__sublink footer__link--devicedisplay">Terms of Use</a>
+                    </li>
+                    <li class="footer__subitem footer__subitem--last">
+                        <a href="http://www.nike.com/us/en_us/c/help/privacy-policy" class="footer__sublink footer__link--devicedisplay">Nike Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__group footer__group--right f--left">
+                <div class="-clear">
+                    <span class="footer__legal">
+                        &copy; 2016 Nike, Inc. All Rights Reserved
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  </div>
+  <div class="overlay js-overlay"></div>
+
+  <script>
+    window.app = {};
+    window.app.nav = {};
+  </script>
+  <script src="/resources/application-public-109440b7d37c82a9e129d89921100c598b0cf32f9bd625d111d587a099cfaf50.js"></script>
+  
+
+  <!-- Call the Off-Canvas JS -->
+  <script type="text/javascript">
+     $(document).ready(function() {
+        $("#nav-off-canvas").mmenu({
+          "navbar": {
+            "title": ""
+          },
+           "offCanvas": {
+              "position": "right"
+           }
+        });
+     });
+  </script>
+
+</body>
+</html>
+
+<!-- // Page rendered at 2016-04-29 22:10:44 -0700 //-->

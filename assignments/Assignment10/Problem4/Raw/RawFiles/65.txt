@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# music: http://ogp.me/ns/music#">
+  <title>Khalaezzy Game - 50k Walk | Spinrilla</title>
+  <meta charset="UTF-8" />
+  <link href="//dpjsgvx0fhwmn.cloudfront.net/assets/application-f44cfd6b253fb12cdc444265e9008a79.css" media="screen" rel="stylesheet" type="text/css" />
+  <script src="//dpjsgvx0fhwmn.cloudfront.net/assets/application-d21557b22c9cfcb1dd34565105e7942a.js" type="text/javascript"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ogm5hRNkeRDlAR71DA41vFxawgB4HiQv7YzTBXKKFPY=" name="csrf-token" />
+  <link href="//s3.amazonaws.com/s3.spinrilla.com/assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <link href='//fonts.googleapis.com/css?family=Roboto:700|Muli' rel='stylesheet' type='text/css'>
+  <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+  <meta name="keywords" content="free mixtapes,mixtapes,download,stream,hip hop">
+  <meta name="description" content="50k Walk download or listen now.">
+  <meta name="google" content="notranslate">
+  <link rel="alternate" type="application/atom+xml" title="Spinrilla New Mixtape Releases Feed" href="https://spinrilla.com/mixtapes/feed">
+  <meta content='player' name='twitter:card'>
+<meta content='50k Walk' name='twitter:title'>
+<meta content='50k Walk' property='og:title'>
+<meta content='Download and listen to the new single 50k Walk by Khalaezzy Game for free on Spinrilla.' name='twitter:description'>
+<meta content='435' name='twitter:player:width'>
+<meta content='435' name='twitter:player:height'>
+<meta content='https://spinrilla.com/tracks/496283/twitter_card' name='twitter:player'>
+<meta content='spinrilla' name='twitter:site'>
+<meta content='https://dpjsgvx0fhwmn.cloudfront.net/albums/29353/large/4be83082416e2b936413.JPG?1454257387' name='twitter:image'>
+<meta content='https://dpjsgvx0fhwmn.cloudfront.net/albums/29353/large/4be83082416e2b936413.JPG?1454257387' property='og:image'>
+<meta content='https://spinrilla.com/tracks/496283-khalaezzy-game-50k-walk' property='og:url'>
+<meta content='album' property='og:type'>
+<meta content='425150850893480' property='fb:admins'>
+
+
+  <script type="text/javascript" src="//use.typekit.net/bcy8jam.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22278705-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+</head>
+<body class='tracks-show'>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+      $(function () {
+        var navigationOffset = $('#navigation-bar')[0].offsetTop;
+
+        $(document).click(function(e) {
+          var user_menu = $("#user-links");
+          if (user_menu.css("display") == "block") {
+            // Hide the menu.
+            user_menu.css("display", "none");
+          }
+        });
+
+        $(document).bind('ready scroll', function() {
+          var docScroll = $(document).scrollTop();
+
+          if (docScroll > navigationOffset)
+          {
+            $('#navigation-bar').addClass('fixed');
+            $('#wrap').addClass('fixed-push');
+            $('#nav-logo').css("display", "block");
+          }
+          else
+          {
+            $('#navigation-bar').removeClass('fixed');
+            $('#wrap').removeClass('fixed-push');
+            $("#nav-logo").css("display", "none");
+          }
+
+          if ($("#autocomplete-list").css("display") != "none")
+          {
+              var search_position = $("#st-search-input").offset();
+              var search_height = $("#st-search-input").height();
+              var list_top = search_position.top + search_height + 18;
+
+              $("#autocomplete-list").css("top", list_top + "px");
+          }
+        });
+
+        var user_name_span = $("#user-pill > #name > span");
+        user_name_span.trunk8({lines: 2});
+        var name_height = user_name_span.height();
+        var name_y_offset = (36 - name_height) / 2;
+        user_name_span.css("top", name_y_offset + "px");
+
+        $("#user-pill").hover(function() {
+          $("#user-pill").css("background-color", "#5a2268");
+        }, function() {
+          $("#user-pill").css("background-color", "#460856");
+        });
+
+        $("#user-pill").click(function(e) {
+          var x_offset = Math.round($("#user-pill").offset().left);
+          $("#user-links").css("left", x_offset + "px");
+          $("#user-links").css("display", "block");
+
+          e.stopPropagation();
+        });
+
+        $(function() {
+          $("#st-search-input").focusin(function() {
+            $("#search-container > .text-wrapper").addClass("active");
+          });
+
+          $("#st-search-input").focusout(function() {
+            $("#search-container > .text-wrapper").removeClass("active");
+          });
+
+          var customRenderFunction = function(document_type, item) {
+            if (document_type == 'artist') {
+              var h = '<p class="title">' + item['displayname'] + '</p>';
+              h = h.concat('<p>' + item['external_id'] + '</p>');
+              // return '<p class="title">' + item['displayname'] + '</p>';
+              return h;
+            } else if (document_type == 'album') {
+              var h = '<p class="title">' + item['title'] + '</p>';
+              h = h.concat('<p>' + item['external_id'] + '</p>');
+              return h;
+            }
+            };
+
+            $('#st-search-input').focus(function() {
+              $("#autocomplete-list").css("display", "block");
+            });
+
+            $("#st-search-input").focusout(function() {
+              $("#autocomplete-list").css("display", "none");
+            });
+
+            $('#st-search-input').keyup($.debounce(100, perform_search));
+            function perform_search() {
+              var query = $(this).val();
+              if (query.length == 0) {
+                $("#autocomplete-list").remove();
+                return;
+              }
+
+              $.getJSON("/api/v3/autocomplete?q=" + $(this).val(), function(data) {
+                if ($("#autocomplete-list") != null) {
+                  $("#autocomplete-list").remove();
+                }
+
+                if (data["albums"].length == 0)
+                {
+                  // We didn't receive any results.
+                  return;
+                }
+
+                var search_position = $("#st-search-input").offset();
+                var search_height = $("#st-search-input").height();
+                var search_width = $("#st-search-input").width();
+                var list_top = search_position.top + search_height + 18;
+                // var list_left = (search_position.left - (300 - search_width)) + ((300 - search_width) / 2);
+                // var list_left = search_position.left - 31;
+                var list_left = (search_position.left - 5);
+                var result_list = "<ul id='autocomplete-list' style='top: " + list_top + "px; left: " + list_left + "px;'>";
+
+                if (data["artists"].length > 0) {
+                  result_list += "<li class='autocomplete-separator'>ARTISTS</li>";
+                }
+
+                $.each(data["artists"], function(i, item) {
+                  var result_item = "<li class='autocomplete-result-artist' data-href='" + "/artists/" + item["username"] + "'>";
+                  result_item += "<img src='" + item["avatar"]["small"] + "'/>"
+                  result_item += "<span>" + item["displayname"] + "</span>";
+                  result_item += "</li>";
+
+                  result_list += result_item;
+                });
+
+                if (data["albums"].length > 0) {
+                  result_list += "<li class='autocomplete-separator'>MIXTAPES</li>";
+                }
+
+                $.each(data["albums"], function(i, item) {
+                  var artist_title = null;
+                  if (item["artists"].length == 2) {
+                    artist_title = item["artists"][0]["displayname"] + " & " + item["artists"][1]["displayname"];
+                  } else {
+                    artist_title = item["artists"][0]["displayname"];
+                  }
+
+                  var result_item = "<li class='autocomplete-result-album' data-href='/mixtapes/" + item["slug"] + "'>";
+                  result_item += "<img src='" + item["covers"]["thumb"] + "'/>"
+                  result_item += "<span class='title'>" + item["title"] + "</span>";
+                  result_item += "<span class='subtitle'>" + artist_title + "</span>";
+                  result_item += "</li>";
+
+                  result_list += result_item;
+                });
+
+                result_list += "</ul>";
+                $("body").append(result_list);
+
+                $(".autocomplete-result-artist").mousedown(function() {
+                  var href = $(this).data("href");
+                  window.location.href = window.location.origin + href;
+                });
+
+                $(".autocomplete-result-album").mousedown(function() {
+                  var href = $(this).data("href");
+                  window.location.href = window.location.origin + href;
+                });
+              });
+            }
+
+          /* $('#st-search-input').swiftype({
+            engineKey: 'LoS4Fe8zAp8hEeRSR41p',
+            documentTypes: ['artist', 'album'],
+            renderFunction: customRenderFunction
+          }); */
+        });
+      });
+    </script>
+    <div id="wrap">
+      <div id="navigation-bar">
+        <div class="container">
+          <div id="logo"></div>
+          <ul class="nav-items"><li id="mixtapes"><a href="/" title="New Free Mixtape Releases">MIXTAPES</a></li><li id="singles"><a href="/singles" title="New Single Hip Hop Songs">SINGLES</a></li><li id="radio"><a href="/radio" title="Spinrilla Hip-Hop Radio">RADIO</a></li><li id="charts"><a href="/charts" title="Popular Hip Hop Mixtapes">CHARTS</a></li></ul>
+          <div id="search-container">
+            <div class="text-wrapper">
+              <div class="search-icon"></div>
+              <form id="search" method="get" action="/search">
+                <input type="text" name="q" id="st-search-input" class="search-query" placeholder="Search for music..." autocomplete="off">
+              </form>
+            </div>
+          </div>
+            <ul class="nav-items user">
+              <li><a href="/login">LOG IN</a></li>
+              <li><a href="/register">SIGN UP</a></li>
+            </ul>
+        </div>
+      </div>
+      <div style="display: table-row; height: 100%;">
+        <div id="height-wrap" style="height: 100%;">
+          <script src="//dpjsgvx0fhwmn.cloudfront.net/assets/numeral-9459773352bfbf7b9d860f6924145d65.js" type="text/javascript"></script>
+<script src="//dpjsgvx0fhwmn.cloudfront.net/assets/jquery.fancybox.pack-8b90db4fd2481eb165652d96b29505ea.js" type="text/javascript"></script>
+<link href="//dpjsgvx0fhwmn.cloudfront.net/assets/jquery.fancybox-42782c1fa55f925e7e6d129095e2bed9.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="//dpjsgvx0fhwmn.cloudfront.net/assets/StackBoxBlur-2212109932359983c6386d88a538fee6.js" type="text/javascript"></script>
+<script src="//dpjsgvx0fhwmn.cloudfront.net/assets/imagesloaded.pkgd-9c72db9fed069375f1d150668df85473.js" type="text/javascript"></script>
+<div id='v2-wrapper'>
+<div class='v2-row'>
+<div class='main'>
+<div id='track-info-container'>
+<div id='blur-container'>
+<img crossorigin='anonymous' id='blur-image' src='https://dpjsgvx0fhwmn.cloudfront.net/albums/29353/tiny/4be83082416e2b936413.JPG?1454257387'>
+<canvas height='150' id='blur-canvas' style='opacity: 0.5' width='660'></canvas>
+</div>
+<a href="https://dpjsgvx0fhwmn.cloudfront.net/albums/29353/large/4be83082416e2b936413.JPG?1454257387" class="fancybox"><img alt="4be83082416e2b936413" class="track-cover" src="https://dpjsgvx0fhwmn.cloudfront.net/albums/29353/thumb/4be83082416e2b936413.JPG?1454257387" /></a>
+<div id='track-metadata'>
+<h1 class='track-title'><a href="496283-khalaezzy-game-50k-walk">50k Walk</a></h1>
+<h2 class='track-artist'>Khalaezzy Game</h2>
+</div>
+<div id='track-extras'>
+<a class='v2-button download-track' data-id='496283' href=''>
+DOWNLOAD
+</a>
+<div id='track-stats'>
+<i class='fa fa-play'></i> <span class='play-count'>654</span> <span class='bullet'>•</span> <i class='fa fa fa-download'></i> <span class='download-count'>112</span>
+</div>
+</div>
+</div>
+<ul class='share-post'>
+<li>
+<div class='social-button twitter'>
+<a href="http://twitter.com/share?text=%23np+Khalaezzy+Game+-+50k+Walk+%40Khalaezzygame+%40Spinrilla+%C2%BB&amp;url=https%3A%2F%2Fspinrilla.com%2Fsongs%2F496283-khalaezzy-game-50k-walk" target="_blank"></a>
+</div>
+
+</li>
+<li>
+<div class='social-button facebook'>
+<a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fspinrilla.com%2Fsongs%2F496283-khalaezzy-game-50k-walk&amp;p[title]=Khalaezzy+Game+-+50k+Walk" target="_blank"></a>
+</div>
+
+</li>
+<li>
+<div class='social-button google'>
+<a href="https://plus.google.com/share?url=https%3A%2F%2Fspinrilla.com%2Fsongs%2F496283-khalaezzy-game-50k-walk" target="_blank"></a>
+</div>
+
+</li>
+<li>
+<div class='social-button embed'>
+<a href="#embedmodal" data-toggle="modal" role="button"></a>
+</div>
+</li>
+<div aria='{:labelledby=&gt;"embedmodallabel", :hidden=&gt;"true"}' class='modal hide fade' id='embedmodal' role='dialog' tabindex='-1'>
+<div class='modal-header'>
+<button aria='{:hidden=&gt;"true"}' class='close' data-dismiss='modal' type='button'>x</button>
+<h3 id='embedmodallabel'>Embed Song</h3>
+</div>
+<div class='modal-body'>
+<p>Copy the following HTML code to embed this song on your own website.</p>
+<textarea class='embed-code-container'>&lt;iframe width=&quot;100%&quot; height=&quot;150px;&quot; style=&quot;border: 0;&quot; src=&quot;https://spinrilla.com/tracks/496283/embed&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;</textarea>
+</div>
+<div class='modal-footer'>
+<button aria='{:hidden=&gt;"true"}' class='btn btn-primary' data-dismiss='modal'>Ok</button>
+</div>
+</div>
+</ul>
+<div class='appears-on'>
+<span>APPEARS ON </span>
+<span><a href="/mixtapes/khalaezzy-game-happy-belated">Happy Belated</a></span>
+</div>
+<div class='audio-container'>
+<audio preload='auto' src='https://spinrilla.com/tracks/496283/original.mp3?1454257428'></audio>
+</div>
+<div class='track-player'>
+<div class='play-pause-button'>
+<i class='fa fa-play'></i>
+</div>
+<div class='track-info'>
+<span class='title'>
+50k Walk
+</span>
+<span class='subtitle'>
+Khalaezzy Game • Happy Belated
+</span>
+</div>
+<div class='track-progress-bar'>
+<div class='progress-bar'></div>
+</div>
+</div>
+<div class='heading-container'>
+<div class='left'>
+<span>Comments</span>
+</div>
+<div class='right'></div>
+</div>
+<div>
+<div class='comments' style='margin-top: 20px; padding-left: 20px;'>
+<div class='new-comment'>
+<div class='comment-avatar' style='background-image: url(//dpjsgvx0fhwmn.cloudfront.net/assets/missing/avatar_comment_mobile-0db71a5267f2cc4ae2cc567bfb004b09.png)'></div>
+<form accept-charset="UTF-8" action="/comments" class="new" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ogm5hRNkeRDlAR71DA41vFxawgB4HiQv7YzTBXKKFPY=" /></div>
+<input id="model" name="model" type="hidden" value="Track" />
+<input id="model_id" name="model_id" type="hidden" value="496283" />
+<textarea class="message" disabled="disabled" id="message" name="message" placeholder="Sign in to post a new comment...">
+</textarea>
+<input class="btn btn-small btn-post btn-primary disabled" disabled="disabled" name="commit" type="submit" value="Post Comment" />
+</form>
+
+</div>
+
+</div>
+</div>
+</div>
+<div class='sidebar'>
+<div class="sidebar-item" style="padding-bottom: 3px;">
+  <div class="side-tweet">
+    <div class="speech-bubble">
+      <p>[Mixtape] Loe - Black Dreams 2 <a href="https://twitter.com/supafuturelove" target="_blank">@supafuturelove</a> » <a href="https://t.co/Af6aq154pw" target="_blank">https://t.co/Af6aq154pw</a></p>
+      <div id="arrow-stroke"></div>
+      <div id="arrow"></div>
+    </div>
+    <img alt="Twitter-bird" id="twitter-logo" src="//dpjsgvx0fhwmn.cloudfront.net/assets/twitter-bird-865bd7846e506f041ae3743439b70a12.png" />
+    <div style="float: right; padding-right: 5px;">
+      <a href="https://twitter.com/spinrilla" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @spinrilla</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+  </div>
+</div>
+
+<div class="sidebar-item">
+  <div style="width: 292px; margin: 0 14px;">
+    <div class="fb-like-box" data-href="https://www.facebook.com/spinrilla" data-width="292" data-height="215" data-show-faces="true" data-stream="false" data-header="true"></div>
+  </div>
+</div>
+
+
+<div class='sidebar-item' style='padding: 0 20px;'>
+<span class='side-heading'>Hot Mixtapes Right Now</span>
+<ul>
+<li>
+<a href="/mixtapes/dj-miles-tracks-of-the-month-april-edition-2016"><img alt="6023facb789651d9dbfa" class="cover" src="https://dpjsgvx0fhwmn.cloudfront.net/albums/40699/thumb/6023facb789651d9dbfa.png?1461001578" /></a>
+<div class='info'>
+<span class='title'><a href="/mixtapes/dj-miles-tracks-of-the-month-april-edition-2016">Tracks of the Month (April Edition) (2016)</a></span>
+<span class='artist'><a href="/artists/TheRealDJMiles">DJ Miles</a></span>
+</div>
+</li>
+<li>
+<a href="/mixtapes/young-scooter-street-lottery-3"><img alt="Fb9f03cb543229bf164c" class="cover" src="https://dpjsgvx0fhwmn.cloudfront.net/albums/8023/thumb/fb9f03cb543229bf164c.jpg?1458917413" /></a>
+<div class='info'>
+<span class='title'><a href="/mixtapes/young-scooter-street-lottery-3">Street Lottery 3</a></span>
+<span class='artist'><a href="/artists/YoungScooter">Young Scooter</a></span>
+</div>
+</li>
+<li>
+<a href="/mixtapes/dj-tee-cee-turnt-up-vol-25"><img alt="Dd46343fa62fde94f6c9" class="cover" src="https://dpjsgvx0fhwmn.cloudfront.net/albums/41839/thumb/dd46343fa62fde94f6c9.jpg?1461774782" /></a>
+<div class='info'>
+<span class='title'><a href="/mixtapes/dj-tee-cee-turnt-up-vol-25">Turnt Up Vol. 25</a></span>
+<span class='artist'><a href="/artists/DJTCEE">DJ Tee Cee</a></span>
+</div>
+</li>
+<li>
+<a href="/mixtapes/various-artists-the-hit-list-april-edition"><img alt="67195c244708f278b29d" class="cover" src="https://dpjsgvx0fhwmn.cloudfront.net/albums/40034/thumb/67195c244708f278b29d.jpg?1460442463" /></a>
+<div class='info'>
+<span class='title'><a href="/mixtapes/various-artists-the-hit-list-april-edition">The Hit List (April Edition)</a></span>
+<span class='artist'><a href="/artists/VariousArtists">Various Artists</a></span>
+</div>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+<div id='footer'>
+<ul class="navigation"><li id="mobile_apps"><a href="/apps" title="Download Mixtapes iOS Android App">Mobile Apps</a></li><li id="contact_f"><a href="/contact" title="Contact Spinrilla Staff">Contact</a></li><li id="faq_f"><a href="/faq" title="Frequently Asked Questions">F.A.Q.</a></li><li id="dmca_f"><a href="/dmca" title="DMCA Take Down Legal">DMCA</a></li><li id="press_kit_f"><a href="/presskit" title="Spinrilla Logo Press Kit">Press Kit</a></li><li id="privacy_policy"><a href="/privacy" title="Privacy Policy">Privacy Policy</a></li><li id="ad_choices_f"><a href="/adchoices" title="Ad Choices">Ad Choices</a></li></ul>
+<span id='subtitle'>
+Made with <i class='fa fa-heart'></i> in Atlanta
+</span>
+</div>
+
+</div>
+<script>
+  //<![CDATA[
+    var is_playing = false;
+    var audio = null;
+    
+    audiojs.events.ready(function() {
+      var as = audiojs.createAll({
+        updatePlayhead: function(percent) {
+          var current_value = $(".progress-bar").width();
+          if (percent == 1 && current_value < 1) return;
+    
+          $(".progress-bar").width((percent * 100) + "%");
+        }
+      });
+      audio = as[0];
+    }); 
+    
+    $(".play-pause-button").click(function() {
+      if (is_playing == false) {
+        if (audio.loadStartedCalled == false) {
+          audio.load('/tracks/496283/original.mp3?1454257428');
+        }
+    
+        audio.play();
+    
+        $(".play-pause-button > i").removeClass("fa-play");
+        $(".play-pause-button > i").addClass("fa-pause");
+    
+        is_playing = true;
+      } else if (is_playing == true) {
+        audio.pause();
+    
+        $(".play-pause-button > i").removeClass("fa-pause");
+        $(".play-pause-button > i").addClass("fa-play");
+    
+        is_playing = false;
+      }
+    });
+    
+    $(document).ready(function() {
+      $("h1.track-title").trunk8({lines: 1});
+      $("h1.track-artist").trunk8({lines: 1});
+      $("h1.track-album").trunk8({lines: 1});
+    
+      $(".track-info > span.title").trunk8({lines: 1});
+      $(".track-info > span.subtitle").trunk8({lines: 1});
+    
+      $(".fancybox").fancybox();
+    
+      $("#blur-image").crossOrigin = "anonymous";
+      $("#blur-container").imagesLoaded(function() {
+        spinrillaBoxBlurImage("blur-image", "blur-canvas", 40, false, 2, 660, 660, 660, 150);
+      });
+    
+      // Make the play & download count readable.
+      var play_count     = parseInt($("span.play-count").text());
+      var download_count = parseInt($("span.download-count").text());
+    
+      if (play_count > 999) {
+        play_count = numeral(play_count).format('0.0 a');
+        if (play_count.indexOf(".0") != -1) {
+          play_count = play_count.replace(".0", "");
+        }
+    
+        $("span.play-count").text(play_count);
+      }
+    
+      if (download_count > 999) {
+        download_count = numeral(download_count).format('0.0 a');
+        if (download_count.indexOf(".0") != -1) {
+          download_count = download_count.replace(".0", "");
+        }
+    
+        $("span.download-count").text(download_count);
+      }
+    
+      var can_download = false;
+      if (can_download) {
+        $(".download-track").click(function (event) {
+          event.preventDefault();
+    
+          window.location.href = "/tracks/" + $(this).data('id') + "/download";
+        });
+      } else {
+        $(".download-track").tooltip({
+          placement: "right",
+          title: "Login to Download Song"
+        });
+    
+        $(".download-track").click(function (event) {
+          event.preventDefault();
+        });
+    
+        $(".download-track").css("cursor", "default");
+      }
+    
+      $(".embed-code-container").click(function () {
+        $(this).select();
+      });
+    
+      $('.message').focus(function() {
+        $(this).animate({
+          height: '100px'
+            }, 250, function() {
+    
+              });
+            });
+    
+        $(".reply").on("click", openReply);
+      });
+    
+    function openReply() {
+      var id = $(this).parent().parent().data("id");
+      var comment = $('div[data-id="' + id + '"]');
+      var comment_main = $('div[data-id="' + id + '"] > .main');
+    
+      if (comment.find(".child-comment").length > 0) {
+        // Has a child comment.
+        $("<form action='/comments' method='post' class='reply-create' style='margin: 0 20px 20px 0;'></form>").insertAfter(comment_main);
+      } else {
+        // Does not have a child comment.
+        $("<form action='/comments' method='post' class='reply-create' style='margin: 10px 20px 5px 0;'></form>").insertAfter(comment_main);
+      }
+    
+      replyForm = comment.children("form");
+    
+      replyForm.prepend('<input name="authenticity_token" type="hidden" value="ogm5hRNkeRDlAR71DA41vFxawgB4HiQv7YzTBXKKFPY=" />');
+      replyForm.append("<input type='hidden' id='model' name='model' value='Track' />");
+      replyForm.append("<input type='hidden' id='model_id' name='model_id' value='496283' />");
+      replyForm.append("<input type='hidden' id='parent_id' name='parent_id' value='" + id + "' />");
+      replyForm.append("<textarea type='text' name='message' id='message' placeholder='Write a reply...'></textarea>");
+      replyForm.append("<input type='submit' class='btn btn-primary btn-small' value='Post Reply' style='float: right;' />");
+    
+      $(this).text("Close");
+    
+      $(this).off("click", openReply);
+      $(this).on("click", closeReply);
+    }
+    
+    function closeReply() {
+      var id = $(this).parent().parent().data("id");
+      var comment = $('div[data-id="' + id + '"]');
+      var reply = comment.children('.reply-create');
+    
+      reply.remove();
+    
+      $(this).text("Reply");
+    
+      $(this).off("click", closeReply);
+      $(this).on("click", openReply);
+    }
+  //]]>
+</script>
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

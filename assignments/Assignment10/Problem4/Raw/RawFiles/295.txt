@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=4407ac63b04a974114891da19b333539"></script>
+<!DOCTYPE html>
+
+<!--                                                                                                 
+
+Observer Theme
+By Zack Sultan
+Released January 2013
+Revised April 16, 2014
+                
+-->
+
+<html>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <title>JKMesh &#8212; Not Found</title>
+        <style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}</style>
+<link rel="shortcut icon" href="http://67.media.tumblr.com/avatar_19ca34dac20b_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://www.jkmesh.com/rss">
+        
+            <meta name="description" content="Not Found - The URL you requested could not be found." />
+        
+        <link rel="shortcut icon" href="http://67.media.tumblr.com/avatar_19ca34dac20b_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://www.jkmesh.com/rss">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+
+
+
+<!-- Options -->
+
+
+        <meta name="if:Show Navigation" content="1"/>
+        <meta name="if:Alternate Header Layout" content="0"/>
+        <meta name="if:Show Description" content="0"/>
+        <meta name="if:Show Archive Navigation Link" content="1"/>
+        <meta name="if:Wide Images" content="1"/>
+        <meta name="if:Photoset Layout" content="0"/>
+        <meta name="if:Show Post Tags" content="1"/>
+        <meta name="if:Show Post Notes" content="1"/>
+        <meta name="if:Show Copyright" content="0"/>
+        <meta name="if:Infinite Scroll" content="1"/>
+        
+        <meta name="Title font" content="Gibson">
+        <meta name="Title font weight" content="bold" title="Bold">
+        <meta name="Title font weight" content="normal" title="Normal">
+        <meta name="font:Body font" content="Calluna"/>
+        
+        <meta name="Background color" content="#fff">
+        <meta name="Title color" content="#444444">
+        <meta name="Link color" content="#5f79a4">
+        
+        <meta name="color:Body text" content="#333333"/>
+		<meta name="color:Secondary text" content="#888888"/>    
+        <meta name="image:Logo" content=""/>
+        <meta name="text:TypeKit ID" content=""/>
+        <meta name="text:Title Font" content=""/>
+        <meta name="text:Body Font" content=""/>
+        <meta name="text:Post Headline Font" content=""/>
+        <!--<meta name="text:Secondary Font" content=""/>-->
+        
+        <meta name='text:Disqus Shortname' content='' />
+        <meta name='text:Google Analytics' content='' />
+        
+<!-- Scripts -->
+
+    <script src="http://static.tumblr.com/4kpnlef/Pttmhz2ap/jquery-1.9.1.min.js"></script>
+    
+    
+    
+    
+    
+    <!-- Media resizing -->    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Make desktop tumblr video stretch to 100%
+            $('.tumblr_video_container').css({ 'width' : '100%', 'height' : '100%' });
+            // Resize tumblr video on mobile
+            $('.iphone-video a').css({ 'width' : '100%', 'height' : '200px' });
+		});        
+        
+        //Make Spotify the right size and responsive
+	    $(document).ready(function(){
+	        $('.mobile-spotify iframe').css('height', '80px');
+            $('.mobile-spotify iframe').css('width', '290px'); 
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+        $(window).resize(function() {
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+        
+        //disable safari active states
+        document.addEventListener("touchstart", function() {},false);
+        
+	</script>
+
+
+    
+
+<!-- Style Sheet -->
+        
+<style type="text/css">
+
+.regular p {
+	font-weight: bold;
+	color:aqua;
+}
+
+.regular .bottom-nav {
+	display: none;
+}
+
+::selection {
+    background: #529ECC; /* Safari */
+	color: #333333;
+	}
+	
+::-moz-selection {
+	background: #529ECC; /* Firefox */
+	color: #333333;
+}
+
+body {
+	margin: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+    font-size:18px;
+	-webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+	
+p, li, blockquote {
+	line-height: 28px;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.ir {
+	text-indent: -99999em;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Global colors 
+********************************/
+
+body {
+	color: #333333;
+	background-color: #FAFAFA;
+}
+
+.blog-description {
+	color: #888888;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+#header h1 a {
+	color: #444444;
+	border-bottom: none;
+}
+
+a:hover {
+}
+
+a:active {
+	position: relative;
+	outline: none;
+	top: 1px;
+}
+
+
+.metadata a, #footer-links a, #footer p.promo a, .links a {
+	color: #888888;
+	border-bottom: none;
+}
+
+.metadata a:hover, #footer-links a:hover, #footer p.promo a:hover, .links a:hover, .more a:hover, a.mobile-player:hover {
+
+}
+
+.post {
+	border-bottom: 1px solid rgba(136, 136, 136, 0.2);
+}
+
+.colophon p {
+	color: #888888;
+}
+
+
+/* Global fonts 
+********************************/
+
+body {
+	font-family:  'Calluna', serif, georgia, serif;
+	font-weight: normal;
+}
+
+.title h1, .link-title h1, .chat-title h1, .q h1, .a h1, .album-info h2, #footer h2 {
+	font-family: Technology/Computing/Games/Science, 'Gibson', sans-serif, georgia, serif;
+	font-weight: bold;
+}
+
+.blog-title h1 {
+	font-family:  'Gibson', sans-serif, futura, helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 1em;
+}
+
+.metadata a {
+	font-family:  , helvetica, arial, sans-serif;
+	font-weight: normal;
+}
+
+
+/* Page 
+********************************/
+
+
+
+
+#page {
+    border: 0px solid;
+	max-width: 640px;
+	padding-left:  50px;
+	padding-right: 50px;
+	margin: auto;
+}
+
+
+
+
+
+
+/* Header Centered
+********************************/
+
+#header {
+	margin-top: 20px;
+	margin-bottom: 80px;
+	display: block;
+	overflow: visible;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+.blog-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.blog-title a {
+	border-bottom: none;
+}
+
+.blog-title img {
+	max-width: 100%;
+}
+
+.blog-description { 
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.links {
+	margin-top: 0px;
+	text-align: center;
+	float: none;
+	border-bottom: 1px solid rgba(136, 136, 136, 0.2);
+}
+
+.links ul {
+	margin-top: 10px;
+	padding: 0;
+	display: block;	
+	text-align: center;
+	float: none;
+}
+
+.links li {
+	display: inline;
+	margin-left: 10px;
+	text-transform: none;	
+}
+
+.links li:first-child {
+	margin-left: 0px;	
+}
+
+
+
+/* Post wrappers
+********************************/
+
+#content {
+	width: 100%;
+	overflow-x: hidden;
+	clear: both;
+}
+
+.post {
+	margin-bottom: 45px;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+.narrow {
+	max-width: 640px;
+	margin: auto;
+}
+
+
+/* Headings
+********************************/
+
+.title h1, .link-title h1, .chat-title h1 {
+	text-align: center;
+	margin: auto;
+	margin-bottom: 25px;
+	font-size: 42px;
+	line-height: 50px;
+}
+
+.link-title a {
+	text-decoration: none;
+	position: relative;
+	border: none;
+	color: #529ECC;
+}
+
+span.link-arrow {
+	position: relative;
+	font-size: 20px;
+	bottom: 3px;
+}
+
+.quote-short {
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 25px;
+}
+
+.photo img, .album-art img, .videoWrapper {
+    max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-radius: 2px;
+}
+li {    list-style-type: none;}
+
+.photo img, .album-art img {
+/*	min-width: 640px;*/
+}
+
+.photoset-layout {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.tumblr_audio_player {
+	height: 250px;
+}
+
+.audio iframe {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;	
+}
+
+.videoWrapper iframe, .videoWrapper object {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* Post body styles
+********************************/
+
+.caption p {
+	margin-bottom: 15px;
+}
+
+.caption h1 {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.caption h2 {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+
+.caption blockquote {
+	margin-bottom: 10px;
+	border-left: 3px solid rgba(136, 136, 136, 0.2);
+	margin-left: 5px;
+	padding-left: 15px;
+	line-height: 26px;
+}
+
+.caption pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	background-color: rgba(136, 136, 136, 0.2);
+	border-radius: 2px;
+	padding: 10px 15px 10px 15px;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 15px 0 25px 0;
+}
+
+.caption ul, ol {
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding-left: 40px;
+}
+
+.caption img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto 30px auto;
+    border-radius: 2px;
+}    
+
+.quote-short {
+	line-height: 40px;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.quote-medium, .quote-long {
+	line-height: 32px;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+ul.chat {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.chat li {
+	border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.chat li:last-child {
+	border: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+span.odd, span.even  {
+	font-weight: bold;
+}
+
+.more a {
+	display: block;
+	width: 99%;
+	height: 30px;
+	border: 1px solid rgba(136, 136, 136, 0.3);
+	text-align: center;
+	text-decoration: none;
+	border-radius: 2px;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+
+
+.more a:active {
+    background: rgba(136, 136, 136, 0.08);
+    box-shadow: inset 0px 1px 4px rgba(136, 136, 136, 0.2);
+    top: 0px;
+} 
+
+.audio-module {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+a.mobile-player {
+	border: 1px solid rgba(136, 136, 136, 0.2);
+	background: rgba(136, 136, 136, 0.1);
+	width: 99%;
+	padding: 30px 0 30px 0;
+	margin-bottom: 25px;
+	border-radius: 2px;
+	display: none;
+}
+
+a.mobile-player:active {
+    top: 0px;
+    box-shadow: inset 0px 1px 4px rgba(136, 136, 136, 0.2);
+    background: rgba(136, 136, 136, 0.18);
+    border: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+.play-triangle {
+	margin-left: 20px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 6.5px 0 6.5px 10px;
+	border-color: transparent transparent transparent rgba(136, 136, 136, 0.8);
+}
+
+.album-info {
+	display: block;
+	float: left;
+	width: 63%;
+}
+
+.player {
+	display: block;
+	background-color: #ffffff;
+	float: right;
+	padding-top: 5px;
+	padding-right: 2px;
+	border: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+.desktop-spotify {
+	display: block;
+	
+}
+
+.mobile-spotify {
+	display: none;
+	width: 290px;
+	margin: auto;
+}
+
+.iphone-video object {
+    display: block;
+    margin: 0px auto 20px; 
+}
+
+.asker-block, .answer-text {
+	display: block;
+	overflow: auto;
+}
+
+p.question {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+p.album, p.question {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+h1.qa-letter {
+	display: block;
+	float: left;
+	width: 45px;
+	position: relative;
+	bottom: 3px;
+	font-size: 30px;
+}
+
+.q {
+	margin-bottom: 20px; 
+}
+
+img.asker {
+	float:left;
+	margin-right: 8px;
+	border-radius: 2px; 
+	position: relative;
+	top: 2px;
+}
+
+p.asker {
+	font-style: italic;
+}
+
+p.question {
+	clear: both;
+}
+
+
+/* Metadata
+********************************/
+
+.metadata {
+	border: 0px solid gray;
+	overflow: auto;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.metadata a {
+	text-decoration: none;
+}
+
+.date, .tags, .notes-count {
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+
+.tags a, .notes-count a, .date a {
+	margin-right: 12px;
+}
+
+
+/* Footer
+********************************/
+
+#footer {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#footer a {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+a.back-next {
+    margin: 0px 10px 0px 10px;    
+}
+
+#footer h2 {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+#footer-links ul {
+	margin-bottom: 0px;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+
+#footer-links li {
+	display: inline;
+	margin-left: 5px;
+	font-size: 14px;
+}
+
+#footer-links li:first-child {
+	margin-left: 0px;
+}
+
+#footer .colophon p {
+	font-size: 14px;
+	font-style: italic;
+}
+
+#footer p.promo {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+
+/* Notes and comments
+********************************/
+
+#permalink-content {
+	margin-top: 40px;
+}
+
+.avatar_frame {
+	position: relative;
+	top: 4px;
+	margin-right: 10px;
+}
+
+.comments {
+	margin-bottom: 35px;
+}
+
+.comments h3, .permalink-notes h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.permalink-notes ol {
+	padding-left: 0;
+}
+
+.permalink-notes li {
+	list-style: none;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	border-top: 1px solid rgba(136, 136, 136, 0.3);
+	font-size: 13px; 
+}
+
+.permalink-notes blockquote {
+	margin: 5px 0px 5px 0px;
+	border-left: 3px solid rgba(136, 136, 136, 0.2);
+	margin-left: 20px;
+	padding-left: 15px;
+    line-height: 24px;
+}
+
+.notes a {
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+
+.post iframe, .post object {
+max-width: 100%;
+}
+
+
+/* Browser size break-points
+********************************/
+
+
+@media screen and (max-width: 800px) {
+
+#header {
+	margin-top: 20px;
+	display: block;
+	overflow: visible;
+	padding-bottom: 0px;
+}
+
+.blog-title {
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	float: none;
+	width: 100%;
+    margin-bottom: 50px;
+}
+
+.blog-title h1 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.blog-description {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.links {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	float: none;
+	border-bottom: 1px solid rgba(136, 136, 136, 0.4);
+}
+
+.links ul {
+	margin-top: 10px;
+	padding: 0;
+	display: block;	
+	text-align: center;
+	float: none;
+}
+
+.links li {
+	display: inline;
+	margin-left: 16px;
+	font-size: 17px;
+	text-transform: none;	
+}
+
+
+.metadata {
+	font-size: 16px;
+	}
+
+.player {
+	display: none;
+}
+
+a.mobile-player {
+	display: block;
+}
+
+.album-info {
+	width: 100%
+}
+
+.title h1, .link-title h1, .chat-title h1 {
+text-align: center;
+font-size: 36px;
+line-height: 42px;
+}
+
+}
+
+@media screen and (max-width: 740px) {
+
+#page {
+	padding-left:  1em;
+	padding-right: 1em;	
+}
+
+#header {
+	margin-bottom: 50px;
+}
+
+/* WRANGLE TUMBLR VIDEO PLAYER */
+
+
+.iphone-video img {
+	width: 90%;
+}
+
+.iphone-video a {
+	margin-bottom: 20px;
+}
+
+/* IMAGES */
+
+.photo img, .album-art img {
+	min-width: 100%;
+}
+
+.link-title a {
+	line-height: 50px;
+}
+
+.desktop-spotify {
+	display: none;
+}
+
+.mobile-spotify {
+	display: block;
+}
+
+}
+
+
+    
+</style>
+
+<!-- End header -->
+    
+    <script type="text/javascript"> 
+$(init);
+function init() {
+var pageTitle = $('a.post-title').text();
+//console.log(pageTitle);
+if (pageTitle.indexOf("Not Found") > -1){window.location.href = "http://"+ window.location.hostname + "/random";}}
+</script>
+    
+    
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=kirschbaumj%26postID=" />
+<link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=kirschbaumj&postID=" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=8b0553f75283ecbeb78be24f096f4c2c"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/calluna/stylesheet.css?v=3"><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:site_name" content="" /><meta property="og:title" content="Not Found" /><meta property="og:url" content="" /><meta property="og:description" content="The URL you requested could not be found." /><meta property="og:determiner" content="a" /><meta property="og:type" content="tumblr-feed:entry" /><meta property="og:image" content="http://assets.tumblr.com/images/og/text_200.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=kirschbaumj&amp;postID=" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=kirschbaumj&amp;postID=" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:description" content="kirschbaumj" /><meta name="twitter:title" content="kirschbaumj" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=kirschbaumj&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=kirschbaumj&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=kirschbaumj&amp;referrer=twitter-cards" />
+
+</head>
+       
+	<body>
+		
+		<div id="page">
+		
+			<div id="header">
+                
+                
+				<div class="links">
+					<ul>
+						<li><a href="/">Home</a></li>
+                        
+                        
+                        
+                        
+                        <li><a href="/archive">Archive</a></li>
+                        
+					</ul>
+				</div>
+				
+                
+                
+                
+				<div class="blog-title">
+                
+                    
+                    
+                    
+                    <h1><a href="/">JKMesh</a></h1>
+                    
+					
+                    
+					<p class="blog-description">Technology / Computing / Games / Science</p>
+                    
+				</div>
+				
+				
+			
+			</div> <!-- header end -->
+			
+			<div id="content">
+            
+			
+				
+                
+                <!-- TEXT POST 
+				///////////////////////////////////////////////////////-->
+
+				<div class="post text">
+				
+					<div class="narrow">
+					    
+                        
+						<div class="title">
+							<h1>	<a class="post-title" href="">Not Found</a></h1>						
+						</div>
+                        
+																<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7828012764819824"
+     data-ad-slot="7467986021"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>	
+						<div class="caption">
+							<a href="">
+						<p>The URL you requested could not be found.</p>
+						</a>
+						</div> <!-- End caption -->
+					    
+                         
+					
+						<div class="metadata">
+						    
+                            
+							
+                            
+                            
+                             
+							 
+						    
+                            
+                            
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- text end -->
+	
+									
+									<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7828012764819824"
+     data-ad-slot="7467986021"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>	
+
+				</div> <!-- post end -->
+                
+				
+				
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+                
+            
+                <!-- PERMALINK CONTENT 
+                ////////////////////////////////////////////////// -->
+				    
+                <div class="narrow">
+                    
+						<div id="permalink-content">
+                        
+                        
+					        
+                            
+					
+						</div> <!-- permalink content end -->  
+				
+				
+
+			</div> <!-- content end -->
+			
+			<div id="footer">
+			    
+                
+                
+                
+                
+				<div id="footer-links">
+					
+						<ul>
+							<li><a href="/">Home</a></li>
+                            
+                            
+                            
+                            <li><a href="/archive">Archive</a></li>
+					</ul>
+				</div>
+				
+				<div class="colophon">
+					
+                    
+                    
+<div  onclick="return false;" style="pointer-events:none;">
+<center><script type="text/javascript" src="http://widget.supercounters.com/online_t.js"></script><script type="text/javascript">sc_online_t(1178991,"","aaaaaa");</script>
+</center>
+</div>
+
+<!-- Begin W3Counter Tracking Code -->
+<script type="text/javascript" src="https://www.w3counter.com/tracker.js"></script>
+<script type="text/javascript">
+w3counter(99413);
+</script>
+<noscript>
+<div><a href="http://www.w3counter.com"><img src="https://www.w3counter.com/tracker.php?id=99413" style="border: 0" alt="W3Counter" /></a></div>
+</noscript>
+<!-- End W3Counter Tracking Code -->
+
+<p><span style="text-transform:uppercase">Amazon Affiliate Disclosure:</span> <br/><b>kirschbaumj.tumblr.com</b> is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</p>
+
+<p><span style="text-transform:uppercase">eBay Affiliate Disclosure:</span><br/> <b>kirschbaumj.tumblr.com</b> is a participant in eBay's eBay Partner Network affiliate program, and is authorized by eBay's affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to ebay.com.</p>
+
+<p>
+<b>kirschbaumj.tumblr.com</b> and our advertisers may use cookies to personalize content and ads, to provide social media features and to analyze our traffic, advertising and analytic partners. See the privacy policy for details.</p>
+					<p class="promo">Observer theme by Zack Sultan</p>
+				</div>
+			
+			</div><!-- content end -->
+		
+		</div> <!-- page end -->
+
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?3fc3652c0f8f5058bb8bcd113bf32e17#" +
+                              "http://www.jkmesh.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/random/post/139004017515/double-down-game-change-2012-unabridged-mark?route=404_page'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '404_page';
+                    var tumblelog_id = '275210944';
+                    var yahoo_space_id = '1197719233';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1461992939&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LmprbWVzaC5jb21cL3JhbmRvbVwvcG9zdFwvMTM5MDA0MDE3NTE1XC9kb3VibGUtZG93bi1nYW1lLWNoYW5nZS0yMDEyLXVuYWJyaWRnZWQtbWFyayIsInJlcXR5cGUiOjAsInJvdXRlIjoiNDA0X3BhZ2UifQ==&U=BJDEBJHGPE&K=3fb3eb4b57e601104c632de41f5c4986c9d670ddd9a277dbca788804c3d36481&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1461992939&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LmprbWVzaC5jb21cL3JhbmRvbVwvcG9zdFwvMTM5MDA0MDE3NTE1XC9kb3VibGUtZG93bi1nYW1lLWNoYW5nZS0yMDEyLXVuYWJyaWRnZWQtbWFyayIsInJlcXR5cGUiOjAsInJvdXRlIjoiNDA0X3BhZ2UiLCJub3NjcmlwdCI6MX0=&U=BJDEBJHGPE&K=78676aaa04b83196169a0a8be039f5112cae0f91a59069ce0eef4887ad110240&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script>
+<noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;TumblelogIframe&quot;:{&quot;tumblelogBundleSrc&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=400a0b936ada57c88ad7f708a2e02f31&quot;,&quot;tumblelogName&quot;:&quot;kirschbaumj&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;tumblelogTitle&quot;:&quot;JKMesh&quot;,&quot;tumblelogAvatar&quot;:&quot;http:\/\/67.media.tumblr.com\/avatar_19ca34dac20b_40.png&quot;,&quot;tumblelogHost&quot;:&quot;http:\/\/www.jkmesh.com&quot;,&quot;brag&quot;:false,&quot;currentPageType&quot;:null,&quot;currentPage&quot;:false,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;http:\/\/www.jkmesh.com\/random\/post\/139004017515\/double-down-game-change-2012-unabridged-mark&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;http:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=282357db21d8a5883cc1c780ace4cb5f&quot;,&quot;appInstallUrl&quot;:&quot;https:\/\/go.onelink.me\/893408789?pid=tumblr_blog_network\u0026c=tumblr_blog_network\u0026af_sub3=blog_name&quot;}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aV9wYXJzZV90ZXN0Ijp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9zZWFyY2giOnRydWUsIm1vYmlsZV93ZWJfc2VhcmNoX2ZpbHRlciI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwiYmxvY2tfZmVhdHVyZSI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2Vycm9yc19sb2ciOnRydWUsImVuYWJsZV9qc19lcGhlbWVyYWxfbG9nIjp0cnVlLCJsb2dfbGFkeSI6dHJ1ZSwiY3Nsb2dnZXJfanMiOnRydWUsImRpc2NvdmVyeV9odWJfYWNjZXNzIjp0cnVlLCJoZWFkZXJfYWNjb3VudF9tZW51Ijp0cnVlLCJlbmFibGVfcHJpbWFfc2hhcmVfcG9wb3ZlciI6dHJ1ZSwiZW5hYmxlX3NoYXJlX2VtYmVkX2NvZGUiOnRydWUsInBpbnRlcmVzdF9zaGFyaW5nIjp0cnVlLCJyZWRkaXRfc2hhcmluZyI6dHJ1ZSwicG9zdF9pdF9mb3J3YXJkIjp0cnVlLCJwZWVwcl9zZWFyY2hfYW5kX2ZpbHRlciI6dHJ1ZSwiaW50ZXJuc19wYWdlIjp0cnVlLCJmb2xsb3dlZF9zZWFyY2hlc19iaWdfd2ViIjp0cnVlLCJkaXNhYmxlX3B1YmxpY19yZXBsaWVzIjp0cnVlLCJ3ZWJfYmxvZ19zdWJzY3JpcHRpb25zIjp0cnVlLCJub3Rlc19yZWRlc2lnbl9waGFzZV8wMSI6dHJ1ZSwibmV3X3JlcGxpZXMiOnRydWUsImNvbnNvbGlkYXRlZF9zaGFyZV93ZWIiOnRydWUsImRpc2FibGVfeWFob29fYl9jb29raWUiOnRydWUsInByaW1hX3R1bWJsZWxvZ19idW5kbGUiOnRydWV9&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1461992939000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;http:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/secure.assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;http:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;http:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;http:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;},&quot;Translations&quot;:[]}"></noscript>
+<script src="http://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=400a0b936ada57c88ad7f708a2e02f31"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,518 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<link rel="icon" 
+      type="image/png" 
+      href="http://www.djclarck.com/icon_djclarck.png" />
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="Kb2Nqb-JcKFe5yt-1t6376029pJRDfjX-pb8qMfKbrE" />
+<meta property="og:url" content="http://www.eletriccafe.com.br/radio/"> 
+<meta property="og:title" content="Rádio Eletric Cafe">
+<meta property="og:site_name" content="Eletric Cafe">
+<meta property="og:description" content="Escute agora no seu computador, smartphone ou tablet">
+<meta property="og:image" content="http://www.eletriccafe.com.br/radio/images_html5/eletriclogo14_600.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="250">
+<meta property="og:type" content="website">
+<meta property="fb:app_id" content="380285862139985" />
+<meta name="google-site-verification" content="nJuGuxiqPsTwEt5JsNjonUgQX5QVvzdWzzP_S4v3KUc" />
+<meta name="keywords" content="eletric cafe, eletric cafe radio, electric cafe radio, dj clarck, webradio, music, underground, gothic, ebm, industrial, indie, 80s, anos 80, balada, shows, promoções, vinil, radio, anos 90, the smiths, the cure, new order, depeche mode, alternativo">
+<meta name="description" content="Programação com o melhor do alternativo underground 24h no ar, transmitindo em 128kbps, Santo André, São Paulo, Brasil. Entrevistas, Playlists, ao-vivo, djsets, promoções, divulgação, baladas">
+<meta name="author" content="Eletric Cafe">
+<meta name="robots" content="index, follow">
+<!--<meta property="fb:admins" content="648183698" />-->
+<meta property="fb:app_id" content="380285862139985" />
+
+<title>Eletric Cafe - Alternative Underground Web Radio</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/fluid_layout_radio3.css" rel="stylesheet" type="text/css">
+<link href="css/morph.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body,td,th {
+	color: #FFF;
+	
+}
+body {
+	background-color: #000;
+
+}
+</style>
+<style>
+
+.imgsched {
+	width: 32%;
+}
+
+.imgsched:hover {
+	width: 33%;
+}
+
+.myButton {
+/*	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;*/
+	background-color:#ffffff;
+	/*-moz-border-radius:6px;
+	-webkit-border-radius:6px;*/
+	/*border-radius:6px;*/
+/*	border:1px solid #ffffff;*/
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:1px 3px;
+	text-decoration:none;
+	/*text-shadow:0px 1px 0px #ffffff;*/
+}
+.myButton:hover {
+	background-color:#c9c9c9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#container {
+	/*float:right;
+	/*width:auto;*/
+/*	margin-left:0px;*/
+
+}
+
+
+
+#container #info .icon {
+	
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url('http://www.djclarck.com/images_html5/ssm-sprite.png') 0px -22px no-repeat;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+}
+
+#container #info .icon-on  { background-position: -22px -22px; }
+#container #info .icon-off { background-position: -44px -22px; }
+
+#container #info .text {
+	float: left;
+	overflow: hidden;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 6px;
+	width:auto
+}	
+
+.schedbutton {
+  display: none;
+   /*position: relative;
+ /* height: 100%;*/
+ /* width: 130%;
+  height:300px;
+  border: 1px solid black;
+  background: white;
+  color:#000;
+  text-align:left;
+  margin-top:-60%;
+  margin-left:-30%;*/*/
+}
+
+</style>
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+
+<script src="respond.min.js"></script>
+<script src="http://api.html5media.info/1.1.6/html5media.min.js"></script>
+<script type="text/javascript" src="http://streaming11.hstbr.net/static/js/jquery.js" charset="utf-8"></script>
+<!--<script type="text/javascript" src="http://streaming11.hstbr.net/static/js/player.js" charset="utf-8"></script>-->
+<!--<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
+<script type="text/javascript" src="coverart.js" charset="utf-8"></script>
+<script src="js/jquery.popupoverlay.js"></script>
+
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=380285862139985&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+ <script>
+    $(document).ready(function() {
+
+      // Initialize the plugin
+      $('#schedule_popup').popup();
+	  $('#promo_popup').popup();
+	  $('#share_popup').popup();
+	  $('#artwork_popup').popup();
+	  //$('#sun_popup').popup();
+//	  $('#mon_popup').popup();
+//	  $('#tue_popup').popup();
+//	  $('#wed_popup').popup();
+//	  $('#thu_popup').popup();
+//	  $('#fri_popup').popup();
+//	  $('#sat_popup').popup();
+	  $('#google_popup').popup();
+      $('#togleimg');
+ var timerr = setTimeout('showgoogle()',30000);
+var timerr = setTimeout('showgoogle()',240000);
+  var timerrr =  setInterval('togleimg()',40000);
+ 
+    });
+ 
+function showgoogle() {
+
+   // Initialize the plugin
+      $('#google_popup').popup('show');
+	 
+}
+function togleimg() {
+
+   // Initialize the plugin
+ 
+ 
+ 
+      document.getElementById("artimage").src = "images_html5/eletriclogo14_600.png";
+	 
+}
+ 
+
+ 
+  </script>
+
+<script type="text/javascript">
+var show = function (toggleID, me){
+  toggleID.style.left = me.offsetLeft;
+  toggleID.style.top = me.offsetTop + me.fontSize;
+  toggleID.style.display = "block";
+};
+
+
+
+
+
+
+</script>
+
+
+
+</head>
+
+
+<body>
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"RVYJk1a4eFf2O7", domain:"eletriccafe.com.br",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=RVYJk1a4eFf2O7" style="display:none" height="1" width="1" alt="alexa" /></noscript>
+<!-- End Alexa Certify Javascript -->  
+
+
+<div id="fb-root"></div>
+<div class="gridContainer clearfix">
+  <div id="header" style="text-align:center"><img src="images_html5/banner_radio.png" alt="banner"></div>
+  <div id="player_div" style="text-align:center"> 
+  
+  <div id="container" style="text-align:center;" >
+<!--<a class="artwork_popup_open" href="javascript:void(0)"><img src="images_html5/coverart100.png" alt="art" id="artimage1" style="margin-top:3px; width:9%"></a>-->
+<img class="buttonplayer" src="images_html5/button_pla.png" alt="play" onClick="document.getElementById('player').play(); document.getElementById('tracktime').innerHTML='loading...'; document.getElementById('volumelevel').innerHTML = Math.floor(player.volume * 100);" >
+<img class="buttonplayer" src="images_html5/button_pau.png" alt="pause" onClick="document.getElementById('player').pause();">
+<img class="buttonplayer" src="images_html5/button_sto.png" alt="stop" onClick="player.src = ''; player.src = 'http://streaming11.hstbr.net:8182/live';; document.getElementById('tracktime').innerHTML='stopped';">
+<img class="buttonplayer" src="images_html5/button_volup.png" alt="volumeup" onClick="document.getElementById('player').volume+=0.1">
+<img class="buttonplayer" src="images_html5/button_voldo.png" alt="volumedown" onClick="document.getElementById('player').volume-=0.1">
+<div id="extrabuttons" style="display:inline"> </div>
+
+  <br />
+  <div id="info" class="infostyle fontwalk">
+       	
+            <span class="icon"></span>
+            <span class="text">carregando...</span>
+          
+           
+         
+
+    </div>
+  <div style="display:inline-block" class="fontwalk">&nbsp;<img src="images_html5/streaming.png" alt="str" width="26" style="margin-bottom:-9px"><span id="tracktime">stopped</span> - Vol <span id="volumelevel">0</span>%</div>
+    </div> 
+   <div id="letra" class="lyrics fontwalk"></div>  
+   </div>
+<div id="art" style="" >
+    <audio id='player' autoplay style="display:none" >
+    
+  <source src="http://streaming11.hstbr.net:8182/live" type='audio/mpeg'/></audio>
+ 
+
+    
+<!--<audio id="myAudio" controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+ontimeupdate='document.getElementById("tracktime").innerHTML = Math.floor(this.currentTime) + "s"' onvolumechange='document.getElementById("volumelevel").innerHTML = Math.floor(this.volume * 100)'
+
+</audio>-->
+
+<!--<p>Playback position: <span id="tempo"></span></p>-->
+
+<script>
+// Get the audio element with id="myAudio"
+var aud = document.getElementById("player");
+
+
+
+// Assign an ontimeupdate event to the audio element, and execute a function if the current playback position has changed
+aud.ontimeupdate = function() {myFunctiontempo()};
+
+
+
+
+function myFunctiontempo() {
+    // Display the current position of the audio in a p element with id="demo"
+var currTime = Math.floor(aud.currentTime).toString();
+    document.getElementById("tracktime").innerHTML = formatSecondsAsTime(currTime);
+	 document.getElementById("volumelevel").innerHTML = Math.floor(aud.volume * 100);
+}
+
+function formatSecondsAsTime(secs, format) {
+  var hr  = Math.floor(secs / 3600);
+  var min = Math.floor((secs - (hr * 3600))/60);
+  var sec = Math.floor(secs - (hr * 3600) -  (min * 60));
+
+  if (min < 10){ 
+    min = "0" + min; 
+  }
+  if (sec < 10){ 
+    sec  = "0" + sec;
+  }
+
+  return min + ':' + sec;
+}
+</script>       
+
+
+<div class="morph pic" >   
+     
+<!--<img src="images_html5/eletriclogo14_600.png" alt="art" style="max-width:65%;">-->
+<img src="images_html5/eletriclogo14_600.png" alt="arte" id="artimage" onClick='document.getElementById("artimage").src = "images_html5/eletriclogo14_600.png";'>
+<!--<a href="javascript:void(0)" onclick="show(document.getElementById('letra'), this);"><img src="images_html5/eletriclogo14_600.png" alt="arte" id="artimage"></a>-->
+</div> 
+</div>
+ 
+  <div id="schedheader">
+
+  <a class="schedule_popup_open" href="javascript:void(0)"><img class="schedbuttonmini" src="images_html5/schedule_header_mini.png" alt="sched_header"></a>
+<!--  <a class="promo_popup_open" href="javascript:void(0)"><img class="schedbuttonmini" src="images_html5/promo_header_mini.png" alt="promo"></a>-->
+  
+  <a href="promos.html" target="_self" ><img class="schedbuttonmini" src="images_html5/promo_header_mini.png" alt="promo"></a>
+  
+  <a href="javascript:void(0)" onClick="show(document.getElementById('share'), this);" > <img class="schedbuttonmini" src="images_html5/social_header_mini.png" alt="social"></a>
+
+  <a href="http://tunein.com/radio/Eletric-Cafe-s235343/" target="new"><img class="schedbuttonmini" src="images_html5/TuneInIcon_mini.png" alt="tunein"></a>
+  <a href="http://www.radios.com.br/aovivo/Eletric-Cafe/29804" target="new"><img class="schedbuttonmini" src="images_html5/radiocom_mini.png" alt="radios.com.br"></a>
+ 
+ 
+<!-- <div id="scheduledays" class="schedbutton">
+
+<a href="javascript:void(0)" onclick="show(document.getElementById('SUNDAY'), this);" class="schedule_popup_close"><img class="imgsched" src="images_html5/weekday_sunday.png" alt="sun"></a>
+<a href="javascript:void(0)" onclick="show(document.getElementById('MONDAY'), this);" class="schedule_popup_close"><img class="imgsched" src="images_html5/weekday_monday.png" alt="mon"></a>
+<a href="javascript:void(0)" onclick="show(document.getElementById('TUESDAY'), this);" class="schedule_popup_close"><img class="imgsched" src="images_html5/weekday_tuesday.png" alt="tue"></a>
+<a href="javascript:void(0)" onclick="show(document.getElementById('WEDNESDAY'), this);" class="schedule_popup_close"><img class="imgsched" src="images_html5/weekday_wednesday.png" alt="wed"></a>
+<a href="javascript:void(0)" onclick="show(document.getElementById('THURSDAY'), this);" class="schedule_popup_close"><img class="imgsched" src="images_html5/weekday_thursday.png" alt="thu"></a>
+<a href="javascript:void(0)" onclick="show(document.getElementById('FRIDAY'), this);" class="schedule_popup_close"><img class="imgsched" src="images_html5/weekday_friday.png" alt="fri"></a>
+<a href="javascript:void(0)" onclick="show(document.getElementById('SATURDAY'), this);" class="schedule_popup_close"><img class="imgsched" src="images_html5/weekday_saturday.png" alt="sat"></a>
+   
+<br />-->
+
+    <!-- Add an optional button to close the popup -->
+<!--    <button class="schedule_popup_close" style="text-align:center">Close</button>-->
+<!--</div>-->
+<a class="schedule_popup_open" href="javascript:void(0)"><img class="schedbuttonlarge imgschedbutton" src="images_html5/schedule_header.png" alt="sched_header"></a>
+<!--<a class="promo_popup_open" href="javascript:void(0)"><img class="schedbuttonlarge imgschedbutton" src="images_html5/promo_header.png" alt="promo"></a>-->
+<a href="promos.html"><img class="schedbuttonlarge imgschedbutton" src="images_html5/promo_header.png" alt="promo"></a>
+<a href="javascript:void(0)" onClick="show(document.getElementById('share'), this);" > <img class="schedbuttonlarge imgschedbutton" src="images_html5/social_header.png" alt="social"></a>
+ 
+
+ 
+ 
+ 
+
+ 
+ <div id="socbutt">
+<div id=tw style="width:50%; float:left; text-align:center;  margin-top:10px">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.eletriccafe.com.br/radio/" data-text="Radio Eletric Cafe" data-hashtags="eletriccafe">Tweet</a></div>
+
+<div id="fb" style="width:50%; float:right; text-align:center; margin-top:10px">
+
+<div class="fb-like" data-href="http://www.facebook.com/eletriccafe" data-width="40" data-colorscheme="dark" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+<br /></div></div>
+
+  <div id="Links" >
+  
+    <div id="tunein" class="schedbuttonlarge" style="width:50%; float:left; margin-top:10px"><a href="http://tunein.com/get-tunein/" target="new"><img src="images_html5/TuneInIcon.png" alt="tunein" height="60"></a><br>
+      No TuneIn, <br /> procure <a href="http://tunein.com/search/?query=eletric%20cafe" target="new">Eletric Cafe</a></div>
+      <div id="radios" class="schedbuttonlarge" style="width:50%; float:right; margin-top:10px"> <a href="http://www.radiosnet.com" target="_blank"> <img src="http://www.radios.com.br/gif/120x60-android.jpg" alt="www.radios.com.br"> </a><br/> Disponível também <br>no portal <a href="http://www.radios.com.br/aovivo/Eletric-Cage/29804" target="new">radios.com.br</a>
+  
+  </div>
+  </div>
+  </div>
+<div id="footer">
+<br>
+<a href="http://www.facebook.com/eletriccafe" target="new">Facebook</a> - <a href="http://www.twitter.com/eletriccafe" target="new">Twitter</a> - <a href="https://plus.google.com/111713199416194927872" rel="publisher" target="new">Google+</a>
+<h3>Eletric Cafe</h3>
+<h4>Alternative Underground Web Radio</h4>
+
+
+
+<!--<div class="sched" id="SUNDAY" ><a href="javascript:void(0)" onclick="this.parentNode.style.display='none';"><img src="images_html5/close_button.png" alt="close"></a><img src="images_html5/weekday_sunday.png" alt="sunday" style="float:right"><br/> Programação <BR> Em breve <br /> Em breve </div>
+<div class="sched" id="MONDAY"><a href="javascript:void(0)" onclick="this.parentNode.style.display='none'; "><img src="images_html5/close_button.png" alt="close"></a><img src="images_html5/weekday_monday.png" alt="monday" style="float:right"><br/> Programação <BR> Em breve <br /> Em breve </div>       
+<div class="sched" id="TUESDAY"><a href="javascript:void(0)" onclick="this.parentNode.style.display='none'; "><img src="images_html5/close_button.png" alt="close"></a><img src="images_html5/weekday_tuesday.png" alt="tuesday" style="float:right"><br/> Programação <BR> Em breve <br /> Em breve </div>               
+<div class="sched" id="WEDNESDAY"><a href="javascript:void(0)" onclick="this.parentNode.style.display='none';"><img src="images_html5/close_button.png" alt="close"></a><img src="images_html5/weekday_wednesday.png" alt="wednesday" style="float:right"><br/> Programação <BR> Em breve <br /> Em breve </div>  
+<div class="sched" id="THURSDAY"><a href="javascript:void(0)" onclick="this.parentNode.style.display='none'; "><img src="images_html5/close_button.png" alt="close"></a><img src="images_html5/weekday_thursday.png" alt="thursday" style="float:right"><br/> Programação <BR> Em breve <br /> Em breve </div>                       
+<div class="sched" id="FRIDAY"><a href="javascript:void(0)" onclick="this.parentNode.style.display='none'; "><img src="images_html5/close_button.png" alt="close"></a><img src="images_html5/weekday_friday.png" alt="friday" style="float:right"><br/> Programação <BR> Em breve <br /> Em breve </div>                
+<div class="sched" id="SATURDAY"><a href="javascript:void(0)" onclick="this.parentNode.style.display='none';"><img src="images_html5/close_button.png" alt="close"></a><img src="images_html5/weekday_saturday.png" alt="saturday" style="float:right"><br/> Programação <BR> Em breve <br /> Em breve </div>                -->
+
+<div id="promo_popup" class="poped" style="display:none"> <a href="javascript:void(0)" class="promo_popup_close"><img src="images_html5/close_button.png" class="promo_popup_close" alt="close"></a><br/> Promoções <BR> Em breve <br /> Em breve  </div>
+
+<!--<div id="artwork_popup" class="poped" style="display:none; width:auto; height:auto;"> <a href="javascript:void(0)" class="artwork_popup_close"><img src="images_html5/close_button.png" class="artwork_popup_close" alt="close"></a><br/> Now Playing <BR> <img src="images_html5/coverart100.png" style="max-width:300" alt="Cover Art" id="artimage"> <br />
+<div id="container" style="margin-top:10px;">
+ <div id="info" >
+    <span class="icon"></span>
+    <span class="text">carregando...</span>
+  </div>
+</div>
+</div> -->
+<br />
+<!--<button id="itunesbutton" onclick="javascript:void(0)">Buy on Itunes</button> </div>-->
+<!--onclick="window.open('http://www.google.com/')-->
+<div id="schedule_popup" class="poped" style="display:none"> <a href="javascript:void(0)" class="schedule_popup_close"><img src="images_html5/close_button.png" class="promo_popup_close" alt="close"></a><br/> Programação <BR> <br />
+Demais horários - Playlist com o melhor do alternativo 
+ <div><p> <a href="http://www.facebook.com/smithsonya.party/" target="_new"><img src="smithsonya080416_santo.png" width="250" height="auto" longdesc="http://www.facebook.com/smithsonya.party/"></a></p>  </div><br>
+<div class="fb-like" data-href="https://www.facebook.com/eletriccafe/photos/a.170409169678361.52800.102581689794443/894129317306339/?type=1&amp;theater" data-width="150" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+ </div>
+
+<div id="google_popup" class="poped" style="display:none; width:auto; height:auto;"> <a href="javascript:void(0)" class="google_popup_close"><img src="images_html5/close_button.png" class="google_popup_close" alt="close"></a><br><strong> Eventos em destaque </strong><br />
+
+<p> <a href="http://www.facebook.com/smithsonya.party/" target="_new"><img src="smithsonya080416_santo.png" width="480" height="auto" longdesc="http://www.facebook.com/smithsonya.party/"></a></p>
+</div>
+
+
+<div id="share" class="schedshare" style="text-align:center"><a href="javascript:void(0)" onClick="this.parentNode.style.display='none'"><img src="images_html5/close_button.png" alt="close" style="float:left"></a><br/> 
+ <p>&nbsp;</p>
+<div class="fb-send" data-href="http://www.eletriccafe.com.br/radio/" data-colorscheme="dark"></div>
+<p>&nbsp;</p>
+<iframe src="//www.facebook.com/plugins/follow.php?href=http%3A%2F%2Fwww.facebook.com%2Feletriccafe&amp;width=250&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;show_faces=true&amp;appId=268243189867935" style="border:none; overflow:hidden; width:250px; height:80px;"></iframe>
+<br/><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.eletriccafe.com.br/radio/" data-text="Escutando" data-via="DJClarck" data-lang="pt" data-size="large" data-hashtags="eletriccafe">Tweetar</a>
+ <p>&nbsp;</p><div class="fb-like" data-href="http://www.facebook.com/eletriccafe" data-width="250" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" data-colorscheme="light"></div><br />
+<p>&nbsp;</p>
+<div class="fb-recommendations" data-app-id="380285862139985" data-site="eletriccafe.com.br" data-action="likes, recommends" data-colorscheme="light" data-header="true"></div>
+	  
+       <p>&nbsp;</p>
+    <div class="fb-comments" data-href="http://www.djclarck.com/radio.html" data-width="250" data-numposts="5" data-colorscheme="light"></div>
+
+
+   </div>
+
+  
+  <div id="google" class="googlead">
+<br />
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsivo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9713098049166301"
+     data-ad-slot="4929587207"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!--</div>
+
+<h4>Visit our chat room</h4>
+
+<script type="text/javascript" src='//www.rumbletalk.com/client/?K-w:uKHp&amp;2'></script>
+
+</div>-->
+
+<script type="text/javascript">
+        var config = {
+            info: 'artworks.php',
+            };
+</script> 
+
+<!--<script type="text/javascript">
+        var config = {
+            info: 'http://www.djclarck.com/djclarck/artworks.php',
+            social: 'http://streaming11.hstbr.net/player/djclarck/social',
+			itunes: 'url',
+      	    };
+</script> -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10986718-2', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+<br />
+<br />
+<h4>Donate / Doar</h4>
+<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+<!-- NãO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+<input type="hidden" name="currency" value="BRL" />
+<input type="hidden" name="receiverEmail" value="eandrade77@uol.com.br" />
+<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/209x48-doar-preto-assina.gif" name="submit" alt="Pague com PagSeguro - É rápido, grátis e seguro!" />
+</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+<br />
+<br />
+<p> <a href="https://www.facebook.com/smithsonya.party/" target="_new"><img src="smithsonya080416_santo.png" width="480" height="auto" longdesc="http://www.facebook.com/smithsonya.party/"></a></p>
+</div>
+
+</div>
+</body>
+</html>

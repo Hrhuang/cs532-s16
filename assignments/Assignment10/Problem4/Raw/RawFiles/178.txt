@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# nhlfantasygames: http://ogp.me/ns/fb/nhlfantasygames#">
+    <meta charset="utf-8"/>
+    <meta content="initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
+    <title>I scored a hat trick playing #NHLHatTrickChallenge</title>
+    <meta name="description" content="I scored a hat trick in the #NHLHatTrickChallenge daily game. So did 50% of @NHL fans who played." />
+    
+      <meta property="al:ios:url" content="nhlhattrickchallenge://#/picks?entry_id=25223&amp;day_code=20160208" />
+      <meta property="al:ios:app_store_id" content="715938935" />
+      <meta property="al:ios:app_name" content="NHL Hat Trick Challenge" />
+      <meta property="al:android:url" content="nhlhattrickchallenge://#/picks?entry_id=25223&amp;day_code=20160208">
+      <meta property="al:android:package" content="com.nhl.hattrickchallenge">
+      <meta property="al:android:app_name" content="NHL Hat Trick Challenge">
+
+      <meta property="twitter:app:url:iphone" content="nhlhattrickchallenge://#/picks?entry_id=25223&amp;day_code=20160208">
+      <meta property="twitter:app:url:googleplay" content="nhlhattrickchallenge://#/picks?entry_id=25223&amp;day_code=20160208">
+      
+      <meta name="google-play-app" content="app-id=com.nhl.hattrickchallenge">
+      <meta name="apple-itunes-app" content="app-id=715938935">
+    
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image:src" content="http://i.imgur.com/5MsFmLj.jpg" />
+        <meta name="twitter:site" content="@NHL" />
+        <meta name="twitter:app:id:iphone" content="715938935" />
+        <meta name="twitter:app:id:googleplay" content="com.nhl.hattrickchallenge" />
+    
+    <meta property="fb:app_id" content="162692497077119" /> 
+    <meta property="og:type" content="nhlfantasygames:entry" />
+    <meta property="og:site_name" content="NHL Hattrick Challenge"/>
+    <meta property="og:url" content="http://hattrick.nhl.com/api/game_prop/nhlhtc/og/entry/25223/day_code/20160208" />
+    <meta property="og:title" content="I scored a hat trick playing #NHLHatTrickChallenge" />
+    <meta property="og:image" content="http://i.imgur.com/WskiPKy.jpg" />
+    <meta property="og:description" content="I scored a hat trick in the #NHLHatTrickChallenge daily game. So did 50% of @NHL fans who played." />
+    
+    
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>
+    // Detect if this is an OG scraper (fb or gplus) and do nothing
+    if ( navigator && navigator.userAgent && (
+      /facebookexternalhit/i.test( navigator.userAgent ) ||
+      /facebot/i.test( navigator.userAgent ) ||
+      /twitterbot/i.test( navigator.userAgent ) ||
+      // /robot/.test( navigator.userAgent ) ||
+      "Google (+https://developers.google.com/+/web/snippet/)" == navigator.userAgent)
+    ){
+    } else {
+      var
+        native_deeplink = 'nhlhattrickchallenge://#/picks?entry_id=25223&day_code=20160208'
+        ,could_have_native_app = true && navigator && navigator.userAgent.match( /iP(hone|od|ad)/i )
+        ,web_deeplink = 'http://hattrick.nhl.com/#/picks?entry_id=25223&day_code=20160208'
+        ,go_to_web_version = function function_name(argument) {
+          window.location.replace(web_deeplink);
+        }
+      ;
+      setTimeout(go_to_web_version, 100);
+      if (could_have_native_app && native_deeplink) {
+        window.location.replace( native_deeplink );
+      } else {
+        go_to_web_version();
+      }
+    }
+    </script>
+  </body>
+</html>

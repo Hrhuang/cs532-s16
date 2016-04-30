@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgYHV1dVGwIBVFlVBQU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(11),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,-1!==o.indexOf("dev")&&(s.dev=!0),-1!==o.indexOf("nr_dev")&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(12),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),c.xhrWrappable&&t(6),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(13)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(13)(r);e.exports=r,o.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(13)(i);e.exports=i,a.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),a.inPlace(window,["setInterval"],"setInterval-"),a.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),i.on("setInterval-start",r),i.on("setTimer-start",o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",s)}function i(t){y.push(t),h&&(g=-g,x.data=g)}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(13)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var w=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,w),w.prototype=p.prototype,d.inPlace(w.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,x=document.createTextNode(g);new h(a).observe(x,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;l>r;r++)t.removeEventListener(d[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return i(r)}function i(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}function a(t,e){var n=f(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(8),u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(10),m=window.XMLHttpRequest;s.features.xhr=!0,t(6),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||10>h)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},a(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var a=i(r);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;l>s;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(11),a=t(12);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var s=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],10:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],11:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],12:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],13:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(12),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);var u=f[v[n]];return u&&u.push([y,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",v[n]=e,e in f||(f[e]=[])})}var m={},v={},y={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return y}function i(){return new r}var a="nr@context",s=t("gos"),c=t(11),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!m++){var t=h.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(l,function(e,n){t[e]||(t[e]=n)});var n="https"===d.split(":")[0]||t.sslForHttp;h.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=h.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(11),f=window,u=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(9);var d=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},p=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),h=e.exports={offset:a(),origin:d,features:{},xhrWrappable:p};u.addEventListener?(u.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(u.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),s("mark",["firstbyte",a()],null,"api");var m=0},{}]},{},["loader",2,7]);</script>
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://wuwm.com/post/trenni-kusnierek-understanding-athletes-mental-health-struggles-and-her-own" />
+<meta property="og:title" content="Trenni Kusnierek: Understanding Athletes&#039; Mental Health Struggles, and Her Own" />
+<link href="http://mediad.publicbroadcasting.net/p/wuwm/files/201602/kusnierek_0.jpg" rel="image_src" />
+<meta name="description" content="You couldn&#039;t blame sports anchor and Milwaukee area native Trenni Kusnierek for being a bit apprehensive about speaking publicly on her struggles with" />
+<meta property="og:description" content="You couldn&#039;t blame sports anchor and Milwaukee area native Trenni Kusnierek for being a bit apprehensive about speaking publicly on her struggles with" />
+<meta property="og:image" content="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/medium/public/201602/kusnierek_0.jpg" />
+<meta content="Trenni Kusnierek: Understanding Athletes&amp;#039; Mental Health Struggles, and Her Own" about="/post/trenni-kusnierek-understanding-athletes-mental-health-struggles-and-her-own" property="dc:title" />
+<link rel="shortcut icon" href="http://mediad.publicbroadcasting.net/p/wuwm/files/201503/favicon_fid.ico" type="image/vnd.microsoft.icon" />
+<meta property="twitter:creator" content="@WUWMradio" />
+<meta property="twitter:site" content="@WUWMradio" />
+<meta property="twitter:card" content="summary" />
+<meta name="datePublished" content="2016-02-09" />
+<meta name="story_id" content="466180824" />
+<link rel="shortlink" href="/node/74901" />
+<meta name="has_audio" content="1" />
+<link rel="canonical" href="/post/trenni-kusnierek-understanding-athletes-mental-health-struggles-and-her-own" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime();</script>
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="programs" content="none" />
+<meta name="category" content="Arts &amp; Culture" />
+<meta name="keywords" content="Mental Health, Sports, Lake Effect" />
+<meta name="org_id" content="0" />
+<meta name="author" content="Mitch Teich" />
+<meta name="nid" content="74901" />
+<meta name="wordCount" content="588" />
+    <title>Trenni Kusnierek: Understanding Athletes&#039; Mental Health Struggles, and Her Own | WUWM</title>
+    <link type="text/css" rel="stylesheet" href="http://wuwm.com/sites/wuwm.com/files/css/css_zXr1pRkjUmFHX10b6Pv5_DqzyewvdLNQ8QgccGQIRQQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://wuwm.com/sites/wuwm.com/files/css/css_ZFlaYqkiQzTmlBPX4mQeT33IFQX3nR-zpGlyqFhtTNM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://wuwm.com/sites/wuwm.com/files/css/css_XHTm2cMU6sD6pzlNwtS19lgDRK8GjAz14nQaxKhle30.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://wuwm.com/sites/wuwm.com/files/css/css_6CN4QSFLFfjTe4zIgRj1q8f9Wda0tRTET8T7gAfoYWQ.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.header-region-outer{background-color:#CCCCCC;}@media screen and (min-width:1024px){.header-region-outer{background-image:url(http://mediad.publicbroadcasting.net/p/wuwm/files/201503/background_fid.png);background-position:center bottom;background-size:auto;background-repeat:no-repeat;}}.branding .tagline{color:#000000;}.branding .listen-live-toggle > a,.branding .header-utility > a,.branding .header-utility > a.trigger-nav{color:#ffffff;}@media screen and (min-width:641px){.branding .trigger-nav{background:#777777;}}@media screen and (max-width:640px){.branding .header-utility > a.trigger-nav,.active-menu .branding .header-utility > a.trigger-nav{color:#777777;}}#listen-live .listen-live-toggle{background-color:#fccc0a;}#listen-live .listen-live-btn{background-color:transparent;color:#ffffff;}@media screen and (min-width:640px){#listen-live .listen-live-btn{background-color:#fccc0a;}}.branding .give{background:#A32B19;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://wuwm.com/sites/wuwm.com/files/css/css_MIGkFc3yYwyAMNdvFt5Qogp4Te9zEis4DZi6lNVYgUQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700,700italic,900,italic,regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://wuwm.com/sites/wuwm.com/files/css/css_pTzvkB8ZuNfghXl-d7Zngj_adh7h7jEaOTQL103icto.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://wuwm.com/sites/wuwm.com/files/css/css_-DT6mi0tdbZWf4uHUVbhWLCBkXYpdrg5Vxw5UzeZt6U.css" media="all" />
+    <script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wuwm/files/js/js_xSpMA4ArVcBKOZ43sPqNRk0gxQZdDVifw27pIUCzWU0.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wuwm/files/js/js_NSSlHy9MRgw4Q19KZtB9IXAk9uX7KZXXi6Ejn0x_e0I.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wuwm/files/js/js_-WcrGf3pH5GnSWA1Y-B28tyjknNjFr4asJklCZQ5NUA.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wuwm/files/js/js_ZcZajqjC7KCS8_A2dOG5Y53mBT4KJLE7BiKX15HUv7g.js"></script>
+<script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wuwm/files/js/js_gZ_7t9sKnZbFmpuksJe1w5DoeAVwzzuhkD_M1rWSIxI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src="//stream.publicbroadcasting.net/analytics/aaby.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://mediad.publicbroadcasting.net/p/wuwm/files/js/js_3iePWCpxqiMpscypBUXxUqZiur1_W5YIZRo53DlAv_o.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responso","theme_token":"B9lqkrjWC3DxJnf5vE1vEmrCC6OuX4Arl5AoeBcCIMU","js":{"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.topbar.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/modules\/custom\/pi_media_types\/pi_audio\/js\/pi-audio.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/pi-hull.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/jquery.innerfade.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/jquery.jplayer.min.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/main.js":1,"\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"sites\/all\/modules\/custom\/responsive_ads\/js\/main.js":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/js\/related-content-carousel.js":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/js\/jcarousel.min.js":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/nprogress\/nprogress.js":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/pi_ajax_links_api.js":1,"sites\/all\/modules\/custom\/npr_river\/assets\/npr-river.js":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/js\/npr-image-gallery.js":1,"sites\/all\/modules\/custom\/pi_assets\/plugins\/images\/js\/popup.js":1,"sites\/all\/modules\/custom\/pi_guide\/js\/pi_guide_schedule_selector.js":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_live_event\/js\/iframe.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/modernizr.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/media.match.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/matchMedia.addListener.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/enquire.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/fastclick.js":1,"1":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_program\/treatments\/program-promo\/program-promo.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.mediaqueries.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.scripts.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.responsiveimages.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.tag.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/libraries\/magnific-popup\/magnific-popup.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/css\/pi_outrigger.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/pi_guide\/css\/pi_guide.css":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/css\/jplayer.npr.css":1,"sites\/all\/modules\/custom\/pi_npr_story\/css\/pi_npr_story.css":1,"sites\/all\/modules\/custom\/pi_views\/pi_reports_views\/css\/pi_reports.css":1,"sites\/all\/modules\/custom\/pi_menus\/css\/flexiMenu.css":1,"sites\/all\/modules\/custom\/responsive_footer\/responsive-footer.admin.css":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/css\/npr-image-gallery.css":1,"0":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/css\/jcarousel.css":1,"http:\/\/fonts.googleapis.com\/css?family=Lato:300,700,700italic,900,italic,regular\u0026subset=latin":1,"sites\/all\/modules\/custom\/audity\/audity\/css\/audity.css":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/pi_ajax_links_api.css":1,"sites\/all\/modules\/custom\/pi_ajax_links_api\/nprogress\/nprogress.css":1,"sites\/all\/modules\/custom\/pi_content_types\/pi_program\/treatments\/program-promo\/program-promo.css":1,"sites\/all\/themes\/responso\/css\/icon-fonts.css":1,"sites\/all\/themes\/responso\/css\/screen.css":1}},"chartbeat":{"uid":33583,"domain":"wuwm.com"},"googleCSE":{"cx":"010251366440257945544:3nmg-axlwtq","language":"","resultsWidth":600,"domain":"www.google.com"},"audityConfig":{"station":{"listenLabel":"Listen Live"},"streams":[{"desc":"WUWM ","name":0,"url":"http:\/\/pubint.ic.llnwd.net\/stream\/pubint_wuwm_24","data":{"type":"composer2","ucs":"5187f84ce1c8133349abdb7a"}}],"analytics":{"acct":"aaby"},"ads":{"network":"22206511","units":{"audio":"wuwm_player_audio","display":"wuwm_player_display","leavebehind":"wuwm_player_leavebehind"}}},"responsive_ads":{"networkCode":"22206511","placement":{"leaderboard_1":"main#content","medium_1":".node .field-name-body","medium_2":".node p:nth-of-type(3)","medium_3":".node p:nth-of-type(3)","tablet_1":"main#content","mobile_1":"#block-pi-responsive-ads-mobile-1 .content"},"targeting":{"id":"74901","type":"post","tags":["Mental Health","Sports","Lake Effect"],"category":"Arts \u0026 Culture","programs":[]},"ads":{"leaderboard_1":{"type":"leaderboard","adUnit":"wuwm_leaderboard_1","name":"leaderboard_1","width":728,"height":90},"medium_1":{"type":"medium","adUnit":"wuwm_medium_1","name":"medium_1","width":300,"height":250},"medium_2":{"type":"medium","adUnit":"wuwm_medium_2","name":"medium_2","width":300,"height":250},"medium_3":{"type":"medium","adUnit":"wuwm_medium_3","name":"medium_3","width":300,"height":250},"tablet_1":{"type":"tablet","adUnit":"wuwm_tablet_1","name":"tablet_1","width":728,"height":90},"mobile_1":{"type":"mobile","adUnit":"wuwm_mobile_1","name":"mobile_1","width":320,"height":50}}},"tms_meta":{"has_audio":"1","programs":"none","category":"Arts \u0026 Culture","nid":74901,"author":"Mitch Teich","org_id":0,"keywords":"Mental Health, Sports, Lake Effect","wordCount":588,"story_id":"466180824","datePublished":"2016-02-09"},"responsive_utilities":{"body_classes":"html not-front not-logged-in no-sidebars page-node page-node- page-node-74901 node-type-post fixed-header","custom_vars":{"nid":{"name":"nid","slot":8,"scope_id":3},"pop":{"name":"pop","slot":9,"scope_id":3},"author":{"name":"author","slot":11,"scope_id":3},"keywords":{"name":"tags","slot":12,"scope_id":3},"org_id":{"name":"org_id","slot":13,"scope_id":3},"brand":{"name":"CP_Station","slot":14,"scope_id":2},"has_audio":{"name":"Has_Inline_Audio","slot":15,"scope_id":3},"programs":{"name":"Program","slot":16,"scope_id":3},"category":{"name":"Category","slot":10,"scope_id":3},"datePublished":{"name":"PublishedDate","slot":17,"scope_id":3},"wordCount":{"name":"WordCount","slot":18,"scope_id":3},"story_id":{"name":"API_Story_Id","slot":19,"scope_id":3},"pmp_guid":{"name":"pmp_guid","slot":20,"scope_id":3}},"pagetype_vars":[{"page_type":"Content\/About","regex_pattern":"\/about(-us)?\/?$","pattern_name":"Core Publisher About Page"},{"page_type":"Events","regex_pattern":"\/events(\/|$)","pattern_name":"Core Publisher Events Page"},{"page_type":"People","regex_pattern":"\/people(\/|$)","pattern_name":"Core Publisher People Page"},{"page_type":"Playlist","regex_pattern":"\/search_playlists\/?$","pattern_name":"Core Publisher Playlist Page"},{"page_type":"Program","regex_pattern":"\/programs(\/|$)","pattern_name":"Core Publisher Program Page"},{"page_type":"Schedule","regex_pattern":"\/schedule(\/|$)","pattern_name":"Core Publisher Schedule Page"},{"page_type":"Search","regex_pattern":"\/search\/google\/?","pattern_name":"Core Publisher Search GSA Page"},{"page_type":"Story","regex_pattern":"\/post\/|\/webclip\/","pattern_name":"Core Publisher Story Page"},{"page_type":"Streaming","regex_pattern":"\/listen(-live)?\/?(#|$)","pattern_name":"Core Publisher Listen Live Page"}],"media_queries":{"mobile":"all and (max-width: 40em)","tablet":"screen and (min-width: 40.063em) and (max-width: 64em)","desktop":"screen and (min-width: 64.063em)"}},"pi_ajax_links_api":{"selector":"#page-document","trigger":"a.ajax-link,#page-wrapper a,a.logo,a.mobile-teaser-link,.dropdown a","negative_triggers":".dropdown .back a,.mobile .not-click \u003e a,#toolbar a,a.lightbox,.jp-interface a,.header .not-click \u003e a,.page-admin a,.page-block-factory a,a.give,.social-share a,#change-station,#rss-tablequeue a,a[href^=\"mailto:\"],.popup,a[href^=\"#\"],a:not([href]),ul.tabs\u003eli\u003ea,ul.contextual-links a,#table-queue-fleximenu a[target=\"_blank\"]","scripts_included":0,"html5":1,"vpager":1}});
+//--><!]]>
+</script>
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+  <body class="html not-front not-logged-in page-node page-node- page-node-74901 node-type-post fixed-header has-sidebar" >
+    <header role="banner" class="header">
+  <div class="skiptocontent"><a href="#main-content">skip to main content</a></div>
+    <div class="region region-header">
+    <div id="block-baby-bear-baby-bear-header" class="block block-baby-bear">
+
+    
+  <div class="content">
+    
+<div class="header-region-outer">
+  <section class="header-region-inner row">
+    <div class="branding large-12 columns">
+      <div class="brand-inner-wrapper">
+        <a href="/" rel="home" class="logo" title="WUWM Home"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wuwm/files/201503/logo_fid.png" alt="WUWM logo" title="WUWM Home" /></a>         <div class="tagline">
+          NPR News in Milwaukee        </div>
+      </div>
+      <div class="header-utility">
+        <a class="trigger-nav" href="#">
+          <span class="icon-list"></span>
+          <span class="menu-text">Site Menu</span>
+        </a>
+        <a class="give" href="https://donate.nprstations.org/wuwm/main-form" target="_blank">
+  Donate</a>
+      </div>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+  </div>
+</header>
+    <div class="nav-wrapper mobile">
+      <nav>
+        <div class="top-bar contain-to-grid" data-topbar>
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon">
+              <a href="#">Menu</a>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li>
+<a href="/">Home</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/topic/regional-news">News</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/environment">Environment</a>
+</li>
+<li class="left">
+<a href="/term/economy-business">Economy &amp;  Business</a>
+</li>
+<li class="left">
+<a href="/term/politics-government">Politics &amp; Government</a>
+</li>
+<li class="left">
+<a href="/term/education">Education</a>
+</li>
+<li class="left">
+<a href="/term/health-science">Health &amp; Science</a>
+</li>
+<li class="left">
+<a href="/term/world">World</a>
+</li>
+<li class="left">
+<a href="/term/arts-culture">Arts &amp; Culture</a>
+</li>
+<li class="left">
+<a href="http://wuwm.com/topic/project-milwaukee-innovation-how-do-we-compete">Project Milwaukee</a>
+</li>
+<li class="left">
+<a href="/topic/bubbler-talk">Bubbler Talk</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs/lake-effect">Lake Effect</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/people/category/19">Contributors</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs">Programs</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/programs/lake-effect">Lake Effect</a>
+</li>
+<li class="left">
+<a href="/programs/uwm-today">UWM Today</a>
+</li>
+<li class="left">
+<a href="/programs/its-alright-ma-its-only-music">It&#039;s Alright, Ma</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/schedule">Schedule</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/about-wuwm">About WUWM</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/contact-us">Contact Us</a>
+</li>
+<li class="left">
+<a href="/work-wuwm">Jobs / Intern / Volunteer</a>
+</li>
+<li class="left">
+<a href="/innovative-weather">Innovative Weather</a>
+</li>
+<li class="left">
+<a href="/contests">Contests</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/support-wuwm">Support WUWM</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/membership-levels-benefits">Membership Levels</a>
+</li>
+<li class="left">
+<a href="/newsworthy-benefits">NewsWorthy Offers</a>
+</li>
+<li class="left">
+<a href="/leadership-giving">Leadership Giving</a>
+</li>
+<li class="left">
+<a href="/vehicle-donation">Vehicle Donation</a>
+</li>
+<li class="left">
+<a href="/business-sponsorship">Business Sponsorship</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/search/google">Search</a>
+</li>
+</ul>
+</div>
+          </section>
+        </div>
+      </nav>
+    </div>
+      <div class="region region-persistent">
+    <div id="block-audity-audity" class="block block-audity">
+
+    
+  <div class="content">
+      </div>
+</div>
+  </div>
+    <div id="page-wrapper">
+            <div id="page-document" role="document" class="page">
+  <div class="nav-wrapper">
+    <nav>
+      <div class="top-bar contain-to-grid" data-topbar>
+        <ul class="title-area">
+          <li class="toggle-topbar menu-icon">
+            <a href="#">Menu</a>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <div class="table-queue" id="table-queue-fleximenu">
+  <ul  class="menu dropdown">
+<li>
+<a href="/">Home</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/topic/regional-news">News</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/term/environment">Environment</a>
+</li>
+<li class="left">
+<a href="/term/economy-business">Economy &amp;  Business</a>
+</li>
+<li class="left">
+<a href="/term/politics-government">Politics &amp; Government</a>
+</li>
+<li class="left">
+<a href="/term/education">Education</a>
+</li>
+<li class="left">
+<a href="/term/health-science">Health &amp; Science</a>
+</li>
+<li class="left">
+<a href="/term/world">World</a>
+</li>
+<li class="left">
+<a href="/term/arts-culture">Arts &amp; Culture</a>
+</li>
+<li class="left">
+<a href="http://wuwm.com/topic/project-milwaukee-innovation-how-do-we-compete">Project Milwaukee</a>
+</li>
+<li class="left">
+<a href="/topic/bubbler-talk">Bubbler Talk</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs/lake-effect">Lake Effect</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/people/category/19">Contributors</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/programs">Programs</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/programs/lake-effect">Lake Effect</a>
+</li>
+<li class="left">
+<a href="/programs/uwm-today">UWM Today</a>
+</li>
+<li class="left">
+<a href="/programs/its-alright-ma-its-only-music">It&#039;s Alright, Ma</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/schedule">Schedule</a>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/about-wuwm">About WUWM</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/contact-us">Contact Us</a>
+</li>
+<li class="left">
+<a href="/work-wuwm">Jobs / Intern / Volunteer</a>
+</li>
+<li class="left">
+<a href="/innovative-weather">Innovative Weather</a>
+</li>
+<li class="left">
+<a href="/contests">Contests</a>
+</li>
+</ul>
+</li>
+<li class="dd has-dropdown not-click">
+<a href="/support-wuwm">Support WUWM</a>
+<ul  class="dropdown">
+<li class="left">
+<a href="/membership-levels-benefits">Membership Levels</a>
+</li>
+<li class="left">
+<a href="/newsworthy-benefits">NewsWorthy Offers</a>
+</li>
+<li class="left">
+<a href="/leadership-giving">Leadership Giving</a>
+</li>
+<li class="left">
+<a href="/vehicle-donation">Vehicle Donation</a>
+</li>
+<li class="left">
+<a href="/business-sponsorship">Business Sponsorship</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/search/google">Search</a>
+</li>
+</ul>
+</div>
+        </section>
+      </div>
+    </nav>
+  </div>
+
+  <div id="player" class="player">
+      </div>
+
+  
+      <section class="pre-content">
+      <div>
+          <div class="region region-pre-content">
+    <div id="block-pi-responsive-ads-mobile-1" class="block block-pi-responsive-ads">
+
+    
+  <div class="content">
+      </div>
+</div>
+  </div>
+      </div>
+    </section>
+  
+  
+  
+  <div class="row">
+    <main id="content" role="main" class="main-content small-12 columns">
+      <article class="story">
+        <a id="main-content"></a>
+        
+                                    
+        
+        
+        
+        
+        
+        
+                    <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-74901" class="node node-post node-promoted full row" about="/post/trenni-kusnierek-understanding-athletes-mental-health-struggles-and-her-own" typeof="sioc:Item foaf:Document">
+  <div class="small-12 columns">
+        
+    <h1 itemprop="name" class="post-title">
+      Trenni Kusnierek: Understanding Athletes&#039; Mental Health Struggles, and Her Own    </h1>
+
+  	
+    
+          <div class="by-date">
+        <span class="submitted"><span property="dc:date dc:created" content="2016-02-09T14:08:53-06:00" datatype="xsd:dateTime" rel="sioc:has_creator"><span class="submitted-label">By</span> <span class="name"><a href="/people/mitch-teich-lake-effect" rel="author">Mitch Teich</a></span></span></span>
+        <i class="bullet">&#8226;</i>
+        <span class="pub-date">Feb 9,  2016 </span>
+      </div>
+    
+    <div class="row">
+      <div class="large-2 columns">
+        <div class="social-share clearfix"><span class="share-label">Share</span><a href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.tinyurl.com%2Fzvmv7jl&amp;text=Trenni%20Kusnierek%3A%20Understanding%20Athletes%27%20Mental%20Health%20Struggles%2C%20and%20Her%20Own" class="social-share-twitter" title="Twitter" target="_blank">Twitter</a>&nbsp;<a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fwww.tinyurl.com%2Fzvmv7jl&amp;t=Trenni%20Kusnierek%3A%20Understanding%20Athletes%27%20Mental%20Health%20Struggles%2C%20and%20Her%20Own" class="social-share-facebook" title="Facebook" target="_blank">Facebook</a>&nbsp;<a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.tinyurl.com%2Fzvmv7jl" class="social-share-googleplus" title="Google+" target="_blank">Google+</a>&nbsp;<a href="mailto:?subject=Trenni%20Kusnierek%3A%20Understanding%20Athletes%27%20Mental%20Health%20Struggles%2C%20and%20Her%20Own&amp;body=http%3A%2F%2Fwww.tinyurl.com%2Fzvmv7jl" class="social-share-email" title="Email" target="_blank">Email</a>&nbsp;</div>      </div>
+
+      <div class="medium-10 medium-pull-1 large-8 large-pull-2 columns">
+        <div class="field field-name-field-image-gallery field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="gallery no-bullet"><li>
+  <figure>
+    <a title="Trenni Kusnierek formerly covered the Brewers for Fox Sports Wisconsin. Today, she's a reporter and sports anchor in Boston." href="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/x_large/public/201602/kusnierek_0.jpg" class="noexit lightbox">
+      <img src="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/medium/public/201602/kusnierek_0.jpg"   alt="Trenni Kusnierek formerly covered the Brewers for Fox Sports Wisconsin. Today, she&#039;s a reporter and sports anchor in Boston.">
+          </a>
+    <div class="image-meta">
+  <figcaption>
+    <div class="caption">Trenni Kusnierek formerly covered the Brewers for Fox Sports Wisconsin. Today, she's a reporter and sports anchor in Boston.</div>
+    <div class="attribution">
+  <span class="credit"> Jib photo, via Flickr</span>
+    <span class="agency"></span>
+</div>
+  </figcaption>
+</div>
+  </figure>
+</li>
+</ul></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>  <div class="audio-container">   <div id="jp-interface--57243e3961563" class="jp-interface">     <div id="post-audio--57243e3961563" class="jp-player" jp-instance="-57243e3961563"></div>      <div class="playpause">       <a href="http://cpa.ds.npr.org/wuwm/audio/2016/02/0209c.mp3" title="Sports reporter and anchor Trenni Kusnierek speaks with Lake Effect&#039;s Mitch Teich." class="jp-play"></a>      <a class="jp-pause"></a>     </div>      <div class="audio-meta">       <div class="listen-text-box">         <div class="listen-text">Listen </div>         <div class="listening-text">Listening...</div>       </div>        <div class="jp-controls">         <div class="jp-progress">           <div id="seekbar" class="jp-seek-bar">             <div id="playbar" class="jp-play-bar">               <div class="scrubber">               </div>             </div>           </div>         </div>       </div>        <div class="duration-wrapper">         <div class="jp-custom-current-time"></div>         <span class="divider">&#47;</span>         <div class="jp-custom-duration">17:40</div>       </div>      </div>           <div class="audio-caption">Sports reporter and anchor Trenni Kusnierek speaks with Lake Effect's Mitch Teich.</div>       </div> </div>  </p><p>You couldn't blame sports anchor and Milwaukee area native Trenni Kusnierek for being a bit apprehensive about speaking publicly on her struggles with depression and anxiety. After all, the sports world in which she plies her trade thrives on an image of strength. Kusnierek worried about what she might hear from her new bosses at Comcast SportsNet New England. Or her viewers. Or the athletes she covered.</p> <p>But when she told her story in a <a href="http://www.milwaukeemag.com/2012/09/18/the-trenni-kusnierek-you-dont-know/" target="_blank">2012 <em>Milwaukee Magazine </em>article</a>, something unexpected happened. "Social media being what it is," she says, "I thought at the very least there would be a handful of people in my Twitter mentions or that would email me at work, or comment on the article saying something terrible and nasty."</p> <p>But that didn't happen. "I don't think I encountered one negative comment. Not one person said, 'You you're just crazy, it's all in your head,' or 'You shouldn't put her on the air.'"</p> <p>And so, encouraged by this reaction, Kusnierek has, in the years since, become a public advocate for increased understanding of others facing mental health challenges - including some of the athletes she covers.</p> <p>Kusnierek updated her own story in personal essay in February's <a href="http://wuwm.com/post/milwaukee-magazine-sheds-light-mental-health-issues-stigmas" target="_blank"><em>Milwaukee Magazine</em></a>.</p> <p><div class="wysiwyg-asset-image-wrapper offset-left">   <div class="wysiwyg-asset-image">     <a href="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/x_large/public/201602/kusnierek_avatar_pic.jpg" class="popup">       <img class="pi_assets-image" data-interchange-default="http://wuwm.com/sites/wuwm/files/styles/default/public/201602/kusnierek_avatar_pic.jpg" data-interchange-small="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/small/public/201602/kusnierek_avatar_pic.jpg" data-interchange-medium="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/medium/public/201602/kusnierek_avatar_pic.jpg" data-interchange-large="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/large/public/201602/kusnierek_avatar_pic.jpg" />       <noscript>         <img src="http://wuwm.com/sites/wuwm/files/styles/default/public/201602/kusnierek_avatar_pic.jpg"  alt="Trenni Kusnierek now advocates for others suffering from anxiety and depression.">       </noscript>     </a>     <div class="image-meta">   <div class="caption">Trenni Kusnierek now advocates for others suffering from anxiety and depression.</div>   <div class="credit">Credit Comcast Sportsnet New England</div> </div>   </div> </div>  </p><p>"If there's one thing that's changed about me," she says, "I think I've become a more empathetic person." She points to athletes whose lives are spiraling out of control - such as Cleveland Browns quarterback Johnny Manziel - and says there's a key ingredient missing from the typical discussion these athletes engender. </p> <p>"He's at a depth that is so low that he would rather die than get help," Kusnierek says. And she believes that's typical for people dealing with profound mental health issues. "There's such an amount of shame and guilt around your disease. You don't just turn to alcohol and drugs <em>just</em> <em>because.  </em>There's something that often triggers it."</p> <p>But for all of her increased empathy and understanding, Kusnierek also knows the climate in professional sports hasn't fully responded to the mental health challenges athletes face. "At the end of the day, professional athletes - they're regular human beings," she says, "and they struggle with things other human beings struggle with - be it depression, anxiety, addiction or even cancer. And the only one out of all of those that people ever seem to have a real empathy for is something like cancer."</p> <p>The good news for Trenni Kusnierek is that people continue to like her work, and she says, she feels like her employers have her back, as well. And at the same time, she's been in a position to support some of her colleagues. "I've had a lot of broadcasters and writers and reporters approach me and say, 'listen, I don't feel comfortable talking about it publicly, but I struggle with anxiety.' Or, 'my son is going through this - how can I help him feel like he's not so alone?'"</p> <p>And that role, Kusnierek says, may be the best result of an interview she gave more than three years ago.</p> </div></div></div><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Tags:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/term/mental-health" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Mental Health</a></div><div class="field-item odd"><a href="/term/sports" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Sports</a></div><div class="field-item even"><a href="/term/lake-effect" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Lake Effect</a></div></div></div><div class="field field-name-field-related-posts field-type-node-reference field-label-above ">
+      <div class="field-label"><h3>Related Content</h3></div>
+  
+  <ul>
+          <li class="field-item even">
+        <a href="/post/milwaukee-magazine-sheds-light-mental-health-issues-stigmas">
+  <div class="related-box ">
+    <div class="related-image">
+      <a href="/post/milwaukee-magazine-sheds-light-mental-health-issues-stigmas"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/related/public/201602/0216_Mental-Health_arm_20160107_0008_shadow_v1_Adam-Ryan-Morris.jpg" width="700" height="500" alt="" /></a>    </div>
+    <div class="related-text">
+      <h6 class="related-title">
+        <a href="/post/milwaukee-magazine-sheds-light-mental-health-issues-stigmas">Milwaukee Magazine Sheds Light on Mental Health Issues &amp; Stigmas</a> 
+      </h6>
+      <p class="created">
+        2 months ago      </p>
+    </div>
+  </div>
+</a>      </li>
+          <li class="field-item odd">
+        <a href="/post/psychiatrist-seeks-not-just-treat-stand-patients">
+  <div class="related-box ">
+    <div class="related-image">
+      <a href="/post/psychiatrist-seeks-not-just-treat-stand-patients"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/related/public/201510/9781780746418.jpg" width="700" height="500" alt="" /></a>    </div>
+    <div class="related-text">
+      <h6 class="related-title">
+        <a href="/post/psychiatrist-seeks-not-just-treat-stand-patients">Psychiatrist Seeks to Not Just Treat, But Stand With Patients</a> 
+      </h6>
+      <p class="created">
+        4 months ago      </p>
+    </div>
+  </div>
+</a>      </li>
+          <li class="field-item even">
+        <a href="/post/milwaukee-organization-works-support-people-receiving-mental-health-services">
+  <div class="related-box ">
+    <div class="related-image">
+      <a href="/post/milwaukee-organization-works-support-people-receiving-mental-health-services"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/related/public/201508/Fotolia_55069943_Subscription_Monthly_M.jpg" width="700" height="500" alt="" /></a>    </div>
+    <div class="related-text">
+      <h6 class="related-title">
+        <a href="/post/milwaukee-organization-works-support-people-receiving-mental-health-services">Milwaukee Organization Works to Support People Receiving Mental Health Services</a> 
+      </h6>
+      <p class="created">
+        8 months ago      </p>
+    </div>
+  </div>
+</a>      </li>
+      </ul>
+</div>
+      </div>
+    </div>
+      </div>
+</div>
+  </div>
+</div>
+  </div>
+              </article>
+    </main>
+  </div>
+
+  
+  <div class="bottom-ads">
+    <div class="bottom-ads-inner"></div>
+  </div>
+</div>
+
+<footer class="footer" role="contentinfo">
+  <div class="row">
+    <div class="footer-affiliate-container small-centered columns">
+                  <div class="region region-footer">
+    <div id="block-pi-table-queue-partnerfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-partnerfooter">
+  <p class="partnerslabel">
+  Milwaukee Public Media is a service of UW-Milwaukee's College of Letters & Science</p>
+<div class="item-list"><ul class="partner-logos"><li class="first last"><a href="http://www4.uwm.edu/" target="_blank"><img typeof="foaf:Image" src="http://mediad.publicbroadcasting.net/p/wuwm/files/styles/partner_footer_logo/public/201503/uwmflagbottom.png" alt="" title="" /></a></li>
+</ul></div></div>
+  </div>
+</div>
+<div id="block-pi-table-queue-auxiliarylinksfooter" class="block block-pi-table-queue">
+
+    
+  <div class="content">
+    <div class="table-queue" id="table-queue-auxiliarylinksfooter">
+  <div class="item-list"><ul class="auxiliary-links"><li class="first"><span>&copy; 2016 WUWM</span></li>
+<li><a href="http://wuwm.com/contact-milwaukee-public-radio" target="_self">Contact Us</a></li>
+<li><a href="https://www.facebook.com/wuwmradio" target="_blank">Facebook</a></li>
+<li><a href="https://twitter.com/WUWMradio" target="_blank">Twitter</a></li>
+<li class="last"><a href="http://wuwm.com/contest-rules" target="_self">Contest Rules</a></li>
+</ul></div></div>
+  </div>
+</div>
+  </div>
+          </div>
+  </div>
+</footer>
+      <script data-main="/sites/all/modules/custom/audity/audity/main" src="/sites/all/modules/custom/audity/audity/libs/require.js"></script>
+<script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+ (function ($) { $(document).foundation({ topbar: { custom_back_text: true, back_text: 'back', mobile_show_parent_link: true } }); }(jQuery));
+//--><!]]>
+</script>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"15ba4da3e8","applicationID":"1108724","transactionName":"NlMBMhAECEZRAU1eDg8ZIgUWDAlbHwxWUwQ+RgIBBzoQXFUV","queueTime":0,"applicationTime":1314,"ttGuid":"","agentToken":"","atts":"GhQCRFgeG0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
